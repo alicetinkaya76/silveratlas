@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SilverAtlas — Gümüş Bilgi Platformu</title>
+  <meta name="description" content="Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil. Bilimden tarihe, madencilikten modaya.">
+  <meta name="author" content="Turan Erbaş">
+  <meta name="keywords" content="gümüş, silver, 925 ayar, sterling, takı, jewelry, yatırım, investment, tarih, history">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SilverAtlas — Gümüş Bilgi Platformu">
+  <meta property="og:description" content="Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil.">
+  <meta property="og:url" content="https://alicetinkaya76.github.io/silveratlas/">
+  <meta property="og:site_name" content="SilverAtlas">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SilverAtlas — Gümüş Bilgi Platformu">
+  <meta name="twitter:description" content="50 makale · 33 araç · 3 dil · Gümüş hakkında her şey.">
+
+  <!-- PWA -->
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="skeleton/public/manifest.json">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0b0b10; --bg-card: #141419; --bg-elevated: #1a1a22;
+      --text: #f0f0f0; --text-muted: #8a8a9a; --text-dim: #555566;
+      --border: rgba(255,255,255,0.06); --border-active: rgba(255,255,255,0.12);
+      --accent: #C0C0C0; --gold: #D4AF37; --navy: #1a1a2e;
+      --success: #34d399; --error: #f87171;
+      --font-display: 'Playfair Display', serif;
+      --font-body: 'Source Sans 3', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    [data-theme="light"] {
+      --bg: #f8f7f2; --bg-card: #ffffff; --bg-elevated: #ffffff;
+      --text: #1a1a2e; --text-muted: #6b6b7b; --text-dim: #9a9aaa;
+      --border: rgba(0,0,0,0.06); --border-active: rgba(0,0,0,0.12);
+      --accent: #708090; --gold: #C49B1C;
+      --success: #059669; --error: #dc2626;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body); background: var(--bg); color: var(--text);
+      min-height: 100vh; overflow-x: hidden; line-height: 1.6;
+    }
+    a { color: var(--gold); text-decoration: none; transition: opacity 0.2s; }
+    a:hover { opacity: 0.85; }
+
+    /* Animations */
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @keyframes shimmer { 0% { background-position: -400px 0; } 100% { background-position: 400px 0; } }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.6; } }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .fade-in { animation: fadeInUp 0.7s ease forwards; opacity: 0; }
+    .fade-in-d1 { animation-delay: 0.1s; }
+    .fade-in-d2 { animation-delay: 0.2s; }
+    .fade-in-d3 { animation-delay: 0.3s; }
+    .fade-in-d4 { animation-delay: 0.4s; }
+    .fade-in-d5 { animation-delay: 0.5s; }
+
+    /* Nav */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(11,11,16,0.92); backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid var(--border); padding: 0 24px; height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+      max-width: 100%;
+    }
+    [data-theme="light"] .nav { background: rgba(248,247,242,0.92); }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo .ag {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: linear-gradient(135deg, #C0C0C0, #D4AF37);
+      display: flex; align-items: center; justify-content: center;
+      font: 800 13px var(--font-display); color: #0b0b10;
+      box-shadow: 0 2px 12px rgba(212,175,55,0.25);
+    }
+    .nav-logo span { font: 700 17px var(--font-display); }
+    .nav-links { display: flex; align-items: center; gap: 20px; }
+    .nav-links a { color: var(--text-muted); font-size: 14px; font-weight: 500; }
+    .nav-links a:hover { color: var(--gold); }
+    .theme-btn {
+      background: transparent; border: 1px solid var(--border); border-radius: 8px;
+      padding: 6px 10px; cursor: pointer; font-size: 16px; color: var(--text-muted);
+    }
+    .lang-btns { display: flex; gap: 4px; }
+    .lang-btn {
+      padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border);
+      background: transparent; color: var(--text-dim); font-size: 11px;
+      font-weight: 600; cursor: pointer; transition: all 0.2s;
+    }
+    .lang-btn.active { border-color: var(--gold); color: var(--gold); background: rgba(212,175,55,0.08); }
+
+    /* Hero */
+    .hero {
+      padding: 140px 24px 80px; text-align: center; position: relative; overflow: hidden;
+      background: linear-gradient(165deg, #0f0f18 0%, #1a1428 40%, #0f1a1a 100%);
+    }
+    [data-theme="light"] .hero { background: linear-gradient(165deg, #f8f7f2 0%, #ede8e0 40%, #f0ede8 100%); }
+    .hero::before {
+      content: ''; position: absolute; top: -100px; right: -100px;
+      width: 500px; height: 500px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(212,175,55,0.06), transparent);
+    }
+    .hero-badge {
+      display: inline-block; padding: 6px 16px; border-radius: 20px;
+      background: rgba(212,175,55,0.1); border: 1px solid rgba(212,175,55,0.2);
+      color: var(--gold); font-size: 12px; font-weight: 600;
+      letter-spacing: 0.06em; margin-bottom: 24px;
+    }
+    .hero h1 {
+      font: 800 clamp(36px,6vw,64px)/1.1 var(--font-display);
+      margin-bottom: 18px; position: relative;
+    }
+    .hero h1 .silver { color: var(--accent); }
+    .hero h1 .gold-accent { color: var(--gold); }
+    .hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; margin: 0 auto 40px; line-height: 1.7; }
+
+    /* Stats */
+    .stats {
+      display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
+      max-width: 600px; margin: 0 auto;
+    }
+    .stat {
+      padding: 16px 24px; border-radius: 14px;
+      background: rgba(20,20,25,0.7); backdrop-filter: blur(12px);
+      border: 1px solid var(--border); text-align: center; min-width: 120px;
+    }
+    [data-theme="light"] .stat { background: rgba(255,255,255,0.7); }
+    .stat-value { font: 700 28px var(--font-mono); line-height: 1; }
+    .stat-label { font-size: 11px; color: var(--text-muted); margin-top: 6px; }
+
+    /* Sections */
+    .section { padding: 80px 24px; max-width: 1100px; margin: 0 auto; }
+    .section-title {
+      font: 700 clamp(24px,4vw,36px) var(--font-display);
+      margin-bottom: 12px; text-align: center;
+    }
+    .section-subtitle {
+      font-size: 15px; color: var(--text-muted); text-align: center;
+      margin-bottom: 48px; max-width: 500px; margin-left: auto; margin-right: auto;
+    }
+
+    /* Category Grid */
+    .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+    .cat-card {
+      padding: 22px 18px; border-radius: 16px; background: var(--bg-card);
+      border: 1px solid var(--border); cursor: default; transition: all 0.3s;
+    }
+    .cat-card:hover { border-color: var(--border-active); transform: translateY(-2px); }
+    .cat-icon { font-size: 28px; margin-bottom: 10px; }
+    .cat-name { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .cat-count { font-size: 12px; font-weight: 600; }
+
+    /* Tools Grid */
+    .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+    .tool-card {
+      padding: 20px 12px; border-radius: 14px; text-align: center;
+      background: var(--bg-card); border: 1px solid var(--border);
+      transition: all 0.3s; position: relative;
+    }
+    .tool-card:hover { border-color: var(--border-active); transform: translateY(-2px); }
+    .tool-icon { font-size: 30px; margin-bottom: 8px; }
+    .tool-name { font-size: 12px; font-weight: 600; line-height: 1.3; }
+    .tool-badge {
+      position: absolute; top: 8px; right: 8px; font-size: 8px; font-weight: 800;
+      padding: 2px 6px; border-radius: 4px; background: rgba(52,211,153,0.15);
+      color: var(--success); letter-spacing: 0.03em;
+    }
+
+    /* Articles Preview */
+    .articles-scroll {
+      display: flex; gap: 16px; overflow-x: auto; padding-bottom: 16px;
+      scroll-snap-type: x mandatory; scrollbar-width: none;
+    }
+    .articles-scroll::-webkit-scrollbar { display: none; }
+    .article-card {
+      min-width: 280px; max-width: 300px; border-radius: 16px; overflow: hidden;
+      background: var(--bg-card); border: 1px solid var(--border);
+      flex-shrink: 0; scroll-snap-align: start; transition: all 0.3s;
+    }
+    .article-card:hover { transform: translateY(-3px); box-shadow: 0 8px 32px rgba(0,0,0,0.2); }
+    .article-img {
+      height: 130px; display: flex; align-items: center; justify-content: center;
+      font-size: 44px; position: relative;
+    }
+    .article-cat {
+      position: absolute; top: 10px; left: 10px; padding: 3px 10px;
+      border-radius: 8px; font-size: 10px; font-weight: 700;
+      backdrop-filter: blur(8px);
+    }
+    .article-body { padding: 16px 18px 20px; }
+    .article-body h3 { font: 700 16px/1.3 var(--font-display); margin-bottom: 6px; }
+    .article-body p { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 8px;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .article-meta { font-size: 11px; color: var(--text-dim); }
+
+    /* Sponsor */
+    .sponsor {
+      padding: 32px; border-radius: 20px; text-align: center;
+      background: linear-gradient(135deg, rgba(212,175,55,0.06), rgba(212,175,55,0.02));
+      border: 1px solid rgba(212,175,55,0.12); max-width: 600px; margin: 60px auto 0;
+    }
+    .sponsor-badge { font-size: 11px; color: var(--gold); font-weight: 700; letter-spacing: 0.05em; margin-bottom: 10px; }
+    .sponsor-text { font-size: 14px; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; }
+    .sponsor-btn {
+      display: inline-block; padding: 12px 28px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), var(--gold));
+      color: #0b0b10; font-size: 14px; font-weight: 700;
+      transition: opacity 0.2s;
+    }
+    .sponsor-btn:hover { opacity: 0.9; color: #0b0b10; }
+    .sponsor-links { margin-top: 14px; font-size: 12px; color: var(--text-dim); }
+    .sponsor-links a { color: var(--text-muted); margin: 0 8px; }
+
+    /* Footer */
+    .footer {
+      padding: 40px 24px; text-align: center; border-top: 1px solid var(--border);
+      margin-top: 80px;
+    }
+    .footer p { font-size: 12px; color: var(--text-dim); margin-bottom: 6px; }
+    .footer a { color: var(--text-muted); }
+
+    /* GitHub Ribbon */
+    .github-ribbon {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 24px; border-radius: 12px;
+      background: var(--bg-card); border: 1px solid var(--border);
+      color: var(--text); font-size: 14px; font-weight: 600;
+      margin-top: 32px; transition: all 0.2s;
+    }
+    .github-ribbon:hover { border-color: var(--gold); color: var(--gold); }
+    .github-ribbon svg { width: 20px; height: 20px; fill: currentColor; }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      .nav-links a:not(.theme-btn):not(.lang-btn) { display: none; }
+      .hero { padding: 120px 20px 60px; }
+      .stats { gap: 8px; }
+      .stat { padding: 12px 16px; min-width: 90px; }
+      .stat-value { font-size: 22px; }
+      .section { padding: 48px 20px; }
+      .cat-grid { grid-template-columns: repeat(2, 1fr); }
+      .tools-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="ag">Ag</div>
+      <span>SilverAtlas</span>
+    </div>
+    <div class="nav-links">
+      <a href="#categories">Kategoriler</a>
+      <a href="#tools">Araçlar</a>
+      <a href="#articles">Makaleler</a>
+      <div class="lang-btns">
+        <button class="lang-btn active" onclick="setLang('tr')">TR</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" onclick="setLang('ar')">AR</button>
+      </div>
+      <button class="theme-btn" onclick="toggleTheme()" title="Tema Değiştir">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="fade-in">
+      <div class="hero-badge">✦ Açık Kaynak · Ücretsiz · 3 Dil</div>
+    </div>
+    <h1 class="fade-in fade-in-d1">
+      <span class="silver">Gümüşün</span> Tüm<br>
+      <span class="gold-accent">Hikâyesi</span>
+    </h1>
+    <p class="fade-in fade-in-d2">Bilimden tarihe, madencilikten modaya — dünyanın en kapsamlı gümüş bilgi platformu.</p>
+
+    <div class="stats fade-in fade-in-d3">
+      <div class="stat">
+        <div class="stat-value" style="color:var(--gold)">50</div>
+        <div class="stat-label">Makale</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" style="color:var(--accent)">33</div>
+        <div class="stat-label">Araç</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" style="color:var(--success)">297</div>
+        <div class="stat-label">Harita Noktası</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" style="color:#8b5cf6">3</div>
+        <div class="stat-label">Dil</div>
+      </div>
+    </div>
+
+    <a href="https://github.com/alicetinkaya76/silveratlas" target="_blank" class="github-ribbon fade-in fade-in-d4">
+      <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      GitHub'da Görüntüle
+    </a>
+  </section>
+
+  <!-- Categories -->
+  <section class="section" id="categories">
+    <h2 class="section-title fade-in">Kategoriler</h2>
+    <p class="section-subtitle fade-in fade-in-d1">10 kategori, 50 makale</p>
+    <div class="cat-grid">
+      <div class="cat-card fade-in fade-in-d1"><div class="cat-icon">🔬</div><div class="cat-name">Bilim</div><div class="cat-count" style="color:#3b82f6">5 makale</div></div>
+      <div class="cat-card fade-in fade-in-d1"><div class="cat-icon">📜</div><div class="cat-name">Tarih</div><div class="cat-count" style="color:#f59e0b">9 makale</div></div>
+      <div class="cat-card fade-in fade-in-d2"><div class="cat-icon">⛏️</div><div class="cat-name">Maden</div><div class="cat-count" style="color:#10b981">5 makale</div></div>
+      <div class="cat-card fade-in fade-in-d2"><div class="cat-icon">🔧</div><div class="cat-name">Üretim</div><div class="cat-count" style="color:#C0C0C0">4 makale</div></div>
+      <div class="cat-card fade-in fade-in-d3"><div class="cat-icon">📊</div><div class="cat-name">Piyasa</div><div class="cat-count" style="color:#D4AF37">7 makale</div></div>
+      <div class="cat-card fade-in fade-in-d3"><div class="cat-icon">🏛️</div><div class="cat-name">Kültür</div><div class="cat-count" style="color:#8b5cf6">9 makale</div></div>
+      <div class="cat-card fade-in fade-in-d4"><div class="cat-icon">💎</div><div class="cat-name">Stil & Moda</div><div class="cat-count" style="color:#ec4899">5 makale</div></div>
+      <div class="cat-card fade-in fade-in-d4"><div class="cat-icon">📖</div><div class="cat-name">Rehber</div><div class="cat-count" style="color:#06b6d4">3 makale</div></div>
+      <div class="cat-card fade-in fade-in-d5"><div class="cat-icon">🔨</div><div class="cat-name">Zanaat</div><div class="cat-count" style="color:#78716c">2 makale</div></div>
+      <div class="cat-card fade-in fade-in-d5"><div class="cat-icon">🏺</div><div class="cat-name">Koleksiyon</div><div class="cat-count" style="color:#64748b">1 makale</div></div>
+    </div>
+  </section>
+
+  <!-- Featured Articles -->
+  <section class="section" id="articles">
+    <h2 class="section-title fade-in">Öne Çıkan Makaleler</h2>
+    <p class="section-subtitle fade-in fade-in-d1">50 makaleden bir seçki</p>
+    <div class="articles-scroll">
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(192,192,192,0.1),rgba(192,192,192,0.04))"><span>925</span><div class="article-cat" style="background:rgba(192,192,192,0.15);color:#C0C0C0">Üretim</div></div><div class="article-body"><h3>925 Ayar Gümüş Nedir?</h3><p>Sterling gümüşün standartları ve alaşım rehberi</p><div class="article-meta">8 dk okuma</div></div></div>
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(245,158,11,0.1),rgba(245,158,11,0.04))"><span>📜</span><div class="article-cat" style="background:rgba(245,158,11,0.15);color:#f59e0b">Tarih</div></div><div class="article-body"><h3>Gümüşün Tarihi</h3><p>MÖ 5000'den günümüze gümüşün hikâyesi</p><div class="article-meta">12 dk okuma</div></div></div>
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(59,130,246,0.1),rgba(59,130,246,0.04))"><span>🔬</span><div class="article-cat" style="background:rgba(59,130,246,0.15);color:#3b82f6">Bilim</div></div><div class="article-body"><h3>Gümüşün Kimyası</h3><p>Ag elementi: atom yapısı, bağlar ve reaksiyonlar</p><div class="article-meta">10 dk okuma</div></div></div>
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(245,158,11,0.1),rgba(245,158,11,0.04))"><span>🏯</span><div class="article-cat" style="background:rgba(245,158,11,0.15);color:#f59e0b">Tarih</div></div><div class="article-body"><h3>Japon Gümüş Geleneği</h3><p>Mokume-gane'den çay seremonisine</p><div class="article-meta">11 dk okuma</div></div></div>
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(16,185,129,0.04))"><span>♻️</span><div class="article-cat" style="background:rgba(16,185,129,0.15);color:#10b981">Maden</div></div><div class="article-body"><h3>Gümüş ve Sürdürülebilirlik</h3><p>Geri dönüşüm, etik madencilik, karbon ayak izi</p><div class="article-meta">12 dk okuma</div></div></div>
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(139,92,246,0.1),rgba(139,92,246,0.04))"><span>💍</span><div class="article-cat" style="background:rgba(139,92,246,0.15);color:#8b5cf6">Kültür</div></div><div class="article-body"><h3>Düğün Gelenekleri</h3><p>Beş kıtadan gümüş düğün hikayeleri</p><div class="article-meta">11 dk okuma</div></div></div>
+      <div class="article-card"><div class="article-img" style="background:linear-gradient(135deg,rgba(245,158,11,0.1),rgba(245,158,11,0.04))"><span>🕌</span><div class="article-cat" style="background:rgba(245,158,11,0.15);color:#f59e0b">Tarih</div></div><div class="article-body"><h3>Osmanlı Gümüşçülüğü</h3><p>Saray atölyelerinden Grand Bazaar'a</p><div class="article-meta">11 dk okuma</div></div></div>
+    </div>
+  </section>
+
+  <!-- Tools -->
+  <section class="section" id="tools">
+    <h2 class="section-title fade-in">İnteraktif Araçlar</h2>
+    <p class="section-subtitle fade-in fade-in-d1">33 hesaplayıcı, rehber ve deneyim</p>
+    <div class="tools-grid">
+      <div class="tool-card"><div class="tool-icon">⚖️</div><div class="tool-name">Saflık Hesaplayıcı</div></div>
+      <div class="tool-card"><div class="tool-icon">💱</div><div class="tool-name">Birim Dönüştürücü</div></div>
+      <div class="tool-card"><div class="tool-icon">💍</div><div class="tool-name">Yüzük Ölçü</div></div>
+      <div class="tool-card"><div class="tool-icon">🧠</div><div class="tool-name">Bilgi Quizi</div></div>
+      <div class="tool-card"><div class="tool-icon">🎨</div><div class="tool-name">Renk Paleti</div></div>
+      <div class="tool-card"><div class="tool-icon">🌍</div><div class="tool-name">Karbon Ayak İzi</div></div>
+      <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">Periyodik Tablo</div></div>
+      <div class="tool-card"><div class="tool-icon">🔄</div><div class="tool-name">Karat Dönüştürücü</div></div>
+      <div class="tool-card"><div class="tool-icon">💎</div><div class="tool-name">Taş Uyum Rehberi</div></div>
+      <div class="tool-card"><div class="tool-icon">✨</div><div class="tool-name">Bakım Rehberi</div></div>
+      <div class="tool-card"><div class="tool-icon">🗺️</div><div class="tool-name">Dünya Haritası</div></div>
+      <div class="tool-card"><div class="tool-icon">⏳</div><div class="tool-name">Zaman Çizelgesi</div></div>
+      <div class="tool-card"><div class="tool-icon">🏷️</div><div class="tool-name">Damga Tanımlayıcı</div></div>
+      <div class="tool-card"><div class="tool-icon">🤲</div><div class="tool-name">Zekât Hesaplayıcı</div></div>
+      <div class="tool-card"><div class="tool-icon">🪞</div><div class="tool-name">Metal Karşılaştırıcı</div></div>
+      <div class="tool-card"><div class="tool-icon">👗</div><div class="tool-name">Takı Kombinatörü</div></div>
+      <div class="tool-card"><div class="tool-icon">🇹🇷</div><div class="tool-name">Türkiye Atlası</div></div>
+      <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Fiyat Takipçisi</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">✏️</div><div class="tool-name">Gravür Önizleyici</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">🛡️</div><div class="tool-name">Sigorta Hesaplayıcı</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">🏆</div><div class="tool-name">İleri Quiz v2</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">🔄</div><div class="tool-name">Kararma Simülatörü</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">🕐</div><div class="tool-name">Dünya Saati</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">💰</div><div class="tool-name">Portföy Takipçisi</div></div>
+      <div class="tool-card"><div class="tool-badge">YENİ</div><div class="tool-icon">📜</div><div class="tool-name">Sertifika Doğrulayıcı</div></div>
+    </div>
+  </section>
+
+  <!-- Sponsor CTA -->
+  <section class="section">
+    <div class="sponsor fade-in">
+      <div class="sponsor-badge">SPONSOR · İSTANBUL GÜMÜŞ</div>
+      <p class="sponsor-text">Bu platform İstanbul Gümüş tarafından desteklenmektedir.<br>925 ayar, el işçiliği gümüş takı koleksiyonu.</p>
+      <a href="https://istanbulgumus.com" target="_blank" class="sponsor-btn">Koleksiyonu Keşfet →</a>
+      <div class="sponsor-links">
+        <a href="https://instagram.com/istanbulgumustr" target="_blank">@istanbulgumustr</a>
+        <a href="https://instagram.com/istanbulgumuscom" target="_blank">@istanbulgumuscom</a>
+        <a href="https://instagram.com/istanbulgumusmen" target="_blank">@istanbulgumusmen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>SilverAtlas v7.0 — 133 dosya · 38.190 satır</p>
+    <p>CC BY-NC-SA 4.0 · Yazar: <strong>Turan Erbaş</strong></p>
+    <p>Sponsor: <a href="https://istanbulgumus.com" target="_blank">İstanbul Gümüş</a> · Konya</p>
+    <p style="margin-top: 12px">
+      <a href="https://github.com/alicetinkaya76/silveratlas" target="_blank">GitHub</a> ·
+      <a href="https://silveratlas.org" target="_blank">silveratlas.org</a>
+    </p>
+  </footer>
+
+  <script>
+    // Theme toggle
+    function toggleTheme() {
+      const body = document.body;
+      const btn = document.querySelector('.theme-btn');
+      if (body.getAttribute('data-theme') === 'light') {
+        body.removeAttribute('data-theme');
+        btn.textContent = '🌙';
+      } else {
+        body.setAttribute('data-theme', 'light');
+        btn.textContent = '☀️';
+      }
+    }
+
+    // Language (visual only for landing)
+    function setLang(lang) {
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+
+    // Intersection Observer for fade-in
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'running';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      el.style.animationPlayState = 'paused';
+      observer.observe(el);
+    });
+    // Hero elements play immediately
+    document.querySelectorAll('.hero .fade-in').forEach(el => {
+      el.style.animationPlayState = 'running';
+    });
+  </script>
+
+</body>
+</html>

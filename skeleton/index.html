@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SilverAtlas — Gümüş Bilgi Platformu</title>
+  <meta name="description" content="Gümüş hakkında kapsamlı, ücretsiz bilgi platformu — tarih, bilim, piyasa ve kültür. 925 ayar gümüş, telkâri, madencilik, yatırım ve daha fazlası." />
+  <meta name="keywords" content="gümüş, silver, 925 ayar, sterling silver, telkâri, gümüş yatırım, gümüş madencilik, gümüş tarih, silveratlas" />
+  <meta name="author" content="Turan Erbaş" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SilverAtlas — Gümüş Bilgi Platformu" />
+  <meta property="og:description" content="Gümüş hakkında kapsamlı bilgi platformu — tarih, bilim, piyasa ve kültür" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://silveratlas.org" />
+  <meta property="og:image" content="https://silveratlas.org/og-image.jpg" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SilverAtlas" />
+  <meta name="twitter:description" content="Gümüş Bilgi Platformu" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    ::selection { background: rgba(192,192,192,0.3); }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Source Sans 3', sans-serif; background: #0f0f14; color: #e8e8ec; }
+    [data-theme="light"] body { background: #FAFAF5; color: #2C2C2C; }
+    /* Initial loader */
+    #app-loader { display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    #app-loader .ag { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #C0C0C0, #D4AF37); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: #0f0f14; animation: pulse 1.5s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.6; transform: scale(0.95); } }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SilverAtlas",
+    "alternateName": "Gümüş Bilgi Platformu",
+    "url": "https://silveratlas.org",
+    "description": "Gümüş hakkında kapsamlı, ücretsiz bilgi platformu",
+    "author": { "@type": "Person", "name": "Turan Erbaş" },
+    "publisher": { "@type": "Organization", "name": "SilverAtlas" },
+    "inLanguage": ["tr", "en", "ar"],
+    "sponsor": {
+      "@type": "Organization",
+      "name": "İstanbul Gümüş",
+      "url": "https://instagram.com/istanbulgumustr"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://silveratlas.org/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root">
+    <div id="app-loader"><div class="ag">Ag</div></div>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

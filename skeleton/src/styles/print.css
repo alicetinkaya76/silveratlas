@@ -1,0 +1,245 @@
+/**
+ * SilverAtlas — Print Stylesheet (Faz 7)
+ * Optimized print layout for articles and tools.
+ */
+
+@media print {
+  /* ─── Reset ──────────────────────────────────── */
+  * {
+    color: #000 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'Source Sans 3', 'Georgia', serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ─── Hide non-print elements ───────────────── */
+  nav,
+  footer,
+  .bottom-tab-bar,
+  .search-overlay,
+  .theme-toggle,
+  .language-switcher,
+  .sponsor-cta,
+  .related-articles,
+  .share-buttons,
+  .back-to-top,
+  .cookie-banner,
+  button,
+  [role="navigation"],
+  [data-noprint] {
+    display: none !important;
+  }
+
+  /* ─── Page setup ─────────────────────────────── */
+  @page {
+    size: A4;
+    margin: 2cm 2.5cm;
+  }
+
+  @page :first {
+    margin-top: 3cm;
+  }
+
+  /* ─── Typography ─────────────────────────────── */
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+    color: #1a1a2e !important;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    font-weight: 600;
+    margin-top: 18pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+    border-bottom: 0.5pt solid #C0C0C0;
+    padding-bottom: 4pt;
+  }
+
+  h3 {
+    font-size: 13pt;
+    font-weight: 600;
+    margin-top: 12pt;
+    page-break-after: avoid;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  /* ─── Links ──────────────────────────────────── */
+  a {
+    color: #1a1a2e !important;
+    text-decoration: underline;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #708090 !important;
+    word-break: break-all;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: none;
+  }
+
+  /* ─── Images & Figures ──────────────────────── */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  figure {
+    page-break-inside: avoid;
+    margin: 12pt 0;
+  }
+
+  figcaption {
+    font-size: 9pt;
+    color: #708090 !important;
+    text-align: center;
+  }
+
+  /* ─── Tables ─────────────────────────────────── */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    page-break-inside: avoid;
+    font-size: 10pt;
+  }
+
+  th, td {
+    border: 0.5pt solid #C0C0C0;
+    padding: 6pt 8pt;
+    text-align: left;
+  }
+
+  th {
+    background: #f0f0f0 !important;
+    font-weight: 600;
+  }
+
+  /* ─── Code blocks ────────────────────────────── */
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9pt;
+  }
+
+  pre {
+    border: 0.5pt solid #C0C0C0;
+    padding: 8pt;
+    page-break-inside: avoid;
+    overflow: visible;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
+  /* ─── Widgets & Interactive ──────────────────── */
+  [data-widget],
+  .interactive-widget {
+    border: 1pt dashed #C0C0C0;
+    padding: 12pt;
+    text-align: center;
+    page-break-inside: avoid;
+  }
+
+  [data-widget]::before {
+    content: "[ İnteraktif Widget — silveratlas.org adresinde görüntüleyin ]";
+    font-size: 9pt;
+    color: #708090 !important;
+    display: block;
+  }
+
+  /* ─── Header (print version) ─────────────────── */
+  .print-header {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 24pt;
+    padding-bottom: 12pt;
+    border-bottom: 1pt solid #C0C0C0;
+  }
+
+  .print-header .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 18pt;
+    font-weight: 800;
+    color: #708090 !important;
+  }
+
+  .print-header .url {
+    font-size: 9pt;
+    color: #708090 !important;
+  }
+
+  /* ─── Footer (print version) ─────────────────── */
+  .print-footer {
+    display: block !important;
+    position: running(footer);
+    font-size: 8pt;
+    color: #999 !important;
+    text-align: center;
+    border-top: 0.5pt solid #ccc;
+    padding-top: 6pt;
+  }
+
+  /* ─── FAQ Sections ───────────────────────────── */
+  details {
+    page-break-inside: avoid;
+  }
+
+  details[open] summary {
+    font-weight: 600;
+    margin-bottom: 4pt;
+  }
+
+  /* ─── Blockquotes ────────────────────────────── */
+  blockquote {
+    border-left: 3pt solid #C0C0C0;
+    margin: 12pt 0;
+    padding: 8pt 16pt;
+    font-style: italic;
+    page-break-inside: avoid;
+  }
+
+  /* ─── Lists ──────────────────────────────────── */
+  ul, ol {
+    padding-left: 20pt;
+  }
+
+  li {
+    margin-bottom: 4pt;
+  }
+
+  /* ─── Page breaks ────────────────────────────── */
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .no-page-break {
+    page-break-inside: avoid;
+  }
+}

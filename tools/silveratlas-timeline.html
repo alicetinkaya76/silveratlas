@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SilverAtlas — Gümüş Zaman Çizelgesi</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0f0f14;--bg2:#1a1a24;--bg3:#111118;--text:#e8e8ec;--text2:#9a9aaa;
+  --border:rgba(192,192,192,0.1);--accent:#C0C0C0;--gold:#D4AF37;
+  --font-d:'Playfair Display',Georgia,serif;
+  --font-b:'Source Sans 3','Segoe UI',sans-serif;
+}
+.light {
+  --bg:#FAFAF5;--bg2:#fff;--bg3:#f8f8f4;--text:#2C2C2C;--text2:#6B7280;
+  --border:rgba(0,0,0,0.06);--accent:#708090;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:var(--font-b);background:var(--bg);color:var(--text);overflow:hidden;height:100vh;}
+#app{display:flex;flex-direction:column;height:100vh;}
+
+/* NAV */
+.nav{height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:var(--bg);border-bottom:1px solid var(--border);flex-shrink:0;z-index:100;}
+.nav-brand{display:flex;align-items:center;gap:8px;}
+.nav-logo{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--gold));display:flex;align-items:center;justify-content:center;font:700 11px var(--font-d);color:#0f0f14;}
+.nav-title{font:600 15px var(--font-d);color:var(--text);}
+.nav-ctrls{display:flex;align-items:center;gap:10px;}
+.lang-g{display:flex;gap:2px;background:rgba(128,128,128,.08);border-radius:6px;padding:2px;}
+.lang-b{border:none;cursor:pointer;padding:3px 8px;border-radius:4px;font-size:11px;background:transparent;color:var(--text2);transition:all .2s;font-family:var(--font-b);}
+.lang-b.on{background:rgba(192,192,192,.15);color:var(--text);font-weight:600;}
+.mode-b{border:none;cursor:pointer;background:transparent;color:var(--text2);font-size:15px;padding:4px;}
+
+/* LAYOUT */
+.main{display:flex;flex:1;overflow:hidden;}
+.sidebar{width:300px;flex-shrink:0;border-right:1px solid var(--border);background:var(--bg3);overflow-y:auto;display:flex;flex-direction:column;}
+.side-head{padding:20px 16px 0;}
+.side-head h1{font:700 22px/1.2 var(--font-d);margin-bottom:4px;}
+.side-head .sub{font-size:12px;color:var(--text2);margin-bottom:16px;line-height:1.5;}
+
+/* Filters */
+.filters{padding:0 16px 16px;border-bottom:1px solid var(--border);}
+.flabel{font-size:10px;font-weight:600;color:var(--text2);letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;}
+.chips{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:12px;}
+.chip{border:1px solid var(--border);border-radius:16px;padding:4px 12px;cursor:pointer;font-size:11px;background:transparent;color:var(--text2);transition:all .2s;font-family:var(--font-b);white-space:nowrap;}
+.chip.on{font-weight:600;}
+
+/* Era list */
+.eras{padding:16px;flex:1;overflow-y:auto;}
+.era-card{padding:12px 14px;border:1px solid var(--border);border-radius:10px;margin-bottom:8px;cursor:pointer;transition:all .2s;background:transparent;}
+.era-card:hover,.era-card.active{background:var(--bg2);border-color:rgba(192,192,192,.2);}
+.era-card .era-dates{font-size:10px;color:var(--text2);margin-bottom:3px;font-weight:500;letter-spacing:.03em;}
+.era-card .era-name{font:600 13px/1.3 var(--font-d);margin-bottom:2px;}
+.era-card .era-desc{font-size:11px;color:var(--text2);line-height:1.5;}
+
+/* Timeline canvas */
+.tl-wrap{flex:1;position:relative;overflow:hidden;cursor:grab;}
+.tl-wrap:active{cursor:grabbing;}
+.tl-header{position:absolute;top:0;left:0;right:0;height:44px;background:var(--bg);border-bottom:1px solid var(--border);z-index:10;display:flex;align-items:center;justify-content:space-between;padding:0 16px;}
+.tl-header .title{font:600 14px var(--font-d);}
+.zoom-ctrls{display:flex;gap:4px;}
+.zoom-b{width:32px;height:28px;border-radius:6px;border:1px solid var(--border);background:var(--bg2);color:var(--text);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;}
+.zoom-b:hover{border-color:var(--accent);}
+
+/* Canvas */
+canvas{display:block;}
+
+/* Detail overlay */
+.detail-overlay{position:absolute;bottom:16px;left:16px;right:16px;max-width:500px;background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:20px;z-index:20;animation:fadeUp .3s ease;box-shadow:0 12px 40px rgba(0,0,0,.3);}
+.light .detail-overlay{box-shadow:0 8px 32px rgba(0,0,0,.08);}
+.detail-overlay .d-close{position:absolute;top:12px;right:14px;border:none;cursor:pointer;background:transparent;color:var(--text2);font-size:18px;}
+.detail-overlay .d-cat{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;}
+.detail-overlay .d-year{font:400 12px var(--font-b);color:var(--text2);margin-bottom:4px;}
+.detail-overlay h3{font:600 18px/1.3 var(--font-d);margin-bottom:8px;}
+.detail-overlay p{font-size:13px;color:var(--text2);line-height:1.7;}
+.detail-overlay .d-tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:10px;}
+.detail-overlay .d-tag{padding:2px 8px;border-radius:4px;font-size:10px;background:rgba(128,128,128,.08);color:var(--text2);}
+
+.hidden{display:none!important;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:768px){.sidebar{display:none;}}
+</style>
+</head>
+<body>
+<div id="app">
+  <nav class="nav">
+    <div class="nav-brand"><div class="nav-logo">Ag</div><span class="nav-title" id="navT">SilverAtlas</span></div>
+    <div class="nav-ctrls">
+      <div class="lang-g">
+        <button class="lang-b on" data-l="tr">TR</button>
+        <button class="lang-b" data-l="en">EN</button>
+        <button class="lang-b" data-l="ar" style="font-family:'Noto Naskh Arabic',serif">عر</button>
+      </div>
+      <button class="mode-b" id="modeB">☀️</button>
+    </div>
+  </nav>
+  <div class="main">
+    <div class="sidebar" id="sidebar">
+      <div class="side-head">
+        <h1 id="sTitle">Gümüş Zaman Çizelgesi</h1>
+        <div class="sub" id="sSub">MÖ 3000'den günümüze gümüşün insanlık tarihindeki dönüm noktaları</div>
+      </div>
+      <div class="filters">
+        <div class="flabel" id="fCatLabel">Kategori</div>
+        <div class="chips" id="catChips"></div>
+        <div class="flabel" id="fRegLabel">Bölge</div>
+        <div class="chips" id="regChips"></div>
+      </div>
+      <div class="eras" id="eraList"></div>
+    </div>
+    <div class="tl-wrap" id="tlWrap">
+      <div class="tl-header">
+        <span class="title" id="tlTitle">Zaman Çizelgesi</span>
+        <div class="zoom-ctrls">
+          <button class="zoom-b" id="zOut">−</button>
+          <button class="zoom-b" id="zReset">⟲</button>
+          <button class="zoom-b" id="zIn">+</button>
+        </div>
+      </div>
+      <canvas id="cvs"></canvas>
+      <div class="detail-overlay hidden" id="detailOv"></div>
+    </div>
+  </div>
+</div>
+<script>
+// ─── CATEGORIES & COLORS ─────────────────────────────────
+const CATS = {
+  mining:     {color:"#7BE495", label:{tr:"Madencilik",en:"Mining",ar:"التعدين"}},
+  trade:      {color:"#D4AF37", label:{tr:"Ticaret",en:"Trade",ar:"التجارة"}},
+  coinage:    {color:"#C9A0DC", label:{tr:"Sikke / Darphane",en:"Coinage / Mint",ar:"السك / دار الضرب"}},
+  craft:      {color:"#E8A0BF", label:{tr:"Zanaat",en:"Craftsmanship",ar:"الحرف"}},
+  science:    {color:"#6EC6FF", label:{tr:"Bilim / Teknoloji",en:"Science / Tech",ar:"العلم / التقنية"}},
+  culture:    {color:"#FFB86C", label:{tr:"Kültür / Din",en:"Culture / Religion",ar:"الثقافة / الدين"}},
+  political:  {color:"#FF6B6B", label:{tr:"Siyasi / Ekonomik",en:"Political / Economic",ar:"سياسي / اقتصادي"}},
+};
+const REGIONS = {
+  anatolia:   {label:{tr:"Anadolu",en:"Anatolia",ar:"الأناضول"}},
+  europe:     {label:{tr:"Avrupa",en:"Europe",ar:"أوروبا"}},
+  islamic:    {label:{tr:"İslam Dünyası",en:"Islamic World",ar:"العالم الإسلامي"}},
+  americas:   {label:{tr:"Amerika",en:"Americas",ar:"الأمريكتان"}},
+  asia:       {label:{tr:"Asya",en:"Asia",ar:"آسيا"}},
+  global:     {label:{tr:"Küresel",en:"Global",ar:"عالمي"}},
+};
+
+// ─── TIMELINE EVENTS ─────────────────────────────────────
+const EVENTS = [
+  {year:-3000,cat:"mining",region:"anatolia",name:{tr:"Anadolu'da İlk Gümüş Madenciliği",en:"First Silver Mining in Anatolia",ar:"أول تعدين للفضة في الأناضول"},desc:{tr:"Gümüşhane ve Bolkardağ bölgelerinde bilinen en eski gümüş çıkarma faaliyetleri. Gümüş, bakırdan daha değerli kabul ediliyor.",en:"Earliest known silver extraction in the Gümüşhane and Bolkardağ regions. Silver considered more valuable than copper.",ar:"أقدم استخراج معروف للفضة في مناطق غوموشخانه وبولكارداغ."},tags:["gümüşhane","bolkardağ"]},
+  {year:-2500,cat:"trade",region:"islamic",name:{tr:"Mezopotamya Gümüş Standardı",en:"Mesopotamian Silver Standard",ar:"معيار الفضة في بلاد الرافدين"},desc:{tr:"Sümer ve Akad uygarlıklarında gümüş, ticaretin temel değişim aracı ve hesap birimi haline geldi. Gümüş tartıya göre değerlendiriliyordu.",en:"Silver became the primary medium of exchange and unit of account in Sumerian and Akkadian civilizations.",ar:"أصبحت الفضة وسيلة التبادل الرئيسية في الحضارتين السومرية والأكدية."},tags:["sümer","akad"]},
+  {year:-1500,cat:"craft",region:"anatolia",name:{tr:"Hitit Gümüş İşçiliği",en:"Hittite Silver Craftsmanship",ar:"صياغة الفضة الحثية"},desc:{tr:"Hitit İmparatorluğu döneminde Anadolu'da gelişmiş gümüş işçiliği. Rhyton (içki kabı) ve ritüel objelerin üretimi.",en:"Advanced silverwork in Anatolia during the Hittite Empire. Production of rhytons and ritual objects.",ar:"أعمال فضة متقدمة في الأناضول خلال الإمبراطورية الحثية."},tags:["hitit","rhyton"]},
+  {year:-600,cat:"coinage",region:"anatolia",name:{tr:"Lidya'da İlk Gümüş Sikke",en:"First Silver Coins in Lydia",ar:"أول عملة فضية في ليديا"},desc:{tr:"Kral Kroisos (Karun) döneminde Lidya'da dünyanın ilk saf gümüş sikkeleri basıldı. Paranın icadında devrim.",en:"World's first pure silver coins minted in Lydia under King Croesus. A revolution in the invention of money.",ar:"سُكّت أول عملات فضية نقية في ليديا في عهد الملك كرويسوس."},tags:["lidya","kroisos","sikke"]},
+  {year:-500,cat:"mining",region:"europe",name:{tr:"Laurion Gümüş Madenleri",en:"Laurion Silver Mines",ar:"مناجم لافريو الفضية"},desc:{tr:"Atina yakınlarındaki Laurion madenleri, Atina donanmasının ve demokrasinin finansmanını sağladı. Yılda yaklaşık 20 ton gümüş üretimi.",en:"Laurion mines near Athens financed the Athenian navy and democracy. Approximately 20 tons of silver per year.",ar:"مناجم لافريو قرب أثينا مولت الأسطول الأثيني والديمقراطية."},tags:["atina","laurion","demokrasi"]},
+  {year:-269,cat:"coinage",region:"europe",name:{tr:"Roma Denarius'u",en:"Roman Denarius",ar:"الدينار الروماني"},desc:{tr:"Roma Cumhuriyeti gümüş denarius basımına başladı. Yüzyıllar boyunca Akdeniz'in temel para birimi olacak sikke.",en:"Roman Republic began minting the silver denarius — the coin that would become the Mediterranean's primary currency for centuries.",ar:"بدأت الجمهورية الرومانية بسك الدينار الفضي."},tags:["roma","denarius"]},
+  {year:661,cat:"coinage",region:"islamic",name:{tr:"Emevî Gümüş Dirhemi",en:"Umayyad Silver Dirham",ar:"الدرهم الأموي الفضي"},desc:{tr:"Halife Abdülmelik bin Mervan, İslam tarihinin ilk tamamen Arapça gümüş dirhem standardını oluşturdu. 2,97 gram saf gümüş.",en:"Caliph Abd al-Malik ibn Marwan established the first purely Arabic silver dirham standard. 2.97 grams of pure silver.",ar:"أنشأ الخليفة عبد الملك بن مروان أول معيار للدرهم الفضي العربي البحت. 2.97 غرام من الفضة النقية."},tags:["emevî","dirhem","abdülmelik"]},
+  {year:750,cat:"science",region:"islamic",name:{tr:"Câbir ibn Hayyân'ın Gümüş Deneyleri",en:"Jābir ibn Hayyān's Silver Experiments",ar:"تجارب جابر بن حيان على الفضة"},desc:{tr:"İslam simyasının babası Câbir, gümüşün kimyasal özelliklerini sistematik olarak inceledi. Nitrik asitle gümüş ayırma yöntemini geliştirdi.",en:"The father of Islamic alchemy, Jābir, systematically studied silver's chemical properties. Developed silver separation using nitric acid.",ar:"درس جابر بن حيان خصائص الفضة الكيميائية بشكل منهجي."},tags:["câbir","simya","kimya"]},
+  {year:762,cat:"coinage",region:"islamic",name:{tr:"Bağdat Darphanesi Kuruluşu",en:"Baghdad Mint Established",ar:"تأسيس دار ضرب بغداد"},desc:{tr:"Abbasî halifesi Mansur'un Bağdat'ı kurmasıyla birlikte İslam dünyasının en büyük darphanesi faaliyete geçti.",en:"With Caliph al-Mansur's founding of Baghdad, the Islamic world's largest mint became operational.",ar:"مع تأسيس الخليفة المنصور لبغداد، بدأت أكبر دار ضرب في العالم الإسلامي بالعمل."},tags:["abbasî","bağdat","mansur"]},
+  {year:1000,cat:"trade",region:"islamic",name:{tr:"İslam Gümüş Ticaret Ağı",en:"Islamic Silver Trade Network",ar:"شبكة تجارة الفضة الإسلامية"},desc:{tr:"Dımaşk'tan Semerkant'a, Kahire'den Kurtuba'ya uzanan devasa bir gümüş dirhem ticaret ağı. Viking dünyasına bile ulaşan İslam gümüşü.",en:"A vast silver dirham trade network from Damascus to Samarkand, Cairo to Córdoba. Islamic silver reaching even the Viking world.",ar:"شبكة تجارة دراهم فضية واسعة من دمشق إلى سمرقند، ومن القاهرة إلى قرطبة."},tags:["ticaret","dirhem","viking"]},
+  {year:1071,cat:"craft",region:"anatolia",name:{tr:"Selçuklu Gümüşçülüğünün Başlangıcı",en:"Rise of Seljuk Silverwork",ar:"بداية صياغة الفضة السلجوقية"},desc:{tr:"Malazgirt Zaferi sonrası Anadolu'ya yerleşen Selçuklular, Konya merkezli gelişmiş bir gümüş işçiliği geleneği başlattı.",en:"After the Battle of Manzikert, Seljuks settling in Anatolia initiated an advanced silverwork tradition centered in Konya.",ar:"بعد معركة ملاذكرد، أسس السلاجقة تقليداً متقدماً لصياغة الفضة في الأناضول."},tags:["selçuklu","konya","malazgirt"]},
+  {year:1200,cat:"coinage",region:"europe",name:{tr:"Venedik Grosso'su",en:"Venetian Grosso",ar:"الغروسو الفينيسي"},desc:{tr:"Venedik Cumhuriyeti büyük gümüş grosso sikkesini bastı. Avrupa ticaretinin standart parası oldu.",en:"The Republic of Venice minted the large silver grosso coin, becoming the standard currency of European trade.",ar:"سكّت جمهورية البندقية عملة الغروسو الفضية الكبيرة."},tags:["venedik","grosso","ticaret"]},
+  {year:1453,cat:"craft",region:"anatolia",name:{tr:"Kapalıçarşı'da Gümüş Esnafı",en:"Silver Artisans in the Grand Bazaar",ar:"حرفيو الفضة في البازار الكبير"},desc:{tr:"İstanbul'un fethiyle Kapalıçarşı inşa edildi. Gümüş esnafı çarşının en prestijli lonca gruplarından biri oldu.",en:"The Grand Bazaar was built after the conquest of Istanbul. Silver artisans became one of the bazaar's most prestigious guild groups.",ar:"بُني البازار الكبير بعد فتح إسطنبول. أصبح حرفيو الفضة من أعرق مجموعات النقابات."},tags:["kapalıçarşı","istanbul","osmanlı"]},
+  {year:1512,cat:"coinage",region:"anatolia",name:{tr:"Gümüşhane Darphanesi",en:"Gümüşhane Mint Opens",ar:"افتتاح دار ضرب غوموشخانه"},desc:{tr:"Osmanlı İmparatorluğu Gümüşhane'de darphane kurdu. Bölgedeki zengin gümüş yataklarını sikke üretimine dönüştürdü.",en:"The Ottoman Empire established a mint in Gümüşhane, converting the region's rich silver deposits into coinage.",ar:"أنشأت الإمبراطورية العثمانية دار ضرب في غوموشخانه."},tags:["osmanlı","gümüşhane","akçe"]},
+  {year:1545,cat:"mining",region:"americas",name:{tr:"Potosí Gümüş Madeni Keşfi",en:"Discovery of Potosí Silver",ar:"اكتشاف فضة بوتوسي"},desc:{tr:"İspanyollar Cerro Rico'yu (Zengin Dağ) keşfetti. Tarihte en çok gümüş üreten tek lokasyon. Dünya ekonomisini kökten değiştirecek keşif.",en:"The Spanish discovered Cerro Rico (Rich Mountain) — history's single most productive silver location. A discovery that would fundamentally change the world economy.",ar:"اكتشف الإسبان سيرو ريكو — أكثر موقع إنتاجاً للفضة في التاريخ."},tags:["potosí","ispanya","cerro rico"]},
+  {year:1553,cat:"trade",region:"global",name:{tr:"İspanyol Gümüş Filosu",en:"Spanish Silver Fleet",ar:"أسطول الفضة الإسباني"},desc:{tr:"İspanya, Yeni Dünya'dan Avrupa'ya düzenli gümüş nakliyatı başlattı. 265 yılda tahminen 150.000 ton gümüş taşındı.",en:"Spain began regular silver shipments from the New World to Europe. An estimated 150,000 tons transported over 265 years.",ar:"بدأت إسبانيا شحنات الفضة المنتظمة من العالم الجديد إلى أوروبا."},tags:["filo","ispanya","ticaret"]},
+  {year:1600,cat:"trade",region:"global",name:{tr:"Manila Galyonu: Gümüşün Küreselleşmesi",en:"Manila Galleon: Silver Goes Global",ar:"غليون مانيلا: عولمة الفضة"},desc:{tr:"İspanyol gümüşü Acapulco'dan Manila'ya, oradan Çin'e ulaştı. Gümüş ilk kez gerçek anlamda küresel bir emtia oldu.",en:"Spanish silver reached from Acapulco to Manila, then to China. Silver became a truly global commodity for the first time.",ar:"وصلت الفضة الإسبانية من أكابولكو إلى مانيلا ثم إلى الصين."},tags:["manila","çin","küreselleşme"]},
+  {year:1717,cat:"political",region:"europe",name:{tr:"Newton'un Altın Standardı",en:"Newton's Gold Standard",ar:"معيار الذهب لنيوتن"},desc:{tr:"Isaac Newton İngiltere Darphanesi müdürü olarak altın/gümüş oranını belirledi. Bu karar uzun vadede gümüşün para birimi olarak değerini düşürecekti.",en:"Isaac Newton as Master of the Mint set the gold/silver ratio, a decision that would gradually devalue silver as currency.",ar:"حدد إسحاق نيوتن بصفته مدير دار الضرب نسبة الذهب/الفضة."},tags:["newton","altın standardı","ingiltere"]},
+  {year:1839,cat:"science",region:"europe",name:{tr:"Fotoğrafçılıkta Gümüş: Daguerre",en:"Silver in Photography: Daguerre",ar:"الفضة في التصوير: داجير"},desc:{tr:"Louis Daguerre gümüş halojenür kimyasını kullanarak ilk pratik fotoğraf tekniğini geliştirdi. 150 yıl boyunca tüm fotoğraflar gümüşe dayanacak.",en:"Daguerre developed the first practical photographic technique using silver halide chemistry. All photographs would rely on silver for 150 years.",ar:"طوّر داجير أول تقنية تصوير عملية باستخدام كيمياء هاليد الفضة."},tags:["daguerre","fotoğraf","halojenür"]},
+  {year:1858,cat:"mining",region:"americas",name:{tr:"Comstock Lode",en:"Comstock Lode Discovery",ar:"اكتشاف كومستوك لود"},desc:{tr:"Nevada'da devasa gümüş yatağı keşfedildi. Amerikan Batısı'nın gümüş çağını başlattı ve ABD'yi dünya gümüş üretiminde zirveye taşıdı.",en:"A massive silver deposit discovered in Nevada. Launched the American West's silver era and propelled the US to the peak of world silver production.",ar:"اكتُشف رواسب فضة ضخمة في نيفادا."},tags:["comstock","nevada","abd"]},
+  {year:1873,cat:"political",region:"global",name:{tr:"Gümüşün Demonetizasyonu",en:"Demonetization of Silver",ar:"إلغاء تسييل الفضة"},desc:{tr:"ABD ve Avrupa ülkeleri gümüşü para birimi olmaktan çıkarmaya başladı ('Crime of '73'). Gümüş fiyatları düştü.",en:"The US and European nations began demonetizing silver ('Crime of '73'). Silver prices plummeted.",ar:"بدأت الولايات المتحدة والدول الأوروبية بإلغاء تسييل الفضة."},tags:["demonetizasyon","crime of 73"]},
+  {year:1935,cat:"craft",region:"americas",name:{tr:"Taxco Gümüş Rönesansı",en:"Taxco Silver Renaissance",ar:"نهضة فضة تاكسكو"},desc:{tr:"William Spratling, Meksika'nın Taxco kasabasında modern gümüş tasarım atölyesi kurdu. Meksika gümüşünü dünyaya tanıttı.",en:"William Spratling established a modern silver design workshop in Taxco, Mexico, introducing Mexican silver to the world.",ar:"أسس ويليام سبراتلينغ ورشة تصميم فضة حديثة في تاكسكو بالمكسيك."},tags:["taxco","spratling","meksika"]},
+  {year:1965,cat:"political",region:"global",name:{tr:"ABD Sikkelerinde Gümüş Sonu",en:"End of Silver in US Coins",ar:"نهاية الفضة في العملات الأمريكية"},desc:{tr:"Coinage Act of 1965 ile ABD dolaşımdaki sikkelerden gümüşü çıkardı. 2.700 yıllık gümüş sikke geleneğinin sonu.",en:"The Coinage Act of 1965 removed silver from US circulating coins. The end of a 2,700-year silver coinage tradition.",ar:"أزال قانون العملات لعام 1965 الفضة من العملات المتداولة الأمريكية."},tags:["abd","sikke","1965"]},
+  {year:1980,cat:"political",region:"global",name:{tr:"Hunt Brothers Gümüş Krizi",en:"Hunt Brothers Silver Crisis",ar:"أزمة فضة الأخوين هانت"},desc:{tr:"Hunt kardeşler gümüş piyasasını köşeye sıkıştırmaya çalıştı. Gümüş fiyatı ons başına 49,45$'a fırladı, ardından çöktü. 'Silver Thursday' olarak bilinen kriz.",en:"The Hunt brothers attempted to corner the silver market. Price surged to $49.45/oz then crashed — the crisis known as 'Silver Thursday'.",ar:"حاول الأخوان هانت احتكار سوق الفضة. ارتفع السعر إلى 49.45 دولار/أونصة ثم انهار."},tags:["hunt brothers","silver thursday","kriz"]},
+  {year:2000,cat:"science",region:"global",name:{tr:"Nano-Gümüş Teknolojisi",en:"Nano-Silver Technology",ar:"تقنية الفضة النانوية"},desc:{tr:"Gümüş nanoparçacıklarının antimikrobiyal özelliklerinin keşfi ile tıp, tekstil ve su arıtma alanlarında devrim.",en:"Discovery of silver nanoparticles' antimicrobial properties revolutionized medicine, textiles, and water purification.",ar:"أحدث اكتشاف الخصائص المضادة للميكروبات لجسيمات الفضة النانوية ثورة في الطب والنسيج وتنقية المياه."},tags:["nano","antimikrobiyal","teknoloji"]},
+  {year:2011,cat:"political",region:"global",name:{tr:"Gümüş 49$'a Yükseldi",en:"Silver Hits $49",ar:"الفضة تصل إلى 49 دولاراً"},desc:{tr:"2008 mali krizinin ardından yatırımcılar güvenli limana yöneldi. Gümüş ons fiyatı 49,51$'a ulaştı — 1980'den bu yana en yüksek.",en:"Post-2008 financial crisis, investors flocked to safe havens. Silver reached $49.51/oz — highest since 1980.",ar:"بعد الأزمة المالية 2008، توجه المستثمرون للملاذات الآمنة. بلغت الفضة 49.51 دولار/أونصة."},tags:["2011","fiyat","yatırım"]},
+  {year:2020,cat:"science",region:"global",name:{tr:"Güneş Enerjisinde Gümüş Talebi Patlaması",en:"Solar Energy Silver Demand Boom",ar:"طفرة الطلب على الفضة في الطاقة الشمسية"},desc:{tr:"Fotovoltaik güneş panelleri gümüş talebinin en hızlı büyüyen segmenti oldu. Her panel yaklaşık 20 gram gümüş içeriyor.",en:"Photovoltaic solar panels became the fastest-growing segment of silver demand. Each panel contains approximately 20 grams of silver.",ar:"أصبحت الألواح الشمسية الكهروضوئية أسرع قطاعات الطلب على الفضة نمواً."},tags:["güneş","fotovoltaik","enerji"]},
+];
+
+// ─── ERAS ────────────────────────────────────────────────
+const ERAS = [
+  {start:-3000,end:-600,name:{tr:"Antik Çağ",en:"Ancient Era",ar:"العصر القديم"},color:"#6EC6FF",desc:{tr:"Gümüşün keşfi ve ilk işlenmesi",en:"Discovery and first working of silver",ar:"اكتشاف الفضة ومعالجتها الأولى"}},
+  {start:-600,end:600,name:{tr:"Klasik Çağ",en:"Classical Era",ar:"العصر الكلاسيكي"},color:"#7BE495",desc:{tr:"Sikke, ticaret ve imparatorluklar",en:"Coinage, trade, and empires",ar:"العملات والتجارة والإمبراطوريات"}},
+  {start:600,end:1200,name:{tr:"İslam Altın Çağı",en:"Islamic Golden Age",ar:"العصر الذهبي الإسلامي"},color:"#D4AF37",desc:{tr:"Dirhem, simya ve ticaret ağları",en:"Dirham, alchemy, and trade networks",ar:"الدرهم والكيمياء وشبكات التجارة"}},
+  {start:1200,end:1500,name:{tr:"Ortaçağ Sonu",en:"Late Medieval",ar:"أواخر العصور الوسطى"},color:"#E8A0BF",desc:{tr:"Avrupa ticaret devrimi",en:"European trade revolution",ar:"ثورة التجارة الأوروبية"}},
+  {start:1500,end:1800,name:{tr:"Yeni Dünya Çağı",en:"New World Era",ar:"عصر العالم الجديد"},color:"#C9A0DC",desc:{tr:"Potosí, küresel gümüş akışı",en:"Potosí, global silver flows",ar:"بوتوسي، تدفقات الفضة العالمية"}},
+  {start:1800,end:2030,name:{tr:"Modern Çağ",en:"Modern Era",ar:"العصر الحديث"},color:"#FF6B6B",desc:{tr:"Fotoğraf, endüstri ve teknoloji",en:"Photography, industry, and technology",ar:"التصوير والصناعة والتقنية"}},
+];
+
+// ─── STATE ───────────────────────────────────────────────
+let lang="tr", dark=true;
+let catFilter=new Set(Object.keys(CATS));
+let regFilter=new Set(Object.keys(REGIONS));
+let viewStart=-3200, viewEnd=2100;
+let selectedEvt=null;
+let isDragging=false, dragStartX=0, dragViewStart=0;
+const cvs=document.getElementById("cvs");
+const ctx=cvs.getContext("2d");
+let W,H;
+
+function tt(k){return ({
+  tr:{timeline:"Zaman Çizelgesi",title:"Gümüş Zaman Çizelgesi",sub:"MÖ 3000'den günümüze gümüşün insanlık tarihindeki dönüm noktaları",catL:"Kategori",regL:"Bölge",hint:"Detay için bir noktaya tıklayın"},
+  en:{timeline:"Timeline",title:"Silver Timeline",sub:"Milestones in silver's human history from 3000 BCE to the present",catL:"Category",regL:"Region",hint:"Click a point for details"},
+  ar:{timeline:"الجدول الزمني",title:"الجدول الزمني للفضة",sub:"معالم في تاريخ الفضة البشري من 3000 قبل الميلاد حتى الآن",catL:"الفئة",regL:"المنطقة",hint:"انقر على نقطة للتفاصيل"},
+})[lang]?.[k]||k;}
+function n(o){return o?.[lang]||o?.en||"";}
+
+// ─── FILTERED EVENTS ─────────────────────────────────────
+function filtered(){return EVENTS.filter(e=>catFilter.has(e.cat)&&regFilter.has(e.region));}
+
+// ─── CANVAS SETUP ────────────────────────────────────────
+function resize(){
+  const wrap=document.getElementById("tlWrap");
+  W=wrap.clientWidth; H=wrap.clientHeight-44;
+  cvs.width=W*2; cvs.height=H*2;
+  cvs.style.width=W+"px"; cvs.style.height=H+"px";
+  cvs.style.marginTop="44px";
+  ctx.setTransform(2,0,0,2,0,0);
+  draw();
+}
+
+// ─── YEAR ↔ PIXEL ────────────────────────────────────────
+function yearToX(y){ return ((y-viewStart)/(viewEnd-viewStart))*W; }
+function xToYear(x){ return viewStart + (x/W)*(viewEnd-viewStart); }
+
+// ─── DRAW ────────────────────────────────────────────────
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  const bg=dark?"#0f0f14":"#FAFAF5";
+  ctx.fillStyle=bg; ctx.fillRect(0,0,W,H);
+
+  const axisY=H-50;
+  const evts=filtered();
+
+  // Era backgrounds
+  ERAS.forEach(era=>{
+    const x1=Math.max(0,yearToX(era.start));
+    const x2=Math.min(W,yearToX(era.end));
+    if(x2<0||x1>W) return;
+    ctx.fillStyle=era.color+(dark?"08":"0a");
+    ctx.fillRect(x1,0,x2-x1,axisY);
+    // Era label
+    const mid=(x1+x2)/2;
+    if(x2-x1>60){
+      ctx.fillStyle=era.color+(dark?"44":"66");
+      ctx.font=`500 10px ${getComputedStyle(document.body).getPropertyValue('--font-b')}`;
+      ctx.textAlign="center";
+      ctx.fillText(n(era.name),mid,18);
+    }
+  });
+
+  // Grid lines
+  const range=viewEnd-viewStart;
+  let step=50;
+  if(range>3000) step=500;
+  else if(range>1500) step=250;
+  else if(range>800) step=100;
+  else if(range>300) step=50;
+  else if(range>100) step=25;
+  else step=10;
+
+  const gridStart=Math.ceil(viewStart/step)*step;
+  ctx.strokeStyle=dark?"rgba(192,192,192,.06)":"rgba(0,0,0,.04)";
+  ctx.lineWidth=1;
+  const textCol=dark?"#666":"#aaa";
+  ctx.fillStyle=textCol;
+  ctx.font=`400 10px ${getComputedStyle(document.body).getPropertyValue('--font-b')}`;
+  ctx.textAlign="center";
+  for(let y=gridStart;y<=viewEnd;y+=step){
+    const x=yearToX(y);
+    if(x<0||x>W) continue;
+    ctx.beginPath(); ctx.moveTo(x,24); ctx.lineTo(x,axisY); ctx.stroke();
+    const lbl=y<0?`${Math.abs(y)} BCE`:y===0?"0":`${y}`;
+    ctx.fillText(lbl,x,axisY+16);
+  }
+
+  // Axis line
+  ctx.strokeStyle=dark?"rgba(192,192,192,.15)":"rgba(0,0,0,.08)";
+  ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(0,axisY); ctx.lineTo(W,axisY); ctx.stroke();
+
+  // Events
+  const lanes=assignLanes(evts);
+  const maxLane=Math.max(1,...evts.map((_,i)=>lanes[i]+1));
+  const laneH=Math.min(40,Math.max(20,(axisY-40)/maxLane));
+
+  evts.forEach((evt,i)=>{
+    const x=yearToX(evt.year);
+    if(x<-20||x>W+20) return;
+    const lane=lanes[i];
+    const y=axisY-30-lane*laneH;
+    const color=CATS[evt.cat]?.color||"#aaa";
+    const isSel=selectedEvt===evt;
+    const r=isSel?7:5;
+
+    // Stem
+    ctx.strokeStyle=color+(isSel?"66":"22");
+    ctx.lineWidth=1;
+    ctx.beginPath(); ctx.moveTo(x,y+r); ctx.lineTo(x,axisY); ctx.stroke();
+
+    // Dot
+    if(isSel){
+      ctx.beginPath(); ctx.arc(x,y,14,0,Math.PI*2);
+      ctx.fillStyle=color+"15"; ctx.fill();
+    }
+    ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2);
+    ctx.fillStyle=color; ctx.fill();
+    if(isSel){
+      ctx.strokeStyle="#fff"; ctx.lineWidth=2;
+      ctx.stroke();
+    }
+
+    // Label (if zoomed enough)
+    if(range<2000 || isSel){
+      ctx.fillStyle=dark?"#ccc":"#444";
+      ctx.font=`${isSel?600:400} ${isSel?12:10}px ${getComputedStyle(document.body).getPropertyValue('--font-b')}`;
+      ctx.textAlign="center";
+      const label=n(evt.name);
+      const maxW=Math.min(140,range<500?180:120);
+      ctx.fillText(label.length>22?label.slice(0,20)+"…":label, x, y-r-6, maxW);
+    }
+  });
+
+  // Today marker
+  const todayX=yearToX(2026);
+  if(todayX>0&&todayX<W){
+    ctx.strokeStyle="#FF6B6B88";
+    ctx.lineWidth=1; ctx.setLineDash([4,4]);
+    ctx.beginPath(); ctx.moveTo(todayX,24); ctx.lineTo(todayX,axisY); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle="#FF6B6B";
+    ctx.font="500 9px sans-serif"; ctx.textAlign="center";
+    ctx.fillText("2026",todayX,axisY+28);
+  }
+}
+
+function assignLanes(evts){
+  const lanes=[];
+  const occupied=[];
+  const sorted=[...evts].map((e,i)=>({...e,idx:i})).sort((a,b)=>a.year-b.year);
+  sorted.forEach(evt=>{
+    const x=yearToX(evt.year);
+    let lane=0;
+    while(true){
+      const conflict=occupied.some(o=>o.lane===lane&&Math.abs(o.x-x)<30);
+      if(!conflict) break;
+      lane++;
+    }
+    lanes[evt.idx]=lane;
+    occupied.push({x,lane});
+  });
+  return lanes;
+}
+
+// ─── INTERACTIONS ────────────────────────────────────────
+cvs.addEventListener("mousedown",e=>{
+  isDragging=true;
+  dragStartX=e.offsetX;
+  dragViewStart=viewStart;
+  cvs.style.cursor="grabbing";
+});
+window.addEventListener("mousemove",e=>{
+  if(!isDragging) return;
+  const dx=e.clientX-cvs.getBoundingClientRect().left-dragStartX;
+  const yearPerPx=(viewEnd-viewStart)/W;
+  const newStart=dragViewStart-dx*yearPerPx;
+  const range=viewEnd-viewStart;
+  viewStart=newStart;
+  viewEnd=newStart+range;
+  draw();
+});
+window.addEventListener("mouseup",()=>{
+  isDragging=false;
+  cvs.style.cursor="grab";
+});
+cvs.addEventListener("wheel",e=>{
+  e.preventDefault();
+  const zoomFactor=e.deltaY>0?1.15:0.87;
+  const mouseX=e.offsetX;
+  const mouseYear=xToYear(mouseX);
+  const newRange=(viewEnd-viewStart)*zoomFactor;
+  if(newRange<50||newRange>8000) return;
+  const ratio=mouseX/W;
+  viewStart=mouseYear-newRange*ratio;
+  viewEnd=viewStart+newRange;
+  draw();
+},{passive:false});
+
+cvs.addEventListener("click",e=>{
+  const evts=filtered();
+  const mx=e.offsetX, my=e.offsetY;
+  const axisY=H-50;
+  const lanes=assignLanes(evts);
+  const maxLane=Math.max(1,...evts.map((_,i)=>lanes[i]+1));
+  const laneH=Math.min(40,Math.max(20,(axisY-40)/maxLane));
+  let found=null;
+  evts.forEach((evt,i)=>{
+    const x=yearToX(evt.year);
+    const y=axisY-30-lanes[i]*laneH;
+    const dist=Math.sqrt((mx-x)**2+(my-y)**2);
+    if(dist<15) found=evt;
+  });
+  if(found){
+    selectedEvt=found;
+    showDetail(found);
+  } else {
+    selectedEvt=null;
+    hideDetail();
+  }
+  draw();
+});
+
+// ─── DETAIL ──────────────────────────────────────────────
+function showDetail(evt){
+  const el=document.getElementById("detailOv");
+  const color=CATS[evt.cat]?.color||"#aaa";
+  const yearStr=evt.year<0?`${Math.abs(evt.year)} BCE`:`${evt.year} CE`;
+  el.innerHTML=`
+    <button class="d-close" onclick="hideDetail()">×</button>
+    <div class="d-cat" style="color:${color}">${n(CATS[evt.cat]?.label)} · ${n(REGIONS[evt.region]?.label)}</div>
+    <div class="d-year">${yearStr}</div>
+    <h3>${n(evt.name)}</h3>
+    <p>${n(evt.desc)}</p>
+    ${evt.tags?`<div class="d-tags">${evt.tags.map(t=>`<span class="d-tag">${t}</span>`).join("")}</div>`:""}
+  `;
+  el.classList.remove("hidden");
+}
+function hideDetail(){
+  document.getElementById("detailOv").classList.add("hidden");
+  selectedEvt=null; draw();
+}
+
+// ─── ZOOM BUTTONS ────────────────────────────────────────
+document.getElementById("zIn").onclick=()=>{
+  const mid=(viewStart+viewEnd)/2;
+  const range=(viewEnd-viewStart)*0.65;
+  viewStart=mid-range/2; viewEnd=mid+range/2; draw();
+};
+document.getElementById("zOut").onclick=()=>{
+  const mid=(viewStart+viewEnd)/2;
+  const range=Math.min(8000,(viewEnd-viewStart)*1.5);
+  viewStart=mid-range/2; viewEnd=mid+range/2; draw();
+};
+document.getElementById("zReset").onclick=()=>{
+  viewStart=-3200; viewEnd=2100; draw();
+};
+
+// ─── SIDEBAR: CHIPS ──────────────────────────────────────
+function buildChips(){
+  const catC=document.getElementById("catChips");
+  catC.innerHTML="";
+  Object.entries(CATS).forEach(([k,v])=>{
+    const btn=document.createElement("button");
+    btn.className="chip"+(catFilter.has(k)?" on":"");
+    btn.style.cssText=catFilter.has(k)?`border-color:${v.color}55;background:${v.color}15;color:${v.color}`:"";
+    btn.textContent=n(v.label);
+    btn.onclick=()=>{
+      catFilter.has(k)?catFilter.delete(k):catFilter.add(k);
+      buildChips(); buildEras(); draw();
+    };
+    catC.appendChild(btn);
+  });
+
+  const regC=document.getElementById("regChips");
+  regC.innerHTML="";
+  Object.entries(REGIONS).forEach(([k,v])=>{
+    const btn=document.createElement("button");
+    btn.className="chip"+(regFilter.has(k)?" on":"");
+    btn.style.cssText=regFilter.has(k)?`border-color:var(--accent);background:rgba(192,192,192,.08);color:var(--text)`:"";
+    btn.textContent=n(v.label);
+    btn.onclick=()=>{
+      regFilter.has(k)?regFilter.delete(k):regFilter.add(k);
+      buildChips(); buildEras(); draw();
+    };
+    regC.appendChild(btn);
+  });
+}
+
+// ─── SIDEBAR: ERA LIST ───────────────────────────────────
+function buildEras(){
+  const list=document.getElementById("eraList");
+  list.innerHTML="";
+  ERAS.forEach(era=>{
+    const div=document.createElement("div");
+    div.className="era-card";
+    const startStr=era.start<0?`${Math.abs(era.start)} BCE`:era.start;
+    const endStr=era.end<0?`${Math.abs(era.end)} BCE`:era.end>2025?"…":era.end;
+    div.innerHTML=`
+      <div class="era-dates" style="color:${era.color}">${startStr} — ${endStr}</div>
+      <div class="era-name">${n(era.name)}</div>
+      <div class="era-desc">${n(era.desc)}</div>
+    `;
+    div.onclick=()=>{
+      viewStart=era.start-50; viewEnd=era.end+50;
+      document.querySelectorAll(".era-card").forEach(c=>c.classList.remove("active"));
+      div.classList.add("active");
+      draw();
+    };
+    list.appendChild(div);
+  });
+}
+
+// ─── TEXTS ───────────────────────────────────────────────
+function updateTexts(){
+  document.getElementById("sTitle").textContent=tt("title");
+  document.getElementById("sSub").textContent=tt("sub");
+  document.getElementById("fCatLabel").textContent=tt("catL");
+  document.getElementById("fRegLabel").textContent=tt("regL");
+  document.getElementById("tlTitle").textContent=tt("timeline");
+}
+
+// ─── LANGUAGE ────────────────────────────────────────────
+document.querySelectorAll(".lang-b").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    lang=btn.dataset.l;
+    document.querySelectorAll(".lang-b").forEach(b=>b.classList.remove("on"));
+    btn.classList.add("on");
+    const sb=document.getElementById("sidebar");
+    if(lang==="ar"){
+      document.documentElement.dir="rtl";
+      sb.style.borderRight="none"; sb.style.borderLeft="1px solid var(--border)"; sb.style.order="1";
+    } else {
+      document.documentElement.dir="ltr";
+      sb.style.borderRight="1px solid var(--border)"; sb.style.borderLeft="none"; sb.style.order="0";
+    }
+    updateTexts(); buildChips(); buildEras(); hideDetail(); draw();
+  });
+});
+
+// ─── DARK MODE ───────────────────────────────────────────
+document.getElementById("modeB").onclick=()=>{
+  dark=!dark;
+  document.body.classList.toggle("light",!dark);
+  document.getElementById("modeB").textContent=dark?"☀️":"🌙";
+  draw();
+};
+
+// ─── INIT ────────────────────────────────────────────────
+window.addEventListener("resize",resize);
+updateTexts(); buildChips(); buildEras(); resize();
+</script>
+</body>
+</html>

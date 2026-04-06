@@ -1,0 +1,338 @@
+{
+  "version": "5.0",
+  "updated": "2026-04-05",
+  "total_with_base": "72 (Faz 4) + 30 (Faz 5) = 102 darphane/damga girişi",
+  "new_hallmarks": [
+    {
+      "id": "h73",
+      "country": {
+        "tr": "Avustralya",
+        "en": "Australia",
+        "ar": "أستراليا"
+      },
+      "symbol": "Kanguru + 925",
+      "body": "Perth Mint / Private Assay",
+      "mandatory": false
+    },
+    {
+      "id": "h74",
+      "country": {
+        "tr": "Kanada",
+        "en": "Canada",
+        "ar": "كندا"
+      },
+      "symbol": "Maple Leaf + 925",
+      "body": "Royal Canadian Mint",
+      "mandatory": false
+    },
+    {
+      "id": "h75",
+      "country": {
+        "tr": "İsveç",
+        "en": "Sweden",
+        "ar": "السويد"
+      },
+      "symbol": "3 Taç (Tre Kronor)",
+      "body": "Kontrollstämpelkontoret",
+      "mandatory": true
+    },
+    {
+      "id": "h76",
+      "country": {
+        "tr": "Finlandiya",
+        "en": "Finland",
+        "ar": "فنلندا"
+      },
+      "symbol": "Kalp + 925",
+      "body": "Precious Metals Office",
+      "mandatory": true
+    },
+    {
+      "id": "h77",
+      "country": {
+        "tr": "Danimarka",
+        "en": "Denmark",
+        "ar": "الدنمارك"
+      },
+      "symbol": "3 Kule",
+      "body": "Ædelmetalkontrollen",
+      "mandatory": true
+    },
+    {
+      "id": "h78",
+      "country": {
+        "tr": "Norveç",
+        "en": "Norway",
+        "ar": "النرويج"
+      },
+      "symbol": "At + 925",
+      "body": "Bergen Assay Office",
+      "mandatory": true
+    },
+    {
+      "id": "h79",
+      "country": {
+        "tr": "Avusturya",
+        "en": "Austria",
+        "ar": "النمسا"
+      },
+      "symbol": "Diana Başı",
+      "body": "Punzierungsamt Wien",
+      "mandatory": true
+    },
+    {
+      "id": "h80",
+      "country": {
+        "tr": "Belçika",
+        "en": "Belgium",
+        "ar": "بلجيكا"
+      },
+      "symbol": "A + Rakam",
+      "body": "Bureau du Poinçonnage",
+      "mandatory": true
+    },
+    {
+      "id": "h81",
+      "country": {
+        "tr": "Hollanda",
+        "en": "Netherlands",
+        "ar": "هولندا"
+      },
+      "symbol": "Aslan Başı",
+      "body": "Waarborginstelling",
+      "mandatory": true
+    },
+    {
+      "id": "h82",
+      "country": {
+        "tr": "Portekiz",
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
+      "symbol": "Kartal + 925",
+      "body": "Contrastaria",
+      "mandatory": true
+    },
+    {
+      "id": "h83",
+      "country": {
+        "tr": "İspanya",
+        "en": "Spain",
+        "ar": "إسبانيا"
+      },
+      "symbol": "Yıldız + Rakam",
+      "body": "Ensayo y Garantía",
+      "mandatory": true
+    },
+    {
+      "id": "h84",
+      "country": {
+        "tr": "Çin",
+        "en": "China",
+        "ar": "الصين"
+      },
+      "symbol": "S925 / Ag925",
+      "body": "NGTC",
+      "mandatory": false
+    },
+    {
+      "id": "h85",
+      "country": {
+        "tr": "Güney Kore",
+        "en": "South Korea",
+        "ar": "كوريا الجنوبية"
+      },
+      "symbol": "Ag925 + KS",
+      "body": "Korean Standards",
+      "mandatory": false
+    },
+    {
+      "id": "h86",
+      "country": {
+        "tr": "Tayland",
+        "en": "Thailand",
+        "ar": "تايلاند"
+      },
+      "symbol": "Fil + 925",
+      "body": "Thai Goldsmith Assoc.",
+      "mandatory": false
+    },
+    {
+      "id": "h87",
+      "country": {
+        "tr": "Brezilya",
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "symbol": "925 + Firma",
+      "body": "INMETRO",
+      "mandatory": false
+    },
+    {
+      "id": "h88",
+      "country": {
+        "tr": "Güney Afrika",
+        "en": "South Africa",
+        "ar": "جنوب أفريقيا"
+      },
+      "symbol": "Antilop + 925",
+      "body": "SA Assay Office",
+      "mandatory": true
+    },
+    {
+      "id": "h89",
+      "country": {
+        "tr": "İsrail",
+        "en": "Israel",
+        "ar": "إسرائيل"
+      },
+      "symbol": "Menora + 925",
+      "body": "Standards Institution",
+      "mandatory": true
+    },
+    {
+      "id": "h90",
+      "country": {
+        "tr": "Polonya",
+        "en": "Poland",
+        "ar": "بولندا"
+      },
+      "symbol": "Kadın Başı",
+      "body": "Urząd Probierczy",
+      "mandatory": true
+    },
+    {
+      "id": "h91",
+      "country": {
+        "tr": "Çek Cumhuriyeti",
+        "en": "Czech Republic",
+        "ar": "جمهورية التشيك"
+      },
+      "symbol": "Çekiç + Rakam",
+      "body": "Puncovní Úřad",
+      "mandatory": true
+    },
+    {
+      "id": "h92",
+      "country": {
+        "tr": "Macaristan",
+        "en": "Hungary",
+        "ar": "المجر"
+      },
+      "symbol": "Budapeşt sembolü + 925",
+      "body": "Nemesfém Ellenőrzés",
+      "mandatory": true
+    },
+    {
+      "id": "h93",
+      "country": {
+        "tr": "Yunanistan",
+        "en": "Greece",
+        "ar": "اليونان"
+      },
+      "symbol": "Athena Başı",
+      "body": "Assay Office Athens",
+      "mandatory": true
+    },
+    {
+      "id": "h94",
+      "country": {
+        "tr": "Hırvatistan",
+        "en": "Croatia",
+        "ar": "كرواتيا"
+      },
+      "symbol": "Dama Tahtası + 925",
+      "body": "Carinski Ured",
+      "mandatory": true
+    },
+    {
+      "id": "h95",
+      "country": {
+        "tr": "BAE",
+        "en": "UAE",
+        "ar": "الإمارات"
+      },
+      "symbol": "925 + Emirlik Kodu",
+      "body": "DMCC",
+      "mandatory": true
+    },
+    {
+      "id": "h96",
+      "country": {
+        "tr": "Suudi Arabistan",
+        "en": "Saudi Arabia",
+        "ar": "المملكة العربية السعودية"
+      },
+      "symbol": "SASO + 925",
+      "body": "SASO",
+      "mandatory": true
+    },
+    {
+      "id": "h97",
+      "country": {
+        "tr": "Pakistan",
+        "en": "Pakistan",
+        "ar": "باكستان"
+      },
+      "symbol": "925 + Kamer",
+      "body": "PSQCA",
+      "mandatory": false
+    },
+    {
+      "id": "h98",
+      "country": {
+        "tr": "Meksika",
+        "en": "Mexico",
+        "ar": "المكسيك"
+      },
+      "symbol": "Eagle + 925/950",
+      "body": "SE (Federal)",
+      "mandatory": true
+    },
+    {
+      "id": "h99",
+      "country": {
+        "tr": "Peru",
+        "en": "Peru",
+        "ar": "بيرو"
+      },
+      "symbol": "Llama + 925",
+      "body": "INACAL",
+      "mandatory": true
+    },
+    {
+      "id": "h100",
+      "country": {
+        "tr": "Arjantin",
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "symbol": "925 + Firma Kodu",
+      "body": "INTI",
+      "mandatory": false
+    },
+    {
+      "id": "h101",
+      "country": {
+        "tr": "Kolombiya",
+        "en": "Colombia",
+        "ar": "كولومبيا"
+      },
+      "symbol": "Ley + 925",
+      "body": "SIC",
+      "mandatory": false
+    },
+    {
+      "id": "h102",
+      "country": {
+        "tr": "Endonezya",
+        "en": "Indonesia",
+        "ar": "إندونيسيا"
+      },
+      "symbol": "925 + SNI",
+      "body": "BSN",
+      "mandatory": false
+    }
+  ],
+  "note": "Faz 4 darphane veritabanı ile birleştirilmelidir"
+}

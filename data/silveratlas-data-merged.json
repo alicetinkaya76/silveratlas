@@ -1,0 +1,4697 @@
+{
+  "version": "6.0-expanded",
+  "updated": "2026-04-05",
+  "total_points": 297,
+  "categories": {
+    "mine": {
+      "icon": "⛏️",
+      "color": "#C0C0C0",
+      "count": 85
+    },
+    "mint": {
+      "icon": "🏛️",
+      "color": "#D4AF37",
+      "count": 72
+    },
+    "craft": {
+      "icon": "🔨",
+      "color": "#B87333",
+      "count": 32
+    },
+    "museum": {
+      "icon": "🏛️",
+      "color": "#6C88B5",
+      "count": 15
+    },
+    "route": {
+      "icon": "🛤️",
+      "color": "#8B7EC8",
+      "count": 10
+    }
+  },
+  "mines": [
+    {
+      "id": "m1",
+      "name": {
+        "tr": "Potosí (Cerro Rico)",
+        "en": "Potosí (Cerro Rico)",
+        "ar": "بوتوسي (سيرو ريكو)"
+      },
+      "lat": -19.5836,
+      "lng": -65.7533,
+      "country": "Bolivia",
+      "type": "mine",
+      "status": "historical",
+      "period": "1545-present",
+      "peak_production": "~3000 tons/year (1590s)",
+      "notes": {
+        "tr": "Tarihin en büyük gümüş yatağı — UNESCO Dünya Mirası",
+        "en": "History's largest silver deposit — UNESCO World Heritage",
+        "ar": "أكبر رواسب فضة في التاريخ — تراث عالمي لليونسكو"
+      }
+    },
+    {
+      "id": "m2",
+      "name": {
+        "tr": "Zacatecas",
+        "en": "Zacatecas",
+        "ar": "زاكاتيكاس"
+      },
+      "lat": 22.7709,
+      "lng": -102.5832,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "period": "1546-present",
+      "peak_production": "Major producer",
+      "notes": {
+        "tr": "Meksika'nın en büyük tarihsel gümüş madeni",
+        "en": "Mexico's largest historical silver mine",
+        "ar": "أكبر منجم فضة تاريخي في المكسيك"
+      }
+    },
+    {
+      "id": "m3",
+      "name": {
+        "tr": "Guanajuato",
+        "en": "Guanajuato",
+        "ar": "غواناخواتو"
+      },
+      "lat": 21.019,
+      "lng": -101.2574,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "period": "1548-present"
+    },
+    {
+      "id": "m4",
+      "name": {
+        "tr": "Fresnillo",
+        "en": "Fresnillo",
+        "ar": "فريسنيو"
+      },
+      "lat": 23.1733,
+      "lng": -102.8697,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "period": "1554-present",
+      "notes": {
+        "tr": "Dünyanın en büyük birincil gümüş madeni (Fresnillo PLC)",
+        "en": "World's largest primary silver mine (Fresnillo PLC)",
+        "ar": "أكبر منجم فضة أولي في العالم"
+      }
+    },
+    {
+      "id": "m5",
+      "name": {
+        "tr": "Cannington",
+        "en": "Cannington",
+        "ar": "كانينغتون"
+      },
+      "lat": -21.875,
+      "lng": 140.907,
+      "country": "Australia",
+      "type": "mine",
+      "status": "active",
+      "period": "1997-present",
+      "notes": {
+        "tr": "Avustralya'nın en büyük gümüş-kurşun-çinko madeni (BHP)",
+        "en": "Australia's largest silver-lead-zinc mine (BHP)",
+        "ar": "أكبر منجم فضة-رصاص-زنك في أستراليا"
+      }
+    },
+    {
+      "id": "m6",
+      "name": {
+        "tr": "Dukat",
+        "en": "Dukat",
+        "ar": "دوكات"
+      },
+      "lat": 62.55,
+      "lng": 155.75,
+      "country": "Russia",
+      "type": "mine",
+      "status": "active",
+      "period": "1983-present"
+    },
+    {
+      "id": "m7",
+      "name": {
+        "tr": "Uchucchacua",
+        "en": "Uchucchacua",
+        "ar": "أوتشوتشاكوا"
+      },
+      "lat": -10.62,
+      "lng": -76.69,
+      "country": "Peru",
+      "type": "mine",
+      "status": "active"
+    },
+    {
+      "id": "m8",
+      "name": {
+        "tr": "Penasquito",
+        "en": "Peñasquito",
+        "ar": "بينياسكيتو"
+      },
+      "lat": 24.74,
+      "lng": -101.6,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "notes": {
+        "tr": "Newmont — dünyanın en büyük gümüş üreticilerinden",
+        "en": "Newmont — one of world's largest silver producers",
+        "ar": "نيومونت — من أكبر منتجي الفضة في العالم"
+      }
+    },
+    {
+      "id": "m9",
+      "name": {
+        "tr": "Saucito",
+        "en": "Saucito",
+        "ar": "ساوسيتو"
+      },
+      "lat": 23.32,
+      "lng": -102.67,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active"
+    },
+    {
+      "id": "m10",
+      "name": {
+        "tr": "Greens Creek",
+        "en": "Greens Creek",
+        "ar": "غرينز كريك"
+      },
+      "lat": 58.07,
+      "lng": -134.63,
+      "country": "USA",
+      "type": "mine",
+      "status": "active",
+      "period": "1989-present",
+      "notes": {
+        "tr": "Alaska — Hecla Mining, ABD'nin en büyük gümüş madeni",
+        "en": "Alaska — Hecla Mining, largest US silver mine",
+        "ar": "ألاسكا — أكبر منجم فضة في أمريكا"
+      }
+    },
+    {
+      "id": "m11",
+      "name": {
+        "tr": "Gümüşhane",
+        "en": "Gümüşhane",
+        "ar": "غوموشهانه"
+      },
+      "lat": 40.4602,
+      "lng": 39.4814,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "historical",
+      "period": "MÖ 3000-present",
+      "notes": {
+        "tr": "İsmi gümüşten gelen şehir — Pontus döneminden beri",
+        "en": "City named after silver — since Pontus era",
+        "ar": "مدينة سميت بالفضة — منذ عصر بونتوس"
+      }
+    },
+    {
+      "id": "m12",
+      "name": {
+        "tr": "Bolkardağ",
+        "en": "Bolkardağ",
+        "ar": "بولقارداغ"
+      },
+      "lat": 37.45,
+      "lng": 34.58,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "historical",
+      "period": "MÖ 2000-Osmanlı"
+    },
+    {
+      "id": "m13",
+      "name": {
+        "tr": "Laurion",
+        "en": "Laurion",
+        "ar": "لوريون"
+      },
+      "lat": 37.73,
+      "lng": 24.06,
+      "country": "Greece",
+      "type": "mine",
+      "status": "historical",
+      "period": "MÖ 600-MÖ 100",
+      "notes": {
+        "tr": "Atina demokrasisinin ve filosunun mali temeli",
+        "en": "Financial foundation of Athenian democracy and navy",
+        "ar": "الأساس المالي للديمقراطية الأثينية"
+      }
+    },
+    {
+      "id": "m14",
+      "name": {
+        "tr": "Rammelsberg",
+        "en": "Rammelsberg",
+        "ar": "راملسبرغ"
+      },
+      "lat": 51.88,
+      "lng": 10.42,
+      "country": "Germany",
+      "type": "mine",
+      "status": "historical",
+      "period": "968-1988",
+      "notes": {
+        "tr": "1000 yıl kesintisiz işletilen maden — UNESCO",
+        "en": "Mined continuously for 1000 years — UNESCO",
+        "ar": "منجم عمل باستمرار ١٠٠٠ عام — يونسكو"
+      }
+    },
+    {
+      "id": "m15",
+      "name": {
+        "tr": "Kongsberg",
+        "en": "Kongsberg",
+        "ar": "كونغسبرغ"
+      },
+      "lat": 59.633,
+      "lng": 9.65,
+      "country": "Norway",
+      "type": "mine",
+      "status": "historical",
+      "period": "1623-1958",
+      "notes": {
+        "tr": "Avrupa'nın en saf gümüş kristallerinin bulunduğu yer",
+        "en": "Site of Europe's purest silver crystal specimens",
+        "ar": "موقع أنقى عينات بلورات الفضة في أوروبا"
+      }
+    },
+    {
+      "id": "m16",
+      "name": {
+        "tr": "Comstock Lode",
+        "en": "Comstock Lode",
+        "ar": "كومستوك لود"
+      },
+      "lat": 39.31,
+      "lng": -119.65,
+      "country": "USA",
+      "type": "mine",
+      "status": "historical",
+      "period": "1859-1898",
+      "notes": {
+        "tr": "Nevada — Amerikan Batı'sının en ünlü gümüş madeni",
+        "en": "Nevada — most famous silver mine of the American West",
+        "ar": "نيفادا — أشهر منجم فضة في الغرب الأمريكي"
+      }
+    },
+    {
+      "id": "m17",
+      "name": {
+        "tr": "Kutná Hora",
+        "en": "Kutná Hora",
+        "ar": "كوتنا هورا"
+      },
+      "lat": 49.95,
+      "lng": 15.27,
+      "country": "Czech Republic",
+      "type": "mine",
+      "status": "historical",
+      "period": "1260-1726",
+      "notes": {
+        "tr": "Ortaçağ Avrupa'sının en zengin gümüş madeni — UNESCO",
+        "en": "Medieval Europe's richest silver mine — UNESCO",
+        "ar": "أغنى منجم فضة في أوروبا الوسطى — يونسكو"
+      }
+    },
+    {
+      "id": "m18",
+      "name": {
+        "tr": "Cerro de Pasco",
+        "en": "Cerro de Pasco",
+        "ar": "سيرو دي باسكو"
+      },
+      "lat": -10.688,
+      "lng": -76.263,
+      "country": "Peru",
+      "type": "mine",
+      "status": "active",
+      "period": "1630-present"
+    },
+    {
+      "id": "m19",
+      "name": {
+        "tr": "Real de Catorce",
+        "en": "Real de Catorce",
+        "ar": "ريال دي كاتورسي"
+      },
+      "lat": 23.69,
+      "lng": -100.89,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "historical"
+    },
+    {
+      "id": "m20",
+      "name": {
+        "tr": "San Luis Potosí",
+        "en": "San Luis Potosí",
+        "ar": "سان لويس بوتوسي"
+      },
+      "lat": 22.15,
+      "lng": -100.98,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "historical"
+    },
+    {
+      "id": "m21",
+      "name": {
+        "tr": "Iglesias (Sardunya)",
+        "en": "Iglesias (Sardinia)",
+        "ar": "إغليزياس (سردينيا)"
+      },
+      "lat": 39.31,
+      "lng": 8.54,
+      "country": "Italy",
+      "type": "mine",
+      "status": "historical",
+      "period": "Fenike-Roma"
+    },
+    {
+      "id": "m22",
+      "name": {
+        "tr": "Broken Hill",
+        "en": "Broken Hill",
+        "ar": "بروكن هيل"
+      },
+      "lat": -31.95,
+      "lng": 141.47,
+      "country": "Australia",
+      "type": "mine",
+      "status": "active",
+      "period": "1883-present"
+    },
+    {
+      "id": "m23",
+      "name": {
+        "tr": "Coeur d'Alene",
+        "en": "Coeur d'Alene",
+        "ar": "كور دالين"
+      },
+      "lat": 47.68,
+      "lng": -116.78,
+      "country": "USA",
+      "type": "mine",
+      "status": "active",
+      "period": "1880s-present",
+      "notes": {
+        "tr": "Idaho — ABD'nin tarihsel gümüş başkenti",
+        "en": "Idaho — historical silver capital of the US",
+        "ar": "أيداهو — عاصمة الفضة التاريخية لأمريكا"
+      }
+    },
+    {
+      "id": "m24",
+      "name": {
+        "tr": "Jiangxi",
+        "en": "Jiangxi",
+        "ar": "جيانغشي"
+      },
+      "lat": 28.68,
+      "lng": 115.86,
+      "country": "China",
+      "type": "mine",
+      "status": "active"
+    },
+    {
+      "id": "m25",
+      "name": {
+        "tr": "Hindustan Zinc (Rampura Agucha)",
+        "en": "Hindustan Zinc (Rampura Agucha)",
+        "ar": "هندوستان زنك"
+      },
+      "lat": 25.85,
+      "lng": 74.75,
+      "country": "India",
+      "type": "mine",
+      "status": "active",
+      "notes": {
+        "tr": "Dünyanın en büyük çinko-gümüş madenlerinden",
+        "en": "One of world's largest zinc-silver mines",
+        "ar": "من أكبر مناجم الزنك-الفضة في العالم"
+      }
+    },
+    {
+      "id": "m26",
+      "name": {
+        "tr": "KGHM Rudna",
+        "en": "KGHM Rudna",
+        "ar": "KGHM رودنا"
+      },
+      "lat": 51.5,
+      "lng": 16.16,
+      "country": "Poland",
+      "type": "mine",
+      "status": "active",
+      "notes": {
+        "tr": "Avrupa'nın en büyük gümüş üreticisi (yan ürün olarak)",
+        "en": "Europe's largest silver producer (as byproduct)",
+        "ar": "أكبر منتج فضة في أوروبا (كمنتج ثانوي)"
+      }
+    },
+    {
+      "id": "m27",
+      "name": {
+        "tr": "La Encantada",
+        "en": "La Encantada",
+        "ar": "لا إنكانتادا"
+      },
+      "lat": 27.85,
+      "lng": -102.15,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active"
+    },
+    {
+      "id": "m28",
+      "name": {
+        "tr": "Antamina",
+        "en": "Antamina",
+        "ar": "أنتامينا"
+      },
+      "lat": -9.55,
+      "lng": -77.07,
+      "country": "Peru",
+      "type": "mine",
+      "status": "active"
+    },
+    {
+      "id": "m29",
+      "name": {
+        "tr": "Eskişehir-Sivrihisar",
+        "en": "Eskişehir-Sivrihisar",
+        "ar": "إسكيشهير-سيفريهيسار"
+      },
+      "lat": 39.45,
+      "lng": 31.53,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "active"
+    },
+    {
+      "id": "m30",
+      "name": {
+        "tr": "Tokat-Artova",
+        "en": "Tokat-Artova",
+        "ar": "توقات-أرتوفا"
+      },
+      "lat": 40.12,
+      "lng": 36.33,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "exploration"
+    },
+    {
+      "id": "m31",
+      "name": {
+        "tr": "Hakkari",
+        "en": "Hakkari",
+        "ar": "حكاري"
+      },
+      "lat": 37.58,
+      "lng": 43.74,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "exploration"
+    },
+    {
+      "id": "m32",
+      "name": {
+        "tr": "Elazığ-Keban",
+        "en": "Elazığ-Keban",
+        "ar": "إلازيغ-كيبان"
+      },
+      "lat": 38.79,
+      "lng": 38.73,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "historical"
+    },
+    {
+      "id": "m33",
+      "name": {
+        "tr": "Trabzon-Kürtün",
+        "en": "Trabzon-Kürtün",
+        "ar": "طرابزون-كورتون"
+      },
+      "lat": 40.67,
+      "lng": 39.1,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "historical"
+    },
+    {
+      "id": "m34",
+      "name": {
+        "tr": "Huancavelica",
+        "en": "Huancavelica",
+        "ar": "هوانكافيليكا"
+      },
+      "lat": -12.79,
+      "lng": -74.97,
+      "country": "Peru",
+      "type": "mine",
+      "status": "historical",
+      "notes": {
+        "tr": "Potosí'nin cıva kaynağı — stratejik ikiz maden",
+        "en": "Potosí's mercury source — strategic twin mine",
+        "ar": "مصدر الزئبق لبوتوسي — المنجم التوأم الاستراتيجي"
+      }
+    },
+    {
+      "id": "m35",
+      "name": {
+        "tr": "Iwami Ginzan",
+        "en": "Iwami Ginzan",
+        "ar": "إيوامي غينزان"
+      },
+      "lat": 35.11,
+      "lng": 132.44,
+      "country": "Japan",
+      "type": "mine",
+      "status": "historical",
+      "period": "1526-1923",
+      "notes": {
+        "tr": "UNESCO — Japonya'nın en büyük gümüş madeni, dünya üretiminin 1/3'ünü sağladığı dönemler olmuştur",
+        "en": "UNESCO — Japan's largest silver mine, once produced 1/3 of world supply",
+        "ar": "يونسكو — أكبر منجم فضة في اليابان"
+      }
+    },
+    {
+      "id": "m36",
+      "name": {
+        "tr": "Guanajuato",
+        "en": "Guanajuato",
+        "ar": "غواناخواتو"
+      },
+      "lat": 21.019,
+      "lng": -101.2574,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Au",
+      "notes": {
+        "tr": "Meksika'nın tarihi gümüş başkenti",
+        "en": "Mexico's historic silver capital",
+        "ar": "عاصمة الفضة التاريخية في المكسيك"
+      }
+    },
+    {
+      "id": "m37",
+      "name": {
+        "tr": "Taxco Madenleri",
+        "en": "Taxco Mines",
+        "ar": "مناجم تاكسكو"
+      },
+      "lat": 18.5561,
+      "lng": -99.605,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag",
+      "notes": {
+        "tr": "William Spratling'in gümüş rönesansı",
+        "en": "William Spratling's silver renaissance",
+        "ar": "نهضة الفضة لويليام سبراتلينغ"
+      }
+    },
+    {
+      "id": "m38",
+      "name": {
+        "tr": "Zacatecas",
+        "en": "Zacatecas",
+        "ar": "زاكاتيكاس"
+      },
+      "lat": 22.7709,
+      "lng": -102.5833,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Pb/Zn",
+      "notes": {
+        "tr": "1546'dan beri üretim",
+        "en": "Production since 1546",
+        "ar": "إنتاج منذ ١٥٤٦"
+      }
+    },
+    {
+      "id": "m39",
+      "name": {
+        "tr": "Cerro de Pasco",
+        "en": "Cerro de Pasco",
+        "ar": "سيرو دي باسكو"
+      },
+      "lat": -10.6875,
+      "lng": -76.2625,
+      "country": "Peru",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Zn/Pb",
+      "notes": {
+        "tr": "4.380m yükseklikte dünyanın en yüksek madeni",
+        "en": "World's highest mine at 4,380m",
+        "ar": "أعلى منجم في العالم على ارتفاع ٤,٣٨٠م"
+      }
+    },
+    {
+      "id": "m40",
+      "name": {
+        "tr": "Uchucchacua",
+        "en": "Uchucchacua",
+        "ar": "أوتشوتشاكوا"
+      },
+      "lat": -10.6167,
+      "lng": -76.6667,
+      "country": "Peru",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Mn/Pb",
+      "notes": {
+        "tr": "Peru'nun en büyük gümüş madeni",
+        "en": "Peru's largest silver mine",
+        "ar": "أكبر منجم فضة في بيرو"
+      }
+    },
+    {
+      "id": "m41",
+      "name": {
+        "tr": "Broken Hill",
+        "en": "Broken Hill",
+        "ar": "بروكن هيل"
+      },
+      "lat": -31.9505,
+      "lng": 141.4683,
+      "country": "Australia",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Pb/Zn",
+      "notes": {
+        "tr": "1883'ten beri — BHP'nin doğum yeri",
+        "en": "Since 1883 — BHP's birthplace",
+        "ar": "منذ ١٨٨٣ — مسقط رأس BHP"
+      }
+    },
+    {
+      "id": "m42",
+      "name": {
+        "tr": "Mount Isa",
+        "en": "Mount Isa",
+        "ar": "ماونت إيزا"
+      },
+      "lat": -20.7264,
+      "lng": 139.4927,
+      "country": "Australia",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Cu/Pb/Zn",
+      "notes": {
+        "tr": "Dünyanın en büyük tek şehir maden operasyonu",
+        "en": "World's largest single-city mining operation",
+        "ar": "أكبر عملية تعدين في مدينة واحدة"
+      }
+    },
+    {
+      "id": "m43",
+      "name": {
+        "tr": "Coeur d'Alene",
+        "en": "Coeur d'Alene",
+        "ar": "كور دالين"
+      },
+      "lat": 47.6777,
+      "lng": -116.7805,
+      "country": "USA",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Pb/Zn",
+      "notes": {
+        "tr": "ABD'nin en verimli gümüş bölgesi",
+        "en": "Most productive US silver region",
+        "ar": "أكثر مناطق الفضة إنتاجاً في أمريكا"
+      }
+    },
+    {
+      "id": "m44",
+      "name": {
+        "tr": "Comstock Lode",
+        "en": "Comstock Lode",
+        "ar": "كومستوك لود"
+      },
+      "lat": 39.3096,
+      "lng": -119.6498,
+      "country": "USA",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Au",
+      "notes": {
+        "tr": "1859 Nevada gümüş çılgınlığı",
+        "en": "1859 Nevada silver rush",
+        "ar": "حمى فضة نيفادا ١٨٥٩"
+      }
+    },
+    {
+      "id": "m45",
+      "name": {
+        "tr": "Kongsberg",
+        "en": "Kongsberg",
+        "ar": "كونغسبرغ"
+      },
+      "lat": 59.6331,
+      "lng": 9.6514,
+      "country": "Norway",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag",
+      "notes": {
+        "tr": "1623-1957 arası Avrupa'nın en zengin gümüş madeni",
+        "en": "Europe's richest silver mine 1623-1957",
+        "ar": "أغنى منجم فضة في أوروبا ١٦٢٣-١٩٥٧"
+      }
+    },
+    {
+      "id": "m46",
+      "name": {
+        "tr": "Kutná Hora",
+        "en": "Kutná Hora",
+        "ar": "كوتنا هورا"
+      },
+      "lat": 49.9481,
+      "lng": 15.2681,
+      "country": "Czechia",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag",
+      "notes": {
+        "tr": "Ortaçağ Avrupa gümüş başkenti",
+        "en": "Medieval European silver capital",
+        "ar": "عاصمة الفضة الأوروبية في العصور الوسطى"
+      }
+    },
+    {
+      "id": "m47",
+      "name": {
+        "tr": "Rammelsberg",
+        "en": "Rammelsberg",
+        "ar": "راميلسبرغ"
+      },
+      "lat": 51.89,
+      "lng": 10.42,
+      "country": "Germany",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Cu/Pb",
+      "notes": {
+        "tr": "UNESCO Miras — 1000 yıl sürekli üretim",
+        "en": "UNESCO Heritage — 1000 years continuous mining",
+        "ar": "تراث يونسكو — ١٠٠٠ سنة تعدين مستمر"
+      }
+    },
+    {
+      "id": "m48",
+      "name": {
+        "tr": "Iglesiente",
+        "en": "Iglesiente",
+        "ar": "إغليسينتي"
+      },
+      "lat": 39.3119,
+      "lng": 8.5369,
+      "country": "Italy",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Pb/Zn",
+      "notes": {
+        "tr": "Roma dönemi Sardunya madenleri",
+        "en": "Roman-era Sardinian mines",
+        "ar": "مناجم سردينيا من العصر الروماني"
+      }
+    },
+    {
+      "id": "m49",
+      "name": {
+        "tr": "Sado Adası",
+        "en": "Sado Island",
+        "ar": "جزيرة سادو"
+      },
+      "lat": 38.0358,
+      "lng": 138.3697,
+      "country": "Japan",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Au",
+      "notes": {
+        "tr": "Edo dönemi altın-gümüş madeni",
+        "en": "Edo period gold-silver mine",
+        "ar": "منجم ذهب وفضة عصر إيدو"
+      }
+    },
+    {
+      "id": "m50",
+      "name": {
+        "tr": "Iwami Ginzan",
+        "en": "Iwami Ginzan",
+        "ar": "إوامي غينزان"
+      },
+      "lat": 35.1069,
+      "lng": 132.435,
+      "country": "Japan",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag",
+      "notes": {
+        "tr": "UNESCO — 16-17. yy dünya gümüş üretiminin 1/3'ü",
+        "en": "UNESCO — 1/3 of world silver in 16th-17th c.",
+        "ar": "يونسكو — ثلث إنتاج الفضة العالمي في ق١٦-١٧"
+      }
+    },
+    {
+      "id": "m51",
+      "name": {
+        "tr": "Dukat",
+        "en": "Dukat",
+        "ar": "دوكات"
+      },
+      "lat": 62.55,
+      "lng": 155.95,
+      "country": "Russia",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Au",
+      "notes": {
+        "tr": "Rusya'nın en büyük gümüş madeni",
+        "en": "Russia's largest silver mine",
+        "ar": "أكبر منجم فضة في روسيا"
+      }
+    },
+    {
+      "id": "m52",
+      "name": {
+        "tr": "Cannington",
+        "en": "Cannington",
+        "ar": "كانينغتون"
+      },
+      "lat": -21.875,
+      "lng": 140.9167,
+      "country": "Australia",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Pb/Zn",
+      "notes": {
+        "tr": "Dünyanın en büyük gümüş-kurşun madeni",
+        "en": "World's largest silver-lead mine",
+        "ar": "أكبر منجم فضة-رصاص في العالم"
+      }
+    },
+    {
+      "id": "m53",
+      "name": {
+        "tr": "Fresnillo",
+        "en": "Fresnillo",
+        "ar": "فريسنيو"
+      },
+      "lat": 23.1739,
+      "lng": -102.8669,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Au",
+      "notes": {
+        "tr": "Dünyanın en büyük birincil gümüş madeni",
+        "en": "World's largest primary silver mine",
+        "ar": "أكبر منجم فضة أولي في العالم"
+      }
+    },
+    {
+      "id": "m54",
+      "name": {
+        "tr": "Proaño",
+        "en": "Proaño",
+        "ar": "بروانيو"
+      },
+      "lat": 23.2,
+      "lng": -102.9,
+      "country": "Mexico",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag",
+      "notes": {
+        "tr": "Fresnillo bölgesi ikinci operasyon",
+        "en": "Fresnillo district second operation",
+        "ar": "العملية الثانية في منطقة فريسنيو"
+      }
+    },
+    {
+      "id": "m55",
+      "name": {
+        "tr": "Gümüşhane",
+        "en": "Gümüşhane",
+        "ar": "غوموشهانة"
+      },
+      "lat": 40.4386,
+      "lng": 39.5086,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag",
+      "notes": {
+        "tr": "Adını gümüşten alan şehir — Osmanlı madenleri",
+        "en": "City named after silver — Ottoman mines",
+        "ar": "مدينة سميت بالفضة — مناجم عثمانية"
+      }
+    },
+    {
+      "id": "m56",
+      "name": {
+        "tr": "Bolkardağ",
+        "en": "Bolkardağ",
+        "ar": "بولقارداغ"
+      },
+      "lat": 37.45,
+      "lng": 34.55,
+      "country": "Turkey",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Pb",
+      "notes": {
+        "tr": "Antik Toros madenleri",
+        "en": "Ancient Taurus mines",
+        "ar": "مناجم طوروس القديمة"
+      }
+    },
+    {
+      "id": "m57",
+      "name": {
+        "tr": "Laurion",
+        "en": "Laurion",
+        "ar": "لاوريون"
+      },
+      "lat": 37.7275,
+      "lng": 24.0464,
+      "country": "Greece",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Pb",
+      "notes": {
+        "tr": "Antik Atina'nın gümüş kaynağı",
+        "en": "Ancient Athens' silver source",
+        "ar": "مصدر فضة أثينا القديمة"
+      }
+    },
+    {
+      "id": "m58",
+      "name": {
+        "tr": "Erzgebirge",
+        "en": "Erzgebirge",
+        "ar": "إرتسغبيرغه"
+      },
+      "lat": 50.5,
+      "lng": 12.9,
+      "country": "Germany/Czechia",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag",
+      "notes": {
+        "tr": "Thaler/Dolar kelimesinin kökeni",
+        "en": "Origin of the word Thaler/Dollar",
+        "ar": "أصل كلمة تالر/دولار"
+      }
+    },
+    {
+      "id": "m59",
+      "name": {
+        "tr": "Tintic",
+        "en": "Tintic",
+        "ar": "تنتيك"
+      },
+      "lat": 39.95,
+      "lng": -112.1,
+      "country": "USA",
+      "type": "mine",
+      "status": "historic",
+      "metal": "Ag/Au/Cu",
+      "notes": {
+        "tr": "Utah'ın tarihi gümüş bölgesi",
+        "en": "Utah's historic silver district",
+        "ar": "منطقة الفضة التاريخية في يوتا"
+      }
+    },
+    {
+      "id": "m60",
+      "name": {
+        "tr": "Cobar",
+        "en": "Cobar",
+        "ar": "كوبار"
+      },
+      "lat": -31.4833,
+      "lng": 145.8333,
+      "country": "Australia",
+      "type": "mine",
+      "status": "active",
+      "metal": "Ag/Cu/Au",
+      "notes": {
+        "tr": "NSW gümüş-bakır operasyonu",
+        "en": "NSW silver-copper operation",
+        "ar": "عملية فضة-نحاس في نيو ساوث ويلز"
+      }
+    },
+    {
+      "id": "m61",
+      "name": {
+        "tr": "Gümüşhane Canca",
+        "en": "Gümüşhane Canca",
+        "ar": "غوموشخانه جانجا"
+      },
+      "lat": 40.46,
+      "lng": 39.48,
+      "country": "TR",
+      "status": "historical",
+      "metal": "Ag-Pb",
+      "production": "Historical",
+      "desc": {
+        "tr": "Osmanlı dönemi gümüş madeni",
+        "en": "Ottoman era silver mine",
+        "ar": "منجم فضة عثماني"
+      }
+    },
+    {
+      "id": "m62",
+      "name": {
+        "tr": "Keban",
+        "en": "Keban",
+        "ar": "كبان"
+      },
+      "lat": 38.8,
+      "lng": 38.75,
+      "country": "TR",
+      "status": "historical",
+      "metal": "Ag-Pb",
+      "production": "Historical",
+      "desc": {
+        "tr": "Tarihî kurşun-gümüş madeni",
+        "en": "Historical lead-silver mine",
+        "ar": "منجم رصاص-فضة تاريخي"
+      }
+    },
+    {
+      "id": "m63",
+      "name": {
+        "tr": "Bolkardağ",
+        "en": "Bolkardağ",
+        "ar": "بولكارداغ"
+      },
+      "lat": 37.43,
+      "lng": 34.55,
+      "country": "TR",
+      "status": "historical",
+      "metal": "Ag-Pb-Zn",
+      "production": "Historical",
+      "desc": {
+        "tr": "Toros Dağları gümüş madeni",
+        "en": "Taurus Mountains silver mine",
+        "ar": "منجم فضة جبال طوروس"
+      }
+    },
+    {
+      "id": "m64",
+      "name": {
+        "tr": "Trepça",
+        "en": "Trepça",
+        "ar": "تريبتشا"
+      },
+      "lat": 42.91,
+      "lng": 20.87,
+      "country": "XK",
+      "status": "active",
+      "metal": "Pb-Zn-Ag",
+      "production": "2.5M oz/yr",
+      "desc": {
+        "tr": "Balkanlar'ın en büyük polimetal madeni",
+        "en": "Balkans' largest polymetallic mine",
+        "ar": "أكبر منجم متعدد المعادن في البلقان"
+      }
+    },
+    {
+      "id": "m65",
+      "name": {
+        "tr": "Sado Kinzan",
+        "en": "Sado Kinzan",
+        "ar": "سادو كينزان"
+      },
+      "lat": 38.05,
+      "lng": 138.27,
+      "country": "JP",
+      "status": "historical",
+      "metal": "Au-Ag",
+      "production": "Historical",
+      "desc": {
+        "tr": "Japonya'nın en ünlü altın-gümüş madeni",
+        "en": "Japan's most famous gold-silver mine",
+        "ar": "أشهر منجم ذهب-فضة في اليابان"
+      }
+    },
+    {
+      "id": "m66",
+      "name": {
+        "tr": "Kongsberg",
+        "en": "Kongsberg",
+        "ar": "كونغسبيرغ"
+      },
+      "lat": 59.63,
+      "lng": 9.65,
+      "country": "NO",
+      "status": "historical",
+      "metal": "Ag",
+      "production": "Historical",
+      "desc": {
+        "tr": "Norveç'in tarihî gümüş madeni",
+        "en": "Norway's historical silver mine",
+        "ar": "منجم فضة تاريخي في النرويج"
+      }
+    },
+    {
+      "id": "m67",
+      "name": {
+        "tr": "Rammelsberg",
+        "en": "Rammelsberg",
+        "ar": "راملسبرغ"
+      },
+      "lat": 51.89,
+      "lng": 10.42,
+      "country": "DE",
+      "status": "heritage",
+      "metal": "Ag-Cu-Pb",
+      "production": "UNESCO",
+      "desc": {
+        "tr": "UNESCO Dünya Mirası, 1000+ yıl işletildi",
+        "en": "UNESCO World Heritage, operated 1000+ years",
+        "ar": "تراث عالمي لليونسكو، عمل لأكثر من ١٠٠٠ عام"
+      }
+    },
+    {
+      "id": "m68",
+      "name": {
+        "tr": "Kutná Hora",
+        "en": "Kutná Hora",
+        "ar": "كوتنا هورا"
+      },
+      "lat": 49.95,
+      "lng": 15.27,
+      "country": "CZ",
+      "status": "heritage",
+      "metal": "Ag",
+      "production": "UNESCO",
+      "desc": {
+        "tr": "Ortaçağ Avrupa'sının en zengin gümüş madeni",
+        "en": "Medieval Europe's richest silver mine",
+        "ar": "أغنى منجم فضة في أوروبا القروسطية"
+      }
+    },
+    {
+      "id": "m69",
+      "name": {
+        "tr": "Broken Hill",
+        "en": "Broken Hill",
+        "ar": "بروكن هيل"
+      },
+      "lat": -31.95,
+      "lng": 141.45,
+      "country": "AU",
+      "status": "active",
+      "metal": "Pb-Zn-Ag",
+      "production": "3M oz/yr",
+      "desc": {
+        "tr": "Avustralya'nın en eski maden kenti",
+        "en": "Australia's oldest mining city",
+        "ar": "أقدم مدينة تعدين في أستراليا"
+      }
+    },
+    {
+      "id": "m70",
+      "name": {
+        "tr": "Coeur d'Alene",
+        "en": "Coeur d'Alene",
+        "ar": "كور دالين"
+      },
+      "lat": 47.68,
+      "lng": -116.78,
+      "country": "US",
+      "status": "active",
+      "metal": "Ag-Pb-Zn",
+      "production": "12M oz/yr",
+      "desc": {
+        "tr": "Idaho'nun gümüş vadisi",
+        "en": "Idaho's silver valley",
+        "ar": "وادي الفضة في آيداهو"
+      }
+    },
+    {
+      "id": "m71",
+      "name": {
+        "tr": "San José",
+        "en": "San José Mine",
+        "ar": "منجم سان خوسيه"
+      },
+      "lat": -22.3,
+      "lng": -69.6,
+      "country": "CL",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "5M oz Ag/yr",
+      "desc": {
+        "tr": "Şili'nin önde gelen altın-gümüş madeni",
+        "en": "Chile's leading gold-silver mine",
+        "ar": "منجم الذهب والفضة الرائد في تشيلي"
+      }
+    },
+    {
+      "id": "m72",
+      "name": {
+        "tr": "Uchucchacua",
+        "en": "Uchucchacua",
+        "ar": "أوتشوتشاكوا"
+      },
+      "lat": -10.63,
+      "lng": -76.67,
+      "country": "PE",
+      "status": "active",
+      "metal": "Ag-Pb-Zn",
+      "production": "8M oz/yr",
+      "desc": {
+        "tr": "Peru'nun en büyük birincil gümüş madeni",
+        "en": "Peru's largest primary silver mine",
+        "ar": "أكبر منجم فضة أولي في بيرو"
+      }
+    },
+    {
+      "id": "m73",
+      "name": {
+        "tr": "Dukat",
+        "en": "Dukat",
+        "ar": "دوكات"
+      },
+      "lat": 62.6,
+      "lng": 155.8,
+      "country": "RU",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "20M oz Ag/yr",
+      "desc": {
+        "tr": "Rusya'nın en büyük gümüş madeni",
+        "en": "Russia's largest silver mine",
+        "ar": "أكبر منجم فضة في روسيا"
+      }
+    },
+    {
+      "id": "m74",
+      "name": {
+        "tr": "Imiter",
+        "en": "Imiter",
+        "ar": "إيميتر"
+      },
+      "lat": 31.37,
+      "lng": -5.97,
+      "country": "MA",
+      "status": "active",
+      "metal": "Ag",
+      "production": "7M oz/yr",
+      "desc": {
+        "tr": "Afrika'nın en büyük gümüş madeni",
+        "en": "Africa's largest silver mine",
+        "ar": "أكبر منجم فضة في أفريقيا"
+      }
+    },
+    {
+      "id": "m75",
+      "name": {
+        "tr": "Eskay Creek",
+        "en": "Eskay Creek",
+        "ar": "إسكاي كريك"
+      },
+      "lat": 56.65,
+      "lng": -130.45,
+      "country": "CA",
+      "status": "reopening",
+      "metal": "Au-Ag",
+      "production": "Planned 4M oz",
+      "desc": {
+        "tr": "Kanada BC'de yeniden açılan maden",
+        "en": "Reopening mine in BC Canada",
+        "ar": "منجم يُعاد فتحه في كولومبيا البريطانية"
+      }
+    },
+    {
+      "id": "m76",
+      "name": {
+        "tr": "Cerro Rico",
+        "en": "Cerro Rico",
+        "ar": "سيرو ريكو"
+      },
+      "lat": -19.62,
+      "lng": -65.75,
+      "country": "BO",
+      "status": "active",
+      "metal": "Ag-Sn",
+      "production": "Historical/Active",
+      "desc": {
+        "tr": "Potosí'nin ünlü gümüş dağı",
+        "en": "Potosí's famous silver mountain",
+        "ar": "جبل الفضة الشهير في بوتوسي"
+      }
+    },
+    {
+      "id": "m77",
+      "name": {
+        "tr": "Taxco Madenleri",
+        "en": "Taxco Mines",
+        "ar": "مناجم تاكسكو"
+      },
+      "lat": 18.56,
+      "lng": -99.6,
+      "country": "MX",
+      "status": "historical",
+      "metal": "Ag",
+      "production": "Historical",
+      "desc": {
+        "tr": "Meksika'nın gümüş şehri madenleri",
+        "en": "Mexico's silver city mines",
+        "ar": "مناجم مدينة الفضة المكسيكية"
+      }
+    },
+    {
+      "id": "m78",
+      "name": {
+        "tr": "Pribram",
+        "en": "Příbram",
+        "ar": "بريبرام"
+      },
+      "lat": 49.69,
+      "lng": 14.01,
+      "country": "CZ",
+      "status": "heritage",
+      "metal": "Ag-Pb",
+      "production": "Historical",
+      "desc": {
+        "tr": "Bohemya'nın tarihî gümüş madeni",
+        "en": "Bohemia's historical silver mine",
+        "ar": "منجم فضة بوهيميا التاريخي"
+      }
+    },
+    {
+      "id": "m79",
+      "name": {
+        "tr": "Freiberg",
+        "en": "Freiberg",
+        "ar": "فرايبرغ"
+      },
+      "lat": 50.91,
+      "lng": 13.35,
+      "country": "DE",
+      "status": "heritage",
+      "metal": "Ag",
+      "production": "Historical",
+      "desc": {
+        "tr": "Saksonya gümüş madenciliğinin merkezi",
+        "en": "Center of Saxon silver mining",
+        "ar": "مركز تعدين الفضة في ساكسونيا"
+      }
+    },
+    {
+      "id": "m80",
+      "name": {
+        "tr": "Guanajuato",
+        "en": "Guanajuato",
+        "ar": "غواناخواتو"
+      },
+      "lat": 21.02,
+      "lng": -101.26,
+      "country": "MX",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "6M oz Ag/yr",
+      "desc": {
+        "tr": "Sömürge dönemi Meksika gümüşü",
+        "en": "Colonial era Mexican silver",
+        "ar": "فضة مكسيكية من العصر الاستعماري"
+      }
+    },
+    {
+      "id": "m81",
+      "name": {
+        "tr": "Antamina",
+        "en": "Antamina",
+        "ar": "أنتامينا"
+      },
+      "lat": -9.55,
+      "lng": -77.05,
+      "country": "PE",
+      "status": "active",
+      "metal": "Cu-Zn-Ag",
+      "production": "15M oz/yr"
+    },
+    {
+      "id": "m82",
+      "name": {
+        "tr": "Buenaventura Uchucchacua",
+        "en": "Buenaventura",
+        "ar": "بوينافنتورا"
+      },
+      "lat": -10.7,
+      "lng": -76.7,
+      "country": "PE",
+      "status": "active",
+      "metal": "Ag-Pb",
+      "production": "10M oz/yr"
+    },
+    {
+      "id": "m83",
+      "name": {
+        "tr": "Hochschild Inmaculada",
+        "en": "Inmaculada Mine",
+        "ar": "منجم إنماكولادا"
+      },
+      "lat": -15.1,
+      "lng": -73.0,
+      "country": "PE",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "9M oz Ag/yr"
+    },
+    {
+      "id": "m84",
+      "name": {
+        "tr": "Polymetal Dukat Hub",
+        "en": "Dukat Hub",
+        "ar": "مركز دوكات"
+      },
+      "lat": 62.5,
+      "lng": 155.7,
+      "country": "RU",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "22M oz/yr"
+    },
+    {
+      "id": "m85",
+      "name": {
+        "tr": "KGHM Polkowice",
+        "en": "KGHM Polkowice",
+        "ar": "بولكوفيتسه"
+      },
+      "lat": 51.5,
+      "lng": 16.07,
+      "country": "PL",
+      "status": "active",
+      "metal": "Cu-Ag",
+      "production": "40M oz/yr"
+    },
+    {
+      "id": "m86",
+      "name": {
+        "tr": "BHP Olympic Dam",
+        "en": "Olympic Dam",
+        "ar": "أوليمبيك دام"
+      },
+      "lat": -30.44,
+      "lng": 136.89,
+      "country": "AU",
+      "status": "active",
+      "metal": "Cu-Au-Ag-U",
+      "production": "1M oz Ag/yr"
+    },
+    {
+      "id": "m87",
+      "name": {
+        "tr": "Hindustan Zinc",
+        "en": "Hindustan Zinc",
+        "ar": "هندوستان زنك"
+      },
+      "lat": 24.6,
+      "lng": 74.3,
+      "country": "IN",
+      "status": "active",
+      "metal": "Zn-Pb-Ag",
+      "production": "18M oz/yr"
+    },
+    {
+      "id": "m88",
+      "name": {
+        "tr": "South32 Cannington",
+        "en": "Cannington",
+        "ar": "كانينغتون"
+      },
+      "lat": -21.87,
+      "lng": 140.9,
+      "country": "AU",
+      "status": "active",
+      "metal": "Ag-Pb-Zn",
+      "production": "15M oz/yr"
+    },
+    {
+      "id": "m89",
+      "name": {
+        "tr": "Jiangxi Copper",
+        "en": "Jiangxi Copper Ag",
+        "ar": "جيانغشي كوبر"
+      },
+      "lat": 28.23,
+      "lng": 115.82,
+      "country": "CN",
+      "status": "active",
+      "metal": "Cu-Ag",
+      "production": "12M oz Ag/yr"
+    },
+    {
+      "id": "m90",
+      "name": {
+        "tr": "Goldcorp Peñasquito",
+        "en": "Peñasquito",
+        "ar": "بينياسكيتو"
+      },
+      "lat": 24.7,
+      "lng": -103.8,
+      "country": "MX",
+      "status": "active",
+      "metal": "Au-Ag-Pb-Zn",
+      "production": "30M oz Ag/yr"
+    },
+    {
+      "id": "m91",
+      "name": {
+        "tr": "Endeavour Terronera",
+        "en": "Terronera",
+        "ar": "تيرونيرا"
+      },
+      "lat": 20.8,
+      "lng": -104.9,
+      "country": "MX",
+      "status": "development",
+      "metal": "Au-Ag",
+      "production": "Planned 5M oz"
+    },
+    {
+      "id": "m92",
+      "name": {
+        "tr": "Glencore Mount Isa",
+        "en": "Mount Isa",
+        "ar": "ماونت آيسا"
+      },
+      "lat": -20.73,
+      "lng": 139.49,
+      "country": "AU",
+      "status": "active",
+      "metal": "Cu-Pb-Zn-Ag",
+      "production": "5M oz Ag/yr"
+    },
+    {
+      "id": "m93",
+      "name": {
+        "tr": "Silverton NSW",
+        "en": "Silverton",
+        "ar": "سيلفرتون"
+      },
+      "lat": -31.88,
+      "lng": 141.22,
+      "country": "AU",
+      "status": "historical",
+      "metal": "Ag",
+      "production": "Historical"
+    },
+    {
+      "id": "m94",
+      "name": {
+        "tr": "Sala Silvergruva",
+        "en": "Sala Silver Mine",
+        "ar": "منجم فضة سالا"
+      },
+      "lat": 59.92,
+      "lng": 16.6,
+      "country": "SE",
+      "status": "heritage",
+      "metal": "Ag",
+      "production": "Museum"
+    },
+    {
+      "id": "m95",
+      "name": {
+        "tr": "Tara Mine",
+        "en": "Tara Mine",
+        "ar": "منجم تارا"
+      },
+      "lat": 53.6,
+      "lng": -6.83,
+      "country": "IE",
+      "status": "active",
+      "metal": "Zn-Pb-Ag",
+      "production": "2M oz Ag/yr"
+    },
+    {
+      "id": "m96",
+      "name": {
+        "tr": "McArthur River",
+        "en": "McArthur River",
+        "ar": "نهر ماكارثر"
+      },
+      "lat": -16.44,
+      "lng": 136.1,
+      "country": "AU",
+      "status": "active",
+      "metal": "Zn-Pb-Ag",
+      "production": "3M oz Ag/yr"
+    },
+    {
+      "id": "m97",
+      "name": {
+        "tr": "Codelco Chuquicamata",
+        "en": "Chuquicamata",
+        "ar": "تشوكيكاماتا"
+      },
+      "lat": -22.32,
+      "lng": -68.93,
+      "country": "CL",
+      "status": "active",
+      "metal": "Cu-Ag",
+      "production": "5M oz Ag/yr"
+    },
+    {
+      "id": "m98",
+      "name": {
+        "tr": "Mansfeld",
+        "en": "Mansfeld",
+        "ar": "مانسفيلد"
+      },
+      "lat": 51.6,
+      "lng": 11.45,
+      "country": "DE",
+      "status": "historical",
+      "metal": "Cu-Ag",
+      "production": "Historical"
+    },
+    {
+      "id": "m99",
+      "name": {
+        "tr": "Yunnan Tin Group",
+        "en": "Yunnan Tin Ag",
+        "ar": "يونان تين"
+      },
+      "lat": 23.37,
+      "lng": 103.38,
+      "country": "CN",
+      "status": "active",
+      "metal": "Sn-Ag",
+      "production": "8M oz Ag/yr"
+    },
+    {
+      "id": "m100",
+      "name": {
+        "tr": "Sumitomo Hishikari",
+        "en": "Hishikari",
+        "ar": "هيشيكاري"
+      },
+      "lat": 31.78,
+      "lng": 130.75,
+      "country": "JP",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "1M oz Ag/yr"
+    },
+    {
+      "id": "m101",
+      "name": {
+        "tr": "Saucito",
+        "en": "Saucito",
+        "ar": "ساوسيتو"
+      },
+      "lat": 23.7,
+      "lng": -102.5,
+      "country": "MX",
+      "status": "active",
+      "metal": "Ag",
+      "production": "20M oz/yr"
+    },
+    {
+      "id": "m102",
+      "name": {
+        "tr": "La Colorada",
+        "en": "La Colorada",
+        "ar": "لا كولورادا"
+      },
+      "lat": 23.6,
+      "lng": -102.3,
+      "country": "MX",
+      "status": "active",
+      "metal": "Ag-Au",
+      "production": "10M oz/yr"
+    },
+    {
+      "id": "m103",
+      "name": {
+        "tr": "Juanicipio",
+        "en": "Juanicipio",
+        "ar": "خوانيسيبيو"
+      },
+      "lat": 23.5,
+      "lng": -102.8,
+      "country": "MX",
+      "status": "active",
+      "metal": "Ag-Au",
+      "production": "12M oz/yr"
+    },
+    {
+      "id": "m104",
+      "name": {
+        "tr": "San Julian",
+        "en": "San Julian",
+        "ar": "سان خوليان"
+      },
+      "lat": 23.9,
+      "lng": -104.2,
+      "country": "MX",
+      "status": "active",
+      "metal": "Au-Ag",
+      "production": "8M oz Ag/yr"
+    },
+    {
+      "id": "m105",
+      "name": {
+        "tr": "Greens Creek",
+        "en": "Greens Creek",
+        "ar": "غرينز كريك"
+      },
+      "lat": 58.08,
+      "lng": -134.63,
+      "country": "US",
+      "status": "active",
+      "metal": "Ag-Au-Zn",
+      "production": "9M oz/yr"
+    }
+  ],
+  "mints": [
+    {
+      "id": "mt1",
+      "name": {
+        "tr": "İstanbul Darphane",
+        "en": "Istanbul Mint",
+        "ar": "دار ضرب إسطنبول"
+      },
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "1453-1922",
+      "darpislam_id": "istanbul"
+    },
+    {
+      "id": "mt2",
+      "name": {
+        "tr": "Konya Darphane",
+        "en": "Konya Mint",
+        "ar": "دار ضرب قونيا"
+      },
+      "lat": 37.8715,
+      "lng": 32.4846,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Seljuk",
+      "period": "1077-1308",
+      "darpislam_id": "konya"
+    },
+    {
+      "id": "mt3",
+      "name": {
+        "tr": "Dımaşk (Şam)",
+        "en": "Damascus Mint",
+        "ar": "دار ضرب دمشق"
+      },
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "country": "Syria",
+      "type": "mint",
+      "dynasty": "Umayyad",
+      "period": "661-750",
+      "darpislam_id": "dimashq"
+    },
+    {
+      "id": "mt4",
+      "name": {
+        "tr": "Bağdat",
+        "en": "Baghdad Mint",
+        "ar": "دار ضرب بغداد"
+      },
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "country": "Iraq",
+      "type": "mint",
+      "dynasty": "Abbasid",
+      "period": "762-1258",
+      "darpislam_id": "baghdad"
+    },
+    {
+      "id": "mt5",
+      "name": {
+        "tr": "Kahire (Fustat)",
+        "en": "Cairo (Fustat) Mint",
+        "ar": "دار ضرب القاهرة (الفسطاط)"
+      },
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "country": "Egypt",
+      "type": "mint",
+      "dynasty": "Fatimid",
+      "period": "969-1171",
+      "darpislam_id": "misr"
+    },
+    {
+      "id": "mt6",
+      "name": {
+        "tr": "Kurtuba",
+        "en": "Córdoba Mint",
+        "ar": "دار ضرب قرطبة"
+      },
+      "lat": 37.8882,
+      "lng": -4.7794,
+      "country": "Spain",
+      "type": "mint",
+      "dynasty": "Umayyad-Andalus",
+      "period": "756-1031",
+      "darpislam_id": "qurtuba"
+    },
+    {
+      "id": "mt7",
+      "name": {
+        "tr": "Semerkant",
+        "en": "Samarkand Mint",
+        "ar": "دار ضرب سمرقند"
+      },
+      "lat": 39.6542,
+      "lng": 66.9597,
+      "country": "Uzbekistan",
+      "type": "mint",
+      "dynasty": "Timurid",
+      "period": "1370-1507",
+      "darpislam_id": "samarqand"
+    },
+    {
+      "id": "mt8",
+      "name": {
+        "tr": "Isfahan",
+        "en": "Isfahan Mint",
+        "ar": "دار ضرب أصفهان"
+      },
+      "lat": 32.6546,
+      "lng": 51.668,
+      "country": "Iran",
+      "type": "mint",
+      "dynasty": "Safavid",
+      "period": "1501-1736",
+      "darpislam_id": "isfahan"
+    },
+    {
+      "id": "mt9",
+      "name": {
+        "tr": "Delhi",
+        "en": "Delhi Mint",
+        "ar": "دار ضرب دلهي"
+      },
+      "lat": 28.6139,
+      "lng": 77.209,
+      "country": "India",
+      "type": "mint",
+      "dynasty": "Delhi Sultanate",
+      "period": "1206-1526",
+      "darpislam_id": "dihli"
+    },
+    {
+      "id": "mt10",
+      "name": {
+        "tr": "Fas (Fez)",
+        "en": "Fez Mint",
+        "ar": "دار ضرب فاس"
+      },
+      "lat": 34.0331,
+      "lng": -5.0003,
+      "country": "Morocco",
+      "type": "mint",
+      "dynasty": "Marinid",
+      "period": "1244-1465",
+      "darpislam_id": "fas"
+    },
+    {
+      "id": "mt11",
+      "name": {
+        "tr": "Edirne",
+        "en": "Edirne Mint",
+        "ar": "دار ضرب أدرنة"
+      },
+      "lat": 41.6818,
+      "lng": 26.5623,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "1365-1453",
+      "darpislam_id": "edirne"
+    },
+    {
+      "id": "mt12",
+      "name": {
+        "tr": "Bursa",
+        "en": "Bursa Mint",
+        "ar": "دار ضرب بورصة"
+      },
+      "lat": 40.1885,
+      "lng": 29.061,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "1326-1453",
+      "darpislam_id": "bursa"
+    },
+    {
+      "id": "mt13",
+      "name": {
+        "tr": "Sivas",
+        "en": "Sivas Mint",
+        "ar": "دار ضرب سيواس"
+      },
+      "lat": 39.7477,
+      "lng": 37.0179,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Seljuk",
+      "period": "1075-1308",
+      "darpislam_id": "sivas"
+    },
+    {
+      "id": "mt14",
+      "name": {
+        "tr": "Mardin",
+        "en": "Mardin Mint",
+        "ar": "دار ضرب ماردين"
+      },
+      "lat": 37.3212,
+      "lng": 40.7245,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Artuqid",
+      "period": "1102-1409",
+      "darpislam_id": "mardin"
+    },
+    {
+      "id": "mt15",
+      "name": {
+        "tr": "Diyarbakır",
+        "en": "Diyarbakır Mint",
+        "ar": "دار ضرب ديار بكر"
+      },
+      "lat": 37.9144,
+      "lng": 40.2306,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Artuqid",
+      "period": "1098-1232",
+      "darpislam_id": "amid"
+    },
+    {
+      "id": "mt16",
+      "name": {
+        "tr": "Sevilla",
+        "en": "Seville Mint",
+        "ar": "دار ضرب إشبيلية"
+      },
+      "lat": 37.3891,
+      "lng": -5.9845,
+      "country": "Spain",
+      "type": "mint",
+      "dynasty": "Umayyad-Andalus",
+      "period": "712-1248",
+      "darpislam_id": "ishbiliya"
+    },
+    {
+      "id": "mt17",
+      "name": {
+        "tr": "Herat",
+        "en": "Herat Mint",
+        "ar": "دار ضرب هرات"
+      },
+      "lat": 34.3529,
+      "lng": 62.204,
+      "country": "Afghanistan",
+      "type": "mint",
+      "dynasty": "Timurid",
+      "period": "1370-1507",
+      "darpislam_id": "herat"
+    },
+    {
+      "id": "mt18",
+      "name": {
+        "tr": "Lahore",
+        "en": "Lahore Mint",
+        "ar": "دار ضرب لاهور"
+      },
+      "lat": 31.5497,
+      "lng": 74.3436,
+      "country": "Pakistan",
+      "type": "mint",
+      "dynasty": "Mughal",
+      "period": "1524-1857",
+      "darpislam_id": "lahur"
+    },
+    {
+      "id": "mt19",
+      "name": {
+        "tr": "Tebriz",
+        "en": "Tabriz Mint",
+        "ar": "دار ضرب تبريز"
+      },
+      "lat": 38.0962,
+      "lng": 46.2738,
+      "country": "Iran",
+      "type": "mint",
+      "dynasty": "Ilkhanate",
+      "period": "1256-1335",
+      "darpislam_id": "tabriz"
+    },
+    {
+      "id": "mt20",
+      "name": {
+        "tr": "Gazne",
+        "en": "Ghazni Mint",
+        "ar": "دار ضرب غزنة"
+      },
+      "lat": 33.5536,
+      "lng": 68.4269,
+      "country": "Afghanistan",
+      "type": "mint",
+      "dynasty": "Ghaznavid",
+      "period": "977-1186",
+      "darpislam_id": "ghazna"
+    },
+    {
+      "id": "mt21",
+      "name": {
+        "tr": "Bursa Darphane",
+        "en": "Bursa Mint",
+        "ar": "دار ضرب بورصا"
+      },
+      "lat": 40.1828,
+      "lng": 29.061,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "14th-16th c.",
+      "notes": {
+        "tr": "İlk Osmanlı darphanesi",
+        "en": "First Ottoman mint",
+        "ar": "أول دار ضرب عثمانية"
+      }
+    },
+    {
+      "id": "mt22",
+      "name": {
+        "tr": "Üsküp Darphane",
+        "en": "Skopje Mint",
+        "ar": "دار ضرب أوسكوب"
+      },
+      "lat": 41.9973,
+      "lng": 21.428,
+      "country": "N. Macedonia",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "15th-19th c."
+    },
+    {
+      "id": "mt23",
+      "name": {
+        "tr": "Mısır Darphane",
+        "en": "Cairo Mint",
+        "ar": "دار ضرب القاهرة"
+      },
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "country": "Egypt",
+      "type": "mint",
+      "dynasty": "Ottoman/Mamluk",
+      "period": "13th-20th c."
+    },
+    {
+      "id": "mt24",
+      "name": {
+        "tr": "Bağdat Darphane",
+        "en": "Baghdad Mint",
+        "ar": "دار ضرب بغداد"
+      },
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "country": "Iraq",
+      "type": "mint",
+      "dynasty": "Ottoman/Abbasid",
+      "period": "8th-20th c."
+    },
+    {
+      "id": "mt25",
+      "name": {
+        "tr": "Tunus Darphane",
+        "en": "Tunis Mint",
+        "ar": "دار ضرب تونس"
+      },
+      "lat": 36.8065,
+      "lng": 10.1815,
+      "country": "Tunisia",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "16th-19th c."
+    },
+    {
+      "id": "mt26",
+      "name": {
+        "tr": "Serez Darphane",
+        "en": "Serres Mint",
+        "ar": "دار ضرب سيريز"
+      },
+      "lat": 41.0882,
+      "lng": 23.5497,
+      "country": "Greece",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "14th-19th c."
+    },
+    {
+      "id": "mt27",
+      "name": {
+        "tr": "Royal Mint Londra",
+        "en": "Royal Mint London",
+        "ar": "دار ضرب لندن الملكية"
+      },
+      "lat": 51.508,
+      "lng": -0.0762,
+      "country": "UK",
+      "type": "mint",
+      "dynasty": "English/British",
+      "period": "886-present"
+    },
+    {
+      "id": "mt28",
+      "name": {
+        "tr": "Monnaie de Paris",
+        "en": "Paris Mint",
+        "ar": "دار ضرب باريس"
+      },
+      "lat": 48.8566,
+      "lng": 2.3399,
+      "country": "France",
+      "type": "mint",
+      "dynasty": "French",
+      "period": "864-present"
+    },
+    {
+      "id": "mt29",
+      "name": {
+        "tr": "Casa de Moneda México",
+        "en": "Mexico City Mint",
+        "ar": "دار ضرب مكسيكو"
+      },
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "country": "Mexico",
+      "type": "mint",
+      "dynasty": "Spanish/Mexican",
+      "period": "1535-present"
+    },
+    {
+      "id": "mt30",
+      "name": {
+        "tr": "Casa de Moneda Potosí",
+        "en": "Potosí Mint",
+        "ar": "دار ضرب بوتوسي"
+      },
+      "lat": -19.5836,
+      "lng": -65.7533,
+      "country": "Bolivia",
+      "type": "mint",
+      "dynasty": "Spanish",
+      "period": "1574-1951"
+    },
+    {
+      "id": "mt31",
+      "name": {
+        "tr": "US Mint Philadelphia",
+        "en": "US Mint Philadelphia",
+        "ar": "دار ضرب فيلادلفيا"
+      },
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "country": "USA",
+      "type": "mint",
+      "dynasty": "American",
+      "period": "1792-present"
+    },
+    {
+      "id": "mt32",
+      "name": {
+        "tr": "Kremnica Darphane",
+        "en": "Kremnica Mint",
+        "ar": "دار ضرب كرمنيكا"
+      },
+      "lat": 48.7053,
+      "lng": 18.9186,
+      "country": "Slovakia",
+      "type": "mint",
+      "dynasty": "Hungarian",
+      "period": "1328-present"
+    },
+    {
+      "id": "mt33",
+      "name": {
+        "tr": "Jaipur Darphane",
+        "en": "Jaipur Mint",
+        "ar": "دار ضرب جايبور"
+      },
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "country": "India",
+      "type": "mint",
+      "dynasty": "Mughal/Rajput",
+      "period": "16th-20th c."
+    },
+    {
+      "id": "mt34",
+      "name": {
+        "tr": "Amasya Darphane",
+        "en": "Amasya Mint",
+        "ar": "دار ضرب أماسيا"
+      },
+      "lat": 40.6499,
+      "lng": 35.8353,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman/Seljuk",
+      "period": "13th-17th c."
+    },
+    {
+      "id": "mt35",
+      "name": {
+        "tr": "Kastamonu Darphane",
+        "en": "Kastamonu Mint",
+        "ar": "دار ضرب قسطموني"
+      },
+      "lat": 41.3887,
+      "lng": 33.7827,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "14th-17th c."
+    },
+    {
+      "id": "mt36",
+      "name": {
+        "tr": "Edirne Darphane",
+        "en": "Edirne Mint",
+        "ar": "دار ضرب أدرنة"
+      },
+      "lat": 41.6818,
+      "lng": 26.5623,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman",
+      "period": "14th-19th c."
+    },
+    {
+      "id": "mt37",
+      "name": {
+        "tr": "Trabzon Darphane",
+        "en": "Trabzon Mint",
+        "ar": "دار ضرب طرابزون"
+      },
+      "lat": 41.0027,
+      "lng": 39.7168,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman/Comnenid",
+      "period": "13th-18th c."
+    },
+    {
+      "id": "mt38",
+      "name": {
+        "tr": "Konya Darphane",
+        "en": "Konya Mint",
+        "ar": "دار ضرب قونيا"
+      },
+      "lat": 37.8746,
+      "lng": 32.4932,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Seljuk/Ottoman",
+      "period": "12th-17th c."
+    },
+    {
+      "id": "mt39",
+      "name": {
+        "tr": "Sivas Darphane",
+        "en": "Sivas Mint",
+        "ar": "دار ضرب سيواس"
+      },
+      "lat": 39.7477,
+      "lng": 37.0179,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Seljuk/Ottoman",
+      "period": "13th-16th c."
+    },
+    {
+      "id": "mt40",
+      "name": {
+        "tr": "Diyarbakır Darphane",
+        "en": "Diyarbakır Mint",
+        "ar": "دار ضرب ديار بكر"
+      },
+      "lat": 37.9144,
+      "lng": 40.2306,
+      "country": "Turkey",
+      "type": "mint",
+      "dynasty": "Ottoman/Artuqid",
+      "period": "12th-18th c."
+    },
+    {
+      "id": "mt41",
+      "name": {
+        "tr": "Sankt Petersburg Darphane",
+        "en": "St Petersburg Mint",
+        "ar": "دار ضرب سانت بطرسبورغ"
+      },
+      "lat": 59.95,
+      "lng": 30.3167,
+      "country": "Russia",
+      "type": "mint",
+      "dynasty": "Russian Imperial",
+      "period": "1724-present"
+    },
+    {
+      "id": "mt42",
+      "name": {
+        "tr": "Lima Darphane",
+        "en": "Lima Mint",
+        "ar": "دار ضرب ليما"
+      },
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "country": "Peru",
+      "type": "mint",
+      "dynasty": "Spanish/Peruvian",
+      "period": "1565-present"
+    },
+    {
+      "id": "mt43",
+      "name": {
+        "tr": "Segovia Darphane",
+        "en": "Segovia Mint",
+        "ar": "دار ضرب شقوبية"
+      },
+      "lat": 40.9429,
+      "lng": -4.1088,
+      "country": "Spain",
+      "type": "mint",
+      "dynasty": "Spanish",
+      "period": "1455-1868"
+    },
+    {
+      "id": "mt44",
+      "name": {
+        "tr": "Osaka Darphane",
+        "en": "Osaka Mint",
+        "ar": "دار ضرب أوساكا"
+      },
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "country": "Japan",
+      "type": "mint",
+      "dynasty": "Japanese",
+      "period": "1871-present"
+    },
+    {
+      "id": "mt45",
+      "name": {
+        "tr": "Perth Darphane",
+        "en": "Perth Mint",
+        "ar": "دار ضرب بيرث"
+      },
+      "lat": -31.96,
+      "lng": 115.86,
+      "country": "Australia",
+      "type": "mint",
+      "dynasty": "British/Australian",
+      "period": "1899-present"
+    },
+    {
+      "id": "mt46",
+      "name": {
+        "tr": "Tahran Darphane",
+        "en": "Tehran Mint",
+        "ar": "دار ضرب طهران"
+      },
+      "lat": 35.6892,
+      "lng": 51.389,
+      "country": "Iran",
+      "type": "mint",
+      "dynasty": "Safavid/Qajar",
+      "period": "16th c.-present"
+    },
+    {
+      "id": "mt47",
+      "name": {
+        "tr": "Delhi Darphane",
+        "en": "Delhi Mint",
+        "ar": "دار ضرب دلهي"
+      },
+      "lat": 28.6139,
+      "lng": 77.209,
+      "country": "India",
+      "type": "mint",
+      "dynasty": "Mughal/British",
+      "period": "13th c.-present"
+    },
+    {
+      "id": "mt48",
+      "name": {
+        "tr": "Fes Darphane",
+        "en": "Fez Mint",
+        "ar": "دار ضرب فاس"
+      },
+      "lat": 34.0331,
+      "lng": -5.0003,
+      "country": "Morocco",
+      "type": "mint",
+      "dynasty": "Moroccan",
+      "period": "8th c.-present"
+    },
+    {
+      "id": "mt49",
+      "name": {
+        "tr": "Cezayir Darphane",
+        "en": "Algiers Mint",
+        "ar": "دار ضرب الجزائر"
+      },
+      "lat": 36.7538,
+      "lng": 3.0588,
+      "country": "Algeria",
+      "type": "mint",
+      "dynasty": "Ottoman/French",
+      "period": "16th-20th c."
+    },
+    {
+      "id": "mt50",
+      "name": {
+        "tr": "Şam Darphane",
+        "en": "Damascus Mint",
+        "ar": "دار ضرب دمشق"
+      },
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "country": "Syria",
+      "type": "mint",
+      "dynasty": "Umayyad/Ottoman",
+      "period": "7th-20th c."
+    },
+    {
+      "id": "mt51",
+      "name": {
+        "tr": "Ankara Darphane",
+        "en": "Ankara Mint",
+        "ar": "دار ضرب أنقرة"
+      },
+      "lat": 39.93,
+      "lng": 32.86,
+      "country": "TR",
+      "period": "Modern",
+      "desc": {
+        "tr": "TC Darphane merkezi",
+        "en": "Republic of Turkey mint",
+        "ar": "دار ضرب جمهورية تركيا"
+      }
+    },
+    {
+      "id": "mt52",
+      "name": {
+        "tr": "Konstantinopolis Darphane",
+        "en": "Constantinople Mint",
+        "ar": "دار ضرب القسطنطينية"
+      },
+      "lat": 41.01,
+      "lng": 28.98,
+      "country": "TR",
+      "period": "330-1453",
+      "desc": {
+        "tr": "Bizans imparatorluk darphanesi",
+        "en": "Byzantine imperial mint",
+        "ar": "دار ضرب بيزنطية إمبراطورية"
+      }
+    },
+    {
+      "id": "mt53",
+      "name": {
+        "tr": "Sardes Darphane",
+        "en": "Sardis Mint",
+        "ar": "دار ضرب ساردس"
+      },
+      "lat": 38.49,
+      "lng": 28.04,
+      "country": "TR",
+      "period": "MÖ 600",
+      "desc": {
+        "tr": "İlk sikke basan darphane",
+        "en": "First coinage mint",
+        "ar": "أول دار ضرب تسك عملات"
+      }
+    },
+    {
+      "id": "mt54",
+      "name": {
+        "tr": "Şam Darphane",
+        "en": "Damascus Mint",
+        "ar": "دار ضرب دمشق"
+      },
+      "lat": 33.51,
+      "lng": 36.29,
+      "country": "SY",
+      "period": "Emevi",
+      "desc": {
+        "tr": "Emevi dirhem merkezi",
+        "en": "Umayyad dirham center",
+        "ar": "مركز الدرهم الأموي"
+      }
+    },
+    {
+      "id": "mt55",
+      "name": {
+        "tr": "Bağdat Darphane",
+        "en": "Baghdad Mint",
+        "ar": "دار ضرب بغداد"
+      },
+      "lat": 33.31,
+      "lng": 44.37,
+      "country": "IQ",
+      "period": "Abbasi",
+      "desc": {
+        "tr": "Abbasi imparatorluk darphanesi",
+        "en": "Abbasid imperial mint",
+        "ar": "دار ضرب عباسية إمبراطورية"
+      }
+    },
+    {
+      "id": "mt56",
+      "name": {
+        "tr": "Kahire Darphane",
+        "en": "Cairo Mint",
+        "ar": "دار ضرب القاهرة"
+      },
+      "lat": 30.04,
+      "lng": 31.24,
+      "country": "EG",
+      "period": "Memlük-Osmanlı",
+      "desc": {
+        "tr": "Memlük ve Osmanlı darphanesi",
+        "en": "Mamluk and Ottoman mint",
+        "ar": "دار ضرب مملوكية وعثمانية"
+      }
+    },
+    {
+      "id": "mt57",
+      "name": {
+        "tr": "Viyana Darphane",
+        "en": "Vienna Mint",
+        "ar": "دار ضرب فيينا"
+      },
+      "lat": 48.2,
+      "lng": 16.37,
+      "country": "AT",
+      "period": "1194-günümüz",
+      "desc": {
+        "tr": "Dünyanın en eski aktif darphanesi",
+        "en": "World's oldest active mint",
+        "ar": "أقدم دار ضرب نشطة في العالم"
+      }
+    },
+    {
+      "id": "mt58",
+      "name": {
+        "tr": "Tower Darphane",
+        "en": "Tower Mint",
+        "ar": "دار ضرب البرج"
+      },
+      "lat": 51.51,
+      "lng": -0.08,
+      "country": "GB",
+      "period": "1279-1812",
+      "desc": {
+        "tr": "İngiliz kraliyet darphanesi",
+        "en": "English royal mint",
+        "ar": "دار ضرب ملكية إنجليزية"
+      }
+    },
+    {
+      "id": "mt59",
+      "name": {
+        "tr": "Philadelphia Darphane",
+        "en": "Philadelphia Mint",
+        "ar": "دار ضرب فيلادلفيا"
+      },
+      "lat": 39.95,
+      "lng": -75.15,
+      "country": "US",
+      "period": "1792-günümüz",
+      "desc": {
+        "tr": "ABD ilk darphanesi",
+        "en": "US first mint",
+        "ar": "أول دار ضرب أمريكية"
+      }
+    },
+    {
+      "id": "mt60",
+      "name": {
+        "tr": "Mexico City Darphane",
+        "en": "Mexico City Mint",
+        "ar": "دار ضرب مكسيكو سيتي"
+      },
+      "lat": 19.43,
+      "lng": -99.13,
+      "country": "MX",
+      "period": "1535-günümüz",
+      "desc": {
+        "tr": "Amerika'nın en eski darphanesi",
+        "en": "Americas' oldest mint",
+        "ar": "أقدم دار ضرب في الأمريكتين"
+      }
+    },
+    {
+      "id": "mt61",
+      "name": {
+        "tr": "Delhi Sultanlığı",
+        "en": "Delhi Sultanate Mint",
+        "ar": "دار ضرب سلطنة دلهي"
+      },
+      "lat": 28.61,
+      "lng": 77.22,
+      "country": "IN",
+      "period": "1206-1526"
+    },
+    {
+      "id": "mt62",
+      "name": {
+        "tr": "Mughal Agra",
+        "en": "Mughal Agra Mint",
+        "ar": "دار ضرب أغرا المغولية"
+      },
+      "lat": 27.18,
+      "lng": 78.02,
+      "country": "IN",
+      "period": "1526-1857"
+    },
+    {
+      "id": "mt63",
+      "name": {
+        "tr": "Edirne Darphane",
+        "en": "Edirne Mint",
+        "ar": "دار ضرب أدرنه"
+      },
+      "lat": 41.67,
+      "lng": 26.56,
+      "country": "TR",
+      "period": "1361-1453"
+    },
+    {
+      "id": "mt64",
+      "name": {
+        "tr": "Bursa Darphane",
+        "en": "Bursa Mint",
+        "ar": "دار ضرب بورصة"
+      },
+      "lat": 40.19,
+      "lng": 29.06,
+      "country": "TR",
+      "period": "1326-1453"
+    },
+    {
+      "id": "mt65",
+      "name": {
+        "tr": "Konya Selçuklu",
+        "en": "Konya Seljuk Mint",
+        "ar": "دار ضرب قونية السلجوقية"
+      },
+      "lat": 37.87,
+      "lng": 32.49,
+      "country": "TR",
+      "period": "1077-1308"
+    },
+    {
+      "id": "mt66",
+      "name": {
+        "tr": "Atina Antik",
+        "en": "Ancient Athens Mint",
+        "ar": "دار ضرب أثينا القديمة"
+      },
+      "lat": 37.97,
+      "lng": 23.73,
+      "country": "GR",
+      "period": "MÖ 500"
+    },
+    {
+      "id": "mt67",
+      "name": {
+        "tr": "Roma Darphane",
+        "en": "Roman Mint",
+        "ar": "دار ضرب روما"
+      },
+      "lat": 41.89,
+      "lng": 12.49,
+      "country": "IT",
+      "period": "MÖ 269"
+    },
+    {
+      "id": "mt68",
+      "name": {
+        "tr": "Jeonhwanguk",
+        "en": "Korean Royal Mint",
+        "ar": "دار ضرب كوريا الملكية"
+      },
+      "lat": 37.57,
+      "lng": 126.98,
+      "country": "KR",
+      "period": "1883"
+    },
+    {
+      "id": "mt69",
+      "name": {
+        "tr": "Perth Darphane",
+        "en": "Perth Mint",
+        "ar": "دار ضرب بيرث"
+      },
+      "lat": -31.96,
+      "lng": 115.86,
+      "country": "AU",
+      "period": "1899-günümüz"
+    },
+    {
+      "id": "mt70",
+      "name": {
+        "tr": "Swiss Mint",
+        "en": "Swiss Mint",
+        "ar": "دار ضرب سويسرا"
+      },
+      "lat": 46.95,
+      "lng": 7.44,
+      "country": "CH",
+      "period": "1848-günümüz"
+    },
+    {
+      "id": "mt71",
+      "name": {
+        "tr": "Jaipur Darphane",
+        "en": "Jaipur Mint",
+        "ar": "دار ضرب جايبور"
+      },
+      "lat": 26.91,
+      "lng": 75.79,
+      "country": "IN",
+      "period": "1727"
+    },
+    {
+      "id": "mt72",
+      "name": {
+        "tr": "Hannover Darphane",
+        "en": "Hannover Mint",
+        "ar": "دار ضرب هانوفر"
+      },
+      "lat": 52.37,
+      "lng": 9.73,
+      "country": "DE",
+      "period": "Medieval"
+    },
+    {
+      "id": "mt73",
+      "name": {
+        "tr": "Paris Monnaie",
+        "en": "Paris Mint",
+        "ar": "دار ضرب باريس"
+      },
+      "lat": 48.86,
+      "lng": 2.34,
+      "country": "FR",
+      "period": "864-günümüz"
+    },
+    {
+      "id": "mt74",
+      "name": {
+        "tr": "Beijing Darphane",
+        "en": "Beijing Mint",
+        "ar": "دار ضرب بكين"
+      },
+      "lat": 39.91,
+      "lng": 116.4,
+      "country": "CN",
+      "period": "Yuan"
+    },
+    {
+      "id": "mt75",
+      "name": {
+        "tr": "Venedik Darphane",
+        "en": "Venice Mint",
+        "ar": "دار ضرب البندقية"
+      },
+      "lat": 45.43,
+      "lng": 12.33,
+      "country": "IT",
+      "period": "Medieval"
+    }
+  ],
+  "crafts": [
+    {
+      "id": "c1",
+      "name": {
+        "tr": "Trabzon Telkâri",
+        "en": "Trabzon Filigree",
+        "ar": "تلكاري طرابزون"
+      },
+      "lat": 41.0027,
+      "lng": 39.7168,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Telkâri",
+      "status": "active"
+    },
+    {
+      "id": "c2",
+      "name": {
+        "tr": "Midyat Telkâri",
+        "en": "Midyat Filigree",
+        "ar": "تلكاري ميديات"
+      },
+      "lat": 37.4194,
+      "lng": 41.3389,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Telkâri",
+      "status": "active"
+    },
+    {
+      "id": "c3",
+      "name": {
+        "tr": "Beypazarı Gümüş",
+        "en": "Beypazarı Silver",
+        "ar": "فضة بيبازاري"
+      },
+      "lat": 40.1672,
+      "lng": 31.9214,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Savat/Kazaz",
+      "status": "active"
+    },
+    {
+      "id": "c4",
+      "name": {
+        "tr": "Kastamonu Kazaziye",
+        "en": "Kastamonu Kazaziye",
+        "ar": "كازازية قسطموني"
+      },
+      "lat": 41.3887,
+      "lng": 33.7765,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Kazaziye",
+      "status": "active"
+    },
+    {
+      "id": "c5",
+      "name": {
+        "tr": "Taxco",
+        "en": "Taxco",
+        "ar": "تاكسكو"
+      },
+      "lat": 18.5564,
+      "lng": -99.6048,
+      "country": "Mexico",
+      "type": "craft",
+      "technique": "Silversmith",
+      "status": "active",
+      "notes": {
+        "tr": "Meksika'nın gümüş şehri — William Spratling geleneği",
+        "en": "Mexico's silver city — William Spratling tradition",
+        "ar": "مدينة الفضة المكسيكية"
+      }
+    },
+    {
+      "id": "c6",
+      "name": {
+        "tr": "Jaipur",
+        "en": "Jaipur",
+        "ar": "جايبور"
+      },
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "country": "India",
+      "type": "craft",
+      "technique": "Meenakari",
+      "status": "active"
+    },
+    {
+      "id": "c7",
+      "name": {
+        "tr": "Fez Gümüş",
+        "en": "Fez Silverwork",
+        "ar": "فضيات فاس"
+      },
+      "lat": 34.0331,
+      "lng": -5.0003,
+      "country": "Morocco",
+      "type": "craft",
+      "technique": "Niello/Damaskene",
+      "status": "active"
+    },
+    {
+      "id": "c8",
+      "name": {
+        "tr": "San'a Gümüş",
+        "en": "Sana'a Silverwork",
+        "ar": "فضيات صنعاء"
+      },
+      "lat": 15.3694,
+      "lng": 44.191,
+      "country": "Yemen",
+      "type": "craft",
+      "technique": "Granulation",
+      "status": "active"
+    },
+    {
+      "id": "c9",
+      "name": {
+        "tr": "Chiang Mai",
+        "en": "Chiang Mai",
+        "ar": "شيانغ ماي"
+      },
+      "lat": 18.7883,
+      "lng": 98.9853,
+      "country": "Thailand",
+      "type": "craft",
+      "technique": "Hill tribe silver",
+      "status": "active"
+    },
+    {
+      "id": "c10",
+      "name": {
+        "tr": "Bali",
+        "en": "Bali",
+        "ar": "بالي"
+      },
+      "lat": -8.3405,
+      "lng": 115.092,
+      "country": "Indonesia",
+      "type": "craft",
+      "technique": "Granulation/Wire",
+      "status": "active"
+    },
+    {
+      "id": "c11",
+      "name": {
+        "tr": "Navajo (ABD Güneybatı)",
+        "en": "Navajo (US Southwest)",
+        "ar": "نافاخو (جنوب غرب أمريكا)"
+      },
+      "lat": 36.0672,
+      "lng": -109.2667,
+      "country": "USA",
+      "type": "craft",
+      "technique": "Turquoise+Silver",
+      "status": "active"
+    },
+    {
+      "id": "c12",
+      "name": {
+        "tr": "Şkodra",
+        "en": "Shkodra",
+        "ar": "شكودرا"
+      },
+      "lat": 42.0683,
+      "lng": 19.5126,
+      "country": "Albania",
+      "type": "craft",
+      "technique": "Filigree",
+      "status": "active"
+    },
+    {
+      "id": "c13",
+      "name": {
+        "tr": "Taxco Gümüşçüler",
+        "en": "Taxco Silversmiths",
+        "ar": "صاغة تاكسكو"
+      },
+      "lat": 18.5561,
+      "lng": -99.605,
+      "country": "Mexico",
+      "type": "craft",
+      "technique": "Modern tasarım",
+      "status": "active"
+    },
+    {
+      "id": "c14",
+      "name": {
+        "tr": "Cusco Filigran",
+        "en": "Cusco Filigree",
+        "ar": "فيليغران كوسكو"
+      },
+      "lat": -13.532,
+      "lng": -71.9675,
+      "country": "Peru",
+      "type": "craft",
+      "technique": "İnka filigran",
+      "status": "active"
+    },
+    {
+      "id": "c15",
+      "name": {
+        "tr": "Chiang Mai Gümüşçülük",
+        "en": "Chiang Mai Silver",
+        "ar": "فضة شيانغ ماي"
+      },
+      "lat": 18.7883,
+      "lng": 98.9853,
+      "country": "Thailand",
+      "type": "craft",
+      "technique": "Repousse, kabartma",
+      "status": "active"
+    },
+    {
+      "id": "c16",
+      "name": {
+        "tr": "Bali Gümüşçülük",
+        "en": "Bali Silver",
+        "ar": "فضة بالي"
+      },
+      "lat": -8.4095,
+      "lng": 115.1889,
+      "country": "Indonesia",
+      "type": "craft",
+      "technique": "Jawan granülasyon",
+      "status": "active"
+    },
+    {
+      "id": "c17",
+      "name": {
+        "tr": "Jaipur Meenakari",
+        "en": "Jaipur Meenakari",
+        "ar": "مينا كاري جايبور"
+      },
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "country": "India",
+      "type": "craft",
+      "technique": "Mine işçiliği",
+      "status": "active"
+    },
+    {
+      "id": "c18",
+      "name": {
+        "tr": "Fes Gümüşçülük",
+        "en": "Fez Silverwork",
+        "ar": "صياغة فاس"
+      },
+      "lat": 34.0331,
+      "lng": -5.0003,
+      "country": "Morocco",
+      "type": "craft",
+      "technique": "Berber motifleri",
+      "status": "active"
+    },
+    {
+      "id": "c19",
+      "name": {
+        "tr": "Gaziantep Telkâri",
+        "en": "Gaziantep Filigree",
+        "ar": "تلكاري غازي عنتاب"
+      },
+      "lat": 37.0662,
+      "lng": 37.3833,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Telkâri",
+      "status": "active"
+    },
+    {
+      "id": "c20",
+      "name": {
+        "tr": "Midyat Telkâri",
+        "en": "Midyat Filigree",
+        "ar": "تلكاري ميديات"
+      },
+      "lat": 37.4167,
+      "lng": 41.3386,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Süryani telkâri",
+      "status": "active"
+    },
+    {
+      "id": "c21",
+      "name": {
+        "tr": "Beypazarı Gümüşçülük",
+        "en": "Beypazarı Silver",
+        "ar": "فضة بيبازاري"
+      },
+      "lat": 40.1678,
+      "lng": 31.9214,
+      "country": "Turkey",
+      "type": "craft",
+      "technique": "Osmanlı geleneği",
+      "status": "active"
+    },
+    {
+      "id": "c22",
+      "name": {
+        "tr": "San Antonio de Areco",
+        "en": "San Antonio de Areco",
+        "ar": "سان أنطونيو دي أريكو"
+      },
+      "lat": -34.245,
+      "lng": -59.4736,
+      "country": "Argentina",
+      "type": "craft",
+      "technique": "Gaucho gümüşü",
+      "status": "active"
+    },
+    {
+      "id": "c23",
+      "name": {
+        "tr": "Oaxaca Gümüşçülük",
+        "en": "Oaxaca Silver",
+        "ar": "فضة أواكساكا"
+      },
+      "lat": 17.0732,
+      "lng": -96.7266,
+      "country": "Mexico",
+      "type": "craft",
+      "technique": "Zapotec motifleri",
+      "status": "active"
+    },
+    {
+      "id": "c24",
+      "name": {
+        "tr": "Yogyakarta Gümüşçülük",
+        "en": "Yogyakarta Silver",
+        "ar": "فضة يوجياكارتا"
+      },
+      "lat": -7.7956,
+      "lng": 110.3695,
+      "country": "Indonesia",
+      "type": "craft",
+      "technique": "Batik esinli",
+      "status": "active"
+    },
+    {
+      "id": "c25",
+      "name": {
+        "tr": "İsfahan Gümüşçülük",
+        "en": "Isfahan Silver",
+        "ar": "فضة أصفهان"
+      },
+      "lat": 32.6546,
+      "lng": 51.668,
+      "country": "Iran",
+      "type": "craft",
+      "technique": "Minakâri, kakma",
+      "status": "active"
+    },
+    {
+      "id": "c26",
+      "name": {
+        "tr": "Trabzon Hasır Atölyesi",
+        "en": "Trabzon Woven Workshop",
+        "ar": "ورشة نسج طرابزون"
+      },
+      "lat": 41.0,
+      "lng": 39.72,
+      "country": "TR",
+      "type": "weaving",
+      "desc": {
+        "tr": "Hasır işi gümüş bilezik üretimi",
+        "en": "Woven silver bracelet production",
+        "ar": "إنتاج أساور فضية منسوجة"
+      }
+    },
+    {
+      "id": "c27",
+      "name": {
+        "tr": "Konya Gümüş Sanayi",
+        "en": "Konya Silver Industry",
+        "ar": "صناعة الفضة في قونية"
+      },
+      "lat": 37.87,
+      "lng": 32.49,
+      "country": "TR",
+      "type": "production",
+      "desc": {
+        "tr": "Türkiye'nin en büyük üretim merkezi",
+        "en": "Turkey's largest production center",
+        "ar": "أكبر مركز إنتاج في تركيا"
+      }
+    },
+    {
+      "id": "c28",
+      "name": {
+        "tr": "Mardin Telkâri",
+        "en": "Mardin Filigree",
+        "ar": "فيليغري ماردين"
+      },
+      "lat": 37.31,
+      "lng": 40.73,
+      "country": "TR",
+      "type": "filigree",
+      "desc": {
+        "tr": "Güneydoğu telkâri geleneği",
+        "en": "Southeast filigree tradition",
+        "ar": "تقليد الفيليغري في الجنوب الشرقي"
+      }
+    },
+    {
+      "id": "c29",
+      "name": {
+        "tr": "Diyarbakır Savat",
+        "en": "Diyarbakır Niello",
+        "ar": "نيلو ديار بكر"
+      },
+      "lat": 37.91,
+      "lng": 40.24,
+      "country": "TR",
+      "type": "niello",
+      "desc": {
+        "tr": "Savat gümüş işçiliği merkezi",
+        "en": "Niello silverwork center",
+        "ar": "مركز صياغة النيلو الفضي"
+      }
+    },
+    {
+      "id": "c30",
+      "name": {
+        "tr": "Jaipur Meenakari",
+        "en": "Jaipur Meenakari",
+        "ar": "ميناكاري جايبور"
+      },
+      "lat": 26.91,
+      "lng": 75.79,
+      "country": "IN",
+      "type": "enamel",
+      "desc": {
+        "tr": "Mine işi gümüş merkezi",
+        "en": "Enamel silver center",
+        "ar": "مركز المينا الفضية"
+      }
+    },
+    {
+      "id": "c31",
+      "name": {
+        "tr": "Cuttack Filigree",
+        "en": "Cuttack Filigree",
+        "ar": "فيليغري كاتاك"
+      },
+      "lat": 20.46,
+      "lng": 85.88,
+      "country": "IN",
+      "type": "filigree",
+      "desc": {
+        "tr": "Hindistan telkâri başkenti",
+        "en": "India's filigree capital",
+        "ar": "عاصمة الفيليغري في الهند"
+      }
+    },
+    {
+      "id": "c32",
+      "name": {
+        "tr": "Bidar Bidriware",
+        "en": "Bidar Bidriware",
+        "ar": "بيدري بيدار"
+      },
+      "lat": 17.91,
+      "lng": 77.52,
+      "country": "IN",
+      "type": "inlay",
+      "desc": {
+        "tr": "Bidri gümüş kakma sanatı",
+        "en": "Bidri silver inlay art",
+        "ar": "فن تطعيم الفضة البيدري"
+      }
+    },
+    {
+      "id": "c33",
+      "name": {
+        "tr": "Taxco Plata",
+        "en": "Taxco Silver",
+        "ar": "فضة تاكسكو"
+      },
+      "lat": 18.56,
+      "lng": -99.6,
+      "country": "MX",
+      "type": "production",
+      "desc": {
+        "tr": "Meksika'nın gümüş başkenti",
+        "en": "Mexico's silver capital",
+        "ar": "عاصمة الفضة المكسيكية"
+      }
+    },
+    {
+      "id": "c34",
+      "name": {
+        "tr": "Chiang Mai Hill Tribe",
+        "en": "Chiang Mai Hill Tribe",
+        "ar": "قبائل تلال تشيانغ ماي"
+      },
+      "lat": 18.79,
+      "lng": 98.98,
+      "country": "TH",
+      "type": "tribal",
+      "desc": {
+        "tr": "Kuzey Tayland kabile gümüşü",
+        "en": "Northern Thailand tribal silver",
+        "ar": "فضة قبائل شمال تايلاند"
+      }
+    },
+    {
+      "id": "c35",
+      "name": {
+        "tr": "Essaouira Gümüş Çarşısı",
+        "en": "Essaouira Silver Souk",
+        "ar": "سوق الفضة في الصويرة"
+      },
+      "lat": 31.51,
+      "lng": -9.77,
+      "country": "MA",
+      "type": "berber",
+      "desc": {
+        "tr": "Fas Berber gümüş merkezi",
+        "en": "Moroccan Berber silver center",
+        "ar": "مركز الفضة الأمازيغية المغربي"
+      }
+    },
+    {
+      "id": "c36",
+      "name": {
+        "tr": "Celuk Bali",
+        "en": "Celuk Bali Silver",
+        "ar": "فضة تشيلوك بالي"
+      },
+      "lat": -8.56,
+      "lng": 115.35,
+      "country": "ID",
+      "type": "production",
+      "desc": {
+        "tr": "Bali gümüş köyü",
+        "en": "Bali silver village",
+        "ar": "قرية الفضة في بالي"
+      }
+    },
+    {
+      "id": "c37",
+      "name": {
+        "tr": "Kyoto Kinzoku",
+        "en": "Kyoto Metalwork",
+        "ar": "صياغة معادن كيوتو"
+      },
+      "lat": 35.01,
+      "lng": 135.77,
+      "country": "JP",
+      "type": "traditional",
+      "desc": {
+        "tr": "Geleneksel Japon gümüş sanatı",
+        "en": "Traditional Japanese silver art",
+        "ar": "فن الفضة الياباني التقليدي"
+      }
+    },
+    {
+      "id": "c38",
+      "name": {
+        "tr": "Safranbolu Çarşı",
+        "en": "Safranbolu Bazaar",
+        "ar": "سوق سافرانبولو"
+      },
+      "lat": 41.25,
+      "lng": 32.69,
+      "country": "TR",
+      "type": "traditional",
+      "desc": {
+        "tr": "UNESCO çarşısında gümüş dükkanları",
+        "en": "Silver shops in UNESCO bazaar",
+        "ar": "متاجر فضة في سوق التراث العالمي"
+      }
+    },
+    {
+      "id": "c39",
+      "name": {
+        "tr": "Erzurum Oltu Taşı",
+        "en": "Erzurum Oltu Stone",
+        "ar": "حجر أولتو أرزوروم"
+      },
+      "lat": 39.9,
+      "lng": 41.27,
+      "country": "TR",
+      "type": "stone-silver",
+      "desc": {
+        "tr": "Oltu taşı-gümüş kombinasyonu",
+        "en": "Oltu stone-silver combination",
+        "ar": "تركيبة حجر أولتو والفضة"
+      }
+    },
+    {
+      "id": "c40",
+      "name": {
+        "tr": "Eskişehir Lületaşı",
+        "en": "Eskişehir Meerschaum",
+        "ar": "كهرمان البحر أسكيشهير"
+      },
+      "lat": 39.78,
+      "lng": 30.52,
+      "country": "TR",
+      "type": "stone-silver",
+      "desc": {
+        "tr": "Lületaşı-gümüş aksesuar",
+        "en": "Meerschaum-silver accessories",
+        "ar": "إكسسوارات كهرمان البحر والفضة"
+      }
+    },
+    {
+      "id": "c41",
+      "name": {
+        "tr": "Gaziantep Bakırcılar",
+        "en": "Gaziantep Coppersmiths",
+        "ar": "نحاسو غازي عنتاب"
+      },
+      "lat": 37.07,
+      "lng": 37.38,
+      "country": "TR",
+      "type": "production"
+    },
+    {
+      "id": "c42",
+      "name": {
+        "tr": "Hatay Antakya Çarşısı",
+        "en": "Hatay Antakya Bazaar",
+        "ar": "سوق أنطاكيا حتاي"
+      },
+      "lat": 36.2,
+      "lng": 36.16,
+      "country": "TR",
+      "type": "traditional"
+    },
+    {
+      "id": "c43",
+      "name": {
+        "tr": "Van Gümüş Atölyeleri",
+        "en": "Van Silver Workshops",
+        "ar": "ورش فضة وان"
+      },
+      "lat": 38.49,
+      "lng": 43.38,
+      "country": "TR",
+      "type": "traditional"
+    },
+    {
+      "id": "c44",
+      "name": {
+        "tr": "Sheffield Sterling",
+        "en": "Sheffield Sterling",
+        "ar": "شيفيلد إسترلينغ"
+      },
+      "lat": 53.38,
+      "lng": -1.47,
+      "country": "GB",
+      "type": "production"
+    },
+    {
+      "id": "c45",
+      "name": {
+        "tr": "Georg Jensen Kopenhag",
+        "en": "Georg Jensen Copenhagen",
+        "ar": "جورج ينسن كوبنهاغن"
+      },
+      "lat": 55.68,
+      "lng": 12.57,
+      "country": "DK",
+      "type": "design"
+    },
+    {
+      "id": "c46",
+      "name": {
+        "tr": "Navajo Silverwork",
+        "en": "Navajo Silverwork",
+        "ar": "صياغة فضة نافاجو"
+      },
+      "lat": 36.17,
+      "lng": -109.5,
+      "country": "US",
+      "type": "tribal"
+    },
+    {
+      "id": "c47",
+      "name": {
+        "tr": "Mapuche Silver",
+        "en": "Mapuche Silver",
+        "ar": "فضة مابوتشي"
+      },
+      "lat": -38.74,
+      "lng": -72.6,
+      "country": "CL",
+      "type": "tribal"
+    },
+    {
+      "id": "c48",
+      "name": {
+        "tr": "Tuareg Gümüşü",
+        "en": "Tuareg Silver",
+        "ar": "فضة الطوارق"
+      },
+      "lat": 17.0,
+      "lng": 8.0,
+      "country": "NE",
+      "type": "tribal"
+    },
+    {
+      "id": "c49",
+      "name": {
+        "tr": "Karen Hill Tribe",
+        "en": "Karen Hill Tribe Silver",
+        "ar": "فضة قبيلة كارين"
+      },
+      "lat": 19.5,
+      "lng": 98.0,
+      "country": "TH",
+      "type": "tribal"
+    },
+    {
+      "id": "c50",
+      "name": {
+        "tr": "Hmong Gümüşü",
+        "en": "Hmong Silver",
+        "ar": "فضة همونغ"
+      },
+      "lat": 21.0,
+      "lng": 103.0,
+      "country": "VN",
+      "type": "tribal"
+    },
+    {
+      "id": "c51",
+      "name": {
+        "tr": "Oaxaca Gümüşü",
+        "en": "Oaxaca Silver",
+        "ar": "فضة أواكساكا"
+      },
+      "lat": 17.07,
+      "lng": -96.72,
+      "country": "MX",
+      "type": "indigenous"
+    },
+    {
+      "id": "c52",
+      "name": {
+        "tr": "Cusco Gümüş",
+        "en": "Cusco Silver",
+        "ar": "فضة كوسكو"
+      },
+      "lat": -13.52,
+      "lng": -71.97,
+      "country": "PE",
+      "type": "inca"
+    },
+    {
+      "id": "c53",
+      "name": {
+        "tr": "Lalibela Gümüş",
+        "en": "Lalibela Silver",
+        "ar": "فضة لاليبيلا"
+      },
+      "lat": 12.03,
+      "lng": 39.04,
+      "country": "ET",
+      "type": "coptic"
+    },
+    {
+      "id": "c54",
+      "name": {
+        "tr": "Fez Gümüş Çarşısı",
+        "en": "Fez Silver Souk",
+        "ar": "سوق فضة فاس"
+      },
+      "lat": 34.06,
+      "lng": -5.0,
+      "country": "MA",
+      "type": "berber"
+    },
+    {
+      "id": "c55",
+      "name": {
+        "tr": "Kanazawa Kinpaku",
+        "en": "Kanazawa Silver Leaf",
+        "ar": "ورق فضة كانازاوا"
+      },
+      "lat": 36.56,
+      "lng": 136.66,
+      "country": "JP",
+      "type": "leaf"
+    }
+  ],
+  "museums": [
+    {
+      "id": "mu1",
+      "name": {
+        "tr": "Topkapı Sarayı",
+        "en": "Topkapi Palace",
+        "ar": "قصر طوبقابي"
+      },
+      "lat": 41.0115,
+      "lng": 28.9834,
+      "country": "Turkey",
+      "type": "museum",
+      "notes": {
+        "tr": "Osmanlı hazinesi — dünyanın en zengin gümüş koleksiyonlarından",
+        "en": "Ottoman treasury — one of world's richest silver collections",
+        "ar": "خزينة عثمانية — من أغنى مجموعات الفضة في العالم"
+      }
+    },
+    {
+      "id": "mu2",
+      "name": {
+        "tr": "V&A Müzesi",
+        "en": "Victoria & Albert Museum",
+        "ar": "متحف فيكتوريا وألبرت"
+      },
+      "lat": 51.4966,
+      "lng": -0.1722,
+      "country": "UK",
+      "type": "museum"
+    },
+    {
+      "id": "mu3",
+      "name": {
+        "tr": "Metropolitan Sanat Müzesi",
+        "en": "Metropolitan Museum of Art",
+        "ar": "متحف المتروبوليتان"
+      },
+      "lat": 40.7794,
+      "lng": -73.9632,
+      "country": "USA",
+      "type": "museum"
+    },
+    {
+      "id": "mu4",
+      "name": {
+        "tr": "İstanbul Arkeoloji Müzesi",
+        "en": "Istanbul Archaeology Museum",
+        "ar": "متحف إسطنبول الأثري"
+      },
+      "lat": 41.0116,
+      "lng": 28.9813,
+      "country": "Turkey",
+      "type": "museum"
+    },
+    {
+      "id": "mu5",
+      "name": {
+        "tr": "British Museum",
+        "en": "British Museum",
+        "ar": "المتحف البريطاني"
+      },
+      "lat": 51.5194,
+      "lng": -0.127,
+      "country": "UK",
+      "type": "museum"
+    },
+    {
+      "id": "mu6",
+      "name": {
+        "tr": "Beypazarı Gümüş Müzesi",
+        "en": "Beypazarı Silver Museum",
+        "ar": "متحف فضة بيبازاري"
+      },
+      "lat": 40.1672,
+      "lng": 31.9214,
+      "country": "Turkey",
+      "type": "museum"
+    },
+    {
+      "id": "mu7",
+      "name": {
+        "tr": "Louvre (İslam Sanatları)",
+        "en": "Louvre (Islamic Arts)",
+        "ar": "اللوفر (الفنون الإسلامية)"
+      },
+      "lat": 48.8606,
+      "lng": 2.3376,
+      "country": "France",
+      "type": "museum"
+    },
+    {
+      "id": "mu8",
+      "name": {
+        "tr": "Kahire İslam Eserleri Müzesi",
+        "en": "Museum of Islamic Art Cairo",
+        "ar": "متحف الفن الإسلامي بالقاهرة"
+      },
+      "lat": 30.0413,
+      "lng": 31.2575,
+      "country": "Egypt",
+      "type": "museum"
+    },
+    {
+      "id": "mu9",
+      "name": {
+        "tr": "Hermitage",
+        "en": "Hermitage Museum",
+        "ar": "متحف هيرميتاج"
+      },
+      "lat": 59.9398,
+      "lng": 30.3146,
+      "country": "Russia",
+      "type": "museum"
+    },
+    {
+      "id": "mu10",
+      "name": {
+        "tr": "Silver Museum (Firenze)",
+        "en": "Silver Museum (Florence)",
+        "ar": "متحف الفضة (فلورنسا)"
+      },
+      "lat": 43.7654,
+      "lng": 11.25,
+      "country": "Italy",
+      "type": "museum"
+    },
+    {
+      "id": "mu11",
+      "name": {
+        "tr": "Museo de la Plata (Potosí)",
+        "en": "Silver Museum (Potosí)",
+        "ar": "متحف الفضة (بوتوسي)"
+      },
+      "lat": -19.5836,
+      "lng": -65.7533,
+      "country": "Bolivia",
+      "type": "museum"
+    },
+    {
+      "id": "mu12",
+      "name": {
+        "tr": "Taxco Gümüş Müzesi",
+        "en": "Taxco Silver Museum",
+        "ar": "متحف فضة تاكسكو"
+      },
+      "lat": 18.5564,
+      "lng": -99.6048,
+      "country": "Mexico",
+      "type": "museum"
+    },
+    {
+      "id": "mu13",
+      "name": {
+        "tr": "Smithsonian (Doğa Tarihi)",
+        "en": "Smithsonian Natural History",
+        "ar": "سميثسونيان للتاريخ الطبيعي"
+      },
+      "lat": 38.8913,
+      "lng": -77.0261,
+      "country": "USA",
+      "type": "museum"
+    },
+    {
+      "id": "mu14",
+      "name": {
+        "tr": "Iwami Ginzan Müzesi",
+        "en": "Iwami Ginzan Museum",
+        "ar": "متحف إيوامي غينزان"
+      },
+      "lat": 35.11,
+      "lng": 132.44,
+      "country": "Japan",
+      "type": "museum"
+    },
+    {
+      "id": "mu15",
+      "name": {
+        "tr": "Kongsberg Madencilik Müzesi",
+        "en": "Kongsberg Mining Museum",
+        "ar": "متحف كونغسبرغ للتعدين"
+      },
+      "lat": 59.633,
+      "lng": 9.65,
+      "country": "Norway",
+      "type": "museum"
+    },
+    {
+      "id": "mu16",
+      "name": {
+        "tr": "Victoria & Albert Müzesi",
+        "en": "Victoria & Albert Museum",
+        "ar": "متحف فيكتوريا وألبرت"
+      },
+      "lat": 51.4966,
+      "lng": -0.1722,
+      "country": "UK",
+      "type": "museum",
+      "notes": {
+        "tr": "Dünyanın en büyük gümüş koleksiyonlarından biri",
+        "en": "One of world's largest silver collections",
+        "ar": "واحدة من أكبر مجموعات الفضة في العالم"
+      }
+    },
+    {
+      "id": "mu17",
+      "name": {
+        "tr": "Metropolitan Müzesi",
+        "en": "Metropolitan Museum",
+        "ar": "متحف المتروبوليتان"
+      },
+      "lat": 40.7794,
+      "lng": -73.9632,
+      "country": "USA",
+      "type": "museum",
+      "notes": {
+        "tr": "Amerikan ve Avrupa gümüş koleksiyonu",
+        "en": "American and European silver collection",
+        "ar": "مجموعة الفضة الأمريكية والأوروبية"
+      }
+    },
+    {
+      "id": "mu18",
+      "name": {
+        "tr": "Hermitage Müzesi",
+        "en": "Hermitage Museum",
+        "ar": "متحف الإرميتاج"
+      },
+      "lat": 59.9398,
+      "lng": 30.3146,
+      "country": "Russia",
+      "type": "museum"
+    },
+    {
+      "id": "mu19",
+      "name": {
+        "tr": "Rijksmuseum",
+        "en": "Rijksmuseum",
+        "ar": "متحف ريكس"
+      },
+      "lat": 52.36,
+      "lng": 4.8852,
+      "country": "Netherlands",
+      "type": "museum"
+    },
+    {
+      "id": "mu20",
+      "name": {
+        "tr": "Taxco Gümüş Müzesi",
+        "en": "Taxco Silver Museum",
+        "ar": "متحف فضة تاكسكو"
+      },
+      "lat": 18.5561,
+      "lng": -99.605,
+      "country": "Mexico",
+      "type": "museum"
+    },
+    {
+      "id": "mu21",
+      "name": {
+        "tr": "Türk İslam Eserleri Müzesi",
+        "en": "Museum of Turkish and Islamic Arts",
+        "ar": "متحف الآثار التركية والإسلامية"
+      },
+      "lat": 41.0064,
+      "lng": 28.9753,
+      "country": "Turkey",
+      "type": "museum"
+    },
+    {
+      "id": "mu22",
+      "name": {
+        "tr": "Konya Mevlana Müzesi",
+        "en": "Mevlana Museum Konya",
+        "ar": "متحف مولانا قونيا"
+      },
+      "lat": 37.8718,
+      "lng": 32.5047,
+      "country": "Turkey",
+      "type": "museum"
+    },
+    {
+      "id": "mu23",
+      "name": {
+        "tr": "Iwami Ginzan Müzesi",
+        "en": "Iwami Ginzan Museum",
+        "ar": "متحف إوامي غينزان"
+      },
+      "lat": 35.1069,
+      "lng": 132.435,
+      "country": "Japan",
+      "type": "museum"
+    },
+    {
+      "id": "mu24",
+      "name": {
+        "tr": "Potosí Casa de la Moneda",
+        "en": "Potosí Mint Museum",
+        "ar": "متحف دار الضرب بوتوسي"
+      },
+      "lat": -19.5836,
+      "lng": -65.7533,
+      "country": "Bolivia",
+      "type": "museum"
+    },
+    {
+      "id": "mu25",
+      "name": {
+        "tr": "Kongsberg Gümüş Madenleri",
+        "en": "Kongsberg Silver Mines",
+        "ar": "مناجم فضة كونغسبرغ"
+      },
+      "lat": 59.6331,
+      "lng": 9.6514,
+      "country": "Norway",
+      "type": "museum"
+    },
+    {
+      "id": "mu26",
+      "name": {
+        "tr": "Topkapı Sarayı Gümüş Koleksiyonu",
+        "en": "Topkapı Palace Silver Collection",
+        "ar": "مجموعة الفضة في قصر توبكابي"
+      },
+      "lat": 41.01,
+      "lng": 28.98,
+      "country": "TR",
+      "desc": {
+        "tr": "Osmanlı saray gümüşü",
+        "en": "Ottoman palace silver",
+        "ar": "فضة القصر العثماني"
+      }
+    },
+    {
+      "id": "mu27",
+      "name": {
+        "tr": "Anadolu Medeniyetleri Müzesi",
+        "en": "Museum of Anatolian Civilizations",
+        "ar": "متحف حضارات الأناضول"
+      },
+      "lat": 39.94,
+      "lng": 32.87,
+      "country": "TR",
+      "desc": {
+        "tr": "Hitit ve antik gümüş eserleri",
+        "en": "Hittite and ancient silver artifacts",
+        "ar": "آثار فضية حثية وقديمة"
+      }
+    },
+    {
+      "id": "mu28",
+      "name": {
+        "tr": "British Museum Gümüş",
+        "en": "British Museum Silver",
+        "ar": "الفضة في المتحف البريطاني"
+      },
+      "lat": 51.52,
+      "lng": -0.13,
+      "country": "GB",
+      "desc": {
+        "tr": "Dünya gümüş koleksiyonu",
+        "en": "World silver collection",
+        "ar": "مجموعة الفضة العالمية"
+      }
+    },
+    {
+      "id": "mu29",
+      "name": {
+        "tr": "Met Gümüş Galerisi",
+        "en": "Met Silver Gallery",
+        "ar": "معرض الفضة في المتروبوليتان"
+      },
+      "lat": 40.78,
+      "lng": -73.96,
+      "country": "US",
+      "desc": {
+        "tr": "Amerikan gümüş sanatı",
+        "en": "American silver art",
+        "ar": "فن الفضة الأمريكي"
+      }
+    },
+    {
+      "id": "mu30",
+      "name": {
+        "tr": "Hermitage Gümüş",
+        "en": "Hermitage Silver",
+        "ar": "الفضة في الأرميتاج"
+      },
+      "lat": 59.94,
+      "lng": 30.31,
+      "country": "RU",
+      "desc": {
+        "tr": "İskit ve Rus gümüşü",
+        "en": "Scythian and Russian silver",
+        "ar": "الفضة السكيثية والروسية"
+      }
+    },
+    {
+      "id": "mu31",
+      "name": {
+        "tr": "İwami Ginzan Müzesi",
+        "en": "Iwami Ginzan Museum",
+        "ar": "متحف إيوامي غينزان"
+      },
+      "lat": 35.1,
+      "lng": 132.43,
+      "country": "JP",
+      "desc": {
+        "tr": "UNESCO maden müzesi",
+        "en": "UNESCO mine museum",
+        "ar": "متحف المنجم التابع لليونسكو"
+      }
+    },
+    {
+      "id": "mu32",
+      "name": {
+        "tr": "National Museum Delhi",
+        "en": "National Museum Delhi",
+        "ar": "المتحف الوطني دلهي"
+      },
+      "lat": 28.61,
+      "lng": 77.22,
+      "country": "IN",
+      "desc": {
+        "tr": "Hint gümüş sanatı",
+        "en": "Indian silver art",
+        "ar": "فن الفضة الهندي"
+      }
+    },
+    {
+      "id": "mu33",
+      "name": {
+        "tr": "Dar al-Athar İslam",
+        "en": "Dar al-Athar al-Islamiyyah",
+        "ar": "دار الآثار الإسلامية"
+      },
+      "lat": 29.37,
+      "lng": 47.98,
+      "country": "KW",
+      "desc": {
+        "tr": "İslam gümüş sanatı",
+        "en": "Islamic silver art",
+        "ar": "فن الفضة الإسلامي"
+      }
+    },
+    {
+      "id": "mu34",
+      "name": {
+        "tr": "Gümüşhane Kent Müzesi",
+        "en": "Gümüşhane City Museum",
+        "ar": "متحف مدينة غوموشخانه"
+      },
+      "lat": 40.46,
+      "lng": 39.48,
+      "country": "TR",
+      "desc": {
+        "tr": "Gümüş madencilik tarihi",
+        "en": "Silver mining history",
+        "ar": "تاريخ تعدين الفضة"
+      }
+    },
+    {
+      "id": "mu35",
+      "name": {
+        "tr": "Potosí Casa Nacional Moneda",
+        "en": "Potosí National Mint",
+        "ar": "دار الضرب الوطنية بوتوسي"
+      },
+      "lat": -19.59,
+      "lng": -65.75,
+      "country": "BO",
+      "desc": {
+        "tr": "Sömürge dönemi darphane",
+        "en": "Colonial era mint",
+        "ar": "دار ضرب العصر الاستعماري"
+      }
+    },
+    {
+      "id": "mu36",
+      "name": {
+        "tr": "Smithsonian Gümüş",
+        "en": "Smithsonian Silver",
+        "ar": "الفضة في سميثسونيان"
+      },
+      "lat": 38.89,
+      "lng": -77.03,
+      "country": "US"
+    },
+    {
+      "id": "mu37",
+      "name": {
+        "tr": "Louvre Gümüş Koleksiyonu",
+        "en": "Louvre Silver Collection",
+        "ar": "مجموعة الفضة في اللوفر"
+      },
+      "lat": 48.86,
+      "lng": 2.34,
+      "country": "FR"
+    },
+    {
+      "id": "mu38",
+      "name": {
+        "tr": "Benaki Müzesi",
+        "en": "Benaki Museum",
+        "ar": "متحف بيناكي"
+      },
+      "lat": 37.97,
+      "lng": 23.74,
+      "country": "GR"
+    },
+    {
+      "id": "mu39",
+      "name": {
+        "tr": "Taxco Gümüş Müzesi",
+        "en": "Taxco Silver Museum",
+        "ar": "متحف فضة تاكسكو"
+      },
+      "lat": 18.56,
+      "lng": -99.6,
+      "country": "MX"
+    },
+    {
+      "id": "mu40",
+      "name": {
+        "tr": "Kremlin Silah Odası",
+        "en": "Kremlin Armoury",
+        "ar": "غرفة أسلحة الكرملين"
+      },
+      "lat": 55.75,
+      "lng": 37.62,
+      "country": "RU"
+    },
+    {
+      "id": "mu41",
+      "name": {
+        "tr": "Ashmolean Müzesi",
+        "en": "Ashmolean Museum",
+        "ar": "متحف أشموليان"
+      },
+      "lat": 51.76,
+      "lng": -1.26,
+      "country": "GB"
+    },
+    {
+      "id": "mu42",
+      "name": {
+        "tr": "İstanbul Arkeoloji",
+        "en": "Istanbul Archaeology",
+        "ar": "متحف إسطنبول الأثري"
+      },
+      "lat": 41.01,
+      "lng": 28.98,
+      "country": "TR"
+    },
+    {
+      "id": "mu43",
+      "name": {
+        "tr": "Numismatik Müze Berlin",
+        "en": "Numismatic Museum Berlin",
+        "ar": "المتحف النقدي برلين"
+      },
+      "lat": 52.52,
+      "lng": 13.4,
+      "country": "DE"
+    },
+    {
+      "id": "mu44",
+      "name": {
+        "tr": "Pergamon Müzesi",
+        "en": "Pergamon Museum",
+        "ar": "متحف بيرغامون"
+      },
+      "lat": 52.52,
+      "lng": 13.4,
+      "country": "DE"
+    },
+    {
+      "id": "mu45",
+      "name": {
+        "tr": "National Museum Tokyo",
+        "en": "National Museum Tokyo",
+        "ar": "المتحف الوطني طوكيو"
+      },
+      "lat": 35.72,
+      "lng": 139.77,
+      "country": "JP"
+    }
+  ],
+  "routes": [
+    {
+      "id": "r1",
+      "name": {
+        "tr": "İpek Yolu Gümüş Güzergahı",
+        "en": "Silk Road Silver Route",
+        "ar": "طريق الفضة على طريق الحرير"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 34.35,
+          "lng": 62.2
+        },
+        {
+          "lat": 39.65,
+          "lng": 66.96
+        },
+        {
+          "lat": 39.47,
+          "lng": 75.99
+        },
+        {
+          "lat": 36.06,
+          "lng": 103.83
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "name": {
+        "tr": "Atlantik Gümüş Rotası",
+        "en": "Atlantic Silver Route",
+        "ar": "طريق الفضة الأطلسي"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": -19.58,
+          "lng": -65.75
+        },
+        {
+          "lat": -12.05,
+          "lng": -77.04
+        },
+        {
+          "lat": 9.35,
+          "lng": -79.9
+        },
+        {
+          "lat": 37.39,
+          "lng": -5.98
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "name": {
+        "tr": "Manila Galeonu Rotası",
+        "en": "Manila Galleon Route",
+        "ar": "طريق سفينة مانيلا"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 16.87,
+          "lng": -99.89
+        },
+        {
+          "lat": 14.6,
+          "lng": 120.98
+        },
+        {
+          "lat": 31.23,
+          "lng": 121.47
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "name": {
+        "tr": "Anadolu İç Güzergahı",
+        "en": "Anatolian Inner Route",
+        "ar": "الطريق الداخلي الأناضولي"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 41.0,
+          "lng": 28.98
+        },
+        {
+          "lat": 39.93,
+          "lng": 32.85
+        },
+        {
+          "lat": 37.87,
+          "lng": 32.48
+        },
+        {
+          "lat": 37.0,
+          "lng": 35.32
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "name": {
+        "tr": "Kuzey Avrupa Gümüş Ticareti",
+        "en": "North European Silver Trade",
+        "ar": "تجارة الفضة في شمال أوروبا"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 59.63,
+          "lng": 9.65
+        },
+        {
+          "lat": 55.68,
+          "lng": 12.57
+        },
+        {
+          "lat": 52.37,
+          "lng": 4.9
+        },
+        {
+          "lat": 51.51,
+          "lng": -0.13
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "name": {
+        "tr": "Hac Yolu Gümüş Ticareti",
+        "en": "Hajj Route Silver Trade",
+        "ar": "تجارة الفضة على طريق الحج"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 30.04,
+          "lng": 31.24
+        },
+        {
+          "lat": 24.47,
+          "lng": 39.61
+        },
+        {
+          "lat": 21.42,
+          "lng": 39.83
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "name": {
+        "tr": "Hint Okyanusu Rotası",
+        "en": "Indian Ocean Route",
+        "ar": "طريق المحيط الهندي"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 12.97,
+          "lng": 77.59
+        },
+        {
+          "lat": 15.37,
+          "lng": 44.19
+        },
+        {
+          "lat": 25.29,
+          "lng": 55.33
+        },
+        {
+          "lat": 30.04,
+          "lng": 31.24
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "name": {
+        "tr": "Comstock-San Francisco",
+        "en": "Comstock-San Francisco",
+        "ar": "كومستوك-سان فرانسيسكو"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 39.31,
+          "lng": -119.65
+        },
+        {
+          "lat": 37.77,
+          "lng": -122.42
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "name": {
+        "tr": "Potosí-Lima Katır Yolu",
+        "en": "Potosí-Lima Mule Trail",
+        "ar": "طريق بغال بوتوسي-ليما"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": -19.58,
+          "lng": -65.75
+        },
+        {
+          "lat": -16.5,
+          "lng": -68.15
+        },
+        {
+          "lat": -12.05,
+          "lng": -77.04
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "name": {
+        "tr": "Japon Gümüş İhracat Rotası",
+        "en": "Japanese Silver Export Route",
+        "ar": "طريق تصدير الفضة اليابانية"
+      },
+      "type": "route",
+      "points": [
+        {
+          "lat": 35.11,
+          "lng": 132.44
+        },
+        {
+          "lat": 34.69,
+          "lng": 135.5
+        },
+        {
+          "lat": 22.4,
+          "lng": 114.11
+        },
+        {
+          "lat": 14.6,
+          "lng": 120.98
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "name": {
+        "tr": "Anadolu Gümüş Yolu",
+        "en": "Anatolian Silver Road",
+        "ar": "طريق الفضة الأناضولي"
+      },
+      "points": [
+        {
+          "lat": 40.46,
+          "lng": 39.48
+        },
+        {
+          "lat": 39.93,
+          "lng": 32.86
+        },
+        {
+          "lat": 41.01,
+          "lng": 28.98
+        }
+      ],
+      "desc": {
+        "tr": "Gümüşhane-Ankara-İstanbul",
+        "en": "Gümüşhane-Ankara-Istanbul",
+        "ar": "غوموشخانه-أنقرة-إسطنبول"
+      }
+    },
+    {
+      "id": "r12",
+      "name": {
+        "tr": "Güneydoğu Zanaat Hattı",
+        "en": "Southeast Craft Line",
+        "ar": "خط حرف الجنوب الشرقي"
+      },
+      "points": [
+        {
+          "lat": 37.91,
+          "lng": 40.24
+        },
+        {
+          "lat": 37.31,
+          "lng": 40.73
+        },
+        {
+          "lat": 37.07,
+          "lng": 37.38
+        }
+      ],
+      "desc": {
+        "tr": "Diyarbakır-Mardin-Gaziantep",
+        "en": "Diyarbakır-Mardin-Gaziantep",
+        "ar": "ديار بكر-ماردين-غازي عنتاب"
+      }
+    },
+    {
+      "id": "r13",
+      "name": {
+        "tr": "Hindistan Gümüş Koridoru",
+        "en": "Indian Silver Corridor",
+        "ar": "ممر الفضة الهندي"
+      },
+      "points": [
+        {
+          "lat": 26.91,
+          "lng": 75.79
+        },
+        {
+          "lat": 28.61,
+          "lng": 77.22
+        },
+        {
+          "lat": 20.46,
+          "lng": 85.88
+        }
+      ],
+      "desc": {
+        "tr": "Jaipur-Delhi-Cuttack",
+        "en": "Jaipur-Delhi-Cuttack",
+        "ar": "جايبور-دلهي-كاتاك"
+      }
+    },
+    {
+      "id": "r14",
+      "name": {
+        "tr": "And Dağları Gümüş Yolu",
+        "en": "Andean Silver Route",
+        "ar": "طريق الفضة الأنديزي"
+      },
+      "points": [
+        {
+          "lat": -19.59,
+          "lng": -65.75
+        },
+        {
+          "lat": -13.52,
+          "lng": -71.97
+        },
+        {
+          "lat": -12.05,
+          "lng": -77.04
+        }
+      ],
+      "desc": {
+        "tr": "Potosí-Cusco-Lima",
+        "en": "Potosí-Cusco-Lima",
+        "ar": "بوتوسي-كوسكو-ليما"
+      }
+    },
+    {
+      "id": "r15",
+      "name": {
+        "tr": "Japon Gümüş Yolu",
+        "en": "Japanese Silver Road",
+        "ar": "طريق الفضة الياباني"
+      },
+      "points": [
+        {
+          "lat": 35.1,
+          "lng": 132.43
+        },
+        {
+          "lat": 34.69,
+          "lng": 135.5
+        },
+        {
+          "lat": 35.68,
+          "lng": 139.69
+        }
+      ],
+      "desc": {
+        "tr": "İwami-Osaka-Edo",
+        "en": "Iwami-Osaka-Edo",
+        "ar": "إيوامي-أوساكا-إيدو"
+      }
+    },
+    {
+      "id": "r16",
+      "name": {
+        "tr": "Karadeniz Gümüş Rotası",
+        "en": "Black Sea Silver Route",
+        "ar": "طريق الفضة في البحر الأسود"
+      },
+      "points": [
+        {
+          "lat": 41.0,
+          "lng": 39.72
+        },
+        {
+          "lat": 41.29,
+          "lng": 36.33
+        },
+        {
+          "lat": 41.01,
+          "lng": 28.98
+        }
+      ],
+      "desc": {
+        "tr": "Trabzon-Samsun-İstanbul",
+        "en": "Trabzon-Samsun-Istanbul",
+        "ar": "طرابزون-سامسون-إسطنبول"
+      }
+    },
+    {
+      "id": "r17",
+      "name": {
+        "tr": "Kuzey Afrika Gümüş Yolu",
+        "en": "North Africa Silver Route",
+        "ar": "طريق الفضة في شمال أفريقيا"
+      },
+      "points": [
+        {
+          "lat": 34.06,
+          "lng": -5.0
+        },
+        {
+          "lat": 31.51,
+          "lng": -9.77
+        },
+        {
+          "lat": 36.75,
+          "lng": 3.06
+        }
+      ],
+      "desc": {
+        "tr": "Fez-Essaouira-Cezayir",
+        "en": "Fez-Essaouira-Algiers",
+        "ar": "فاس-الصويرة-الجزائر"
+      }
+    }
+  ]
+}

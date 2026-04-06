@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SilverAtlas — Gümüş Bakım Rehberi</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f0f14;--bg2:#1a1a24;--bg3:#111118;--text:#e8e8ec;--text2:#9a9aaa;--border:rgba(192,192,192,0.1);--accent:#C0C0C0;--gold:#D4AF37;--green:#7BE495;--red:#FF6B6B;--blue:#6EC6FF;--purple:#C9A0DC;--fd:'Playfair Display',Georgia,serif;--fb:'Source Sans 3','Segoe UI',sans-serif;}
+.light{--bg:#FAFAF5;--bg2:#fff;--bg3:#f5f5f0;--text:#2C2C2C;--text2:#6B7280;--border:rgba(0,0,0,0.06);--accent:#708090;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:var(--fb);background:var(--bg);color:var(--text);min-height:100vh;transition:background .4s,color .4s;}
+
+.nav{position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;background:var(--bg);border-bottom:1px solid var(--border);backdrop-filter:blur(16px);}
+.nav-brand{display:flex;align-items:center;gap:8px;}
+.nav-logo{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--gold));display:flex;align-items:center;justify-content:center;font:700 11px var(--fd);color:#0f0f14;}
+.nav-title{font:600 15px var(--fd);}
+.ctrls{display:flex;align-items:center;gap:10px;}
+.lng{display:flex;gap:2px;background:rgba(128,128,128,.08);border-radius:6px;padding:2px;}
+.lng button{border:none;cursor:pointer;padding:3px 8px;border-radius:4px;font-size:11px;background:transparent;color:var(--text2);transition:all .2s;font-family:var(--fb);}
+.lng button.on{background:rgba(192,192,192,.15);color:var(--text);font-weight:600;}
+.mbtn{border:none;cursor:pointer;background:transparent;color:var(--text2);font-size:15px;}
+
+.container{max-width:680px;margin:0 auto;padding:32px 24px 64px;}
+
+/* Hero */
+.hero{text-align:center;margin-bottom:40px;}
+.hero .badge{display:inline-block;padding:4px 14px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.1em;color:var(--gold);border:1px solid rgba(212,175,55,.3);margin-bottom:16px;text-transform:uppercase;}
+.hero h1{font:700 clamp(26px,5vw,38px)/1.15 var(--fd);margin-bottom:12px;}
+.hero p{font-size:15px;color:var(--text2);line-height:1.7;max-width:500px;margin:0 auto;}
+
+/* Progress */
+.progress{display:flex;align-items:center;gap:4px;justify-content:center;margin-bottom:32px;}
+.prog-dot{width:10px;height:10px;border-radius:50%;background:var(--border);transition:all .3s;}
+.prog-dot.done{background:var(--green);}
+.prog-dot.current{background:var(--gold);box-shadow:0 0 8px rgba(212,175,55,.4);}
+.prog-line{width:20px;height:2px;background:var(--border);border-radius:1px;transition:background .3s;}
+.prog-line.done{background:var(--green);}
+
+/* Step card */
+.step-card{background:var(--bg2);border:1px solid var(--border);border-radius:18px;padding:32px 28px;animation:fadeUp .4s ease;position:relative;overflow:hidden;}
+.step-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:18px 18px 0 0;}
+.step-icon{font-size:36px;margin-bottom:16px;display:block;}
+.step-q{font:600 20px/1.3 var(--fd);margin-bottom:8px;}
+.step-desc{font-size:14px;color:var(--text2);line-height:1.7;margin-bottom:24px;}
+
+/* Options */
+.options{display:flex;flex-direction:column;gap:10px;}
+.opt-btn{display:flex;align-items:center;gap:14px;width:100%;border:1.5px solid var(--border);border-radius:14px;padding:16px 18px;cursor:pointer;background:transparent;color:var(--text);font:14px/1.4 var(--fb);text-align:left;transition:all .25s;}
+.opt-btn:hover{border-color:var(--gold);background:rgba(212,175,55,.04);transform:translateX(4px);}
+[dir=rtl] .opt-btn:hover{transform:translateX(-4px);}
+.opt-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+.opt-text{flex:1;}
+.opt-title{font-weight:600;margin-bottom:2px;}
+.opt-sub{font-size:12px;color:var(--text2);}
+.opt-arrow{color:var(--text2);font-size:16px;transition:transform .2s;}
+.opt-btn:hover .opt-arrow{transform:translateX(3px);color:var(--gold);}
+[dir=rtl] .opt-btn:hover .opt-arrow{transform:translateX(-3px);}
+
+/* Result card */
+.result{background:var(--bg2);border:1px solid var(--border);border-radius:18px;padding:32px 28px;animation:fadeUp .4s ease;}
+.result-badge{display:inline-block;padding:4px 12px;border-radius:8px;font-size:11px;font-weight:600;margin-bottom:16px;}
+.result h2{font:600 22px/1.3 var(--fd);margin-bottom:12px;}
+.result>p{font-size:14px;color:var(--text2);line-height:1.7;margin-bottom:20px;}
+
+/* Steps list */
+.steps-list{display:flex;flex-direction:column;gap:12px;margin-bottom:24px;}
+.sl-item{display:flex;gap:12px;align-items:flex-start;}
+.sl-num{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:2px;}
+.sl-content{flex:1;}
+.sl-title{font-weight:600;font-size:14px;margin-bottom:2px;}
+.sl-desc{font-size:13px;color:var(--text2);line-height:1.6;}
+
+/* Warning box */
+.warn{display:flex;gap:10px;padding:14px 16px;border-radius:10px;margin-bottom:20px;font-size:13px;line-height:1.6;}
+.warn-icon{font-size:18px;flex-shrink:0;margin-top:1px;}
+
+/* Buttons */
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;}
+.btn{border:none;cursor:pointer;padding:12px 24px;border-radius:10px;font:600 13px var(--fb);transition:all .2s;display:inline-flex;align-items:center;gap:6px;}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--gold));color:#0f0f14;}
+.btn-primary:hover{transform:scale(1.03);box-shadow:0 8px 24px rgba(212,175,55,.2);}
+.btn-secondary{background:transparent;border:1px solid var(--border);color:var(--text);}
+.btn-secondary:hover{border-color:var(--accent);}
+.btn-ig{background:linear-gradient(135deg,#833AB4,#FD1D1D,#F77737);color:#fff;}
+.btn-ig:hover{transform:scale(1.03);}
+
+/* Sponsor */
+.sponsor{border:1px solid rgba(212,175,55,.15);border-radius:16px;padding:24px;text-align:center;margin-top:28px;background:rgba(212,175,55,.02);}
+.sponsor p{font-size:14px;line-height:1.6;margin-bottom:14px;}
+.sponsor .note{font-size:11px;color:var(--text2);margin-top:12px;opacity:.7;}
+
+/* Path breadcrumb */
+.path{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:20px;}
+.path-item{font-size:11px;color:var(--text2);display:flex;align-items:center;gap:6px;}
+.path-dot{width:6px;height:6px;border-radius:50%;}
+
+footer{border-top:1px solid var(--border);padding:24px;text-align:center;background:var(--bg3);margin-top:48px;}
+footer p{font-size:11px;color:var(--text2);}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+<div id="app">
+  <nav class="nav">
+    <div class="nav-brand"><div class="nav-logo">Ag</div><span class="nav-title">SilverAtlas</span></div>
+    <div class="ctrls">
+      <div class="lng" id="langG"></div>
+      <button class="mbtn" id="modeB">☀️</button>
+    </div>
+  </nav>
+  <div class="container" id="main"></div>
+  <footer><p>CC BY-NC-SA 4.0 · SilverAtlas · Sponsored by İstanbul Gümüş</p></footer>
+</div>
+
+<script>
+// ─── DECISION TREE ───────────────────────────────────────
+// Each node: { id, icon, question, desc, options:[{label, sub, icon, color, next}] }
+// Leaf nodes: { id, type:"result", severity, icon, title, desc, steps, warnings, prevention }
+
+const TREE = {
+  tr: {
+    start: {
+      id:"start",icon:"🔍",
+      question:"Gümüş takınızda ne gibi bir sorun var?",
+      desc:"Sorununuzu en iyi tanımlayan seçeneği seçin — size özel çözüm önerileri sunalım.",
+      options:[
+        {label:"Karardı / Renk değiştirdi",sub:"Sarımsı, siyahımsı veya mat görünüm",icon:"🌑",color:"#FFB86C",next:"tarnish_level"},
+        {label:"Çizildi / Aşındı",sub:"Yüzeyde çizikler veya mat lekeler",icon:"⚡",color:"#FF6B6B",next:"scratch_level"},
+        {label:"Taş düştü / Gevşedi",sub:"Kaşındaki taş hareket ediyor veya düşmüş",icon:"💎",color:"#C9A0DC",next:"stone_issue"},
+        {label:"Kıvrıldı / Deforme oldu",sub:"Şekil bozulması, bükülme",icon:"🔧",color:"#6EC6FF",next:"deform"},
+        {label:"Alerji / Cilt reaksiyonu",sub:"Kızarıklık, kaşıntı, yeşil iz",icon:"🩹",color:"#E8A0BF",next:"allergy"},
+      ]
+    },
+    tarnish_level: {
+      id:"tarnish_level",icon:"🌑",
+      question:"Kararma ne seviyede?",
+      desc:"Kararmanın derecesi uygulayacağımız yöntemi belirler.",
+      options:[
+        {label:"Hafif kararma",sub:"Hafif mat görünüm, parlaklık kaybı",icon:"🌤️",color:"#FFD700",next:"result_light_tarnish"},
+        {label:"Orta kararma",sub:"Belirgin sarı-kahverengi tonlar",icon:"🌥️",color:"#DAA520",next:"result_medium_tarnish"},
+        {label:"Ağır kararma",sub:"Siyah renk, koyu lekeler",icon:"🌑",color:"#8B7355",next:"result_heavy_tarnish"},
+        {label:"Bölgesel kararma",sub:"Sadece belirli noktalarda renk değişimi",icon:"🎯",color:"#CD853F",next:"result_spot_tarnish"},
+      ]
+    },
+    scratch_level: {
+      id:"scratch_level",icon:"⚡",
+      question:"Çiziklerin derinliği nasıl?",
+      desc:"Parmağınızla dokunduğunuzda çiziği hissedebiliyor musunuz?",
+      options:[
+        {label:"Yüzeysel çizikler",sub:"Görünür ama hissedilmez",icon:"〰️",color:"#87CEEB",next:"result_light_scratch"},
+        {label:"Derin çizikler",sub:"Parmakla hissedilir oyuklar",icon:"⚡",color:"#FF6347",next:"result_deep_scratch"},
+        {label:"Genel parlaklık kaybı",sub:"Çizik yok ama mat görünüm",icon:"💫",color:"#DDA0DD",next:"result_dull"},
+      ]
+    },
+    stone_issue: {
+      id:"stone_issue",icon:"💎",
+      question:"Taşla ilgili sorun nedir?",
+      desc:"",
+      options:[
+        {label:"Taş gevşemiş / sallanıyor",sub:"Taş hâlâ yerinde ama hareket ediyor",icon:"🔔",color:"#FFD700",next:"result_loose_stone"},
+        {label:"Taş düşmüş / kayıp",sub:"Taş yuvası boş",icon:"⭕",color:"#FF6B6B",next:"result_lost_stone"},
+        {label:"Taş çatlamış / kırılmış",sub:"Taş yerinde ama hasarlı",icon:"💔",color:"#DC143C",next:"result_cracked_stone"},
+      ]
+    },
+    deform: {id:"deform",type:"result",severity:"medium",icon:"🔧",
+      title:"Şekil Bozulması / Deformasyon",
+      desc:"Gümüş nispeten yumuşak bir metal olduğundan (Mohs 2.5-3) baskı altında eğilebilir. Bu özellikle ince halka ve bilekliklerde yaygındır.",
+      steps:[
+        {t:"Kendiniz düzeltmeye çalışmayın",d:"Yanlış bükme gümüşü kırabilir veya çatlatabilir."},
+        {t:"Bir kuyumcuya götürün",d:"Profesyonel mandrel (yüzük kalıbı) üzerinde düzeltme en güvenli yöntemdir."},
+        {t:"Hasar kontrolü yaptırın",d:"Lehim noktaları ve kaş ayarları deformasyon sırasında gevşemiş olabilir."},
+      ],
+      warnings:["Pense veya çekiçle düzeltmeye çalışmak kalıcı hasara yol açar."],
+      prevention:["Ağır iş yaparken takılarınızı çıkarın","Uyurken ince bileklikleri çıkarın","Sıkı yüzükleri zorlamayın — ölçü ayarı yaptırın"]
+    },
+    allergy: {id:"allergy",type:"result",severity:"high",icon:"🩹",
+      title:"Cilt Reaksiyonu / Alerji",
+      desc:"925 ayar gümüşteki %7,5 bakır veya nadiren nikel, hassas ciltlerde reaksiyona yol açabilir. Yeşil iz ise bakırın oksidasyon ürünüdür — zararsızdır.",
+      steps:[
+        {t:"Takıyı hemen çıkarın",d:"Bölgeyi sabunlu su ile yıkayın ve kurulayın."},
+        {t:"Yeşil iz mi kızarıklık mı?",d:"Yeşil iz = bakır oksidasyonu (zararsız). Kızarıklık/kaşıntı = olası nikel alerjisi."},
+        {t:"Rodaj kaplama yaptırın",d:"Rodyum kaplama gümüş ile cilt arasında bariyer oluşturur."},
+        {t:"Hipoalerjenik alternatif değerlendirin",d:"950 ayar veya Argentium gümüş daha az bakır içerir."},
+      ],
+      warnings:["Kızarıklık 24 saat içinde geçmezse veya şişme-kabarcık oluşursa dermatoloğa başvurun."],
+      prevention:["Rodaj kaplama yeniletin (yılda 1–2 kez)","Terleme öncesi çıkarın","Şeffaf oje ile iç yüzeyi kaplama geçici çözüm olabilir"]
+    },
+
+    // ─── RESULT LEAVES ───────────────────────────────
+    result_light_tarnish: {id:"r_lt",type:"result",severity:"low",icon:"✨",
+      title:"Hafif Kararma — Kolay Çözüm",
+      desc:"Hafif kararma gümüşün havadaki kükürt bileşikleriyle (H₂S) doğal tepkimesidir. Birkaç dakikada çözülebilir.",
+      steps:[
+        {t:"Gümüş parlatma bezi kullanın",d:"Özel gümüş bezleri mikro-aşındırıcı ve anti-tarnish madde içerir. Dairesel hareketlerle silin."},
+        {t:"Alternatif: Diş macunu yöntemi",d:"Beyazlatıcısız (jel olmayan) diş macununu yumuşak bezle uygulayın, dairesel silin, ılık su ile durulayın."},
+        {t:"Kurulayın ve saklayın",d:"Tamamen kuruladıktan sonra anti-tarnish poşette saklayın."},
+      ],
+      warnings:[],
+      prevention:["Kullanmadığınızda hava almayan poşette saklayın","Silika jel paketi ekleyin (nemi emer)","Düzenli kullanım kararma hızını azaltır — en iyi koruma takmaktır"]
+    },
+    result_medium_tarnish: {id:"r_mt",type:"result",severity:"medium",icon:"🧪",
+      title:"Orta Kararma — Karbonat Yöntemi",
+      desc:"Belirgin kararma için kimyasal-fiziksel temizleme gerekir. Alüminyum folyo + karbonat yöntemi en güvenilir ev çözümüdür.",
+      steps:[
+        {t:"Malzemeleri hazırlayın",d:"Bir kase, alüminyum folyo, 1 yemek kaşığı karbonat, kaynar su."},
+        {t:"Kaseyi folyoyla kaplayın",d:"Parlak yüzey yukarı bakacak şekilde kase içini kaplayın."},
+        {t:"Karbonatı ekleyin",d:"1 yemek kaşığı karbonatı kaseye koyun, üzerine kaynar su dökün."},
+        {t:"Gümüşü batırın",d:"Takıyı folyoya temas edecek şekilde 3-5 dakika bırakın. Kükürt folyo tarafına geçecek."},
+        {t:"Durulayın ve kurulayın",d:"Temiz su ile durulayın, yumuşak bezle tamamen kurulayın."},
+      ],
+      warnings:["Taşlı takılarda dikkatli olun — bazı taşlar (firuze, inci, mercan) sıcak su ve karbonattan zarar görür."],
+      prevention:["Parfüm ve losyonu takıdan ÖNCE sürün","Ev temizliği ve bulaşık yıkarken çıkarın","Haftada bir gümüş beziyle hızlı silme yapın"]
+    },
+    result_heavy_tarnish: {id:"r_ht",type:"result",severity:"high",icon:"🛡️",
+      title:"Ağır Kararma — Profesyonel Temizlik",
+      desc:"Derin siyah kararma ev yöntemleriyle tam olarak çıkmayabilir. Profesyonel çözümler önerilir.",
+      steps:[
+        {t:"Önce karbonat yöntemini deneyin",d:"Yukarıdaki orta kararma yöntemini uygulayın. Çoğu zaman büyük fark yaratır."},
+        {t:"Gümüş daldırma solüsyonu",d:"Ticari gümüş temizleme sıvıları (ör. Silver Dip) derin kararma için etkilidir. Kullanım talimatlarını takip edin."},
+        {t:"Kuyumcuya götürün",d:"Ultrasonik temizlik + rodaj kaplama ile takınız ilk günkü haline döner."},
+        {t:"Rodaj yenileme düşünün",d:"Rodyum kaplama hem parlaklık verir hem de yeni kararmayı geciktirir."},
+      ],
+      warnings:["Asitli temizleyiciler (sirke, limon) uzun temas sürelerinde gümüşe zarar verebilir.","Ağır kararmış antika gümüşlerde patina kasıtlı olabilir — temizlemeden önce değer kontrolü yapın."],
+      prevention:["Anti-tarnish şeritler takı kutunuza yerleştirin","Yüksek nem ortamlarından uzak tutun","3 ayda bir gümüş beziyle bakım yapın"]
+    },
+    result_spot_tarnish: {id:"r_st",type:"result",severity:"medium",icon:"🎯",
+      title:"Bölgesel Kararma",
+      desc:"Belirli noktalardaki kararma genellikle ter, parfüm veya kimyasal temas sonucudur. Cilt teması noktaları özellikle hassastır.",
+      steps:[
+        {t:"Bölgeyi tespit edin",d:"Cilt teması bölgeleri mi, yoksa rastgele noktalar mı? Cilt teması bölgeleri ter kaynaklı, rastgele noktalar kimyasal temas kaynaklıdır."},
+        {t:"Pamuklu çubuk + diş macunu",d:"Küçük bölgeler için pamuklu çubuğa az miktarda beyazlatıcısız diş macunu sürüp dairesel silin."},
+        {t:"Durulayıp kurulayın",d:"Bölgeyi temiz su ile silin ve kurulayın."},
+      ],
+      warnings:[],
+      prevention:["Parfüm ve losyonu takı bölgesine doğrudan uygulamayın","Yoğun terlemeden sonra takıyı çıkarıp silin"]
+    },
+    result_light_scratch: {id:"r_ls",type:"result",severity:"low",icon:"💫",
+      title:"Yüzeysel Çizikler",
+      desc:"Hafif çizikler gümüş parlatma bezi ile büyük ölçüde giderilebilir. Gümüş yumuşak bir metal olduğundan mikro çizikler normal kullanımda kaçınılmazdır.",
+      steps:[
+        {t:"Gümüş parlatma bezi ile silin",d:"Tek yönde (ileri-geri değil, dairesel) hafif basınçla silin. Bezin aşındırıcı yüzeyi mikro çizikleri doldurur."},
+        {t:"Parlatma macunu (opsiyonel)",d:"Daha derin yüzeysel çizikler için kuyumcu parlatma macunu kullanılabilir."},
+        {t:"Rodaj kaplama yenileme",d:"Kaplama yenilemesi yüzeysel çizikleri tamamen kapatır."},
+      ],
+      warnings:[],
+      prevention:["Takıları ayrı ayrı saklayın — birbirine sürtmeyi önleyin","Yumuşak astarlı takı kutusu kullanın"]
+    },
+    result_deep_scratch: {id:"r_ds",type:"result",severity:"high",icon:"⚡",
+      title:"Derin Çizikler — Profesyonel Onarım",
+      desc:"Parmakla hissedilen derin çizikler ev yöntemleriyle giderilemez. Profesyonel polisaj gerekir.",
+      steps:[
+        {t:"Kuyumcuya götürün",d:"Motorlu polisaj aleti ile derin çizikler giderilir. İşlem sırasında çok az miktarda gümüş kaybı olur."},
+        {t:"Rodaj kaplama yaptırın",d:"Polisaj sonrası rodyum kaplama ile yüzey yenilenir."},
+      ],
+      warnings:["Zımpara veya aşındırıcı kağıt kullanmayın — düzensiz yüzey oluşur."],
+      prevention:["Spor ve ağır iş sırasında takıları çıkarın","Metal yüzeylerle teması minimize edin"]
+    },
+    result_dull: {id:"r_du",type:"result",severity:"low",icon:"💫",
+      title:"Genel Parlaklık Kaybı",
+      desc:"Kararma olmadan genel mat görünüm genellikle cilt yağı, sabun kalıntısı veya tozdan kaynaklanır.",
+      steps:[
+        {t:"Ilık sabunlu su ile yıkayın",d:"Birkaç damla bulaşık deterjanı + ılık su. 5 dakika beklettikten sonra yumuşak fırça ile ovun."},
+        {t:"Durulayın ve kurulayın",d:"Temiz su ile iyice durulayın, yumuşak bezle kurulayın."},
+        {t:"Gümüş bezi ile parlatın",d:"Kuru takıyı gümüş parlatma bezi ile silin. Parlaklık hemen gelir."},
+      ],
+      warnings:[],
+      prevention:["Sabun ve losyon kalıntılarını düzenli temizleyin","Haftada bir hızlı yıkama rutini oluşturun"]
+    },
+    result_loose_stone: {id:"r_los",type:"result",severity:"medium",icon:"🔔",
+      title:"Gevşemiş Taş",
+      desc:"Gevşemiş taş, kaş (yuva) ayarlarının zayıfladığını gösterir. Zamanında müdahale taş kaybını önler.",
+      steps:[
+        {t:"Takıyı kullanmayı hemen durdurun",d:"Gevşek taş her an düşebilir. Güvenli bir kutuda saklayın."},
+        {t:"Kuyumcuya götürün",d:"Kaş sıkıştırma veya yeniden ayarlama işlemi genellikle hızlı ve uygun fiyatlıdır."},
+        {t:"Diğer taşları da kontrol ettirin",d:"Bir taş gevşediyse diğerleri de risk altında olabilir."},
+      ],
+      warnings:["Pense ile kendiniz sıkmaya çalışmayın — taşı çatlatabilir veya kaşı kırabilirsiniz."],
+      prevention:["6 ayda bir kuyumcuda kontrol ettirin","Darbe ve sert temastan kaçının"]
+    },
+    result_lost_stone: {id:"r_lst",type:"result",severity:"high",icon:"⭕",
+      title:"Düşmüş / Kayıp Taş",
+      desc:"Taş düşmüşse kaşın durumuna göre yeni taş takılabilir. Orijinal taşı bulduysanız tekrar oturtulabilir.",
+      steps:[
+        {t:"Orijinal taşı arayın",d:"Düştüğü alanı dikkatli arayın — küçük taşlar halının arasında veya giderde olabilir."},
+        {t:"Kuyumcuya götürün",d:"Orijinal taş varsa tekrar takılır. Yoksa aynı boyut ve renkte yeni taş temin edilir."},
+        {t:"Kaş durumunu kontrol ettirin",d:"Kaş hasar görmüşse önce onarılması gerekir."},
+      ],
+      warnings:[],
+      prevention:["Yıllık kuyumcu kontrolü","Yüksek aktiviteli sporlarda çıkarın"]
+    },
+    result_cracked_stone: {id:"r_cs",type:"result",severity:"high",icon:"💔",
+      title:"Çatlak / Kırık Taş",
+      desc:"Taş çatlamışsa onarım genellikle mümkün değildir — taş değişimi gerekir. Çatlak taş kesici olabilir, dikkatli olun.",
+      steps:[
+        {t:"Takıyı çıkarın",d:"Çatlak taş kenarları kesici olabilir."},
+        {t:"Taş değişimi için kuyumcuya götürün",d:"Aynı tip ve boyutta yeni taş oturtulur."},
+        {t:"Kaşı kontrol ettirin",d:"Çatlama sırasında kaş da hasar görmüş olabilir."},
+      ],
+      warnings:["Çatlak taşla takıyı kullanmaya devam etmeyin — kırık parçalar cildi çizebilir."],
+      prevention:["Sert darbelere maruz bırakmayın","Zümrüt ve firuze gibi kırılgan taşlarda ekstra dikkat"]
+    },
+  },
+  en: null, // Will mirror structure with EN text
+  ar: null,
+};
+
+// Simplified EN/AR translations of key result nodes
+// For full production, each node would have complete translations
+// Here we provide the start + tarnish flow as demonstration
+
+TREE.en = JSON.parse(JSON.stringify(TREE.tr));
+// Override EN texts for start
+TREE.en.start.question = "What issue does your silver jewelry have?";
+TREE.en.start.desc = "Select the option that best describes your problem — we'll give you customized solutions.";
+TREE.en.start.options[0] = {label:"Tarnished / Discolored",sub:"Yellowish, blackish, or dull appearance",icon:"🌑",color:"#FFB86C",next:"tarnish_level"};
+TREE.en.start.options[1] = {label:"Scratched / Worn",sub:"Surface scratches or dull spots",icon:"⚡",color:"#FF6B6B",next:"scratch_level"};
+TREE.en.start.options[2] = {label:"Stone loose / fallen",sub:"Gemstone moves or is missing",icon:"💎",color:"#C9A0DC",next:"stone_issue"};
+TREE.en.start.options[3] = {label:"Bent / Deformed",sub:"Shape distortion, bending",icon:"🔧",color:"#6EC6FF",next:"deform"};
+TREE.en.start.options[4] = {label:"Allergy / Skin reaction",sub:"Redness, itching, green marks",icon:"🩹",color:"#E8A0BF",next:"allergy"};
+TREE.en.tarnish_level.question = "How severe is the tarnish?";
+TREE.en.tarnish_level.desc = "The degree of tarnish determines the cleaning method.";
+TREE.en.tarnish_level.options[0] = {label:"Light tarnish",sub:"Slight dullness, loss of shine",icon:"🌤️",color:"#FFD700",next:"result_light_tarnish"};
+TREE.en.tarnish_level.options[1] = {label:"Medium tarnish",sub:"Visible yellow-brown tones",icon:"🌥️",color:"#DAA520",next:"result_medium_tarnish"};
+TREE.en.tarnish_level.options[2] = {label:"Heavy tarnish",sub:"Black color, dark spots",icon:"🌑",color:"#8B7355",next:"result_heavy_tarnish"};
+TREE.en.tarnish_level.options[3] = {label:"Spot tarnish",sub:"Discoloration only in certain areas",icon:"🎯",color:"#CD853F",next:"result_spot_tarnish"};
+// ── EN: scratch_level ──
+TREE.en.scratch_level.question = "How deep are the scratches?";
+TREE.en.scratch_level.desc = "Can you feel the scratch when you run your finger over it?";
+TREE.en.scratch_level.options[0] = {label:"Surface scratches",sub:"Visible but not felt",icon:"〰️",color:"#87CEEB",next:"result_light_scratch"};
+TREE.en.scratch_level.options[1] = {label:"Deep scratches",sub:"Grooves felt by touch",icon:"⚡",color:"#FF6347",next:"result_deep_scratch"};
+TREE.en.scratch_level.options[2] = {label:"General dullness",sub:"No scratches but matte look",icon:"💫",color:"#DDA0DD",next:"result_dull"};
+// ── EN: stone_issue ──
+TREE.en.stone_issue.question = "What is the stone problem?";
+TREE.en.stone_issue.options[0] = {label:"Stone loose / wobbling",sub:"Stone still in place but moves",icon:"🔔",color:"#FFD700",next:"result_loose_stone"};
+TREE.en.stone_issue.options[1] = {label:"Stone fallen / missing",sub:"Setting is empty",icon:"⭕",color:"#FF6B6B",next:"result_lost_stone"};
+TREE.en.stone_issue.options[2] = {label:"Stone cracked / chipped",sub:"Stone in place but damaged",icon:"💔",color:"#DC143C",next:"result_cracked_stone"};
+// ── EN: result nodes ──
+TREE.en.result_light_tarnish.title = "Light Tarnish — Easy Fix";
+TREE.en.result_light_tarnish.desc = "Light tarnish is silver's natural reaction with airborne sulfur compounds (H₂S). It can be resolved in minutes.";
+TREE.en.result_light_tarnish.steps = [{t:"Use a silver polishing cloth",d:"Special silver cloths contain micro-abrasives and anti-tarnish agents. Wipe in circular motions."},{t:"Alternative: Toothpaste method",d:"Apply non-whitening (non-gel) toothpaste with a soft cloth, wipe in circles, rinse with warm water."},{t:"Dry and store",d:"Dry completely, then store in an anti-tarnish pouch."}];
+TREE.en.result_light_tarnish.prevention = ["Store in airtight pouches when not wearing","Add a silica gel packet (absorbs moisture)","Regular wear actually slows tarnishing — the best protection is wearing it"];
+TREE.en.result_medium_tarnish.title = "Medium Tarnish — Baking Soda Method";
+TREE.en.result_medium_tarnish.desc = "Significant tarnish requires chemical-physical cleaning. The aluminum foil + baking soda method is the most reliable home solution.";
+TREE.en.result_medium_tarnish.steps = [{t:"Prepare materials",d:"A bowl, aluminum foil, 1 tbsp baking soda, boiling water."},{t:"Line the bowl with foil",d:"Shiny side up, cover the inside of the bowl."},{t:"Add baking soda",d:"Put 1 tbsp baking soda in the bowl, pour boiling water over it."},{t:"Submerge the silver",d:"Place jewelry touching the foil for 3-5 minutes. Sulfur will transfer to the foil."},{t:"Rinse and dry",d:"Rinse with clean water, dry completely with a soft cloth."}];
+TREE.en.result_medium_tarnish.warnings = ["Be careful with gemstone jewelry — some stones (turquoise, pearl, coral) are damaged by hot water and baking soda."];
+TREE.en.result_medium_tarnish.prevention = ["Apply perfume and lotion BEFORE putting on jewelry","Remove during household cleaning and dishwashing","Quick weekly wipe with a silver cloth"];
+TREE.en.result_heavy_tarnish.title = "Heavy Tarnish — Professional Cleaning";
+TREE.en.result_heavy_tarnish.desc = "Deep black tarnish may not fully come off with home methods. Professional solutions are recommended.";
+TREE.en.result_heavy_tarnish.steps = [{t:"Try baking soda method first",d:"Apply the medium tarnish method above. It often makes a big difference."},{t:"Silver dip solution",d:"Commercial silver cleaning solutions (e.g. Silver Dip) are effective for deep tarnish. Follow usage instructions."},{t:"Take to a jeweler",d:"Ultrasonic cleaning + rhodium plating will restore your jewelry to its original state."},{t:"Consider rhodium re-plating",d:"Rhodium plating adds shine and delays further tarnishing."}];
+TREE.en.result_heavy_tarnish.warnings = ["Acidic cleaners (vinegar, lemon) can damage silver with prolonged contact.","Heavily tarnished antique silver may have intentional patina — check value before cleaning."];
+TREE.en.result_heavy_tarnish.prevention = ["Place anti-tarnish strips in your jewelry box","Keep away from high-humidity environments","Maintain with a silver cloth every 3 months"];
+TREE.en.result_spot_tarnish.title = "Spot Tarnish";
+TREE.en.result_spot_tarnish.desc = "Tarnish at specific spots usually results from sweat, perfume, or chemical contact. Skin contact areas are particularly sensitive.";
+TREE.en.result_spot_tarnish.steps = [{t:"Identify the area",d:"Skin contact zones or random spots? Contact zones = sweat-related; random = chemical contact."},{t:"Cotton swab + toothpaste",d:"For small areas, apply a small amount of non-whitening toothpaste on a cotton swab and rub in circles."},{t:"Rinse and dry",d:"Wipe the area with clean water and dry."}];
+TREE.en.result_spot_tarnish.prevention = ["Don't apply perfume or lotion directly to jewelry areas","Remove and wipe jewelry after heavy sweating"];
+TREE.en.result_light_scratch.title = "Surface Scratches";
+TREE.en.result_light_scratch.desc = "Light scratches can be largely removed with a silver polishing cloth. Since silver is a soft metal (Mohs 2.5), micro-scratches are unavoidable with normal wear.";
+TREE.en.result_light_scratch.steps = [{t:"Wipe with a silver polishing cloth",d:"Use light pressure in one direction (circular, not back-and-forth). The cloth's abrasive surface fills micro-scratches."},{t:"Polishing paste (optional)",d:"For deeper surface scratches, jeweler's polishing paste can be used."},{t:"Rhodium re-plating",d:"Re-plating completely covers surface scratches."}];
+TREE.en.result_light_scratch.prevention = ["Store pieces separately — prevent rubbing against each other","Use a soft-lined jewelry box"];
+TREE.en.result_deep_scratch.title = "Deep Scratches — Professional Repair";
+TREE.en.result_deep_scratch.desc = "Deep scratches felt by touch cannot be removed at home. Professional polishing is required.";
+TREE.en.result_deep_scratch.steps = [{t:"Take to a jeweler",d:"Motorized polishing tools remove deep scratches. A very small amount of silver is lost during the process."},{t:"Get rhodium plating",d:"After polishing, rhodium plating renews the surface."}];
+TREE.en.result_deep_scratch.warnings = ["Do not use sandpaper or abrasive paper — it creates an uneven surface."];
+TREE.en.result_deep_scratch.prevention = ["Remove jewelry during sports and heavy work","Minimize contact with metal surfaces"];
+TREE.en.result_dull.title = "General Dullness";
+TREE.en.result_dull.desc = "A matte look without tarnish is usually caused by skin oils, soap residue, or dust.";
+TREE.en.result_dull.steps = [{t:"Wash with warm soapy water",d:"A few drops of dish soap + warm water. Soak for 5 minutes, then gently scrub with a soft brush."},{t:"Rinse and dry",d:"Rinse thoroughly with clean water, dry with a soft cloth."},{t:"Polish with a silver cloth",d:"Wipe the dry piece with a silver polishing cloth. Shine returns immediately."}];
+TREE.en.result_dull.prevention = ["Clean soap and lotion residue regularly","Establish a quick weekly wash routine"];
+TREE.en.result_loose_stone.title = "Loose Stone";
+TREE.en.result_loose_stone.desc = "A loose stone indicates weakened setting prongs. Timely intervention prevents stone loss.";
+TREE.en.result_loose_stone.steps = [{t:"Stop wearing immediately",d:"A loose stone can fall out at any time. Store in a safe box."},{t:"Take to a jeweler",d:"Prong tightening or re-setting is usually quick and affordable."},{t:"Have other stones checked too",d:"If one stone has loosened, others may be at risk."}];
+TREE.en.result_loose_stone.warnings = ["Don't try to tighten with pliers — you may crack the stone or break the setting."];
+TREE.en.result_loose_stone.prevention = ["Have checked at a jeweler every 6 months","Avoid impacts and hard contact"];
+TREE.en.result_lost_stone.title = "Lost / Missing Stone";
+TREE.en.result_lost_stone.desc = "If the stone has fallen, the setting may have failed. Replacement is possible.";
+TREE.en.result_lost_stone.steps = [{t:"Search the lost stone",d:"Check pockets, drains, carpets, car seats. A dropped stone often doesn't travel far."},{t:"Take to a jeweler with the stone",d:"If found, a jeweler can re-set it. If lost, a replacement stone can be sourced."},{t:"Have the setting repaired",d:"The prongs or bezel may need rebuilding to securely hold a new stone."}];
+TREE.en.result_lost_stone.warnings = ["Don't wear the piece with an empty setting — other prongs may catch on fabric and worsen."];
+TREE.en.result_lost_stone.prevention = ["Regular jeweler check-ups catch loose stones early","Avoid wearing during sports or physical activity"];
+TREE.en.result_cracked_stone.title = "Cracked / Chipped Stone";
+TREE.en.result_cracked_stone.desc = "A cracked stone usually results from impact. The stone typically needs replacement.";
+TREE.en.result_cracked_stone.steps = [{t:"Assess the damage",d:"A small chip may be polishable; a crack through the stone usually requires replacement."},{t:"Take to a jeweler",d:"The jeweler will advise whether to repair or replace. Matching stones can be sourced."},{t:"Consider a different stone",d:"If the original is hard to match, this is an opportunity to upgrade or change the look."}];
+TREE.en.result_cracked_stone.warnings = ["Don't try to glue — adhesives yellow over time and weaken the setting."];
+TREE.en.result_cracked_stone.prevention = ["Avoid wearing delicate stones (opal, emerald) during physical activity","Store gemstone jewelry cushioned and separate"];
+TREE.en.deform.title = "Deformation / Bending";
+TREE.en.deform.desc = "Silver is relatively soft (Mohs 2.5-3) and can bend under pressure. This is especially common with thin bands and bracelets.";
+TREE.en.deform.steps = [{t:"Don't try to fix it yourself",d:"Incorrect bending can crack or snap silver."},{t:"Take to a jeweler",d:"Professional correction on a mandrel (ring mold) is the safest method."},{t:"Have damage inspected",d:"Solder joints and stone settings may have loosened during deformation."}];
+TREE.en.deform.warnings = ["Using pliers or hammers can cause permanent damage."];
+TREE.en.deform.prevention = ["Remove jewelry during heavy work","Remove thin bracelets while sleeping","Don't force tight rings — get resized"];
+TREE.en.allergy.title = "Skin Reaction / Allergy";
+TREE.en.allergy.desc = "The 7.5% copper in 925 silver, or rarely nickel, can cause reactions in sensitive skin. Green marks are copper oxidation — harmless.";
+TREE.en.allergy.steps = [{t:"Remove jewelry immediately",d:"Wash the area with soapy water and dry."},{t:"Green mark or redness?",d:"Green mark = copper oxidation (harmless). Redness/itching = possible nickel allergy."},{t:"Get rhodium plating",d:"Rhodium plating creates a barrier between silver and skin."},{t:"Consider hypoallergenic alternatives",d:"950 fineness or Argentium silver contains less copper."}];
+TREE.en.allergy.warnings = ["If redness doesn't subside within 24 hours, or if swelling/blisters form, consult a dermatologist."];
+TREE.en.allergy.prevention = ["Renew rhodium plating (1-2 times per year)","Remove before sweating","Coating the inner surface with clear nail polish can be a temporary solution"];
+
+// ── AR: Complete translations ──
+TREE.ar = JSON.parse(JSON.stringify(TREE.en)); // Start from EN as base (structure already correct)
+TREE.ar.start.question = "ما المشكلة في مجوهراتك الفضية؟";
+TREE.ar.start.desc = "اختر الخيار الذي يصف مشكلتك — سنقدم لك حلولاً مخصصة.";
+TREE.ar.start.options[0] = {label:"تأكسدت / تغير لونها",sub:"مظهر مصفر أو أسود أو باهت",icon:"🌑",color:"#FFB86C",next:"tarnish_level"};
+TREE.ar.start.options[1] = {label:"خُدشت / تآكلت",sub:"خدوش سطحية أو بقع باهتة",icon:"⚡",color:"#FF6B6B",next:"scratch_level"};
+TREE.ar.start.options[2] = {label:"سقط الحجر / تخلخل",sub:"الحجر يتحرك أو سقط",icon:"💎",color:"#C9A0DC",next:"stone_issue"};
+TREE.ar.start.options[3] = {label:"انحنت / تشوهت",sub:"تشوه الشكل، انحناء",icon:"🔧",color:"#6EC6FF",next:"deform"};
+TREE.ar.start.options[4] = {label:"حساسية / تفاعل جلدي",sub:"احمرار، حكة، علامات خضراء",icon:"🩹",color:"#E8A0BF",next:"allergy"};
+TREE.ar.tarnish_level.question = "ما مستوى التأكسد؟";
+TREE.ar.tarnish_level.desc = "درجة التأكسد تحدد طريقة التنظيف.";
+TREE.ar.tarnish_level.options[0] = {label:"تأكسد خفيف",sub:"بهتان طفيف، فقدان لمعان",icon:"🌤️",color:"#FFD700",next:"result_light_tarnish"};
+TREE.ar.tarnish_level.options[1] = {label:"تأكسد متوسط",sub:"ألوان صفراء-بنية واضحة",icon:"🌥️",color:"#DAA520",next:"result_medium_tarnish"};
+TREE.ar.tarnish_level.options[2] = {label:"تأكسد شديد",sub:"لون أسود، بقع داكنة",icon:"🌑",color:"#8B7355",next:"result_heavy_tarnish"};
+TREE.ar.tarnish_level.options[3] = {label:"تأكسد موضعي",sub:"تغير اللون في مناطق محددة فقط",icon:"🎯",color:"#CD853F",next:"result_spot_tarnish"};
+TREE.ar.scratch_level.question = "ما عمق الخدوش؟";
+TREE.ar.scratch_level.desc = "هل تشعر بالخدش عند تمرير إصبعك؟";
+TREE.ar.scratch_level.options[0] = {label:"خدوش سطحية",sub:"مرئية لكن لا تُحس",icon:"〰️",color:"#87CEEB",next:"result_light_scratch"};
+TREE.ar.scratch_level.options[1] = {label:"خدوش عميقة",sub:"أخاديد محسوسة باللمس",icon:"⚡",color:"#FF6347",next:"result_deep_scratch"};
+TREE.ar.scratch_level.options[2] = {label:"بهتان عام",sub:"لا خدوش لكن مظهر مطفي",icon:"💫",color:"#DDA0DD",next:"result_dull"};
+TREE.ar.stone_issue.question = "ما مشكلة الحجر؟";
+TREE.ar.stone_issue.options[0] = {label:"الحجر متخلخل",sub:"الحجر في مكانه لكنه يتحرك",icon:"🔔",color:"#FFD700",next:"result_loose_stone"};
+TREE.ar.stone_issue.options[1] = {label:"الحجر سقط / مفقود",sub:"الإطار فارغ",icon:"⭕",color:"#FF6B6B",next:"result_lost_stone"};
+TREE.ar.stone_issue.options[2] = {label:"الحجر تشقق / تكسر",sub:"الحجر في مكانه لكنه تالف",icon:"💔",color:"#DC143C",next:"result_cracked_stone"};
+TREE.ar.result_light_tarnish.title = "تأكسد خفيف — حل سهل";
+TREE.ar.result_light_tarnish.desc = "التأكسد الخفيف هو تفاعل الفضة الطبيعي مع مركبات الكبريت في الهواء. يمكن حله في دقائق.";
+TREE.ar.result_light_tarnish.steps = [{t:"استخدم قماش تلميع الفضة",d:"أقمشة الفضة الخاصة تحتوي على مواد كاشطة دقيقة. امسح بحركات دائرية."},{t:"بديل: طريقة معجون الأسنان",d:"ضع معجون أسنان غير مبيض بقطعة قماش ناعمة، امسح بحركات دائرية، اشطف بماء دافئ."},{t:"جفف وخزّن",d:"جفف تماماً ثم خزّن في حقيبة مضادة للتأكسد."}];
+TREE.ar.result_light_tarnish.prevention = ["خزّن في أكياس محكمة الإغلاق عند عدم الارتداء","أضف كيس سيليكا جل (يمتص الرطوبة)","الارتداء المنتظم يبطئ التأكسد"];
+TREE.ar.result_medium_tarnish.title = "تأكسد متوسط — طريقة صودا الخبز";
+TREE.ar.result_medium_tarnish.desc = "التأكسد الملحوظ يتطلب تنظيفاً كيميائياً-فيزيائياً. طريقة ورق الألمنيوم + صودا الخبز هي الأكثر موثوقية.";
+TREE.ar.result_medium_tarnish.steps = [{t:"حضّر المواد",d:"وعاء، ورق ألمنيوم، ملعقة كبيرة صودا خبز، ماء مغلي."},{t:"بطّن الوعاء بالألمنيوم",d:"الجانب اللامع للأعلى."},{t:"أضف صودا الخبز",d:"ضع الصودا واسكب الماء المغلي."},{t:"اغمر الفضة",d:"ضع المجوهرات ملامسة للألمنيوم لمدة ٣-٥ دقائق."},{t:"اشطف وجفف",d:"اشطف بماء نظيف وجفف بقطعة قماش ناعمة."}];
+TREE.ar.result_medium_tarnish.warnings = ["كن حذراً مع الأحجار الكريمة — بعض الأحجار (الفيروز، اللؤلؤ، المرجان) تتضرر من الماء الساخن."];
+TREE.ar.result_medium_tarnish.prevention = ["ضع العطر والمرطب قبل ارتداء المجوهرات","انزع أثناء التنظيف المنزلي","مسح أسبوعي سريع بقماش الفضة"];
+TREE.ar.result_heavy_tarnish.title = "تأكسد شديد — تنظيف مهني";
+TREE.ar.result_heavy_tarnish.desc = "التأكسد الأسود العميق قد لا يزول بالكامل بالطرق المنزلية. يُنصح بالحلول المهنية.";
+TREE.ar.result_heavy_tarnish.steps = [{t:"جرّب طريقة الصودا أولاً",d:"طبّق طريقة التأكسد المتوسط. غالباً ما تحدث فرقاً كبيراً."},{t:"محلول غمر الفضة",d:"سوائل تنظيف الفضة التجارية فعالة للتأكسد العميق."},{t:"اذهب للصائغ",d:"التنظيف بالموجات فوق الصوتية + طلاء الروديوم يعيد المجوهرات لحالتها الأصلية."},{t:"فكر في تجديد طلاء الروديوم",d:"طلاء الروديوم يضيف لمعاناً ويؤخر التأكسد."}];
+TREE.ar.result_heavy_tarnish.warnings = ["المنظفات الحمضية (الخل، الليمون) قد تضر الفضة عند التلامس الطويل.","الفضة العتيقة المتأكسدة بشدة قد تكون الزنجرة متعمدة — تحقق من القيمة قبل التنظيف."];
+TREE.ar.result_heavy_tarnish.prevention = ["ضع شرائط مضادة للتأكسد في صندوق المجوهرات","ابعد عن البيئات عالية الرطوبة","صيانة بقماش الفضة كل ٣ أشهر"];
+TREE.ar.result_spot_tarnish.title = "تأكسد موضعي";
+TREE.ar.result_spot_tarnish.desc = "التأكسد في نقاط محددة ينتج عادة عن العرق أو العطر أو التلامس الكيميائي.";
+TREE.ar.result_spot_tarnish.steps = [{t:"حدد المنطقة",d:"مناطق تلامس الجلد أم نقاط عشوائية؟ تلامس الجلد = عرق، نقاط عشوائية = تلامس كيميائي."},{t:"عود قطني + معجون أسنان",d:"للمناطق الصغيرة، ضع كمية قليلة من معجون الأسنان وامسح بحركات دائرية."},{t:"اشطف وجفف",d:"امسح المنطقة بماء نظيف وجفف."}];
+TREE.ar.result_spot_tarnish.prevention = ["لا تضع العطر مباشرة على منطقة المجوهرات","انزع المجوهرات وامسحها بعد التعرق الشديد"];
+TREE.ar.result_light_scratch.title = "خدوش سطحية";
+TREE.ar.result_light_scratch.desc = "الخدوش الخفيفة يمكن إزالتها إلى حد كبير بقماش تلميع الفضة. الخدوش الدقيقة حتمية مع الاستخدام العادي.";
+TREE.ar.result_light_scratch.steps = [{t:"امسح بقماش تلميع الفضة",d:"بضغط خفيف بحركات دائرية. سطح القماش الكاشط يملأ الخدوش الدقيقة."},{t:"معجون تلميع (اختياري)",d:"للخدوش السطحية الأعمق، يمكن استخدام معجون تلميع الصائغ."},{t:"تجديد طلاء الروديوم",d:"تجديد الطلاء يغطي الخدوش السطحية بالكامل."}];
+TREE.ar.result_light_scratch.prevention = ["خزّن القطع منفصلة لمنع الاحتكاك","استخدم صندوق مجوهرات مبطن بقماش ناعم"];
+TREE.ar.result_deep_scratch.title = "خدوش عميقة — إصلاح مهني";
+TREE.ar.result_deep_scratch.desc = "الخدوش العميقة المحسوسة باللمس لا يمكن إزالتها منزلياً. يتطلب تلميعاً مهنياً.";
+TREE.ar.result_deep_scratch.steps = [{t:"اذهب للصائغ",d:"أدوات التلميع الآلية تزيل الخدوش العميقة. يُفقد مقدار ضئيل جداً من الفضة."},{t:"اطلب طلاء الروديوم",d:"بعد التلميع، طلاء الروديوم يجدد السطح."}];
+TREE.ar.result_deep_scratch.warnings = ["لا تستخدم ورق الصنفرة — يخلق سطحاً غير منتظم."];
+TREE.ar.result_deep_scratch.prevention = ["انزع المجوهرات أثناء الرياضة والأعمال الشاقة","قلل التلامس مع الأسطح المعدنية"];
+TREE.ar.result_dull.title = "بهتان عام";
+TREE.ar.result_dull.desc = "المظهر المطفي بدون تأكسد ينتج عادة عن زيوت الجلد أو بقايا الصابون أو الغبار.";
+TREE.ar.result_dull.steps = [{t:"اغسل بماء دافئ وصابون",d:"بضع قطرات من سائل الأطباق + ماء دافئ. انقع ٥ دقائق ثم افرك بفرشاة ناعمة."},{t:"اشطف وجفف",d:"اشطف جيداً بماء نظيف، جفف بقطعة قماش ناعمة."},{t:"لمّع بقماش الفضة",d:"امسح القطعة الجافة بقماش تلميع الفضة. يعود اللمعان فوراً."}];
+TREE.ar.result_dull.prevention = ["نظّف بقايا الصابون والمرطب بانتظام","أنشئ روتين غسل أسبوعي سريع"];
+TREE.ar.result_loose_stone.title = "حجر متخلخل";
+TREE.ar.result_loose_stone.desc = "الحجر المتخلخل يشير إلى ضعف مخالب الإطار. التدخل في الوقت المناسب يمنع فقدان الحجر.";
+TREE.ar.result_loose_stone.steps = [{t:"توقف عن الارتداء فوراً",d:"الحجر المتخلخل قد يسقط في أي لحظة. خزّن في صندوق آمن."},{t:"اذهب للصائغ",d:"تضييق المخالب أو إعادة التركيب سريع وبأسعار معقولة."},{t:"افحص الأحجار الأخرى أيضاً",d:"إذا تخلخل حجر واحد، قد تكون الأخرى معرضة للخطر."}];
+TREE.ar.result_loose_stone.warnings = ["لا تحاول التضييق بالكماشة — قد تكسر الحجر أو الإطار."];
+TREE.ar.result_loose_stone.prevention = ["افحص عند الصائغ كل ٦ أشهر","تجنب الصدمات والتلامس القوي"];
+TREE.ar.result_lost_stone.title = "حجر مفقود / ساقط";
+TREE.ar.result_lost_stone.desc = "إذا سقط الحجر، فقد فشل الإطار. الاستبدال ممكن.";
+TREE.ar.result_lost_stone.steps = [{t:"ابحث عن الحجر",d:"تفقد الجيوب، المصارف، السجاد، مقاعد السيارة."},{t:"اذهب للصائغ مع الحجر",d:"إذا وجدته يمكن إعادة تركيبه. إذا فُقد يمكن توفير بديل."},{t:"أصلح الإطار",d:"قد تحتاج المخالب لإعادة بناء لتثبيت حجر جديد بإحكام."}];
+TREE.ar.result_lost_stone.warnings = ["لا ترتد القطعة بإطار فارغ — المخالب قد تعلق بالقماش."];
+TREE.ar.result_lost_stone.prevention = ["الفحص المنتظم يكشف الأحجار المتخلخلة مبكراً","تجنب الارتداء أثناء الرياضة"];
+TREE.ar.result_cracked_stone.title = "حجر متشقق / مكسور";
+TREE.ar.result_cracked_stone.desc = "الحجر المتشقق ينتج عادة عن صدمة. يحتاج عادة للاستبدال.";
+TREE.ar.result_cracked_stone.steps = [{t:"قيّم الضرر",d:"شق صغير قد يُصقل؛ شق عبر الحجر يتطلب عادة استبدالاً."},{t:"اذهب للصائغ",d:"سينصحك بالإصلاح أو الاستبدال."},{t:"فكر في حجر مختلف",d:"إذا صعب مطابقة الأصلي، فرصة لتغيير المظهر."}];
+TREE.ar.result_cracked_stone.warnings = ["لا تحاول اللصق — المواد اللاصقة تصفرّ مع الوقت وتضعف الإطار."];
+TREE.ar.result_cracked_stone.prevention = ["تجنب ارتداء الأحجار الحساسة (العقيق، الزمرد) أثناء النشاط البدني","خزّن مجوهرات الأحجار مبطنة ومنفصلة"];
+TREE.ar.deform.title = "تشوه / انحناء";
+TREE.ar.deform.desc = "الفضة معدن طري نسبياً (موس ٢٫٥-٣) وقد تنحني تحت الضغط. شائع مع الحلقات والأساور الرقيقة.";
+TREE.ar.deform.steps = [{t:"لا تحاول إصلاحها بنفسك",d:"الثني الخاطئ قد يكسر الفضة."},{t:"اذهب للصائغ",d:"التصحيح المهني على القالب هو الأكثر أماناً."},{t:"افحص الأضرار",d:"نقاط اللحام وإعدادات الحجر قد تكون تخلخلت."}];
+TREE.ar.deform.warnings = ["استخدام الكماشة أو المطرقة يسبب ضرراً دائماً."];
+TREE.ar.deform.prevention = ["انزع المجوهرات أثناء الأعمال الشاقة","انزع الأساور الرقيقة عند النوم","لا تجبر الخواتم الضيقة — اطلب تعديل المقاس"];
+TREE.ar.allergy.title = "تفاعل جلدي / حساسية";
+TREE.ar.allergy.desc = "النحاس بنسبة ٧٫٥٪ في فضة ٩٢٥، أو نادراً النيكل، قد يسبب تفاعلات في البشرة الحساسة. العلامات الخضراء هي أكسدة النحاس — غير ضارة.";
+TREE.ar.allergy.steps = [{t:"انزع المجوهرات فوراً",d:"اغسل المنطقة بماء وصابون وجفف."},{t:"علامة خضراء أم احمرار؟",d:"خضراء = أكسدة نحاس (غير ضارة). احمرار/حكة = حساسية نيكل محتملة."},{t:"اطلب طلاء الروديوم",d:"طلاء الروديوم يخلق حاجزاً بين الفضة والجلد."},{t:"فكر في بدائل مضادة للحساسية",d:"فضة عيار ٩٥٠ أو Argentium تحتوي نحاساً أقل."}];
+TREE.ar.allergy.warnings = ["إذا لم يزل الاحمرار خلال ٢٤ ساعة أو ظهر تورم/فقاعات، استشر طبيب جلدية."];
+TREE.ar.allergy.prevention = ["جدد طلاء الروديوم (١-٢ مرة سنوياً)","انزع قبل التعرق","طلاء السطح الداخلي بطلاء أظافر شفاف حل مؤقت"];
+
+// ─── STATE ───────────────────────────────────────────────
+let lang = "tr", dark = true;
+let history = []; // path of node IDs
+let currentNode = "start";
+
+function tree() { return TREE[lang] || TREE.tr; }
+function node() { return tree()[currentNode]; }
+
+const SEV_CONFIG = {
+  low:    {color:"#7BE495",bg:"rgba(123,228,149,.08)",label:{tr:"Kolay Çözüm",en:"Easy Fix",ar:"حل سهل"}},
+  medium: {color:"#FFB86C",bg:"rgba(255,184,108,.08)",label:{tr:"Orta Zorluk",en:"Medium",ar:"متوسط"}},
+  high:   {color:"#FF6B6B",bg:"rgba(255,107,107,.08)",label:{tr:"Profesyonel Destek",en:"Professional Help",ar:"مساعدة مهنية"}},
+};
+
+const UI_TEXT = {
+  tr:{restart:"Baştan Başla",back:"Geri",prevention:"Önleme İpuçları",warning:"⚠️ Dikkat",sponsorText:"Profesyonel gümüş bakım ürünleri ve uzman ipuçları için",sponsorCta:"Instagram'da Gör",sponsorNote:"Bu içerik İstanbul Gümüş tarafından desteklenmektedir.",badge:"✨ Bakım Rehberi",title:"Gümüş Bakım Sorun Giderme",sub:"Takınızdaki sorunu teşhis edin, size özel çözüm adımlarını alın."},
+  en:{restart:"Start Over",back:"Back",prevention:"Prevention Tips",warning:"⚠️ Warning",sponsorText:"For professional silver care products and expert tips",sponsorCta:"View on Instagram",sponsorNote:"This content is supported by İstanbul Gümüş.",badge:"✨ Care Guide",title:"Silver Care Troubleshooter",sub:"Diagnose your jewelry issue and get personalized solution steps."},
+  ar:{restart:"ابدأ من جديد",back:"رجوع",prevention:"نصائح الوقاية",warning:"⚠️ تحذير",sponsorText:"لمنتجات العناية بالفضة المهنية ونصائح الخبراء",sponsorCta:"شاهد على إنستغرام",sponsorNote:"هذا المحتوى مدعوم من إسطنبول غوموش.",badge:"✨ دليل العناية",title:"مستكشف أعطال العناية بالفضة",sub:"شخّص مشكلة مجوهراتك واحصل على خطوات حل مخصصة."},
+};
+function ut(k){ return UI_TEXT[lang]?.[k] || UI_TEXT.en?.[k] || k; }
+
+// ─── RENDER ──────────────────────────────────────────────
+function render() {
+  const main = document.getElementById("main");
+  const nd = node();
+
+  // Lang buttons
+  document.getElementById("langG").innerHTML = ["tr","en","ar"].map(l =>
+    `<button class="${lang===l?"on":""}" onclick="setLang('${l}')" ${l==="ar"?'style="font-family:Noto Naskh Arabic,serif"':""}>${l==="ar"?"عر":l.toUpperCase()}</button>`
+  ).join("");
+
+  if (!nd) { currentNode = "start"; history = []; render(); return; }
+
+  // Build progress dots
+  const totalSteps = history.length + 1;
+  let progHTML = '<div class="progress">';
+  for (let i = 0; i < totalSteps; i++) {
+    if (i > 0) progHTML += `<div class="prog-line ${i < totalSteps ? "done" : ""}"></div>`;
+    progHTML += `<div class="prog-dot ${i < totalSteps - 1 ? "done" : "current"}"></div>`;
+  }
+  progHTML += '</div>';
+
+  // Path breadcrumb
+  let pathHTML = '<div class="path">';
+  history.forEach((hId, i) => {
+    const hNode = tree()[hId];
+    if (hNode && hNode.options) {
+      const chosen = hNode.options.find(o => {
+        // find which option led to next step
+        const nextId = history[i + 1] || currentNode;
+        return o.next === nextId;
+      });
+      if (chosen) {
+        pathHTML += `<div class="path-item"><div class="path-dot" style="background:${chosen.color}"></div>${chosen.label}</div>`;
+        if (i < history.length - 1 || !nd.type) pathHTML += `<span style="color:var(--text2);font-size:10px">›</span>`;
+      }
+    }
+  });
+  pathHTML += '</div>';
+
+  let html = '';
+
+  // Hero (only on start)
+  if (currentNode === "start") {
+    html += `
+      <div class="hero">
+        <div class="badge">${ut("badge")}</div>
+        <h1>${ut("title")}</h1>
+        <p>${ut("sub")}</p>
+      </div>`;
+  } else {
+    html += progHTML;
+    html += pathHTML;
+  }
+
+  if (nd.type === "result") {
+    // RESULT NODE
+    const sev = SEV_CONFIG[nd.severity] || SEV_CONFIG.medium;
+    html += `<div class="result">
+      <span class="result-badge" style="background:${sev.bg};color:${sev.color}">${sev.label[lang] || sev.label.en}</span>
+      <div style="font-size:36px;margin-bottom:12px">${nd.icon}</div>
+      <h2>${nd.title}</h2>
+      <p>${nd.desc}</p>
+      <div class="steps-list">
+        ${nd.steps.map((s, i) => `
+          <div class="sl-item">
+            <div class="sl-num" style="background:${sev.bg};color:${sev.color}">${i + 1}</div>
+            <div class="sl-content">
+              <div class="sl-title">${s.t}</div>
+              <div class="sl-desc">${s.d}</div>
+            </div>
+          </div>`).join("")}
+      </div>
+      ${nd.warnings && nd.warnings.length ? nd.warnings.map(w => `
+        <div class="warn" style="background:rgba(255,107,107,.06);border-radius:10px;">
+          <span class="warn-icon">⚠️</span>
+          <span style="color:var(--text2)">${w}</span>
+        </div>`).join("") : ""}
+      ${nd.prevention && nd.prevention.length ? `
+        <div style="margin-top:16px">
+          <div style="font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">🛡️ ${ut("prevention")}</div>
+          ${nd.prevention.map(p => `<div style="display:flex;gap:8px;font-size:13px;color:var(--text2);margin-bottom:6px;line-height:1.5"><span style="color:var(--green)">✓</span><span>${p}</span></div>`).join("")}
+        </div>` : ""}
+      <div class="btn-row">
+        ${history.length > 0 ? `<button class="btn btn-secondary" onclick="goBack()">← ${ut("back")}</button>` : ""}
+        <button class="btn btn-secondary" onclick="restart()">⟲ ${ut("restart")}</button>
+      </div>
+      <div class="sponsor">
+        <p>${ut("sponsorText")}</p>
+        <a href="https://instagram.com/istanbulgumustr" target="_blank" rel="noopener" class="btn btn-ig">📸 ${ut("sponsorCta")}</a>
+        <div class="note">${ut("sponsorNote")}</div>
+      </div>
+    </div>`;
+  } else {
+    // QUESTION NODE
+    html += `<div class="step-card">
+      <span class="step-icon">${nd.icon}</span>
+      <div class="step-q">${nd.question}</div>
+      <div class="step-desc">${nd.desc}</div>
+      <div class="options">
+        ${nd.options.map(opt => `
+          <button class="opt-btn" onclick="navigate('${opt.next}')">
+            <div class="opt-icon" style="background:${opt.color}15;color:${opt.color}">${opt.icon}</div>
+            <div class="opt-text">
+              <div class="opt-title">${opt.label}</div>
+              ${opt.sub ? `<div class="opt-sub">${opt.sub}</div>` : ""}
+            </div>
+            <span class="opt-arrow">${document.documentElement.dir === "rtl" ? "‹" : "›"}</span>
+          </button>`).join("")}
+      </div>
+      ${history.length > 0 ? `<div class="btn-row" style="margin-top:20px"><button class="btn btn-secondary" onclick="goBack()">← ${ut("back")}</button></div>` : ""}
+    </div>`;
+  }
+
+  main.innerHTML = html;
+}
+
+function navigate(nextId) {
+  history.push(currentNode);
+  currentNode = nextId;
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function goBack() {
+  if (history.length > 0) {
+    currentNode = history.pop();
+    render();
+  }
+}
+function restart() {
+  history = [];
+  currentNode = "start";
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function setLang(l) {
+  lang = l;
+  document.documentElement.dir = l === "ar" ? "rtl" : "ltr";
+  history = [];
+  currentNode = "start";
+  render();
+}
+
+document.getElementById("modeB").onclick = () => {
+  dark = !dark;
+  document.body.classList.toggle("light", !dark);
+  document.getElementById("modeB").textContent = dark ? "☀️" : "🌙";
+};
+
+render();
+</script>
+</body>
+</html>

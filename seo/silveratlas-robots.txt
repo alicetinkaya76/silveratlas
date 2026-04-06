@@ -1,0 +1,15 @@
+# SilverAtlas — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://silveratlas.org/sitemap.xml
+
+# Crawl-delay (optional, for polite crawlers)
+Crawl-delay: 1
+
+# Disallow internal/dev paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+

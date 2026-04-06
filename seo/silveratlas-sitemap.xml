@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ═══ Core Pages ═══════════════════════════════════ -->
+  <url>
+    <loc>https://silveratlas.org/tr</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://silveratlas.org/tr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silveratlas.org/en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://silveratlas.org/ar"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://silveratlas.org/en</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://silveratlas.org/ar</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+
+  <!-- Tools page -->
+  <url><loc>https://silveratlas.org/tr/araclar</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://silveratlas.org/en/tools</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Map -->
+  <url><loc>https://silveratlas.org/tr/harita</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/en/map</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Timeline -->
+  <url><loc>https://silveratlas.org/tr/zaman-cizelgesi</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/en/timeline</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Turkey Atlas -->
+  <url><loc>https://silveratlas.org/tr/turkiye-atlasi</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/en/turkey-atlas</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- About -->
+  <url><loc>https://silveratlas.org/tr/hakkinda</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://silveratlas.org/en/about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+
+  <!-- Search -->
+  <url><loc>https://silveratlas.org/tr/ara</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/en/search</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ═══ Category Pages ═══════════════════════════════ -->
+  <url><loc>https://silveratlas.org/tr/bilim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/maden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/uretim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/stil</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/rehber</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/zanaat</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/koleksiyon</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ═══ Articles (50) ════════════════════════════════ -->
+  <!-- Bilim -->
+  <url><loc>https://silveratlas.org/tr/bilim/kimya</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/bilim/antimikrobiyal</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/bilim/fotografcilik</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/bilim/fiziksel-ozellikler</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/bilim/endustriyel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Tarih -->
+  <url><loc>https://silveratlas.org/tr/tarih/tarih</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/osmanli</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/anadolu-folklor</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/potosi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/anadolu-gelenegi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/osmanli-paralari</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/guney-amerika</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/japon-gumus</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/tarih/hint-gumush</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Maden -->
+  <url><loc>https://silveratlas.org/tr/maden/dunya-madenleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/maden/turkiye-madencilik</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/maden/gumus-rezervleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/maden/cevresel-etki</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/maden/surdurulebilirlik</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Üretim -->
+  <url><loc>https://silveratlas.org/tr/uretim/925-ayar</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silveratlas.org/tr/uretim/uretim-sureci</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/uretim/ayar-damgasi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/uretim/rafinasyon</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Piyasa -->
+  <url><loc>https://silveratlas.org/tr/piyasa/yatirim-rehberi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa/fiyat-tarihi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa/arz-talep</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa/2026-trendleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa/gumusun-gelecegi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa/turkiye-sektoru</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/piyasa/dunya-piyasasi-2026</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Kültür -->
+  <url><loc>https://silveratlas.org/tr/kultur/dunya-kulturleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/islam-gumus-genis</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/sembolizm</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/islam-fikih</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/muzeler</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/astroloji</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/dugun-gelenekleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/muzik</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/kultur/heykel-sanat</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Stil -->
+  <url><loc>https://silveratlas.org/tr/stil/gumus-vs-altin</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/stil/erkek-aksesuarlari</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/stil/kulturel-motifler</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/stil/styling-rehberi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/stil/parfum-luks</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Rehber -->
+  <url><loc>https://silveratlas.org/tr/rehber/kaplama-vs-masif</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/rehber/yuzuk-secim</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/rehber/sofra-takimi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Zanaat -->
+  <url><loc>https://silveratlas.org/tr/zanaat/telkari</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/zanaat/lehimleme-onarim</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Koleksiyon -->
+  <url><loc>https://silveratlas.org/tr/koleksiyon/antik-koleksiyon</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ═══ Tool Pages ═══════════════════════════════════ -->
+  <url><loc>https://silveratlas.org/tr/araclar/purity-calculator</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/unit-converter</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/ring-sizer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/quiz</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/color-palette</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/carbon-footprint</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/periodic-table</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/karat-calculator</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/stamp-identifier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/price-alert</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/zakat-calculator</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/purity-test</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/metal-comparator</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/jewelry-combinator</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/turkey-atlas</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Faz 7 new tools -->
+  <url><loc>https://silveratlas.org/tr/araclar/engraving-preview</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/insurance-calculator</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/quiz-v2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/tarnish-simulator</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/world-clock</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/portfolio-tracker</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silveratlas.org/tr/araclar/certificate-verifier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+</urlset>

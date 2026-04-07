@@ -18,7 +18,6 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [article, onClose]);
 
-  // Reading progress
   useEffect(() => {
     if (!article || !scrollRef.current) return;
     const el = scrollRef.current;
@@ -35,29 +34,6 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
     const content = getArticleContent(article.id, article);
     return content?.[lang] || content?.tr || '';
   }, [article, lang]);
-
-  // Extract TOC from h3 tags in HTML
-  const toc = useMemo(() => {
-    if (!html) return [];
-    const regex = /<h3[^>]*>(.*?)<\/h3>/gi;
-    const items = [];
-    let match;
-    while ((match = regex.exec(html)) !== null) {
-      const text = match[1].replace(/<[^>]*>/g, '');
-      items.push({ text, id: 'toc-' + items.length });
-    }
-    return items;
-  }, [html]);
-
-  // Inject IDs into h3 for TOC linking
-  const htmlWithIds = useMemo(() => {
-    if (!toc.length) return html;
-    let idx = 0;
-    return html.replace(/<h3([^>]*)>/gi, () => {
-      const id = 'toc-' + idx++;
-      return `<h3 id="${id}"$1>`;
-    });
-  }, [html, toc]);
 
   const handleShare = useCallback(async () => {
     const title = article?.[lang]?.t || 'SilverAtlas';
@@ -78,7 +54,6 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
   return (
     <div className={`ad${article ? ' open' : ''}`} ref={scrollRef} role="dialog" aria-modal="true"
       dir={isRTL ? 'rtl' : 'ltr'}>
-      {/* Reading progress bar */}
       <div className="reading-progress" style={{ width: `${progress}%` }} />
 
       <div className="ad-header">
@@ -106,23 +81,9 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
           </div>
         </div>
 
-        {/* Table of Contents */}
-        {toc.length > 2 && (
-          <div className="ad-toc">
-            <div className="ad-toc-title">{lang === 'tr' ? '📑 İçindekiler' : lang === 'en' ? '📑 Contents' : '📑 المحتويات'}</div>
-            {toc.map((item, i) => (
-              <a key={i} href={`#${item.id}`} onClick={(e) => {
-                e.preventDefault();
-                scrollRef.current?.querySelector(`#${item.id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }}>{item.text}</a>
-            ))}
-          </div>
-        )}
-
-        <div className="ad-body" key={lang} dangerouslySetInnerHTML={{ __html: htmlWithIds }} />
+        <div className="ad-body" key={lang} dangerouslySetInnerHTML={{ __html: html }} />
         <div className="ad-divider" />
 
-        {/* Feedback */}
         <div style={{ textAlign: 'center', marginBottom: 24 }}>
           <p style={{ fontSize: '.95rem', color: 'var(--text2)', marginBottom: 12 }}>
             {lang === 'tr' ? 'Bu makaleyi beğendiniz mi?' : lang === 'en' ? 'Did you enjoy this article?' : 'هل أعجبك هذا المقال؟'}

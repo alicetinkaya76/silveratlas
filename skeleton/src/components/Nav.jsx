@@ -15,6 +15,14 @@ export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  const scrollTo = (e, id) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <nav className={`nav${scrolled ? ' scrolled' : ''}`} role="navigation" aria-label="Main">
       <a href="#hero" className="nav-logo" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
@@ -23,7 +31,8 @@ export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
       </a>
       <div className="nav-links">
         {SECTIONS.map((id, idx) => (
-          <a key={id} href={`#${id}`} className={active === id ? 'active' : ''}>
+          <a key={id} href={`#${id}`} className={active === id ? 'active' : ''}
+            onClick={(e) => scrollTo(e, id)}>
             {t(lang, `nav.${NAV_KEYS[idx]}`)}
           </a>
         ))}

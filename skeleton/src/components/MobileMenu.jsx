@@ -3,11 +3,11 @@ import { t } from '../i18n/translations';
 
 const LANGS = ['tr', 'en', 'ar'];
 const LINKS = [
-  { icon: '🏠', section: '#hero', key: 'explore' },
-  { icon: '📖', section: '#articles-section', key: 'articles' },
-  { icon: '🛠️', section: '#tools-section', key: 'tools' },
-  { icon: '🗺️', section: '#atlas-section', key: 'atlas' },
-  { icon: '💫', section: '#sponsor-section', key: 'about' },
+  { icon: '🏠', section: 'hero', key: 'explore' },
+  { icon: '📖', section: 'articles-section', key: 'articles' },
+  { icon: '🛠️', section: 'tools-section', key: 'tools' },
+  { icon: '🗺️', section: 'atlas-section', key: 'atlas' },
+  { icon: '💫', section: 'sponsor-section', key: 'about' },
 ];
 
 export default function MobileMenu({ open, close, lang, setLang, dark, toggleTheme }) {
@@ -17,6 +17,19 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [open, close]);
+
+  const scrollTo = (e, id) => {
+    e.preventDefault();
+    close();
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else if (id === 'hero') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }, 300);
+  };
 
   return (
     <div className={`mm${open ? ' open' : ''}`} role="dialog" aria-modal="true">
@@ -30,7 +43,7 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
         </div>
         <div className="mm-links">
           {LINKS.map(l => (
-            <a key={l.key} href={l.section} onClick={close}>
+            <a key={l.key} href={`#${l.section}`} onClick={(e) => scrollTo(e, l.section)}>
               <span>{l.icon}</span>
               <span>{t(lang, `nav.${l.key}`)}</span>
             </a>

@@ -4,32 +4,24 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@components': path.resolve(__dirname, './src/components'),
-      '@pages': path.resolve(__dirname, './src/pages'),
-      '@widgets': path.resolve(__dirname, './src/widgets'),
-      '@articles': path.resolve(__dirname, './src/articles'),
-      '@data': path.resolve(__dirname, './public/data'),
-      '@i18n': path.resolve(__dirname, './src/i18n'),
-    },
-  },
+  base: '/silveratlas/',
+  resolve: { alias: { '@': path.resolve(__dirname, './src') } },
   build: {
     outDir: 'dist',
     sourcemap: false,
+    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          i18n: ['react-i18next', 'i18next'],
+          vendor: ['react', 'react-dom'],
           map: ['leaflet', 'react-leaflet'],
+          content: [
+            './src/data/articleContent.js',
+            './src/data/mapData.js',
+          ],
         },
       },
     },
   },
-  server: {
-    port: 3000,
-    open: true,
-  },
+  server: { port: 3000, open: true },
 });

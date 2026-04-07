@@ -1,9 +1,15 @@
 {
-  "name": "SilverAtlas",
+  "name": "SilverAtlas — Gümüşün Tüm Hikâyesi",
   "short_name": "SilverAtlas",
-  "description": "The world's most comprehensive silver knowledge platform",
+  "description": "Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil.",
   "start_url": "/silveratlas/",
   "display": "standalone",
   "background_color": "#08080d",
-  "theme_color": "#C0C0C0"
+  "theme_color": "#08080d",
+  "orientation": "any",
+  "lang": "tr",
+  "categories": ["education", "reference"],
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
 }

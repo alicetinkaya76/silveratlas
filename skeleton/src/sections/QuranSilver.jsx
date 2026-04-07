@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { t } from '../i18n/translations';
 import FadeUp from '../components/FadeUp';
-import { IconQuran, IconChevronLeft, IconChevronRight, IconBook } from '../components/Icons';
+import { IconQuran, IconChevronLeft, IconChevronRight } from '../components/Icons';
 
 /* ═══════════════════════════════════════════
    Kur'an'da Gümüş — QuranSilver Section

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { t } from '../i18n/translations';
 import FadeUp from '../components/FadeUp';
+import LivePrice from '../components/LivePrice';
+import { IconScale } from '../components/Icons';
 
 const PURITIES = [
   { value: 0.999, label: '999 (Saf/Pure)' },
@@ -18,9 +20,12 @@ export default function Calculator({ lang }) {
   return (
     <section className="section calc-section">
       <FadeUp>
+        <LivePrice lang={lang} />
+      </FadeUp>
+      <FadeUp>
         <div className="calc-box">
           <div style={{ textAlign: 'center', marginBottom: 20 }}>
-            <span style={{ fontSize: '2rem' }}>⚖️</span>
+            <IconScale size={36} style={{ color: 'var(--silver)' }} />
             <h2 className="section-title" style={{ fontSize: 'clamp(1.2rem,3vw,1.6rem)', marginTop: 8 }}>
               {t(lang, 'sections.calculator')}
             </h2>

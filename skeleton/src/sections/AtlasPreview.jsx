@@ -2,13 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { t } from '../i18n/translations';
 import { WORLD_POINTS, TURKEY_PROVINCES } from '../data/mapData';
 import FadeUp from '../components/FadeUp';
+import { IconTurkey, IconEarth, IconPickaxe, IconTemple, IconTools } from '../components/Icons';
 
-const TYPE_STYLES = {
-  mine: { icon: '⛏️', color: '#C0C0C0' },
-  mint: { icon: '🏛️', color: '#D4AF37' },
-  craft: { icon: '🔨', color: '#B87333' },
-  museum: { icon: '🏛️', color: '#6C88B5' },
-};
+const TYPE_ICONS = { mine: '⛏', mint: '🏛', craft: '🔨', museum: '🏛' };
 const CAT_COLORS = {
   uretim: '#C0C0C0', zanaat: '#a8a29e', maden: '#2dd4a0',
   ticaret: '#D4AF37', kultur: '#a78bfa', diger: '#5a5a70',
@@ -30,7 +26,6 @@ export default function AtlasPreview({ lang }) {
         mapInstance.current.remove();
         mapInstance.current = null;
       }
-
       if (!mapRef.current) return;
 
       const isTurkey = tab === 'turkey';
@@ -38,17 +33,18 @@ export default function AtlasPreview({ lang }) {
       const zoom = isTurkey ? 5.5 : 2;
 
       const map = L.map(mapRef.current, {
-        center, zoom, zoomControl: false,
-        attributionControl: false,
-        scrollWheelZoom: true,
+        center, zoom, zoomControl: false, attributionControl: false, scrollWheelZoom: true,
       });
       mapInstance.current = map;
-
       L.control.zoom({ position: 'topright' }).addTo(map);
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 18,
-      }).addTo(map);
+      // Use dark or light tile based on theme
+      const isDark = document.documentElement.dataset.theme !== 'light';
+      L.tileLayer(isDark
+        ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+        : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+        { maxZoom: 18 }
+      ).addTo(map);
 
       const markers = L.layerGroup().addTo(map);
       markersRef.current = markers;
@@ -58,8 +54,7 @@ export default function AtlasPreview({ lang }) {
           const color = CAT_COLORS[p.cat] || '#5a5a70';
           const size = p.rank <= 2 ? 10 : p.rank <= 3 ? 7 : 5;
           const circle = L.circleMarker([p.lat, p.lng], {
-            radius: size, fillColor: color, color: '#fff',
-            weight: 1, opacity: 0.8, fillOpacity: 0.7,
+            radius: size, fillColor: color, color: '#fff', weight: 1, opacity: 0.8, fillOpacity: 0.7,
           }).addTo(markers);
           const txt = lang === 'en' ? p.en : p.tr;
           circle.bindPopup(`<div style="font-family:'Source Sans 3',sans-serif;min-width:180px">
@@ -69,11 +64,9 @@ export default function AtlasPreview({ lang }) {
         });
       } else {
         WORLD_POINTS.forEach(p => {
-          const style = TYPE_STYLES[p.type] || TYPE_STYLES.mine;
           const icon = L.divIcon({
-            html: `<span style="font-size:16px">${style.icon}</span>`,
-            className: 'map-emoji-icon',
-            iconSize: [22, 22], iconAnchor: [11, 11],
+            html: `<span style="font-size:14px">${TYPE_ICONS[p.type] || '⛏'}</span>`,
+            className: 'map-emoji-icon', iconSize: [20, 20], iconAnchor: [10, 10],
           });
           const marker = L.marker([p.lat, p.lng], { icon }).addTo(markers);
           const name = p.name?.[lang] || p.name?.en || '';
@@ -85,7 +78,6 @@ export default function AtlasPreview({ lang }) {
           </div>`);
         });
       }
-
       setTimeout(() => map.invalidateSize(), 100);
     };
 
@@ -101,10 +93,12 @@ export default function AtlasPreview({ lang }) {
       <FadeUp>
         <div className="atlas-tabs">
           <button className={`atlas-tab${tab === 'turkey' ? ' active' : ''}`} onClick={() => setTab('turkey')}>
-            🇹🇷 {t(lang, 'atlas.turkey')} <span style={{ fontFamily: 'var(--f-mono)', fontSize: '.8rem', opacity: .6 }}>81</span>
+            <IconTurkey size={18} style={{ marginRight: 6, verticalAlign: 'middle' }} />
+            {t(lang, 'atlas.turkey')} <span style={{ fontFamily: 'var(--f-mono)', fontSize: '.8rem', opacity: .6 }}>81</span>
           </button>
           <button className={`atlas-tab${tab === 'world' ? ' active' : ''}`} onClick={() => setTab('world')}>
-            🌍 {t(lang, 'atlas.world')} <span style={{ fontFamily: 'var(--f-mono)', fontSize: '.8rem', opacity: .6 }}>280</span>
+            <IconEarth size={18} style={{ marginRight: 6, verticalAlign: 'middle' }} />
+            {t(lang, 'atlas.world')} <span style={{ fontFamily: 'var(--f-mono)', fontSize: '.8rem', opacity: .6 }}>280</span>
           </button>
         </div>
         <div className="map-container" ref={mapRef} />

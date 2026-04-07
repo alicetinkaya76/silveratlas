@@ -5,6 +5,8 @@ import Nav from './components/Nav';
 import MobileMenu from './components/MobileMenu';
 import BottomNav from './components/BottomNav';
 import ScrollToTop from './components/ScrollToTop';
+import SplashScreen from './components/SplashScreen';
+import WaveDivider from './components/WaveDivider';
 import Hero from './sections/Hero';
 import QuickTools from './sections/QuickTools';
 import Calculator from './sections/Calculator';
@@ -28,6 +30,7 @@ export default function App() {
   const [catFilter, setCatFilter] = useState(null);
   const [activeTool, setActiveTool] = useState(null);
   const [activeToolIdx, setActiveToolIdx] = useState(null);
+  const [splashDone, setSplashDone] = useState(false);
 
   const openArticle = useCallback((a) => {
     let art = a;
@@ -49,18 +52,25 @@ export default function App() {
 
   return (
     <div dir={isRTL ? 'rtl' : 'ltr'}>
+      {!splashDone && <SplashScreen onDone={() => setSplashDone(true)} />}
+
       <Nav lang={lang} dark={dark} cycleLang={cycleLang} toggleTheme={toggleTheme} openMenu={openMenu} />
       <MobileMenu open={menuOpen} close={closeMenu} lang={lang} setLang={setLang} dark={dark} toggleTheme={toggleTheme} />
 
       <Hero lang={lang} />
+      <WaveDivider variant={1} color="var(--card)" />
       <QuickTools lang={lang} onOpenTool={openTool} />
       <Calculator lang={lang} />
+      <WaveDivider variant={2} color="var(--bg)" />
       <FeaturedArticles lang={lang} onOpen={openArticle} />
       <Categories lang={lang} onFilter={filterCat} />
       <AllArticles lang={lang} onOpen={openArticle} catFilter={catFilter} setCatFilter={setCatFilter} />
+      <WaveDivider variant={3} color="var(--card)" />
       <ToolsGrid lang={lang} onOpenTool={openTool} />
       <AtlasPreview lang={lang} />
+      <WaveDivider variant={1} />
       <QuranSilver lang={lang} onOpenArticle={openArticle} />
+      <WaveDivider variant={2} flip />
       <SponsorCTA lang={lang} />
       <Footer lang={lang} />
 

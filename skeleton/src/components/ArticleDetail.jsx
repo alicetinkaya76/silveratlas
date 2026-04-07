@@ -3,6 +3,7 @@ import { t } from '../i18n/translations';
 import { ARTICLES } from '../data/articles';
 import { CATEGORIES } from '../data/categories';
 import { getArticleContent } from '../data/articleContent';
+import { getArticleIcon, IconChevronLeft, IconChevronRight, IconShare } from './Icons';
 
 export default function ArticleDetail({ article, lang, onClose, onOpen }) {
   const scrollRef = useRef(null);
@@ -50,6 +51,7 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
   const cat = CATEGORIES.find(c => c.id === article.cat);
   const related = ARTICLES.filter(a => a.cat === article.cat && a.id !== article.id).slice(0, 4);
   const isRTL = lang === 'ar';
+  const svgIcon = getArticleIcon(article.icon, 48, { color: cat?.co });
 
   return (
     <div className={`ad${article ? ' open' : ''}`} ref={scrollRef} role="dialog" aria-modal="true"
@@ -58,12 +60,12 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
 
       <div className="ad-header">
         <button className="ad-back" onClick={onClose} aria-label={t(lang, 'article.back')}>
-          {isRTL ? '→' : '←'}
+          {isRTL ? <IconChevronRight size={20} /> : <IconChevronLeft size={20} />}
         </button>
         <span className="ad-cat-badge" style={{ background: cat?.co }}>{cat?.[lang]}</span>
         <span style={{ flex: 1 }} />
         <button className="share-btn" onClick={handleShare} aria-label="Share">
-          📤
+          <IconShare size={18} />
         </button>
         <span style={{ fontSize: '.8rem', color: 'var(--text3)', fontFamily: 'var(--f-mono)' }}>
           {article.min} {t(lang, 'article.min')}
@@ -71,8 +73,9 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
       </div>
 
       <div className="ad-content" key={`${article.id}-${lang}`}>
-        <div style={{ textAlign: 'center', padding: '28px 0 24px', borderBottom: '1px solid var(--border)', marginBottom: 28 }}>
-          <span style={{ fontSize: '3rem', display: 'block', marginBottom: 12 }}>{article.icon}</span>
+        {/* Hero header with gradient */}
+        <div className="ad-hero" style={{ '--cat-co': cat?.co || '#C0C0C0' }}>
+          <span className="ad-hero-icon">{svgIcon || article.icon}</span>
           <h2>{article[lang]?.t}</h2>
           <p className="ad-desc">{article[lang]?.d}</p>
           <div className="ad-time">
@@ -89,10 +92,15 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
             {lang === 'tr' ? 'Bu makaleyi beğendiniz mi?' : lang === 'en' ? 'Did you enjoy this article?' : 'هل أعجبك هذا المقال؟'}
           </p>
           <div className="feedback-row">
-            <button className={`feedback-btn${liked === true ? ' liked' : ''}`} onClick={() => setLiked(true)}>👍</button>
-            <button className={`feedback-btn${liked === false ? ' liked' : ''}`} onClick={() => setLiked(false)} style={liked === false ? { background: 'rgba(231,76,60,0.1)', borderColor: '#e74c3c', color: '#e74c3c' } : {}}>👎</button>
+            <button className={`feedback-btn${liked === true ? ' liked' : ''}`} onClick={() => setLiked(true)}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 9V5a3 3 0 00-6 0v4H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-2a4 4 0 00-4-4h-3z"/></svg>
+            </button>
+            <button className={`feedback-btn${liked === false ? ' liked' : ''}`} onClick={() => setLiked(false)}
+              style={liked === false ? { background: 'rgba(231,76,60,0.1)', borderColor: '#e74c3c', color: '#e74c3c' } : {}}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ transform: 'rotate(180deg)' }}><path d="M14 9V5a3 3 0 00-6 0v4H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-2a4 4 0 00-4-4h-3z"/></svg>
+            </button>
           </div>
-          {liked !== null && <p style={{ fontSize: '.85rem', color: 'var(--text3)' }}>{lang === 'tr' ? 'Teşekkürler!' : 'Thanks!'}</p>}
+          {liked !== null && <p style={{ fontSize: '.85rem', color: 'var(--text3)', marginTop: 8 }}>{lang === 'tr' ? 'Teşekkürler!' : lang === 'en' ? 'Thanks!' : '!شكراً'}</p>}
         </div>
 
         {related.length > 0 && (
@@ -101,9 +109,10 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
             <div className="ad-related-list">
               {related.map(r => {
                 const rc = CATEGORIES.find(c => c.id === r.cat);
+                const rIcon = getArticleIcon(r.icon, 22, { color: rc?.co });
                 return (
                   <div className="art-item" key={r.id} onClick={() => onOpen(r)} role="button" tabIndex={0}>
-                    <span className="art-icon">{r.icon}</span>
+                    <span className="art-icon">{rIcon || r.icon}</span>
                     <div className="art-info">
                       <div className="art-title">{r[lang]?.t}</div>
                       <div className="art-meta">

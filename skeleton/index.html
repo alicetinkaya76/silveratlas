@@ -5,17 +5,71 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>SilverAtlas — Gümüşün Tüm Hikâyesi</title>
 <meta name="description" content="Bilimden tarihe, madencilikten modaya — dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 interaktif araç, 3 dil.">
-<meta property="og:title" content="SilverAtlas">
-<meta property="og:description" content="Dünyanın en kapsamlı gümüş bilgi platformu.">
+<meta name="keywords" content="gümüş, silver, فضة, 925 ayar, sterling silver, gümüş fiyat, silver price, gümüş yatırım, Kur'an gümüş, İslam gümüş">
+<meta name="author" content="SilverAtlas">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://silveratlas.org">
-<link rel="canonical" href="https://silveratlas.org">
+<meta property="og:url" content="https://alicetinkaya76.github.io/silveratlas/">
+<meta property="og:title" content="SilverAtlas — Gümüşün Tüm Hikâyesi">
+<meta property="og:description" content="Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil. Bilim, tarih, yatırım, Kur'an'da gümüş ve daha fazlası.">
+<meta property="og:image" content="https://alicetinkaya76.github.io/silveratlas/og-image.svg">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ar_SA">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SilverAtlas — Gümüşün Tüm Hikâyesi">
+<meta name="twitter:description" content="Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil.">
+<meta name="twitter:image" content="https://alicetinkaya76.github.io/silveratlas/og-image.svg">
+
+<!-- PWA -->
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#08080d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SilverAtlas">
+
+<link rel="canonical" href="https://alicetinkaya76.github.io/silveratlas/">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<link rel="apple-touch-icon" href="./favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="manifest" href="./manifest.json"><meta name="theme-color" content="#C0C0C0"><link rel="icon" type="image/svg+xml" href="./favicon.svg"></head>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SilverAtlas",
+  "url": "https://alicetinkaya76.github.io/silveratlas/",
+  "description": "Dünyanın en kapsamlı gümüş bilgi platformu",
+  "inLanguage": ["tr", "en", "ar"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "SilverAtlas",
+    "sponsor": {
+      "@type": "Organization",
+      "name": "İstanbul Gümüş",
+      "url": "https://www.instagram.com/istanbulgumustr/"
+    }
+  }
+}
+</script>
+</head>
 <body>
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
+<script>
+// Register service worker for PWA
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
+</script>
 </body>
 </html>

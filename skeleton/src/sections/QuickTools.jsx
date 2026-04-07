@@ -2,6 +2,7 @@ import React from 'react';
 import { t } from '../i18n/translations';
 import { TOOLS, QUICK_TOOL_INDICES } from '../data/tools';
 import FadeUp from '../components/FadeUp';
+import { getToolIcon } from '../components/Icons';
 
 export default function QuickTools({ lang, onOpenTool }) {
   return (
@@ -16,7 +17,7 @@ export default function QuickTools({ lang, onOpenTool }) {
                 onClick={() => onOpenTool(tool, idx)}
                 onKeyDown={e => e.key === 'Enter' && onOpenTool(tool, idx)}
                 aria-label={tool[lang]}>
-                <span className="qt-icon">{tool.i}</span>
+                <span className="qt-icon">{getToolIcon(idx, 26)}</span>
                 <span className="qt-name">{tool[lang]}</span>
               </div>
             );

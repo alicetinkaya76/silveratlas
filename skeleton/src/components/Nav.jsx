@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useScrollSpy } from '../hooks/useScrollSpy';
 import { t } from '../i18n/translations';
+import { IconMoon, IconSun } from './Icons';
 
-const SECTIONS = ['explore', 'articles-section', 'tools-section', 'atlas-section', 'sponsor-section'];
-const NAV_KEYS = ['explore', 'articles', 'tools', 'atlas', 'about'];
+const SECTIONS = ['explore', 'articles-section', 'tools-section', 'atlas-section', 'quran-section', 'sponsor-section'];
+const NAV_KEYS = ['explore', 'articles', 'tools', 'atlas', 'quran', 'about'];
 
 export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
   const [scrolled, setScrolled] = useState(false);
@@ -17,7 +18,6 @@ export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
 
   const scrollTo = (e, id) => {
     e.preventDefault();
-    // Close any open article or tool modal first
     const articleClose = document.querySelector('.ad.open .ad-back');
     if (articleClose) articleClose.click();
     const toolClose = document.querySelector('.tm.open .tm-close, .tm.open .tm-head button');
@@ -49,8 +49,8 @@ export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
         <button className="nav-btn lang-btn" onClick={cycleLang} aria-label="Change language">
           {lang.toUpperCase()}
         </button>
-        <button className="nav-btn" onClick={toggleTheme} aria-label="Toggle theme">
-          {dark ? '🌙' : '☀️'}
+        <button className="nav-btn theme-toggle-btn" onClick={toggleTheme} aria-label="Toggle theme">
+          {dark ? <IconMoon size={20} /> : <IconSun size={20} />}
         </button>
         <button className="hamburger" onClick={openMenu} aria-label="Open menu">
           <span /><span /><span />

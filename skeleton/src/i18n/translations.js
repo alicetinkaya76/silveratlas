@@ -1,6 +1,6 @@
 export const UI = {
   tr: {
-    nav:{explore:"Keşfet",articles:"Makaleler",tools:"Araçlar",atlas:"Atlas",about:"Hakkında"},
+    nav:{explore:"Keşfet",articles:"Makaleler",tools:"Araçlar",atlas:"Atlas",quran:"Kur'an",about:"Hakkında"},
     hero:{title1:"Gümüşün",title2:"Tüm",title3:"Hikâyesi",sub:"Bilimden tarihe, madencilikten modaya — dünyanın en kapsamlı gümüş bilgi platformu.",badge:"Ücretsiz · 3 Dil · 50 Makale · 33 Araç"},
     stats:{articles:"Makale",tools:"Araç",mapPoints:"Harita Noktası",langs:"Dil"},
     cta:{articles:"Makaleleri Keşfet",tools:"Araçları Gör"},
@@ -16,7 +16,7 @@ export const UI = {
     newBadge:"YENİ",
   },
   en: {
-    nav:{explore:"Explore",articles:"Articles",tools:"Tools",atlas:"Atlas",about:"About"},
+    nav:{explore:"Explore",articles:"Articles",tools:"Tools",atlas:"Atlas",quran:"Quran",about:"About"},
     hero:{title1:"The Complete",title2:"Story of",title3:"Silver",sub:"From science to history, mining to fashion — the world's most comprehensive silver knowledge platform.",badge:"Free · 3 Languages · 50 Articles · 33 Tools"},
     stats:{articles:"Articles",tools:"Tools",mapPoints:"Map Points",langs:"Languages"},
     cta:{articles:"Explore Articles",tools:"View Tools"},
@@ -32,7 +32,7 @@ export const UI = {
     newBadge:"NEW",
   },
   ar: {
-    nav:{explore:"اكتشف",articles:"المقالات",tools:"الأدوات",atlas:"الأطلس",about:"حول"},
+    nav:{explore:"اكتشف",articles:"المقالات",tools:"الأدوات",atlas:"الأطلس",quran:"القرآن",about:"حول"},
     hero:{title1:"القصة",title2:"الكاملة",title3:"للفضة",sub:"من العلم إلى التاريخ، من التعدين إلى الموضة — أشمل منصة معرفة الفضة في العالم.",badge:"مجاني · ٣ لغات · ٥٠ مقال · ٣٣ أداة"},
     stats:{articles:"مقالات",tools:"أدوات",mapPoints:"نقطة خريطة",langs:"لغات"},
     cta:{articles:"استكشف المقالات",tools:"عرض الأدوات"},

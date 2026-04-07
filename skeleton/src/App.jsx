@@ -3,6 +3,8 @@ import { useTheme } from './hooks/useTheme';
 import { useLang } from './hooks/useLang';
 import Nav from './components/Nav';
 import MobileMenu from './components/MobileMenu';
+import BottomNav from './components/BottomNav';
+import ScrollToTop from './components/ScrollToTop';
 import Hero from './sections/Hero';
 import QuickTools from './sections/QuickTools';
 import Calculator from './sections/Calculator';
@@ -11,10 +13,12 @@ import Categories from './sections/Categories';
 import AllArticles from './sections/AllArticles';
 import ToolsGrid from './sections/ToolsGrid';
 import AtlasPreview from './sections/AtlasPreview';
+import QuranSilver from './sections/QuranSilver';
 import SponsorCTA from './sections/SponsorCTA';
 import Footer from './components/Footer';
 import ArticleDetail from './components/ArticleDetail';
 import ToolModal from './components/ToolModal';
+import { ARTICLES } from './data/articles';
 
 export default function App() {
   const { dark, toggle: toggleTheme } = useTheme();
@@ -25,7 +29,14 @@ export default function App() {
   const [activeTool, setActiveTool] = useState(null);
   const [activeToolIdx, setActiveToolIdx] = useState(null);
 
-  const openArticle = useCallback((a) => { setArticle(a); document.body.style.overflow = 'hidden'; }, []);
+  const openArticle = useCallback((a) => {
+    let art = a;
+    if (a && !a.cat && (a.id || a.slug)) {
+      art = ARTICLES.find(x => x.id === a.id || x.slug === a.slug) || a;
+    }
+    setArticle(art);
+    document.body.style.overflow = 'hidden';
+  }, []);
   const closeArticle = useCallback(() => { setArticle(null); document.body.style.overflow = ''; }, []);
   const openMenu = useCallback(() => { setMenuOpen(true); document.body.style.overflow = 'hidden'; }, []);
   const closeMenu = useCallback(() => { setMenuOpen(false); document.body.style.overflow = ''; }, []);
@@ -49,8 +60,12 @@ export default function App() {
       <AllArticles lang={lang} onOpen={openArticle} catFilter={catFilter} setCatFilter={setCatFilter} />
       <ToolsGrid lang={lang} onOpenTool={openTool} />
       <AtlasPreview lang={lang} />
+      <QuranSilver lang={lang} onOpenArticle={openArticle} />
       <SponsorCTA lang={lang} />
       <Footer lang={lang} />
+
+      <BottomNav lang={lang} />
+      <ScrollToTop />
 
       <ArticleDetail article={article} lang={lang} onClose={closeArticle} onOpen={openArticle} />
       <ToolModal tool={activeTool} toolIndex={activeToolIdx} lang={lang} onClose={closeTool} />

@@ -3,6 +3,7 @@ import { t } from '../i18n/translations';
 import { ARTICLES } from '../data/articles';
 import { CATEGORIES } from '../data/categories';
 import FadeUp from '../components/FadeUp';
+import { getArticleIcon, getCatIcon, IconSearch } from '../components/Icons';
 
 export default function AllArticles({ lang, onOpen, catFilter, setCatFilter }) {
   const [query, setQuery] = useState('');
@@ -13,7 +14,7 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter }) {
     if (query.trim()) {
       const q = query.toLowerCase();
       list = list.filter(a => {
-        const txt = `${a[lang]?.t} ${a[lang]?.d} ${a.icon}`.toLowerCase();
+        const txt = `${a[lang]?.t} ${a[lang]?.d}`.toLowerCase();
         return txt.includes(q);
       });
     }
@@ -25,6 +26,7 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter }) {
       <FadeUp><div className="section-header"><h2 className="section-title">{t(lang, 'sections.allArticles')}</h2></div></FadeUp>
       <FadeUp>
         <div className="search-wrap">
+          <span className="search-icon-svg"><IconSearch size={18} /></span>
           <input type="text" className="search-bar" value={query} onChange={e => setQuery(e.target.value)}
             placeholder={t(lang, 'search.placeholder')} autoComplete="off" />
         </div>
@@ -35,7 +37,8 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter }) {
           {CATEGORIES.map(cat => (
             <button key={cat.id} className={`chip${catFilter === cat.id ? ' active' : ''}`}
               onClick={() => setCatFilter(catFilter === cat.id ? null : cat.id)}>
-              {cat.i} {cat[lang]}
+              <span style={{ display: 'inline-flex', marginRight: 6, color: cat.co }}>{getCatIcon(cat.id, 16)}</span>
+              {cat[lang]}
             </button>
           ))}
         </div>
@@ -43,10 +46,11 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter }) {
           {filtered.length === 0 && <div className="no-result">{t(lang, 'search.noResult')}</div>}
           {filtered.map(a => {
             const cat = CATEGORIES.find(c => c.id === a.cat);
+            const svgIcon = getArticleIcon(a.icon, 22, { color: cat?.co });
             return (
               <div className="art-item" key={a.id} onClick={() => onOpen(a)}
                 role="button" tabIndex={0} onKeyDown={e => e.key === 'Enter' && onOpen(a)}>
-                <span className="art-icon">{a.icon}</span>
+                <span className="art-icon">{svgIcon || a.icon}</span>
                 <div className="art-info">
                   <div className="art-title">{a[lang]?.t}</div>
                   <div className="art-meta">

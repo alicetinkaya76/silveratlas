@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
 import { t } from '../i18n/translations';
+import { IconExplore, IconArticles, IconToolsNav, IconAtlas, IconQuranNav, IconMoon, IconSun, IconSparkle, IconX } from './Icons';
 
 const LANGS = ['tr', 'en', 'ar'];
 const LINKS = [
-  { icon: '🏠', section: 'hero', key: 'explore' },
-  { icon: '📖', section: 'articles-section', key: 'articles' },
-  { icon: '🛠️', section: 'tools-section', key: 'tools' },
-  { icon: '🗺️', section: 'atlas-section', key: 'atlas' },
-  { icon: '💫', section: 'sponsor-section', key: 'about' },
+  { Icon: IconExplore, section: 'hero', key: 'explore' },
+  { Icon: IconArticles, section: 'articles-section', key: 'articles' },
+  { Icon: IconToolsNav, section: 'tools-section', key: 'tools' },
+  { Icon: IconAtlas, section: 'atlas-section', key: 'atlas' },
+  { Icon: IconQuranNav, section: 'quran-section', key: 'quran' },
+  { Icon: IconSparkle, section: 'sponsor-section', key: 'about' },
 ];
 
 export default function MobileMenu({ open, close, lang, setLang, dark, toggleTheme }) {
@@ -39,12 +41,14 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
             <span className="logo-circle">Ag</span>
             <span>SilverAtlas</span>
           </span>
-          <button className="mm-close" onClick={close} aria-label={t(lang, 'menu.close')}>✕</button>
+          <button className="mm-close" onClick={close} aria-label={t(lang, 'menu.close')}>
+            <IconX size={18} />
+          </button>
         </div>
         <div className="mm-links">
           {LINKS.map(l => (
             <a key={l.key} href={`#${l.section}`} onClick={(e) => scrollTo(e, l.section)}>
-              <span>{l.icon}</span>
+              <l.Icon size={22} />
               <span>{t(lang, `nav.${l.key}`)}</span>
             </a>
           ))}
@@ -58,11 +62,11 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
             ))}
           </div>
           <button className="mm-theme" onClick={() => { toggleTheme(); close(); }}>
-            <span>{dark ? '🌙' : '☀️'}</span>
+            {dark ? <IconMoon size={20} /> : <IconSun size={20} />}
             <span>{t(lang, 'menu.theme')}</span>
           </button>
           <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" className="mm-sponsor" onClick={close}>
-            <span>💫</span>
+            <IconSparkle size={20} style={{ color: 'var(--gold)' }} />
             <span>{t(lang, 'sponsor.name')}</span>
           </a>
         </div>

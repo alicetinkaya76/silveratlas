@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { t } from '../i18n/translations';
+import { HeroAtomSVG } from '../components/Icons';
 
 const COUNTERS = [
   { target: 50, key: 'stats.articles' },
@@ -38,6 +39,7 @@ export default function Hero({ lang }) {
     <section className="hero" id="hero" ref={ref}>
       <div className="hero-orb hero-orb1" />
       <div className="hero-orb hero-orb2" />
+      <HeroAtomSVG size={280} />
       <div className="hero-badge">{t(lang, 'hero.badge')}</div>
       <h1>
         {t(lang, 'hero.title1')}{' '}
@@ -58,7 +60,11 @@ export default function Hero({ lang }) {
         <a href="#articles-section" className="btn btn-primary">{t(lang, 'cta.articles')}</a>
         <a href="#tools-section" className="btn btn-secondary">{t(lang, 'cta.tools')}</a>
       </div>
-      <div className="scroll-indicator" aria-hidden="true">↓</div>
+      <div className="scroll-indicator" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
     </section>
   );
 }

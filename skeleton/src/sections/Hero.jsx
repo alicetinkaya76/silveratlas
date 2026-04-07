@@ -58,6 +58,7 @@ export default function Hero({ lang }) {
         <a href="#articles-section" className="btn btn-primary">{t(lang, 'cta.articles')}</a>
         <a href="#tools-section" className="btn btn-secondary">{t(lang, 'cta.tools')}</a>
       </div>
+      <div className="scroll-indicator" aria-hidden="true">↓</div>
     </section>
   );
 }

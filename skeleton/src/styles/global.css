@@ -445,3 +445,98 @@ background:var(--card);border:1px solid var(--border)}
 .calc-section .calc-box{box-shadow:var(--shadow-lg),var(--glow-silver);
 border-color:rgba(192,192,192,0.12)}
 .calc-section .section-title::after{display:none}
+
+/* ═══ FAZ 9 — Premium Mobile UX ═══ */
+
+/* Grabber handle for bottom sheet */
+.tm-grabber{text-align:center;padding:10px 0 2px;cursor:grab}
+.tm-grabber-bar{width:40px;height:4px;border-radius:3px;background:var(--text3);opacity:.4;margin:0 auto}
+
+/* Press feedback on all interactive elements */
+.qt-card:active,.feat-card:active,.cat-card:active,.tool-card:active,.art-item:active,
+.chip:active,.atlas-tab:active,.btn:active,.mm-links a:active,.mm-theme:active,
+.mm-sponsor:active,.mm-langs button:active{
+  transform:scale(0.96)!important;transition:transform .1s!important}
+
+/* Glow border on hover/focus */
+.feat-card:hover,.tool-card:hover,.cat-card:hover,.art-item:hover{
+  box-shadow:var(--shadow),0 0 20px rgba(192,192,192,0.06)}
+.feat-card:focus-visible,.tool-card:focus-visible,.cat-card:focus-visible,.art-item:focus-visible{
+  outline:2px solid var(--silver);outline-offset:2px}
+
+/* Skeleton shimmer placeholder */
+@keyframes skeletonShimmer{
+  0%{background-position:-200% 0}100%{background-position:200% 0}}
+.skeleton{background:linear-gradient(90deg,var(--card) 25%,var(--card2) 50%,var(--card) 75%);
+background-size:200% 100%;animation:skeletonShimmer 1.5s infinite;border-radius:var(--r-card)}
+
+/* Scroll indicator arrow */
+@keyframes scrollBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.scroll-indicator{position:absolute;bottom:28px;left:50%;margin-left:-16px;width:32px;height:32px;
+display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--text3);
+animation:scrollBounce 2s ease-in-out infinite;opacity:.6}
+
+/* Horizontal scroll dots indicator */
+.scroll-dots{display:flex;gap:6px;justify-content:center;padding:8px 0}
+.scroll-dot{width:6px;height:6px;border-radius:50%;background:var(--text3);opacity:.3;transition:all .3s}
+.scroll-dot.active{opacity:1;background:var(--silver);width:18px;border-radius:3px}
+
+/* Hamburger → X morph animation */
+.hamburger.is-open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.hamburger.is-open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.hamburger.is-open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+
+/* Spring physics for menus */
+.mm{transition:transform .5s cubic-bezier(.32,.72,.24,1.0)}
+
+/* Theme cross-fade */
+body{transition:background .5s ease,color .5s ease}
+.nav{transition:all .5s cubic-bezier(.4,0,.2,1)}
+
+/* Article reading progress */
+.reading-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--silver),var(--gold));
+z-index:1001;transition:width .1s linear;border-radius:0 2px 2px 0}
+
+/* Article TOC */
+.ad-toc{padding:14px 16px;border-radius:var(--r-card);background:var(--card);border:1px solid var(--border);
+margin-bottom:20px;font-size:.88rem}
+.ad-toc-title{font-family:var(--f-head);font-weight:600;margin-bottom:8px;font-size:.95rem;color:var(--silver)}
+.ad-toc a{display:block;padding:5px 0;color:var(--text2);transition:color .2s;border-bottom:1px solid var(--border)}
+.ad-toc a:last-child{border-bottom:none}
+.ad-toc a:hover{color:var(--silver)}
+
+/* Share button */
+.share-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;border-radius:var(--r-btn);
+border:1px solid var(--border);font-size:.88rem;color:var(--text2);transition:all .2s;cursor:pointer;
+background:transparent}
+.share-btn:active{transform:scale(.95);background:var(--card)}
+
+/* Feedback button */
+.feedback-row{display:flex;gap:10px;justify-content:center;padding:20px 0}
+.feedback-btn{padding:10px 20px;border-radius:var(--r-btn);border:1px solid var(--border);
+font-size:.88rem;cursor:pointer;background:transparent;color:var(--text2);transition:all .2s}
+.feedback-btn:active{transform:scale(.95)}
+.feedback-btn.liked{background:rgba(39,174,96,0.1);border-color:#27ae60;color:#27ae60}
+
+/* Improved article body typography */
+.ad-body p{font-size:1.08rem;line-height:1.8;margin-bottom:18px}
+.ad-body h3{margin:28px 0 14px}
+@media(min-width:768px){.ad-body p{font-size:1.12rem;line-height:1.85}}
+
+/* Improved spacing */
+.section{padding:56px 20px}
+@media(min-width:768px){.section{padding:72px 36px}}
+
+/* Focus ring for keyboard nav */
+*:focus-visible{outline:2px solid var(--silver);outline-offset:2px;border-radius:4px}
+button:focus-visible{outline:2px solid var(--silver);outline-offset:2px}
+
+/* Reduced motion */
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:0.01ms!important;animation-iteration-count:1!important;
+  transition-duration:0.01ms!important}
+  .scroll-indicator{animation:none!important}
+}
+
+/* ARIA screen reader */
+[aria-hidden="true"]{display:none}

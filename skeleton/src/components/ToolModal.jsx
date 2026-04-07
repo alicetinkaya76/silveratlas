@@ -16,448 +16,416 @@ function UnitConverter({ lang }) {
   return (<div className="tm-tool"><label className="calc-label">{lang==='tr'?'Miktar':'Amount'}</label><input type="number" className="calc-input" value={val} onChange={e=>setVal(+e.target.value)} min="0" step="0.01" inputMode="decimal"/><label className="calc-label" style={{marginTop:12}}>{lang==='tr'?'Birim':'Unit'}</label><select className="calc-select" value={from} onChange={e=>setFrom(e.target.value)}><option value="oz">Troy Ounce</option><option value="g">Gram</option><option value="kg">Kilogram</option><option value="lb">Pound</option><option value="tola">Tola</option></select><div style={{marginTop:16,display:'flex',flexDirection:'column',gap:6}}>{Object.entries(rates).filter(([k])=>k!==from).map(([unit,rate])=>(<div key={unit} className="tm-result-row"><span style={{fontFamily:'var(--f-mono)',fontWeight:600,color:'var(--silver)'}}>{(grams/rate).toFixed(4)}</span><span style={{color:'var(--text2)',fontSize:'.85rem',marginLeft:8}}>{unit}</span></div>))}</div></div>);
 }
 
-/* ── TOOL 2: Ring Sizer (Ultra Premium) ── */
+/* ── TOOL 2: Ring Sizer (Ultra Premium — Credit Card Calibration) ── */
 function RingSizer({ lang }) {
-  const [tab, setTab] = useState('measure');
-  const [mm, setMm] = useState(52);
+  const [phase, setPhase] = useState('start'); // start|calibrate|ring|string|result
+  const [pxPerMm, setPxPerMm] = useState(3.78); // default, will be calibrated
+  const [calSlider, setCalSlider] = useState(50); // calibration slider 0-100
+  const [ringSlider, setRingSlider] = useState(50); // ring matching slider
+  const [stringMm, setStringMm] = useState(52);
   const [step, setStep] = useState(0);
+  const [resultSize, setResultSize] = useState(null);
+
+  const CARD_HEIGHT_MM = 53.98; // ISO 7810 standard credit card height
 
   const SIZES = [
-    {us:3,eu:44,uk:'F',mm:44.2,dia:14.1},
-    {us:4,eu:47,uk:'H',mm:46.8,dia:14.9},
-    {us:5,eu:49,uk:'J½',mm:49.0,dia:15.6},
-    {us:6,eu:51,uk:'L½',mm:51.5,dia:16.4},
-    {us:7,eu:54,uk:'N½',mm:54.0,dia:17.2},
-    {us:8,eu:57,uk:'P½',mm:56.6,dia:18.0},
-    {us:9,eu:59,uk:'R½',mm:59.1,dia:18.8},
-    {us:10,eu:62,uk:'T½',mm:61.6,dia:19.6},
-    {us:11,eu:64,uk:'V½',mm:64.0,dia:20.4},
-    {us:12,eu:67,uk:'Y',mm:66.6,dia:21.2},
-    {us:13,eu:69,uk:'Z+1',mm:69.1,dia:22.0},
+    {us:3,eu:44,uk:'F',jp:4,mm:44.2,dia:14.1},
+    {us:4,eu:47,uk:'H',jp:7,mm:46.8,dia:14.9},
+    {us:4.5,eu:48,uk:'I',jp:8,mm:47.8,dia:15.2},
+    {us:5,eu:49,uk:'J½',jp:9,mm:49.0,dia:15.6},
+    {us:5.5,eu:50,uk:'K',jp:10,mm:50.3,dia:16.0},
+    {us:6,eu:51,uk:'L½',jp:12,mm:51.5,dia:16.4},
+    {us:6.5,eu:52,uk:'M',jp:13,mm:52.8,dia:16.8},
+    {us:7,eu:54,uk:'N½',jp:14,mm:54.0,dia:17.2},
+    {us:7.5,eu:55,uk:'O',jp:15,mm:55.3,dia:17.6},
+    {us:8,eu:57,uk:'P½',jp:16,mm:56.6,dia:18.0},
+    {us:8.5,eu:58,uk:'Q',jp:17,mm:57.8,dia:18.4},
+    {us:9,eu:59,uk:'R½',jp:18,mm:59.1,dia:18.8},
+    {us:10,eu:62,uk:'T½',jp:20,mm:61.6,dia:19.6},
+    {us:11,eu:64,uk:'V½',jp:22,mm:64.0,dia:20.4},
+    {us:12,eu:67,uk:'Y',jp:24,mm:66.6,dia:21.2},
+    {us:13,eu:69,uk:'Z+1',jp:26,mm:69.1,dia:22.0},
   ];
-  const closest = SIZES.reduce((a,b) => Math.abs(b.mm-mm)<Math.abs(a.mm-mm)?b:a);
+
+  const findSize = (diaMm) => SIZES.reduce((a,b) => Math.abs(b.dia-diaMm)<Math.abs(a.dia-diaMm)?b:a);
+  const findSizeByCirc = (circ) => SIZES.reduce((a,b) => Math.abs(b.mm-circ)<Math.abs(a.mm-circ)?b:a);
+
+  // Calibration: card height in px = slider maps to px
+  const cardHeightPx = 120 + calSlider * 2.5; // range ~120-370px
+  const calibratedPxPerMm = cardHeightPx / CARD_HEIGHT_MM;
+
+  const doCalibrate = () => {
+    setPxPerMm(calibratedPxPerMm);
+    setPhase('ring');
+  };
+
+  // Ring matching: diameter from slider
+  const ringDiaPx = 40 + ringSlider * 2.2; // range ~40-260px
+  const ringDiaMm = ringDiaPx / pxPerMm;
+
+  const doRingResult = () => {
+    setResultSize(findSize(ringDiaMm));
+    setPhase('result');
+  };
+
+  const doStringResult = () => {
+    setResultSize(findSizeByCirc(stringMm));
+    setPhase('result');
+  };
 
   const TX = {
     tr: {
-      tabs: ['Ölçüm Rehberi', 'Daire Eşleştir', 'Tablo'],
+      welcome: 'Yüzük Ölçünüzü Bulalım',
+      hasRing: 'Elinizde mevcut bir yüzük var mı?',
+      yesRing: 'Evet, yüzüğüm var',
+      noRing: 'Hayır, ip ile ölçeceğim',
+      calTitle: 'Ekran Kalibrasyonu',
+      calDesc: 'Kredi kartınızı ekrana koyun. Kartın üst kenarı üst çizgiye değsin. Kaydırıcıyı kartın alt kenarıyla eşleşene kadar ayarlayın.',
+      calTip: 'Telefonu düz bir yüzeye koyun ve dik yukarıdan bakın.',
+      calBtn: 'Kalibre Et',
+      ringTitle: 'Yüzüğünüzü Eşleştirin',
+      ringDesc: 'Yüzüğünüzü ekrandaki dairenin üzerine koyun. Kaydırıcıyı, dairenin iç kenarı yüzüğün iç kenarıyla eşleşene kadar ayarlayın.',
+      ringTip: 'Tek gözünüzü kapatarak bakın — daha doğru eşleşir.',
+      ringBtn: 'Ölçümü Tamamla',
       steps: [
-        { t: 'İp veya kağıt şerit hazırlayın', d: 'Yaklaşık 10 cm uzunluğunda ince bir ip veya kağıt şerit kesin.' },
-        { t: 'Parmağınıza sarın', d: 'İpi yüzük parmağınızın en geniş yerinden (eklem dahil) boşluk kalmayacak şekilde sarın. Sıkı ama rahat olmalı.' },
-        { t: 'Buluşma noktasını işaretleyin', d: 'İpin birbiriyle buluştuğu noktayı kalemle işaretleyin.' },
-        { t: 'Cetvel ile ölçün', d: 'İpi düz bir şekilde cetvel üzerine koyun ve mm cinsinden ölçün.' },
-        { t: 'Ölçünüzü girin', d: 'Kaydırıcıyı ölçtüğünüz değere ayarlayın — ölçünüz otomatik hesaplanır.' },
+        { t: 'İp veya kağıt şerit kesin', d: 'Yaklaşık 10 cm uzunluğunda ince bir ip veya kağıt şerit hazırlayın.' },
+        { t: 'Parmağınıza sarın', d: 'Yüzük parmağınızın en geniş yerinden (eklem dahil) boşluk kalmadan sarın.' },
+        { t: 'Buluşma noktasını işaretleyin', d: 'İpin birbiriyle buluştuğu yeri kalemle işaretleyin.' },
+        { t: 'Cetvelle ölçün', d: 'İpi düz koyup mm cinsinden ölçün. Bu değer iç çevrenizdir.' },
       ],
-      tip: 'Akşam saatlerinde ölçün — parmaklar gün içinde hafifçe şişer.',
-      circleTitle: 'Yüzüğünüzü ekrandaki daireyle eşleştirin',
-      circleDesc: 'Mevcut bir yüzüğünüzü ekranın üzerine koyun ve iç kısmı altın daireyle eşleştirin.',
-      circ: 'İç Çevre', dia: 'İç Çap', result: 'Yüzük Ölçünüz',
+      tip: 'Akşam ölçün — parmaklar gün içinde şişer.',
+      circ: 'İç Çevre (mm)',
+      findBtn: 'Ölçümü Bul',
+      resultTitle: 'Yüzük Ölçünüz',
+      silverEst: '925 Ayar Gümüş Yüzük Tahmini',
+      orderCta: 'İstanbul Gümüş\'ten Sipariş Ver →',
+      hadith: 'Hz. Muhammed (s.a.v.) gümüş yüzük takmıştır. (Buhari, Müslim)',
+      share: 'Ölçümü Paylaş',
+      restart: 'Tekrar Ölç',
+      method: 'İp Yöntemi',
     },
     en: {
-      tabs: ['Measure Guide', 'Circle Match', 'Size Table'],
+      welcome: 'Find Your Ring Size',
+      hasRing: 'Do you have an existing ring?',
+      yesRing: 'Yes, I have a ring',
+      noRing: 'No, I\'ll use string method',
+      calTitle: 'Screen Calibration',
+      calDesc: 'Place your credit card on screen. Top edge touches the top line. Adjust slider until it matches the bottom edge of your card.',
+      calTip: 'Place phone on flat surface and look straight down.',
+      calBtn: 'Calibrate',
+      ringTitle: 'Match Your Ring',
+      ringDesc: 'Place your ring on the circle. Adjust slider until the circle matches the inner edge of your ring.',
+      ringTip: 'Close one eye for more accurate matching.',
+      ringBtn: 'Get My Size',
       steps: [
-        { t: 'Prepare string or paper strip', d: 'Cut a thin string or paper strip about 10 cm long.' },
-        { t: 'Wrap around your finger', d: 'Wrap snugly around the widest part of your ring finger (including knuckle). No gaps — snug but comfortable.' },
-        { t: 'Mark the meeting point', d: 'Mark where the string meets itself with a pen.' },
-        { t: 'Measure with a ruler', d: 'Lay the string flat on a ruler and measure in millimeters.' },
-        { t: 'Enter your measurement', d: 'Set the slider to your measured value — your size is calculated automatically.' },
+        { t: 'Cut string or paper strip', d: 'Prepare a thin string or strip about 10 cm long.' },
+        { t: 'Wrap around finger', d: 'Wrap snugly around the widest part of your ring finger (incl. knuckle). No gaps.' },
+        { t: 'Mark the meeting point', d: 'Mark where the string overlaps with a pen.' },
+        { t: 'Measure with ruler', d: 'Lay flat and measure in mm. This is your inner circumference.' },
       ],
-      tip: 'Measure in the evening — fingers swell slightly during the day.',
-      circleTitle: 'Match your ring to the circle on screen',
-      circleDesc: 'Place an existing ring on your screen and match its inner edge to the gold circle.',
-      circ: 'Circumference', dia: 'Diameter', result: 'Your Ring Size',
+      tip: 'Measure in evening — fingers swell during the day.',
+      circ: 'Circumference (mm)',
+      findBtn: 'Find My Size',
+      resultTitle: 'Your Ring Size',
+      silverEst: '925 Sterling Silver Ring Estimate',
+      orderCta: 'Order from İstanbul Gümüş →',
+      hadith: 'Prophet Muhammad (pbuh) wore a silver ring. (Bukhari, Muslim)',
+      share: 'Share Result',
+      restart: 'Measure Again',
+      method: 'String Method',
     },
     ar: {
-      tabs: ['دليل القياس', 'مطابقة الدائرة', 'الجدول'],
+      welcome: 'اعثر على مقاس خاتمك',
+      hasRing: 'هل لديك خاتم حالي؟',
+      yesRing: 'نعم، لدي خاتم',
+      noRing: 'لا، سأستخدم طريقة الخيط',
+      calTitle: 'معايرة الشاشة',
+      calDesc: 'ضع بطاقتك الائتمانية على الشاشة. الحافة العلوية تلامس الخط العلوي. اضبط شريط التمرير حتى يتطابق مع الحافة السفلية.',
+      calTip: 'ضع الهاتف على سطح مستوٍ وانظر من الأعلى مباشرة.',
+      calBtn: 'معايرة',
+      ringTitle: 'طابق خاتمك',
+      ringDesc: 'ضع خاتمك على الدائرة. اضبط حتى تتطابق الدائرة مع الحافة الداخلية لخاتمك.',
+      ringTip: 'أغلق عيناً واحدة للمطابقة الدقيقة.',
+      ringBtn: 'احصل على مقاسي',
       steps: [
-        { t: 'حضّر خيطاً أو شريط ورق', d: 'قص خيطاً رفيعاً بطول ١٠ سم تقريباً.' },
-        { t: 'لفّه حول إصبعك', d: 'لفّه حول أعرض جزء من إصبعك بما في ذلك المفصل.' },
-        { t: 'ضع علامة عند نقطة التقاء', d: 'ضع علامة بقلم حيث يلتقي طرفا الخيط.' },
-        { t: 'قِس بالمسطرة', d: 'ضع الخيط على المسطرة وقس بالمليمتر.' },
-        { t: 'أدخل القياس', d: 'اضبط شريط التمرير — يتم حساب المقاس تلقائياً.' },
+        { t: 'قص خيطاً أو شريط ورق', d: 'حضّر خيطاً رفيعاً بطول ١٠ سم.' },
+        { t: 'لفّه حول إصبعك', d: 'لفّه بإحكام حول أعرض جزء من بنصرك بدون فراغات.' },
+        { t: 'ضع علامة', d: 'ضع علامة بقلم حيث يلتقي الخيط.' },
+        { t: 'قِس بالمسطرة', d: 'ضعه مستقيماً وقس بالمليمتر.' },
       ],
-      tip: 'قِس في المساء — الأصابع تتورم قليلاً خلال النهار.',
-      circleTitle: 'طابق خاتمك مع الدائرة',
-      circleDesc: 'ضع خاتماً على الشاشة وطابق حافته الداخلية مع الدائرة الذهبية.',
-      circ: 'المحيط', dia: 'القطر', result: 'مقاس خاتمك',
-    }
+      tip: 'قِس مساءً — الأصابع تتورم خلال النهار.',
+      circ: 'المحيط (مم)',
+      findBtn: 'اعثر على مقاسي',
+      resultTitle: 'مقاس خاتمك',
+      silverEst: 'تقدير خاتم فضة ٩٢٥',
+      orderCta: 'اطلب من إسطنبول غوموش ←',
+      hadith: 'كان النبي ﷺ يلبس خاتماً من فضة. (البخاري، مسلم)',
+      share: 'شارك النتيجة',
+      restart: 'قِس مجدداً',
+      method: 'طريقة الخيط',
+    },
   }[lang] || {};
 
-  // SVG labels per language
-  const SVG_L = {
-    tr: { wrap: 'sarın', mark: 'işaret', finger: 'yüzük parmağı' },
-    en: { wrap: 'wrap', mark: 'mark', finger: 'ring finger' },
-    ar: { wrap: 'لف', mark: 'علامة', finger: 'بنصر' },
-  }[lang] || { wrap: 'sarın', mark: 'işaret', finger: 'yüzük parmağı' };
+  const s = resultSize || findSizeByCirc(stringMm);
+  // Silver ring weight estimate: ~3-6g depending on size
+  const silverWeight = (2 + s.dia * 0.2).toFixed(1);
+  const silverPricePerG = 1.05; // approximate USD/g
+  const silverTL = (silverWeight * silverPricePerG * 38.5).toFixed(0);
 
-  // Clean technical diagram illustrations (jewelry catalog style)
-  const StepSVG = ({ s }) => (
-    <svg width="260" height="160" viewBox="0 0 260 160" fill="none" xmlns="http://www.w3.org/2000/svg"
-      style={{display:'block',margin:'0 auto'}}>
-      <defs>
-        <linearGradient id="agLine" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/>
-        </linearGradient>
-        <linearGradient id="agVert" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stopColor="#D4AF37"/><stop offset="100%" stopColor="#C0C0C0"/>
-        </linearGradient>
-        <radialGradient id="glow1"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".1"/><stop offset="100%" stopColor="transparent"/></radialGradient>
-      </defs>
-
-      {/* ── STEP 0: String/strip ── */}
-      {s===0 && <>
-        <circle cx="130" cy="70" r="65" fill="url(#glow1)"/>
-        {/* Scissors */}
-        <g transform="translate(40,35)" opacity=".6">
-          <circle cx="8" cy="4" r="7" fill="none" stroke="var(--silver)" strokeWidth="1.5"/>
-          <circle cx="8" cy="24" r="7" fill="none" stroke="var(--silver)" strokeWidth="1.5"/>
-          <line x1="14" y1="8" x2="28" y2="14" stroke="var(--silver)" strokeWidth="1.8" strokeLinecap="round"/>
-          <line x1="14" y1="20" x2="28" y2="14" stroke="var(--silver)" strokeWidth="1.8" strokeLinecap="round"/>
-        </g>
-        {/* String with gradient */}
-        <line x1="70" y1="70" x2="230" y2="70" stroke="url(#agLine)" strokeWidth="3.5" strokeLinecap="round" className="ring-draw-line"/>
-        {/* End markers */}
-        <circle cx="70" cy="70" r="5" fill="var(--bg)" stroke="var(--silver)" strokeWidth="2"/>
-        <circle cx="230" cy="70" r="5" fill="var(--bg)" stroke="var(--gold)" strokeWidth="2"/>
-        {/* Dimension */}
-        <line x1="70" y1="95" x2="230" y2="95" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/>
-        <line x1="70" y1="88" x2="70" y2="102" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/>
-        <line x1="230" y1="88" x2="230" y2="102" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/>
-        <path d="M70 95 L78 92 M70 95 L78 98" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/>
-        <path d="M230 95 L222 92 M230 95 L222 98" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/>
-        <rect x="120" y="86" width="50" height="18" rx="9" fill="var(--bg)" stroke="var(--silver)" strokeWidth="0.8" opacity=".7"/>
-        <text x="145" y="99" textAnchor="middle" fill="var(--silver)" fontSize="11" fontFamily="var(--f-mono)" fontWeight="600">~10 cm</text>
-      </>}
-
-      {/* ── STEP 1: Wrap — mini hand + cross-section ── */}
-      {s===1 && <>
-        <circle cx="155" cy="80" r="55" fill="url(#glow1)"/>
-        {/* ── Mini hand icon (top-left) ── */}
-        <g transform="translate(10,8) scale(0.52)" opacity=".55">
-          <path d="M50 120 L48 85 L46 65 Q45 52 50 48 Q55 44 58 50 L60 62 Q59 40 62 32 Q66 24 71 24 Q76 24 78 32 L80 50 Q80 30 84 24 Q88 18 93 18 Q98 18 100 26 L102 48 Q103 32 107 28 Q111 24 116 28 Q120 32 118 48 L115 65 Q120 52 124 50 Q128 48 131 52 Q134 58 130 70 L124 90 Q120 105 100 115 L50 120Z"
-            fill="var(--card)" stroke="var(--text3)" strokeWidth="2.2" strokeLinejoin="round"/>
-          {/* Ring on ring finger */}
-          <ellipse cx="90" cy="58" rx="10" ry="8" fill="none" stroke="var(--gold)" strokeWidth="3"/>
-        </g>
-        <text x="52" y="80" textAnchor="middle" fill="var(--text3)" fontSize="7" fontFamily="var(--f-mono)" opacity=".4">✋</text>
-        {/* ── Cross-section diagram (main) ── */}
-        <ellipse cx="160" cy="80" rx="32" ry="38" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/>
-        <text x="160" y="76" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)" opacity=".45">{SVG_L.finger}</text>
-        <circle cx="160" cy="85" r="2" fill="var(--text3)" opacity=".2"/>
-        {/* String wrapping — animated */}
-        <ellipse cx="160" cy="80" rx="38" ry="44" fill="none" stroke="url(#agVert)" strokeWidth="3.5"
-          strokeLinecap="round" className="ring-wrap-anim"/>
-        {/* Arrow */}
-        <path d="M121 72 L114 63 L118 76" fill="var(--gold)" opacity=".7"/>
-        {/* Label */}
-        <line x1="200" y1="48" x2="228" y2="32" stroke="var(--gold)" strokeWidth="0.7" opacity=".4"/>
-        <text x="230" y="32" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" opacity=".55">{SVG_L.wrap}</text>
-        {/* Tight fit indicators */}
-        <path d="M120 80 L112 80" stroke="var(--gold)" strokeWidth="0.8" opacity=".25" strokeDasharray="2 2"/>
-        <path d="M200 80 L208 80" stroke="var(--gold)" strokeWidth="0.8" opacity=".25" strokeDasharray="2 2"/>
-        <text x="108" y="84" textAnchor="end" fill="var(--gold)" fontSize="6" fontFamily="var(--f-mono)" opacity=".35">◄</text>
-        <text x="212" y="84" fill="var(--gold)" fontSize="6" fontFamily="var(--f-mono)" opacity=".35">►</text>
-      </>}
-
-      {/* ── STEP 2: Mark point — mini hand + cross-section ── */}
-      {s===2 && <>
-        <circle cx="155" cy="80" r="55" fill="url(#glow1)"/>
-        {/* Mini hand (top-left) */}
-        <g transform="translate(10,8) scale(0.52)" opacity=".45">
-          <path d="M50 120 L48 85 L46 65 Q45 52 50 48 Q55 44 58 50 L60 62 Q59 40 62 32 Q66 24 71 24 Q76 24 78 32 L80 50 Q80 30 84 24 Q88 18 93 18 Q98 18 100 26 L102 48 Q103 32 107 28 Q111 24 116 28 Q120 32 118 48 L115 65 Q120 52 124 50 Q128 48 131 52 Q134 58 130 70 L124 90 Q120 105 100 115 L50 120Z"
-            fill="var(--card)" stroke="var(--text3)" strokeWidth="2.2" strokeLinejoin="round"/>
-          <ellipse cx="90" cy="58" rx="10" ry="8" fill="none" stroke="var(--gold)" strokeWidth="3"/>
-          <circle cx="78" cy="56" r="4" fill="var(--gold)" opacity=".6"/>
-        </g>
-        {/* Cross-section (main) */}
-        <ellipse cx="160" cy="80" rx="32" ry="38" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/>
-        <ellipse cx="160" cy="80" rx="38" ry="44" fill="none" stroke="url(#agVert)" strokeWidth="3"/>
-        {/* Overlap zone */}
-        <rect x="116" y="62" width="12" height="22" rx="3" fill="var(--gold)" opacity=".08"/>
-        {/* Mark — pulsing */}
-        <circle cx="122" cy="73" r="9" fill="var(--gold)" opacity=".1">
-          <animate attributeName="r" values="9;14;9" dur="2s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values=".1;.2;.1" dur="2s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="122" cy="73" r="5" fill="var(--gold)" opacity=".85"/>
-        <circle cx="122" cy="73" r="5" fill="none" stroke="#fff" strokeWidth="1" opacity=".3"/>
-        {/* Pen */}
-        <g transform="translate(85,25) rotate(35)">
-          <rect x="0" y="0" width="5" height="35" rx="2" fill="var(--text2)" opacity=".22"/>
-          <polygon points="0.5,35 4.5,35 2.5,42" fill="var(--gold)" opacity=".8"/>
-          <rect x="0" y="0" width="5" height="6" rx="2" fill="var(--silver)" opacity=".15"/>
-        </g>
-        {/* Label */}
-        <line x1="122" y1="60" x2="122" y2="40" stroke="var(--gold)" strokeWidth="0.7" strokeDasharray="2 2" opacity=".5"/>
-        <rect x={122-Math.max(SVG_L.mark.length*3.5,18)} y="26" width={Math.max(SVG_L.mark.length*7,36)} height="16" rx="8"
-          fill="var(--bg)" stroke="var(--gold)" strokeWidth="1" opacity=".8"/>
-        <text x="122" y="38" textAnchor="middle" fill="var(--gold)" fontSize="9" fontFamily="var(--f-mono)" fontWeight="700">{SVG_L.mark}</text>
-      </>}
-
-      {/* ── STEP 3: Measure — ruler diagram ── */}
-      {s===3 && <>
-        <circle cx="130" cy="65" r="65" fill="url(#glow1)"/>
-        {/* Flat string */}
-        <line x1="30" y1="60" x2="210" y2="60" stroke="url(#agLine)" strokeWidth="3.5" strokeLinecap="round" className="ring-draw-line"/>
-        <circle cx="30" cy="60" r="5" fill="var(--bg)" stroke="var(--silver)" strokeWidth="2"/>
-        <circle cx="210" cy="60" r="5" fill="var(--bg)" stroke="var(--gold)" strokeWidth="2"/>
-        {/* Ruler */}
-        <rect x="18" y="78" width="224" height="28" rx="5" fill="var(--card)" stroke="var(--border)" strokeWidth="1.2"/>
-        {[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16].map(i=><g key={i}>
-          <line x1={24+i*13} y1="78" x2={24+i*13} y2={i%10===0?98:i%5===0?94:87}
-            stroke={i%10===0?"var(--silver)":"var(--text3)"} strokeWidth={i%10===0?1.2:i%5===0?0.8:0.4}/>
-          {i%5===0 && <text x={24+i*13} y="115" textAnchor="middle" fill="var(--text3)" fontSize="7.5" fontFamily="var(--f-mono)">{i*4}mm</text>}
-        </g>)}
-        {/* Dimension bracket */}
-        <line x1="30" y1="40" x2="210" y2="40" stroke="url(#agLine)" strokeWidth="1"/>
-        <line x1="30" y1="35" x2="30" y2="45" stroke="var(--silver)" strokeWidth="1"/>
-        <line x1="210" y1="35" x2="210" y2="45" stroke="var(--gold)" strokeWidth="1"/>
-        {/* Value pill */}
-        <rect x="95" y="26" width="60" height="24" rx="12" fill="var(--bg)" stroke="url(#agLine)" strokeWidth="1.5"/>
-        <text x="125" y="42" textAnchor="middle" fill="var(--silver)" fontSize="14" fontWeight="700" fontFamily="var(--f-mono)">52mm</text>
-      </>}
-
-      {/* ── STEP 4: Enter value ── */}
-      {s===4 && <>
-        <circle cx="130" cy="65" r="65" fill="url(#glow1)"/>
-        {/* Slider */}
-        <rect x="30" y="58" width="200" height="10" rx="5" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
-        <rect x="30" y="58" width={((mm-40)/32)*200} height="10" rx="5" fill="url(#agLine)" opacity=".5"/>
-        <circle cx={30+((mm-40)/32)*200} cy="63" r="15" fill="var(--bg)" stroke="url(#agLine)" strokeWidth="2.5"/>
-        <text x={30+((mm-40)/32)*200} y="67" textAnchor="middle" fill="var(--silver)" fontSize="10" fontWeight="700" fontFamily="var(--f-mono)">{mm}</text>
-        {/* Result cards */}
-        {[
-          {v:'US '+closest.us, l:'US', c:'var(--silver)'},
-          {v:'EU '+closest.eu, l:'EU', c:'var(--gold)'},
-          {v:closest.dia+'mm', l:'⌀', c:'var(--text)'}
-        ].map((r,i)=>(
-          <g key={i}>
-            <rect x={18+i*80} y="100" width="72" height="48" rx="12" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
-            <text x={54+i*80} y="124" textAnchor="middle" fill={r.c} fontSize="15" fontWeight="700" fontFamily="var(--f-mono)">{r.v}</text>
-            <text x={54+i*80} y="140" textAnchor="middle" fill="var(--text3)" fontSize="9" fontFamily="var(--f-mono)">{r.l}</text>
-          </g>
-        ))}
-      </>}
-    </svg>
-  );
-
-    const PX_PER_MM = 3.78;
-
-  return (
-    <div className="tm-tool">
-      {/* Tab selector — pill style */}
-      <div style={{display:'flex',borderRadius:12,background:'var(--card)',border:'1px solid var(--border)',padding:3,marginBottom:18}}>
-        {['measure','circle','table'].map((t,i) => (
-          <button key={t} onClick={()=>setTab(t)} style={{
-            flex:1,padding:'10px 6px',borderRadius:10,fontSize:'.78rem',fontWeight:600,
-            transition:'all .25s',border:'none',
-            background: tab===t ? 'linear-gradient(135deg,rgba(192,192,192,0.15),rgba(212,175,55,0.08))' : 'transparent',
-            color: tab===t ? 'var(--silver)' : 'var(--text3)',
-            boxShadow: tab===t ? '0 2px 8px rgba(192,192,192,0.1)' : 'none',
-          }}>{TX.tabs?.[i]}</button>
-        ))}
+  // ═══ PHASE: START ═══
+  if (phase === 'start') return (
+    <div className="tm-tool" style={{textAlign:'center',padding:'12px 0'}}>
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none" style={{margin:'0 auto 16px',display:'block'}}>
+        <defs><linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient></defs>
+        <circle cx="32" cy="32" r="24" fill="none" stroke="url(#rg)" strokeWidth="3"/>
+        <circle cx="32" cy="8" r="6" fill="none" stroke="url(#rg)" strokeWidth="2"/>
+        <circle cx="32" cy="8" r="2.5" fill="var(--gold)" opacity=".6"/>
+      </svg>
+      <div style={{fontSize:'1.15rem',fontWeight:700,marginBottom:16,fontFamily:'var(--f-head)'}}>{TX.welcome}</div>
+      <div style={{fontSize:'.92rem',color:'var(--text2)',marginBottom:20}}>{TX.hasRing}</div>
+      <div style={{display:'flex',flexDirection:'column',gap:10}}>
+        <button onClick={()=>setPhase('calibrate')} style={{padding:'16px',borderRadius:14,
+          background:'linear-gradient(135deg,rgba(192,192,192,0.1),rgba(212,175,55,0.05))',
+          border:'1.5px solid rgba(192,192,192,0.2)',fontSize:'.95rem',fontWeight:600,color:'var(--silver)',
+          transition:'all .2s'}}>💍 {TX.yesRing}</button>
+        <button onClick={()=>setPhase('string')} style={{padding:'16px',borderRadius:14,
+          border:'1.5px solid var(--border)',fontSize:'.95rem',fontWeight:500,color:'var(--text2)',
+          transition:'all .2s'}}>📏 {TX.noRing}</button>
       </div>
-
-      {/* ═══ TAB 1: Step-by-step guide ═══ */}
-      {tab === 'measure' && (
-        <div>
-          {/* Step progress arc */}
-          <div style={{textAlign:'center',marginBottom:8}}>
-            <svg width="60" height="60" viewBox="0 0 60 60">
-              <circle cx="30" cy="30" r="26" fill="none" stroke="var(--border)" strokeWidth="3"/>
-              <circle cx="30" cy="30" r="26" fill="none" stroke="url(#agGrad2)" strokeWidth="3"
-                strokeDasharray={`${(step+1)/5*163.4} 163.4`}
-                strokeLinecap="round" transform="rotate(-90 30 30)" style={{transition:'stroke-dasharray .5s ease'}}/>
-              <defs><linearGradient id="agGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/>
-              </linearGradient></defs>
-              <text x="30" y="34" textAnchor="middle" fill="var(--silver)" fontSize="16" fontWeight="700" fontFamily="var(--f-mono)">{step+1}</text>
-            </svg>
-          </div>
-
-          {/* SVG Illustration */}
-          <div style={{padding:'12px 0',borderRadius:'var(--r-card)',background:'var(--card)',border:'1px solid var(--border)',marginBottom:14}}>
-            <StepSVG s={step} />
-            <div style={{padding:'12px 18px 0'}}>
-              <div style={{fontWeight:700,fontSize:'1.05rem',marginBottom:4,color:'var(--text)'}}>{TX.steps?.[step]?.t}</div>
-              <div style={{fontSize:'.88rem',color:'var(--text2)',lineHeight:1.65}}>{TX.steps?.[step]?.d}</div>
-            </div>
-          </div>
-
-          {/* Step dots + nav */}
-          <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:16,marginBottom:14}}>
-            <button onClick={()=>setStep(s=>Math.max(0,s-1))} disabled={step===0} style={{
-              width:40,height:40,borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',
-              border:'1.5px solid var(--border)',background:'var(--card)',color:'var(--text)',
-              opacity:step===0?.3:1,fontSize:'1.1rem',transition:'all .2s'}}>‹</button>
-            <div style={{display:'flex',gap:6}}>
-              {[0,1,2,3,4].map(i=>(
-                <button key={i} onClick={()=>setStep(i)} style={{
-                  width:i===step?24:8,height:8,borderRadius:4,border:'none',transition:'all .3s',
-                  background:i<=step?'linear-gradient(90deg,var(--silver),var(--gold))':'var(--border)',
-                  cursor:'pointer'}} />
-              ))}
-            </div>
-            <button onClick={()=>setStep(s=>Math.min(4,s+1))} disabled={step>=4} style={{
-              width:40,height:40,borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',
-              border:'none',transition:'all .2s',fontSize:'1.1rem',
-              background:step<4?'linear-gradient(135deg,var(--silver),#a0a8b0)':'var(--card)',
-              color:step<4?'var(--bg)':'var(--text3)',
-              boxShadow:step<4?'0 2px 12px rgba(192,192,192,0.2)':'none'}}>›</button>
-          </div>
-
-          {/* Tip */}
-          <div style={{padding:'10px 14px',borderRadius:12,
-            background:'linear-gradient(135deg,rgba(212,175,55,0.06),rgba(192,192,192,0.03))',
-            border:'1px solid rgba(212,175,55,0.12)',fontSize:'.82rem',color:'var(--text2)',lineHeight:1.55,
-            display:'flex',gap:8,alignItems:'flex-start'}}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--gold)" style={{flexShrink:0,marginTop:2}}>
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-            </svg>
-            {TX.tip}
-          </div>
-
-          {/* Slider */}
-          <div style={{marginTop:16}}>
-            <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline',marginBottom:4}}>
-              <label style={{fontSize:'.85rem',color:'var(--text2)',fontWeight:500}}>{TX.circ} (mm)</label>
-              <span style={{fontFamily:'var(--f-mono)',fontSize:'1.3rem',fontWeight:700,color:'var(--silver)'}}>{mm} mm</span>
-            </div>
-            <input type="range" min="40" max="72" step="0.5" value={mm} onChange={e=>setMm(+e.target.value)}
-              style={{width:'100%',margin:'6px 0',accentColor:'var(--silver)'}}/>
-            <div style={{display:'flex',justifyContent:'space-between',fontSize:'.65rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>
-              <span>40mm</span><span>56mm</span><span>72mm</span>
-            </div>
-          </div>
-
-          {/* Result */}
-          <div style={{marginTop:14,padding:'16px',borderRadius:'var(--r-card)',
-            background:'linear-gradient(135deg,rgba(192,192,192,0.06),rgba(212,175,55,0.03))',
-            border:'1px solid rgba(192,192,192,0.12)'}}>
-            <div style={{fontSize:'.7rem',color:'var(--text3)',textAlign:'center',marginBottom:10,fontWeight:600,letterSpacing:'.5px'}}>{TX.result}</div>
-            <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:8,textAlign:'center'}}>
-              {[{v:closest.us,l:'US'},{v:closest.eu,l:'EU'},{v:closest.uk,l:'UK'},{v:closest.dia+'mm',l:'⌀'}].map((x,i)=>(
-                <div key={i} style={{padding:'10px 4px',borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}>
-                  <div style={{fontFamily:'var(--f-mono)',fontSize:'1.15rem',fontWeight:700,color:i===0?'var(--silver)':i===1?'var(--gold)':'var(--text)',lineHeight:1.2}}>{x.v}</div>
-                  <div style={{fontSize:'.65rem',color:'var(--text3)',marginTop:2,fontWeight:600}}>{x.l}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* ═══ TAB 2: Circle matching ═══ */}
-      {tab === 'circle' && (
-        <div>
-          <div style={{textAlign:'center',marginBottom:12}}>
-            <div style={{fontWeight:600,fontSize:'.95rem',marginBottom:4}}>{TX.circleTitle}</div>
-            <div style={{fontSize:'.82rem',color:'var(--text2)',lineHeight:1.5}}>{TX.circleDesc}</div>
-          </div>
-          <div style={{display:'flex',justifyContent:'center',padding:'16px 0'}}>
-            <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <radialGradient id="ringGlow"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".08"/><stop offset="100%" stopColor="transparent"/></radialGradient>
-                <linearGradient id="ringGr" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/>
-                </linearGradient>
-              </defs>
-              <circle cx="110" cy="110" r="100" fill="url(#ringGlow)"/>
-              {/* Grid lines */}
-              <line x1="110" y1="10" x2="110" y2="210" stroke="var(--border)" strokeWidth="0.5" strokeDasharray="4 4"/>
-              <line x1="10" y1="110" x2="210" y2="110" stroke="var(--border)" strokeWidth="0.5" strokeDasharray="4 4"/>
-              {/* Main ring circle */}
-              <circle cx="110" cy="110" r={closest.dia * PX_PER_MM / 2} fill="none"
-                stroke="url(#ringGr)" strokeWidth="3"/>
-              {/* Outer guide */}
-              <circle cx="110" cy="110" r={closest.dia * PX_PER_MM / 2 + 4} fill="none"
-                stroke="var(--gold)" strokeWidth="0.5" opacity=".3" strokeDasharray="4 3"/>
-              {/* Center */}
-              <circle cx="110" cy="110" r="2" fill="var(--silver)" opacity=".4"/>
-              {/* Diameter arrows */}
-              <line x1={110-closest.dia*PX_PER_MM/2+5} y1="110" x2={110+closest.dia*PX_PER_MM/2-5} y2="110"
-                stroke="var(--gold)" strokeWidth="1" strokeDasharray="2 2" opacity=".5"/>
-              {/* Size label */}
-              <rect x="75" y="150" width="70" height="28" rx="14" fill="var(--bg)" stroke="url(#ringGr)" strokeWidth="1.5"/>
-              <text x="110" y="168" textAnchor="middle" fill="var(--silver)" fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">
-                {closest.dia}mm
-              </text>
-            </svg>
-          </div>
-          {/* Quick size buttons */}
-          <div style={{display:'flex',gap:5,flexWrap:'wrap',justifyContent:'center',marginBottom:14}}>
-            {SIZES.filter((_,i)=>i%2===0||Math.abs(_.mm-mm)<2).map(s => {
-              const act = Math.abs(s.mm-mm)<1.5;
-              return (
-                <button key={s.us} onClick={()=>setMm(s.mm)} style={{
-                  padding:'8px 14px',borderRadius:20,fontSize:'.78rem',fontFamily:'var(--f-mono)',
-                  fontWeight:act?700:500,transition:'all .25s',
-                  border: `1.5px solid ${act?'var(--silver)':'var(--border)'}`,
-                  background: act ? 'linear-gradient(135deg,rgba(192,192,192,0.12),rgba(212,175,55,0.06))' : 'transparent',
-                  color: act ? 'var(--silver)' : 'var(--text3)',
-                  boxShadow: act ? '0 2px 8px rgba(192,192,192,0.15)' : 'none',
-                }}>US {s.us}</button>
-              );
-            })}
-          </div>
-          {/* Result row */}
-          <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:8,textAlign:'center'}}>
-            {[{v:`US ${closest.us}`,c:'var(--silver)'},{v:`EU ${closest.eu}`,c:'var(--gold)'},{v:closest.uk,c:'var(--text)'}].map((x,i)=>(
-              <div key={i} style={{padding:'12px 8px',borderRadius:12,background:'var(--card)',border:'1px solid var(--border)'}}>
-                <div style={{fontFamily:'var(--f-mono)',fontSize:'1.2rem',fontWeight:700,color:x.c}}>{x.v}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* ═══ TAB 3: Table ═══ */}
-      {tab === 'table' && (
-        <div>
-          <div style={{overflowX:'auto',borderRadius:'var(--r-card)',border:'1px solid var(--border)'}}>
-            <table style={{width:'100%',borderCollapse:'collapse',fontSize:'.78rem',fontFamily:'var(--f-mono)'}}>
-              <thead>
-                <tr style={{background:'rgba(192,192,192,0.04)'}}>
-                  {['US','EU','UK','⌀ mm',lang==='tr'?'Çevre':'Circ'].map(h => (
-                    <th key={h} style={{padding:'12px 8px',textAlign:'center',color:'var(--silver)',fontWeight:700,
-                      fontSize:'.7rem',letterSpacing:'.5px',borderBottom:'2px solid var(--border)'}}>{h}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {SIZES.map((s,i) => {
-                  const act = Math.abs(s.mm-mm)<1.5;
-                  return (
-                    <tr key={i} onClick={()=>setMm(s.mm)} style={{
-                      cursor:'pointer',transition:'all .2s',
-                      background: act ? 'linear-gradient(90deg,rgba(192,192,192,0.08),rgba(212,175,55,0.04))' : 'transparent',
-                      borderBottom:'1px solid var(--border)',
-                    }}>
-                      <td style={{padding:'11px 8px',textAlign:'center',fontWeight:act?700:400,color:act?'var(--silver)':'var(--text)',position:'relative'}}>
-                        {act && <span style={{position:'absolute',left:4,top:'50%',transform:'translateY(-50%)',width:3,height:16,borderRadius:2,background:'linear-gradient(180deg,var(--silver),var(--gold))'}}/>}
-                        {s.us}
-                      </td>
-                      <td style={{padding:'11px 8px',textAlign:'center',color:act?'var(--gold)':'var(--text2)'}}>{s.eu}</td>
-                      <td style={{padding:'11px 8px',textAlign:'center'}}>{s.uk}</td>
-                      <td style={{padding:'11px 8px',textAlign:'center'}}>{s.dia}</td>
-                      <td style={{padding:'11px 8px',textAlign:'center',color:'var(--text3)'}}>{s.mm}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-          {/* Slider under table */}
-          <div style={{marginTop:14,display:'flex',alignItems:'center',gap:12}}>
-            <input type="range" min="40" max="72" step="0.5" value={mm} onChange={e=>setMm(+e.target.value)}
-              style={{flex:1,accentColor:'var(--silver)'}}/>
-            <span style={{fontFamily:'var(--f-mono)',fontSize:'1rem',fontWeight:700,color:'var(--silver)',minWidth:52,textAlign:'right'}}>{mm}mm</span>
-          </div>
-        </div>
-      )}
     </div>
   );
-}
 
+  // ═══ PHASE: CALIBRATE ═══
+  if (phase === 'calibrate') return (
+    <div className="tm-tool">
+      <div style={{textAlign:'center',marginBottom:12}}>
+        <div style={{fontSize:'1.05rem',fontWeight:700,marginBottom:4}}>{TX.calTitle}</div>
+        <div style={{fontSize:'.85rem',color:'var(--text2)',lineHeight:1.55}}>{TX.calDesc}</div>
+      </div>
+      {/* Card calibration area */}
+      <div style={{position:'relative',background:'var(--card)',borderRadius:14,border:'1px solid var(--border)',
+        padding:'16px',marginBottom:14,overflow:'hidden'}}>
+        {/* Top reference line */}
+        <div style={{borderTop:'2px dashed var(--silver)',marginBottom:8,opacity:.6}}/>
+        {/* Card outline */}
+        <div style={{
+          width:'100%',height:cardHeightPx,maxHeight:300,
+          border:'2px solid var(--gold)',borderRadius:8,
+          background:'linear-gradient(135deg,rgba(212,175,55,0.04),rgba(192,192,192,0.02))',
+          display:'flex',alignItems:'center',justifyContent:'center',
+          transition:'height .15s ease',position:'relative',
+        }}>
+          <div style={{fontSize:'.7rem',color:'var(--text3)',fontFamily:'var(--f-mono)',textAlign:'center'}}>
+            <div style={{fontSize:'1rem',marginBottom:4}}>💳</div>
+            CREDIT CARD<br/>85.6 × 53.98 mm
+          </div>
+          {/* Corner markers */}
+          {[[0,0],[1,0],[0,1],[1,1]].map(([x,y],i)=>(
+            <div key={i} style={{position:'absolute',width:12,height:12,
+              [y?'bottom':'top']:4,[x?'right':'left']:4,
+              borderColor:'var(--gold)',borderStyle:'solid',borderWidth:0,
+              [`border${y?'Bottom':'Top'}Width`]:2,[`border${x?'Right':'Left'}Width`]:2,
+              borderRadius:x===y?'0 0 0 4px':'0 4px 0 0',opacity:.5}}/>
+          ))}
+        </div>
+        {/* Bottom reference line */}
+        <div style={{borderTop:'2px dashed var(--gold)',marginTop:8,opacity:.6}}/>
+      </div>
+      {/* Slider */}
+      <input type="range" min="0" max="100" value={calSlider} onChange={e=>setCalSlider(+e.target.value)}
+        style={{width:'100%',accentColor:'var(--gold)',marginBottom:8}}/>
+      {/* Tip */}
+      <div style={{padding:'10px 14px',borderRadius:10,background:'rgba(212,175,55,0.05)',
+        border:'1px solid rgba(212,175,55,0.1)',fontSize:'.8rem',color:'var(--text2)',marginBottom:14,
+        display:'flex',gap:8,alignItems:'center'}}>
+        <span style={{fontSize:'1rem'}}>👁️</span> {TX.calTip}
+      </div>
+      <button onClick={doCalibrate} style={{width:'100%',padding:'14px',borderRadius:14,
+        background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
+        fontWeight:700,fontSize:'.95rem',border:'none'}}>{TX.calBtn}</button>
+    </div>
+  );
+
+  // ═══ PHASE: RING MATCHING ═══
+  if (phase === 'ring') return (
+    <div className="tm-tool">
+      <div style={{textAlign:'center',marginBottom:8}}>
+        <div style={{fontSize:'1.05rem',fontWeight:700,marginBottom:4}}>{TX.ringTitle}</div>
+        <div style={{fontSize:'.85rem',color:'var(--text2)',lineHeight:1.5}}>{TX.ringDesc}</div>
+      </div>
+      {/* Ring matching area */}
+      <div style={{display:'flex',justifyContent:'center',padding:'20px 0',position:'relative'}}>
+        <svg width="220" height="220" viewBox="0 0 220 220">
+          <defs>
+            <linearGradient id="rmg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient>
+            <radialGradient id="rmglow"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".08"/>
+              <stop offset="100%" stopColor="transparent"/></radialGradient>
+          </defs>
+          <circle cx="110" cy="110" r="100" fill="url(#rmglow)"/>
+          {/* Grid */}
+          <line x1="110" y1="10" x2="110" y2="210" stroke="var(--border)" strokeWidth="0.5" strokeDasharray="4 4"/>
+          <line x1="10" y1="110" x2="210" y2="110" stroke="var(--border)" strokeWidth="0.5" strokeDasharray="4 4"/>
+          {/* Main ring circle */}
+          <circle cx="110" cy="110" r={ringDiaPx/2} fill="none" stroke="url(#rmg)" strokeWidth="3"
+            style={{transition:'r .1s ease'}}/>
+          {/* Outer guide */}
+          <circle cx="110" cy="110" r={ringDiaPx/2+3} fill="none" stroke="var(--gold)" strokeWidth="0.5"
+            opacity=".25" strokeDasharray="4 4"/>
+          {/* Diameter */}
+          <text x="110" y={110-ringDiaPx/2-10} textAnchor="middle" fill="var(--silver)" fontSize="12"
+            fontFamily="var(--f-mono)" fontWeight="600">{ringDiaMm.toFixed(1)}mm</text>
+        </svg>
+      </div>
+      {/* Slider */}
+      <div style={{display:'flex',alignItems:'center',gap:8,marginBottom:8}}>
+        <span style={{fontSize:'.7rem',color:'var(--text3)'}}>−</span>
+        <input type="range" min="0" max="100" value={ringSlider} onChange={e=>setRingSlider(+e.target.value)}
+          style={{flex:1,accentColor:'var(--gold)'}}/>
+        <span style={{fontSize:'.7rem',color:'var(--text3)'}}>+</span>
+      </div>
+      {/* Tip */}
+      <div style={{padding:'8px 12px',borderRadius:10,background:'rgba(212,175,55,0.05)',
+        border:'1px solid rgba(212,175,55,0.1)',fontSize:'.78rem',color:'var(--text2)',marginBottom:14,
+        display:'flex',gap:6,alignItems:'center'}}>
+        <span>👁️</span> {TX.ringTip}
+      </div>
+      {/* Current size preview */}
+      <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:6,marginBottom:14,textAlign:'center'}}>
+        {[{v:findSize(ringDiaMm).us,l:'US'},{v:findSize(ringDiaMm).eu,l:'EU'},
+          {v:findSize(ringDiaMm).uk,l:'UK'},{v:ringDiaMm.toFixed(1)+'mm',l:'⌀'}].map((x,i)=>(
+          <div key={i} style={{padding:'8px 4px',borderRadius:8,background:'var(--card)',border:'1px solid var(--border)'}}>
+            <div style={{fontFamily:'var(--f-mono)',fontSize:'.95rem',fontWeight:700,
+              color:i===0?'var(--silver)':i===1?'var(--gold)':'var(--text)'}}>{x.v}</div>
+            <div style={{fontSize:'.6rem',color:'var(--text3)',marginTop:1}}>{x.l}</div>
+          </div>
+        ))}
+      </div>
+      <button onClick={doRingResult} style={{width:'100%',padding:'14px',borderRadius:14,
+        background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
+        fontWeight:700,fontSize:'.95rem',border:'none'}}>{TX.ringBtn}</button>
+    </div>
+  );
+
+  // ═══ PHASE: STRING METHOD ═══
+  if (phase === 'string') return (
+    <div className="tm-tool">
+      <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:14}}>
+        <span style={{fontSize:'.9rem',fontWeight:600}}>{TX.method}</span>
+        <span style={{fontSize:'.7rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>{step+1}/4</span>
+      </div>
+      {/* Progress bar */}
+      <div style={{height:3,background:'var(--border)',borderRadius:2,marginBottom:16}}>
+        <div style={{height:'100%',width:`${(step+1)*25}%`,borderRadius:2,
+          background:'linear-gradient(90deg,var(--silver),var(--gold))',transition:'width .3s'}}/>
+      </div>
+      {/* Step content */}
+      <div style={{padding:'20px 18px',borderRadius:14,background:'var(--card)',border:'1px solid var(--border)',
+        marginBottom:14,minHeight:100}}>
+        <div style={{fontWeight:700,fontSize:'1.02rem',marginBottom:6}}>{TX.steps?.[step]?.t}</div>
+        <div style={{fontSize:'.9rem',color:'var(--text2)',lineHeight:1.6}}>{TX.steps?.[step]?.d}</div>
+      </div>
+      {/* Nav */}
+      <div style={{display:'flex',gap:8,marginBottom:14}}>
+        <button disabled={step===0} onClick={()=>setStep(s=>s-1)} style={{
+          flex:1,padding:'12px',borderRadius:12,border:'1px solid var(--border)',
+          opacity:step===0?.3:1,fontWeight:500}}>←</button>
+        {step < 3 ? (
+          <button onClick={()=>setStep(s=>s+1)} style={{flex:2,padding:'12px',borderRadius:12,
+            background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
+            fontWeight:600,border:'none'}}>→</button>
+        ) : (
+          <>
+            {/* Slider input */}
+            <div style={{flex:3,display:'flex',flexDirection:'column',gap:4}}>
+              <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}>
+                <span style={{fontSize:'.78rem',color:'var(--text2)'}}>{TX.circ}</span>
+                <span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>{stringMm}mm</span>
+              </div>
+              <input type="range" min="40" max="72" step="0.5" value={stringMm}
+                onChange={e=>setStringMm(+e.target.value)} style={{accentColor:'var(--silver)'}}/>
+            </div>
+          </>
+        )}
+      </div>
+      {step >= 3 && (
+        <button onClick={doStringResult} style={{width:'100%',padding:'14px',borderRadius:14,
+          background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
+          fontWeight:700,fontSize:'.95rem',border:'none'}}>{TX.findBtn}</button>
+      )}
+      {/* Tip */}
+      <div style={{padding:'8px 12px',borderRadius:10,background:'rgba(212,175,55,0.05)',
+        border:'1px solid rgba(212,175,55,0.1)',fontSize:'.78rem',color:'var(--text2)',marginTop:10,
+        display:'flex',gap:6,alignItems:'center'}}>
+        <span>💡</span> {TX.tip}
+      </div>
+    </div>
+  );
+
+  // ═══ PHASE: RESULT ═══
+  if (phase === 'result') return (
+    <div className="tm-tool" style={{textAlign:'center'}}>
+      {/* Ring icon */}
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" style={{margin:'0 auto 10px',display:'block'}}>
+        <defs><linearGradient id="rrg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient></defs>
+        <circle cx="28" cy="28" r="20" fill="none" stroke="url(#rrg)" strokeWidth="3"/>
+      </svg>
+      <div style={{fontSize:'.75rem',color:'var(--text3)',fontWeight:600,letterSpacing:'.5px',marginBottom:4}}>{TX.resultTitle}</div>
+      {/* Main size */}
+      <div style={{fontSize:'2.8rem',fontWeight:800,fontFamily:'var(--f-mono)',color:'var(--silver)',lineHeight:1}}>
+        US {s.us}
+      </div>
+      <div style={{fontSize:'.85rem',color:'var(--text2)',marginBottom:16}}>{s.dia}mm · {s.mm}mm {TX.circ?.split('(')[0]}</div>
+      {/* All standards */}
+      <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:8,marginBottom:18}}>
+        {[{v:s.us,l:'US',c:'var(--silver)'},{v:s.eu,l:'EU',c:'var(--gold)'},
+          {v:s.uk,l:'UK',c:'var(--text)'},{v:s.jp,l:'JP',c:'var(--text2)'}].map((x,i)=>(
+          <div key={i} style={{padding:'12px 4px',borderRadius:12,background:'var(--card)',border:'1px solid var(--border)'}}>
+            <div style={{fontFamily:'var(--f-mono)',fontSize:'1.2rem',fontWeight:700,color:x.c}}>{x.v}</div>
+            <div style={{fontSize:'.6rem',color:'var(--text3)',marginTop:2,fontWeight:600}}>{x.l}</div>
+          </div>
+        ))}
+      </div>
+      {/* Silver ring estimate */}
+      <div style={{padding:'14px 16px',borderRadius:14,
+        background:'linear-gradient(135deg,rgba(192,192,192,0.06),rgba(212,175,55,0.03))',
+        border:'1px solid rgba(192,192,192,0.12)',marginBottom:12,textAlign:'left'}}>
+        <div style={{fontSize:'.72rem',color:'var(--text3)',fontWeight:600,marginBottom:6}}>{TX.silverEst}</div>
+        <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}>
+          <span style={{fontFamily:'var(--f-mono)',fontSize:'1.3rem',fontWeight:700,color:'var(--green)'}}>≈ ₺{silverTL}</span>
+          <span style={{fontSize:'.75rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>~{silverWeight}g</span>
+        </div>
+      </div>
+      {/* İstanbul Gümüş CTA */}
+      <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener"
+        style={{display:'block',padding:'14px',borderRadius:14,
+          background:'linear-gradient(135deg,rgba(212,175,55,0.08),rgba(212,175,55,0.03))',
+          border:'1.5px solid rgba(212,175,55,0.2)',color:'var(--gold)',fontWeight:600,
+          fontSize:'.9rem',marginBottom:12,textDecoration:'none'}}>{TX.orderCta}</a>
+      {/* Hadith */}
+      <div style={{padding:'10px 14px',borderRadius:10,background:'rgba(192,192,192,0.03)',
+        border:'1px solid var(--border)',fontSize:'.78rem',color:'var(--text3)',
+        fontStyle:'italic',lineHeight:1.5,marginBottom:14}}>{TX.hadith}</div>
+      {/* Actions */}
+      <div style={{display:'flex',gap:8}}>
+        <button onClick={()=>{setPhase('start');setStep(0);setResultSize(null)}} style={{
+          flex:1,padding:'12px',borderRadius:12,border:'1px solid var(--border)',
+          fontSize:'.85rem',color:'var(--text2)'}}>{TX.restart}</button>
+        <button onClick={()=>{
+          const txt = `${TX.resultTitle}: US ${s.us} / EU ${s.eu} / UK ${s.uk} / ${s.dia}mm — SilverAtlas`;
+          if(navigator.share) navigator.share({title:'SilverAtlas Ring Size',text:txt}).catch(()=>{});
+          else navigator.clipboard?.writeText(txt);
+        }} style={{flex:1,padding:'12px',borderRadius:12,
+          background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
+          fontWeight:600,fontSize:'.85rem',border:'none'}}>{TX.share}</button>
+      </div>
+    </div>
+  );
+
+  return null;
+}
 
 /* ── TOOL 3: Quiz ── */
 const QQ=[{q:{tr:"925 ayar saf gümüş oranı?",en:"Pure silver ratio in 925?",ar:"نسبة الفضة في ٩٢٥؟"},o:["90%","92.5%","95%","99%"],c:1},{q:{tr:"Gümüş sembolü?",en:"Silver symbol?",ar:"رمز الفضة؟"},o:["Si","Au","Ag","Ar"],c:2},{q:{tr:"Kararma nedeni?",en:"Tarnish cause?",ar:"سبب التشوه؟"},o:[{tr:"Oksijen",en:"Oxygen",ar:"أكسجين"},{tr:"Kükürt",en:"Sulfur",ar:"كبريت"},{tr:"Azot",en:"Nitrogen",ar:"نيتروجين"},{tr:"Klor",en:"Chlorine",ar:"كلور"}],c:1},{q:{tr:"En büyük üretici?",en:"Largest producer?",ar:"أكبر منتج؟"},o:[{tr:"Çin",en:"China",ar:"الصين"},{tr:"Peru",en:"Peru",ar:"بيرو"},{tr:"Meksika",en:"Mexico",ar:"المكسيك"},{tr:"Avustralya",en:"Australia",ar:"أستراليا"}],c:2},{q:{tr:"Atom numarası?",en:"Atomic number?",ar:"العدد الذري؟"},o:["29","47","79","50"],c:1},{q:{tr:"1 troy ons?",en:"1 troy ounce?",ar:"أونصة تروي؟"},o:["28.35g","31.10g","35.27g","50g"],c:1},{q:{tr:"Gümüş il?",en:"Silver province?",ar:"محافظة الفضة؟"},o:["Gümüşhane","Trabzon","Elazığ","Erzurum"],c:0},{q:{tr:"Mokume-gane?",en:"Mokume-gane?",ar:"موكومي-غاني؟"},o:[{tr:"Çin",en:"China",ar:"الصين"},{tr:"Hindistan",en:"India",ar:"الهند"},{tr:"Japonya",en:"Japan",ar:"اليابان"},{tr:"Kore",en:"Korea",ar:"كوريا"}],c:2},{q:{tr:"25. yıldönümü?",en:"25th anniversary?",ar:"الذكرى ٢٥؟"},o:[{tr:"Altın",en:"Golden",ar:"ذهبي"},{tr:"Gümüş",en:"Silver",ar:"فضي"},{tr:"Bronz",en:"Bronze",ar:"برونزي"},{tr:"Elmas",en:"Diamond",ar:"ماسي"}],c:1},{q:{tr:"Telkâri şehri?",en:"Filigree city?",ar:"مدينة الفيليغري؟"},o:["İstanbul","Trabzon","Konya","Ankara"],c:1}];

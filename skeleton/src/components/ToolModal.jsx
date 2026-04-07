@@ -82,6 +82,13 @@ function RingSizer({ lang }) {
     }
   }[lang] || {};
 
+  // SVG labels per language
+  const SVG_L = {
+    tr: { wrap: 'sarın', mark: 'işaret', finger: 'yüzük parmağı' },
+    en: { wrap: 'wrap', mark: 'mark', finger: 'ring finger' },
+    ar: { wrap: 'لف', mark: 'علامة', finger: 'بنصر' },
+  }[lang] || { wrap: 'sarın', mark: 'işaret', finger: 'yüzük parmağı' };
+
   // Premium jewelry-style SVG illustrations
   const StepSVG = ({ s }) => (
     <svg width="260" height="180" viewBox="0 0 260 180" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -129,69 +136,88 @@ function RingSizer({ lang }) {
         </g>
       </>}
 
-      {/* ── STEP 1: Wrap around finger — 5-finger hand ── */}
+      {/* ── STEP 1: Wrap around finger ── */}
       {s===1 && <>
-        <circle cx="130" cy="90" r="70" fill="url(#glow1)"/>
-        {/* Open hand — palm */}
-        <path d="M100 165 L95 120 L88 95 Q85 80 90 70 L90 50 Q90 36 100 32 Q108 28 112 38 L115 55
-          Q115 30 120 20 Q126 12 132 12 Q138 12 142 20 L145 42
-          Q146 18 152 13 Q158 8 164 12 Q170 16 170 30 L168 50
-          Q172 32 178 30 Q184 28 188 35 Q192 42 188 60 L182 80
-          Q178 90 175 100 L172 120 L168 160 Q155 172 135 172 Q112 172 100 165 Z"
-          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round" filter="url(#softShadow)"/>
-        {/* Thumb */}
-        <path d="M90 70 Q78 65 72 58 Q66 50 70 42 Q74 34 82 36 Q88 38 90 50"
-          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round"/>
-        {/* Finger separation lines */}
-        <path d="M115 55 L115 50" stroke="var(--text3)" strokeWidth="0.6" opacity=".3"/>
-        <path d="M145 42 L145 38" stroke="var(--text3)" strokeWidth="0.6" opacity=".3"/>
-        <path d="M168 50 L168 46" stroke="var(--text3)" strokeWidth="0.6" opacity=".3"/>
-        {/* Knuckle creases */}
-        <path d="M93 100 Q135 94 178 100" fill="none" stroke="var(--text3)" strokeWidth="0.5" opacity=".2"/>
-        <path d="M95 125 Q135 120 172 125" fill="none" stroke="var(--text3)" strokeWidth="0.5" opacity=".15"/>
-        {/* Ring finger highlight glow */}
-        <ellipse cx="142" cy="60" rx="16" ry="55" fill="none" stroke="var(--gold)" strokeWidth="0.8" strokeDasharray="4 6" opacity=".2"/>
-        {/* String wrapping around RING FINGER at knuckle */}
-        <ellipse cx="142" cy="85" rx="16" ry="18" fill="none" stroke="url(#agLine2)" strokeWidth="3"
+        <circle cx="130" cy="88" r="72" fill="url(#glow1)"/>
+        {/* Elegant outlined hand — open palm facing viewer */}
+        <g filter="url(#softShadow)">
+          {/* Palm base */}
+          <path d="M95 165 Q92 140 90 115 Q88 95 92 80"
+            fill="none" stroke="var(--text3)" strokeWidth="1.2" opacity=".5"/>
+          <path d="M170 165 Q172 140 174 115 Q176 95 172 80"
+            fill="none" stroke="var(--text3)" strokeWidth="1.2" opacity=".5"/>
+          <path d="M95 165 Q130 175 170 165" fill="none" stroke="var(--text3)" strokeWidth="1.2" opacity=".5"/>
+          {/* Pinky */}
+          <path d="M92 80 Q88 55 90 40 Q92 28 98 26 Q104 24 106 30 Q110 42 108 60 Q107 72 106 80"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          {/* Ring finger — highlighted */}
+          <path d="M108 78 Q106 48 108 30 Q110 14 118 12 Q126 10 128 18 Q132 30 130 52 Q129 68 128 78"
+            fill="url(#skinTone)" stroke="var(--gold)" strokeWidth="1.4" strokeLinejoin="round" opacity=".9"/>
+          {/* Middle */}
+          <path d="M130 78 Q128 44 130 26 Q132 10 140 8 Q148 6 150 14 Q154 28 152 50 Q151 68 150 78"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          {/* Index */}
+          <path d="M152 80 Q150 50 152 34 Q154 18 162 16 Q170 14 172 22 Q176 38 174 58 Q173 72 172 82"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          {/* Thumb */}
+          <path d="M172 82 Q178 74 184 62 Q188 52 186 44 Q184 36 178 36 Q172 36 168 44 Q164 54 166 68"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          {/* Palm fill area */}
+          <path d="M92 80 L108 78 L130 78 L152 80 L172 82 Q174 100 174 115 Q172 140 170 165 Q130 175 95 165 Q92 140 90 115 Q88 95 92 80 Z"
+            fill="url(#skinTone)" stroke="none"/>
+        </g>
+        {/* Ring finger glow highlight */}
+        <ellipse cx="118" cy="50" rx="13" ry="40" fill="none" stroke="var(--gold)" strokeWidth="0.6" strokeDasharray="3 5" opacity=".25"/>
+        {/* String wrapping animation */}
+        <ellipse cx="118" cy="72" rx="13" ry="12" fill="none" stroke="url(#agLine2)" strokeWidth="2.8"
           strokeLinecap="round" className="ring-wrap-anim" filter="url(#softShadow)"/>
-        {/* Wrap arrow */}
-        <path d="M125 78 L119 72 L122 82" fill="var(--gold)" opacity=".7"/>
-        {/* Label line */}
-        <line x1="160" y1="78" x2="195" y2="60" stroke="var(--gold)" strokeWidth="0.8" opacity=".4"/>
-        <text x="200" y="60" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" opacity=".6">ring finger</text>
+        {/* Arrow */}
+        <path d="M104 65 L98 60 L101 69" fill="var(--gold)" opacity=".6"/>
+        {/* Label */}
+        <line x1="133" y1="68" x2="195" y2="45" stroke="var(--gold)" strokeWidth="0.7" opacity=".35"/>
+        <text x="198" y="45" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" opacity=".55">{SVG_L.finger}</text>
       </>}
 
-      {/* ── STEP 2: Mark the meeting point — 5-finger hand ── */}
+      {/* ── STEP 2: Mark the meeting point ── */}
       {s===2 && <>
-        <circle cx="130" cy="90" r="70" fill="url(#glow1)"/>
-        {/* Same open hand */}
-        <path d="M100 165 L95 120 L88 95 Q85 80 90 70 L90 50 Q90 36 100 32 Q108 28 112 38 L115 55
-          Q115 30 120 20 Q126 12 132 12 Q138 12 142 20 L145 42
-          Q146 18 152 13 Q158 8 164 12 Q170 16 170 30 L168 50
-          Q172 32 178 30 Q184 28 188 35 Q192 42 188 60 L182 80
-          Q178 90 175 100 L172 120 L168 160 Q155 172 135 172 Q112 172 100 165 Z"
-          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round" filter="url(#softShadow)"/>
-        <path d="M90 70 Q78 65 72 58 Q66 50 70 42 Q74 34 82 36 Q88 38 90 50"
-          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round"/>
-        <path d="M93 100 Q135 94 178 100" fill="none" stroke="var(--text3)" strokeWidth="0.5" opacity=".2"/>
-        {/* String wrapped on ring finger (static) */}
-        <ellipse cx="142" cy="85" rx="16" ry="18" fill="none" stroke="url(#agLine2)" strokeWidth="2.5"/>
-        {/* Meeting point — animated golden pulse */}
-        <circle cx="126" cy="83" r="8" fill="var(--gold)" opacity=".12">
-          <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values=".12;.22;.12" dur="2s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="126" cy="83" r="4" fill="var(--gold)" opacity=".9"/>
-        {/* Pen */}
-        <g transform="translate(88,42) rotate(40)">
-          <rect x="0" y="0" width="5" height="36" rx="2" fill="var(--text3)" opacity=".25"/>
-          <polygon points="0.5,36 4.5,36 2.5,44" fill="var(--gold)" opacity=".8"/>
-          <rect x="0" y="0" width="5" height="7" rx="2" fill="var(--text3)" opacity=".15"/>
+        <circle cx="130" cy="88" r="72" fill="url(#glow1)"/>
+        {/* Same outlined hand */}
+        <g filter="url(#softShadow)">
+          <path d="M95 165 Q92 140 90 115 Q88 95 92 80" fill="none" stroke="var(--text3)" strokeWidth="1.2" opacity=".5"/>
+          <path d="M170 165 Q172 140 174 115 Q176 95 172 80" fill="none" stroke="var(--text3)" strokeWidth="1.2" opacity=".5"/>
+          <path d="M95 165 Q130 175 170 165" fill="none" stroke="var(--text3)" strokeWidth="1.2" opacity=".5"/>
+          <path d="M92 80 Q88 55 90 40 Q92 28 98 26 Q104 24 106 30 Q110 42 108 60 Q107 72 106 80"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          <path d="M108 78 Q106 48 108 30 Q110 14 118 12 Q126 10 128 18 Q132 30 130 52 Q129 68 128 78"
+            fill="url(#skinTone)" stroke="var(--gold)" strokeWidth="1.4" strokeLinejoin="round" opacity=".9"/>
+          <path d="M130 78 Q128 44 130 26 Q132 10 140 8 Q148 6 150 14 Q154 28 152 50 Q151 68 150 78"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          <path d="M152 80 Q150 50 152 34 Q154 18 162 16 Q170 14 172 22 Q176 38 174 58 Q173 72 172 82"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          <path d="M172 82 Q178 74 184 62 Q188 52 186 44 Q184 36 178 36 Q172 36 168 44 Q164 54 166 68"
+            fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1.1" strokeLinejoin="round"/>
+          <path d="M92 80 L108 78 L130 78 L152 80 L172 82 Q174 100 174 115 Q172 140 170 165 Q130 175 95 165 Q92 140 90 115 Q88 95 92 80 Z"
+            fill="url(#skinTone)" stroke="none"/>
         </g>
-        {/* Mark label */}
-        <line x1="126" y1="72" x2="126" y2="52" stroke="var(--gold)" strokeWidth="0.8" strokeDasharray="2 2" opacity=".5"/>
-        <rect x="108" y="38" width="36" height="16" rx="8" fill="var(--bg)" stroke="var(--gold)" strokeWidth="0.8" opacity=".7"/>
-        <text x="126" y="50" textAnchor="middle" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" fontWeight="600" opacity=".8">mark</text>
+        {/* String on ring finger (static) */}
+        <ellipse cx="118" cy="72" rx="13" ry="12" fill="none" stroke="url(#agLine2)" strokeWidth="2.5"/>
+        {/* Meeting point — pulsing gold dot */}
+        <circle cx="105" cy="70" r="8" fill="var(--gold)" opacity=".1">
+          <animate attributeName="r" values="8;13;8" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".1;.2;.1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="105" cy="70" r="4" fill="var(--gold)" opacity=".85"/>
+        {/* Pen */}
+        <g transform="translate(68,32) rotate(38)">
+          <rect x="0" y="0" width="4.5" height="34" rx="1.5" fill="var(--text3)" opacity=".2"/>
+          <polygon points="0.3,34 4.2,34 2.25,41" fill="var(--gold)" opacity=".75"/>
+          <rect x="0" y="0" width="4.5" height="6" rx="1.5" fill="var(--text3)" opacity=".12"/>
+        </g>
+        {/* Label — localized */}
+        <line x1="105" y1="58" x2="105" y2="40" stroke="var(--gold)" strokeWidth="0.7" strokeDasharray="2 2" opacity=".45"/>
+        <rect x={105-SVG_L.mark.length*3.2} y="26" width={SVG_L.mark.length*6.4+8} height="16" rx="8"
+          fill="var(--bg)" stroke="var(--gold)" strokeWidth="0.8" opacity=".7"/>
+        <text x="105" y="38" textAnchor="middle" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" fontWeight="600" opacity=".8">{SVG_L.mark}</text>
       </>}
 
       {/* ── STEP 3: Measure with ruler ── */}

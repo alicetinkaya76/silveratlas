@@ -128,54 +128,69 @@ function RingSizer({ lang }) {
         <text x="145" y="99" textAnchor="middle" fill="var(--silver)" fontSize="11" fontFamily="var(--f-mono)" fontWeight="600">~10 cm</text>
       </>}
 
-      {/* ── STEP 1: Wrap — cross-section diagram ── */}
+      {/* ── STEP 1: Wrap — mini hand + cross-section ── */}
       {s===1 && <>
-        <circle cx="130" cy="75" r="65" fill="url(#glow1)"/>
-        {/* Finger cross-section (oval) */}
-        <ellipse cx="130" cy="75" rx="36" ry="42" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/>
-        {/* Finger label */}
-        <text x="130" y="70" textAnchor="middle" fill="var(--text3)" fontSize="9" fontFamily="var(--f-mono)" opacity=".5">{SVG_L.finger}</text>
-        <text x="130" y="82" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)" opacity=".35">⬤</text>
-        {/* String wrapping around — animated */}
-        <ellipse cx="130" cy="75" rx="42" ry="48" fill="none" stroke="url(#agVert)" strokeWidth="3.5"
+        <circle cx="155" cy="80" r="55" fill="url(#glow1)"/>
+        {/* ── Mini hand icon (top-left) ── */}
+        <g transform="translate(10,8) scale(0.52)" opacity=".55">
+          <path d="M50 120 L48 85 L46 65 Q45 52 50 48 Q55 44 58 50 L60 62 Q59 40 62 32 Q66 24 71 24 Q76 24 78 32 L80 50 Q80 30 84 24 Q88 18 93 18 Q98 18 100 26 L102 48 Q103 32 107 28 Q111 24 116 28 Q120 32 118 48 L115 65 Q120 52 124 50 Q128 48 131 52 Q134 58 130 70 L124 90 Q120 105 100 115 L50 120Z"
+            fill="var(--card)" stroke="var(--text3)" strokeWidth="2.2" strokeLinejoin="round"/>
+          {/* Ring on ring finger */}
+          <ellipse cx="90" cy="58" rx="10" ry="8" fill="none" stroke="var(--gold)" strokeWidth="3"/>
+        </g>
+        <text x="52" y="80" textAnchor="middle" fill="var(--text3)" fontSize="7" fontFamily="var(--f-mono)" opacity=".4">✋</text>
+        {/* ── Cross-section diagram (main) ── */}
+        <ellipse cx="160" cy="80" rx="32" ry="38" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/>
+        <text x="160" y="76" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)" opacity=".45">{SVG_L.finger}</text>
+        <circle cx="160" cy="85" r="2" fill="var(--text3)" opacity=".2"/>
+        {/* String wrapping — animated */}
+        <ellipse cx="160" cy="80" rx="38" ry="44" fill="none" stroke="url(#agVert)" strokeWidth="3.5"
           strokeLinecap="round" className="ring-wrap-anim"/>
-        {/* Wrap direction arrow */}
-        <path d="M87 68 L80 58 L84 72" fill="var(--gold)" opacity=".7"/>
-        {/* Annotation lines */}
-        <line x1="175" y1="40" x2="205" y2="25" stroke="var(--gold)" strokeWidth="0.7" opacity=".4"/>
-        <text x="208" y="25" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" opacity=".6">{SVG_L.wrap}</text>
-        {/* "No gap" indicator */}
-        <path d="M88 75 L78 75" stroke="var(--gold)" strokeWidth="0.6" opacity=".3"/>
-        <path d="M172 75 L182 75" stroke="var(--gold)" strokeWidth="0.6" opacity=".3"/>
+        {/* Arrow */}
+        <path d="M121 72 L114 63 L118 76" fill="var(--gold)" opacity=".7"/>
+        {/* Label */}
+        <line x1="200" y1="48" x2="228" y2="32" stroke="var(--gold)" strokeWidth="0.7" opacity=".4"/>
+        <text x="230" y="32" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" opacity=".55">{SVG_L.wrap}</text>
+        {/* Tight fit indicators */}
+        <path d="M120 80 L112 80" stroke="var(--gold)" strokeWidth="0.8" opacity=".25" strokeDasharray="2 2"/>
+        <path d="M200 80 L208 80" stroke="var(--gold)" strokeWidth="0.8" opacity=".25" strokeDasharray="2 2"/>
+        <text x="108" y="84" textAnchor="end" fill="var(--gold)" fontSize="6" fontFamily="var(--f-mono)" opacity=".35">◄</text>
+        <text x="212" y="84" fill="var(--gold)" fontSize="6" fontFamily="var(--f-mono)" opacity=".35">►</text>
       </>}
 
-      {/* ── STEP 2: Mark point — flat string diagram ── */}
+      {/* ── STEP 2: Mark point — mini hand + cross-section ── */}
       {s===2 && <>
-        <circle cx="130" cy="75" r="65" fill="url(#glow1)"/>
-        {/* Finger cross-section */}
-        <ellipse cx="130" cy="75" rx="36" ry="42" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/>
-        {/* String wrapped (static) */}
-        <ellipse cx="130" cy="75" rx="42" ry="48" fill="none" stroke="url(#agVert)" strokeWidth="3"/>
+        <circle cx="155" cy="80" r="55" fill="url(#glow1)"/>
+        {/* Mini hand (top-left) */}
+        <g transform="translate(10,8) scale(0.52)" opacity=".45">
+          <path d="M50 120 L48 85 L46 65 Q45 52 50 48 Q55 44 58 50 L60 62 Q59 40 62 32 Q66 24 71 24 Q76 24 78 32 L80 50 Q80 30 84 24 Q88 18 93 18 Q98 18 100 26 L102 48 Q103 32 107 28 Q111 24 116 28 Q120 32 118 48 L115 65 Q120 52 124 50 Q128 48 131 52 Q134 58 130 70 L124 90 Q120 105 100 115 L50 120Z"
+            fill="var(--card)" stroke="var(--text3)" strokeWidth="2.2" strokeLinejoin="round"/>
+          <ellipse cx="90" cy="58" rx="10" ry="8" fill="none" stroke="var(--gold)" strokeWidth="3"/>
+          <circle cx="78" cy="56" r="4" fill="var(--gold)" opacity=".6"/>
+        </g>
+        {/* Cross-section (main) */}
+        <ellipse cx="160" cy="80" rx="32" ry="38" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/>
+        <ellipse cx="160" cy="80" rx="38" ry="44" fill="none" stroke="url(#agVert)" strokeWidth="3"/>
         {/* Overlap zone */}
-        <rect x="82" y="55" width="12" height="24" rx="3" fill="var(--gold)" opacity=".08"/>
-        {/* Mark point — pulsing */}
-        <circle cx="88" cy="67" r="9" fill="var(--gold)" opacity=".1">
+        <rect x="116" y="62" width="12" height="22" rx="3" fill="var(--gold)" opacity=".08"/>
+        {/* Mark — pulsing */}
+        <circle cx="122" cy="73" r="9" fill="var(--gold)" opacity=".1">
           <animate attributeName="r" values="9;14;9" dur="2s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values=".1;.2;.1" dur="2s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="88" cy="67" r="5" fill="var(--gold)" opacity=".85"/>
-        <circle cx="88" cy="67" r="5" fill="none" stroke="#fff" strokeWidth="1" opacity=".3"/>
+        <circle cx="122" cy="73" r="5" fill="var(--gold)" opacity=".85"/>
+        <circle cx="122" cy="73" r="5" fill="none" stroke="#fff" strokeWidth="1" opacity=".3"/>
         {/* Pen */}
-        <g transform="translate(52,18) rotate(35)">
-          <rect x="0" y="0" width="5" height="38" rx="2" fill="var(--text2)" opacity=".25"/>
-          <polygon points="0.5,38 4.5,38 2.5,45" fill="var(--gold)" opacity=".8"/>
-          <rect x="0" y="0" width="5" height="6" rx="2" fill="var(--silver)" opacity=".2"/>
+        <g transform="translate(85,25) rotate(35)">
+          <rect x="0" y="0" width="5" height="35" rx="2" fill="var(--text2)" opacity=".22"/>
+          <polygon points="0.5,35 4.5,35 2.5,42" fill="var(--gold)" opacity=".8"/>
+          <rect x="0" y="0" width="5" height="6" rx="2" fill="var(--silver)" opacity=".15"/>
         </g>
         {/* Label */}
-        <line x1="88" y1="54" x2="88" y2="35" stroke="var(--gold)" strokeWidth="0.7" strokeDasharray="2 2" opacity=".5"/>
-        <rect x={88-SVG_L.mark.length*3.5} y="20" width={Math.max(SVG_L.mark.length*7,36)} height="18" rx="9"
+        <line x1="122" y1="60" x2="122" y2="40" stroke="var(--gold)" strokeWidth="0.7" strokeDasharray="2 2" opacity=".5"/>
+        <rect x={122-Math.max(SVG_L.mark.length*3.5,18)} y="26" width={Math.max(SVG_L.mark.length*7,36)} height="16" rx="8"
           fill="var(--bg)" stroke="var(--gold)" strokeWidth="1" opacity=".8"/>
-        <text x="88" y="33" textAnchor="middle" fill="var(--gold)" fontSize="9" fontFamily="var(--f-mono)" fontWeight="700">{SVG_L.mark}</text>
+        <text x="122" y="38" textAnchor="middle" fill="var(--gold)" fontSize="9" fontFamily="var(--f-mono)" fontWeight="700">{SVG_L.mark}</text>
       </>}
 
       {/* ── STEP 3: Measure — ruler diagram ── */}

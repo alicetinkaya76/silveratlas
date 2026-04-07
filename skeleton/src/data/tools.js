@@ -9,16 +9,16 @@ export const TOOLS = [
   {i:"🔄",tr:"Karat Dönüştürücü",en:"Karat Converter",ar:"محول القيراط"},
   {i:"💎",tr:"Taş Uyum Rehberi",en:"Gemstone Guide",ar:"دليل الأحجار"},
   {i:"✨",tr:"Bakım Rehberi",en:"Care Guide",ar:"دليل العناية"},
-  {i:"🗺️",tr:"Dünya Haritası",en:"World Map",ar:"خريطة العالم"},
+  {i:"🗺️",tr:"Dünya Haritası",en:"World Map",ar:"خريطة العالم",hidden:true},
   {i:"⏳",tr:"Zaman Çizelgesi",en:"Timeline",ar:"الجدول الزمني"},
   {i:"🏷️",tr:"Damga Tanımlayıcı",en:"Stamp Identifier",ar:"معرّف الأختام"},
-  {i:"📱",tr:"Fiyat Alarm",en:"Price Alert",ar:"تنبيه الأسعار"},
+  {i:"📱",tr:"Fiyat Alarm",en:"Price Alert",ar:"تنبيه الأسعار",hidden:true},
   {i:"🤲",tr:"Zekât Hesaplayıcı",en:"Zakat Calculator",ar:"حاسبة الزكاة"},
   {i:"⚗️",tr:"Saflık Test Rehberi",en:"Purity Test Guide",ar:"دليل اختبار النقاء"},
   {i:"🪞",tr:"Metal Karşılaştırıcı",en:"Metal Comparator",ar:"مقارن المعادن"},
   {i:"👗",tr:"Takı Kombinatörü",en:"Jewelry Combinator",ar:"منسق المجوهرات"},
   {i:"🇹🇷",tr:"Türkiye Atlası",en:"Turkey Atlas",ar:"أطلس تركيا"},
-  {i:"📊",tr:"Fiyat Takipçisi",en:"Price Tracker",ar:"متتبع الأسعار"},
+  {i:"📊",tr:"Fiyat Takipçisi",en:"Price Tracker",ar:"متتبع الأسعار",hidden:true},
   {i:"✏️",tr:"Gravür Önizleyici",en:"Engraving Preview",ar:"معاينة النقش",isNew:true},
   {i:"🛡️",tr:"Sigorta Hesaplayıcı",en:"Insurance Calculator",ar:"حاسبة التأمين",isNew:true},
   {i:"🏆",tr:"İleri Quiz v2",en:"Advanced Quiz",ar:"اختبار متقدم",isNew:true},
@@ -31,4 +31,4 @@ export const TOOLS = [
   {i:"💰",tr:"Gümüş Takı Fiyat Tahmini",en:"Silver Price Estimator",ar:"تقدير سعر الفضة",isNew:true},
 ];
 
-export const QUICK_TOOL_INDICES = [0,1,2,3,10,14]; // 6 popular
+export const QUICK_TOOL_INDICES = [2,27,28,29,0,14]; // Ring, Bracelet, Necklace, Price Est, Purity, Zakat

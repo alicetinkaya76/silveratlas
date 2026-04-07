@@ -10,7 +10,9 @@ export default function ToolsGrid({ lang, onOpenTool }) {
       <FadeUp><div className="section-header"><h2 className="section-title">{t(lang, 'sections.tools')}</h2></div></FadeUp>
       <FadeUp>
         <div className="tools-grid">
-          {TOOLS.map((tool, idx) => (
+          {TOOLS.map((tool, idx) => {
+            if (tool.hidden) return null;
+            return (
             <div className="tool-card" key={idx} role="button" tabIndex={0}
               onClick={() => onOpenTool(tool, idx)}
               onKeyDown={e => e.key === 'Enter' && onOpenTool(tool, idx)}
@@ -19,7 +21,8 @@ export default function ToolsGrid({ lang, onOpenTool }) {
               <span className="tool-icon">{getToolIcon(idx, 28)}</span>
               <span className="tool-name">{tool[lang]}</span>
             </div>
-          ))}
+            );
+          })}
         </div>
       </FadeUp>
     </section>

@@ -784,6 +784,7 @@ animation:livePulse 2s ease-in-out infinite}
 .pt-price{font-size:.8rem;font-weight:700;font-family:var(--f-mono)}
 .pt-silver{color:var(--silver)}
 .pt-gold{color:var(--gold)}
+.pt-tl{color:#2dd4a0}
 .pt-unit{font-size:.55rem;color:var(--text3);font-family:var(--f-mono)}
 .pt-sub{font-size:.6rem;color:var(--text3);font-family:var(--f-mono);opacity:.7}
 .pt-ratio{font-size:.7rem;font-weight:600;color:var(--text2);font-family:var(--f-mono)}

@@ -584,8 +584,264 @@ if(!tp)return<div className="tm-tool" style={{gap:8}}><div style={{fontSize:12,c
 const items=checks[tp]||[];const crOk=items.filter(i=>i.cr).every(i=>ch[i.id]);const allOk=items.every(i=>ch[i.id]);const st=allOk?'pass':crOk?'partial':'fail';const sc={pass:'#27ae60',partial:'#f39c12',fail:'#e74c3c'};const sl={pass:{tr:'Geçerli',en:'Valid',ar:'صالح'},partial:{tr:'Kısmen',en:'Partial',ar:'جزئي'},fail:{tr:'Dikkat!',en:'Attention!',ar:'انتباه!'}};
 return<div className="tm-tool" style={{gap:8}}>{items.map(item=><label key={item.id} style={{display:'flex',alignItems:'center',gap:8,padding:'10px 12px',borderRadius:8,border:`1px solid ${ch[item.id]?'#27ae6044':'var(--border)'}`,background:ch[item.id]?'rgba(39,174,96,0.05)':'transparent',cursor:'pointer'}}><input type="checkbox" checked={!!ch[item.id]} onChange={()=>toggle(item.id)} style={{accentColor:'#27ae60',width:18,height:18}}/><span style={{flex:1,fontSize:13}}>{item.t[lang]}</span>{item.cr&&<span style={{fontSize:9,padding:'2px 5px',borderRadius:4,background:'rgba(231,76,60,0.1)',color:'#e74c3c',fontWeight:700}}>!</span>}</label>)}<div style={{padding:14,borderRadius:10,background:sc[st]+'10',border:`1px solid ${sc[st]}44`,textAlign:'center'}}><div style={{fontSize:18,fontWeight:700,color:sc[st]}}>{sl[st][lang]}</div></div><button onClick={reset} style={{fontSize:11,color:'var(--text3)',cursor:'pointer',textAlign:'center',padding:6}}>← {lang==='tr'?'Geri':'Back'}</button></div>}
 
+/* ── TOOL 27: Bracelet Sizer (Premium) ── */
+function BraceletSizer({lang}){
+  const [phase,setPhase]=useState('start');
+  const [wristMm,setWristMm]=useState(165);
+  const [fit,setFit]=useState('comfort');
+  const FITS={snug:5,comfort:12,loose:20};
+  const braceletMm=wristMm+FITS[fit];
+  const braceletCm=(braceletMm/10).toFixed(1);
+  const braceletIn=(braceletMm/25.4).toFixed(1);
+  const weight=(braceletMm*0.08).toFixed(1);
+  const priceTL=Math.round(weight*1.05*38.5);
+  const TX={
+    tr:{welcome:'Bilezik Ölçünüzü Bulalım',desc:'Bileğinizi ölçerek ideal bilezik boyutunu bulun.',start:'Başla',
+      measure:'Bilek çevresini ip ile ölçün ve mm girin.',wrist:'Bilek Çevresi (mm)',
+      fitLabel:'Oturuş Tercihi',snug:'Sıkı',comfort:'Rahat',loose:'Bol',
+      result:'Bilezik Ölçünüz',est:'925 Ayar Gümüş Bilezik Tahmini',order:'İstanbul Gümüş\'ten Sipariş →',
+      share:'Paylaş',restart:'Tekrar',tip:'İpi bileğinizin en geniş yerine (bilek kemiği) sarın.'},
+    en:{welcome:'Find Your Bracelet Size',desc:'Measure your wrist to find the ideal bracelet length.',start:'Start',
+      measure:'Measure your wrist circumference with string and enter in mm.',wrist:'Wrist Circumference (mm)',
+      fitLabel:'Fit Preference',snug:'Snug',comfort:'Comfort',loose:'Loose',
+      result:'Your Bracelet Size',est:'925 Sterling Silver Bracelet Estimate',order:'Order from İstanbul Gümüş →',
+      share:'Share',restart:'Again',tip:'Wrap string around widest part of wrist (wrist bone).'},
+    ar:{welcome:'اعثر على مقاس سوارك',desc:'قِس معصمك لإيجاد الطول المثالي.',start:'ابدأ',
+      measure:'قِس محيط معصمك بخيط وأدخله بالمليمتر.',wrist:'محيط المعصم (مم)',
+      fitLabel:'تفضيل الملاءمة',snug:'ضيق',comfort:'مريح',loose:'فضفاض',
+      result:'مقاس سوارك',est:'تقدير سوار فضة ٩٢٥',order:'اطلب من إسطنبول غوموش ←',
+      share:'شارك',restart:'أعد',tip:'لف الخيط حول أعرض جزء من المعصم.'}
+  }[lang]||{};
+
+  if(phase==='start')return(<div className="tm-tool" style={{textAlign:'center',padding:'16px 0'}}>
+    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" style={{margin:'0 auto 12px',display:'block'}}>
+      <defs><linearGradient id="brg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient></defs>
+      <ellipse cx="28" cy="28" rx="22" ry="18" fill="none" stroke="url(#brg)" strokeWidth="3"/>
+      <ellipse cx="28" cy="28" rx="16" ry="12" fill="none" stroke="url(#brg)" strokeWidth="1" opacity=".3" strokeDasharray="3 3"/>
+    </svg>
+    <div style={{fontSize:'1.1rem',fontWeight:700,marginBottom:6,fontFamily:'var(--f-head)'}}>{TX.welcome}</div>
+    <div style={{fontSize:'.88rem',color:'var(--text2)',marginBottom:18,lineHeight:1.5}}>{TX.desc}</div>
+    <button onClick={()=>setPhase('measure')} style={{width:'100%',padding:'14px',borderRadius:14,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:700,border:'none'}}>{TX.start}</button>
+  </div>);
+
+  if(phase==='measure')return(<div className="tm-tool">
+    <div style={{padding:'12px 14px',borderRadius:12,background:'var(--card)',border:'1px solid var(--border)',marginBottom:14}}>
+      <svg width="240" height="100" viewBox="0 0 240 100" fill="none" style={{display:'block',margin:'0 auto'}}>
+        <defs><linearGradient id="brl" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient>
+        <radialGradient id="brgl"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".08"/><stop offset="100%" stopColor="transparent"/></radialGradient></defs>
+        <circle cx="120" cy="50" r="45" fill="url(#brgl)"/>
+        <ellipse cx="120" cy="50" rx="55" ry="35" fill="none" stroke="var(--text3)" strokeWidth="8" opacity=".08" strokeLinecap="round"/>
+        <ellipse cx="120" cy="50" rx="55" ry="35" fill="none" stroke="url(#brl)" strokeWidth="2.5" className="ring-draw-line" strokeLinecap="round"/>
+        <rect x="85" y="36" width="70" height="22" rx="11" fill="var(--bg)" stroke="url(#brl)" strokeWidth="1.2"/>
+        <text x="120" y="51" textAnchor="middle" fill="var(--silver)" fontSize="12" fontWeight="700" fontFamily="var(--f-mono)">{wristMm}mm</text>
+      </svg>
+      <div style={{fontSize:'.85rem',color:'var(--text2)',textAlign:'center',lineHeight:1.5}}>{TX.measure}</div>
+    </div>
+    <div style={{marginBottom:14}}>
+      <div style={{display:'flex',justifyContent:'space-between',marginBottom:4}}>
+        <label style={{fontSize:'.85rem',color:'var(--text2)'}}>{TX.wrist}</label>
+        <span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>{wristMm}mm</span>
+      </div>
+      <input type="range" min="130" max="220" step="1" value={wristMm} onChange={e=>setWristMm(+e.target.value)} style={{width:'100%',accentColor:'var(--silver)'}}/>
+      <div style={{display:'flex',justifyContent:'space-between',fontSize:'.65rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}><span>130</span><span>175</span><span>220</span></div>
+    </div>
+    <div style={{marginBottom:14}}>
+      <div style={{fontSize:'.85rem',color:'var(--text2)',marginBottom:8}}>{TX.fitLabel}</div>
+      <div style={{display:'flex',gap:6}}>
+        {['snug','comfort','loose'].map(f=>(<button key={f} onClick={()=>setFit(f)} style={{flex:1,padding:'10px 6px',borderRadius:10,fontSize:'.8rem',fontWeight:600,border:`1.5px solid ${fit===f?'var(--silver)':'var(--border)'}`,background:fit===f?'rgba(192,192,192,0.1)':'transparent',color:fit===f?'var(--silver)':'var(--text3)',transition:'all .2s'}}>{TX[f]} (+{FITS[f]}mm)</button>))}
+      </div>
+    </div>
+    <div style={{padding:'8px 12px',borderRadius:10,background:'rgba(212,175,55,0.05)',border:'1px solid rgba(212,175,55,0.1)',fontSize:'.78rem',color:'var(--text2)',marginBottom:14,display:'flex',gap:6}}>💡 {TX.tip}</div>
+    <button onClick={()=>setPhase('result')} style={{width:'100%',padding:'14px',borderRadius:14,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:700,border:'none'}}>{TX.result}</button>
+  </div>);
+
+  return(<div className="tm-tool" style={{textAlign:'center'}}>
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" style={{margin:'0 auto 8px',display:'block'}}><defs><linearGradient id="brr" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient></defs><ellipse cx="24" cy="24" rx="18" ry="14" fill="none" stroke="url(#brr)" strokeWidth="2.5"/></svg>
+    <div style={{fontSize:'.72rem',color:'var(--text3)',fontWeight:600,letterSpacing:'.5px',marginBottom:4}}>{TX.result}</div>
+    <div style={{fontSize:'2.2rem',fontWeight:800,fontFamily:'var(--f-mono)',color:'var(--silver)',lineHeight:1}}>{braceletCm} cm</div>
+    <div style={{fontSize:'.85rem',color:'var(--text2)',marginBottom:14}}>{braceletIn}" · {braceletMm}mm</div>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:8,marginBottom:14,textAlign:'center'}}>
+      {[{v:braceletCm+'cm',l:'Metric'},{v:braceletIn+'"',l:'Imperial'},{v:braceletMm+'mm',l:'mm'}].map((x,i)=>(<div key={i} style={{padding:'10px 4px',borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}><div style={{fontFamily:'var(--f-mono)',fontSize:'1rem',fontWeight:700,color:i===0?'var(--silver)':'var(--text)'}}>{x.v}</div><div style={{fontSize:'.6rem',color:'var(--text3)',marginTop:1}}>{x.l}</div></div>))}
+    </div>
+    <div style={{padding:'12px 14px',borderRadius:12,background:'linear-gradient(135deg,rgba(192,192,192,0.06),rgba(212,175,55,0.03))',border:'1px solid rgba(192,192,192,0.12)',marginBottom:12,textAlign:'left'}}>
+      <div style={{fontSize:'.72rem',color:'var(--text3)',fontWeight:600,marginBottom:4}}>{TX.est}</div>
+      <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}><span style={{fontFamily:'var(--f-mono)',fontSize:'1.2rem',fontWeight:700,color:'var(--green)'}}>≈ ₺{priceTL}</span><span style={{fontSize:'.75rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>~{weight}g</span></div>
+    </div>
+    <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" style={{display:'block',padding:'12px',borderRadius:12,background:'rgba(212,175,55,0.06)',border:'1.5px solid rgba(212,175,55,0.2)',color:'var(--gold)',fontWeight:600,fontSize:'.88rem',marginBottom:10,textDecoration:'none'}}>{TX.order}</a>
+    <div style={{display:'flex',gap:8}}><button onClick={()=>{setPhase('start')}} style={{flex:1,padding:'10px',borderRadius:10,border:'1px solid var(--border)',fontSize:'.82rem',color:'var(--text2)'}}>{TX.restart}</button><button onClick={()=>{const t=`${TX.result}: ${braceletCm}cm / ${braceletIn}" — SilverAtlas`;if(navigator.share)navigator.share({title:'SilverAtlas',text:t}).catch(()=>{});else navigator.clipboard?.writeText(t)}} style={{flex:1,padding:'10px',borderRadius:10,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:600,fontSize:'.82rem',border:'none'}}>{TX.share}</button></div>
+  </div>);
+}
+
+/* ── TOOL 28: Necklace Length Guide (Interactive SVG Silhouette) ── */
+function NecklaceGuide({lang}){
+  const [len,setLen]=useState(45);
+  const LENGTHS=[{cm:35,name:{tr:'Choker',en:'Choker',ar:'تشوكر'}},{cm:40,name:{tr:'Princess',en:'Princess',ar:'أميرة'}},{cm:45,name:{tr:'Matinée',en:'Matinée',ar:'ماتينيه'}},{cm:50,name:{tr:'Opera kısa',en:'Short Opera',ar:'أوبرا قصير'}},{cm:60,name:{tr:'Opera',en:'Opera',ar:'أوبرا'}},{cm:75,name:{tr:'Rope',en:'Rope',ar:'حبل'}}];
+  const closest=LENGTHS.reduce((a,b)=>Math.abs(b.cm-len)<Math.abs(a.cm-len)?b:a);
+  const weight=(len*0.12).toFixed(1);
+  const priceTL=Math.round(weight*1.05*38.5);
+  const TX={tr:{title:'Kolye Uzunluk Rehberi',desc:'Farklı uzunlukların vücutta nasıl göründüğünü keşfedin.',len:'Uzunluk',style:'Stil',est:'925 Ayar Gümüş Zincir Tahmini',order:'İstanbul Gümüş\'ten Sipariş →',tip:'En popüler uzunluk 45cm — köprücük kemiği hizası.'},
+    en:{title:'Necklace Length Guide',desc:'Discover how different lengths look on the body.',len:'Length',style:'Style',est:'925 Sterling Silver Chain Estimate',order:'Order from İstanbul Gümüş →',tip:'Most popular length is 45cm — sits at the collarbone.'},
+    ar:{title:'دليل أطوال القلادة',desc:'اكتشف كيف تبدو الأطوال المختلفة.',len:'الطول',style:'النمط',est:'تقدير سلسلة فضة ٩٢٥',order:'اطلب من إسطنبول غوموش ←',tip:'الطول الأكثر شيوعاً ٤٥سم — عند عظمة الترقوة.'}
+  }[lang]||{};
+
+  // Map cm to Y position on silhouette (neck starts ~y=68, chest ends ~y=220)
+  const neckY=68;const mapY=(cm)=>neckY+(cm-30)*2.8;
+  const curY=Math.min(mapY(len),220);
+
+  return(<div className="tm-tool">
+    <div style={{textAlign:'center',marginBottom:10}}>
+      <div style={{fontSize:'1.05rem',fontWeight:700,marginBottom:4,fontFamily:'var(--f-head)'}}>{TX.title}</div>
+      <div style={{fontSize:'.85rem',color:'var(--text2)',lineHeight:1.5}}>{TX.desc}</div>
+    </div>
+    {/* SVG Silhouette with necklaces */}
+    <div style={{display:'flex',justifyContent:'center',padding:'8px 0'}}>
+      <svg width="200" height="260" viewBox="0 0 200 260" fill="none" style={{display:'block'}}>
+        <defs>
+          <linearGradient id="ncg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient>
+          <radialGradient id="ncgl"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".06"/><stop offset="100%" stopColor="transparent"/></radialGradient>
+        </defs>
+        <ellipse cx="100" cy="150" rx="80" ry="110" fill="url(#ncgl)"/>
+        {/* Head */}
+        <ellipse cx="100" cy="30" rx="24" ry="28" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.2"/>
+        {/* Neck */}
+        <path d="M82 55 L78 70 Q100 75 122 70 L118 55" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.2"/>
+        {/* Shoulders */}
+        <path d="M78 70 Q60 75 30 90 L25 130 Q30 135 40 132 L55 125 Q70 115 78 100" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.2"/>
+        <path d="M122 70 Q140 75 170 90 L175 130 Q170 135 160 132 L145 125 Q130 115 122 100" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.2"/>
+        {/* Torso */}
+        <path d="M78 100 L72 240 Q100 250 128 240 L122 100" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.2"/>
+        {/* Ghost necklace lines */}
+        {LENGTHS.map(l=>{const y=mapY(l.cm);return(
+          <path key={l.cm} d={`M${100-30-Math.min((l.cm-30)*0.6,35)} ${Math.min(70+(l.cm-30)*0.8,90)} Q100 ${Math.min(y,235)} ${100+30+Math.min((l.cm-30)*0.6,35)} ${Math.min(70+(l.cm-30)*0.8,90)}`}
+            fill="none" stroke="var(--text3)" strokeWidth="0.6" opacity=".15" strokeDasharray="3 4"/>
+        )})}
+        {/* Active necklace */}
+        <path d={`M${100-30-Math.min((len-30)*0.6,35)} ${Math.min(70+(len-30)*0.8,90)} Q100 ${Math.min(curY,235)} ${100+30+Math.min((len-30)*0.6,35)} ${Math.min(70+(len-30)*0.8,90)}`}
+          fill="none" stroke="url(#ncg)" strokeWidth="2.5" strokeLinecap="round"/>
+        {/* Pendant dot */}
+        <circle cx="100" cy={Math.min(curY,235)} r="4" fill="var(--gold)" opacity=".7"/>
+        {/* Length label */}
+        <rect x="135" y={Math.min(curY,230)-10} width="50" height="20" rx="10" fill="var(--bg)" stroke="url(#ncg)" strokeWidth="1"/>
+        <text x="160" y={Math.min(curY,230)+4} textAnchor="middle" fill="var(--silver)" fontSize="10" fontWeight="700" fontFamily="var(--f-mono)">{len}cm</text>
+      </svg>
+    </div>
+    {/* Slider */}
+    <div style={{marginBottom:10}}>
+      <div style={{display:'flex',justifyContent:'space-between',marginBottom:4}}>
+        <span style={{fontSize:'.85rem',color:'var(--text2)'}}>{TX.len}</span>
+        <span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>{len}cm · {closest.name[lang]}</span>
+      </div>
+      <input type="range" min="35" max="75" step="1" value={len} onChange={e=>setLen(+e.target.value)} style={{width:'100%',accentColor:'var(--gold)'}}/>
+    </div>
+    {/* Quick length pills */}
+    <div style={{display:'flex',gap:5,flexWrap:'wrap',marginBottom:12}}>
+      {LENGTHS.map(l=>{const act=Math.abs(l.cm-len)<3;return(<button key={l.cm} onClick={()=>setLen(l.cm)} style={{padding:'7px 12px',borderRadius:16,fontSize:'.72rem',fontWeight:act?700:500,border:`1.5px solid ${act?'var(--gold)':'var(--border)'}`,background:act?'rgba(212,175,55,0.08)':'transparent',color:act?'var(--gold)':'var(--text3)',transition:'all .2s'}}>{l.cm}cm {l.name[lang]}</button>)})}
+    </div>
+    {/* Price estimate */}
+    <div style={{padding:'12px 14px',borderRadius:12,background:'linear-gradient(135deg,rgba(192,192,192,0.06),rgba(212,175,55,0.03))',border:'1px solid rgba(192,192,192,0.12)',marginBottom:10,textAlign:'left'}}>
+      <div style={{fontSize:'.72rem',color:'var(--text3)',fontWeight:600,marginBottom:4}}>{TX.est}</div>
+      <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}><span style={{fontFamily:'var(--f-mono)',fontSize:'1.2rem',fontWeight:700,color:'var(--green)'}}>≈ ₺{priceTL}</span><span style={{fontSize:'.75rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>~{weight}g</span></div>
+    </div>
+    <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" style={{display:'block',padding:'12px',borderRadius:12,background:'rgba(212,175,55,0.06)',border:'1.5px solid rgba(212,175,55,0.2)',color:'var(--gold)',fontWeight:600,fontSize:'.88rem',marginBottom:8,textDecoration:'none'}}>{TX.order}</a>
+    <div style={{padding:'8px 12px',borderRadius:10,background:'rgba(212,175,55,0.05)',border:'1px solid rgba(212,175,55,0.1)',fontSize:'.78rem',color:'var(--text2)',display:'flex',gap:6}}>💡 {TX.tip}</div>
+  </div>);
+}
+
+/* ── TOOL 29: Silver Jewelry Price Estimator ── */
+function SilverPriceEstimator({lang}){
+  const [type,setType]=useState('ring');
+  const [size,setSize]=useState(50);
+  const [purity,setPurity]=useState(925);
+  const TYPES={
+    ring:{icon:'💍',weight:(s)=>(2+s*0.04).toFixed(1),sizeRange:[40,72],sizeUnit:'mm',sizeLabel:{tr:'Çevre',en:'Circumference',ar:'المحيط'}},
+    bracelet:{icon:'📿',weight:(s)=>(s*0.08).toFixed(1),sizeRange:[130,220],sizeUnit:'mm',sizeLabel:{tr:'Bilek Çevresi',en:'Wrist Size',ar:'محيط المعصم'}},
+    necklace:{icon:'📿',weight:(s)=>(s*0.12).toFixed(1),sizeRange:[35,75],sizeUnit:'cm',sizeLabel:{tr:'Uzunluk',en:'Length',ar:'الطول'}},
+    earring:{icon:'✨',weight:()=>'3.0',sizeRange:[10,40],sizeUnit:'mm',sizeLabel:{tr:'Boyut',en:'Size',ar:'الحجم'}},
+  };
+  const tp=TYPES[type];
+  const w=parseFloat(tp.weight(size));
+  const purFactor=purity/1000;
+  const pureW=(w*purFactor).toFixed(1);
+  const silverPerG=1.05;
+  const usdTry=38.5;
+  const priceUSD=(w*silverPerG).toFixed(2);
+  const priceTL=Math.round(w*silverPerG*usdTry);
+  const craftMultiplier=2.5;
+  const retailTL=Math.round(priceTL*craftMultiplier);
+
+  const TX={
+    tr:{title:'Gümüş Takı Fiyat Tahmini',desc:'Takı türü, boyut ve ayara göre tahmini fiyat.',type:'Takı Türü',
+      ring:'Yüzük',bracelet:'Bilezik',necklace:'Kolye',earring:'Küpe',
+      purityLabel:'Ayar',weight:'Tahmini Ağırlık',pureWeight:'Saf Gümüş',
+      material:'Hammadde Değeri',retail:'Tahmini Perakende',note:'İşçilik, tasarım ve marka faktörüne göre değişir.',
+      order:'İstanbul Gümüş\'ten Fiyat Al →'},
+    en:{title:'Silver Jewelry Price Estimator',desc:'Estimate price by type, size and purity.',type:'Jewelry Type',
+      ring:'Ring',bracelet:'Bracelet',necklace:'Necklace',earring:'Earring',
+      purityLabel:'Purity',weight:'Est. Weight',pureWeight:'Pure Silver',
+      material:'Material Value',retail:'Est. Retail',note:'Varies by craftsmanship, design and brand.',
+      order:'Get Price from İstanbul Gümüş →'},
+    ar:{title:'تقدير سعر المجوهرات الفضية',desc:'تقدير حسب النوع والحجم والعيار.',type:'نوع المجوهرات',
+      ring:'خاتم',bracelet:'سوار',necklace:'قلادة',earring:'حلق',
+      purityLabel:'العيار',weight:'الوزن التقديري',pureWeight:'فضة خالصة',
+      material:'قيمة المادة',retail:'التجزئة المقدرة',note:'يختلف حسب الصنعة والتصميم.',
+      order:'احصل على سعر من إسطنبول غوموش ←'}
+  }[lang]||{};
+
+  return(<div className="tm-tool">
+    <div style={{textAlign:'center',marginBottom:12}}>
+      <div style={{fontSize:'1.05rem',fontWeight:700,fontFamily:'var(--f-head)'}}>{TX.title}</div>
+      <div style={{fontSize:'.85rem',color:'var(--text2)',lineHeight:1.5}}>{TX.desc}</div>
+    </div>
+    {/* Type selector */}
+    <div style={{fontSize:'.85rem',color:'var(--text2)',marginBottom:6}}>{TX.type}</div>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:6,marginBottom:14}}>
+      {['ring','bracelet','necklace','earring'].map(t=>{const act=type===t;return(<button key={t} onClick={()=>{setType(t);setSize(TYPES[t].sizeRange[0]+Math.round((TYPES[t].sizeRange[1]-TYPES[t].sizeRange[0])*0.4))}} style={{padding:'10px 4px',borderRadius:10,fontSize:'.75rem',fontWeight:act?700:500,border:`1.5px solid ${act?'var(--silver)':'var(--border)'}`,background:act?'rgba(192,192,192,0.1)':'transparent',color:act?'var(--silver)':'var(--text3)',transition:'all .2s',display:'flex',flexDirection:'column',alignItems:'center',gap:3}}><span style={{fontSize:'1.1rem'}}>{TYPES[t].icon}</span>{TX[t]}</button>)})}
+    </div>
+    {/* Size slider */}
+    <div style={{marginBottom:12}}>
+      <div style={{display:'flex',justifyContent:'space-between',marginBottom:4}}>
+        <span style={{fontSize:'.85rem',color:'var(--text2)'}}>{tp.sizeLabel[lang]}</span>
+        <span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>{size}{tp.sizeUnit}</span>
+      </div>
+      <input type="range" min={tp.sizeRange[0]} max={tp.sizeRange[1]} step="1" value={size} onChange={e=>setSize(+e.target.value)} style={{width:'100%',accentColor:'var(--silver)'}}/>
+    </div>
+    {/* Purity */}
+    <div style={{marginBottom:14}}>
+      <div style={{fontSize:'.85rem',color:'var(--text2)',marginBottom:6}}>{TX.purityLabel}</div>
+      <div style={{display:'flex',gap:6}}>
+        {[{v:999,l:'999 Saf'},{v:925,l:'925'},{v:900,l:'900'},{v:800,l:'800'}].map(p=>(<button key={p.v} onClick={()=>setPurity(p.v)} style={{flex:1,padding:'8px 4px',borderRadius:8,fontSize:'.75rem',fontWeight:purity===p.v?700:500,border:`1.5px solid ${purity===p.v?'var(--gold)':'var(--border)'}`,background:purity===p.v?'rgba(212,175,55,0.08)':'transparent',color:purity===p.v?'var(--gold)':'var(--text3)',transition:'all .2s'}}>{p.l}</button>))}
+      </div>
+    </div>
+    {/* Results */}
+    <div style={{borderRadius:14,border:'1px solid var(--border)',overflow:'hidden',marginBottom:12}}>
+      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',borderBottom:'1px solid var(--border)'}}>
+        <div style={{padding:'12px',textAlign:'center',borderRight:'1px solid var(--border)'}}>
+          <div style={{fontFamily:'var(--f-mono)',fontSize:'1.3rem',fontWeight:700,color:'var(--silver)'}}>{w}g</div>
+          <div style={{fontSize:'.65rem',color:'var(--text3)',marginTop:2}}>{TX.weight}</div>
+        </div>
+        <div style={{padding:'12px',textAlign:'center'}}>
+          <div style={{fontFamily:'var(--f-mono)',fontSize:'1.3rem',fontWeight:700,color:'var(--gold)'}}>{pureW}g</div>
+          <div style={{fontSize:'.65rem',color:'var(--text3)',marginTop:2}}>{TX.pureWeight}</div>
+        </div>
+      </div>
+      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr'}}>
+        <div style={{padding:'12px',textAlign:'center',borderRight:'1px solid var(--border)'}}>
+          <div style={{fontFamily:'var(--f-mono)',fontSize:'1.1rem',fontWeight:700,color:'var(--text2)'}}>₺{priceTL}</div>
+          <div style={{fontSize:'.65rem',color:'var(--text3)',marginTop:2}}>{TX.material}</div>
+        </div>
+        <div style={{padding:'12px',textAlign:'center',background:'linear-gradient(135deg,rgba(45,212,160,0.04),transparent)'}}>
+          <div style={{fontFamily:'var(--f-mono)',fontSize:'1.3rem',fontWeight:700,color:'var(--green)'}}>≈ ₺{retailTL}</div>
+          <div style={{fontSize:'.65rem',color:'var(--text3)',marginTop:2}}>{TX.retail}</div>
+        </div>
+      </div>
+    </div>
+    <div style={{fontSize:'.75rem',color:'var(--text3)',textAlign:'center',marginBottom:10,fontStyle:'italic'}}>{TX.note}</div>
+    <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" style={{display:'block',padding:'12px',borderRadius:12,background:'rgba(212,175,55,0.06)',border:'1.5px solid rgba(212,175,55,0.2)',color:'var(--gold)',fontWeight:600,fontSize:'.88rem',textDecoration:'none',textAlign:'center'}}>{TX.order}</a>
+  </div>);
+}
+
 /* ════════════ TOOL REGISTRY ════════════ */
-const TOOL_COMPONENTS = { 0:PurityCalc,1:UnitConverter,2:RingSizer,3:QuizTool,4:ColorPalette,5:CarbonFootprint,6:PeriodicTable,7:KaratConverter,8:GemstoneGuide,9:CareGuide,10:WorldMapTool,11:TimelineTool,12:StampIdentifier,13:PriceAlert,14:ZakatCalc,15:PurityTestGuide,16:MetalComparator,17:JewelryCombinator,18:TurkeyAtlas,19:PriceTracker,20:EngravingPreview,21:InsuranceCalc,22:AdvancedQuiz,23:TarnishSimulator,24:WorldClock,25:PortfolioTracker,26:CertificateVerifier };
+const TOOL_COMPONENTS = { 0:PurityCalc,1:UnitConverter,2:RingSizer,3:QuizTool,4:ColorPalette,5:CarbonFootprint,6:PeriodicTable,7:KaratConverter,8:GemstoneGuide,9:CareGuide,10:WorldMapTool,11:TimelineTool,12:StampIdentifier,13:PriceAlert,14:ZakatCalc,15:PurityTestGuide,16:MetalComparator,17:JewelryCombinator,18:TurkeyAtlas,19:PriceTracker,20:EngravingPreview,21:InsuranceCalc,22:AdvancedQuiz,23:TarnishSimulator,24:WorldClock,25:PortfolioTracker,26:CertificateVerifier,27:BraceletSizer,28:NecklaceGuide,29:SilverPriceEstimator };
 
 /* ════════════ TOOL MODAL ════════════ */
 export default function ToolModal({ tool, toolIndex, lang, onClose }) {

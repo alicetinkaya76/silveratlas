@@ -26,6 +26,9 @@ export const TOOLS = [
   {i:"🕐",tr:"Dünya Saati",en:"World Clock",ar:"الساعة العالمية",isNew:true},
   {i:"💰",tr:"Portföy Takipçisi",en:"Portfolio Tracker",ar:"متتبع المحفظة",isNew:true},
   {i:"📜",tr:"Sertifika Doğrulayıcı",en:"Certificate Verifier",ar:"التحقق من الشهادة",isNew:true},
+  {i:"📿",tr:"Bilezik Ölçü Bulucu",en:"Bracelet Sizer",ar:"مقاس السوار",isNew:true},
+  {i:"📿",tr:"Kolye Uzunluk Rehberi",en:"Necklace Length Guide",ar:"دليل أطوال القلادة",isNew:true},
+  {i:"💰",tr:"Gümüş Takı Fiyat Tahmini",en:"Silver Price Estimator",ar:"تقدير سعر الفضة",isNew:true},
 ];
 
 export const QUICK_TOOL_INDICES = [0,1,2,3,10,14]; // 6 popular

@@ -136,7 +136,7 @@ const TOOL_ICONS = [
   IconMap, IconTimeline, IconTag, IconBell, IconHands,
   IconFlask, IconMirror, IconDress, IconTurkey, IconTrendUp,
   IconPencil, IconShield, IconTrophy, IconRefresh, IconClock,
-  IconWallet, IconCertificate,
+  IconWallet, IconCertificate, IconRing, IconGem, IconWallet,
 ];
 
 export function getToolIcon(idx, size = 24, style = {}) {

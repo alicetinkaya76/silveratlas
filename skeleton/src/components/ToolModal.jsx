@@ -42,7 +42,7 @@ function RingSizer({ lang }) {
       tabs: ['Ölçüm Rehberi', 'Daire Eşleştir', 'Tablo'],
       steps: [
         { t: 'İp veya kağıt şerit hazırlayın', d: 'Yaklaşık 10 cm uzunluğunda ince bir ip veya kağıt şerit kesin.' },
-        { t: 'Parmağınıza sarın', d: 'İpi ölçmek istediğiniz parmağın en geniş yerinden (eklem dahil) sarın.' },
+        { t: 'Parmağınıza sarın', d: 'İpi yüzük parmağınızın en geniş yerinden (eklem dahil) boşluk kalmayacak şekilde sarın. Sıkı ama rahat olmalı.' },
         { t: 'Buluşma noktasını işaretleyin', d: 'İpin birbiriyle buluştuğu noktayı kalemle işaretleyin.' },
         { t: 'Cetvel ile ölçün', d: 'İpi düz bir şekilde cetvel üzerine koyun ve mm cinsinden ölçün.' },
         { t: 'Ölçünüzü girin', d: 'Kaydırıcıyı ölçtüğünüz değere ayarlayın — ölçünüz otomatik hesaplanır.' },
@@ -56,7 +56,7 @@ function RingSizer({ lang }) {
       tabs: ['Measure Guide', 'Circle Match', 'Size Table'],
       steps: [
         { t: 'Prepare string or paper strip', d: 'Cut a thin string or paper strip about 10 cm long.' },
-        { t: 'Wrap around your finger', d: 'Wrap around the widest part of your finger, including the knuckle.' },
+        { t: 'Wrap around your finger', d: 'Wrap snugly around the widest part of your ring finger (including knuckle). No gaps — snug but comfortable.' },
         { t: 'Mark the meeting point', d: 'Mark where the string meets itself with a pen.' },
         { t: 'Measure with a ruler', d: 'Lay the string flat on a ruler and measure in millimeters.' },
         { t: 'Enter your measurement', d: 'Set the slider to your measured value — your size is calculated automatically.' },
@@ -82,103 +82,169 @@ function RingSizer({ lang }) {
     }
   }[lang] || {};
 
-  // Hand SVG for each step
+  // Premium jewelry-style SVG illustrations
   const StepSVG = ({ s }) => (
-    <svg width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg" style={{display:'block',margin:'0 auto'}}>
+    <svg width="260" height="180" viewBox="0 0 260 180" fill="none" xmlns="http://www.w3.org/2000/svg"
+      style={{display:'block',margin:'0 auto',overflow:'visible'}}>
       <defs>
-        <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="var(--text)" stopOpacity="0.12"/>
-          <stop offset="100%" stopColor="var(--text)" stopOpacity="0.06"/>
+        <linearGradient id="skinTone" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="var(--text)" stopOpacity="0.08"/>
+          <stop offset="100%" stopColor="var(--text)" stopOpacity="0.04"/>
         </linearGradient>
-        <linearGradient id="agGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient id="agLine" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#C0C0C0"/>
           <stop offset="100%" stopColor="#D4AF37"/>
         </linearGradient>
-        <linearGradient id="stringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="var(--silver)"/>
-          <stop offset="100%" stopColor="var(--gold)"/>
+        <linearGradient id="agLine2" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#D4AF37"/>
+          <stop offset="100%" stopColor="#C0C0C0"/>
         </linearGradient>
+        <radialGradient id="glow1"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".12"/>
+          <stop offset="100%" stopColor="transparent"/></radialGradient>
+        <filter id="softShadow"><feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#000" floodOpacity=".15"/></filter>
       </defs>
 
-      {/* Step 0: String/strip */}
-      {s === 0 && <>
-        <rect x="20" y="55" width="160" height="12" rx="6" fill="url(#skin)" stroke="var(--border)" strokeWidth="1"/>
-        <line x1="30" y1="61" x2="170" y2="61" stroke="url(#stringGrad)" strokeWidth="3" strokeLinecap="round" strokeDasharray="0" className="ring-draw-line"/>
-        <text x="180" y="65" fill="var(--text2)" fontSize="11" fontFamily="var(--f-mono)">10cm</text>
-        {/* Scissors icon */}
-        <g transform="translate(6,52)">
-          <circle cx="5" cy="5" r="4" fill="none" stroke="var(--silver)" strokeWidth="1.2"/>
-          <circle cx="5" cy="15" r="4" fill="none" stroke="var(--silver)" strokeWidth="1.2"/>
-          <line x1="8" y1="7" x2="18" y2="10" stroke="var(--silver)" strokeWidth="1.2"/>
-          <line x1="8" y1="13" x2="18" y2="10" stroke="var(--silver)" strokeWidth="1.2"/>
-        </g>
-        {/* Ruler marks */}
-        {[0,1,2,3,4,5,6,7,8,9,10].map(i=><g key={i}>
-          <line x1={30+i*14} y1="75" x2={30+i*14} y2={i%5===0?88:83} stroke="var(--text3)" strokeWidth={i%5===0?1.2:0.6} opacity=".4"/>
-          {i%5===0 && <text x={30+i*14} y="98" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)">{i}cm</text>}
-        </g>)}
-      </>}
-
-      {/* Step 1: Finger wrap */}
-      {s === 1 && <>
-        {/* Hand silhouette */}
-        <path d="M80 130 L80 60 Q80 30 95 25 Q110 20 110 40 L110 60 Q110 20 125 18 Q140 16 138 40 L136 60 Q140 25 152 24 Q164 23 160 50 L158 65 Q165 40 175 42 Q185 44 178 70 L170 100 Q165 120 140 130 Z"
-          fill="url(#skin)" stroke="var(--text3)" strokeWidth="1.2" strokeLinejoin="round"/>
-        {/* String wrapping around ring finger */}
-        <ellipse cx="130" cy="55" rx="14" ry="16" fill="none" stroke="url(#stringGrad)" strokeWidth="2.5"
-          strokeDasharray="90" strokeDashoffset="0" className="ring-wrap-anim"/>
-        {/* Arrow showing wrap direction */}
-        <path d="M118 42 L113 38 L116 45" fill="var(--gold)" stroke="var(--gold)" strokeWidth="1"/>
-        {/* Highlight ring finger */}
-        <circle cx="130" cy="55" r="22" fill="none" stroke="var(--gold)" strokeWidth="1" strokeDasharray="3 3" opacity=".3"/>
-      </>}
-
-      {/* Step 2: Mark point */}
-      {s === 2 && <>
-        <path d="M80 130 L80 60 Q80 30 95 25 Q110 20 110 40 L110 60 Q110 20 125 18 Q140 16 138 40 L136 60 Q140 25 152 24 Q164 23 160 50 L158 65 Q165 40 175 42 Q185 44 178 70 L170 100 Q165 120 140 130 Z"
-          fill="url(#skin)" stroke="var(--text3)" strokeWidth="1.2" strokeLinejoin="round"/>
-        <ellipse cx="130" cy="55" rx="14" ry="16" fill="none" stroke="url(#stringGrad)" strokeWidth="2.5"/>
-        {/* Mark point with pen */}
-        <circle cx="116" cy="55" r="4" fill="var(--gold)" opacity=".8"/>
-        <line x1="100" y1="40" x2="114" y2="53" stroke="var(--gold)" strokeWidth="2" strokeLinecap="round"/>
-        <text x="90" y="36" fill="var(--gold)" fontSize="12" fontWeight="700" fontFamily="var(--f-mono)">✓</text>
-      </>}
-
-      {/* Step 3: Measure with ruler */}
-      {s === 3 && <>
-        {/* Flat string */}
-        <line x1="25" y1="60" x2="155" y2="60" stroke="url(#stringGrad)" strokeWidth="3" strokeLinecap="round"/>
-        <circle cx="25" cy="60" r="3" fill="var(--silver)"/>
-        <circle cx="155" cy="60" r="3" fill="var(--gold)"/>
-        {/* Ruler */}
-        <rect x="15" y="72" width="180" height="20" rx="3" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
-        {[0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(i=><g key={i}>
-          <line x1={20+i*13} y1="72" x2={20+i*13} y2={i%5===0?88:i%10===5?85:80} stroke="var(--text3)" strokeWidth={i%5===0?1:0.5}/>
-          {i%5===0 && <text x={20+i*13} y="97" textAnchor="middle" fill="var(--text3)" fontSize="7" fontFamily="var(--f-mono)">{i*5}</text>}
-        </g>)}
+      {/* ── STEP 0: Prepare string ── */}
+      {s===0 && <>
+        {/* Background glow */}
+        <circle cx="130" cy="80" r="60" fill="url(#glow1)"/>
+        {/* Elegant string with gradient */}
+        <path d="M35 85 Q80 75 130 85 Q180 95 225 85" stroke="url(#agLine)" strokeWidth="2.5"
+          strokeLinecap="round" className="ring-draw-line" filter="url(#softShadow)"/>
+        {/* String ends - silver beads */}
+        <circle cx="35" cy="85" r="4" fill="none" stroke="var(--silver)" strokeWidth="1.5"/>
+        <circle cx="35" cy="85" r="1.5" fill="var(--silver)"/>
+        <circle cx="225" cy="85" r="4" fill="none" stroke="var(--gold)" strokeWidth="1.5"/>
+        <circle cx="225" cy="85" r="1.5" fill="var(--gold)"/>
         {/* Measurement bracket */}
-        <line x1="25" y1="50" x2="25" y2="55" stroke="var(--silver)" strokeWidth="1"/>
-        <line x1="155" y1="50" x2="155" y2="55" stroke="var(--silver)" strokeWidth="1"/>
-        <line x1="25" y1="50" x2="155" y2="50" stroke="var(--silver)" strokeWidth="1"/>
-        <text x="90" y="46" textAnchor="middle" fill="var(--silver)" fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">52mm</text>
+        <line x1="35" y1="105" x2="35" y2="115" stroke="var(--silver)" strokeWidth="1" opacity=".6"/>
+        <line x1="225" y1="105" x2="225" y2="115" stroke="var(--silver)" strokeWidth="1" opacity=".6"/>
+        <line x1="35" y1="112" x2="225" y2="112" stroke="var(--silver)" strokeWidth="0.8" strokeDasharray="4 3" opacity=".5"/>
+        <text x="130" y="130" textAnchor="middle" fill="var(--silver)" fontSize="12" fontFamily="var(--f-mono)" fontWeight="600" opacity=".8">~10 cm</text>
+        {/* Scissors - elegant */}
+        <g transform="translate(110,38) scale(0.9)" opacity=".5">
+          <path d="M0 0 L12 10 M0 20 L12 10" stroke="var(--text2)" strokeWidth="1.8" strokeLinecap="round"/>
+          <circle cx="-2" cy="-2" r="5" fill="none" stroke="var(--text2)" strokeWidth="1.2"/>
+          <circle cx="-2" cy="22" r="5" fill="none" stroke="var(--text2)" strokeWidth="1.2"/>
+        </g>
       </>}
 
-      {/* Step 4: Enter value */}
-      {s === 4 && <>
-        {/* Slider visualization */}
-        <rect x="20" y="58" width="180" height="8" rx="4" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
-        <rect x="20" y="58" width={((mm-40)/32)*180} height="8" rx="4" fill="url(#agGrad)" opacity=".6"/>
-        <circle cx={20+((mm-40)/32)*180} cy="62" r="12" fill="var(--bg)" stroke="url(#agGrad)" strokeWidth="2.5"/>
-        <text x={20+((mm-40)/32)*180} y="66" textAnchor="middle" fill="var(--silver)" fontSize="9" fontWeight="700" fontFamily="var(--f-mono)">{mm}</text>
-        {/* Result cards below */}
+      {/* ── STEP 1: Wrap around finger — 5-finger hand ── */}
+      {s===1 && <>
+        <circle cx="130" cy="90" r="70" fill="url(#glow1)"/>
+        {/* Open hand — palm */}
+        <path d="M100 165 L95 120 L88 95 Q85 80 90 70 L90 50 Q90 36 100 32 Q108 28 112 38 L115 55
+          Q115 30 120 20 Q126 12 132 12 Q138 12 142 20 L145 42
+          Q146 18 152 13 Q158 8 164 12 Q170 16 170 30 L168 50
+          Q172 32 178 30 Q184 28 188 35 Q192 42 188 60 L182 80
+          Q178 90 175 100 L172 120 L168 160 Q155 172 135 172 Q112 172 100 165 Z"
+          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round" filter="url(#softShadow)"/>
+        {/* Thumb */}
+        <path d="M90 70 Q78 65 72 58 Q66 50 70 42 Q74 34 82 36 Q88 38 90 50"
+          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round"/>
+        {/* Finger separation lines */}
+        <path d="M115 55 L115 50" stroke="var(--text3)" strokeWidth="0.6" opacity=".3"/>
+        <path d="M145 42 L145 38" stroke="var(--text3)" strokeWidth="0.6" opacity=".3"/>
+        <path d="M168 50 L168 46" stroke="var(--text3)" strokeWidth="0.6" opacity=".3"/>
+        {/* Knuckle creases */}
+        <path d="M93 100 Q135 94 178 100" fill="none" stroke="var(--text3)" strokeWidth="0.5" opacity=".2"/>
+        <path d="M95 125 Q135 120 172 125" fill="none" stroke="var(--text3)" strokeWidth="0.5" opacity=".15"/>
+        {/* Ring finger highlight glow */}
+        <ellipse cx="142" cy="60" rx="16" ry="55" fill="none" stroke="var(--gold)" strokeWidth="0.8" strokeDasharray="4 6" opacity=".2"/>
+        {/* String wrapping around RING FINGER at knuckle */}
+        <ellipse cx="142" cy="85" rx="16" ry="18" fill="none" stroke="url(#agLine2)" strokeWidth="3"
+          strokeLinecap="round" className="ring-wrap-anim" filter="url(#softShadow)"/>
+        {/* Wrap arrow */}
+        <path d="M125 78 L119 72 L122 82" fill="var(--gold)" opacity=".7"/>
+        {/* Label line */}
+        <line x1="160" y1="78" x2="195" y2="60" stroke="var(--gold)" strokeWidth="0.8" opacity=".4"/>
+        <text x="200" y="60" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" opacity=".6">ring finger</text>
+      </>}
+
+      {/* ── STEP 2: Mark the meeting point — 5-finger hand ── */}
+      {s===2 && <>
+        <circle cx="130" cy="90" r="70" fill="url(#glow1)"/>
+        {/* Same open hand */}
+        <path d="M100 165 L95 120 L88 95 Q85 80 90 70 L90 50 Q90 36 100 32 Q108 28 112 38 L115 55
+          Q115 30 120 20 Q126 12 132 12 Q138 12 142 20 L145 42
+          Q146 18 152 13 Q158 8 164 12 Q170 16 170 30 L168 50
+          Q172 32 178 30 Q184 28 188 35 Q192 42 188 60 L182 80
+          Q178 90 175 100 L172 120 L168 160 Q155 172 135 172 Q112 172 100 165 Z"
+          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round" filter="url(#softShadow)"/>
+        <path d="M90 70 Q78 65 72 58 Q66 50 70 42 Q74 34 82 36 Q88 38 90 50"
+          fill="url(#skinTone)" stroke="var(--text3)" strokeWidth="1" strokeLinejoin="round"/>
+        <path d="M93 100 Q135 94 178 100" fill="none" stroke="var(--text3)" strokeWidth="0.5" opacity=".2"/>
+        {/* String wrapped on ring finger (static) */}
+        <ellipse cx="142" cy="85" rx="16" ry="18" fill="none" stroke="url(#agLine2)" strokeWidth="2.5"/>
+        {/* Meeting point — animated golden pulse */}
+        <circle cx="126" cy="83" r="8" fill="var(--gold)" opacity=".12">
+          <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".12;.22;.12" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="126" cy="83" r="4" fill="var(--gold)" opacity=".9"/>
+        {/* Pen */}
+        <g transform="translate(88,42) rotate(40)">
+          <rect x="0" y="0" width="5" height="36" rx="2" fill="var(--text3)" opacity=".25"/>
+          <polygon points="0.5,36 4.5,36 2.5,44" fill="var(--gold)" opacity=".8"/>
+          <rect x="0" y="0" width="5" height="7" rx="2" fill="var(--text3)" opacity=".15"/>
+        </g>
+        {/* Mark label */}
+        <line x1="126" y1="72" x2="126" y2="52" stroke="var(--gold)" strokeWidth="0.8" strokeDasharray="2 2" opacity=".5"/>
+        <rect x="108" y="38" width="36" height="16" rx="8" fill="var(--bg)" stroke="var(--gold)" strokeWidth="0.8" opacity=".7"/>
+        <text x="126" y="50" textAnchor="middle" fill="var(--gold)" fontSize="8" fontFamily="var(--f-mono)" fontWeight="600" opacity=".8">mark</text>
+      </>}
+
+      {/* ── STEP 3: Measure with ruler ── */}
+      {s===3 && <>
+        <circle cx="130" cy="75" r="70" fill="url(#glow1)"/>
+        {/* String laid flat — gradient line */}
+        <line x1="30" y1="68" x2="195" y2="68" stroke="url(#agLine)" strokeWidth="3"
+          strokeLinecap="round" filter="url(#softShadow)" className="ring-draw-line"/>
+        {/* Start/end markers */}
+        <circle cx="30" cy="68" r="5" fill="none" stroke="var(--silver)" strokeWidth="1.5"/>
+        <circle cx="30" cy="68" r="2" fill="var(--silver)"/>
+        <circle cx="195" cy="68" r="5" fill="none" stroke="var(--gold)" strokeWidth="1.5"/>
+        <circle cx="195" cy="68" r="2" fill="var(--gold)"/>
+        {/* Premium ruler */}
+        <rect x="20" y="86" width="210" height="26" rx="4" fill="var(--card)" stroke="var(--border)" strokeWidth="1.2" filter="url(#softShadow)"/>
+        {[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].map(i=><g key={i}>
+          <line x1={25+i*13} y1="86" x2={25+i*13} y2={i%10===0?102:i%5===0?99:93}
+            stroke={i%10===0?"var(--silver)":"var(--text3)"} strokeWidth={i%10===0?1.2:i%5===0?0.8:0.4}/>
+          {i%5===0 && <text x={25+i*13} y="118" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)">{i*4}</text>}
+        </g>)}
+        {/* Dimension bracket */}
+        <line x1="30" y1="52" x2="30" y2="60" stroke="var(--silver)" strokeWidth="1" opacity=".5"/>
+        <line x1="195" y1="52" x2="195" y2="60" stroke="var(--gold)" strokeWidth="1" opacity=".5"/>
+        <line x1="30" y1="55" x2="195" y2="55" stroke="url(#agLine)" strokeWidth="0.8"/>
+        {/* Arrow tips */}
+        <path d="M30 55 L36 52 L36 58 Z" fill="var(--silver)" opacity=".6"/>
+        <path d="M195 55 L189 52 L189 58 Z" fill="var(--gold)" opacity=".6"/>
+        {/* Value */}
+        <rect x="90" y="42" width="50" height="22" rx="11" fill="var(--bg)" stroke="url(#agLine)" strokeWidth="1.2"/>
+        <text x="115" y="57" textAnchor="middle" fill="var(--silver)" fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">52mm</text>
+      </>}
+
+      {/* ── STEP 4: Enter value ── */}
+      {s===4 && <>
+        <circle cx="130" cy="80" r="70" fill="url(#glow1)"/>
+        {/* Premium slider track */}
+        <rect x="30" y="72" width="200" height="10" rx="5" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
+        {/* Filled portion */}
+        <rect x="30" y="72" width={((mm-40)/32)*200} height="10" rx="5" fill="url(#agLine)" opacity=".5"/>
+        {/* Thumb */}
+        <circle cx={30+((mm-40)/32)*200} cy="77" r="14" fill="var(--bg)" stroke="url(#agLine)" strokeWidth="2.5" filter="url(#softShadow)"/>
+        <text x={30+((mm-40)/32)*200} y="81" textAnchor="middle" fill="var(--silver)" fontSize="10" fontWeight="700" fontFamily="var(--f-mono)">{mm}</text>
+        {/* Result cards */}
         {[
-          {v:`US ${closest.us}`,c:'var(--silver)'},
-          {v:`EU ${closest.eu}`,c:'var(--gold)'},
-          {v:`${closest.dia}mm`,c:'var(--text2)'}
+          {v:'US '+closest.us, l:'US Size', c:'var(--silver)'},
+          {v:'EU '+closest.eu, l:'EU Size', c:'var(--gold)'},
+          {v:closest.dia+'mm', l:'Diameter', c:'var(--text)'}
         ].map((r,i)=>(
-          <g key={i}>
-            <rect x={25+i*65} y="90" width="55" height="35" rx="8" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
-            <text x={52+i*65} y="112" textAnchor="middle" fill={r.c} fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">{r.v}</text>
+          <g key={i} filter="url(#softShadow)">
+            <rect x={18+i*80} y="108" width="72" height="52" rx="12"
+              fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
+            <text x={54+i*80} y="132" textAnchor="middle" fill={r.c} fontSize="15" fontWeight="700" fontFamily="var(--f-mono)">{r.v}</text>
+            <text x={54+i*80} y="150" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)">{r.l}</text>
           </g>
         ))}
       </>}

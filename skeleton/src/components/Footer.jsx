@@ -7,7 +7,6 @@ export default function Footer({ lang }) {
       <div>{t(lang, 'footer.version')}</div>
       <div>{t(lang, 'footer.license')}</div>
       <div>{t(lang, 'footer.sponsor')}</div>
-      <div><a href="https://silveratlas.org">silveratlas.org</a></div>
     </footer>
   );
 }

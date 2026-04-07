@@ -15,8 +15,6 @@ export default function SponsorCTA({ lang }) {
           </a>
           <div className="sponsor-links">
             <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener">@istanbulgumustr</a>
-            <a href="https://www.instagram.com/istanbulgumuscom/" target="_blank" rel="noopener">@istanbulgumuscom</a>
-            <a href="https://www.instagram.com/istanbulgumusmen/" target="_blank" rel="noopener">@istanbulgumusmen</a>
           </div>
         </div>
       </FadeUp>

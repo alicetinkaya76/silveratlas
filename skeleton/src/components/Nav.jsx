@@ -17,10 +17,18 @@ export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
 
   const scrollTo = (e, id) => {
     e.preventDefault();
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    // Close any open article or tool modal first
+    const articleClose = document.querySelector('.ad.open .ad-back');
+    if (articleClose) articleClose.click();
+    const toolClose = document.querySelector('.tm.open .tm-close, .tm.open .tm-head button');
+    if (toolClose) toolClose.click();
+
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, articleClose || toolClose ? 350 : 0);
   };
 
   return (

@@ -7,6 +7,7 @@ import BottomNav from './components/BottomNav';
 import ScrollToTop from './components/ScrollToTop';
 import SplashScreen from './components/SplashScreen';
 import WaveDivider from './components/WaveDivider';
+import PriceTicker from './components/PriceTicker';
 import Hero from './sections/Hero';
 import QuickTools from './sections/QuickTools';
 import Calculator from './sections/Calculator';
@@ -56,6 +57,7 @@ export default function App() {
 
       <Nav lang={lang} dark={dark} cycleLang={cycleLang} toggleTheme={toggleTheme} openMenu={openMenu} />
       <MobileMenu open={menuOpen} close={closeMenu} lang={lang} setLang={setLang} dark={dark} toggleTheme={toggleTheme} />
+      <PriceTicker lang={lang} />
 
       <Hero lang={lang} />
       <WaveDivider variant={1} color="var(--card)" />

@@ -18,7 +18,7 @@ function UnitConverter({ lang }) {
 
 /* ── TOOL 2: Ring Sizer (Ultra Premium) ── */
 function RingSizer({ lang }) {
-  const [tab, setTab] = useState('measure'); // measure | circle | table
+  const [tab, setTab] = useState('measure');
   const [mm, setMm] = useState(52);
   const [step, setStep] = useState(0);
 
@@ -35,258 +35,374 @@ function RingSizer({ lang }) {
     {us:12,eu:67,uk:'Y',mm:66.6,dia:21.2},
     {us:13,eu:69,uk:'Z+1',mm:69.1,dia:22.0},
   ];
-
   const closest = SIZES.reduce((a,b) => Math.abs(b.mm-mm)<Math.abs(a.mm-mm)?b:a);
 
-  const L = {
+  const TX = {
     tr: {
       tabs: ['Ölçüm Rehberi', 'Daire Eşleştir', 'Tablo'],
-      title: 'Yüzük Ölçüsü Bulucu',
       steps: [
         { t: 'İp veya kağıt şerit hazırlayın', d: 'Yaklaşık 10 cm uzunluğunda ince bir ip veya kağıt şerit kesin.' },
-        { t: 'Parmağınıza sarın', d: 'İpi ölçmek istediğiniz parmağın en geniş yerinden (eklem dahil) sarın. Sıkı ama rahat olmalı.' },
-        { t: 'İşaretleyin', d: 'İpin birbiriyle buluştuğu noktayı kalemle işaretleyin.' },
-        { t: 'Ölçün', d: 'İpi düz bir şekilde cetvel üzerine koyun ve mm cinsinden ölçün. Bu değer iç çevrenizdir.' },
-        { t: 'Sonucunuzu girin', d: 'Aşağıdaki kaydırıcıyı ölçtüğünüz değere ayarlayın.' },
+        { t: 'Parmağınıza sarın', d: 'İpi ölçmek istediğiniz parmağın en geniş yerinden (eklem dahil) sarın.' },
+        { t: 'Buluşma noktasını işaretleyin', d: 'İpin birbiriyle buluştuğu noktayı kalemle işaretleyin.' },
+        { t: 'Cetvel ile ölçün', d: 'İpi düz bir şekilde cetvel üzerine koyun ve mm cinsinden ölçün.' },
+        { t: 'Ölçünüzü girin', d: 'Kaydırıcıyı ölçtüğünüz değere ayarlayın — ölçünüz otomatik hesaplanır.' },
       ],
-      tip: 'İpucu: Akşam saatlerinde ölçün — parmaklar gün içinde hafifçe şişer.',
+      tip: 'Akşam saatlerinde ölçün — parmaklar gün içinde hafifçe şişer.',
       circleTitle: 'Yüzüğünüzü ekrandaki daireyle eşleştirin',
-      circleDesc: 'Mevcut bir yüzüğünüzü ekranın üzerine koyun ve iç kısmı daireyle eşleştirin.',
+      circleDesc: 'Mevcut bir yüzüğünüzü ekranın üzerine koyun ve iç kısmı altın daireyle eşleştirin.',
       circ: 'İç Çevre', dia: 'İç Çap', result: 'Yüzük Ölçünüz',
     },
     en: {
-      tabs: ['Measure Guide', 'Circle Match', 'Table'],
-      title: 'Ring Size Finder',
+      tabs: ['Measure Guide', 'Circle Match', 'Size Table'],
       steps: [
         { t: 'Prepare string or paper strip', d: 'Cut a thin string or paper strip about 10 cm long.' },
-        { t: 'Wrap around your finger', d: 'Wrap around the widest part of your finger (including the knuckle). Snug but comfortable.' },
-        { t: 'Mark the point', d: 'Mark where the string meets itself with a pen.' },
-        { t: 'Measure', d: 'Lay the string flat on a ruler and measure in mm. This is your inner circumference.' },
-        { t: 'Enter your result', d: 'Set the slider below to your measured value.' },
+        { t: 'Wrap around your finger', d: 'Wrap around the widest part of your finger, including the knuckle.' },
+        { t: 'Mark the meeting point', d: 'Mark where the string meets itself with a pen.' },
+        { t: 'Measure with a ruler', d: 'Lay the string flat on a ruler and measure in millimeters.' },
+        { t: 'Enter your measurement', d: 'Set the slider to your measured value — your size is calculated automatically.' },
       ],
-      tip: 'Tip: Measure in the evening — fingers swell slightly during the day.',
+      tip: 'Measure in the evening — fingers swell slightly during the day.',
       circleTitle: 'Match your ring to the circle on screen',
-      circleDesc: 'Place an existing ring on your screen and match its inner edge to the circle.',
+      circleDesc: 'Place an existing ring on your screen and match its inner edge to the gold circle.',
       circ: 'Circumference', dia: 'Diameter', result: 'Your Ring Size',
     },
     ar: {
       tabs: ['دليل القياس', 'مطابقة الدائرة', 'الجدول'],
-      title: 'أداة قياس الخاتم',
       steps: [
-        { t: 'حضّر خيطاً أو شريط ورق', d: 'قص خيطاً أو شريط ورق رفيعاً بطول ١٠ سم تقريباً.' },
-        { t: 'لفّه حول إصبعك', d: 'لفّه حول أعرض جزء من إصبعك (بما في ذلك المفصل). محكم لكن مريح.' },
-        { t: 'ضع علامة', d: 'ضع علامة بقلم حيث يلتقي طرفا الخيط.' },
-        { t: 'قِس', d: 'ضع الخيط مستقيماً على المسطرة وقس بالمليمتر. هذا هو المحيط الداخلي.' },
-        { t: 'أدخل النتيجة', d: 'اضبط شريط التمرير أدناه على القيمة المقاسة.' },
+        { t: 'حضّر خيطاً أو شريط ورق', d: 'قص خيطاً رفيعاً بطول ١٠ سم تقريباً.' },
+        { t: 'لفّه حول إصبعك', d: 'لفّه حول أعرض جزء من إصبعك بما في ذلك المفصل.' },
+        { t: 'ضع علامة عند نقطة التقاء', d: 'ضع علامة بقلم حيث يلتقي طرفا الخيط.' },
+        { t: 'قِس بالمسطرة', d: 'ضع الخيط على المسطرة وقس بالمليمتر.' },
+        { t: 'أدخل القياس', d: 'اضبط شريط التمرير — يتم حساب المقاس تلقائياً.' },
       ],
-      tip: 'نصيحة: قِس في المساء — الأصابع تتورم قليلاً خلال النهار.',
-      circleTitle: 'طابق خاتمك مع الدائرة على الشاشة',
-      circleDesc: 'ضع خاتماً موجوداً على الشاشة وطابق حافته الداخلية مع الدائرة.',
+      tip: 'قِس في المساء — الأصابع تتورم قليلاً خلال النهار.',
+      circleTitle: 'طابق خاتمك مع الدائرة',
+      circleDesc: 'ضع خاتماً على الشاشة وطابق حافته الداخلية مع الدائرة الذهبية.',
       circ: 'المحيط', dia: 'القطر', result: 'مقاس خاتمك',
     }
   }[lang] || {};
 
-  // Approximate px-per-mm for screen (assuming ~96dpi = 3.78px/mm)
+  // Hand SVG for each step
+  const StepSVG = ({ s }) => (
+    <svg width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg" style={{display:'block',margin:'0 auto'}}>
+      <defs>
+        <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="var(--text)" stopOpacity="0.12"/>
+          <stop offset="100%" stopColor="var(--text)" stopOpacity="0.06"/>
+        </linearGradient>
+        <linearGradient id="agGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#C0C0C0"/>
+          <stop offset="100%" stopColor="#D4AF37"/>
+        </linearGradient>
+        <linearGradient id="stringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="var(--silver)"/>
+          <stop offset="100%" stopColor="var(--gold)"/>
+        </linearGradient>
+      </defs>
+
+      {/* Step 0: String/strip */}
+      {s === 0 && <>
+        <rect x="20" y="55" width="160" height="12" rx="6" fill="url(#skin)" stroke="var(--border)" strokeWidth="1"/>
+        <line x1="30" y1="61" x2="170" y2="61" stroke="url(#stringGrad)" strokeWidth="3" strokeLinecap="round" strokeDasharray="0" className="ring-draw-line"/>
+        <text x="180" y="65" fill="var(--text2)" fontSize="11" fontFamily="var(--f-mono)">10cm</text>
+        {/* Scissors icon */}
+        <g transform="translate(6,52)">
+          <circle cx="5" cy="5" r="4" fill="none" stroke="var(--silver)" strokeWidth="1.2"/>
+          <circle cx="5" cy="15" r="4" fill="none" stroke="var(--silver)" strokeWidth="1.2"/>
+          <line x1="8" y1="7" x2="18" y2="10" stroke="var(--silver)" strokeWidth="1.2"/>
+          <line x1="8" y1="13" x2="18" y2="10" stroke="var(--silver)" strokeWidth="1.2"/>
+        </g>
+        {/* Ruler marks */}
+        {[0,1,2,3,4,5,6,7,8,9,10].map(i=><g key={i}>
+          <line x1={30+i*14} y1="75" x2={30+i*14} y2={i%5===0?88:83} stroke="var(--text3)" strokeWidth={i%5===0?1.2:0.6} opacity=".4"/>
+          {i%5===0 && <text x={30+i*14} y="98" textAnchor="middle" fill="var(--text3)" fontSize="8" fontFamily="var(--f-mono)">{i}cm</text>}
+        </g>)}
+      </>}
+
+      {/* Step 1: Finger wrap */}
+      {s === 1 && <>
+        {/* Hand silhouette */}
+        <path d="M80 130 L80 60 Q80 30 95 25 Q110 20 110 40 L110 60 Q110 20 125 18 Q140 16 138 40 L136 60 Q140 25 152 24 Q164 23 160 50 L158 65 Q165 40 175 42 Q185 44 178 70 L170 100 Q165 120 140 130 Z"
+          fill="url(#skin)" stroke="var(--text3)" strokeWidth="1.2" strokeLinejoin="round"/>
+        {/* String wrapping around ring finger */}
+        <ellipse cx="130" cy="55" rx="14" ry="16" fill="none" stroke="url(#stringGrad)" strokeWidth="2.5"
+          strokeDasharray="90" strokeDashoffset="0" className="ring-wrap-anim"/>
+        {/* Arrow showing wrap direction */}
+        <path d="M118 42 L113 38 L116 45" fill="var(--gold)" stroke="var(--gold)" strokeWidth="1"/>
+        {/* Highlight ring finger */}
+        <circle cx="130" cy="55" r="22" fill="none" stroke="var(--gold)" strokeWidth="1" strokeDasharray="3 3" opacity=".3"/>
+      </>}
+
+      {/* Step 2: Mark point */}
+      {s === 2 && <>
+        <path d="M80 130 L80 60 Q80 30 95 25 Q110 20 110 40 L110 60 Q110 20 125 18 Q140 16 138 40 L136 60 Q140 25 152 24 Q164 23 160 50 L158 65 Q165 40 175 42 Q185 44 178 70 L170 100 Q165 120 140 130 Z"
+          fill="url(#skin)" stroke="var(--text3)" strokeWidth="1.2" strokeLinejoin="round"/>
+        <ellipse cx="130" cy="55" rx="14" ry="16" fill="none" stroke="url(#stringGrad)" strokeWidth="2.5"/>
+        {/* Mark point with pen */}
+        <circle cx="116" cy="55" r="4" fill="var(--gold)" opacity=".8"/>
+        <line x1="100" y1="40" x2="114" y2="53" stroke="var(--gold)" strokeWidth="2" strokeLinecap="round"/>
+        <text x="90" y="36" fill="var(--gold)" fontSize="12" fontWeight="700" fontFamily="var(--f-mono)">✓</text>
+      </>}
+
+      {/* Step 3: Measure with ruler */}
+      {s === 3 && <>
+        {/* Flat string */}
+        <line x1="25" y1="60" x2="155" y2="60" stroke="url(#stringGrad)" strokeWidth="3" strokeLinecap="round"/>
+        <circle cx="25" cy="60" r="3" fill="var(--silver)"/>
+        <circle cx="155" cy="60" r="3" fill="var(--gold)"/>
+        {/* Ruler */}
+        <rect x="15" y="72" width="180" height="20" rx="3" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
+        {[0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(i=><g key={i}>
+          <line x1={20+i*13} y1="72" x2={20+i*13} y2={i%5===0?88:i%10===5?85:80} stroke="var(--text3)" strokeWidth={i%5===0?1:0.5}/>
+          {i%5===0 && <text x={20+i*13} y="97" textAnchor="middle" fill="var(--text3)" fontSize="7" fontFamily="var(--f-mono)">{i*5}</text>}
+        </g>)}
+        {/* Measurement bracket */}
+        <line x1="25" y1="50" x2="25" y2="55" stroke="var(--silver)" strokeWidth="1"/>
+        <line x1="155" y1="50" x2="155" y2="55" stroke="var(--silver)" strokeWidth="1"/>
+        <line x1="25" y1="50" x2="155" y2="50" stroke="var(--silver)" strokeWidth="1"/>
+        <text x="90" y="46" textAnchor="middle" fill="var(--silver)" fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">52mm</text>
+      </>}
+
+      {/* Step 4: Enter value */}
+      {s === 4 && <>
+        {/* Slider visualization */}
+        <rect x="20" y="58" width="180" height="8" rx="4" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
+        <rect x="20" y="58" width={((mm-40)/32)*180} height="8" rx="4" fill="url(#agGrad)" opacity=".6"/>
+        <circle cx={20+((mm-40)/32)*180} cy="62" r="12" fill="var(--bg)" stroke="url(#agGrad)" strokeWidth="2.5"/>
+        <text x={20+((mm-40)/32)*180} y="66" textAnchor="middle" fill="var(--silver)" fontSize="9" fontWeight="700" fontFamily="var(--f-mono)">{mm}</text>
+        {/* Result cards below */}
+        {[
+          {v:`US ${closest.us}`,c:'var(--silver)'},
+          {v:`EU ${closest.eu}`,c:'var(--gold)'},
+          {v:`${closest.dia}mm`,c:'var(--text2)'}
+        ].map((r,i)=>(
+          <g key={i}>
+            <rect x={25+i*65} y="90" width="55" height="35" rx="8" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
+            <text x={52+i*65} y="112" textAnchor="middle" fill={r.c} fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">{r.v}</text>
+          </g>
+        ))}
+      </>}
+    </svg>
+  );
+
   const PX_PER_MM = 3.78;
 
   return (
     <div className="tm-tool">
-      {/* Tab selector */}
-      <div style={{display:'flex',gap:6,marginBottom:16}}>
+      {/* Tab selector — pill style */}
+      <div style={{display:'flex',borderRadius:12,background:'var(--card)',border:'1px solid var(--border)',padding:3,marginBottom:18}}>
         {['measure','circle','table'].map((t,i) => (
           <button key={t} onClick={()=>setTab(t)} style={{
-            flex:1,padding:'10px 8px',borderRadius:'var(--r-badge)',fontSize:'.78rem',fontWeight:600,
-            border:'1.5px solid',textAlign:'center',transition:'all .2s',
-            borderColor: tab===t ? 'var(--silver)' : 'var(--border)',
-            background: tab===t ? 'rgba(192,192,192,0.1)' : 'transparent',
-            color: tab===t ? 'var(--silver)' : 'var(--text2)',
-          }}>{L.tabs?.[i]}</button>
+            flex:1,padding:'10px 6px',borderRadius:10,fontSize:'.78rem',fontWeight:600,
+            transition:'all .25s',border:'none',
+            background: tab===t ? 'linear-gradient(135deg,rgba(192,192,192,0.15),rgba(212,175,55,0.08))' : 'transparent',
+            color: tab===t ? 'var(--silver)' : 'var(--text3)',
+            boxShadow: tab===t ? '0 2px 8px rgba(192,192,192,0.1)' : 'none',
+          }}>{TX.tabs?.[i]}</button>
         ))}
       </div>
 
-      {/* ─── TAB 1: Step-by-step measurement guide ─── */}
+      {/* ═══ TAB 1: Step-by-step guide ═══ */}
       {tab === 'measure' && (
         <div>
-          {/* Visual step indicator */}
-          <div style={{display:'flex',alignItems:'center',gap:4,marginBottom:16}}>
-            {L.steps?.map((_,i) => (
-              <React.Fragment key={i}>
-                <div onClick={()=>setStep(i)} style={{
-                  width:28,height:28,borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',
-                  fontSize:'.72rem',fontWeight:700,fontFamily:'var(--f-mono)',cursor:'pointer',transition:'all .2s',
-                  background: i<=step ? 'linear-gradient(135deg,var(--silver),#a0a8b0)' : 'var(--card)',
-                  color: i<=step ? 'var(--bg)' : 'var(--text3)',
-                  border: `1.5px solid ${i<=step ? 'transparent' : 'var(--border)'}`,
-                  boxShadow: i===step ? '0 2px 8px rgba(192,192,192,0.2)' : 'none',
-                }}>{i+1}</div>
-                {i < (L.steps?.length||0)-1 && <div style={{flex:1,height:2,background:i<step?'var(--silver)':'var(--border)',borderRadius:1,transition:'background .3s'}}/>}
-              </React.Fragment>
-            ))}
+          {/* Step progress arc */}
+          <div style={{textAlign:'center',marginBottom:8}}>
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="26" fill="none" stroke="var(--border)" strokeWidth="3"/>
+              <circle cx="30" cy="30" r="26" fill="none" stroke="url(#agGrad2)" strokeWidth="3"
+                strokeDasharray={`${(step+1)/5*163.4} 163.4`}
+                strokeLinecap="round" transform="rotate(-90 30 30)" style={{transition:'stroke-dasharray .5s ease'}}/>
+              <defs><linearGradient id="agGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/>
+              </linearGradient></defs>
+              <text x="30" y="34" textAnchor="middle" fill="var(--silver)" fontSize="16" fontWeight="700" fontFamily="var(--f-mono)">{step+1}</text>
+            </svg>
           </div>
 
-          {/* Step content */}
-          <div style={{padding:'16px 18px',borderRadius:'var(--r-card)',background:'var(--card)',border:'1px solid var(--border)',marginBottom:16,minHeight:120}}>
-            {/* Step illustration SVG */}
-            <div style={{textAlign:'center',marginBottom:12}}>
-              <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {step===0 && <>
-                  <rect x="10" y="25" width="80" height="10" rx="2" fill="var(--text3)" opacity=".3"/>
-                  <line x1="10" y1="30" x2="90" y2="30" stroke="var(--silver)" strokeWidth="2" strokeDasharray="4 3"/>
-                  <text x="100" y="34" fill="var(--text2)" fontSize="10" fontFamily="var(--f-mono)">10cm</text>
-                </>}
-                {step===1 && <>
-                  <ellipse cx="60" cy="30" rx="20" ry="25" fill="none" stroke="var(--text3)" strokeWidth="8" opacity=".15"/>
-                  <path d="M40 30 A20 25 0 1 1 40 29.9" fill="none" stroke="var(--silver)" strokeWidth="2" strokeDasharray="5 3"/>
-                  <circle cx="40" cy="30" r="3" fill="var(--gold)"/>
-                </>}
-                {step===2 && <>
-                  <rect x="10" y="25" width="80" height="10" rx="2" fill="var(--text3)" opacity=".15"/>
-                  <line x1="10" y1="30" x2="90" y2="30" stroke="var(--silver)" strokeWidth="2"/>
-                  <line x1="55" y1="20" x2="55" y2="40" stroke="var(--gold)" strokeWidth="2"/>
-                  <text x="58" y="18" fill="var(--gold)" fontSize="9" fontFamily="var(--f-mono)">✓</text>
-                </>}
-                {step===3 && <>
-                  <rect x="5" y="26" width="110" height="8" rx="1" fill="var(--text3)" opacity=".1" stroke="var(--border)" strokeWidth="1"/>
-                  {[0,1,2,3,4,5,6,7,8,9,10].map(i=><line key={i} x1={5+i*11} y1="26" x2={5+i*11} y2={i%5===0?20:23} stroke="var(--text3)" strokeWidth="1"/>)}
-                  <line x1="5" y1="38" x2="63" y2="38" stroke="var(--silver)" strokeWidth="2"/>
-                  <text x="30" y="50" fill="var(--silver)" fontSize="10" fontFamily="var(--f-mono)" textAnchor="middle">52mm</text>
-                </>}
-                {step===4 && <>
-                  <rect x="15" y="20" width="90" height="20" rx="10" fill="var(--card)" stroke="var(--silver)" strokeWidth="1.5"/>
-                  <circle cx={15+((mm-40)/30)*90} cy="30" r="8" fill="var(--silver)"/>
-                  <text x="60" y="55" fill="var(--text2)" fontSize="9" textAnchor="middle" fontFamily="var(--f-mono)">{mm}mm</text>
-                </>}
-              </svg>
+          {/* SVG Illustration */}
+          <div style={{padding:'12px 0',borderRadius:'var(--r-card)',background:'var(--card)',border:'1px solid var(--border)',marginBottom:14}}>
+            <StepSVG s={step} />
+            <div style={{padding:'12px 18px 0'}}>
+              <div style={{fontWeight:700,fontSize:'1.05rem',marginBottom:4,color:'var(--text)'}}>{TX.steps?.[step]?.t}</div>
+              <div style={{fontSize:'.88rem',color:'var(--text2)',lineHeight:1.65}}>{TX.steps?.[step]?.d}</div>
             </div>
-            <div style={{fontWeight:600,fontSize:'1rem',marginBottom:6,color:'var(--text)'}}>{L.steps?.[step]?.t}</div>
-            <div style={{fontSize:'.9rem',color:'var(--text2)',lineHeight:1.6}}>{L.steps?.[step]?.d}</div>
           </div>
 
-          {/* Navigation */}
-          <div style={{display:'flex',gap:8,marginBottom:16}}>
-            <button disabled={step===0} onClick={()=>setStep(s=>s-1)} style={{
-              flex:1,padding:'10px',borderRadius:'var(--r-btn)',border:'1px solid var(--border)',
-              opacity:step===0?.4:1,fontSize:'.88rem',fontWeight:500}}>←</button>
-            <button disabled={step>=(L.steps?.length||5)-1} onClick={()=>setStep(s=>s+1)} style={{
-              flex:1,padding:'10px',borderRadius:'var(--r-btn)',
-              background:step<(L.steps?.length||5)-1?'linear-gradient(135deg,var(--silver),#a0a8b0)':'var(--card)',
-              color:step<(L.steps?.length||5)-1?'var(--bg)':'var(--text3)',
-              border:'1px solid transparent',fontSize:'.88rem',fontWeight:600}}>→</button>
+          {/* Step dots + nav */}
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:16,marginBottom:14}}>
+            <button onClick={()=>setStep(s=>Math.max(0,s-1))} disabled={step===0} style={{
+              width:40,height:40,borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',
+              border:'1.5px solid var(--border)',background:'var(--card)',color:'var(--text)',
+              opacity:step===0?.3:1,fontSize:'1.1rem',transition:'all .2s'}}>‹</button>
+            <div style={{display:'flex',gap:6}}>
+              {[0,1,2,3,4].map(i=>(
+                <button key={i} onClick={()=>setStep(i)} style={{
+                  width:i===step?24:8,height:8,borderRadius:4,border:'none',transition:'all .3s',
+                  background:i<=step?'linear-gradient(90deg,var(--silver),var(--gold))':'var(--border)',
+                  cursor:'pointer'}} />
+              ))}
+            </div>
+            <button onClick={()=>setStep(s=>Math.min(4,s+1))} disabled={step>=4} style={{
+              width:40,height:40,borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',
+              border:'none',transition:'all .2s',fontSize:'1.1rem',
+              background:step<4?'linear-gradient(135deg,var(--silver),#a0a8b0)':'var(--card)',
+              color:step<4?'var(--bg)':'var(--text3)',
+              boxShadow:step<4?'0 2px 12px rgba(192,192,192,0.2)':'none'}}>›</button>
           </div>
 
           {/* Tip */}
-          <div style={{padding:'10px 14px',borderRadius:'var(--r-badge)',background:'rgba(212,175,55,0.05)',
-            border:'1px solid rgba(212,175,55,0.12)',fontSize:'.82rem',color:'var(--text2)',lineHeight:1.5}}>
-            💡 {L.tip}
+          <div style={{padding:'10px 14px',borderRadius:12,
+            background:'linear-gradient(135deg,rgba(212,175,55,0.06),rgba(192,192,192,0.03))',
+            border:'1px solid rgba(212,175,55,0.12)',fontSize:'.82rem',color:'var(--text2)',lineHeight:1.55,
+            display:'flex',gap:8,alignItems:'flex-start'}}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--gold)" style={{flexShrink:0,marginTop:2}}>
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+            {TX.tip}
           </div>
 
-          {/* Slider + Result */}
+          {/* Slider */}
           <div style={{marginTop:16}}>
-            <label className="calc-label">{L.circ} (mm)</label>
-            <input type="range" min="40" max="72" step="0.5" value={mm} onChange={e=>setMm(+e.target.value)}
-              style={{width:'100%',margin:'8px 0',accentColor:'var(--silver)',height:'6px'}}/>
-            <div style={{display:'flex',justifyContent:'space-between',fontSize:'.7rem',color:'var(--text3)',fontFamily:'var(--f-mono)',marginBottom:12}}>
-              <span>40</span><span>50</span><span>60</span><span>72</span>
+            <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline',marginBottom:4}}>
+              <label style={{fontSize:'.85rem',color:'var(--text2)',fontWeight:500}}>{TX.circ} (mm)</label>
+              <span style={{fontFamily:'var(--f-mono)',fontSize:'1.3rem',fontWeight:700,color:'var(--silver)'}}>{mm} mm</span>
             </div>
-            <div className="calc-result">
-              <div style={{fontSize:'.75rem',color:'var(--text3)',marginBottom:6,fontWeight:600}}>{L.result}</div>
-              <div style={{display:'flex',justifyContent:'space-around'}}>
-                <div><div className="calc-result-num" style={{fontSize:'1.4rem'}}>{closest.us}</div><div className="calc-result-label">US</div></div>
-                <div><div className="calc-result-num" style={{fontSize:'1.4rem'}}>{closest.eu}</div><div className="calc-result-label">EU</div></div>
-                <div><div className="calc-result-num" style={{fontSize:'1.4rem'}}>{closest.uk}</div><div className="calc-result-label">UK</div></div>
-                <div><div className="calc-result-num" style={{fontSize:'1.4rem'}}>{closest.dia}</div><div className="calc-result-label">mm ⌀</div></div>
-              </div>
+            <input type="range" min="40" max="72" step="0.5" value={mm} onChange={e=>setMm(+e.target.value)}
+              style={{width:'100%',margin:'6px 0',accentColor:'var(--silver)'}}/>
+            <div style={{display:'flex',justifyContent:'space-between',fontSize:'.65rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>
+              <span>40mm</span><span>56mm</span><span>72mm</span>
+            </div>
+          </div>
+
+          {/* Result */}
+          <div style={{marginTop:14,padding:'16px',borderRadius:'var(--r-card)',
+            background:'linear-gradient(135deg,rgba(192,192,192,0.06),rgba(212,175,55,0.03))',
+            border:'1px solid rgba(192,192,192,0.12)'}}>
+            <div style={{fontSize:'.7rem',color:'var(--text3)',textAlign:'center',marginBottom:10,fontWeight:600,letterSpacing:'.5px'}}>{TX.result}</div>
+            <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:8,textAlign:'center'}}>
+              {[{v:closest.us,l:'US'},{v:closest.eu,l:'EU'},{v:closest.uk,l:'UK'},{v:closest.dia+'mm',l:'⌀'}].map((x,i)=>(
+                <div key={i} style={{padding:'10px 4px',borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}>
+                  <div style={{fontFamily:'var(--f-mono)',fontSize:'1.15rem',fontWeight:700,color:i===0?'var(--silver)':i===1?'var(--gold)':'var(--text)',lineHeight:1.2}}>{x.v}</div>
+                  <div style={{fontSize:'.65rem',color:'var(--text3)',marginTop:2,fontWeight:600}}>{x.l}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       )}
 
-      {/* ─── TAB 2: Circle matching (real size on screen) ─── */}
+      {/* ═══ TAB 2: Circle matching ═══ */}
       {tab === 'circle' && (
         <div>
           <div style={{textAlign:'center',marginBottom:12}}>
-            <div style={{fontWeight:600,fontSize:'.95rem',marginBottom:4}}>{L.circleTitle}</div>
-            <div style={{fontSize:'.82rem',color:'var(--text2)',lineHeight:1.5}}>{L.circleDesc}</div>
+            <div style={{fontWeight:600,fontSize:'.95rem',marginBottom:4}}>{TX.circleTitle}</div>
+            <div style={{fontSize:'.82rem',color:'var(--text2)',lineHeight:1.5}}>{TX.circleDesc}</div>
           </div>
-          <div style={{display:'flex',justifyContent:'center',padding:'20px 0'}}>
-            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              {/* Ruler grid */}
-              {[0,1,2,3,4].map(i => (
-                <React.Fragment key={i}>
-                  <line x1={100-i*20} y1="95" x2={100-i*20} y2="105" stroke="var(--text3)" strokeWidth="0.5" opacity=".3"/>
-                  <line x1={100+i*20} y1="95" x2={100+i*20} y2="105" stroke="var(--text3)" strokeWidth="0.5" opacity=".3"/>
-                </React.Fragment>
-              ))}
-              {/* Ring circle */}
-              <circle cx="100" cy="100" r={closest.dia * PX_PER_MM / 2} fill="none"
-                stroke="var(--silver)" strokeWidth="2.5" strokeDasharray="none"/>
-              <circle cx="100" cy="100" r={closest.dia * PX_PER_MM / 2 + 2} fill="none"
-                stroke="var(--gold)" strokeWidth="0.5" opacity=".4" strokeDasharray="3 3"/>
-              {/* Center dot */}
-              <circle cx="100" cy="100" r="1.5" fill="var(--silver)" opacity=".5"/>
-              {/* Diameter line */}
-              <line x1={100-closest.dia*PX_PER_MM/2} y1="100" x2={100+closest.dia*PX_PER_MM/2} y2="100"
-                stroke="var(--gold)" strokeWidth="0.8" strokeDasharray="2 2" opacity=".5"/>
-              <text x="100" y="90" textAnchor="middle" fill="var(--text2)" fontSize="10"
-                fontFamily="var(--f-mono)">{closest.dia}mm</text>
+          <div style={{display:'flex',justifyContent:'center',padding:'16px 0'}}>
+            <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="ringGlow"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".08"/><stop offset="100%" stopColor="transparent"/></radialGradient>
+                <linearGradient id="ringGr" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/>
+                </linearGradient>
+              </defs>
+              <circle cx="110" cy="110" r="100" fill="url(#ringGlow)"/>
+              {/* Grid lines */}
+              <line x1="110" y1="10" x2="110" y2="210" stroke="var(--border)" strokeWidth="0.5" strokeDasharray="4 4"/>
+              <line x1="10" y1="110" x2="210" y2="110" stroke="var(--border)" strokeWidth="0.5" strokeDasharray="4 4"/>
+              {/* Main ring circle */}
+              <circle cx="110" cy="110" r={closest.dia * PX_PER_MM / 2} fill="none"
+                stroke="url(#ringGr)" strokeWidth="3"/>
+              {/* Outer guide */}
+              <circle cx="110" cy="110" r={closest.dia * PX_PER_MM / 2 + 4} fill="none"
+                stroke="var(--gold)" strokeWidth="0.5" opacity=".3" strokeDasharray="4 3"/>
+              {/* Center */}
+              <circle cx="110" cy="110" r="2" fill="var(--silver)" opacity=".4"/>
+              {/* Diameter arrows */}
+              <line x1={110-closest.dia*PX_PER_MM/2+5} y1="110" x2={110+closest.dia*PX_PER_MM/2-5} y2="110"
+                stroke="var(--gold)" strokeWidth="1" strokeDasharray="2 2" opacity=".5"/>
+              {/* Size label */}
+              <rect x="75" y="150" width="70" height="28" rx="14" fill="var(--bg)" stroke="url(#ringGr)" strokeWidth="1.5"/>
+              <text x="110" y="168" textAnchor="middle" fill="var(--silver)" fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">
+                {closest.dia}mm
+              </text>
             </svg>
           </div>
-          {/* Size selector */}
-          <div style={{display:'flex',gap:6,flexWrap:'wrap',justifyContent:'center',marginBottom:16}}>
-            {SIZES.map(s => (
-              <button key={s.us} onClick={()=>setMm(s.mm)} style={{
-                padding:'6px 12px',borderRadius:'var(--r-badge)',fontSize:'.75rem',fontFamily:'var(--f-mono)',
-                fontWeight:600,transition:'all .2s',
-                border: `1.5px solid ${Math.abs(s.mm-mm)<1.5?'var(--silver)':'var(--border)'}`,
-                background: Math.abs(s.mm-mm)<1.5 ? 'rgba(192,192,192,0.1)' : 'transparent',
-                color: Math.abs(s.mm-mm)<1.5 ? 'var(--silver)' : 'var(--text3)',
-              }}>US {s.us}</button>
-            ))}
+          {/* Quick size buttons */}
+          <div style={{display:'flex',gap:5,flexWrap:'wrap',justifyContent:'center',marginBottom:14}}>
+            {SIZES.filter((_,i)=>i%2===0||Math.abs(_.mm-mm)<2).map(s => {
+              const act = Math.abs(s.mm-mm)<1.5;
+              return (
+                <button key={s.us} onClick={()=>setMm(s.mm)} style={{
+                  padding:'8px 14px',borderRadius:20,fontSize:'.78rem',fontFamily:'var(--f-mono)',
+                  fontWeight:act?700:500,transition:'all .25s',
+                  border: `1.5px solid ${act?'var(--silver)':'var(--border)'}`,
+                  background: act ? 'linear-gradient(135deg,rgba(192,192,192,0.12),rgba(212,175,55,0.06))' : 'transparent',
+                  color: act ? 'var(--silver)' : 'var(--text3)',
+                  boxShadow: act ? '0 2px 8px rgba(192,192,192,0.15)' : 'none',
+                }}>US {s.us}</button>
+              );
+            })}
           </div>
-          <div className="calc-result">
-            <div style={{display:'flex',justifyContent:'space-around'}}>
-              <div><div className="calc-result-num" style={{fontSize:'1.3rem'}}>US {closest.us}</div></div>
-              <div><div className="calc-result-num" style={{fontSize:'1.3rem'}}>EU {closest.eu}</div></div>
-              <div><div className="calc-result-num" style={{fontSize:'1.3rem'}}>{closest.uk}</div><div className="calc-result-label">UK</div></div>
-            </div>
+          {/* Result row */}
+          <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:8,textAlign:'center'}}>
+            {[{v:`US ${closest.us}`,c:'var(--silver)'},{v:`EU ${closest.eu}`,c:'var(--gold)'},{v:closest.uk,c:'var(--text)'}].map((x,i)=>(
+              <div key={i} style={{padding:'12px 8px',borderRadius:12,background:'var(--card)',border:'1px solid var(--border)'}}>
+                <div style={{fontFamily:'var(--f-mono)',fontSize:'1.2rem',fontWeight:700,color:x.c}}>{x.v}</div>
+              </div>
+            ))}
           </div>
         </div>
       )}
 
-      {/* ─── TAB 3: Full conversion table ─── */}
+      {/* ═══ TAB 3: Table ═══ */}
       {tab === 'table' && (
-        <div style={{overflowX:'auto'}}>
-          <table style={{width:'100%',borderCollapse:'collapse',fontSize:'.78rem',fontFamily:'var(--f-mono)'}}>
-            <thead>
-              <tr style={{borderBottom:'2px solid var(--border)'}}>
-                {['US','EU','UK','mm ⌀',lang==='tr'?'Çevre':'Circ.'].map(h => (
-                  <th key={h} style={{padding:'10px 8px',textAlign:'center',color:'var(--silver)',fontWeight:700,fontSize:'.72rem',letterSpacing:'.5px'}}>{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {SIZES.map((s,i) => {
-                const isActive = Math.abs(s.mm-mm)<1.5;
-                return (
-                  <tr key={i} onClick={()=>setMm(s.mm)} style={{
-                    borderBottom:'1px solid var(--border)',cursor:'pointer',transition:'all .2s',
-                    background: isActive ? 'rgba(192,192,192,0.08)' : 'transparent',
-                  }}>
-                    <td style={{padding:'10px 8px',textAlign:'center',fontWeight:isActive?700:400,color:isActive?'var(--silver)':'var(--text)'}}>{s.us}</td>
-                    <td style={{padding:'10px 8px',textAlign:'center'}}>{s.eu}</td>
-                    <td style={{padding:'10px 8px',textAlign:'center'}}>{s.uk}</td>
-                    <td style={{padding:'10px 8px',textAlign:'center'}}>{s.dia}</td>
-                    <td style={{padding:'10px 8px',textAlign:'center',color:'var(--text2)'}}>{s.mm}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+        <div>
+          <div style={{overflowX:'auto',borderRadius:'var(--r-card)',border:'1px solid var(--border)'}}>
+            <table style={{width:'100%',borderCollapse:'collapse',fontSize:'.78rem',fontFamily:'var(--f-mono)'}}>
+              <thead>
+                <tr style={{background:'rgba(192,192,192,0.04)'}}>
+                  {['US','EU','UK','⌀ mm',lang==='tr'?'Çevre':'Circ'].map(h => (
+                    <th key={h} style={{padding:'12px 8px',textAlign:'center',color:'var(--silver)',fontWeight:700,
+                      fontSize:'.7rem',letterSpacing:'.5px',borderBottom:'2px solid var(--border)'}}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {SIZES.map((s,i) => {
+                  const act = Math.abs(s.mm-mm)<1.5;
+                  return (
+                    <tr key={i} onClick={()=>setMm(s.mm)} style={{
+                      cursor:'pointer',transition:'all .2s',
+                      background: act ? 'linear-gradient(90deg,rgba(192,192,192,0.08),rgba(212,175,55,0.04))' : 'transparent',
+                      borderBottom:'1px solid var(--border)',
+                    }}>
+                      <td style={{padding:'11px 8px',textAlign:'center',fontWeight:act?700:400,color:act?'var(--silver)':'var(--text)',position:'relative'}}>
+                        {act && <span style={{position:'absolute',left:4,top:'50%',transform:'translateY(-50%)',width:3,height:16,borderRadius:2,background:'linear-gradient(180deg,var(--silver),var(--gold))'}}/>}
+                        {s.us}
+                      </td>
+                      <td style={{padding:'11px 8px',textAlign:'center',color:act?'var(--gold)':'var(--text2)'}}>{s.eu}</td>
+                      <td style={{padding:'11px 8px',textAlign:'center'}}>{s.uk}</td>
+                      <td style={{padding:'11px 8px',textAlign:'center'}}>{s.dia}</td>
+                      <td style={{padding:'11px 8px',textAlign:'center',color:'var(--text3)'}}>{s.mm}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          {/* Slider under table */}
+          <div style={{marginTop:14,display:'flex',alignItems:'center',gap:12}}>
+            <input type="range" min="40" max="72" step="0.5" value={mm} onChange={e=>setMm(+e.target.value)}
+              style={{flex:1,accentColor:'var(--silver)'}}/>
+            <span style={{fontFamily:'var(--f-mono)',fontSize:'1rem',fontWeight:700,color:'var(--silver)',minWidth:52,textAlign:'right'}}>{mm}mm</span>
+          </div>
         </div>
       )}
     </div>
   );
 }
+
 
 /* ── TOOL 3: Quiz ── */
 const QQ=[{q:{tr:"925 ayar saf gümüş oranı?",en:"Pure silver ratio in 925?",ar:"نسبة الفضة في ٩٢٥؟"},o:["90%","92.5%","95%","99%"],c:1},{q:{tr:"Gümüş sembolü?",en:"Silver symbol?",ar:"رمز الفضة؟"},o:["Si","Au","Ag","Ar"],c:2},{q:{tr:"Kararma nedeni?",en:"Tarnish cause?",ar:"سبب التشوه؟"},o:[{tr:"Oksijen",en:"Oxygen",ar:"أكسجين"},{tr:"Kükürt",en:"Sulfur",ar:"كبريت"},{tr:"Azot",en:"Nitrogen",ar:"نيتروجين"},{tr:"Klor",en:"Chlorine",ar:"كلور"}],c:1},{q:{tr:"En büyük üretici?",en:"Largest producer?",ar:"أكبر منتج؟"},o:[{tr:"Çin",en:"China",ar:"الصين"},{tr:"Peru",en:"Peru",ar:"بيرو"},{tr:"Meksika",en:"Mexico",ar:"المكسيك"},{tr:"Avustralya",en:"Australia",ar:"أستراليا"}],c:2},{q:{tr:"Atom numarası?",en:"Atomic number?",ar:"العدد الذري؟"},o:["29","47","79","50"],c:1},{q:{tr:"1 troy ons?",en:"1 troy ounce?",ar:"أونصة تروي؟"},o:["28.35g","31.10g","35.27g","50g"],c:1},{q:{tr:"Gümüş il?",en:"Silver province?",ar:"محافظة الفضة؟"},o:["Gümüşhane","Trabzon","Elazığ","Erzurum"],c:0},{q:{tr:"Mokume-gane?",en:"Mokume-gane?",ar:"موكومي-غاني؟"},o:[{tr:"Çin",en:"China",ar:"الصين"},{tr:"Hindistan",en:"India",ar:"الهند"},{tr:"Japonya",en:"Japan",ar:"اليابان"},{tr:"Kore",en:"Korea",ar:"كوريا"}],c:2},{q:{tr:"25. yıldönümü?",en:"25th anniversary?",ar:"الذكرى ٢٥؟"},o:[{tr:"Altın",en:"Golden",ar:"ذهبي"},{tr:"Gümüş",en:"Silver",ar:"فضي"},{tr:"Bronz",en:"Bronze",ar:"برونزي"},{tr:"Elmas",en:"Diamond",ar:"ماسي"}],c:1},{q:{tr:"Telkâri şehri?",en:"Filigree city?",ar:"مدينة الفيليغري؟"},o:["İstanbul","Trabzon","Konya","Ankara"],c:1}];

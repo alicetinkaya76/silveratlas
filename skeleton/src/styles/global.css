@@ -129,7 +129,7 @@ border:1px solid rgba(212,175,55,0.12);font-weight:600;font-size:1rem}
 
 /* ═══ HERO — Cinematic ═══ */
 .hero{min-height:100dvh;display:flex;flex-direction:column;justify-content:center;
-align-items:center;text-align:center;padding:calc(var(--nav-h) + 28px) 24px 56px;
+align-items:center;text-align:center;padding:calc(var(--nav-h) + 60px) 24px 56px;
 position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;
 background:radial-gradient(ellipse 80% 60% at 50% 40%,rgba(192,192,192,0.04),transparent 70%);
@@ -758,6 +758,44 @@ background:radial-gradient(circle at 70% 30%,rgba(255,255,255,0.04),transparent 
 pointer-events:none}
 .feat-card{transition:all .3s cubic-bezier(.4,0,.2,1)}
 .feat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg),0 0 30px rgba(192,192,192,0.06)}
+
+/* ═══════════════════════════════════════════
+   PRICE TICKER — Sticky scrolling marquee
+   ═══════════════════════════════════════════ */
+.price-ticker{position:fixed;top:var(--nav-h);left:0;right:0;z-index:999;
+height:32px;overflow:hidden;
+background:linear-gradient(90deg,rgba(8,8,13,0.95),rgba(17,17,24,0.95));
+border-bottom:1px solid var(--border);
+backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+[data-theme="light"] .price-ticker{
+background:linear-gradient(90deg,rgba(245,244,239,0.95),rgba(255,255,255,0.95))}
+.pt-inner{height:100%;display:flex;align-items:center;overflow:hidden}
+.pt-loading{width:100%;text-align:center;font-size:.72rem;color:var(--text3);font-family:var(--f-mono)}
+.pt-scroll{width:100%;overflow:hidden}
+.pt-track{display:flex;width:max-content;animation:tickerScroll 25s linear infinite}
+@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.pt-items{display:flex;align-items:center;gap:10px;padding:0 20px;white-space:nowrap}
+.pt-live-dot{width:6px;height:6px;border-radius:50%;background:#2dd4a0;
+animation:livePulse 2s ease-in-out infinite}
+@keyframes livePulse{0%,100%{opacity:1}50%{opacity:.3}}
+.pt-live{font-size:.6rem;font-weight:800;color:#2dd4a0;font-family:var(--f-mono);letter-spacing:1px}
+.pt-divider{color:var(--text3);opacity:.3;font-size:.7rem}
+.pt-label{font-size:.65rem;font-weight:700;color:var(--text2);font-family:var(--f-mono);letter-spacing:.5px}
+.pt-price{font-size:.8rem;font-weight:700;font-family:var(--f-mono)}
+.pt-silver{color:var(--silver)}
+.pt-gold{color:var(--gold)}
+.pt-unit{font-size:.55rem;color:var(--text3);font-family:var(--f-mono)}
+.pt-sub{font-size:.6rem;color:var(--text3);font-family:var(--f-mono);opacity:.7}
+.pt-ratio{font-size:.7rem;font-weight:600;color:var(--text2);font-family:var(--f-mono)}
+.pt-spacer{width:40px}
+
+/* Adjust hero top padding for ticker */
+
+/* ═══ RING SIZER ANIMATIONS ═══ */
+.ring-draw-line{stroke-dasharray:200;stroke-dashoffset:200;animation:ringDraw 1.5s ease forwards}
+.ring-wrap-anim{stroke-dashoffset:90;animation:ringWrap 2s ease forwards}
+@keyframes ringDraw{to{stroke-dashoffset:0}}
+@keyframes ringWrap{to{stroke-dashoffset:0}}
 
 /* ═══════════════════════════════════════════
    ARTICLE ITEM HOVER ENHANCEMENT

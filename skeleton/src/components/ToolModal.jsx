@@ -309,25 +309,70 @@ function RingSizer({ lang }) {
   );
 
   // ═══ PHASE: STRING METHOD ═══
+  // SVG labels per language
+  const SVG_L = { tr:{wrap:'sarın',mark:'işaret',finger:'yüzük parmağı'}, en:{wrap:'wrap',mark:'mark',finger:'ring finger'}, ar:{wrap:'لف',mark:'علامة',finger:'بنصر'} }[lang]||{wrap:'sarın',mark:'işaret',finger:'yüzük parmağı'};
+
+  const StepSVG = ({s}) => (
+    <svg width="260" height="130" viewBox="0 0 260 130" fill="none" xmlns="http://www.w3.org/2000/svg" style={{display:'block',margin:'0 auto'}}>
+      <defs>
+        <linearGradient id="agL" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stopColor="#C0C0C0"/><stop offset="100%" stopColor="#D4AF37"/></linearGradient>
+        <linearGradient id="agV" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stopColor="#D4AF37"/><stop offset="100%" stopColor="#C0C0C0"/></linearGradient>
+        <radialGradient id="gl1"><stop offset="0%" stopColor="var(--gold)" stopOpacity=".1"/><stop offset="100%" stopColor="transparent"/></radialGradient>
+      </defs>
+      {s===0&&<><circle cx="130" cy="60" r="55" fill="url(#gl1)"/>
+        <g transform="translate(40,25)" opacity=".6"><circle cx="8" cy="4" r="7" fill="none" stroke="var(--silver)" strokeWidth="1.5"/><circle cx="8" cy="24" r="7" fill="none" stroke="var(--silver)" strokeWidth="1.5"/><line x1="14" y1="8" x2="28" y2="14" stroke="var(--silver)" strokeWidth="1.8" strokeLinecap="round"/><line x1="14" y1="20" x2="28" y2="14" stroke="var(--silver)" strokeWidth="1.8" strokeLinecap="round"/></g>
+        <line x1="70" y1="60" x2="230" y2="60" stroke="url(#agL)" strokeWidth="3.5" strokeLinecap="round" className="ring-draw-line"/>
+        <circle cx="70" cy="60" r="5" fill="var(--bg)" stroke="var(--silver)" strokeWidth="2"/><circle cx="230" cy="60" r="5" fill="var(--bg)" stroke="var(--gold)" strokeWidth="2"/>
+        <line x1="70" y1="82" x2="230" y2="82" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/><line x1="70" y1="76" x2="70" y2="88" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/><line x1="230" y1="76" x2="230" y2="88" stroke="var(--silver)" strokeWidth="0.8" opacity=".4"/>
+        <rect x="120" y="74" width="50" height="16" rx="8" fill="var(--bg)" stroke="var(--silver)" strokeWidth="0.8" opacity=".7"/><text x="145" y="86" textAnchor="middle" fill="var(--silver)" fontSize="10" fontFamily="var(--f-mono)" fontWeight="600">~10 cm</text>
+      </>}
+      {s===1&&<><circle cx="155" cy="65" r="50" fill="url(#gl1)"/>
+        <g transform="translate(10,5) scale(0.48)" opacity=".5"><path d="M50 120 L48 85 L46 65 Q45 52 50 48 Q55 44 58 50 L60 62 Q59 40 62 32 Q66 24 71 24 Q76 24 78 32 L80 50 Q80 30 84 24 Q88 18 93 18 Q98 18 100 26 L102 48 Q103 32 107 28 Q111 24 116 28 Q120 32 118 48 L115 65 Q120 52 124 50 Q128 48 131 52 Q134 58 130 70 L124 90 Q120 105 100 115 L50 120Z" fill="var(--card)" stroke="var(--text3)" strokeWidth="2.2" strokeLinejoin="round"/><ellipse cx="90" cy="58" rx="10" ry="8" fill="none" stroke="var(--gold)" strokeWidth="3"/></g>
+        <ellipse cx="160" cy="65" rx="30" ry="35" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/><text x="160" y="62" textAnchor="middle" fill="var(--text3)" fontSize="7.5" fontFamily="var(--f-mono)" opacity=".45">{SVG_L.finger}</text><circle cx="160" cy="70" r="1.5" fill="var(--text3)" opacity=".2"/>
+        <ellipse cx="160" cy="65" rx="36" ry="41" fill="none" stroke="url(#agV)" strokeWidth="3.5" strokeLinecap="round" className="ring-wrap-anim"/>
+        <path d="M123 58 L117 50 L120 62" fill="var(--gold)" opacity=".7"/>
+        <line x1="198" y1="38" x2="225" y2="25" stroke="var(--gold)" strokeWidth="0.7" opacity=".4"/><text x="228" y="25" fill="var(--gold)" fontSize="7.5" fontFamily="var(--f-mono)" opacity=".55">{SVG_L.wrap}</text>
+      </>}
+      {s===2&&<><circle cx="155" cy="65" r="50" fill="url(#gl1)"/>
+        <g transform="translate(10,5) scale(0.48)" opacity=".4"><path d="M50 120 L48 85 L46 65 Q45 52 50 48 Q55 44 58 50 L60 62 Q59 40 62 32 Q66 24 71 24 Q76 24 78 32 L80 50 Q80 30 84 24 Q88 18 93 18 Q98 18 100 26 L102 48 Q103 32 107 28 Q111 24 116 28 Q120 32 118 48 L115 65 Q120 52 124 50 Q128 48 131 52 Q134 58 130 70 L124 90 Q120 105 100 115 L50 120Z" fill="var(--card)" stroke="var(--text3)" strokeWidth="2.2" strokeLinejoin="round"/><ellipse cx="90" cy="58" rx="10" ry="8" fill="none" stroke="var(--gold)" strokeWidth="3"/><circle cx="78" cy="56" r="4" fill="var(--gold)" opacity=".6"/></g>
+        <ellipse cx="160" cy="65" rx="30" ry="35" fill="var(--card)" stroke="var(--text3)" strokeWidth="1.5"/><ellipse cx="160" cy="65" rx="36" ry="41" fill="none" stroke="url(#agV)" strokeWidth="2.5"/>
+        <circle cx="124" cy="60" r="8" fill="var(--gold)" opacity=".1"><animate attributeName="r" values="8;13;8" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.2;.1" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="124" cy="60" r="4.5" fill="var(--gold)" opacity=".85"/><circle cx="124" cy="60" r="4.5" fill="none" stroke="#fff" strokeWidth="1" opacity=".3"/>
+        <g transform="translate(87,18) rotate(35)"><rect x="0" y="0" width="5" height="32" rx="2" fill="var(--text2)" opacity=".22"/><polygon points="0.5,32 4.5,32 2.5,39" fill="var(--gold)" opacity=".8"/></g>
+        <line x1="124" y1="48" x2="124" y2="32" stroke="var(--gold)" strokeWidth="0.7" strokeDasharray="2 2" opacity=".5"/>
+        <rect x={124-Math.max(SVG_L.mark.length*3.5,18)} y="18" width={Math.max(SVG_L.mark.length*7,36)} height="16" rx="8" fill="var(--bg)" stroke="var(--gold)" strokeWidth="1" opacity=".8"/><text x="124" y="30" textAnchor="middle" fill="var(--gold)" fontSize="8.5" fontFamily="var(--f-mono)" fontWeight="700">{SVG_L.mark}</text>
+      </>}
+      {s===3&&<><circle cx="130" cy="55" r="55" fill="url(#gl1)"/>
+        <line x1="30" y1="50" x2="210" y2="50" stroke="url(#agL)" strokeWidth="3.5" strokeLinecap="round" className="ring-draw-line"/><circle cx="30" cy="50" r="5" fill="var(--bg)" stroke="var(--silver)" strokeWidth="2"/><circle cx="210" cy="50" r="5" fill="var(--bg)" stroke="var(--gold)" strokeWidth="2"/>
+        <rect x="18" y="68" width="224" height="24" rx="4" fill="var(--card)" stroke="var(--border)" strokeWidth="1"/>
+        {[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16].map(i=><g key={i}><line x1={24+i*13} y1="68" x2={24+i*13} y2={i%10===0?86:i%5===0?82:76} stroke={i%10===0?"var(--silver)":"var(--text3)"} strokeWidth={i%10===0?1.2:i%5===0?0.8:0.4}/>{i%5===0&&<text x={24+i*13} y="100" textAnchor="middle" fill="var(--text3)" fontSize="7" fontFamily="var(--f-mono)">{i*4}mm</text>}</g>)}
+        <line x1="30" y1="35" x2="210" y2="35" stroke="url(#agL)" strokeWidth="1"/><line x1="30" y1="30" x2="30" y2="40" stroke="var(--silver)" strokeWidth="1"/><line x1="210" y1="30" x2="210" y2="40" stroke="var(--gold)" strokeWidth="1"/>
+        <rect x="95" y="22" width="55" height="20" rx="10" fill="var(--bg)" stroke="url(#agL)" strokeWidth="1.5"/><text x="122" y="36" textAnchor="middle" fill="var(--silver)" fontSize="13" fontWeight="700" fontFamily="var(--f-mono)">{stringMm}mm</text>
+      </>}
+    </svg>
+  );
+
   if (phase === 'string') return (
     <div className="tm-tool">
-      <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:14}}>
+      <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:10}}>
         <span style={{fontSize:'.9rem',fontWeight:600}}>{TX.method}</span>
         <span style={{fontSize:'.7rem',color:'var(--text3)',fontFamily:'var(--f-mono)'}}>{step+1}/4</span>
       </div>
       {/* Progress bar */}
-      <div style={{height:3,background:'var(--border)',borderRadius:2,marginBottom:16}}>
+      <div style={{height:3,background:'var(--border)',borderRadius:2,marginBottom:12}}>
         <div style={{height:'100%',width:`${(step+1)*25}%`,borderRadius:2,
           background:'linear-gradient(90deg,var(--silver),var(--gold))',transition:'width .3s'}}/>
       </div>
-      {/* Step content */}
-      <div style={{padding:'20px 18px',borderRadius:14,background:'var(--card)',border:'1px solid var(--border)',
-        marginBottom:14,minHeight:100}}>
-        <div style={{fontWeight:700,fontSize:'1.02rem',marginBottom:6}}>{TX.steps?.[step]?.t}</div>
-        <div style={{fontSize:'.9rem',color:'var(--text2)',lineHeight:1.6}}>{TX.steps?.[step]?.d}</div>
+      {/* SVG illustration + text */}
+      <div style={{borderRadius:14,background:'var(--card)',border:'1px solid var(--border)',marginBottom:12,overflow:'hidden'}}>
+        <div style={{padding:'10px 0 0'}}><StepSVG s={step} /></div>
+        <div style={{padding:'12px 18px 16px'}}>
+          <div style={{fontWeight:700,fontSize:'1.02rem',marginBottom:4}}>{TX.steps?.[step]?.t}</div>
+          <div style={{fontSize:'.88rem',color:'var(--text2)',lineHeight:1.55}}>{TX.steps?.[step]?.d}</div>
+        </div>
       </div>
       {/* Nav */}
-      <div style={{display:'flex',gap:8,marginBottom:14}}>
+      <div style={{display:'flex',gap:8,marginBottom:10}}>
         <button disabled={step===0} onClick={()=>setStep(s=>s-1)} style={{
           flex:1,padding:'12px',borderRadius:12,border:'1px solid var(--border)',
           opacity:step===0?.3:1,fontWeight:500}}>←</button>
@@ -336,17 +381,14 @@ function RingSizer({ lang }) {
             background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
             fontWeight:600,border:'none'}}>→</button>
         ) : (
-          <>
-            {/* Slider input */}
-            <div style={{flex:3,display:'flex',flexDirection:'column',gap:4}}>
-              <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}>
-                <span style={{fontSize:'.78rem',color:'var(--text2)'}}>{TX.circ}</span>
-                <span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>{stringMm}mm</span>
-              </div>
-              <input type="range" min="40" max="72" step="0.5" value={stringMm}
-                onChange={e=>setStringMm(+e.target.value)} style={{accentColor:'var(--silver)'}}/>
+          <div style={{flex:3,display:'flex',flexDirection:'column',gap:4}}>
+            <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}>
+              <span style={{fontSize:'.78rem',color:'var(--text2)'}}>{TX.circ}</span>
+              <span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>{stringMm}mm</span>
             </div>
-          </>
+            <input type="range" min="40" max="72" step="0.5" value={stringMm}
+              onChange={e=>setStringMm(+e.target.value)} style={{accentColor:'var(--silver)'}}/>
+          </div>
         )}
       </div>
       {step >= 3 && (
@@ -356,7 +398,7 @@ function RingSizer({ lang }) {
       )}
       {/* Tip */}
       <div style={{padding:'8px 12px',borderRadius:10,background:'rgba(212,175,55,0.05)',
-        border:'1px solid rgba(212,175,55,0.1)',fontSize:'.78rem',color:'var(--text2)',marginTop:10,
+        border:'1px solid rgba(212,175,55,0.1)',fontSize:'.78rem',color:'var(--text2)',marginTop:8,
         display:'flex',gap:6,alignItems:'center'}}>
         <span>💡</span> {TX.tip}
       </div>

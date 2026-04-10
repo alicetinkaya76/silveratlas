@@ -17,38 +17,29 @@ export default function useSilverPrice() {
     const fetchPrices = async () => {
       let silverUSD = null, goldUSD = null, tryRate = null;
 
-      // 1) Metal fiyatları — metals.dev
+      // 1) Gümüş — gold-api.com (ücretsiz, gerçek fiyat)
       try {
-        const r = await fetch('https://api.metals.dev/v1/latest?api_key=demo&currency=USD&unit=toz');
-        if (r.ok) { const j = await r.json(); silverUSD = j?.metals?.silver; goldUSD = j?.metals?.gold; }
+        const r = await fetch('https://api.gold-api.com/price/XAG');
+        if (r.ok) { const j = await r.json(); if (j?.price) silverUSD = j.price; }
       } catch {}
 
-      // 2) USD/TRY — open.er-api.com (ücretsiz, TRY destekli)
+      // 2) Altın — gold-api.com
       try {
-        const r2 = await fetch('https://open.er-api.com/v6/latest/USD');
-        if (r2.ok) { const j2 = await r2.json(); tryRate = j2?.rates?.TRY; }
+        const r2 = await fetch('https://api.gold-api.com/price/XAU');
+        if (r2.ok) { const j2 = await r2.json(); if (j2?.price) goldUSD = j2.price; }
       } catch {}
 
-      // 3) USD/TRY fallback — frankfurter
-      if (!tryRate) {
-        try {
-          const r3 = await fetch('https://api.frankfurter.app/latest?from=USD&to=TRY');
-          if (r3.ok) { const j3 = await r3.json(); tryRate = j3?.rates?.TRY; }
-        } catch {}
-      }
+      // 3) USD/TRY — open.er-api.com
+      try {
+        const r3 = await fetch('https://open.er-api.com/v6/latest/USD');
+        if (r3.ok) { const j3 = await r3.json(); tryRate = j3?.rates?.TRY; }
+      } catch {}
 
-      // 4) USD/TRY fallback 2 — exchangerate.host
-      if (!tryRate) {
-        try {
-          const r4 = await fetch('https://api.exchangerate.host/latest?base=USD&symbols=TRY');
-          if (r4.ok) { const j4 = await r4.json(); tryRate = j4?.rates?.TRY; }
-        } catch {}
+      // API'den veri gelemediyse gösterme
+      if (!silverUSD || !tryRate) {
+        if (mounted.current) setData({ silver: null, gold: null, usdtry: null, silverPerG: null, silverPerGTL: null, ts: 0 });
+        return;
       }
-
-      // Güncel fallback değerler (Nisan 2026)
-      if (!silverUSD) silverUSD = 33.5;
-      if (!goldUSD) goldUSD = 3300;
-      if (!tryRate) tryRate = 44.5;
 
       const result = {
         silver: silverUSD, gold: goldUSD, usdtry: tryRate,

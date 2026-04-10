@@ -15,18 +15,21 @@ export default function useSilverPrice() {
     }
 
     const fetchPrices = async () => {
-      let silverUSD = null, goldUSD = null, silverTRY = null, tryRate = null;
+      let silverUSD = null, goldUSD = null, tryRate = null;
 
+      // 1) Metal fiyatları — metals.dev
       try {
         const r = await fetch('https://api.metals.dev/v1/latest?api_key=demo&currency=USD&unit=toz');
         if (r.ok) { const j = await r.json(); silverUSD = j?.metals?.silver; goldUSD = j?.metals?.gold; }
       } catch {}
 
+      // 2) USD/TRY — open.er-api.com (ücretsiz, TRY destekli)
       try {
-        const r2 = await fetch('https://api.metals.dev/v1/latest?api_key=demo&currency=TRY&unit=toz');
-        if (r2.ok) { const j2 = await r2.json(); silverTRY = j2?.metals?.silver; if (silverUSD && silverTRY) tryRate = silverTRY / silverUSD; }
+        const r2 = await fetch('https://open.er-api.com/v6/latest/USD');
+        if (r2.ok) { const j2 = await r2.json(); tryRate = j2?.rates?.TRY; }
       } catch {}
 
+      // 3) USD/TRY fallback — frankfurter
       if (!tryRate) {
         try {
           const r3 = await fetch('https://api.frankfurter.app/latest?from=USD&to=TRY');
@@ -34,9 +37,18 @@ export default function useSilverPrice() {
         } catch {}
       }
 
-      if (!silverUSD) silverUSD = 32.5;
-      if (!goldUSD) goldUSD = 3250;
-      if (!tryRate) tryRate = 38.5;
+      // 4) USD/TRY fallback 2 — exchangerate.host
+      if (!tryRate) {
+        try {
+          const r4 = await fetch('https://api.exchangerate.host/latest?base=USD&symbols=TRY');
+          if (r4.ok) { const j4 = await r4.json(); tryRate = j4?.rates?.TRY; }
+        } catch {}
+      }
+
+      // Güncel fallback değerler (Nisan 2026)
+      if (!silverUSD) silverUSD = 33.5;
+      if (!goldUSD) goldUSD = 3300;
+      if (!tryRate) tryRate = 44.5;
 
       const result = {
         silver: silverUSD, gold: goldUSD, usdtry: tryRate,

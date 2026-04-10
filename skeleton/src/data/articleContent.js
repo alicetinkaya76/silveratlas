@@ -8,6 +8,18 @@ C[1] = {
 <p>Bu alaşım oranı tesadüfî değildir; saf gümüş (999 ayar) çok yumuşak olduğundan takı üretiminde tek başına kullanılamaz. Bakır eklenmesi gümüşe dayanıklılık kazandırırken, gümüşün doğal parlaklığını ve işlenebilirliğini korur. Bu denge, 925 ayarı dünya genelinde takı endüstrisinin altın standardı hâline getirmiştir.</p>
 <p>Gümüş-bakır alaşımında %7,5 bakır oranı, metalürjik açıdan bir optimum noktasıdır. Bu oranın altında gümüş hâlâ çok yumuşaktır; üzerinde ise renk değişimi belirginleşir ve karartma (tarnish) hızlanır.</p>
 <h3>Gümüş Ayar Türleri Karşılaştırması</h3>
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" style="max-width:300px;width:100%">
+<circle cx="100" cy="100" r="80" fill="none" stroke="#333" stroke-width="30"/>
+<circle cx="100" cy="100" r="80" fill="none" stroke="#C0C0C0" stroke-width="30" stroke-dasharray="465.5 502.65" stroke-dashoffset="0" transform="rotate(-90 100 100)"><animate attributeName="stroke-dasharray" from="0 502.65" to="465.5 502.65" dur="1.2s" fill="freeze"/></circle>
+<circle cx="100" cy="100" r="80" fill="none" stroke="#D4AF37" stroke-width="30" stroke-dasharray="37.7 502.65" stroke-dashoffset="-465.5" transform="rotate(-90 100 100)"><animate attributeName="stroke-dasharray" from="0 502.65" to="37.7 502.65" dur="1.2s" fill="freeze"/></circle>
+<text x="100" y="95" text-anchor="middle" fill="#C0C0C0" font-size="22" font-weight="800" font-family="JetBrains Mono,monospace">925</text>
+<text x="100" y="115" text-anchor="middle" fill="#9a9ab0" font-size="11" font-family="Source Sans 3,sans-serif">Sterling Silver</text>
+<rect x="200" y="60" width="14" height="14" rx="3" fill="#C0C0C0"/><text x="220" y="72" fill="#9a9ab0" font-size="12" font-family="Source Sans 3,sans-serif">%92.5 Ag (Gümüş)</text>
+<rect x="200" y="85" width="14" height="14" rx="3" fill="#D4AF37"/><text x="220" y="97" fill="#9a9ab0" font-size="12" font-family="Source Sans 3,sans-serif">%7.5 Cu (Bakır)</text>
+<text x="200" y="135" fill="#5a5a70" font-size="10" font-family="Source Sans 3,sans-serif">Metalürjik optimum nokta</text>
+<text x="200" y="150" fill="#5a5a70" font-size="10" font-family="Source Sans 3,sans-serif">Dayanıklılık + Parlaklık</text>
+</svg></div>
 <p>İngiltere'de 12. yüzyıldan itibaren sikke basımında kullanılan bu standart, zamanla tüm dünyada takı ve gümüş eşya üretiminin temel ölçüsü olmuştur. 'Sterling' kelimesi de İngiliz sterlini (pound sterling) ile aynı kökten gelir — paranın güvenilirliği, gümüşün saflığına dayanıyordu.</p>
 <p>Piyasada farklı ayar değerlerinde gümüş ürünler bulunur. Her birinin kendine özgü avantaj ve dezavantajları vardır:</p>
 <h3>İnteraktif Ayar Hesaplayıcı</h3>
@@ -279,6 +291,27 @@ C[5] = {
 <p>Gümüş, tüm metallerin en yüksek elektrik iletkenliğine ve ısı iletkenliğine sahiptir. Aynı zamanda en yüksek optik yansıtıcılık değerine de sahip olan gümüş, ayna yapımında ve optik kaplama teknolojisinde kritik bir malzemedir.</p>
 <p>Gümüşün elektriksel iletkenliği bakırdan %6, altından %46 daha yüksektir. Ancak endüstride yaygın olarak bakır tercih edilir — bunun tek nedeni maliyettir. Gümüşün gramı bakırın yaklaşık 100 katı fiyattadır.</p>
 <p>Yüksek frekanslı elektronik devrelerde ve uzay teknolojisinde maliyet ikinci plana düştüğünde gümüş tercih edilen iletken malzeme olur. Süper bilgisayarlar ve uydu sistemlerinde gümüş bazlı bağlantılar kritik performans sunar.</p>
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(79,143,247,0.04);border:1px solid rgba(79,143,247,0.1)">
+<svg viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" style="max-width:260px;width:100%">
+<circle cx="140" cy="140" r="18" fill="#C0C0C0" opacity="0.9"><animate attributeName="r" values="18;20;18" dur="2s" repeatCount="indefinite"/></circle>
+<text x="140" y="135" text-anchor="middle" fill="#08080d" font-size="11" font-weight="800" font-family="JetBrains Mono,monospace">Ag</text>
+<text x="140" y="149" text-anchor="middle" fill="#08080d" font-size="9" font-weight="600" font-family="JetBrains Mono,monospace">47</text>
+<ellipse cx="140" cy="140" rx="50" ry="50" fill="none" stroke="#C0C0C0" stroke-width="0.8" opacity="0.4"/>
+<ellipse cx="140" cy="140" rx="80" ry="80" fill="none" stroke="#C0C0C0" stroke-width="0.6" opacity="0.3"/>
+<ellipse cx="140" cy="140" rx="110" ry="110" fill="none" stroke="#C0C0C0" stroke-width="0.5" opacity="0.2"/>
+<ellipse cx="140" cy="140" rx="130" ry="130" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.3"/>
+<circle r="4" fill="#4f8ff7"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#o1"/></animateMotion></circle>
+<circle r="4" fill="#4f8ff7"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#o2"/></animateMotion></circle>
+<circle r="3" fill="#D4AF37"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#o3"/></animateMotion></circle>
+<circle r="3" fill="#D4AF37" opacity="0.7"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#o4"/></animateMotion></circle>
+<ellipse id="o1" cx="140" cy="140" rx="50" ry="50" fill="none"/>
+<ellipse id="o2" cx="140" cy="140" rx="80" ry="80" fill="none"/>
+<ellipse id="o3" cx="140" cy="140" rx="110" ry="110" fill="none"/>
+<ellipse id="o4" cx="140" cy="140" rx="130" ry="130" fill="none"/>
+<text x="140" y="25" text-anchor="middle" fill="#9a9ab0" font-size="10" font-family="Source Sans 3,sans-serif">5s¹ → Valans elektronu</text>
+<text x="50" y="275" fill="#5a5a70" font-size="9" font-family="JetBrains Mono,monospace">Kütle: 107.87 u</text>
+<text x="170" y="275" fill="#5a5a70" font-size="9" font-family="JetBrains Mono,monospace">E.N: 1.93</text>
+</svg></div>
 <h3>İletkenlik Karşılaştırması</h3>
 <p>Gümüş, soy metallere yakın kimyasal davranış sergiler. Saf haldeyken havadaki oksijenle tepkimeye girmez — bu nedenle antik çağlardan beri 'saf' ve 'bozulmaz' metal olarak kabul edilmiştir.</p>
 <p>Ancak gümüşün en bilinen kimyasal tepkimesi kararma (tarnish) sürecidir. Gümüş, havadaki kükürt bileşikleriyle (özellikle H₂S — hidrojen sülfür) tepkimeye girerek yüzeyde siyah gümüş sülfür (Ag₂S) tabakası oluşturur:</p>
@@ -379,6 +412,25 @@ C[6] = {
   tr: `<p>Gümüşün hastalık yapıcı mikroorganizmaları öldürme yeteneği, modern bilimin keşfi değildir. Antik Yunan'da Hipokrat gümüş tozunu yara tedavisinde kullanmış, Romalılar suyun tazeliğini korumak için gümüş kaplar tercih etmiş, Osmanlı ordusunda gümüş mataralar standart teçhizat olmuştur.</p>
 <p>Günümüzde gümüşün antimikrobiyal mekanizması moleküler düzeyde anlaşılmıştır ve nano-gümüş teknolojisi, tıptan tekstile geniş bir uygulama alanı bulmuştur. Bu makale, gümüşün antimikrobiyal özelliklerinin bilimsel temellerini kapsamlı şekilde açıklamaktadır.</p>
 <h3>Üçlü Etki Mekanizması</h3>
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(79,143,247,0.04);border:1px solid rgba(79,143,247,0.1)">
+<div style="font-family:Playfair Display,serif;font-size:1.1rem;font-weight:700;color:#C0C0C0;margin-bottom:12px">Gümüş Antimikrobiyal Mekanizması</div>
+<svg viewBox="0 0 360 140" xmlns="http://www.w3.org/2000/svg" style="max-width:360px;width:100%">
+<rect x="10" y="10" width="100" height="120" rx="12" fill="rgba(192,192,192,0.06)" stroke="rgba(192,192,192,0.15)" stroke-width="1"/>
+<circle cx="60" cy="45" r="16" fill="none" stroke="#C0C0C0" stroke-width="1.5"/><text x="60" y="49" text-anchor="middle" fill="#C0C0C0" font-size="8" font-weight="700" font-family="JetBrains Mono,monospace">Ag⁺</text>
+<line x1="60" y1="61" x2="60" y2="75" stroke="#f87171" stroke-width="1.5" marker-end="url(#arr)"/>
+<circle cx="60" cy="90" r="12" fill="none" stroke="#f87171" stroke-width="1" stroke-dasharray="3"/><text x="60" y="93" text-anchor="middle" fill="#f87171" font-size="7" font-family="Source Sans 3,sans-serif">DNA</text>
+<text x="60" y="120" text-anchor="middle" fill="#9a9ab0" font-size="8" font-weight="600" font-family="Source Sans 3,sans-serif">DNA Hasarı</text>
+<rect x="130" y="10" width="100" height="120" rx="12" fill="rgba(45,212,160,0.04)" stroke="rgba(45,212,160,0.12)" stroke-width="1"/>
+<circle cx="180" cy="45" r="16" fill="none" stroke="#2dd4a0" stroke-width="1.5"/><text x="180" y="49" text-anchor="middle" fill="#2dd4a0" font-size="8" font-weight="700" font-family="JetBrains Mono,monospace">Ag⁺</text>
+<line x1="180" y1="61" x2="180" y2="75" stroke="#2dd4a0" stroke-width="1.5" marker-end="url(#arr2)"/>
+<rect x="165" y="80" width="30" height="16" rx="4" fill="none" stroke="#2dd4a0" stroke-width="1"/><text x="180" y="92" text-anchor="middle" fill="#2dd4a0" font-size="7" font-family="Source Sans 3,sans-serif">Enzim</text>
+<text x="180" y="120" text-anchor="middle" fill="#9a9ab0" font-size="8" font-weight="600" font-family="Source Sans 3,sans-serif">Enzim Blokajı</text>
+<rect x="250" y="10" width="100" height="120" rx="12" fill="rgba(212,175,55,0.04)" stroke="rgba(212,175,55,0.12)" stroke-width="1"/>
+<circle cx="300" cy="45" r="16" fill="none" stroke="#D4AF37" stroke-width="1.5"/><text x="300" y="49" text-anchor="middle" fill="#D4AF37" font-size="8" font-weight="700" font-family="JetBrains Mono,monospace">Ag⁺</text>
+<line x1="300" y1="61" x2="300" y2="75" stroke="#D4AF37" stroke-width="1.5"/>
+<ellipse cx="300" cy="90" rx="18" ry="10" fill="none" stroke="#D4AF37" stroke-width="1" stroke-dasharray="2"/><text x="300" y="93" text-anchor="middle" fill="#D4AF37" font-size="6" font-family="Source Sans 3,sans-serif">Membran</text>
+<text x="300" y="120" text-anchor="middle" fill="#9a9ab0" font-size="8" font-weight="600" font-family="Source Sans 3,sans-serif">Membran Yıkımı</text>
+</svg></div>
 <p>Gümüş iyonları (Ag⁺), bakterilere üç farklı mekanizma ile saldırır. Bu çoklu etki mekanizması, gümüşü antibiyotiklere dirençli (MRSA gibi) bakterilere karşı bile etkili kılar:</p>
 <p>MÖ 400 — Hipokrat, gümüş tozunun yara iyileşmesini hızlandırdığını ve enfeksiyonu önlediğini kaydetmiştir. Bu, gümüşün tıbbi kullanımının bilinen en eski yazılı kaydıdır.</p>
 <p>Orta Çağ'da veba salgınları sırasında aristokrat ailelerin gümüş çatal-kaşık kullanması, enfeksiyon oranlarını düşürmüştür — 'mavi kan' (blue blood) deyiminin bir açıklaması da gümüş maruziyetinin ciltte oluşturduğu hafif argyria'dır.</p>
@@ -787,7 +839,28 @@ C[8] = {
 };
 
 C[9] = {
-  tr: `<p>Gümüş fiyatı, son 50 yılda dramatik yükselişler ve çöküşler yaşamıştır. 1980'de 49,45 dolara yükselmiş, 1991'de 3,50 dolara düşmüş ve 2011'de tekrar 49,51 dolara çıkmıştır.</p>`,
+  tr: `<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(212,175,55,0.04);border:1px solid rgba(212,175,55,0.1)">
+<div style="font-family:Playfair Display,serif;font-size:1.1rem;font-weight:700;color:#C0C0C0;margin-bottom:12px">Gümüş Fiyat Tarihi (1975-2026)</div>
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" style="max-width:400px;width:100%">
+<line x1="40" y1="10" x2="40" y2="150" stroke="#333" stroke-width="0.5"/>
+<line x1="40" y1="150" x2="390" y2="150" stroke="#333" stroke-width="0.5"/>
+<text x="5" y="20" fill="#5a5a70" font-size="8" font-family="JetBrains Mono,monospace">$120</text>
+<text x="5" y="55" fill="#5a5a70" font-size="8" font-family="JetBrains Mono,monospace">$80</text>
+<text x="5" y="90" fill="#5a5a70" font-size="8" font-family="JetBrains Mono,monospace">$40</text>
+<text x="5" y="152" fill="#5a5a70" font-size="8" font-family="JetBrains Mono,monospace">$0</text>
+<line x1="40" y1="55" x2="390" y2="55" stroke="#333" stroke-width="0.3" stroke-dasharray="3"/>
+<line x1="40" y1="90" x2="390" y2="90" stroke="#333" stroke-width="0.3" stroke-dasharray="3"/>
+<polyline fill="none" stroke="#C0C0C0" stroke-width="2" stroke-linejoin="round" points="40,145 80,145 100,140 120,98 122,145 160,145 200,142 240,140 280,138 300,115 310,140 340,130 360,108 380,85 390,75" opacity="0.9"><animate attributeName="stroke-dasharray" from="0 1000" to="1000 0" dur="2s" fill="freeze"/></polyline>
+<circle cx="120" cy="98" r="4" fill="#D4AF37"/><text x="110" y="92" fill="#D4AF37" font-size="7" font-family="JetBrains Mono,monospace">1980 $49</text>
+<circle cx="300" cy="115" r="4" fill="#D4AF37"/><text x="285" y="109" fill="#D4AF37" font-size="7" font-family="JetBrains Mono,monospace">2011 $49</text>
+<circle cx="380" cy="85" r="3" fill="#D4AF37"/>
+<circle cx="390" cy="75" r="5" fill="#2dd4a0"/><text x="365" y="68" fill="#2dd4a0" font-size="8" font-weight="700" font-family="JetBrains Mono,monospace">2026 $75+</text>
+<text x="40" y="168" fill="#5a5a70" font-size="7" font-family="JetBrains Mono,monospace">1975</text>
+<text x="130" y="168" fill="#5a5a70" font-size="7" font-family="JetBrains Mono,monospace">1990</text>
+<text x="230" y="168" fill="#5a5a70" font-size="7" font-family="JetBrains Mono,monospace">2005</text>
+<text x="350" y="168" fill="#5a5a70" font-size="7" font-family="JetBrains Mono,monospace">2026</text>
+</svg></div>
+<p>Gümüş fiyatı, son 50 yılda dramatik yükselişler ve çöküşler yaşamıştır. 1980'de 49,45 dolara yükselmiş, 1991'de 3,50 dolara düşmüş ve 2011'de tekrar 49,51 dolara çıkmıştır.</p>`,
   en: `<p>Silver prices have experienced dramatic rises and crashes over the past 50 years. Surging to $49.45 in 1980, dropping to $3.50 in 1991, and climbing back to $49.51 in 2011, silver is one of the most volatile precious metals.</p>
 <p>This article analyzes the milestones of silver price history, macroeconomic factors affecting prices, and future trends. It does not constitute investment advice.</p>
 <h3>Historical Price Milestones</h3>
@@ -881,6 +954,30 @@ C[10] = {
   tr: `<p>Gümüş piyasası, son yıllarda yapısal bir dönüşüm geçirmektedir. Geleneksel olarak yatırım ve takı talebiyle şekillenen piyasa, güneş enerjisi ve elektronik sektörlerinin patlayıcı büyümesiyle yeni bir dengeye doğru ilerlemektedir.</p>
 <p>2021'den bu yana gümüş piyasasında ardışık arz açıkları (deficit) yaşanmaktadır — talep, arzı aşmaktadır. Bu makale, arz ve talep bileşenlerini ayrıntılı şekilde analiz etmektedir.</p>
 <h3>Arz Yapısı</h3>
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(45,212,160,0.04);border:1px solid rgba(45,212,160,0.1)">
+<div style="font-family:Playfair Display,serif;font-size:1.1rem;font-weight:700;color:#C0C0C0;margin-bottom:12px">Küresel Gümüş Arz-Talep (Moz)</div>
+<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" style="max-width:360px;width:100%">
+<text x="70" y="185" fill="#9a9ab0" font-size="10" text-anchor="middle" font-family="Source Sans 3,sans-serif">Arz</text>
+<text x="200" y="185" fill="#9a9ab0" font-size="10" text-anchor="middle" font-family="Source Sans 3,sans-serif">Talep</text>
+<rect x="30" y="50" width="30" height="120" rx="4" fill="#C0C0C0" opacity="0.8"><animate attributeName="height" from="0" to="120" dur="0.8s" fill="freeze"/><animate attributeName="y" from="170" to="50" dur="0.8s" fill="freeze"/></rect>
+<text x="45" y="45" text-anchor="middle" fill="#C0C0C0" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">830</text>
+<text x="45" y="135" text-anchor="middle" fill="#08080d" font-size="7" font-family="Source Sans 3,sans-serif">Maden</text>
+<rect x="65" y="110" width="30" height="60" rx="4" fill="#2dd4a0" opacity="0.7"><animate attributeName="height" from="0" to="60" dur="0.8s" fill="freeze"/><animate attributeName="y" from="170" to="110" dur="0.8s" fill="freeze"/></rect>
+<text x="80" y="105" text-anchor="middle" fill="#2dd4a0" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">180</text>
+<text x="80" y="150" text-anchor="middle" fill="#08080d" font-size="7" font-family="Source Sans 3,sans-serif">Geri D.</text>
+<rect x="160" y="60" width="30" height="110" rx="4" fill="#4f8ff7" opacity="0.8"><animate attributeName="height" from="0" to="110" dur="0.8s" fill="freeze"/><animate attributeName="y" from="170" to="60" dur="0.8s" fill="freeze"/></rect>
+<text x="175" y="55" text-anchor="middle" fill="#4f8ff7" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">580</text>
+<text x="175" y="140" text-anchor="middle" fill="#fff" font-size="7" font-family="Source Sans 3,sans-serif">Endüstri</text>
+<rect x="195" y="90" width="30" height="80" rx="4" fill="#D4AF37" opacity="0.8"><animate attributeName="height" from="0" to="80" dur="0.8s" fill="freeze"/><animate attributeName="y" from="170" to="90" dur="0.8s" fill="freeze"/></rect>
+<text x="210" y="85" text-anchor="middle" fill="#D4AF37" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">300</text>
+<text x="210" y="145" text-anchor="middle" fill="#08080d" font-size="7" font-family="Source Sans 3,sans-serif">Takı</text>
+<rect x="230" y="115" width="30" height="55" rx="4" fill="#a78bfa" opacity="0.7"><animate attributeName="height" from="0" to="55" dur="0.8s" fill="freeze"/><animate attributeName="y" from="170" to="115" dur="0.8s" fill="freeze"/></rect>
+<text x="245" y="110" text-anchor="middle" fill="#a78bfa" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">200</text>
+<text x="245" y="150" text-anchor="middle" fill="#08080d" font-size="7" font-family="Source Sans 3,sans-serif">Yatırım</text>
+<line x1="295" y1="40" x2="295" y2="170" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4"/>
+<text x="295" y="35" text-anchor="middle" fill="#f87171" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">AÇIK</text>
+<text x="295" y="105" text-anchor="middle" fill="#f87171" font-size="20" font-weight="700" font-family="JetBrains Mono,monospace">-70</text>
+</svg></div>
 <p>Küresel gümüş arzı üç ana kaynaktan oluşur: maden üretimi (~%80), geri dönüşüm (~%17) ve devlet stok satışları (~%3). 2024'te toplam arz yaklaşık 31.000 ton olarak gerçekleşmiştir.</p>
 <p>Yıllık maden üretimi yaklaşık 26.000 ton civarında sabitlenmiştir ve son 5 yılda anlamlı bir artış göstermemiştir. Bunun başlıca nedenleri: yeni büyük maden keşiflerinin azalması, mevcut madenlerde düşen cevher kaliteleri (ore grade), artan çevresel düzenlemeler ve izin süreçlerinin uzaması.</p>
 <h3>Maden Üretimi: Yapısal Kısıtlar</h3>
@@ -1089,6 +1186,21 @@ C[12] = {
   tr: `<p>Gümüş, dünyanın her kıtasında çıkarılan ancak üretimin büyük bölümünün belirli coğrafyalarda yoğunlaştığı stratejik bir metaldir. Yıllık küresel gümüş madencilik üretimi yaklaşık 26.000 ton civarındadır ve bu miktarın %55'inden fazlası yalnızca beş ülkeden gelmektedir.</p>
 <p>Bu makale, küresel gümüş madencilik coğrafyasını, en büyük üretici ülkeleri, önemli maden sahalarını ve Türkiye'nin bu tablodaki konumunu kapsamlı şekilde incelemektedir.</p>
 <h3>En Büyük Gümüş Üretici Ülkeler</h3>
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(45,212,160,0.04);border:1px solid rgba(45,212,160,0.1)">
+<div style="font-family:Playfair Display,serif;font-size:1.1rem;font-weight:700;color:#C0C0C0;margin-bottom:8px">Top 10 Gümüş Üretici Ülke (Moz)</div>
+<svg viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg" style="max-width:340px;width:100%">
+<text x="75" y="20" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Meksika</text><rect x="80" y="10" width="190" height="14" rx="3" fill="#C0C0C0" opacity="0.85"><animate attributeName="width" from="0" to="190" dur="0.8s" fill="freeze"/></rect><text x="275" y="21" fill="#C0C0C0" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">190</text>
+<text x="75" y="40" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Çin</text><rect x="80" y="30" width="110" height="14" rx="3" fill="#D4AF37" opacity="0.8"><animate attributeName="width" from="0" to="110" dur="0.8s" fill="freeze"/></rect><text x="195" y="41" fill="#D4AF37" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">110</text>
+<text x="75" y="60" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Peru</text><rect x="80" y="50" width="100" height="14" rx="3" fill="#2dd4a0" opacity="0.8"><animate attributeName="width" from="0" to="100" dur="0.8s" fill="freeze"/></rect><text x="185" y="61" fill="#2dd4a0" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">100</text>
+<text x="75" y="80" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Şili</text><rect x="80" y="70" width="55" height="14" rx="3" fill="#4f8ff7" opacity="0.7"><animate attributeName="width" from="0" to="55" dur="0.8s" fill="freeze"/></rect><text x="140" y="81" fill="#4f8ff7" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">55</text>
+<text x="75" y="100" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Avustralya</text><rect x="80" y="90" width="52" height="14" rx="3" fill="#a78bfa" opacity="0.7"><animate attributeName="width" from="0" to="52" dur="0.8s" fill="freeze"/></rect><text x="137" y="101" fill="#a78bfa" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">52</text>
+<text x="75" y="120" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Rusya</text><rect x="80" y="110" width="44" height="14" rx="3" fill="#f472b6" opacity="0.7"><animate attributeName="width" from="0" to="44" dur="0.8s" fill="freeze"/></rect><text x="129" y="121" fill="#f472b6" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">44</text>
+<text x="75" y="140" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Bolivya</text><rect x="80" y="130" width="42" height="14" rx="3" fill="#fb923c" opacity="0.7"><animate attributeName="width" from="0" to="42" dur="0.8s" fill="freeze"/></rect><text x="127" y="141" fill="#fb923c" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">42</text>
+<text x="75" y="160" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Polonya</text><rect x="80" y="150" width="40" height="14" rx="3" fill="#22d3ee" opacity="0.7"><animate attributeName="width" from="0" to="40" dur="0.8s" fill="freeze"/></rect><text x="125" y="161" fill="#22d3ee" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">40</text>
+<text x="75" y="180" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">ABD</text><rect x="80" y="170" width="30" height="14" rx="3" fill="#94a3b8" opacity="0.7"><animate attributeName="width" from="0" to="30" dur="0.8s" fill="freeze"/></rect><text x="115" y="181" fill="#94a3b8" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">30</text>
+<text x="75" y="200" fill="#9a9ab0" font-size="9" text-anchor="end" font-family="Source Sans 3,sans-serif">Arjantin</text><rect x="80" y="190" width="28" height="14" rx="3" fill="#a8a29e" opacity="0.7"><animate attributeName="width" from="0" to="28" dur="0.8s" fill="freeze"/></rect><text x="113" y="201" fill="#a8a29e" font-size="9" font-weight="700" font-family="JetBrains Mono,monospace">28</text>
+<text x="170" y="225" fill="#5a5a70" font-size="8" text-anchor="middle" font-family="Source Sans 3,sans-serif">Milyon Ons (Moz) — Yıllık Üretim</text>
+</svg></div>
 <p>Küresel gümüş üretiminde Meksika, Çin ve Peru sürekli olarak ilk üç sırayı paylaşmaktadır. Latin Amerika bölgesi, dünya gümüş üretiminin yaklaşık %40'ını karşılar.</p>
 <p>Meksika, 500 yılı aşkın süredir dünyanın en büyük gümüş üreticisidir. İspanyol sömürge döneminde Meksika gümüşü, küresel ticaretin temel para birimi olmuş ve İspanyol 'piece of eight' sikkesi dünyanın ilk uluslararası para birimi haline gelmiştir.</p>
 <h3>Meksika: Dünyanın Gümüş Başkenti</h3>
@@ -1339,6 +1451,19 @@ C[14] = {
   tr: `<p>Bir gümüş takının vitrinden elinize geçmesi, uzun ve titiz bir üretim sürecinin sonucudur. Ham gümüş külçeden zarif bir yüzüğe veya kolyeye dönüşen bu yolculuk, metalürji bilimi ile el sanatının buluştuğu noktada gerçekleşir.</p>
 <p>Bu makale, modern gümüş takı üretiminin temel aşamalarını — tasarım, kalıp, döküm, montaj, yüzey işleme, kalite kontrol ve ambalajlama — adım adım açıklamaktadır.</p>
 <h3>Üretim Akış Diyagramı</h3>
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<div style="font-family:Playfair Display,serif;font-size:1.1rem;font-weight:700;color:#C0C0C0;margin-bottom:12px">Cevherden Takıya: Üretim Akışı</div>
+<svg viewBox="0 0 360 70" xmlns="http://www.w3.org/2000/svg" style="max-width:400px;width:100%">
+<rect x="0" y="15" width="55" height="40" rx="8" fill="rgba(45,212,160,0.1)" stroke="#2dd4a0" stroke-width="1"/><text x="27" y="32" text-anchor="middle" fill="#2dd4a0" font-size="7" font-weight="700" font-family="Source Sans 3,sans-serif">Cevher</text><text x="27" y="44" text-anchor="middle" fill="#5a5a70" font-size="6" font-family="Source Sans 3,sans-serif">Madencilik</text>
+<line x1="58" y1="35" x2="72" y2="35" stroke="#5a5a70" stroke-width="1"/>
+<rect x="75" y="15" width="55" height="40" rx="8" fill="rgba(79,143,247,0.1)" stroke="#4f8ff7" stroke-width="1"/><text x="102" y="32" text-anchor="middle" fill="#4f8ff7" font-size="7" font-weight="700" font-family="Source Sans 3,sans-serif">Rafinasyon</text><text x="102" y="44" text-anchor="middle" fill="#5a5a70" font-size="6" font-family="Source Sans 3,sans-serif">%99.9</text>
+<line x1="133" y1="35" x2="147" y2="35" stroke="#5a5a70" stroke-width="1"/>
+<rect x="150" y="15" width="55" height="40" rx="8" fill="rgba(192,192,192,0.1)" stroke="#C0C0C0" stroke-width="1"/><text x="177" y="32" text-anchor="middle" fill="#C0C0C0" font-size="7" font-weight="700" font-family="Source Sans 3,sans-serif">Alaşım</text><text x="177" y="44" text-anchor="middle" fill="#5a5a70" font-size="6" font-family="Source Sans 3,sans-serif">925 Ayar</text>
+<line x1="208" y1="35" x2="222" y2="35" stroke="#5a5a70" stroke-width="1"/>
+<rect x="225" y="15" width="55" height="40" rx="8" fill="rgba(212,175,55,0.1)" stroke="#D4AF37" stroke-width="1"/><text x="252" y="32" text-anchor="middle" fill="#D4AF37" font-size="7" font-weight="700" font-family="Source Sans 3,sans-serif">Şekillendirme</text><text x="252" y="44" text-anchor="middle" fill="#5a5a70" font-size="6" font-family="Source Sans 3,sans-serif">Döküm/Dövme</text>
+<line x1="283" y1="35" x2="297" y2="35" stroke="#5a5a70" stroke-width="1"/>
+<rect x="300" y="15" width="55" height="40" rx="8" fill="rgba(244,114,182,0.1)" stroke="#f472b6" stroke-width="1"/><text x="327" y="32" text-anchor="middle" fill="#f472b6" font-size="7" font-weight="700" font-family="Source Sans 3,sans-serif">Polisaj</text><text x="327" y="44" text-anchor="middle" fill="#5a5a70" font-size="6" font-family="Source Sans 3,sans-serif">Takı ✓</text>
+</svg></div>
 <p>Aşağıdaki diyagram, 925 ayar gümüş takı üretiminin ana aşamalarını göstermektedir:</p>
 <p>Üretim süreci tasarımla başlar. Modern takı üretiminde CAD (Bilgisayar Destekli Tasarım) yazılımları — Rhino, Matrix, JewelCAD — kullanılarak 3D dijital modeller oluşturulur.</p>
 <p>CAD modelleme, tasarımcıya milimetrik hassasiyette detay kontrolü sağlar. Taş yuvaları, kilitleme mekanizmaları ve ergonomik ölçüler dijital ortamda optimize edilir. Geleneksel yöntemde ise usta kuyumcu, elle çizim ve mum model ile çalışır.</p>

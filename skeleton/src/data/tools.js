@@ -28,7 +28,10 @@ export const TOOLS = [
   {i:"📜",tr:"Sertifika Doğrulayıcı",en:"Certificate Verifier",ar:"التحقق من الشهادة",isNew:true},
   {i:"📿",tr:"Bilezik Ölçü Bulucu",en:"Bracelet Sizer",ar:"مقاس السوار",isNew:true},
   {i:"📿",tr:"Kolye Uzunluk Rehberi",en:"Necklace Length Guide",ar:"دليل أطوال القلادة",isNew:true},
-  {i:"💰",tr:"Gümüş Takı Fiyat Tahmini",en:"Silver Price Estimator",ar:"تقدير سعر الفضة",isNew:true},
+  {i:"💰",tr:"Gümüş Takı Fiyat Tahmini",en:"Silver Price Estimator",ar:"تقدير سعر الفضة",isNew:true,hidden:true},
+  {i:"📉",tr:"Altın/Gümüş Oranı",en:"Gold/Silver Ratio",ar:"نسبة الذهب/الفضة",isNew:true},
+  {i:"🔍",tr:"Sahtecilik Tespit Rehberi",en:"Counterfeit Detection",ar:"كشف التزوير",isNew:true},
+  {i:"🔥",tr:"Erime Değeri Hesaplayıcı",en:"Melt Value Calculator",ar:"حاسبة قيمة الصهر",isNew:true},
 ];
 
-export const QUICK_TOOL_INDICES = [2,27,28,29,0,14]; // Ring, Bracelet, Necklace, Price Est, Purity, Zakat
+export const QUICK_TOOL_INDICES = [2,27,28,32,30,0,14,31]; // Ring, Bracelet, Necklace, Melt, Ratio, Purity, Zakat, Counterfeit

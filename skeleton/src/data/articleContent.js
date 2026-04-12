@@ -6499,6 +6499,299 @@ C[60] = {
 };
 
 
+// ═══ BATCH 18 — Benchmark-sourced content ═══
+
+C[61] = {
+  tr: `<h3>Gümüş Stacking Nedir?</h3>
+<p>Gümüş stacking, fiziksel gümüşü düzenli aralıklarla satın alarak biriktirme stratejisidir. İngilizcede "stack" (yığmak) kelimesinden türeyen bu terim, altın/gümüş yatırım dünyasında yaygın olarak kullanılır. Stacking yapan kişilere "stacker" denir.</p>
+<p>Altın, ons başına gümüşten yaklaşık 80-90 kat daha pahalıdır. Bu fark, sınırlı bütçeyle yatırım yapmak isteyenler için gümüşü çok daha erişilebilir kılar. 2024 yılında bir ons gümüş yaklaşık 30 USD iken, bir ons altın 2.300 USD civarındaydı.</p>
+<h3>Neden Gümüş Biriktirmeli?</h3>
+<p>Fiziksel gümüş, dijital varlıklardan farklı olarak elinizde tutabileceğiniz somut bir yatırımdır. Enflasyona karşı koruma sağlar, karşı taraf riski taşımaz ve binlerce yıllık değer saklama geçmişine sahiptir. Ayrıca endüstriyel talebi her yıl artmaktadır — 2024'te endüstriyel gümüş talebi rekor 680,5 milyon ons'a ulaşmıştır.</p>
+<h3>Ne Tür Gümüş Biriktirilir?</h3>
+<p>Gümüş sikkeleri darphane ürünüdür ve devlet garantisi taşır. American Silver Eagle, Kanada Maple Leaf ve Avustralya Kanguru en popüler örneklerdir. Prim (spot fiyat üzerindeki ek maliyet) daha yüksektir ama likiditeleri de yüksektir.</p>
+<p>Gümüş külçeler dikdörtgen veya trapez bloklar halinde dökülür. 1 ons'tan 1 kiloya kadar çeşitli boyutlarda gelir ve genellikle %99,9 veya daha yüksek saflıktadır. Sikkelere göre daha düşük primle satılır.</p>
+<p>Gümüş round'lar sikke boyutunda disklerdir ancak yasal para birimi değildir. Değerleri tamamen gümüş içeriklerine dayanır. Sikkenin boyutu ile külçenin ekonomikliğini birleştirir.</p>
+<h3>Türkiye'de Stacking Stratejileri</h3>
+<p>Türkiye'de fiziksel gümüş biriktirmek isteyenler için birkaç pratik yol bulunmaktadır. Kuyumculardan 925 veya 999 ayar gümüş ürünler almak, Darphane basımı hatıra paralar koleksiyonlamak veya online platformlardan külçe sipariş etmek en yaygın yöntemlerdir.</p>
+<p>Başlangıç için aylık sabit bir bütçe belirlemek ve "maliyet ortalaması" (dollar-cost averaging) stratejisi uygulamak önerilir. Fiyat düştüğünde daha fazla, yükseldiğinde daha az alarak uzun vadede ortalama maliyetinizi düşürebilirsiniz.</p>
+<h3>Depolama ve Güvenlik</h3>
+<p>Gümüş, hacim olarak altından çok daha fazla yer kaplar. 1.000 USD değerinde gümüş, aynı değerdeki altından yaklaşık 80 kat daha ağırdır. Bu nedenle depolama planlaması kritiktir. Ev kasası, banka kiralık kasa veya profesyonel depolama tesisleri tercih edilebilir.</p>
+<p>Gümüşü hava geçirmez poşetlerde, anti-kararma şeritleriyle birlikte saklamak kararma sürecini yavaşlatır. Farklı parçaları birbirine temas ettirmeden ayrı bölmelerde tutmak çizilmeleri önler.</p>
+<div class="fact-box"><strong>💡 İpucu:</strong> Stacking topluluklarına katılmak hem bilgi edinmek hem de güvenilir satıcı referansları almak için değerlidir. Reddit'in r/Silverbugs topluluğu dünya genelinde en büyük stacker ağıdır.</div>
+<h3>Kaynak</h3>
+<p>JM Bullion Stacking Guide, Silver Institute World Silver Survey 2025 verilerinden derlenmiştir.</p>`,
+  en: `<h3>What is Silver Stacking?</h3>
+<p>Silver stacking is the strategy of regularly purchasing and accumulating physical silver. The term "stacking" comes from the practice of literally stacking silver coins and bars, and people who do this are called "stackers."</p>
+<p>Gold is approximately 80-90 times more expensive per ounce than silver. This price difference makes silver far more accessible for investors with limited budgets. In 2024, an ounce of silver was around $30 USD while gold was approximately $2,300 USD.</p>
+<h3>Why Stack Silver?</h3>
+<p>Physical silver is a tangible asset you can hold, unlike digital investments. It provides inflation protection, carries no counterparty risk, and has thousands of years of history as a store of value. Industrial demand is also rising every year — in 2024, industrial silver demand reached a record 680.5 million ounces.</p>
+<h3>Types of Silver to Stack</h3>
+<p>Silver coins are sovereign mint products backed by government guarantee. The American Silver Eagle, Canadian Maple Leaf, and Australian Kangaroo are the most popular examples. Premiums above spot price are higher but so is liquidity.</p>
+<p>Silver bars are cast as rectangular or trapezoidal blocks, ranging from 1 ounce to 1 kilogram, typically at 99.9% or higher purity. They sell at lower premiums than coins.</p>
+<p>Silver rounds are coin-sized disks that are not legal tender. Their value is based solely on silver content, combining the convenience of coins with the economy of bars.</p>
+<h3>Stacking Strategies</h3>
+<p>Setting a fixed monthly budget and using dollar-cost averaging is recommended for beginners. Buy more when prices dip, less when they rise, to lower your average cost over time.</p>
+<h3>Storage and Security</h3>
+<p>Silver takes up significantly more space than gold by value — $1,000 worth of silver weighs roughly 80 times more than the same value in gold. Home safes, bank deposit boxes, or professional storage facilities are common options. Store silver in airtight bags with anti-tarnish strips, keeping pieces in separate compartments to prevent scratching.</p>
+<div class="fact-box"><strong>💡 Tip:</strong> Joining stacking communities is valuable for both knowledge and trusted dealer referrals. Reddit's r/Silverbugs is the world's largest stacker network.</div>
+<h3>Source</h3>
+<p>Compiled from JM Bullion Stacking Guide and Silver Institute World Silver Survey 2025 data.</p>`,
+  ar: `<h3>ما هو تجميع الفضة؟</h3>
+<p>تجميع الفضة هو استراتيجية شراء الفضة المادية بانتظام وتراكمها. يُطلق على الأشخاص الذين يمارسون هذا النشاط اسم "المجمّعين".</p>
+<p>الذهب أغلى من الفضة بحوالي 80-90 مرة للأونصة الواحدة. هذا الفارق السعري يجعل الفضة أكثر سهولة للمستثمرين ذوي الميزانيات المحدودة.</p>
+<h3>لماذا تجمع الفضة؟</h3>
+<p>الفضة المادية أصل ملموس يمكنك الاحتفاظ به. توفر حماية من التضخم ولا تحمل مخاطر الطرف المقابل. في عام 2024، بلغ الطلب الصناعي على الفضة رقمًا قياسيًا عند 680.5 مليون أونصة.</p>
+<h3>أنواع الفضة للتجميع</h3>
+<p>العملات الفضية منتجات سك حكومية. السبائك تُباع بعلاوات أقل. الأقراص الفضية تجمع بين حجم العملة واقتصاد السبيكة.</p>
+<h3>التخزين والأمان</h3>
+<p>الفضة تشغل مساحة أكبر بكثير من الذهب من حيث القيمة. خزائن المنزل أو صناديق الأمانات البنكية أو مرافق التخزين المهنية هي الخيارات الشائعة.</p>`
+};
+
+C[62] = {
+  tr: `<h3>Sikke mi Külçe mi?</h3>
+<p>Fiziksel gümüş yatırımında en temel karar sikke (coin) ile külçe (bar) arasındaki tercihtir. Her ikisinin de kendine özgü avantajları ve dezavantajları vardır; doğru seçim yatırım hedefinize, bütçenize ve likidite ihtiyaçlarınıza bağlıdır.</p>
+<h3>Sahicilik ve Güven</h3>
+<p>Sikkelerin en büyük avantajı garantili sahiciliktir. Bir "sikke" olarak tanımlanan her ürün, bir egemen darphanenin ürünüdür ve o ülke hükümetinin tam güvencesini taşır. Beyan ettiği gümüş miktarını tam olarak içerdiği yasal olarak onaylanmıştır.</p>
+<p>Külçeler ise çoğunlukla özel darphanelerin ürünüdür. Bu nedenle ülke güvencesi yerine şirket itibarı devreye girer. Sahte gümüş külçe veya kaplama külçe üretmek, sikkelere kıyasla teknik olarak daha kolaydır.</p>
+<h3>Prim (Premium) Farkı</h3>
+<p>Aynı miktarda gümüş içeren bir sikke, bir külçeden daha pahalıya satılır. Bunun nedeni sikkelerin üretim maliyetinin daha yüksek olması, devlet güvencesi taşıması ve koleksiyoner değerinin bulunmasıdır. Ancak yeniden satışta da bu primi geri kazanabilirsiniz.</p>
+<p>Külçeler genel olarak daha düşük primle satılır. Toplu alımlarda birim başına tasarruf daha da artar. 100 ons'luk bir gümüş külçe, 100 ayrı 1 ons'luk sikkeden önemli ölçüde ucuza gelir.</p>
+<h3>Likidite Karşılaştırması</h3>
+<p>Sikkeler, külçelerden daha kolay nakde çevrilir. Bunun iki temel nedeni vardır: birincisi, bilinen bir sikkenin sahiciliğini sorgulamak gerekmez; ikincisi, alıcı havuzu çok daha geniştir. Her yatırımcı sikke değerlendirir, ancak her yatırımcı külçeyle ilgilenmez.</p>
+<h3>Depolama ve Bakım</h3>
+<p>Sikkelerin kondisyonu değerini doğrudan etkiler. Bu nedenle sikkeleri koruyucu kapsüllerde, çizilmeden saklama konusunda ekstra özen gerekir. Külçeler ise daha dayanıklıdır ancak farklı boyutlardaki külçeleri düzenli bir şekilde depolamak zorlayıcı olabilir.</p>
+<h3>Koleksiyoner ve Numismatik Değer</h3>
+<p>Sikkelerin gümüş içeriklerinin ötesinde koleksiyoner değeri de olabilir. Nadir veya hatalı basım sikkeler, gümüş değerlerinin çok üstünde fiyatlara satılabilir. Külçelerin değeri ise tamamen ağırlık × spot fiyat formülüne dayanır.</p>
+<div class="fact-box"><strong>⚖️ Özet:</strong> Likidite ve güven istiyorsanız → sikke. Düşük maliyetle maksimum gümüş istiyorsanız → külçe. İdeal strateji her ikisini de portföyünüzde bulundurmaktır.</div>
+<h3>Kaynak</h3>
+<p>JM Bullion "Silver Bars vs Silver Coins" kılavuzundan uyarlanmıştır.</p>`,
+  en: `<h3>Coins vs Bars</h3>
+<p>The fundamental decision in physical silver investing is choosing between coins and bars. Each has distinct advantages; the right choice depends on your investment goals, budget, and liquidity needs.</p>
+<h3>Authenticity and Trust</h3>
+<p>Coins' greatest advantage is guaranteed authenticity. Every coin is a sovereign mint product backed by its country's government. Bars are mostly private mint products, making counterfeiting relatively easier.</p>
+<h3>Premium Differences</h3>
+<p>A coin costs more than a bar with identical silver content due to higher production costs, government backing, and collectible value. Bars sell at lower premiums, especially in bulk — a 100 oz bar costs significantly less than 100 individual 1 oz coins.</p>
+<h3>Liquidity Comparison</h3>
+<p>Coins convert to cash more easily. No one questions whether a Silver Eagle is legitimate. The buyer pool for bars is smaller and may require authenticity verification.</p>
+<h3>Storage and Care</h3>
+<p>Coin condition directly affects value, requiring protective capsules and careful handling. Bars are more durable but harder to organize in various sizes.</p>
+<div class="fact-box"><strong>⚖️ Summary:</strong> Want liquidity and trust → coins. Want maximum silver at lowest cost → bars. The ideal strategy includes both.</div>
+<h3>Source</h3>
+<p>Adapted from JM Bullion's "Silver Bars vs Silver Coins" guide.</p>`,
+  ar: `<h3>العملات أم السبائك؟</h3>
+<p>القرار الأساسي في الاستثمار في الفضة المادية هو الاختيار بين العملات والسبائك. لكل منهما مزايا مميزة.</p>
+<p>أكبر ميزة للعملات هي الأصالة المضمونة بضمان حكومي. السبائك تُباع بعلاوات أقل خاصة عند الشراء بالجملة.</p>
+<p>العملات أسهل في التحويل إلى نقد. الاستراتيجية المثالية تشمل كليهما في محفظتك.</p>`
+};
+
+C[63] = {
+  tr: `<h3>Yapay Zekâ Çağında Gümüş</h3>
+<p>Gümüş, dünyanın en iyi elektrik iletkeni olarak yapay zekâ devriminin sessiz kahramanıdır. Akıllı telefonlardan süper bilgisayarlara, ışık anahtarlarından veri merkezlerine kadar neredeyse her elektronik cihazda gümüş bulunur.</p>
+<p>Silver Institute'un Aralık 2025 tarihli "Silver, The Next Generation Metal" raporuna göre, küresel gümüş endüstriyel talebi 2024'te rekor kıran 680,5 milyon ons'a ulaşmıştır — üst üste dördüncü rekor yıl.</p>
+<h3>Veri Merkezleri: Dijital Ekonominin Omurgası</h3>
+<p>Veri merkezleri bulut bilişim hizmetlerini çalıştırmak, verileri depolamak ve yönetmek, ve giderek artan bir şekilde yapay zekâ sistemlerini güçlendirmek için gereken fiziksel altyapıyı sağlar.</p>
+<p>Küresel BT güç kapasitesi 2000 yılındaki 0,93 GW'dan 2025'te yaklaşık 50 GW'a yükselmiştir — bu %5.252'lik bir artıştır. Daha fazla hesaplama donanımı, daha fazla gümüş talebi anlamına gelir.</p>
+<h3>AI Uygulamalarında Gümüşün Rolü</h3>
+<p>Yapay zekânın gümüş kullanacağı son kullanım alanları arasında ulaşım, nanoteknoloji, biyoteknoloji, sağlık, giyilebilir tüketici ürünleri, bilgi işlem ve veri merkezlerinde enerji yer almaktadır.</p>
+<p>Gümüş, baskılı devre kartlarındaki iletken pastalar, çok katmanlı seramik kapasitörler (MLCC), membran anahtarlar ve RFID çiplerinin antenleri gibi kritik bileşenlerde kullanılır. Bu uygulamaların hiçbirinde gümüşün tam ikamesi bulunamamıştır.</p>
+<h3>5G ve Bağlantılı Cihazlar</h3>
+<p>5G ağlarının yaygınlaşması, bağlantılı cihaz sayısını katlanarak artırmaktadır. Her 5G baz istasyonu, her akıllı sensör ve her IoT cihazı gümüş içerir. Nesnelerin interneti (IoT) genişledikçe gümüş talebi de yapısal olarak artmaktadır.</p>
+<h3>Gelecek Projeksiyonları</h3>
+<p>Oxford Economics'in Silver Institute için hazırladığı rapora göre, gümüş önümüzdeki beş yıl boyunca güneş enerjisi, elektrikli araçlar ve AI/veri merkezi segmentlerinden gelen taleple endüstriyel kullanımda büyümeye devam edecektir.</p>
+<p>2021-2024 döneminde toplam piyasa açığı 678 milyon ons'a ulaşmıştır — bu, 2024 yılındaki küresel maden üretiminin 10 aylık eşdeğeridir. Yapısal arz açığı devam ettikçe gümüşün stratejik önemi artacaktır.</p>
+<div class="fact-box"><strong>🔬 Kritik Veri:</strong> 2024 yılında Çin endüstriyel gümüş talebi %7, Hindistan %4 arttı. Global fotovoltaik talebi 193,5 milyon ons ile rekor kırdı.</div>
+<h3>Kaynak</h3>
+<p>Silver Institute World Silver Survey 2025, Oxford Economics "Silver: The Next Generation Metal" raporu (Aralık 2025).</p>`,
+  en: `<h3>Silver in the Age of AI</h3>
+<p>Silver, the world's best electrical conductor, is the quiet hero of the artificial intelligence revolution. It's found in virtually every electronic device from smartphones to supercomputers.</p>
+<p>According to the Silver Institute's December 2025 report "Silver, The Next Generation Metal," global industrial silver demand reached a record 680.5 million ounces in 2024 — the fourth consecutive record year.</p>
+<h3>Data Centers: Backbone of the Digital Economy</h3>
+<p>Global IT power capacity surged from 0.93 GW in 2000 to approximately 50 GW in 2025 — a 5,252% increase. More computing hardware means more silver demand.</p>
+<h3>Silver's Role in AI Applications</h3>
+<p>End uses incorporating silver in AI include transportation, nanotechnology, biotechnology, healthcare, consumer wearables, computing, and energy in data centers. Silver is used in conductive pastes on PCBs, multilayer ceramic capacitors, membrane switches, and RFID chip antennas — with no viable substitute found.</p>
+<h3>Future Projections</h3>
+<p>The combined market deficit during 2021-2024 reached 678 million ounces — equivalent to 10 months of global mine production in 2024. As the structural supply deficit continues, silver's strategic importance will only grow.</p>
+<div class="fact-box"><strong>🔬 Key Data:</strong> In 2024, Chinese industrial silver demand rose 7%, India 4%. Global PV demand hit a record 193.5 million ounces.</div>
+<h3>Source</h3>
+<p>Silver Institute World Silver Survey 2025, Oxford Economics report (December 2025).</p>`,
+  ar: `<h3>الفضة في عصر الذكاء الاصطناعي</h3>
+<p>الفضة، أفضل موصل كهربائي في العالم، هي البطل الصامت لثورة الذكاء الاصطناعي. وفقًا لتقرير معهد الفضة لعام 2025، بلغ الطلب الصناعي العالمي على الفضة رقمًا قياسيًا عند 680.5 مليون أونصة في 2024.</p>
+<p>ارتفعت قدرة تكنولوجيا المعلومات العالمية من 0.93 غيغاواط في 2000 إلى حوالي 50 غيغاواط في 2025. بلغ العجز التراكمي في السوق خلال 2021-2024 ما يعادل 678 مليون أونصة.</p>`
+};
+
+C[64] = {
+  tr: `<h3>Elektrikli Araçlarda Gümüş</h3>
+<p>Elektrikli araç (EV) devrimi, gümüş talebinde önemli artışlara yol açmaktadır. Elektrikli araçlar, geleneksel içten yanmalı motorlu araçlara (ICE) kıyasla %67-79 daha fazla gümüş tüketir.</p>
+<p>Bir elektrikli araçta yaklaşık 25-50 gram gümüş kullanılır. Bu miktar küçük görünebilir, ancak yılda 80 milyondan fazla araç üretildiği düşünülürse toplam talep muazzamdır.</p>
+<h3>Gümüşün EV'deki Kullanım Alanları</h3>
+<p>Batarya yönetim sistemleri (BMS) gümüş içerikli iletken bağlantılar kullanır. Güç elektroniği modüllerinde gümüş pastalar elektrik iletimini optimize eder. Şarj altyapısındaki konektörler ve kontaktörler gümüş alaşımlarından üretilir. Elektrikli kontaklar, sensörler ve güvenlik sistemleri de gümüş gerektirir.</p>
+<h3>ICE'den EV'ye Geçiş</h3>
+<p>Geleneksel araçlarda gümüş ağırlıklı olarak anahtarlar, ısıtmalı cam iletken hatları ve fren teknolojisi gibi temel bileşenlerde kullanılıyordu. Ancak teknolojik gelişmeler güvenlik özellikleri ve yolcu konforu (ısıtmalı koltuklar gibi) artırdıkça gümüş talebi de yükseldi.</p>
+<p>Oxford Economics raporuna göre, 2027 yılında EV'ler, otomotiv gümüş talebinin birincil kaynağı olarak ICE araçları geride bırakacak ve 2031'e kadar pazarın %59'unu oluşturacaktır.</p>
+<h3>Küresel Büyüme Oranları</h3>
+<p>Küresel otomotiv gümüş talebi 2025-2031 arasında yıllık %3,4 bileşik büyüme oranı ile artması beklenmektedir. Çin, Avrupa ve ABD bu büyümenin ana sürücüleridir.</p>
+<div class="fact-box"><strong>🚗 Karşılaştırma:</strong> ICE araç ≈ 15-28 gram gümüş | Hibrit (HEV) ≈ 30-40 gram | Tam elektrikli (BEV) ≈ 25-50 gram. Otonom sürüş teknolojisi ekstra sensörlerle bu rakamları daha da artırabilir.</div>
+<h3>Kaynak</h3>
+<p>Oxford Economics "Silver: The Next Generation Metal" raporu, Silver Institute 2025 verileri.</p>`,
+  en: `<h3>Silver in Electric Vehicles</h3>
+<p>The EV revolution is driving substantial increases in silver demand. EVs consume 67-79% more silver than traditional internal combustion vehicles, with approximately 25-50 grams of silver per EV.</p>
+<h3>Where Silver is Used in EVs</h3>
+<p>Battery management systems, power electronics, charging infrastructure connectors, electrical contacts, sensors, and safety systems all require silver.</p>
+<h3>The ICE-to-EV Transition</h3>
+<p>By 2027, EVs will overtake ICE vehicles as the primary source of automotive silver demand, accounting for 59% of the market by 2031. Global automotive silver demand is expected to grow at a 3.4% compound annual rate between 2025-2031.</p>
+<div class="fact-box"><strong>🚗 Comparison:</strong> ICE vehicle ≈ 15-28g silver | Hybrid ≈ 30-40g | Full EV ≈ 25-50g. Autonomous driving technology could increase these figures further.</div>
+<h3>Source</h3>
+<p>Oxford Economics report, Silver Institute 2025 data.</p>`,
+  ar: `<h3>الفضة في السيارات الكهربائية</h3>
+<p>تستهلك السيارات الكهربائية فضة أكثر بنسبة 67-79% مقارنة بسيارات الاحتراق الداخلي، بحوالي 25-50 غرامًا لكل سيارة.</p>
+<p>بحلول 2027، ستتفوق السيارات الكهربائية على سيارات الاحتراق كمصدر رئيسي للطلب على الفضة في قطاع السيارات.</p>`
+};
+
+C[65] = {
+  tr: `<h3>Gümüşte Taş Montaj Teknikleri</h3>
+<p>Bir taşı gümüş bir takıya sabitlemek, hem estetik hem mühendislik becerisi gerektiren ince bir zanaat işidir. Her montaj tekniğinin kendine özgü görsel etkisi, güvenlik seviyesi ve bakım ihtiyacı vardır.</p>
+<h3>Prong (Tırnak) Setting</h3>
+<p>En yaygın ve klasik montaj yöntemidir. Taş, genellikle 4 veya 6 metal tırnak (prong) ile yerinde tutulur. Tırnaklar taşın çevresine minimum metal koyarak ışığın her açıdan girmesine izin verir, bu da taşın parlaklığını maksimize eder.</p>
+<p>Avantajları: Taşı en iyi gösteren yöntem, temizlemesi kolay. Dezavantajları: Tırnaklar zamanla eğilebilir veya aşınabilir, aktif yaşam tarzına daha az uygundur.</p>
+<h3>Bezel (Çerçeve) Setting</h3>
+<p>Taş, ince bir metal şerit (bezel) ile tamamen çevrelenir. Gümüş takılarda özellikle popülerdir çünkü taşı çok güvenli tutar ve modern, temiz bir görünüm sağlar.</p>
+<p>Avantajları: En güvenli montaj, günlük kullanıma ideal, temiz çizgiler. Dezavantajları: Taşın yanlarını kapatır, daha az ışık geçişi.</p>
+<h3>Pavé Setting</h3>
+<p>Çok sayıda küçük taş yan yana dizilir ve küçük metal boncuklar (bead) ile tutulur. Yüzey taşlarla kaplı görünür, parıltılı ve lüks bir etki yaratır. Gümüş üzerinde beyaz zirkon veya markasit taşlarla sıklıkla kullanılır.</p>
+<h3>Channel Setting</h3>
+<p>Taşlar iki metal duvar arasında bir "kanal" içine sıra halinde yerleştirilir. Her taş birbirine ve kanal duvarlarına dayanarak yerinde kalır. Alyans ve bantlarda çok popülerdir.</p>
+<h3>Flush (Gömme) Setting</h3>
+<p>Taş doğrudan metal yüzeyine gömülür, neredeyse aynı seviyeye gelir. Minimalist ve modern bir görünüm sağlar. Çizilme riski düşüktür, aktif yaşam tarzına uygundur.</p>
+<h3>Gümüşe Özel Dikkat Noktaları</h3>
+<p>Gümüş, altından daha yumuşak olduğu için tırnak montajlarda düzenli kontrol önemlidir. Bezel setting, gümüşün doğal yumuşaklığıyla uyumlu olduğu için gümüş takılarda en güvenilir tercih olarak öne çıkar.</p>
+<div class="fact-box"><strong>💎 Tavsiye:</strong> Günlük takılan gümüş yüzükler için bezel veya flush setting; özel gün takıları için prong veya pavé setting idealdir.</div>
+<h3>Kaynak</h3>
+<p>Blue Nile eğitim içerikleri, GIA (Gemological Institute of America) kaynaklarından derlenmiştir.</p>`,
+  en: `<h3>Stone Setting Techniques in Silver</h3>
+<p>Securing a gemstone in silver jewelry requires both aesthetic sense and engineering skill. Each technique has its own visual impact, security level, and care needs.</p>
+<h3>Prong Setting</h3>
+<p>The most classic method. The stone is held by 4-6 metal prongs, allowing maximum light entry and brilliance. Prongs can bend or wear over time.</p>
+<h3>Bezel Setting</h3>
+<p>The stone is fully surrounded by a thin metal strip. Particularly popular in silver jewelry for its security and clean, modern look. Most secure but limits light entry from the sides.</p>
+<h3>Pavé Setting</h3>
+<p>Many small stones set close together, creating a glittering surface. Commonly used with white zircon or marcasite on silver.</p>
+<h3>Channel Setting</h3>
+<p>Stones placed in a row between two metal walls. Popular for wedding bands and eternity rings.</p>
+<h3>Flush Setting</h3>
+<p>Stone sits embedded in the metal surface. Minimalist, modern, and scratch-resistant.</p>
+<div class="fact-box"><strong>💎 Recommendation:</strong> For daily-wear silver rings, choose bezel or flush. For special occasions, prong or pavé settings shine brightest.</div>
+<h3>Source</h3>
+<p>Compiled from Blue Nile education content and GIA resources.</p>`,
+  ar: `<h3>تقنيات تثبيت الأحجار في الفضة</h3>
+<p>تثبيت الأحجار الكريمة في المجوهرات الفضية يتطلب مهارة فنية وهندسية. لكل تقنية تأثيرها البصري ومستوى أمانها.</p>
+<p>تثبيت الشوكة: الأكثر كلاسيكية. تثبيت الإطار: الأكثر أمانًا. تثبيت البافيه: الأكثر لمعانًا. تثبيت القناة: مثالي للخواتم.</p>`
+};
+
+C[66] = {
+  tr: `<h3>Gümüş Bakım A-Z Rehberi</h3>
+<p>Gümüş, doğru bakımla nesiller boyu kullanılabilecek dayanıklı bir metaldir. Bu kapsamlı rehber, günlük bakımdan profesyonel restorasyona kadar bilmeniz gereken her şeyi kapsar.</p>
+<h3>Günlük Bakım Rutini</h3>
+<p>Her kullanımdan sonra yumuşak, tüysüz bir mikrofiber bezle gümüşünüzü silin. Bu basit adım, ter, yağ ve toz birikimini önler ve kararma sürecini önemli ölçüde yavaşlatır. Gümüş takılarınızı en son takın, en önce çıkarın — parfüm, losyon ve saç spreyinin metal yüzeyine temasını minimumda tutun.</p>
+<h3>Haftalık Temizlik</h3>
+<p>Ilık su (soğuk değil, sıcak değil) ve birkaç damla sıvı bulaşık deterjanı ile nazik bir çözelti hazırlayın. Gümüşü 5-10 dakika bekletin, yumuşak bir diş fırçasıyla detay bölgelerini (zincir araları, desen oyukları) hafifçe fırçalayın. Bol suyla durulayın ve tamamen kurulayın — su lekelerini önlemek için temiz bir bezle silme işlemi kritiktir.</p>
+<h3>Kararma (Tarnish) Giderme</h3>
+<p>Kararma, gümüşün havadaki kükürt bileşikleriyle tepkimeye girmesiyle oluşan gümüş sülfür (Ag₂S) tabakasıdır. Bu doğal bir süreçtir ve kalite sorunu değildir.</p>
+<p><strong>Alüminyum folyo yöntemi:</strong> Cam bir kaba alüminyum folyo serin, üzerine 1 çorba kaşığı karbonat ve sıcak su ekleyin. Gümüşü folyo ile temas edecek şekilde yerleştirin. Elektrokimyasal reaksiyon kararlamayı çözer. 2-5 dakika bekleyip çıkarın ve kurulayın.</p>
+<p><strong>Profesyonel gümüş cilalama bezleri:</strong> İçlerinde mikro-aşındırıcı ve kararma önleyici bileşik bulunur. Düzenli parlatma için en pratik çözümdür. Tek yönde, hafif baskıyla silin — dairesel hareketler mikro çiziklere neden olabilir.</p>
+<h3>Yapılmaması Gerekenler</h3>
+<p>Diş macunu ile temizleme yapmayın — aşındırıcı partiküller gümüşü çizer. Klorlu veya amonyaklı temizlik ürünleri kullanmayın. Kauçuk veya lateks eldivenleriyle gümüşe dokunmayın — kükürt içerirler. Bulaşık makinesine koymayın.</p>
+<h3>Depolama Kuralları</h3>
+<p>Hava geçirmez poşetlerde, anti-kararma şeritleriyle birlikte saklayın. Her parçayı ayrı bölmede tutun — metal-metal teması çizilmelere neden olur. Nem oranı düşük, serin bir yerde saklayın. Silika jel paketleri nem kontrolüne yardımcı olur.</p>
+<h3>Profesyonel Bakım</h3>
+<p>Yılda bir kez ultrasonik temizlik yaptırmak, ev yöntemlerinin ulaşamadığı gözeneklerdeki kirleri temizler. Rodyum kaplı parçalar için yeniden kaplama ihtiyacı 12-18 ayda bir doğabilir. Derin çizikler ve hasar için profesyonel kuyumcu restorasyonu gerekir.</p>
+<div class="fact-box"><strong>📅 Bakım Takvimi:</strong> Her gün → mikrofiber silme | Haftalık → sabunlu su yıkama | Aylık → cilalama bezi | 3 ayda bir → derin temizlik | Yıllık → profesyonel ultrasonik</div>
+<h3>Kaynak</h3>
+<p>Tiffany & Co. care guide, Mejuri bakım önerileri ve Rio Grande teknik kaynaklarından derlenmiştir.</p>`,
+  en: `<h3>Silver Care A-Z Guide</h3>
+<p>With proper care, silver can last for generations. This comprehensive guide covers everything from daily maintenance to professional restoration.</p>
+<h3>Daily Care Routine</h3>
+<p>Wipe silver with a soft microfiber cloth after each wear. Put jewelry on last, take it off first — minimize contact with perfume, lotion, and hairspray.</p>
+<h3>Weekly Cleaning</h3>
+<p>Prepare a gentle solution of warm water and a few drops of dish soap. Soak for 5-10 minutes, brush detail areas gently with a soft toothbrush. Rinse thoroughly and dry completely to prevent water spots.</p>
+<h3>Tarnish Removal</h3>
+<p>Tarnish is silver sulfide (Ag₂S) formed by sulfur compounds in air — natural, not a quality issue.</p>
+<p><strong>Aluminum foil method:</strong> Line a glass container with foil, add 1 tablespoon baking soda and hot water. Place silver touching the foil. The electrochemical reaction dissolves tarnish. Wait 2-5 minutes.</p>
+<p><strong>Professional polishing cloths:</strong> Contain micro-abrasives and anti-tarnish compounds. Wipe in one direction with light pressure — circular motions cause micro-scratches.</p>
+<h3>What NOT to Do</h3>
+<p>No toothpaste, chlorine cleaners, ammonia products, rubber gloves (contain sulfur), or dishwashers.</p>
+<h3>Storage Rules</h3>
+<p>Airtight bags with anti-tarnish strips. Separate compartments. Cool, low-humidity location. Silica gel packets help.</p>
+<div class="fact-box"><strong>📅 Care Calendar:</strong> Daily → microfiber wipe | Weekly → soap wash | Monthly → polish cloth | Quarterly → deep clean | Yearly → professional ultrasonic</div>
+<h3>Source</h3>
+<p>Compiled from Tiffany & Co. care guide, Mejuri recommendations, and Rio Grande technical resources.</p>`,
+  ar: `<h3>دليل العناية بالفضة من الألف إلى الياء</h3>
+<p>مع العناية المناسبة، يمكن أن تدوم الفضة لأجيال. امسح الفضة بقطعة قماش ناعمة بعد كل استخدام. نظفها أسبوعيًا بالماء الدافئ والصابون.</p>
+<p>التأكسد طبيعي وليس مشكلة جودة. طريقة رقائق الألمنيوم مع كربونات الصودا فعالة لإزالته. خزّن في أكياس محكمة مع شرائط مضادة للتأكسد.</p>`
+};
+
+C[67] = {
+  tr: `<h3>Gümüş Hediye Rehberi</h3>
+<p>Gümüş, hem ekonomik hem zarif bir hediye seçeneğidir. Bu rehber, farklı bütçeler ve vesileler için gümüş hediye önerileri sunar.</p>
+<h3>₺500 Altı — Günlük Zarafet</h3>
+<p>925 ayar gümüş küpe (halka veya saplama), ince zincir bilezik, basit kolye ucu (ay, yıldız, elif gibi motifler), gümüş anahtarlık. Bu fiyat aralığında markasit taşlı veya oksitlenmiş gümüş parçalar da bulunabilir.</p>
+<h3>₺500 – ₺2.000 — Özel Günler</h3>
+<p>İsme özel gravürlü yüzük, taşlı bilezik (beyaz topaz veya ametist), el yapımı telkâri takılar, gümüş kalem veya masa aksesarı, bebek gümüşü (ilk diş, doğum hatırası).</p>
+<h3>₺2.000+ — Yatırım Değeri</h3>
+<p>Tasarımcı imzalı takı setleri, koleksiyoner gümüş sikkeler, antik gümüş objeler, özel komisyon el işçiliği. Bu segmentte parça hem estetik hem yatırım değeri taşır.</p>
+<h3>Vesileye Göre Öneriler</h3>
+<p><strong>Doğum günü:</strong> Burç taşlı gümüş kolye veya isimli yüzük. <strong>Düğün/nişan:</strong> Çift yüzük, gümüş çerçeve, ev aksesuarı. <strong>Mezuniyet:</strong> Gravürlü bilezik veya gümüş kalem. <strong>Bayram:</strong> Gümüş Kur'an-ı Kerim kutusu, tespih, fincan seti. <strong>Anneler Günü:</strong> İnci-gümüş kombinasyonu, aile ağacı kolye.</p>
+<h3>Hediye Paketleme İpuçları</h3>
+<p>Gümüş hediyeler, anti-kararma bezle sarılmış olarak sunulmalıdır. Bir bakım kartı (nasıl temizlenir, nasıl saklanır) eklemek düşünceli bir dokunuştur. Gravür seçeneği kişiselleştirme sağlar.</p>
+<div class="fact-box"><strong>🎁 İpucu:</strong> Gümüşün 25. evlilik yıl dönümüne adanması (silver anniversary) tesadüf değildir — dayanıklılığı ve zarafetiyle uzun süreli bağları simgeler.</div>`,
+  en: `<h3>Silver Gift Guide</h3>
+<p>Silver is both affordable and elegant as a gift. This guide offers silver gift suggestions across budgets and occasions.</p>
+<h3>Under $30 — Everyday Elegance</h3>
+<p>Sterling silver studs or hoops, thin chain bracelets, simple pendants, silver keychains.</p>
+<h3>$30 – $100 — Special Occasions</h3>
+<p>Personalized engraved rings, gemstone bracelets, handcrafted filigree, silver pens, baby silver gifts.</p>
+<h3>$100+ — Investment Value</h3>
+<p>Designer jewelry sets, collector silver coins, antique objects, commissioned handwork.</p>
+<h3>By Occasion</h3>
+<p><strong>Birthday:</strong> Birthstone pendant. <strong>Wedding:</strong> Matching rings, silver frame. <strong>Graduation:</strong> Engraved bracelet. <strong>Mother's Day:</strong> Pearl-silver combination, family tree necklace.</p>
+<div class="fact-box"><strong>🎁 Tip:</strong> The 25th wedding anniversary is called the "silver anniversary" — silver symbolizes durability and elegance in lasting bonds.</div>`,
+  ar: `<h3>دليل هدايا الفضة</h3>
+<p>الفضة خيار هدية أنيق واقتصادي. أقراط فضة 925، أساور رفيعة، قلادات بسيطة للميزانيات المحدودة. خواتم محفورة وأساور بأحجار كريمة للمناسبات الخاصة.</p>`
+};
+
+C[68] = {
+  tr: `<h3>Gümüş ile Su Arıtma</h3>
+<p>Gümüş iyonlarının antimikrobiyal özellikleri, su arıtma teknolojisinde giderek artan bir rol oynamaktadır. Gümüş, bakterileri, virüsleri ve mantarları etkili bir şekilde yok edebilen nadir metallerden biridir.</p>
+<h3>Gümüş İyonları Nasıl Çalışır?</h3>
+<p>Gümüş iyonları (Ag⁺) bakteri hücre zarına nüfuz ederek enzim fonksiyonlarını bozar ve DNA replikasyonunu engeller. Bu mekanizma, antibiyotiklere dirençli bakterilere karşı bile etkilidir — bu da gümüşü "son çare" antimikrobiyali yapan önemli bir özelliktir.</p>
+<h3>Su Filtrelerinde Gümüş</h3>
+<p>Seramik su filtrelerinde gümüş nanopartiküller kullanılmaktadır. Bu filtreler özellikle gelişmekte olan ülkelerde, elektrik altyapısı olmayan bölgelerde temiz su sağlamada kritik rol oynar. Dünya Sağlık Örgütü (WHO), gümüş bazlı nokta-kullanım su arıtma sistemlerini onaylı yöntemler arasında listelemektedir.</p>
+<h3>Endüstriyel Uygulamalar</h3>
+<p>Hastane su sistemlerinde Legionella önleme için gümüş-bakır iyonlaştırma kullanılır. Yüzme havuzu dezenfeksiyonunda gümüş iyonları klor miktarını azaltmak için tamamlayıcı olarak uygulanır. İçme suyu depolarında gümüş kaplı filtreler biyofilm oluşumunu engeller.</p>
+<h3>Uzay Teknolojisinde Gümüş</h3>
+<p>NASA, Uluslararası Uzay İstasyonu'nda (ISS) su arıtma için gümüş bazlı sistemler kullanmaktadır. Gümüş iyonları, kapalı döngü su geri dönüşüm sistemlerinde kimyasal katkıya alternatif olarak tercih edilir.</p>
+<h3>Gelişmekte Olan Dünyada Etki</h3>
+<p>Su kaynaklı hastalıklar gelişmekte olan ülkelerde büyük bir sorun olmaya devam etmektedir. Gümüş bazlı filtrelerin düşük maliyetli, bakım gerektirmeyen ve elektriksiz çalışabilen versiyonları, özellikle kırsal Afrika ve Güney Asya'da yaşam kurtarmaktadır.</p>
+<div class="fact-box"><strong>💧 İlginç Bilgi:</strong> Antik çağlarda su ve şarap gümüş kaplarda saklanırdı — gümüşün koruyucu etkisi ampirik olarak biliniyordu. Modern bilim, bu geleneğin arkasındaki Ag⁺ iyonlarının antimikrobiyal mekanizmasını doğrulamıştır.</div>
+<h3>Kaynak</h3>
+<p>Silver Institute "Silver in Industry" verileri, WHO su arıtma rehberi, NASA ISS teknik dokümanları.</p>`,
+  en: `<h3>Silver in Water Purification</h3>
+<p>Silver ions' antimicrobial properties play an increasingly important role in water purification technology. Silver is one of the rare metals that can effectively destroy bacteria, viruses, and fungi.</p>
+<h3>How Silver Ions Work</h3>
+<p>Silver ions (Ag⁺) penetrate bacterial cell membranes, disrupting enzyme functions and blocking DNA replication. This mechanism works even against antibiotic-resistant bacteria.</p>
+<h3>Silver in Water Filters</h3>
+<p>Silver nanoparticles are used in ceramic water filters, playing a critical role in providing clean water in developing countries without electrical infrastructure. WHO lists silver-based point-of-use water treatment systems among approved methods.</p>
+<h3>Industrial Applications</h3>
+<p>Silver-copper ionization prevents Legionella in hospital water systems. Silver ions complement chlorine in pool disinfection. Silver-coated filters prevent biofilm formation in drinking water tanks.</p>
+<h3>Space Technology</h3>
+<p>NASA uses silver-based systems for water purification on the International Space Station, preferred over chemical additives in closed-loop water recycling systems.</p>
+<div class="fact-box"><strong>💧 Fun Fact:</strong> In ancient times, water and wine were stored in silver vessels — silver's protective effect was known empirically. Modern science has confirmed the antimicrobial mechanism of Ag⁺ ions behind this tradition.</div>
+<h3>Source</h3>
+<p>Silver Institute "Silver in Industry" data, WHO water treatment guide, NASA ISS technical documentation.</p>`,
+  ar: `<h3>الفضة في تنقية المياه</h3>
+<p>تلعب خصائص أيونات الفضة المضادة للميكروبات دورًا متزايدًا في تكنولوجيا تنقية المياه. أيونات الفضة (Ag⁺) تخترق أغشية الخلايا البكتيرية وتعطل وظائف الإنزيمات.</p>
+<p>تُستخدم في مرشحات المياه الخزفية في البلدان النامية. أقرت منظمة الصحة العالمية أنظمة معالجة المياه القائمة على الفضة.</p>`
+};
+
 export function getArticleContent(id, article) {
   if (C[id]) return C[id];
   const tr = '<p>' + (article.tr?.d || '') + '. Bu konunun detayları için Silverpedi araçlarını kullanabilirsiniz.</p>';

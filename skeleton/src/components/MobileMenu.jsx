@@ -39,7 +39,7 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
         <div className="mm-top">
           <span className="nav-logo" style={{ pointerEvents: 'none' }}>
             <span className="logo-circle">Ag</span>
-            <span>SilverAtlas</span>
+            <span>Silverpedi</span>
           </span>
           <button className="mm-close" onClick={close} aria-label={t(lang, 'menu.close')}>
             <IconX size={18} />

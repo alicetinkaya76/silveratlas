@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* ═══════════════════════════════════════════
-   SilverAtlas SVG Icon System — Faz 10
+   Silverpedi SVG Icon System — Faz 10
    currentColor-based, theme-adaptive
    ═══════════════════════════════════════════ */
 

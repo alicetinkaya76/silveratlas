@@ -445,8 +445,8 @@ function RingSizer({ lang }) {
           flex:1,padding:'12px',borderRadius:12,border:'1px solid var(--border)',
           fontSize:'.85rem',color:'var(--text2)'}}>{TX.restart}</button>
         <button onClick={()=>{
-          const txt = `${TX.resultTitle}: US ${s.us} / EU ${s.eu} / UK ${s.uk} / ${s.dia}mm — SilverAtlas`;
-          if(navigator.share) navigator.share({title:'SilverAtlas Ring Size',text:txt}).catch(()=>{});
+          const txt = `${TX.resultTitle}: US ${s.us} / EU ${s.eu} / UK ${s.uk} / ${s.dia}mm — Silverpedi`;
+          if(navigator.share) navigator.share({title:'Silverpedi Ring Size',text:txt}).catch(()=>{});
           else navigator.clipboard?.writeText(txt);
         }} style={{flex:1,padding:'12px',borderRadius:12,
           background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
@@ -654,7 +654,7 @@ function BraceletSizer({lang}){
       {[{v:braceletCm+'cm',l:'Metric'},{v:braceletIn+'"',l:'Imperial'},{v:braceletMm+'mm',l:'mm'}].map((x,i)=>(<div key={i} style={{padding:'10px 4px',borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}><div style={{fontFamily:'var(--f-mono)',fontSize:'1rem',fontWeight:700,color:i===0?'var(--silver)':'var(--text)'}}>{x.v}</div><div style={{fontSize:'.6rem',color:'var(--text3)',marginTop:1}}>{x.l}</div></div>))}
     </div>
     <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" style={{display:'block',padding:'12px',borderRadius:12,background:'rgba(212,175,55,0.06)',border:'1.5px solid rgba(212,175,55,0.2)',color:'var(--gold)',fontWeight:600,fontSize:'.88rem',marginBottom:10,textDecoration:'none'}}>{TX.order}</a>
-    <div style={{display:'flex',gap:8}}><button onClick={()=>{setPhase('start')}} style={{flex:1,padding:'10px',borderRadius:10,border:'1px solid var(--border)',fontSize:'.82rem',color:'var(--text2)'}}>{TX.restart}</button><button onClick={()=>{const t=`${TX.result}: ${braceletCm}cm / ${braceletIn}" — SilverAtlas`;if(navigator.share)navigator.share({title:'SilverAtlas',text:t}).catch(()=>{});else navigator.clipboard?.writeText(t)}} style={{flex:1,padding:'10px',borderRadius:10,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:600,fontSize:'.82rem',border:'none'}}>{TX.share}</button></div>
+    <div style={{display:'flex',gap:8}}><button onClick={()=>{setPhase('start')}} style={{flex:1,padding:'10px',borderRadius:10,border:'1px solid var(--border)',fontSize:'.82rem',color:'var(--text2)'}}>{TX.restart}</button><button onClick={()=>{const t=`${TX.result}: ${braceletCm}cm / ${braceletIn}" — Silverpedi`;if(navigator.share)navigator.share({title:'Silverpedi',text:t}).catch(()=>{});else navigator.clipboard?.writeText(t)}} style={{flex:1,padding:'10px',borderRadius:10,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:600,fontSize:'.82rem',border:'none'}}>{TX.share}</button></div>
   </div>);
 }
 
@@ -828,8 +828,129 @@ function SilverPriceEstimator({lang}){
   </div>);
 }
 
+/* ── TOOL 30: Gold/Silver Ratio ── */
+function GoldSilverRatio({ lang }) {
+  const lp = useSilverPrice();
+  const ratio = (lp.gold && lp.silver) ? (lp.gold / lp.silver).toFixed(1) : null;
+  const L = {
+    tr: { title:'Altın/Gümüş Oranı', desc:'Tarihsel oran: 15-100 arası. Düşük oran → gümüş pahalı. Yüksek oran → gümüş ucuz (tarihsel perspektifle).', live:'Canlı Oran', gold:'Altın', silver:'Gümüş', low:'Tarihsel düşük ~15', high:'Tarihsel yüksek ~120', note:'Bu oran, bir ons altın alabilmek için kaç ons gümüş gerektiğini gösterir.' },
+    en: { title:'Gold/Silver Ratio', desc:'Historical range: 15-100. Low ratio → silver expensive. High ratio → silver cheap (historically).', live:'Live Ratio', gold:'Gold', silver:'Silver', low:'Historical low ~15', high:'Historical high ~120', note:'This ratio shows how many ounces of silver it takes to buy one ounce of gold.' },
+    ar: { title:'نسبة الذهب/الفضة', desc:'النطاق التاريخي: 15-100', live:'النسبة الحية', gold:'ذهب', silver:'فضة', low:'أدنى تاريخي ~15', high:'أعلى تاريخي ~120', note:'توضح هذه النسبة عدد أونصات الفضة المطلوبة لشراء أونصة ذهب.' }
+  }[lang] || {};
+  const pct = ratio ? Math.min(100, Math.max(0, ((ratio - 15) / (120 - 15)) * 100)) : 50;
+  return (<div className="tm-tool">
+    <p style={{fontSize:'.88rem',color:'var(--text2)',marginBottom:16,lineHeight:1.6}}>{L.desc}</p>
+    {ratio ? (<>
+      <div className="calc-result"><div className="calc-result-num">1 : {ratio}</div><div className="calc-result-label">{L.live} ({L.gold}/{L.silver})</div></div>
+      <div style={{margin:'20px 0 8px'}}>
+        <div style={{display:'flex',justifyContent:'space-between',fontSize:'.7rem',color:'var(--text3)',marginBottom:4}}><span>{L.low}</span><span>{L.high}</span></div>
+        <div style={{height:8,borderRadius:4,background:'var(--border)',position:'relative',overflow:'hidden'}}>
+          <div style={{position:'absolute',left:0,top:0,height:'100%',width:`${pct}%`,borderRadius:4,background:'linear-gradient(90deg,var(--green),var(--gold),var(--red))',transition:'width .5s'}}/>
+          <div style={{position:'absolute',left:`${pct}%`,top:-4,width:3,height:16,borderRadius:2,background:'var(--text)',transform:'translateX(-50%)',transition:'left .5s'}}/>
+        </div>
+      </div>
+      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginTop:16}}>
+        <div className="tm-result-row" style={{flexDirection:'column',alignItems:'center'}}><span style={{fontSize:'.7rem',color:'var(--text3)'}}>{L.gold}</span><span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--gold)'}}>${lp.gold?.toFixed(0)}</span></div>
+        <div className="tm-result-row" style={{flexDirection:'column',alignItems:'center'}}><span style={{fontSize:'.7rem',color:'var(--text3)'}}>{L.silver}</span><span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--silver)'}}>${lp.silver?.toFixed(2)}</span></div>
+      </div>
+    </>) : <div style={{textAlign:'center',color:'var(--text3)',padding:20}}>Loading...</div>}
+    <p style={{fontSize:'.78rem',color:'var(--text3)',marginTop:16,fontStyle:'italic'}}>{L.note}</p>
+  </div>);
+}
+
+/* ── TOOL 31: Counterfeit Detection Guide ── */
+function CounterfeitDetection({ lang }) {
+  const [step, setStep] = useState(0);
+  const L = {
+    tr: { title:'Sahtecilik Tespit Rehberi', tests:[
+      {name:'🧲 Mıknatıs Testi',desc:'Güçlü bir neodimyum mıknatısı gümüşe yaklaştırın. Gerçek gümüş paramanyetik olduğundan mıknatısa çekilmez. Eğer güçlü çekim varsa → sahte (demir/çelik içerir).',result:'Çekilmiyor = ✅ Muhtemelen gerçek | Çekiliyor = ❌ Sahte'},
+      {name:'🧊 Buz Testi',desc:'Bir buz küpünü gümüş yüzeye koyun. Gümüş en yüksek termal iletkenliğe sahip metaldir — buz son derece hızlı eriyecektir (ahşap veya plastik üzerindekinden belirgin şekilde hızlı).',result:'Hızlı eriyor = ✅ İyi sinyal | Yavaş eriyor = ⚠️ Şüpheli'},
+      {name:'🔔 Ses Testi',desc:'Sikkeyi/objeyi sert bir yüzeye hafifçe vurun veya parmakla fiske yapın. Gerçek gümüş yüksek frekanslı, uzun süre tınlayan temiz bir "çın" sesi çıkarır. Sahte gümüş tok ve kısa bir "tık" sesi verir.',result:'Temiz tınlama = ✅ Gerçek | Tok ses = ❌ Şüpheli'},
+      {name:'⚖️ Yoğunluk Testi',desc:'Objeyi hassas terazide tartın, sonra su dolu ölçü kabına batırarak hacmini ölçün. Yoğunluk = kütle/hacim. Saf gümüşün yoğunluğu 10,49 g/cm³\'tür. %10\'dan fazla sapma → şüpheli.',result:'10,49 g/cm³ ±5% = ✅ | Büyük sapma = ❌'},
+      {name:'🏷️ Damga Kontrolü',desc:'Büyüteçle damga/hallmark kontrol edin. 925, 950 veya 999 yazısı, üretici kodu ve ülke damgası olmalıdır. Damga eksikliği, bulanık veya düzensiz damga kırmızı bayraktır.',result:'Net damga = ✅ | Damga yok/bulanık = ⚠️'}
+    ], prev:'Önceki', next:'Sonraki', step:'Adım' },
+    en: { title:'Counterfeit Detection Guide', tests:[
+      {name:'🧲 Magnet Test',desc:'Hold a strong neodymium magnet near the silver. Real silver is paramagnetic and won\'t be attracted. Strong attraction → fake (contains iron/steel).',result:'No attraction = ✅ Likely real | Attracted = ❌ Fake'},
+      {name:'🧊 Ice Test',desc:'Place an ice cube on the silver surface. Silver has the highest thermal conductivity of any metal — ice will melt extremely fast.',result:'Fast melt = ✅ Good sign | Slow melt = ⚠️ Suspicious'},
+      {name:'🔔 Ring Test',desc:'Gently tap the coin/object on a hard surface. Real silver produces a clear, high-pitched, long-lasting ring. Fake silver gives a dull, short thud.',result:'Clear ring = ✅ Real | Dull thud = ❌ Suspicious'},
+      {name:'⚖️ Density Test',desc:'Weigh the object precisely, then measure volume by water displacement. Density = mass/volume. Pure silver density is 10.49 g/cm³.',result:'10.49 g/cm³ ±5% = ✅ | Large deviation = ❌'},
+      {name:'🏷️ Hallmark Check',desc:'Examine hallmarks with a magnifying glass. Look for 925, 950 or 999 stamps, maker\'s mark, and country hallmark.',result:'Clear marks = ✅ | Missing/blurry = ⚠️'}
+    ], prev:'Previous', next:'Next', step:'Step' },
+    ar: { title:'دليل كشف التزوير', tests:[
+      {name:'🧲 اختبار المغناطيس',desc:'قرّب مغناطيسًا من الفضة. الفضة الحقيقية لا تنجذب.',result:'لا انجذاب = ✅ | انجذاب = ❌'},
+      {name:'🧊 اختبار الثلج',desc:'ضع مكعب ثلج على سطح الفضة. الفضة توصل الحرارة بسرعة فائقة.',result:'ذوبان سريع = ✅ | بطيء = ⚠️'},
+      {name:'🔔 اختبار الصوت',desc:'اطرق بلطف. الفضة الحقيقية تصدر رنينًا واضحًا.',result:'رنين واضح = ✅ | صوت مكتوم = ❌'},
+      {name:'⚖️ اختبار الكثافة',desc:'الكثافة = الكتلة/الحجم. كثافة الفضة النقية 10.49 غ/سم³.',result:'±5% = ✅ | انحراف كبير = ❌'},
+      {name:'🏷️ فحص الختم',desc:'ابحث عن ختم 925 أو 950 أو 999.',result:'ختم واضح = ✅ | مفقود = ⚠️'}
+    ], prev:'السابق', next:'التالي', step:'خطوة' }
+  }[lang] || {};
+  const test = L.tests?.[step];
+  return (<div className="tm-tool">
+    <div style={{display:'flex',gap:6,marginBottom:16,justifyContent:'center'}}>
+      {L.tests?.map((_,i)=><div key={i} style={{width:step===i?24:8,height:8,borderRadius:4,background:step===i?'var(--silver)':'var(--border)',transition:'all .3s',cursor:'pointer'}} onClick={()=>setStep(i)}/>)}
+    </div>
+    {test && <>
+      <div style={{fontSize:'.72rem',color:'var(--text3)',fontFamily:'var(--f-mono)',marginBottom:6}}>{L.step} {step+1}/5</div>
+      <h4 style={{fontSize:'1.05rem',fontFamily:'var(--f-head)',marginBottom:10}}>{test.name}</h4>
+      <p style={{fontSize:'.92rem',color:'var(--text2)',lineHeight:1.65,marginBottom:14}}>{test.desc}</p>
+      <div style={{padding:'12px 16px',borderRadius:'var(--r-badge)',background:'rgba(192,192,192,0.04)',border:'1px solid var(--border)',fontSize:'.85rem',color:'var(--text)',lineHeight:1.5}}>{test.result}</div>
+      <div style={{display:'flex',gap:10,marginTop:16}}>
+        <button className="btn btn-secondary" style={{flex:1,minHeight:44}} disabled={step===0} onClick={()=>setStep(s=>s-1)}>{L.prev}</button>
+        <button className="btn btn-primary" style={{flex:1,minHeight:44}} disabled={step===4} onClick={()=>setStep(s=>s+1)}>{L.next}</button>
+      </div>
+    </>}
+  </div>);
+}
+
+/* ── TOOL 32: Melt Value Calculator ── */
+function MeltValueCalc({ lang }) {
+  const lp = useSilverPrice();
+  const [weight, setWeight] = useState(31.1);
+  const [purity, setPurity] = useState(0.999);
+  const [unit, setUnit] = useState('g');
+  const L = {
+    tr: { w:'Ağırlık',u:'Birim',p:'Ayar',result:'Erime Değeri',note:'Spot fiyat üzerinden hesaplanır. Gerçek alım/satım fiyatı prim ve komisyon içerir.',spot:'Spot Fiyat',tl:'TL Karşılığı' },
+    en: { w:'Weight',u:'Unit',p:'Purity',result:'Melt Value',note:'Calculated at spot price. Actual buy/sell price includes premium and commission.',spot:'Spot Price',tl:'TRY Equivalent' },
+    ar: { w:'الوزن',u:'الوحدة',p:'العيار',result:'قيمة الصهر',note:'محسوبة بسعر السوق الفوري.',spot:'السعر الفوري',tl:'المقابل بالليرة' }
+  }[lang] || {};
+  const wGrams = unit === 'oz' ? weight * 31.1035 : unit === 'kg' ? weight * 1000 : weight;
+  const pricePerG = lp.silver ? lp.silver / 31.1035 : 0;
+  const meltUSD = wGrams * purity * pricePerG;
+  const meltTRY = lp.usdtry ? meltUSD * lp.usdtry : null;
+  return (<div className="tm-tool">
+    <label className="calc-label">{L.w}</label>
+    <input type="number" className="calc-input" value={weight} onChange={e=>setWeight(+e.target.value)} min="0" step="0.1" inputMode="decimal"/>
+    <label className="calc-label" style={{marginTop:12}}>{L.u}</label>
+    <select className="calc-select" value={unit} onChange={e=>setUnit(e.target.value)}>
+      <option value="g">Gram</option><option value="oz">Troy Ounce</option><option value="kg">Kilogram</option>
+    </select>
+    <label className="calc-label" style={{marginTop:12}}>{L.p}</label>
+    <select className="calc-select" value={purity} onChange={e=>setPurity(+e.target.value)}>
+      <option value={0.999}>999 (Saf/Pure)</option><option value={0.950}>950</option><option value={0.925}>925 (Sterling)</option><option value={0.900}>900 (Coin)</option><option value={0.835}>835</option><option value={0.800}>800</option>
+    </select>
+    {lp.silver ? (<>
+      <div className="calc-result" style={{marginTop:16}}>
+        <div className="calc-result-num">${meltUSD.toFixed(2)}</div>
+        <div className="calc-result-label">{L.result}</div>
+        {meltTRY && <div style={{fontFamily:'var(--f-mono)',fontSize:'1.1rem',color:'var(--green)',marginTop:6}}>≈ ₺{meltTRY.toFixed(2)}</div>}
+      </div>
+      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginTop:12}}>
+        <div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}>
+          <span style={{fontSize:'.65rem',color:'var(--text3)'}}>{L.spot}</span>
+          <span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'.85rem',color:'var(--silver)'}}>${lp.silver?.toFixed(2)}/oz</span>
+        </div>
+        <div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}>
+          <span style={{fontSize:'.65rem',color:'var(--text3)'}}>$/g</span>
+          <span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'.85rem',color:'var(--silver)'}}>${pricePerG.toFixed(3)}</span>
+        </div>
+      </div>
+    </>) : <div style={{textAlign:'center',color:'var(--text3)',padding:20}}>Loading...</div>}
+    <p style={{fontSize:'.75rem',color:'var(--text3)',marginTop:14,fontStyle:'italic'}}>{L.note}</p>
+  </div>);
+}
+
 /* ════════════ TOOL REGISTRY ════════════ */
-const TOOL_COMPONENTS = { 0:PurityCalc,1:UnitConverter,2:RingSizer,3:QuizTool,4:ColorPalette,5:CarbonFootprint,6:PeriodicTable,7:KaratConverter,8:GemstoneGuide,9:CareGuide,10:WorldMapTool,11:TimelineTool,12:StampIdentifier,13:PriceAlert,14:ZakatCalc,15:PurityTestGuide,16:MetalComparator,17:JewelryCombinator,18:TurkeyAtlas,19:PriceTracker,20:EngravingPreview,21:InsuranceCalc,22:AdvancedQuiz,23:TarnishSimulator,24:WorldClock,25:PortfolioTracker,26:CertificateVerifier,27:BraceletSizer,28:NecklaceGuide,29:SilverPriceEstimator };
+const TOOL_COMPONENTS = { 0:PurityCalc,1:UnitConverter,2:RingSizer,3:QuizTool,4:ColorPalette,5:CarbonFootprint,6:PeriodicTable,7:KaratConverter,8:GemstoneGuide,9:CareGuide,10:WorldMapTool,11:TimelineTool,12:StampIdentifier,13:PriceAlert,14:ZakatCalc,15:PurityTestGuide,16:MetalComparator,17:JewelryCombinator,18:TurkeyAtlas,19:PriceTracker,20:EngravingPreview,21:InsuranceCalc,22:AdvancedQuiz,23:TarnishSimulator,24:WorldClock,25:PortfolioTracker,26:CertificateVerifier,27:BraceletSizer,28:NecklaceGuide,29:SilverPriceEstimator,30:GoldSilverRatio,31:CounterfeitDetection,32:MeltValueCalc };
 
 /* ════════════ TOOL MODAL ════════════ */
 export default function ToolModal({ tool, toolIndex, lang, onClose }) {

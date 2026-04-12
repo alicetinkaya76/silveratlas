@@ -27,7 +27,12 @@ export default function FeaturedArticles({ lang, onOpen }) {
                 <div className="feat-body">
                   <div className="feat-title">{a[lang]?.t}</div>
                   <div className="feat-desc">{a[lang]?.d}</div>
-                  <div className="feat-meta">{a.min} {t(lang, 'article.min')}</div>
+                  <div className="feat-meta" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <span>{a.min} {t(lang, 'article.min')}</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" style={{ opacity: 0.4 }}>
+                      <polyline points="9 18 15 12 9 6"/>
+                    </svg>
+                  </div>
                 </div>
               </div>
             );

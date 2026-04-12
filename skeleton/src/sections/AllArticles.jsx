@@ -23,7 +23,14 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter }) {
 
   return (
     <section className="section" id="articles-section">
-      <FadeUp><div className="section-header"><h2 className="section-title">{t(lang, 'sections.allArticles')}</h2></div></FadeUp>
+      <FadeUp><div className="section-header">
+        <h2 className="section-title">{t(lang, 'sections.allArticles')}</h2>
+        {filtered.length > 0 && (
+          <div className="section-sub" style={{ fontFamily: 'var(--f-mono)', fontSize: '.78rem', color: 'var(--text3)', marginTop: 8 }}>
+            {filtered.length} {lang === 'ar' ? 'مقال' : lang === 'tr' ? 'makale' : 'articles'}
+          </div>
+        )}
+      </div></FadeUp>
       <FadeUp>
         <div className="search-wrap">
           <span className="search-icon-svg"><IconSearch size={18} /></span>

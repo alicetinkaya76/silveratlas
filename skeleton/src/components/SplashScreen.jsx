@@ -4,9 +4,9 @@ export default function SplashScreen({ onDone }) {
   const [phase, setPhase] = useState('in'); // in → hold → out → done
 
   useEffect(() => {
-    const t1 = setTimeout(() => setPhase('hold'), 400);
-    const t2 = setTimeout(() => setPhase('out'), 1400);
-    const t3 = setTimeout(() => { setPhase('done'); onDone(); }, 1900);
+    const t1 = setTimeout(() => setPhase('hold'), 300);
+    const t2 = setTimeout(() => setPhase('out'), 1200);
+    const t3 = setTimeout(() => { setPhase('done'); onDone(); }, 1700);
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
   }, [onDone]);
 
@@ -27,7 +27,7 @@ export default function SplashScreen({ onDone }) {
           <text x="36" y="42" textAnchor="middle" fill="url(#splash-grad)"
             fontFamily="'Playfair Display',Georgia,serif" fontSize="24" fontWeight="800">Ag</text>
         </svg>
-        <div className="splash-text">SilverAtlas</div>
+        <div className="splash-text">Silverpedi</div>
         <div className="splash-bar"><div className="splash-bar-fill" /></div>
       </div>
     </div>

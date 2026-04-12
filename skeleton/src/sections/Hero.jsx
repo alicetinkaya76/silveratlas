@@ -4,7 +4,7 @@ import useSilverPrice from '../hooks/useSilverPrice';
 import { TOOLS } from '../data/tools';
 import { getToolIcon } from '../components/Icons';
 
-const HERO_TOOLS = [2, 27, 28]; // Ring, Bracelet, Necklace
+const HERO_TOOLS = [2, 32, 31]; // Ring, Melt Value, Counterfeit
 
 export default function Hero({ lang, onOpenTool }) {
   const ref = useRef(null);
@@ -31,13 +31,13 @@ export default function Hero({ lang, onOpenTool }) {
     resize();
     window.addEventListener('resize', resize);
 
-    const particles = Array.from({ length: 40 }, () => ({
+    const particles = Array.from({ length: 35 }, () => ({
       x: Math.random() * canvas.offsetWidth,
       y: Math.random() * canvas.offsetHeight,
-      r: Math.random() * 1.5 + 0.3,
-      dx: (Math.random() - 0.5) * 0.3,
-      dy: (Math.random() - 0.5) * 0.2 - 0.1,
-      o: Math.random() * 0.4 + 0.1,
+      r: Math.random() * 1.2 + 0.2,
+      dx: (Math.random() - 0.5) * 0.2,
+      dy: (Math.random() - 0.5) * 0.15 - 0.08,
+      o: Math.random() * 0.3 + 0.05,
     }));
 
     const draw = (now) => {
@@ -63,13 +63,11 @@ export default function Hero({ lang, onOpenTool }) {
   }, []);
 
   const silverTLg = lp.silverPerGTL ? lp.silverPerGTL.toFixed(2) : null;
-  const change24h = lp.silver ? ((lp.silver - 32.5) / 32.5 * 100).toFixed(1) : null;
-  const isUp = change24h && parseFloat(change24h) >= 0;
 
   const FEATURES = {
-    tr: ['50 Makale · 3 Dil', '27 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
-    en: ['50 Articles · 3 Languages', '27 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
-    ar: ['٥٠ مقال · ٣ لغات', '٢٧ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
+    tr: ['68 Makale · 3 Dil', '33 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
+    en: ['68 Articles · 3 Languages', '33 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
+    ar: ['٦٨ مقال · ٣ لغات', '٣٣ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
   }[lang] || [];
 
   const PILL_SVG = [
@@ -108,14 +106,9 @@ export default function Hero({ lang, onOpenTool }) {
       {silverTLg && (
         <div className="hero-price">
           <span className="hero-price-dot" />
-          <span className="hero-price-label">{lang === 'tr' ? 'Gümüş' : lang === 'ar' ? 'فضة' : 'Silver'}</span>
+          <span className="hero-price-label">{t(lang, 'price.silver')}</span>
           <span className="hero-price-val">₺{silverTLg}</span>
           <span className="hero-price-unit">/g</span>
-          {change24h && (
-            <span className={`hero-price-change ${isUp ? 'up' : 'down'}`}>
-              {isUp ? '↑' : '↓'}{Math.abs(parseFloat(change24h))}%
-            </span>
-          )}
         </div>
       )}
 

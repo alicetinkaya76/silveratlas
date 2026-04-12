@@ -13,7 +13,7 @@ const TABS = [
 export default function BottomNav({ lang }) {
   const [active, setActive] = useState('hero');
   const [visible, setVisible] = useState(true);
-  const [lastY, setLastY] = useState(0);
+  const lastYRef = React.useRef(0);
 
   useEffect(() => {
     let ticking = false;
@@ -22,9 +22,8 @@ export default function BottomNav({ lang }) {
       ticking = true;
       requestAnimationFrame(() => {
         const y = window.scrollY;
-        // Hide on scroll down, show on scroll up
-        setVisible(y < 60 || y < lastY);
-        setLastY(y);
+        setVisible(y < 60 || y < lastYRef.current);
+        lastYRef.current = y;
 
         // Detect active section
         for (let i = TABS.length - 1; i >= 0; i--) {
@@ -39,7 +38,7 @@ export default function BottomNav({ lang }) {
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
-  }, [lastY]);
+  }, []);
 
   const scrollTo = (id) => {
     // Close any open article/tool

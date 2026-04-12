@@ -35,7 +35,7 @@ export default function Nav({ lang, dark, cycleLang, toggleTheme, openMenu }) {
     <nav className={`nav${scrolled ? ' scrolled' : ''}`} role="navigation" aria-label="Main">
       <a href="#hero" className="nav-logo" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
         <span className="logo-circle">Ag</span>
-        <span>SilverAtlas</span>
+        <span>Silverpedi</span>
       </a>
       <div className="nav-links">
         {SECTIONS.map((id, idx) => (

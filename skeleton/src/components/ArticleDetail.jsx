@@ -59,7 +59,7 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
   }, [article, lang]);
 
   const handleShare = useCallback(async () => {
-    const title = article?.[lang]?.t || 'SilverAtlas';
+    const title = article?.[lang]?.t || 'Silverpedi';
     const text = article?.[lang]?.d || '';
     if (navigator.share) {
       try { await navigator.share({ title, text, url: window.location.href }); } catch {}
@@ -113,7 +113,7 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
 
         <div style={{ textAlign: 'center', marginBottom: 24 }}>
           <p style={{ fontSize: '.95rem', color: 'var(--text2)', marginBottom: 12 }}>
-            {lang === 'tr' ? 'Bu makaleyi beğendiniz mi?' : lang === 'en' ? 'Did you enjoy this article?' : 'هل أعجبك هذا المقال؟'}
+            {t(lang, 'article.feedback')}
           </p>
           <div className="feedback-row">
             <button className={`feedback-btn${liked === true ? ' liked' : ''}`} onClick={() => setLiked(true)}>
@@ -124,7 +124,7 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ transform: 'rotate(180deg)' }}><path d="M14 9V5a3 3 0 00-6 0v4H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-2a4 4 0 00-4-4h-3z"/></svg>
             </button>
           </div>
-          {liked !== null && <p style={{ fontSize: '.85rem', color: 'var(--text3)', marginTop: 8 }}>{lang === 'tr' ? 'Teşekkürler!' : lang === 'en' ? 'Thanks!' : '!شكراً'}</p>}
+          {liked !== null && <p style={{ fontSize: '.85rem', color: 'var(--text3)', marginTop: 8 }}>{t(lang, 'article.thanks')}</p>}
         </div>
 
         {related.length > 0 && (

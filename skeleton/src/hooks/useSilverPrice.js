@@ -15,36 +15,30 @@ export default function useSilverPrice() {
     }
 
     const fetchPrices = async () => {
-      let silverUSD = null, goldUSD = null, tryRate = null;
+      let silverUSD = null, goldUSD = null, silverTRY = null, tryRate = null;
 
-      // 1) Gümüş — gold-api.com (ücretsiz, gerçek fiyat)
       try {
-        const r = await fetch('https://api.gold-api.com/price/XAG');
-        if (r.ok) { const j = await r.json(); if (j?.price) silverUSD = j.price; }
+        const r = await fetch('https://api.metals.dev/v1/latest?api_key=demo&currency=USD&unit=toz');
+        if (r.ok) { const j = await r.json(); silverUSD = j?.metals?.silver; goldUSD = j?.metals?.gold; }
       } catch {}
 
-      // 2) Altın — gold-api.com
       try {
-        const r2 = await fetch('https://api.gold-api.com/price/XAU');
-        if (r2.ok) { const j2 = await r2.json(); if (j2?.price) goldUSD = j2.price; }
+        const r2 = await fetch('https://api.metals.dev/v1/latest?api_key=demo&currency=TRY&unit=toz');
+        if (r2.ok) { const j2 = await r2.json(); silverTRY = j2?.metals?.silver; if (silverUSD && silverTRY) tryRate = silverTRY / silverUSD; }
       } catch {}
 
-      // 3) USD/TRY — open.er-api.com
-      try {
-        const r3 = await fetch('https://open.er-api.com/v6/latest/USD');
-        if (r3.ok) { const j3 = await r3.json(); tryRate = j3?.rates?.TRY; }
-      } catch {}
-
-      // API'den veri gelemediyse gösterme
-      if (!silverUSD || !tryRate) {
-        if (mounted.current) setData({ silver: null, gold: null, usdtry: null, silverPerG: null, silverPerGTL: null, ts: 0 });
-        return;
+      if (!tryRate) {
+        try {
+          const r3 = await fetch('https://api.frankfurter.app/latest?from=USD&to=TRY');
+          if (r3.ok) { const j3 = await r3.json(); tryRate = j3?.rates?.TRY; }
+        } catch {}
       }
 
+      // No fallback prices — hide if API fails (master prompt rule)
       const result = {
         silver: silverUSD, gold: goldUSD, usdtry: tryRate,
-        silverPerG: silverUSD / 31.1035,
-        silverPerGTL: (silverUSD / 31.1035) * tryRate,
+        silverPerG: silverUSD ? silverUSD / 31.1035 : null,
+        silverPerGTL: (silverUSD && tryRate) ? (silverUSD / 31.1035) * tryRate : null,
         ts: Date.now(),
       };
       _cache = result;

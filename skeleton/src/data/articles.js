@@ -67,6 +67,11 @@ export const ARTICLES = [
   {id:66,slug:"bakim-az",cat:"rehber",min:12,isNew:true,icon:"🧽",tr:{t:"Gümüş Bakım A-Z",d:"Temizlik, parlatma, depolama rehberi"},en:{t:"Silver Care A-Z",d:"Cleaning, polishing, storage guide"},ar:{t:"العناية بالفضة من الألف إلى الياء",d:"دليل التنظيف والتلميع والتخزين"}},
   {id:67,slug:"hediye-rehberi",cat:"stil",min:9,isNew:true,icon:"🎁",tr:{t:"Gümüş Hediye Rehberi",d:"Bütçeye ve vesileye göre öneriler"},en:{t:"Silver Gift Guide",d:"Suggestions by budget and occasion"},ar:{t:"دليل هدايا الفضة",d:"اقتراحات حسب الميزانية والمناسبة"}},
   {id:68,slug:"su-aritma",cat:"bilim",min:10,isNew:true,icon:"💧",tr:{t:"Gümüş ile Su Arıtma",d:"İyon teknolojisi ve antimikrobiyal filtreler"},en:{t:"Silver in Water Purification",d:"Ion technology and antimicrobial filters"},ar:{t:"الفضة في تنقية المياه",d:"تقنية الأيونات والمرشحات المضادة"}},
+  {id:69,slug:"dokum-teknikleri",cat:"zanaat",min:12,isNew:true,icon:"🔥",tr:{t:"Döküm (Casting) Teknikleri",d:"Kayıp mum, kum döküm ve 3D baskı"},en:{t:"Casting Techniques",d:"Lost wax, sand casting and 3D printing"},ar:{t:"تقنيات الصب",d:"الشمع المفقود والصب الرملي والطباعة ثلاثية الأبعاد"}},
+  {id:70,slug:"oksitleme-patina",cat:"zanaat",min:10,isNew:true,icon:"⚗️",tr:{t:"Oksitleme ve Patina Sanatı",d:"Kontrollü kararma ve savat geleneği"},en:{t:"Oxidation & Patina Art",d:"Controlled tarnish and niello tradition"},ar:{t:"فن الأكسدة والباتينا",d:"التأكسد المتحكم وتقليد النيلو"}},
+  {id:71,slug:"dunya-sikke",cat:"koleksiyon",min:13,isNew:true,icon:"🪙",tr:{t:"Dünya Gümüş Sikke Rehberi",d:"Eagle'dan Panda'ya küresel sikkeler"},en:{t:"World Silver Coin Guide",d:"From Eagle to Panda: global coins"},ar:{t:"دليل العملات الفضية العالمية",d:"من النسر إلى الباندا: عملات عالمية"}},
+  {id:72,slug:"grading-degerleme",cat:"koleksiyon",min:11,isNew:true,icon:"🏆",tr:{t:"Sikke Grading ve Değerleme",d:"Sheldon skalası, NGC/PCGS ve kondisyon"},en:{t:"Coin Grading & Valuation",d:"Sheldon scale, NGC/PCGS and condition"},ar:{t:"تصنيف العملات وتقييمها",d:"مقياس شيلدون وNGC/PCGS والحالة"}},
+  {id:73,slug:"repousse-kakma",cat:"zanaat",min:11,isNew:true,icon:"🔨",tr:{t:"Repoussé ve Kakma",d:"Çekiç ve zımba ile kabartma sanatı"},en:{t:"Repoussé & Inlay",d:"Hammer and punch relief art"},ar:{t:"الريبوسيه والتكفيت",d:"فن النحت البارز بالمطرقة"}},
 ];
 
-export const FEATURED_IDS = [1,2,8,16,5,63,61,3,19,34];
+export const FEATURED_IDS = [1,2,8,63,69,61,71,3,19,34];

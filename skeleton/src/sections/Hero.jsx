@@ -65,9 +65,9 @@ export default function Hero({ lang, onOpenTool }) {
   const silverTLg = lp.silverPerGTL ? lp.silverPerGTL.toFixed(2) : null;
 
   const FEATURES = {
-    tr: ['68 Makale · 3 Dil', '33 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
-    en: ['68 Articles · 3 Languages', '33 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
-    ar: ['٦٨ مقال · ٣ لغات', '٣٣ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
+    tr: ['73 Makale · 3 Dil', '33 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
+    en: ['73 Articles · 3 Languages', '33 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
+    ar: ['٧٣ مقال · ٣ لغات', '٣٣ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
   }[lang] || [];
 
   const PILL_SVG = [

@@ -6499,297 +6499,991 @@ C[60] = {
 };
 
 
-// ═══ BATCH 18 — Benchmark-sourced content ═══
+// ═══ BATCH 18+ — Deepened content + Zanaat & Koleksiyon expansion ═══
 
 C[61] = {
   tr: `<h3>Gümüş Stacking Nedir?</h3>
-<p>Gümüş stacking, fiziksel gümüşü düzenli aralıklarla satın alarak biriktirme stratejisidir. İngilizcede "stack" (yığmak) kelimesinden türeyen bu terim, altın/gümüş yatırım dünyasında yaygın olarak kullanılır. Stacking yapan kişilere "stacker" denir.</p>
-<p>Altın, ons başına gümüşten yaklaşık 80-90 kat daha pahalıdır. Bu fark, sınırlı bütçeyle yatırım yapmak isteyenler için gümüşü çok daha erişilebilir kılar. 2024 yılında bir ons gümüş yaklaşık 30 USD iken, bir ons altın 2.300 USD civarındaydı.</p>
+<p>Gümüş stacking, fiziksel gümüşü düzenli aralıklarla satın alarak biriktirme stratejisidir. İngilizcede "stack" (yığmak) kelimesinden türeyen bu terim, kıymetli metal yatırım dünyasında yaygın olarak kullanılır. Stacking, pasif bir yatırım stratejisi olup piyasa zamanlaması yerine tutarlı birikim prensibine dayanır.</p>
+<p>Altın, ons başına gümüşten yaklaşık 60-90 kat daha pahalıdır. Bu fark, sınırlı bütçeyle yatırım yapmak isteyenler için gümüşü çok daha erişilebilir kılar. 2024 yılında bir ons gümüş yaklaşık 30-35 USD iken, bir ons altın 2.300-2.600 USD civarındaydı. 2026 itibarıyla gümüş 75 USD üzerinde, altın 4.700 USD üzerinde seyretmektedir.</p>
+
 <h3>Neden Gümüş Biriktirmeli?</h3>
-<p>Fiziksel gümüş, dijital varlıklardan farklı olarak elinizde tutabileceğiniz somut bir yatırımdır. Enflasyona karşı koruma sağlar, karşı taraf riski taşımaz ve binlerce yıllık değer saklama geçmişine sahiptir. Ayrıca endüstriyel talebi her yıl artmaktadır — 2024'te endüstriyel gümüş talebi rekor 680,5 milyon ons'a ulaşmıştır.</p>
+<p>Fiziksel gümüş, dijital varlıklardan farklı olarak elinizde tutabileceğiniz somut bir yatırımdır. Enflasyona karşı koruma sağlar, karşı taraf riski taşımaz ve binlerce yıllık değer saklama geçmişine sahiptir. Bankacılık krizlerinde, hiperenflasyon dönemlerinde ve para birimlerinin değer kaybettiği süreçlerde fiziksel gümüş her zaman bir "güvenli liman" olmuştur.</p>
+<p>Endüstriyel talebi her yıl artmaktadır — 2024'te endüstriyel gümüş talebi rekor 680,5 milyon ons'a ulaşmıştır. Güneş panelleri, elektrikli araçlar, 5G altyapısı ve yapay zekâ veri merkezleri bu talebin başlıca sürücüleridir. Toplam piyasa 2021-2024 döneminde 678 milyon ons yapısal açık vermiştir — bu da fiyatlar üzerinde uzun vadeli yukarı yönlü baskı oluşturur.</p>
+
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" style="max-width:320px;width:100%">
+<text x="160" y="18" text-anchor="middle" fill="#9a9ab0" font-size="11" font-family="Source Sans 3,sans-serif">Küresel Gümüş Arz-Talep (Milyon Ons)</text>
+<rect x="40" y="35" width="50" height="100" rx="4" fill="#C0C0C0" opacity="0.3"><animate attributeName="height" from="0" to="100" dur="1s" fill="freeze"/></rect>
+<rect x="100" y="30" width="50" height="105" rx="4" fill="#2dd4a0" opacity="0.4"><animate attributeName="height" from="0" to="105" dur="1s" fill="freeze"/></rect>
+<text x="65" y="150" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Arz: 820</text>
+<text x="125" y="150" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Talep: 1.160</text>
+<rect x="190" y="95" width="80" height="40" rx="6" fill="none" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4 2"/>
+<text x="230" y="112" text-anchor="middle" fill="#f87171" font-size="11" font-weight="700" font-family="JetBrains Mono,monospace">-149 Moz</text>
+<text x="230" y="126" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">2024 Açığı</text>
+</svg></div>
+
 <h3>Ne Tür Gümüş Biriktirilir?</h3>
-<p>Gümüş sikkeleri darphane ürünüdür ve devlet garantisi taşır. American Silver Eagle, Kanada Maple Leaf ve Avustralya Kanguru en popüler örneklerdir. Prim (spot fiyat üzerindeki ek maliyet) daha yüksektir ama likiditeleri de yüksektir.</p>
-<p>Gümüş külçeler dikdörtgen veya trapez bloklar halinde dökülür. 1 ons'tan 1 kiloya kadar çeşitli boyutlarda gelir ve genellikle %99,9 veya daha yüksek saflıktadır. Sikkelere göre daha düşük primle satılır.</p>
-<p>Gümüş round'lar sikke boyutunda disklerdir ancak yasal para birimi değildir. Değerleri tamamen gümüş içeriklerine dayanır. Sikkenin boyutu ile külçenin ekonomikliğini birleştirir.</p>
+<p><strong>Gümüş Sikkeleri:</strong> Darphane ürünüdür ve devlet garantisi taşır. American Silver Eagle (ABD), Kanada Maple Leaf, Avustralya Kanguru, Avusturya Filarmoni ve Güney Afrika Krugerrand en popüler örneklerdir. Prim (spot fiyat üzerindeki ek maliyet) genellikle %8-20 arasında değişir ama likiditeleri çok yüksektir — dünyanın her yerinde anında tanınır ve nakde çevrilir.</p>
+<p><strong>Gümüş Külçeler:</strong> Dikdörtgen veya trapez bloklar halinde dökülür. 1 ons'tan 1 kiloya, hatta 100 ons'a kadar çeşitli boyutlarda gelir ve genellikle %99,9 veya daha yüksek saflıktadır. Sikkelere göre %3-8 daha düşük primle satılır. Toplu alımlarda birim başına tasarruf daha da artar.</p>
+<p><strong>Gümüş Round'lar:</strong> Sikke boyutunda disklerdir ancak yasal para birimi değildir. Değerleri tamamen gümüş içeriklerine dayanır. Sikkenin boyutu ile külçenin ekonomikliğini birleştirir. Özel tasarım round'lar koleksiyonerler arasında popülerdir.</p>
+<p><strong>"Junk Silver" (Tedavül Sikkeleri):</strong> ABD'de 1964 öncesi basılan %90 gümüş içerikli yarım dolar, çeyrek dolar ve dime'lar. Yüzey değerlerinin çok üstünde gümüş değerine sahiptirler. Tarihî değer de taşıdıklarından koleksiyoner-stacker kesişiminde ilgi çekerler.</p>
+
+<h3>Maliyet Ortalaması (Dollar-Cost Averaging)</h3>
+<p>Başlangıç için aylık sabit bir bütçe belirlemek ve "maliyet ortalaması" stratejisi uygulamak önerilir. Bu yöntemde her ay aynı tutarda gümüş satın alırsınız — fiyat düştüğünde otomatik olarak daha fazla ons alırsınız, yükseldiğinde daha az. Uzun vadede ortalama alış fiyatınız piyasa ortalamasının altında kalır.</p>
+<p>Örnek: Aylık 500 ₺ bütçeyle, gümüş gramı 100 ₺ iken 5 gram, 80 ₺'ye düşünce 6,25 gram alırsınız. 2 ayda 11,25 gram — ortalama maliyet: 88,9 ₺/g. Piyasa ortalaması ise 90 ₺/g olurdu.</p>
+
 <h3>Türkiye'de Stacking Stratejileri</h3>
-<p>Türkiye'de fiziksel gümüş biriktirmek isteyenler için birkaç pratik yol bulunmaktadır. Kuyumculardan 925 veya 999 ayar gümüş ürünler almak, Darphane basımı hatıra paralar koleksiyonlamak veya online platformlardan külçe sipariş etmek en yaygın yöntemlerdir.</p>
-<p>Başlangıç için aylık sabit bir bütçe belirlemek ve "maliyet ortalaması" (dollar-cost averaging) stratejisi uygulamak önerilir. Fiyat düştüğünde daha fazla, yükseldiğinde daha az alarak uzun vadede ortalama maliyetinizi düşürebilirsiniz.</p>
+<p>Türkiye'de fiziksel gümüş biriktirmek isteyenler için birkaç pratik yol bulunmaktadır. Kuyumculardan 925 veya 999 ayar gümüş ürünler almak en yaygın yöntemdir — ancak işçilik ücreti eklenir. Darphane basımı hatıra paralar koleksiyonlamak hem yatırım hem hobi değeri taşır. Online platformlardan (Harem Altın, Gram Altın vb.) gram bazında dijital gümüş almak da mümkündür, ancak fiziksel teslimat koşullarını kontrol etmek önemlidir.</p>
+<p>Kapalıçarşı ve diğer büyük kuyumcu çarşılarında hurda gümüş alımı yapan tezgâhlar bulunur — bunlar genellikle spot fiyata en yakın alım-satım imkânı sunar. Ancak sahicilik kontrolü (damga, ses testi, mıknatıs testi) alıcının sorumluluğundadır.</p>
+
 <h3>Depolama ve Güvenlik</h3>
-<p>Gümüş, hacim olarak altından çok daha fazla yer kaplar. 1.000 USD değerinde gümüş, aynı değerdeki altından yaklaşık 80 kat daha ağırdır. Bu nedenle depolama planlaması kritiktir. Ev kasası, banka kiralık kasa veya profesyonel depolama tesisleri tercih edilebilir.</p>
-<p>Gümüşü hava geçirmez poşetlerde, anti-kararma şeritleriyle birlikte saklamak kararma sürecini yavaşlatır. Farklı parçaları birbirine temas ettirmeden ayrı bölmelerde tutmak çizilmeleri önler.</p>
-<div class="fact-box"><strong>💡 İpucu:</strong> Stacking topluluklarına katılmak hem bilgi edinmek hem de güvenilir satıcı referansları almak için değerlidir. Reddit'in r/Silverbugs topluluğu dünya genelinde en büyük stacker ağıdır.</div>
+<p>Gümüş, hacim olarak altından çok daha fazla yer kaplar. 10.000 USD değerinde gümüş yaklaşık 4 kilogram ağırlığındadır ve bir ayakkabı kutusu büyüklüğünde yer kaplar. Aynı değerdeki altın ise sadece 65 gram — bir alyans boyutundadır. Bu nedenle depolama planlaması kritiktir.</p>
+<p>Ev kasası en basit çözümdür ancak hırsızlık ve yangın riski taşır. Banka kiralık kasaları güvenlidir ama erişim saatlerle sınırlıdır ve banka iflasında yasal süreçler uzayabilir. Profesyonel depolama tesisleri (Brinks, Loomis gibi) sigortalı ve denetimli ortam sağlar ancak yıllık ücret alır.</p>
+<p>Gümüşü hava geçirmez poşetlerde, anti-kararma şeritleriyle birlikte saklamak kararma sürecini önemli ölçüde yavaşlatır. Farklı parçaları birbirine temas ettirmeden ayrı bölmelerde tutmak çizilmeleri önler. Silika jel paketleri nem kontrolüne yardımcı olur.</p>
+
+<h3>Vergi ve Yasal Boyut</h3>
+<p>Türkiye'de fiziksel gümüş alım-satımında %20 KDV uygulanır. Bu, gümüş yatırımının net getirisini etkileyen önemli bir faktördür. Altın ise KDV'den muaftır — bu durum bazı yatırımcıları altına yönlendirir. Ancak gümüşün uzun vadeli fiyat potansiyeli ve endüstriyel talep büyümesi, KDV yükünü aşabilecek getiri sağlayabilir.</p>
+<p>Yurt dışından gümüş ithal ederken gümrük vergisi ve ek KDV uygulanabilir. Yüksek değerli gümüş alımlarında fatura ve belge saklamak, ileride satış yaparken vergi beyanı açısından önemlidir.</p>
+
+<h3>Stacking Topluluğu</h3>
+<p>Stacking bireysel bir aktivite olsa da güçlü bir topluluk boyutu vardır. Reddit'in r/Silverbugs topluluğu 250.000+ üyesiyle dünyanın en büyük stacker ağıdır. r/WallStreetSilver 2021'deki "silver squeeze" hareketiyle 200.000+ üyeye ulaşmıştır. YouTube'da "silver stacking" araması binlerce rehber video sunar. Türkiye'de ise kuyumcu forumları ve sosyal medya grupları bilgi paylaşım platformları olarak öne çıkmaktadır.</p>
+
+<div class="fact-box"><strong>💡 Başlangıç Planı:</strong> Aylık bütçenizi belirleyin → İlk ay 1-2 ons sikke alın (likidite için) → Sonraki aylarda külçe/round ile maliyet düşürün → Her 6 ayda portföyünüzü gözden geçirin → Depolama çözümünüzü erken planlayın.</div>
+
+<h3>Sıkça Sorulan Sorular</h3>
+<p><strong>Stacking'e ne kadar bütçeyle başlanır?</strong> Tek bir 1 ons gümüş round (~75 USD) ile başlanabilir. Aylık 50-100 USD bile tutarlı olduğunda 5 yılda anlamlı bir birikim oluşturur.</p>
+<p><strong>Gümüş mü altın mı biriktirmeliyim?</strong> İkisi farklı rollere sahiptir. Altın servet koruma, gümüş büyüme potansiyeli sunar. Ideal yaklaşım portföyde her ikisine de yer vermektir.</p>
+<p><strong>Online mi fiziksel mağaza mı?</strong> İkisi de geçerli. Online daha düşük prim sunabilir ama kargo güvenliği ve teslimat süresi dikkate alınmalıdır. Fiziksel mağazada ürünü elinizde görürsünüz.</p>
+
 <h3>Kaynak</h3>
-<p>JM Bullion Stacking Guide, Silver Institute World Silver Survey 2025 verilerinden derlenmiştir.</p>`,
+<p>JM Bullion Stacking Guide, Silver Institute World Silver Survey 2025, Reddit r/Silverbugs topluluk verileri.</p>`,
   en: `<h3>What is Silver Stacking?</h3>
-<p>Silver stacking is the strategy of regularly purchasing and accumulating physical silver. The term "stacking" comes from the practice of literally stacking silver coins and bars, and people who do this are called "stackers."</p>
-<p>Gold is approximately 80-90 times more expensive per ounce than silver. This price difference makes silver far more accessible for investors with limited budgets. In 2024, an ounce of silver was around $30 USD while gold was approximately $2,300 USD.</p>
+<p>Silver stacking is the strategy of regularly purchasing and accumulating physical silver. The term comes from the practice of literally stacking silver coins and bars over time. Unlike active trading, stacking is a passive investment approach based on consistent accumulation rather than market timing.</p>
+<p>Gold is approximately 60-90 times more expensive per ounce than silver, making silver far more accessible for investors with limited budgets. As of 2026, silver trades above $75/oz while gold exceeds $4,700/oz.</p>
+
 <h3>Why Stack Silver?</h3>
-<p>Physical silver is a tangible asset you can hold, unlike digital investments. It provides inflation protection, carries no counterparty risk, and has thousands of years of history as a store of value. Industrial demand is also rising every year — in 2024, industrial silver demand reached a record 680.5 million ounces.</p>
+<p>Physical silver is a tangible asset with no counterparty risk, thousands of years of value-storage history, and growing industrial demand. In 2024, industrial silver demand reached a record 680.5 million ounces, driven by solar panels, EVs, 5G infrastructure, and AI data centers. The structural market deficit of 678 million ounces during 2021-2024 suggests sustained upward price pressure.</p>
+
 <h3>Types of Silver to Stack</h3>
-<p>Silver coins are sovereign mint products backed by government guarantee. The American Silver Eagle, Canadian Maple Leaf, and Australian Kangaroo are the most popular examples. Premiums above spot price are higher but so is liquidity.</p>
-<p>Silver bars are cast as rectangular or trapezoidal blocks, ranging from 1 ounce to 1 kilogram, typically at 99.9% or higher purity. They sell at lower premiums than coins.</p>
-<p>Silver rounds are coin-sized disks that are not legal tender. Their value is based solely on silver content, combining the convenience of coins with the economy of bars.</p>
-<h3>Stacking Strategies</h3>
-<p>Setting a fixed monthly budget and using dollar-cost averaging is recommended for beginners. Buy more when prices dip, less when they rise, to lower your average cost over time.</p>
+<p><strong>Silver coins</strong> are sovereign mint products with government backing. The American Silver Eagle, Canadian Maple Leaf, and Australian Kangaroo are most popular. Premiums run 8-20% above spot but liquidity is excellent.</p>
+<p><strong>Silver bars</strong> range from 1 oz to 100 oz at 99.9%+ purity, selling at 3-8% lower premiums than coins. Bulk purchases offer even greater savings.</p>
+<p><strong>Silver rounds</strong> are coin-sized disks without legal tender status, combining coin convenience with bar economics.</p>
+<p><strong>"Junk silver"</strong> refers to pre-1965 US coins containing 90% silver, valued well above face value with added historical appeal.</p>
+
+<h3>Dollar-Cost Averaging</h3>
+<p>Setting a fixed monthly budget and buying consistently regardless of price is the recommended strategy. When prices dip, you automatically buy more ounces; when they rise, fewer. Over time, your average cost falls below the market average.</p>
+
 <h3>Storage and Security</h3>
-<p>Silver takes up significantly more space than gold by value — $1,000 worth of silver weighs roughly 80 times more than the same value in gold. Home safes, bank deposit boxes, or professional storage facilities are common options. Store silver in airtight bags with anti-tarnish strips, keeping pieces in separate compartments to prevent scratching.</p>
-<div class="fact-box"><strong>💡 Tip:</strong> Joining stacking communities is valuable for both knowledge and trusted dealer referrals. Reddit's r/Silverbugs is the world's largest stacker network.</div>
+<p>$10,000 worth of silver weighs about 4 kilograms — roughly shoebox-sized. The same value in gold weighs just 65 grams. Home safes, bank deposit boxes, and professional vaulting services (Brinks, Loomis) each have trade-offs between accessibility, security, and cost.</p>
+<p>Store silver in airtight bags with anti-tarnish strips, in separate compartments to prevent scratching. Silica gel packets help control humidity.</p>
+
+<h3>Tax Considerations</h3>
+<p>Tax treatment of silver varies by country. In Turkey, physical silver carries 20% VAT (gold is exempt). In the US, silver gains are taxed as collectibles at up to 28%. Understanding local tax implications is essential for calculating net returns.</p>
+
+<h3>The Stacking Community</h3>
+<p>Reddit's r/Silverbugs (250,000+ members) and r/WallStreetSilver (200,000+) are the world's largest stacker communities. YouTube hosts thousands of stacking guides and haul videos.</p>
+
+<div class="fact-box"><strong>💡 Starter Plan:</strong> Set monthly budget → Buy 1-2 oz coins first (for liquidity) → Add bars/rounds to lower cost → Review every 6 months → Plan storage early.</div>
+
+<h3>FAQ</h3>
+<p><strong>How much to start?</strong> A single 1 oz round (~$75) is enough. Even $50-100/month builds meaningfully over 5 years.</p>
+<p><strong>Silver or gold?</strong> Gold preserves wealth; silver offers growth potential. Ideally, hold both.</p>
+
 <h3>Source</h3>
-<p>Compiled from JM Bullion Stacking Guide and Silver Institute World Silver Survey 2025 data.</p>`,
+<p>JM Bullion Stacking Guide, Silver Institute World Silver Survey 2025.</p>`,
   ar: `<h3>ما هو تجميع الفضة؟</h3>
-<p>تجميع الفضة هو استراتيجية شراء الفضة المادية بانتظام وتراكمها. يُطلق على الأشخاص الذين يمارسون هذا النشاط اسم "المجمّعين".</p>
-<p>الذهب أغلى من الفضة بحوالي 80-90 مرة للأونصة الواحدة. هذا الفارق السعري يجعل الفضة أكثر سهولة للمستثمرين ذوي الميزانيات المحدودة.</p>
+<p>تجميع الفضة هو استراتيجية شراء الفضة المادية بانتظام وتراكمها بمرور الوقت. على عكس التداول النشط، يعتمد التجميع على مبدأ الاستمرارية بدلاً من توقيت السوق. الذهب أغلى من الفضة بحوالي 60-90 مرة للأونصة، مما يجعل الفضة أكثر سهولة للمستثمرين ذوي الميزانيات المحدودة.</p>
+
 <h3>لماذا تجمع الفضة؟</h3>
-<p>الفضة المادية أصل ملموس يمكنك الاحتفاظ به. توفر حماية من التضخم ولا تحمل مخاطر الطرف المقابل. في عام 2024، بلغ الطلب الصناعي على الفضة رقمًا قياسيًا عند 680.5 مليون أونصة.</p>
+<p>الفضة المادية أصل ملموس بدون مخاطر الطرف المقابل، مع آلاف السنين من تاريخ تخزين القيمة. في عام 2024، بلغ الطلب الصناعي على الفضة رقمًا قياسيًا عند 680.5 مليون أونصة، مدفوعًا بالألواح الشمسية والسيارات الكهربائية وبنية 5G التحتية ومراكز بيانات الذكاء الاصطناعي. بلغ العجز الهيكلي التراكمي 678 مليون أونصة خلال 2021-2024.</p>
+
 <h3>أنواع الفضة للتجميع</h3>
-<p>العملات الفضية منتجات سك حكومية. السبائك تُباع بعلاوات أقل. الأقراص الفضية تجمع بين حجم العملة واقتصاد السبيكة.</p>
+<p><strong>العملات الفضية:</strong> منتجات سك حكومية مثل النسر الأمريكي وورقة القيقب الكندية. العلاوات 8-20% فوق السعر الفوري لكن السيولة ممتازة.</p>
+<p><strong>السبائك:</strong> من أونصة واحدة إلى 100 أونصة بنقاء 99.9%+. العلاوات أقل بنسبة 3-8% من العملات.</p>
+<p><strong>الأقراص:</strong> بحجم العملة بدون صفة قانونية، تجمع بين ملاءمة العملة واقتصاد السبيكة.</p>
+
+<h3>استراتيجية متوسط التكلفة</h3>
+<p>حدد ميزانية شهرية ثابتة واشترِ بانتظام بغض النظر عن السعر. عندما تنخفض الأسعار، تشتري تلقائيًا أونصات أكثر؛ وعندما ترتفع، أقل. بمرور الوقت، ينخفض متوسط تكلفتك عن متوسط السوق.</p>
+
 <h3>التخزين والأمان</h3>
-<p>الفضة تشغل مساحة أكبر بكثير من الذهب من حيث القيمة. خزائن المنزل أو صناديق الأمانات البنكية أو مرافق التخزين المهنية هي الخيارات الشائعة.</p>`
+<p>فضة بقيمة 10,000 دولار تزن حوالي 4 كيلوغرامات. خزائن المنزل أو صناديق الأمانات البنكية أو مرافق التخزين المهنية كل منها له مزايا وعيوب. خزّن الفضة في أكياس محكمة مع شرائط مضادة للتأكسد.</p>
+
+<h3>المجتمع</h3>
+<p>مجتمع r/Silverbugs على Reddit يضم أكثر من 250,000 عضو. YouTube يستضيف آلاف مقاطع الفيديو التعليمية حول التجميع.</p>
+
+<div class="fact-box"><strong>💡 خطة البداية:</strong> حدد ميزانية شهرية ← اشترِ عملة أو اثنتين أولاً (للسيولة) ← أضف سبائك لخفض التكلفة ← راجع كل 6 أشهر ← خطط للتخزين مبكرًا.</div>
+
+<h3>المصدر</h3>
+<p>دليل JM Bullion، مسح الفضة العالمي 2025 من معهد الفضة.</p>`
 };
 
 C[62] = {
-  tr: `<h3>Sikke mi Külçe mi?</h3>
-<p>Fiziksel gümüş yatırımında en temel karar sikke (coin) ile külçe (bar) arasındaki tercihtir. Her ikisinin de kendine özgü avantajları ve dezavantajları vardır; doğru seçim yatırım hedefinize, bütçenize ve likidite ihtiyaçlarınıza bağlıdır.</p>
+  tr: `<h3>Sikke mi Külçe mi? Kapsamlı Karşılaştırma</h3>
+<p>Fiziksel gümüş yatırımında en temel karar sikke (coin) ile külçe (bar) arasındaki tercihtir. Her ikisinin de kendine özgü avantajları ve dezavantajları vardır; doğru seçim yatırım hedefinize, bütçenize ve likidite ihtiyaçlarınıza bağlıdır. Bu karşılaştırma, bilinçli bir karar vermeniz için gereken tüm bilgileri sunar.</p>
+
 <h3>Sahicilik ve Güven</h3>
-<p>Sikkelerin en büyük avantajı garantili sahiciliktir. Bir "sikke" olarak tanımlanan her ürün, bir egemen darphanenin ürünüdür ve o ülke hükümetinin tam güvencesini taşır. Beyan ettiği gümüş miktarını tam olarak içerdiği yasal olarak onaylanmıştır.</p>
-<p>Külçeler ise çoğunlukla özel darphanelerin ürünüdür. Bu nedenle ülke güvencesi yerine şirket itibarı devreye girer. Sahte gümüş külçe veya kaplama külçe üretmek, sikkelere kıyasla teknik olarak daha kolaydır.</p>
+<p>Sikkelerin en büyük avantajı garantili sahiciliktir. Bir "sikke" olarak tanımlanan her ürün, egemen bir darphanenin ürünüdür ve o ülke hükümetinin tam güvencesini taşır. American Silver Eagle, ABD Darphanesi'nin ürünüdür ve içerdiği 1 ons saf gümüş yasal olarak onaylanmıştır. Bu, sahteciliğin hem zor hem de ağır cezai yaptırımlara tabi olduğu anlamına gelir.</p>
+<p>Külçeler ise çoğunlukla özel darphanelerin ürünüdür. PAMP Suisse, Valcambi, Royal Canadian Mint gibi saygın markalar yüksek güven sunar, ancak küçük veya bilinmeyen üreticilerin ürünlerinde dikkatli olmak gerekir. Sahte gümüş külçe veya tungsten çekirdekli kaplama külçe üretmek, sikkelere kıyasla teknik olarak daha kolaydır.</p>
+
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 320 160" xmlns="http://www.w3.org/2000/svg" style="max-width:320px;width:100%">
+<text x="160" y="16" text-anchor="middle" fill="#9a9ab0" font-size="11" font-family="Source Sans 3,sans-serif" font-weight="600">Sikke vs Külçe Karşılaştırması</text>
+<rect x="20" y="30" width="130" height="120" rx="10" fill="#C0C0C0" opacity="0.08" stroke="#C0C0C0" stroke-width="0.5"/>
+<text x="85" y="50" text-anchor="middle" fill="#C0C0C0" font-size="12" font-weight="700" font-family="Source Sans 3,sans-serif">SİKKE</text>
+<text x="85" y="68" text-anchor="middle" fill="#2dd4a0" font-size="9" font-family="Source Sans 3,sans-serif">✓ Devlet güvencesi</text>
+<text x="85" y="82" text-anchor="middle" fill="#2dd4a0" font-size="9" font-family="Source Sans 3,sans-serif">✓ Yüksek likidite</text>
+<text x="85" y="96" text-anchor="middle" fill="#2dd4a0" font-size="9" font-family="Source Sans 3,sans-serif">✓ Koleksiyon değeri</text>
+<text x="85" y="110" text-anchor="middle" fill="#f87171" font-size="9" font-family="Source Sans 3,sans-serif">✗ Yüksek prim</text>
+<text x="85" y="124" text-anchor="middle" fill="#f87171" font-size="9" font-family="Source Sans 3,sans-serif">✗ Kondisyon hassas</text>
+<rect x="170" y="30" width="130" height="120" rx="10" fill="#D4AF37" opacity="0.06" stroke="#D4AF37" stroke-width="0.5"/>
+<text x="235" y="50" text-anchor="middle" fill="#D4AF37" font-size="12" font-weight="700" font-family="Source Sans 3,sans-serif">KÜLÇE</text>
+<text x="235" y="68" text-anchor="middle" fill="#2dd4a0" font-size="9" font-family="Source Sans 3,sans-serif">✓ Düşük prim</text>
+<text x="235" y="82" text-anchor="middle" fill="#2dd4a0" font-size="9" font-family="Source Sans 3,sans-serif">✓ Toplu tasarruf</text>
+<text x="235" y="96" text-anchor="middle" fill="#2dd4a0" font-size="9" font-family="Source Sans 3,sans-serif">✓ Saf gümüş odağı</text>
+<text x="235" y="110" text-anchor="middle" fill="#f87171" font-size="9" font-family="Source Sans 3,sans-serif">✗ Dar alıcı havuzu</text>
+<text x="235" y="124" text-anchor="middle" fill="#f87171" font-size="9" font-family="Source Sans 3,sans-serif">✗ Sahtecilik riski</text>
+</svg></div>
+
 <h3>Prim (Premium) Farkı</h3>
-<p>Aynı miktarda gümüş içeren bir sikke, bir külçeden daha pahalıya satılır. Bunun nedeni sikkelerin üretim maliyetinin daha yüksek olması, devlet güvencesi taşıması ve koleksiyoner değerinin bulunmasıdır. Ancak yeniden satışta da bu primi geri kazanabilirsiniz.</p>
-<p>Külçeler genel olarak daha düşük primle satılır. Toplu alımlarda birim başına tasarruf daha da artar. 100 ons'luk bir gümüş külçe, 100 ayrı 1 ons'luk sikkeden önemli ölçüde ucuza gelir.</p>
+<p>Aynı miktarda gümüş içeren bir sikke, bir külçeden her zaman daha pahalıya satılır. Bunun üç temel nedeni vardır: daha yüksek üretim maliyeti (detaylı tasarım, kenar tırtıklama, kalite kontrol), devlet güvencesi ve lisans bedeli, koleksiyoner/numismatik değer potansiyeli.</p>
+<p>Tipik prim farkları şöyledir: 1 ons Silver Eagle primi %12-18, 1 ons generic round primi %4-8, 10 ons gümüş külçe primi %3-6, 100 ons gümüş külçe primi %2-4. Toplu alımlarda birim başına tasarruf önemli ölçüde artar — 100 ons'luk bir külçe, 100 ayrı 1 ons'luk sikkeden 500 USD'ye kadar ucuza gelebilir.</p>
+
 <h3>Likidite Karşılaştırması</h3>
-<p>Sikkeler, külçelerden daha kolay nakde çevrilir. Bunun iki temel nedeni vardır: birincisi, bilinen bir sikkenin sahiciliğini sorgulamak gerekmez; ikincisi, alıcı havuzu çok daha geniştir. Her yatırımcı sikke değerlendirir, ancak her yatırımcı külçeyle ilgilenmez.</p>
+<p>Sikkeler, külçelerden belirgin şekilde daha kolay nakde çevrilir. Bunun iki temel nedeni vardır: birincisi, bilinen bir sikkenin sahiciliğini sorgulamak gerekmez — bir Silver Eagle veya Maple Leaf dünya genelinde anında tanınır. İkincisi, alıcı havuzu çok daha geniştir — hem yatırımcılar hem koleksiyonerler hem kuyumcular talip olur.</p>
+<p>Külçeler için alıcı bulmak daha uzun sürebilir. Özellikle büyük külçeler (kilo, 100 ons) niş bir pazar segmentine hitap eder. Ayrıca sahicilik doğrulaması gerektirebilir — assay sertifikası veya XRF testi gibi ek adımlar satış sürecini yavaşlatabilir.</p>
+
 <h3>Depolama ve Bakım</h3>
-<p>Sikkelerin kondisyonu değerini doğrudan etkiler. Bu nedenle sikkeleri koruyucu kapsüllerde, çizilmeden saklama konusunda ekstra özen gerekir. Külçeler ise daha dayanıklıdır ancak farklı boyutlardaki külçeleri düzenli bir şekilde depolamak zorlayıcı olabilir.</p>
+<p>Sikkelerin kondisyonu değerini doğrudan etkiler. Bir MS-70 (mükemmel kondisyon) sikke, aynı sikkenin AG-3 (ağır aşınmış) versiyonundan 10 kat fazla değerli olabilir. Bu nedenle sikkeleri koruyucu kapsüllerde, çizilmeden, parmak izi bulaştırmadan saklama konusunda ekstra özen gerekir.</p>
+<p>Külçeler daha dayanıklıdır — değerleri sadece ağırlık ve saflığa bağlıdır, görünüm ikincildir. Ancak farklı boyutlardaki külçeleri düzenli bir şekilde depolamak yer planlaması gerektirir.</p>
+
 <h3>Koleksiyoner ve Numismatik Değer</h3>
-<p>Sikkelerin gümüş içeriklerinin ötesinde koleksiyoner değeri de olabilir. Nadir veya hatalı basım sikkeler, gümüş değerlerinin çok üstünde fiyatlara satılabilir. Külçelerin değeri ise tamamen ağırlık × spot fiyat formülüne dayanır.</p>
-<div class="fact-box"><strong>⚖️ Özet:</strong> Likidite ve güven istiyorsanız → sikke. Düşük maliyetle maksimum gümüş istiyorsanız → külçe. İdeal strateji her ikisini de portföyünüzde bulundurmaktır.</div>
+<p>Sikkelerin gümüş içeriklerinin ötesinde koleksiyoner değeri de olabilir. Nadir basım yılları, hatalı basımlar, düşük tiraj sikkeler gümüş değerlerinin çok üstünde fiyatlara satılabilir. Örneğin, bazı 1893 Morgan gümüş doları 735.000 USD'ye satılmıştır — gümüş değerinin binlerce katı.</p>
+<p>Külçelerin değeri ise tamamen ağırlık × spot fiyat × prim formülüne dayanır. Tasarım veya marka primi küçük bir fark yaratabilir (PAMP Lady Fortuna gibi) ama esas değer metalin kendisidir.</p>
+
+<h3>Hangi Durumda Hangisi?</h3>
+<p><strong>Likidite ve güven öncelikli →</strong> sikke. Acil nakde çevirme ihtimali varsa, tanınırlığı yüksek sikkeler tercih edilmelidir.</p>
+<p><strong>Düşük maliyetle maksimum gümüş →</strong> külçe. Uzun vadeli birikim odaklıysanız ve satışı acil değilse, düşük primli külçeler daha fazla ons sağlar.</p>
+<p><strong>Hobi + yatırım kombinasyonu →</strong> sikke. Koleksiyonculuk zevkiyle yatırımı birleştirmek isteyenler için sikkeler çift boyutlu tatmin sunar.</p>
+
+<div class="fact-box"><strong>⚖️ Altın Kural:</strong> Deneyimli stackerların çoğu her iki türü de portföylerinde bulundurur. Genel önerilen oran: %60 külçe/round (düşük maliyetle birikim) + %40 sikke (likidite ve koleksiyon değeri).</div>
+
+<h3>Sıkça Sorulan Sorular</h3>
+<p><strong>Türkiye'de en kolay nakde çevrilen gümüş hangisi?</strong> Darphane basımı Cumhuriyet gümüş paraları ve 925 ayar takılar. Uluslararası sikkeler (Eagle, Maple) büyük kuyumcularda kabul görür.</p>
+<p><strong>Sahte külçeyi nasıl anlarım?</strong> Mıknatıs testi (gümüş çekilmez), ses testi (temiz tınlama), buz testi (çok hızlı erir) ve yoğunluk ölçümü (10,49 g/cm³) temel kontrol yöntemleridir.</p>
+
 <h3>Kaynak</h3>
-<p>JM Bullion "Silver Bars vs Silver Coins" kılavuzundan uyarlanmıştır.</p>`,
-  en: `<h3>Coins vs Bars</h3>
-<p>The fundamental decision in physical silver investing is choosing between coins and bars. Each has distinct advantages; the right choice depends on your investment goals, budget, and liquidity needs.</p>
+<p>JM Bullion "Silver Bars vs Silver Coins" kılavuzu, APMEX prim verileri, NGC sikke grading rehberi.</p>`,
+  en: `<h3>Coins vs Bars: Complete Comparison</h3>
+<p>The fundamental decision in physical silver investing is choosing between coins and bars. Each has distinct advantages depending on your investment goals, budget, and liquidity needs.</p>
+
 <h3>Authenticity and Trust</h3>
-<p>Coins' greatest advantage is guaranteed authenticity. Every coin is a sovereign mint product backed by its country's government. Bars are mostly private mint products, making counterfeiting relatively easier.</p>
+<p>Coins carry government guarantee — an American Silver Eagle is backed by the US Mint with certified silver content. Counterfeiting coins is both technically harder and carries severe criminal penalties. Bars from reputable mints (PAMP, Valcambi, RCM) are trustworthy, but unknown brands require verification.</p>
+
 <h3>Premium Differences</h3>
-<p>A coin costs more than a bar with identical silver content due to higher production costs, government backing, and collectible value. Bars sell at lower premiums, especially in bulk — a 100 oz bar costs significantly less than 100 individual 1 oz coins.</p>
+<p>A coin always costs more than a bar with identical silver content. Typical premiums: Silver Eagle 12-18%, generic rounds 4-8%, 10 oz bars 3-6%, 100 oz bars 2-4%. A 100 oz bar can save up to $500 compared to 100 individual coins.</p>
+
 <h3>Liquidity Comparison</h3>
-<p>Coins convert to cash more easily. No one questions whether a Silver Eagle is legitimate. The buyer pool for bars is smaller and may require authenticity verification.</p>
+<p>Coins convert to cash significantly easier. A Silver Eagle is instantly recognized worldwide. Bars, especially large ones (kilo, 100 oz), appeal to a narrower market and may require authenticity verification (assay certificate, XRF testing).</p>
+
 <h3>Storage and Care</h3>
-<p>Coin condition directly affects value, requiring protective capsules and careful handling. Bars are more durable but harder to organize in various sizes.</p>
-<div class="fact-box"><strong>⚖️ Summary:</strong> Want liquidity and trust → coins. Want maximum silver at lowest cost → bars. The ideal strategy includes both.</div>
+<p>Coin condition directly affects value — an MS-70 coin can be worth 10x an AG-3 version. Bars are more durable since value is purely weight-based.</p>
+
+<h3>Collector Value</h3>
+<p>Coins can carry numismatic premiums far exceeding silver content. Some 1893 Morgan dollars have sold for $735,000. Bar value is strictly weight × spot × premium.</p>
+
+<h3>When to Choose Which</h3>
+<p><strong>Liquidity priority →</strong> coins. <strong>Maximum silver per dollar →</strong> bars. <strong>Hobby + investment →</strong> coins.</p>
+
+<div class="fact-box"><strong>⚖️ Golden Rule:</strong> Most experienced stackers hold both. Recommended ratio: 60% bars/rounds + 40% coins.</div>
+
 <h3>Source</h3>
-<p>Adapted from JM Bullion's "Silver Bars vs Silver Coins" guide.</p>`,
-  ar: `<h3>العملات أم السبائك؟</h3>
-<p>القرار الأساسي في الاستثمار في الفضة المادية هو الاختيار بين العملات والسبائك. لكل منهما مزايا مميزة.</p>
-<p>أكبر ميزة للعملات هي الأصالة المضمونة بضمان حكومي. السبائك تُباع بعلاوات أقل خاصة عند الشراء بالجملة.</p>
-<p>العملات أسهل في التحويل إلى نقد. الاستراتيجية المثالية تشمل كليهما في محفظتك.</p>`
+<p>JM Bullion, APMEX premium data, NGC grading guide.</p>`,
+  ar: `<h3>العملات أم السبائك؟ مقارنة شاملة</h3>
+<p>القرار الأساسي في استثمار الفضة المادية هو الاختيار بين العملات والسبائك. لكل منهما مزايا مميزة حسب أهدافك الاستثمارية وميزانيتك واحتياجات السيولة.</p>
+
+<h3>الأصالة والثقة</h3>
+<p>العملات تحمل ضمانة حكومية — النسر الأمريكي الفضي مدعوم من دار السك الأمريكية بمحتوى فضي معتمد. تزوير العملات أصعب تقنيًا ويحمل عقوبات جنائية صارمة. السبائك من علامات تجارية موثوقة مثل PAMP وValcambi جديرة بالثقة، لكن العلامات المجهولة تتطلب التحقق.</p>
+
+<h3>فروق العلاوة</h3>
+<p>العملة دائمًا أغلى من السبيكة بنفس المحتوى الفضي. العلاوات النموذجية: النسر الفضي 12-18%، الأقراص العامة 4-8%، سبائك 10 أونصات 3-6%، سبائك 100 أونصة 2-4%.</p>
+
+<h3>مقارنة السيولة</h3>
+<p>العملات أسهل بكثير في التحويل إلى نقد. النسر الفضي معروف عالميًا فوريًا. السبائك الكبيرة تستهدف شريحة أضيق وقد تتطلب التحقق من الأصالة.</p>
+
+<h3>التخزين والعناية</h3>
+<p>حالة العملة تؤثر مباشرة على قيمتها — عملة MS-70 قد تساوي 10 أضعاف نسخة AG-3. السبائك أكثر متانة لأن القيمة تعتمد فقط على الوزن.</p>
+
+<h3>القيمة النُّمِسْماتية</h3>
+<p>العملات قد تحمل علاوات تتجاوز محتوى الفضة بكثير. بعض دولارات مورغان 1893 بيعت بمبلغ 735,000 دولار.</p>
+
+<div class="fact-box"><strong>⚖️ القاعدة الذهبية:</strong> معظم المجمعين المحترفين يحتفظون بالنوعين. النسبة الموصى بها: 60% سبائك/أقراص + 40% عملات.</div>
+
+<h3>المصدر</h3>
+<p>JM Bullion، بيانات APMEX، دليل تصنيف NGC.</p>`
 };
+
 
 C[63] = {
-  tr: `<h3>Yapay Zekâ Çağında Gümüş</h3>
-<p>Gümüş, dünyanın en iyi elektrik iletkeni olarak yapay zekâ devriminin sessiz kahramanıdır. Akıllı telefonlardan süper bilgisayarlara, ışık anahtarlarından veri merkezlerine kadar neredeyse her elektronik cihazda gümüş bulunur.</p>
-<p>Silver Institute'un Aralık 2025 tarihli "Silver, The Next Generation Metal" raporuna göre, küresel gümüş endüstriyel talebi 2024'te rekor kıran 680,5 milyon ons'a ulaşmıştır — üst üste dördüncü rekor yıl.</p>
+  tr: `<h3>Yapay Zekâ Çağında Gümüş: "Yeni Nesil Metal"</h3>
+<p>Gümüş, dünyanın en iyi elektrik iletkeni olarak yapay zekâ devriminin sessiz kahramanıdır. Akıllı telefonlardan süper bilgisayarlara, ışık anahtarlarından veri merkezlerine kadar neredeyse her elektronik cihazda gümüş bulunur. Silver Institute'un "The Next Generation Metal" başlıklı raporuyla gümüş artık sadece takı ve yatırım metali değil, teknolojinin vazgeçilmez hammaddesi olarak tanımlanmaktadır.</p>
+<p>Küresel gümüş endüstriyel talebi 2024'te rekor kıran 680,5 milyon ons'a ulaşmıştır — üst üste dördüncü rekor yıl. Bu talebin arkasındaki yapısal sürücüler güneş enerjisi (PV), elektrikli araçlar, şebeke altyapısı ve yapay zekâ/veri merkezi segmentleridir.</p>
+
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg" style="max-width:340px;width:100%">
+<text x="170" y="16" text-anchor="middle" fill="#9a9ab0" font-size="11" font-family="Source Sans 3,sans-serif" font-weight="600">Endüstriyel Gümüş Talebi Dağılımı 2024</text>
+<circle cx="110" cy="115" r="70" fill="none" stroke="#333" stroke-width="28"/>
+<circle cx="110" cy="115" r="70" fill="none" stroke="#2dd4a0" stroke-width="28" stroke-dasharray="307 440" stroke-dashoffset="0" transform="rotate(-90 110 115)"><animate attributeName="stroke-dasharray" from="0 440" to="307 440" dur="1.2s" fill="freeze"/></circle>
+<circle cx="110" cy="115" r="70" fill="none" stroke="#D4AF37" stroke-width="28" stroke-dasharray="66 440" stroke-dashoffset="-307" transform="rotate(-90 110 115)"><animate attributeName="stroke-dasharray" from="0 440" to="66 440" dur="1.2s" fill="freeze"/></circle>
+<circle cx="110" cy="115" r="70" fill="none" stroke="#C0C0C0" stroke-width="28" stroke-dasharray="44 440" stroke-dashoffset="-373" transform="rotate(-90 110 115)"><animate attributeName="stroke-dasharray" from="0 440" to="44 440" dur="1.2s" fill="freeze"/></circle>
+<text x="110" y="112" text-anchor="middle" fill="#C0C0C0" font-size="18" font-weight="800" font-family="JetBrains Mono,monospace">680.5</text>
+<text x="110" y="128" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Milyon Ons</text>
+<rect x="220" y="65" width="10" height="10" rx="2" fill="#2dd4a0"/><text x="236" y="75" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Elektrik/Elektronik %68</text>
+<rect x="220" y="85" width="10" height="10" rx="2" fill="#D4AF37"/><text x="236" y="95" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Fotovoltaik (PV) %15</text>
+<rect x="220" y="105" width="10" height="10" rx="2" fill="#C0C0C0"/><text x="236" y="115" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Diğer Endüstri %10</text>
+<rect x="220" y="125" width="10" height="10" rx="2" fill="#333"/><text x="236" y="135" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Lehim/Alaşım %7</text>
+</svg></div>
+
 <h3>Veri Merkezleri: Dijital Ekonominin Omurgası</h3>
-<p>Veri merkezleri bulut bilişim hizmetlerini çalıştırmak, verileri depolamak ve yönetmek, ve giderek artan bir şekilde yapay zekâ sistemlerini güçlendirmek için gereken fiziksel altyapıyı sağlar.</p>
-<p>Küresel BT güç kapasitesi 2000 yılındaki 0,93 GW'dan 2025'te yaklaşık 50 GW'a yükselmiştir — bu %5.252'lik bir artıştır. Daha fazla hesaplama donanımı, daha fazla gümüş talebi anlamına gelir.</p>
-<h3>AI Uygulamalarında Gümüşün Rolü</h3>
-<p>Yapay zekânın gümüş kullanacağı son kullanım alanları arasında ulaşım, nanoteknoloji, biyoteknoloji, sağlık, giyilebilir tüketici ürünleri, bilgi işlem ve veri merkezlerinde enerji yer almaktadır.</p>
-<p>Gümüş, baskılı devre kartlarındaki iletken pastalar, çok katmanlı seramik kapasitörler (MLCC), membran anahtarlar ve RFID çiplerinin antenleri gibi kritik bileşenlerde kullanılır. Bu uygulamaların hiçbirinde gümüşün tam ikamesi bulunamamıştır.</p>
-<h3>5G ve Bağlantılı Cihazlar</h3>
-<p>5G ağlarının yaygınlaşması, bağlantılı cihaz sayısını katlanarak artırmaktadır. Her 5G baz istasyonu, her akıllı sensör ve her IoT cihazı gümüş içerir. Nesnelerin interneti (IoT) genişledikçe gümüş talebi de yapısal olarak artmaktadır.</p>
+<p>Veri merkezleri bulut bilişim, veri depolama ve yapay zekâ sistemlerinin fiziksel altyapısını sağlar. Küresel BT güç kapasitesi 2000'deki 0,93 GW'dan 2025'te yaklaşık 50 GW'a yükselmiştir — %5.252'lik devasa bir artış. Her yeni sunucu, her yeni switch, her yeni devre kartı gümüş içerir.</p>
+<p>Gümüş, baskılı devre kartlarındaki (PCB) iletken pastalar, çok katmanlı seramik kapasitörler (MLCC), membran anahtarlar ve RFID çiplerinin kâğıt inceliğindeki antenleri gibi kritik bileşenlerde kullanılır. Bu uygulamaların hiçbirinde gümüşün tam ikamesi bulunamamıştır — bakır ve alüminyum iletkenlikte gümüşün gerisinde kalır.</p>
+
+<h3>Yapay Zekâ ve Gümüş Talebi</h3>
+<p>AI uygulamalarının gümüş kullanacağı alanlar geniş bir yelpazeyi kapsar: ulaşım (otonom araç sensörleri), nanoteknoloji (nano-gümüş partiküller), biyoteknoloji (biyosensörler), sağlık (tıbbi cihazlar), giyilebilir tüketici ürünleri (akıllı saatler, fitness bantları), bilgi işlem (GPU ve TPU soğutma çözümleri) ve veri merkezlerinde enerji yönetimi.</p>
+<p>GPU (grafik işlem birimi) talebi AI eğitimi için patlama yapmıştır. NVIDIA'nın H100 ve B200 çipleri, milyarlarca dolarlık veri merkezi yatırımlarını tetiklemiştir. Her GPU'nun monte edildiği sunucu kartı, soket bağlantıları ve güç dağıtım sistemi gümüş içerir.</p>
+
+<h3>5G, IoT ve Bağlantılı Cihazlar</h3>
+<p>5G ağlarının yaygınlaşması bağlantılı cihaz sayısını katlanarak artırmaktadır. Her 5G baz istasyonu, her akıllı sensör ve her IoT cihazı gümüş içerir. 2025 yılında küresel IoT cihaz sayısının 30 milyarı aştığı tahmin edilmektedir — ve her biri miligram düzeyinde bile olsa gümüş tüketir.</p>
+<p>5G antenlerindeki filtreleme devreleri, yüksek frekanslı sinyal iletimi için gümüş bazlı bileşenler kullanır. Gümüşün süper iletkenliğe yakın performansı, 5G'nin gerektirdiği düşük gecikme süreleri için kritiktir.</p>
+
+<h3>Güneş Enerjisi (PV) Bağlantısı</h3>
+<p>Fotovoltaik (güneş paneli) gümüş talebi 2024'te 193,5 milyon ons ile rekor kırmıştır. Her güneş hücresi ön ve arka yüzeyinde gümüş bazlı iletken pasta içerir. Yeni nesil TOPCon ve HJT hücre teknolojileri geleneksel PERC hücrelerine göre daha fazla gümüş kullanır.</p>
+<p>Ancak aynı zamanda gümüş tasarrufu teknolojileri de gelişmektedir — hücre başına gümüş yüklemesi azaltılarak toplam verimlilik artırılmaya çalışılmaktadır. Bu "thrifting" eğilimi talebi kısmen dengelemektedir.</p>
+
+<h3>Yapısal Arz Açığı</h3>
+<p>2021-2024 döneminde toplam piyasa açığı 678 milyon ons'a ulaşmıştır — bu, 2024 yılındaki küresel maden üretiminin (819,7 milyon ons) 10 aylık eşdeğeridir. Silver Institute'a göre 2025'te de 117,6 milyon ons açık beklenmektedir.</p>
+<p>Madencilik üretimi sınırlı büyüme potansiyeline sahiptir — yeni maden projeleri keşiften üretime 7-15 yıl sürer. Geri dönüşüm (2024'te yaklaşık 1.200 ton) kısmen dengeleme sağlasa da yapısal açık devam etmektedir.</p>
+
+<div class="fact-box"><strong>🔬 Kritik Veriler (2024):</strong> Endüstriyel talep: 680,5 Moz (rekor) | PV talebi: 193,5 Moz | Piyasa açığı: 148,9 Moz | Maden üretimi: 819,7 Moz | Çin endüstriyel talep artışı: %7 | Hindistan: %4</div>
+
+<h3>Gümüşün İkame Edilemezliği</h3>
+<p>Gümüşün endüstriyel kullanımdaki en büyük avantajı ikame edilemezliğidir. Bakır daha ucuzdur ama iletkenliği gümüşün %95'i düzeyindedir — kritik uygulamalarda bu %5 fark performans kaybı anlamına gelir. Alüminyum ise %60 iletkenliğe sahiptir. Paladyum ve platin bazı katalitik uygulamalarda alternatif olabilir ama maliyetleri gümüşten çok daha yüksektir.</p>
+<p>Silver Institute'a göre "thrifting ve ikame ölçeği çoğu sektörde sınırlı kalmış, gümüş birçok uygulamada vazgeçilmez konumunu sürdürmüştür."</p>
+
 <h3>Gelecek Projeksiyonları</h3>
-<p>Oxford Economics'in Silver Institute için hazırladığı rapora göre, gümüş önümüzdeki beş yıl boyunca güneş enerjisi, elektrikli araçlar ve AI/veri merkezi segmentlerinden gelen taleple endüstriyel kullanımda büyümeye devam edecektir.</p>
-<p>2021-2024 döneminde toplam piyasa açığı 678 milyon ons'a ulaşmıştır — bu, 2024 yılındaki küresel maden üretiminin 10 aylık eşdeğeridir. Yapısal arz açığı devam ettikçe gümüşün stratejik önemi artacaktır.</p>
-<div class="fact-box"><strong>🔬 Kritik Veri:</strong> 2024 yılında Çin endüstriyel gümüş talebi %7, Hindistan %4 arttı. Global fotovoltaik talebi 193,5 milyon ons ile rekor kırdı.</div>
+<p>Oxford Economics'in Silver Institute için hazırladığı rapora göre, gümüş önümüzdeki beş yıl boyunca üç ana segmentten gelen taleple endüstriyel kullanımda büyümeye devam edecektir: güneş enerjisi kapasitesi genişlemesi, elektrikli araç üretiminin hızlanması ve AI/veri merkezi altyapısı yatırımları.</p>
+<p>ABD, AB, Çin ve diğer ülkelerin veri merkezlerini kritik altyapı olarak tanımlayıp teşvik ve vergi indirimleri sunması, bu büyümeyi hızlandıracak bir politika çerçevesi oluşturmaktadır.</p>
+
+<h3>Yatırımcı İçin Anlam</h3>
+<p>Gümüşün "çift motor" yapısı — hem yatırım hem endüstriyel talep — onu diğer kıymetli metallerden farklılaştırır. Altın ağırlıklı olarak yatırım ve merkez bankası talebiyle hareket ederken, gümüş aynı zamanda teknolojik dönüşümden doğrudan beslenir. Bu, gümüşe hem savunma (enflasyon koruması) hem büyüme (teknoloji talebi) boyutu kazandırır.</p>
+
 <h3>Kaynak</h3>
-<p>Silver Institute World Silver Survey 2025, Oxford Economics "Silver: The Next Generation Metal" raporu (Aralık 2025).</p>`,
-  en: `<h3>Silver in the Age of AI</h3>
-<p>Silver, the world's best electrical conductor, is the quiet hero of the artificial intelligence revolution. It's found in virtually every electronic device from smartphones to supercomputers.</p>
-<p>According to the Silver Institute's December 2025 report "Silver, The Next Generation Metal," global industrial silver demand reached a record 680.5 million ounces in 2024 — the fourth consecutive record year.</p>
+<p>Silver Institute World Silver Survey 2025, Oxford Economics "Silver: The Next Generation Metal" raporu (Aralık 2025), USGS Mineral Commodity Summaries 2025.</p>`,
+  en: `<h3>Silver in the Age of AI: "The Next Generation Metal"</h3>
+<p>Silver, the world's best electrical conductor, is the quiet hero of the AI revolution. The Silver Institute's report "The Next Generation Metal" redefines silver beyond jewelry and investment — it's now an indispensable technology raw material.</p>
+<p>Global industrial silver demand reached a record 680.5 million ounces in 2024 — the fourth consecutive record year. Key drivers are solar PV, electric vehicles, grid infrastructure, and AI/data center segments.</p>
+
 <h3>Data Centers: Backbone of the Digital Economy</h3>
-<p>Global IT power capacity surged from 0.93 GW in 2000 to approximately 50 GW in 2025 — a 5,252% increase. More computing hardware means more silver demand.</p>
-<h3>Silver's Role in AI Applications</h3>
-<p>End uses incorporating silver in AI include transportation, nanotechnology, biotechnology, healthcare, consumer wearables, computing, and energy in data centers. Silver is used in conductive pastes on PCBs, multilayer ceramic capacitors, membrane switches, and RFID chip antennas — with no viable substitute found.</p>
-<h3>Future Projections</h3>
-<p>The combined market deficit during 2021-2024 reached 678 million ounces — equivalent to 10 months of global mine production in 2024. As the structural supply deficit continues, silver's strategic importance will only grow.</p>
-<div class="fact-box"><strong>🔬 Key Data:</strong> In 2024, Chinese industrial silver demand rose 7%, India 4%. Global PV demand hit a record 193.5 million ounces.</div>
+<p>Global IT power capacity surged from 0.93 GW in 2000 to ~50 GW in 2025 — a 5,252% increase. Silver is used in PCB conductive pastes, multilayer ceramic capacitors (MLCC), membrane switches, and RFID chip antennas. No viable substitute has been found for any of these applications.</p>
+
+<h3>AI and Silver Demand</h3>
+<p>AI applications spanning autonomous vehicle sensors, nanotechnology, biosensors, wearables, GPU/TPU cooling solutions, and data center energy management all require silver. The explosion in GPU demand (NVIDIA H100, B200) for AI training has triggered billions in data center investment — each server board containing silver.</p>
+
+<h3>5G, IoT and Connected Devices</h3>
+<p>With 30+ billion IoT devices globally by 2025, each consuming milligrams of silver, aggregate demand is substantial. 5G antenna filtering circuits use silver-based components for the low-latency performance 5G requires.</p>
+
+<h3>Solar PV Connection</h3>
+<p>PV silver demand hit a record 193.5 million ounces in 2024. Next-gen TOPCon and HJT cells use more silver than traditional PERC, though thrifting efforts partially offset this.</p>
+
+<h3>Structural Supply Deficit</h3>
+<p>The cumulative 2021-2024 market deficit reached 678 million ounces — equivalent to 10 months of global mine production. A 117.6 Moz deficit is expected for 2025. New mining projects take 7-15 years from discovery to production.</p>
+
+<div class="fact-box"><strong>🔬 Key Data (2024):</strong> Industrial demand: 680.5 Moz (record) | PV demand: 193.5 Moz | Market deficit: 148.9 Moz | Mine production: 819.7 Moz | China industrial demand growth: +7%</div>
+
+<h3>Silver's Irreplaceability</h3>
+<p>Copper offers 95% of silver's conductivity — that 5% gap matters in critical applications. Aluminum is at 60%. According to the Silver Institute, "thrifting and substitution remained limited across most sectors."</p>
+
+<h3>Investor Implications</h3>
+<p>Silver's "dual-engine" structure — both investment and industrial demand — differentiates it from other precious metals. Gold moves primarily on investment and central bank demand; silver also feeds directly from technological transformation.</p>
+
 <h3>Source</h3>
-<p>Silver Institute World Silver Survey 2025, Oxford Economics report (December 2025).</p>`,
-  ar: `<h3>الفضة في عصر الذكاء الاصطناعي</h3>
-<p>الفضة، أفضل موصل كهربائي في العالم، هي البطل الصامت لثورة الذكاء الاصطناعي. وفقًا لتقرير معهد الفضة لعام 2025، بلغ الطلب الصناعي العالمي على الفضة رقمًا قياسيًا عند 680.5 مليون أونصة في 2024.</p>
-<p>ارتفعت قدرة تكنولوجيا المعلومات العالمية من 0.93 غيغاواط في 2000 إلى حوالي 50 غيغاواط في 2025. بلغ العجز التراكمي في السوق خلال 2021-2024 ما يعادل 678 مليون أونصة.</p>`
+<p>Silver Institute WSS 2025, Oxford Economics report (Dec 2025), USGS MCS 2025.</p>`,
+  ar: `<h3>الفضة في عصر الذكاء الاصطناعي: "معدن الجيل القادم"</h3>
+<p>الفضة، أفضل موصل كهربائي في العالم، هي البطل الصامت لثورة الذكاء الاصطناعي. تقرير معهد الفضة "معدن الجيل القادم" يعيد تعريف الفضة كمادة خام تقنية لا غنى عنها.</p>
+<p>بلغ الطلب الصناعي العالمي على الفضة رقمًا قياسيًا عند 680.5 مليون أونصة في 2024 — السنة القياسية الرابعة على التوالي. المحركات الرئيسية هي الطاقة الشمسية والسيارات الكهربائية والبنية التحتية للشبكات ومراكز بيانات الذكاء الاصطناعي.</p>
+
+<h3>مراكز البيانات</h3>
+<p>ارتفعت قدرة تكنولوجيا المعلومات العالمية من 0.93 غيغاواط في 2000 إلى حوالي 50 غيغاواط في 2025 — زيادة بنسبة 5,252%. الفضة تُستخدم في معاجين التوصيل على لوحات الدوائر المطبوعة والمكثفات الخزفية متعددة الطبقات ومفاتيح الأغشية وهوائيات شرائح RFID. لم يُعثر على بديل قابل للتطبيق لأي من هذه التطبيقات.</p>
+
+<h3>الذكاء الاصطناعي والطلب</h3>
+<p>تطبيقات الذكاء الاصطناعي الممتدة من مستشعرات المركبات ذاتية القيادة إلى تكنولوجيا النانو والمستشعرات الحيوية والأجهزة القابلة للارتداء وحلول تبريد GPU/TPU تتطلب الفضة. انفجار الطلب على GPU لتدريب الذكاء الاصطناعي أدى إلى مليارات من استثمارات مراكز البيانات.</p>
+
+<h3>5G وإنترنت الأشياء</h3>
+<p>مع أكثر من 30 مليار جهاز IoT عالميًا بحلول 2025، كل منها يستهلك ميليغرامات من الفضة، الطلب الإجمالي كبير. دوائر تصفية هوائي 5G تستخدم مكونات أساسها الفضة.</p>
+
+<h3>العجز الهيكلي في العرض</h3>
+<p>بلغ العجز التراكمي في السوق 2021-2024 ما يعادل 678 مليون أونصة — 10 أشهر من الإنتاج المنجمي العالمي. يُتوقع عجز 117.6 مليون أونصة في 2025.</p>
+
+<div class="fact-box"><strong>🔬 بيانات رئيسية (2024):</strong> الطلب الصناعي: 680.5 مليون أونصة (قياسي) | طلب الطاقة الشمسية: 193.5 مليون أونصة | عجز السوق: 148.9 مليون أونصة | إنتاج المناجم: 819.7 مليون أونصة | نمو الطلب الصناعي الصيني: +7%</div>
+
+<h3>عدم قابلية الاستبدال</h3>
+<p>النحاس يوفر 95% من موصلية الفضة — فجوة 5% مهمة في التطبيقات الحرجة. الألمنيوم عند 60%. وفقًا لمعهد الفضة، "ظل التوفير والاستبدال محدودًا في معظم القطاعات."</p>
+
+<h3>الآثار الاستثمارية</h3>
+<p>هيكل "المحرك المزدوج" للفضة — الطلب الاستثماري والصناعي معًا — يميزها عن المعادن الثمينة الأخرى.</p>
+
+<h3>المصدر</h3>
+<p>مسح الفضة العالمي 2025 من معهد الفضة، تقرير Oxford Economics (ديسمبر 2025).</p>`
 };
 
+
 C[64] = {
-  tr: `<h3>Elektrikli Araçlarda Gümüş</h3>
-<p>Elektrikli araç (EV) devrimi, gümüş talebinde önemli artışlara yol açmaktadır. Elektrikli araçlar, geleneksel içten yanmalı motorlu araçlara (ICE) kıyasla %67-79 daha fazla gümüş tüketir.</p>
-<p>Bir elektrikli araçta yaklaşık 25-50 gram gümüş kullanılır. Bu miktar küçük görünebilir, ancak yılda 80 milyondan fazla araç üretildiği düşünülürse toplam talep muazzamdır.</p>
+  tr: `<h3>Elektrikli Araçlarda Gümüş: Sessiz Devrim</h3>
+<p>Elektrikli araç (EV) devrimi, gümüş talebinde önemli yapısal artışlara yol açmaktadır. Bir elektrikli araçta yaklaşık 25-50 gram gümüş kullanılır — geleneksel içten yanmalı motorlu araçlara (ICE) kıyasla %67-79 daha fazla. Bu miktar küçük görünebilir, ancak yılda 80 milyondan fazla araç üretildiği düşünülürse toplam talep muazzamdır.</p>
+
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg" style="max-width:320px;width:100%">
+<text x="160" y="16" text-anchor="middle" fill="#9a9ab0" font-size="11" font-family="Source Sans 3,sans-serif" font-weight="600">Araç Başına Gümüş Kullanımı (gram)</text>
+<rect x="40" y="40" width="70" height="60" rx="6" fill="#555" opacity="0.3"><animate attributeName="width" from="0" to="70" dur="0.8s" fill="freeze"/></rect>
+<text x="75" y="75" text-anchor="middle" fill="#ccc" font-size="14" font-weight="700" font-family="JetBrains Mono,monospace">15-28</text>
+<text x="75" y="115" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">ICE</text>
+<rect x="130" y="35" width="80" height="65" rx="6" fill="#D4AF37" opacity="0.2"><animate attributeName="width" from="0" to="80" dur="0.8s" fill="freeze"/></rect>
+<text x="170" y="72" text-anchor="middle" fill="#D4AF37" font-size="14" font-weight="700" font-family="JetBrains Mono,monospace">30-40</text>
+<text x="170" y="115" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Hibrit (HEV)</text>
+<rect x="230" y="28" width="90" height="72" rx="6" fill="#2dd4a0" opacity="0.2"><animate attributeName="width" from="0" to="90" dur="0.8s" fill="freeze"/></rect>
+<text x="275" y="68" text-anchor="middle" fill="#2dd4a0" font-size="16" font-weight="700" font-family="JetBrains Mono,monospace">25-50</text>
+<text x="275" y="115" text-anchor="middle" fill="#9a9ab0" font-size="9" font-family="Source Sans 3,sans-serif">Tam EV (BEV)</text>
+</svg></div>
+
 <h3>Gümüşün EV'deki Kullanım Alanları</h3>
-<p>Batarya yönetim sistemleri (BMS) gümüş içerikli iletken bağlantılar kullanır. Güç elektroniği modüllerinde gümüş pastalar elektrik iletimini optimize eder. Şarj altyapısındaki konektörler ve kontaktörler gümüş alaşımlarından üretilir. Elektrikli kontaklar, sensörler ve güvenlik sistemleri de gümüş gerektirir.</p>
-<h3>ICE'den EV'ye Geçiş</h3>
-<p>Geleneksel araçlarda gümüş ağırlıklı olarak anahtarlar, ısıtmalı cam iletken hatları ve fren teknolojisi gibi temel bileşenlerde kullanılıyordu. Ancak teknolojik gelişmeler güvenlik özellikleri ve yolcu konforu (ısıtmalı koltuklar gibi) artırdıkça gümüş talebi de yükseldi.</p>
-<p>Oxford Economics raporuna göre, 2027 yılında EV'ler, otomotiv gümüş talebinin birincil kaynağı olarak ICE araçları geride bırakacak ve 2031'e kadar pazarın %59'unu oluşturacaktır.</p>
-<h3>Küresel Büyüme Oranları</h3>
-<p>Küresel otomotiv gümüş talebi 2025-2031 arasında yıllık %3,4 bileşik büyüme oranı ile artması beklenmektedir. Çin, Avrupa ve ABD bu büyümenin ana sürücüleridir.</p>
-<div class="fact-box"><strong>🚗 Karşılaştırma:</strong> ICE araç ≈ 15-28 gram gümüş | Hibrit (HEV) ≈ 30-40 gram | Tam elektrikli (BEV) ≈ 25-50 gram. Otonom sürüş teknolojisi ekstra sensörlerle bu rakamları daha da artırabilir.</div>
+<p><strong>Batarya Yönetim Sistemi (BMS):</strong> Lityum-iyon batarya paketlerindeki hücre dengeleme devreleri, sıcaklık sensörleri ve akım ölçüm bileşenleri gümüş içerikli iletken bağlantılar kullanır. BMS, bataryanın güvenli ve verimli çalışması için kritiktir — bu bileşenlerdeki iletkenlik kalitesi doğrudan batarya ömrünü etkiler.</p>
+<p><strong>Güç Elektroniği:</strong> İnvertörler (DC→AC dönüşüm), şarj regülatörleri ve motor kontrol üniteleri gümüş bazlı iletken pastalar ve lehim alaşımları kullanır. EV'lerdeki yüksek akım gereksinimleri, gümüşün üstün iletkenliğini zorunlu kılar.</p>
+<p><strong>Şarj Altyapısı:</strong> DC hızlı şarj istasyonlarındaki konektörler ve kontaktörler gümüş alaşımlarından üretilir. 350 kW'lık ultra-hızlı şarj sistemlerinde akım yoğunluğu çok yüksektir — gümüşün düşük direnci ısı kaybını minimize eder.</p>
+<p><strong>Sensörler ve ADAS:</strong> İleri sürücü destek sistemleri (LiDAR, radar, kamera) gümüş içerikli bileşenler kullanır. Otonom sürüş seviyesi arttıkça araç başına sensör sayısı ve dolayısıyla gümüş talebi de artar.</p>
+<p><strong>Isıtmalı Yüzeyler:</strong> Ön cam buzçözücü, ısıtmalı koltuk, ısıtmalı direksiyon gibi konfor özellikleri gümüş bazlı iletken filmler kullanır.</p>
+
+<h3>2027: Dönüm Noktası</h3>
+<p>Oxford Economics raporuna göre, 2027 yılında EV'ler otomotiv gümüş talebinin birincil kaynağı olarak ICE araçları geride bırakacaktır. 2031'e kadar EV'ler otomotiv gümüş pazarının %59'unu oluşturacaktır. Küresel otomotiv gümüş talebi 2025-2031 arasında yıllık %3,4 bileşik büyüme oranıyla artması beklenmektedir.</p>
+
+<h3>Bölgesel Dinamikler</h3>
+<p>Çin, küresel EV üretiminin %60'ından fazlasını karşılamaktadır ve en büyük otomotiv gümüş tüketicisidir. Avrupa'nın 2035 ICE satış yasağı kararı geçişi hızlandırmaktadır. ABD'de IRA (Inflation Reduction Act) teşvikleri EV üretimini artırmaktadır. Türkiye'de TOGG üretimi ve çeşitli Çin markalarının montaj tesisleri EV ekosistemini büyütmektedir.</p>
+
+<h3>Riskler ve Karşı Rüzgârlar</h3>
+<p>Artan gümrük tarifeleri ve ticaret savaşları küresel otomotiv tedarik zincirlerini bozabilir. EV satış ivmesindeki herhangi bir yavaşlama gümüş talebini etkileyebilir. Ancak yapısal trend — ICE'den EV'ye geçiş — geri dönüşümsüz görünmektedir.</p>
+
+<div class="fact-box"><strong>🚗 Özet Veri:</strong> ICE araç ≈ 15-28 g | Hibrit (HEV) ≈ 30-40 g | Tam Elektrikli (BEV) ≈ 25-50 g | Otonom Seviye 4+ ≈ 50-80 g (tahmini). Küresel otomotiv gümüş talebi: CAGR %3,4 (2025-2031).</div>
+
 <h3>Kaynak</h3>
-<p>Oxford Economics "Silver: The Next Generation Metal" raporu, Silver Institute 2025 verileri.</p>`,
-  en: `<h3>Silver in Electric Vehicles</h3>
-<p>The EV revolution is driving substantial increases in silver demand. EVs consume 67-79% more silver than traditional internal combustion vehicles, with approximately 25-50 grams of silver per EV.</p>
+<p>Oxford Economics "Silver: The Next Generation Metal" raporu, Silver Institute World Silver Survey 2025 verileri, IEA Global EV Outlook.</p>`,
+  en: `<h3>Silver in Electric Vehicles: The Quiet Revolution</h3>
+<p>EVs consume 67-79% more silver than traditional ICE vehicles, using approximately 25-50 grams per vehicle. With 80+ million vehicles produced annually, aggregate demand is substantial.</p>
 <h3>Where Silver is Used in EVs</h3>
-<p>Battery management systems, power electronics, charging infrastructure connectors, electrical contacts, sensors, and safety systems all require silver.</p>
-<h3>The ICE-to-EV Transition</h3>
-<p>By 2027, EVs will overtake ICE vehicles as the primary source of automotive silver demand, accounting for 59% of the market by 2031. Global automotive silver demand is expected to grow at a 3.4% compound annual rate between 2025-2031.</p>
-<div class="fact-box"><strong>🚗 Comparison:</strong> ICE vehicle ≈ 15-28g silver | Hybrid ≈ 30-40g | Full EV ≈ 25-50g. Autonomous driving technology could increase these figures further.</div>
+<p><strong>Battery Management Systems:</strong> Cell balancing circuits, temperature sensors, and current measurement components. <strong>Power Electronics:</strong> Inverters, charge regulators, and motor control units. <strong>Charging Infrastructure:</strong> DC fast-charge connectors handling 350 kW. <strong>Sensors and ADAS:</strong> LiDAR, radar, and camera systems. <strong>Heated Surfaces:</strong> Windshield defrosters, heated seats and steering wheels.</p>
+<h3>2027: The Tipping Point</h3>
+<p>By 2027, EVs will overtake ICE as the primary automotive silver demand source, reaching 59% market share by 2031. Global automotive silver demand is expected to grow at 3.4% CAGR through 2031.</p>
+<h3>Regional Dynamics</h3>
+<p>China produces 60%+ of global EVs. Europe's 2035 ICE ban accelerates the transition. US IRA incentives boost production.</p>
+<div class="fact-box"><strong>🚗 Summary:</strong> ICE ≈ 15-28g | HEV ≈ 30-40g | BEV ≈ 25-50g | Level 4+ autonomous ≈ 50-80g (est.).</div>
 <h3>Source</h3>
-<p>Oxford Economics report, Silver Institute 2025 data.</p>`,
-  ar: `<h3>الفضة في السيارات الكهربائية</h3>
-<p>تستهلك السيارات الكهربائية فضة أكثر بنسبة 67-79% مقارنة بسيارات الاحتراق الداخلي، بحوالي 25-50 غرامًا لكل سيارة.</p>
-<p>بحلول 2027، ستتفوق السيارات الكهربائية على سيارات الاحتراق كمصدر رئيسي للطلب على الفضة في قطاع السيارات.</p>`
+<p>Oxford Economics report, Silver Institute WSS 2025, IEA Global EV Outlook.</p>`,
+  ar: `<h3>الفضة في السيارات الكهربائية: الثورة الهادئة</h3>
+<p>تستهلك السيارات الكهربائية فضة أكثر بنسبة 67-79% مقارنة بسيارات الاحتراق الداخلي التقليدية، بحوالي 25-50 غرامًا لكل سيارة. مع إنتاج أكثر من 80 مليون سيارة سنويًا، يكون الطلب الإجمالي هائلاً.</p>
+<h3>أين تُستخدم الفضة في السيارات الكهربائية</h3>
+<p><strong>أنظمة إدارة البطارية:</strong> دوائر موازنة الخلايا ومستشعرات الحرارة. <strong>إلكترونيات الطاقة:</strong> العاكسات ومنظمات الشحن. <strong>البنية التحتية للشحن:</strong> موصلات الشحن السريع DC عند 350 كيلوواط. <strong>المستشعرات وADAS:</strong> أنظمة LiDAR والرادار والكاميرا. <strong>الأسطح المُسخّنة:</strong> مزيل الصقيع والمقاعد المُسخّنة.</p>
+<h3>2027: نقطة التحول</h3>
+<p>بحلول 2027، ستتفوق السيارات الكهربائية على سيارات الاحتراق كمصدر رئيسي للطلب على الفضة في قطاع السيارات، لتصل إلى 59% من حصة السوق بحلول 2031. يُتوقع نمو الطلب على الفضة في قطاع السيارات بمعدل 3.4% سنويًا.</p>
+<h3>الديناميكيات الإقليمية</h3>
+<p>الصين تنتج أكثر من 60% من السيارات الكهربائية عالميًا. حظر أوروبا لسيارات الاحتراق عام 2035 يسرّع التحول. حوافز IRA الأمريكية تعزز الإنتاج.</p>
+<div class="fact-box"><strong>🚗 ملخص:</strong> ICE ≈ 15-28 غ | هجين ≈ 30-40 غ | كهربائي كامل ≈ 25-50 غ | ذاتي القيادة المستوى 4+ ≈ 50-80 غ (تقديري).</div>
+<h3>المصدر</h3>
+<p>تقرير Oxford Economics، مسح الفضة العالمي 2025، نظرة IEA للسيارات الكهربائية العالمية.</p>`
 };
+
 
 C[65] = {
   tr: `<h3>Gümüşte Taş Montaj Teknikleri</h3>
-<p>Bir taşı gümüş bir takıya sabitlemek, hem estetik hem mühendislik becerisi gerektiren ince bir zanaat işidir. Her montaj tekniğinin kendine özgü görsel etkisi, güvenlik seviyesi ve bakım ihtiyacı vardır.</p>
+<p>Bir değerli taşı gümüş takıya sabitlemek, hem estetik duyarlılık hem mühendislik bilgisi gerektiren ince bir zanaat işidir. Her montaj tekniğinin kendine özgü görsel etkisi, güvenlik seviyesi ve bakım gereksinimleri vardır. Bu rehber, en yaygın beş tekniği karşılaştırarak doğru seçimi yapmanızı sağlar.</p>
+
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 340 100" xmlns="http://www.w3.org/2000/svg" style="max-width:340px;width:100%">
+<text x="170" y="14" text-anchor="middle" fill="#9a9ab0" font-size="10" font-family="Source Sans 3,sans-serif" font-weight="600">Montaj Teknikleri — Güvenlik vs Parlaklık</text>
+<line x1="40" y1="80" x2="310" y2="80" stroke="#555" stroke-width="0.5"/>
+<line x1="40" y1="25" x2="40" y2="80" stroke="#555" stroke-width="0.5"/>
+<text x="35" y="30" text-anchor="end" fill="#9a9ab0" font-size="7" font-family="Source Sans 3,sans-serif">Güvenlik</text>
+<text x="310" y="92" text-anchor="end" fill="#9a9ab0" font-size="7" font-family="Source Sans 3,sans-serif">Parlaklık →</text>
+<circle cx="260" cy="45" r="14" fill="#D4AF37" opacity="0.15" stroke="#D4AF37" stroke-width="1"/><text x="260" y="48" text-anchor="middle" fill="#D4AF37" font-size="7" font-weight="600">Prong</text>
+<circle cx="90" cy="38" r="14" fill="#2dd4a0" opacity="0.15" stroke="#2dd4a0" stroke-width="1"/><text x="90" y="41" text-anchor="middle" fill="#2dd4a0" font-size="7" font-weight="600">Bezel</text>
+<circle cx="230" cy="55" r="14" fill="#C0C0C0" opacity="0.15" stroke="#C0C0C0" stroke-width="1"/><text x="230" y="58" text-anchor="middle" fill="#C0C0C0" font-size="7" font-weight="600">Pavé</text>
+<circle cx="160" cy="50" r="14" fill="#f87171" opacity="0.1" stroke="#f87171" stroke-width="1"/><text x="160" y="53" text-anchor="middle" fill="#f87171" font-size="6" font-weight="600">Channel</text>
+<circle cx="120" cy="60" r="14" fill="#9a9ab0" opacity="0.15" stroke="#9a9ab0" stroke-width="1"/><text x="120" y="63" text-anchor="middle" fill="#9a9ab0" font-size="7" font-weight="600">Flush</text>
+</svg></div>
+
 <h3>Prong (Tırnak) Setting</h3>
-<p>En yaygın ve klasik montaj yöntemidir. Taş, genellikle 4 veya 6 metal tırnak (prong) ile yerinde tutulur. Tırnaklar taşın çevresine minimum metal koyarak ışığın her açıdan girmesine izin verir, bu da taşın parlaklığını maksimize eder.</p>
-<p>Avantajları: Taşı en iyi gösteren yöntem, temizlemesi kolay. Dezavantajları: Tırnaklar zamanla eğilebilir veya aşınabilir, aktif yaşam tarzına daha az uygundur.</p>
+<p>En yaygın ve klasik montaj yöntemidir. Taş, genellikle 4 veya 6 metal tırnak ile yerinde tutulur. Tırnaklar taşın çevresine minimum metal koyarak ışığın her açıdan girmesine izin verir — bu da taşın parlaklığını ve ateşini maksimize eder. Solitaire nişan yüzüklerinin %80'inden fazlası prong setting kullanır.</p>
+<p>4 tırnaklı versiyon taşı daha fazla gösterir ama güvenlik biraz düşer. 6 tırnak daha güvenlidir ama taşı biraz daha kapatır. V-tip tırnaklar kalp ve markiz kesim taşların sivri uçlarını korumak için kullanılır.</p>
+<p><strong>Avantajları:</strong> Taşı en iyi gösteren yöntem, temizlemesi kolay, farklı taş boyutlarına uyarlanabilir. <strong>Dezavantajları:</strong> Tırnaklar zamanla eğilebilir veya aşınabilir, aktif yaşam tarzına daha az uygundur, 6 ayda bir tırnak kontrolü gerektirir.</p>
+
 <h3>Bezel (Çerçeve) Setting</h3>
-<p>Taş, ince bir metal şerit (bezel) ile tamamen çevrelenir. Gümüş takılarda özellikle popülerdir çünkü taşı çok güvenli tutar ve modern, temiz bir görünüm sağlar.</p>
-<p>Avantajları: En güvenli montaj, günlük kullanıma ideal, temiz çizgiler. Dezavantajları: Taşın yanlarını kapatır, daha az ışık geçişi.</p>
+<p>Taş, ince bir metal şerit ile tamamen çevrelenir. Gümüş takılarda özellikle popülerdir çünkü taşı çok güvenli tutar ve modern, temiz bir görünüm sağlar. Bezel, taşın kenarlarını tamamen sardığı için darbe ve çizilmelere karşı en iyi korumayı sunar.</p>
+<p>Tam bezel tüm çevreyi kaplar; yarım bezel (half-bezel) taşın yalnızca karşılıklı iki kenarını sarar ve daha fazla ışık geçişine izin verir. Rubover bezel ise ince kenarı taşın üzerine hafifçe döndürerek sabitleme yapar.</p>
+<p><strong>Avantajları:</strong> En güvenli montaj, günlük kullanıma ideal, temiz çizgiler, koruyucu. <strong>Dezavantajları:</strong> Taşın yanlarını kapatır, daha az ışık geçişi, yeniden boyutlandırma zor.</p>
+
 <h3>Pavé Setting</h3>
-<p>Çok sayıda küçük taş yan yana dizilir ve küçük metal boncuklar (bead) ile tutulur. Yüzey taşlarla kaplı görünür, parıltılı ve lüks bir etki yaratır. Gümüş üzerinde beyaz zirkon veya markasit taşlarla sıklıkla kullanılır.</p>
+<p>Çok sayıda küçük taş yan yana dizilir ve küçük metal boncuklar (bead) ile tutulur. Yüzey taşlarla kaplı görünür, parıltılı ve lüks bir etki yaratır. "Pavé" Fransızca "kaldırım" anlamına gelir — taşlar kaldırım taşları gibi yan yana dizilir.</p>
+<p>Micro-pavé versiyonunda çok küçük taşlar (1mm altı) kullanılır ve son derece ince işçilik gerektirir. Gümüş üzerinde beyaz zirkon, kübik zirkon veya markasit taşlarla sıklıkla uygulanır. Pırlanta pavé genellikle altın veya platin üzerinde tercih edilir.</p>
+
 <h3>Channel Setting</h3>
-<p>Taşlar iki metal duvar arasında bir "kanal" içine sıra halinde yerleştirilir. Her taş birbirine ve kanal duvarlarına dayanarak yerinde kalır. Alyans ve bantlarda çok popülerdir.</p>
+<p>Taşlar iki metal duvar arasında bir "kanal" içine sıra halinde yerleştirilir. Her taş birbirine ve kanal duvarlarına dayanarak yerinde kalır — ayrı tırnak veya boncuk yoktur. Alyans ve bantlarda çok popülerdir; düz, kesintisiz bir yüzey sağlar.</p>
+
 <h3>Flush (Gömme) Setting</h3>
-<p>Taş doğrudan metal yüzeyine gömülür, neredeyse aynı seviyeye gelir. Minimalist ve modern bir görünüm sağlar. Çizilme riski düşüktür, aktif yaşam tarzına uygundur.</p>
+<p>Taş doğrudan metal yüzeyine gömülür, yüzeyle neredeyse aynı seviyeye gelir. Minimalist ve modern bir görünüm sağlar. Çizilme riski düşüktür ve aktif yaşam tarzına uygundur. Erkek yüzüklerinde ve unisex takılarda popülerdir.</p>
+
 <h3>Gümüşe Özel Dikkat Noktaları</h3>
-<p>Gümüş, altından daha yumuşak olduğu için tırnak montajlarda düzenli kontrol önemlidir. Bezel setting, gümüşün doğal yumuşaklığıyla uyumlu olduğu için gümüş takılarda en güvenilir tercih olarak öne çıkar.</p>
-<div class="fact-box"><strong>💎 Tavsiye:</strong> Günlük takılan gümüş yüzükler için bezel veya flush setting; özel gün takıları için prong veya pavé setting idealdir.</div>
+<p>Gümüş, altın ve platinden daha yumuşak olduğu için montaj tekniği seçiminde dikkatli olmak gerekir. Prong settinglerde düzenli tırnak kontrolü önemlidir — gevşemiş bir tırnak taş kaybına yol açabilir. Bezel setting, gümüşün doğal yumuşaklığıyla en uyumlu tekniktir.</p>
+<p>Gümüşün kararma özelliği de dikkate alınmalıdır. Pavé ve channel settinglerde taşlar arasındaki küçük boşluklarda kararma birikebilir — düzenli temizlik gerektirir. Rodyum kaplama bu sorunu azaltır.</p>
+
+<div class="fact-box"><strong>💎 Tavsiye:</strong> Günlük takılan gümüş yüzükler için bezel veya flush setting; özel gün takıları için prong veya pavé setting idealdir. Spor ve fiziksel aktivite yapanlar için flush setting en güvenli seçenektir.</div>
+
+<h3>Sıkça Sorulan Sorular</h3>
+<p><strong>En dayanıklı montaj hangisi?</strong> Bezel setting. Taş tamamen çevrelenir ve darbelere karşı en iyi korumayı sağlar.</p>
+<p><strong>Hangi montaj en pahalıdır?</strong> Pavé/micro-pavé — çok sayıda küçük taş ve ince işçilik gerektirir.</p>
+<p><strong>Montaj gevşerse ne yapmalıyım?</strong> Taşı çıkarmadan hemen bir kuyumcuya götürün. Gevşek montajla takı takmaya devam etmek taş kaybına yol açabilir.</p>
+
 <h3>Kaynak</h3>
-<p>Blue Nile eğitim içerikleri, GIA (Gemological Institute of America) kaynaklarından derlenmiştir.</p>`,
+<p>Blue Nile eğitim içerikleri, GIA (Gemological Institute of America), Rio Grande teknik rehberleri.</p>`,
   en: `<h3>Stone Setting Techniques in Silver</h3>
-<p>Securing a gemstone in silver jewelry requires both aesthetic sense and engineering skill. Each technique has its own visual impact, security level, and care needs.</p>
+<p>Securing a gemstone in silver jewelry requires both aesthetic sense and engineering skill. This guide compares five major techniques with their trade-offs.</p>
 <h3>Prong Setting</h3>
-<p>The most classic method. The stone is held by 4-6 metal prongs, allowing maximum light entry and brilliance. Prongs can bend or wear over time.</p>
+<p>The most classic method — 4 or 6 metal prongs hold the stone, allowing maximum light from every angle. 4-prong shows more stone; 6-prong is more secure. V-tip prongs protect pointed ends of heart and marquise cuts. Pros: best light, easy to clean. Cons: prongs can bend, needs 6-month checks.</p>
 <h3>Bezel Setting</h3>
-<p>The stone is fully surrounded by a thin metal strip. Particularly popular in silver jewelry for its security and clean, modern look. Most secure but limits light entry from the sides.</p>
+<p>A thin metal strip fully surrounds the stone. Full bezel wraps entirely; half-bezel covers only two sides. The most secure setting, ideal for daily wear. Pros: maximum protection, clean lines. Cons: less light from sides, harder to resize.</p>
 <h3>Pavé Setting</h3>
-<p>Many small stones set close together, creating a glittering surface. Commonly used with white zircon or marcasite on silver.</p>
+<p>Many small stones set close together, held by tiny beads — "pavé" means "pavement" in French. Micro-pavé uses sub-1mm stones requiring extreme precision. Often paired with white zircon or marcasite on silver.</p>
 <h3>Channel Setting</h3>
-<p>Stones placed in a row between two metal walls. Popular for wedding bands and eternity rings.</p>
+<p>Stones sit in a row between two metal walls, held by tension against each other. Popular for wedding bands and eternity rings.</p>
 <h3>Flush Setting</h3>
-<p>Stone sits embedded in the metal surface. Minimalist, modern, and scratch-resistant.</p>
-<div class="fact-box"><strong>💎 Recommendation:</strong> For daily-wear silver rings, choose bezel or flush. For special occasions, prong or pavé settings shine brightest.</div>
+<p>Stone sits embedded in the metal surface, nearly level. Minimalist, modern, scratch-resistant — popular for men's and unisex pieces.</p>
+<h3>Silver-Specific Considerations</h3>
+<p>Silver is softer than gold/platinum, so prong checks matter more. Silver tarnish can accumulate between pavé stones — regular cleaning or rhodium plating helps.</p>
+<div class="fact-box"><strong>💎 Guide:</strong> Daily rings → bezel/flush. Special occasions → prong/pavé. Active lifestyle → flush.</div>
 <h3>Source</h3>
-<p>Compiled from Blue Nile education content and GIA resources.</p>`,
+<p>Blue Nile education, GIA, Rio Grande technical guides.</p>`,
   ar: `<h3>تقنيات تثبيت الأحجار في الفضة</h3>
-<p>تثبيت الأحجار الكريمة في المجوهرات الفضية يتطلب مهارة فنية وهندسية. لكل تقنية تأثيرها البصري ومستوى أمانها.</p>
-<p>تثبيت الشوكة: الأكثر كلاسيكية. تثبيت الإطار: الأكثر أمانًا. تثبيت البافيه: الأكثر لمعانًا. تثبيت القناة: مثالي للخواتم.</p>`
+<p>تثبيت الأحجار الكريمة في المجوهرات الفضية يتطلب مهارة فنية وهندسية. هذا الدليل يقارن خمس تقنيات رئيسية مع مزايا وعيوب كل منها.</p>
+<h3>تثبيت الشوكة (Prong)</h3>
+<p>الأكثر كلاسيكية — 4 أو 6 شوكات معدنية تمسك الحجر، مما يسمح بأقصى دخول للضوء من كل زاوية. الإيجابيات: أفضل عرض للحجر. السلبيات: الشوكات قد تنحني، تحتاج فحص كل 6 أشهر.</p>
+<h3>تثبيت الإطار (Bezel)</h3>
+<p>شريط معدني رفيع يحيط بالحجر بالكامل. الأكثر أمانًا، مثالي للارتداء اليومي. الإيجابيات: حماية قصوى، خطوط نظيفة. السلبيات: ضوء أقل من الجوانب.</p>
+<h3>تثبيت البافيه (Pavé)</h3>
+<p>أحجار صغيرة كثيرة متراصة، ممسوكة بحبيبات صغيرة. تستخدم عادة مع الزركون الأبيض أو الماركسيت على الفضة. تتطلب دقة عالية.</p>
+<h3>تثبيت القناة (Channel)</h3>
+<p>الأحجار في صف بين جدارين معدنيين. شائع في خواتم الزفاف.</p>
+<h3>التثبيت الغاطس (Flush)</h3>
+<p>الحجر مدمج في سطح المعدن. بسيط وعصري ومقاوم للخدش — شائع في القطع الرجالية.</p>
+<h3>اعتبارات خاصة بالفضة</h3>
+<p>الفضة أنعم من الذهب والبلاتين، لذا فحص الشوكات أهم. التأكسد قد يتراكم بين أحجار البافيه — التنظيف المنتظم أو طلاء الروديوم يساعد.</p>
+<div class="fact-box"><strong>💎 دليل:</strong> للارتداء اليومي ← إطار/غاطس. للمناسبات ← شوكة/بافيه. لنمط الحياة النشط ← غاطس.</div>
+<h3>المصدر</h3>
+<p>محتوى Blue Nile التعليمي، GIA، أدلة Rio Grande التقنية.</p>`
 };
 
 C[66] = {
-  tr: `<h3>Gümüş Bakım A-Z Rehberi</h3>
-<p>Gümüş, doğru bakımla nesiller boyu kullanılabilecek dayanıklı bir metaldir. Bu kapsamlı rehber, günlük bakımdan profesyonel restorasyona kadar bilmeniz gereken her şeyi kapsar.</p>
+  tr: `<h3>Gümüş Bakım A-Z: Nesiller Boyu Parlaklık</h3>
+<p>Gümüş, doğru bakımla nesiller boyu kullanılabilecek olağanüstü dayanıklı bir metaldir. Antik Roma gümüş tabakları iki bin yıl sonra hâlâ parlarken, bakımsız bir modern gümüş yüzük altı ayda kararabilir. Fark, tamamıyla bakımdadır. Bu kapsamlı rehber, günlük rutinden profesyonel restorasyona kadar ihtiyacınız olan her bilgiyi sunar.</p>
+
+<h3>Kararmanın Bilimi</h3>
+<p>Kararma (tarnish), gümüşün havadaki kükürt bileşikleriyle tepkimeye girmesiyle oluşan gümüş sülfür (Ag₂S) tabakasıdır. Bu doğal bir kimyasal süreçtir ve kesinlikle bir kalite sorunu değildir — aksine, kararma gerçek gümüşün kanıtıdır. Yumurta, soğan, kauçuk, yün ve bazı kozmetikler kükürt içerdiklerinden kararmayı hızlandırır.</p>
+
 <h3>Günlük Bakım Rutini</h3>
-<p>Her kullanımdan sonra yumuşak, tüysüz bir mikrofiber bezle gümüşünüzü silin. Bu basit adım, ter, yağ ve toz birikimini önler ve kararma sürecini önemli ölçüde yavaşlatır. Gümüş takılarınızı en son takın, en önce çıkarın — parfüm, losyon ve saç spreyinin metal yüzeyine temasını minimumda tutun.</p>
+<p>Her kullanımdan sonra yumuşak, tüzsüz bir mikrofiber bezle gümüşünüzü silin. Bu 10 saniyelik adım, ter, vücut yağı ve toz birikimini önler ve kararma sürecini önemli ölçüde yavaşlatır. Gümüş takılarınızı en son takın, en önce çıkarın — parfüm, losyon, saç spreyi ve güneş kreminin metal yüzeyine temasını minimumda tutun. Duş, havuz, deniz, spor ve ev temizliği öncesi mutlaka çıkarın.</p>
+
 <h3>Haftalık Temizlik</h3>
-<p>Ilık su (soğuk değil, sıcak değil) ve birkaç damla sıvı bulaşık deterjanı ile nazik bir çözelti hazırlayın. Gümüşü 5-10 dakika bekletin, yumuşak bir diş fırçasıyla detay bölgelerini (zincir araları, desen oyukları) hafifçe fırçalayın. Bol suyla durulayın ve tamamen kurulayın — su lekelerini önlemek için temiz bir bezle silme işlemi kritiktir.</p>
-<h3>Kararma (Tarnish) Giderme</h3>
-<p>Kararma, gümüşün havadaki kükürt bileşikleriyle tepkimeye girmesiyle oluşan gümüş sülfür (Ag₂S) tabakasıdır. Bu doğal bir süreçtir ve kalite sorunu değildir.</p>
-<p><strong>Alüminyum folyo yöntemi:</strong> Cam bir kaba alüminyum folyo serin, üzerine 1 çorba kaşığı karbonat ve sıcak su ekleyin. Gümüşü folyo ile temas edecek şekilde yerleştirin. Elektrokimyasal reaksiyon kararlamayı çözer. 2-5 dakika bekleyip çıkarın ve kurulayın.</p>
-<p><strong>Profesyonel gümüş cilalama bezleri:</strong> İçlerinde mikro-aşındırıcı ve kararma önleyici bileşik bulunur. Düzenli parlatma için en pratik çözümdür. Tek yönde, hafif baskıyla silin — dairesel hareketler mikro çiziklere neden olabilir.</p>
-<h3>Yapılmaması Gerekenler</h3>
-<p>Diş macunu ile temizleme yapmayın — aşındırıcı partiküller gümüşü çizer. Klorlu veya amonyaklı temizlik ürünleri kullanmayın. Kauçuk veya lateks eldivenleriyle gümüşe dokunmayın — kükürt içerirler. Bulaşık makinesine koymayın.</p>
+<p>Ilık su (ne soğuk ne sıcak) ve birkaç damla pH-nötr sıvı bulaşık deterjanı ile nazik bir çözelti hazırlayın. Gümüşü 5-10 dakika bekletin. Yumuşak kıllı bir diş fırçasıyla detay bölgelerini (zincir araları, desen oyukları, montaj kenarları) hafifçe fırçalayın. Bol suyla durulayın ve tamamen kurulayın — su lekelerini önlemek için pamuklu veya mikrofiber bezle silme işlemi kritiktir.</p>
+
+<h3>Kararma Giderme Yöntemleri</h3>
+<p><strong>Alüminyum folyo yöntemi (elektrokimyasal):</strong> Cam veya seramik bir kaba alüminyum folyo serin, üzerine 1 çorba kaşığı karbonat (baking soda) ekleyin, kaynar su dökün. Gümüşü folyo ile temas edecek şekilde yerleştirin. Alüminyum, gümüşten daha reaktif olduğu için sülfür bileşiğini gümüşten kendine çeker — bu işlem gümüşten malzeme kaybettirmez, yalnızca kararma tabakasını çözer. 2-5 dakika yeterlidir.</p>
+<p><strong>Profesyonel gümüş cilalama bezleri:</strong> İçlerinde mikro-aşındırıcı partikül ve anti-kararma bileşik (genellikle tiyoüre bazlı) bulunur. Tek yönde, hafif baskıyla silin — dairesel hareketler mikro çiziklere neden olabilir. Kırmızı bez önce temizlik, gri/beyaz bez sonra parlatma için kullanılır.</p>
+<p><strong>Ticari gümüş daldırma çözeltileri:</strong> Tarnish-X, Hagerty, Wright's gibi markalar. Hızlı ve etkilidir ama kimyasal agressiftir — antik veya oksitlenmiş (antique finish) gümüşe uygulamayın. Taşlı takılarda dikkatli olun, bazı taşlar (inci, opal, turkuaz) kimyasala duyarlıdır.</p>
+
+<h3>Kesinlikle Yapılmaması Gerekenler</h3>
+<p>Diş macunu ile temizleme yapmayın — aşındırıcı partiküller gümüş yüzeyde kalıcı çizikler oluşturur. Klorlu veya amonyaklı temizlik ürünleri kullanmayın — kimyasal hasar verir. Kauçuk veya lateks eldivenleriyle gümüşe dokunmayın — kükürt içerirler ve kararmayı hızlandırır. Bulaşık makinesine koymayın — deterjan ve yüksek sıcaklık kalıcı hasar verebilir. Gümüşü gazete kâğıdına sarmayın — matbaa mürekkebi aşındırıcıdır.</p>
+
 <h3>Depolama Kuralları</h3>
-<p>Hava geçirmez poşetlerde, anti-kararma şeritleriyle birlikte saklayın. Her parçayı ayrı bölmede tutun — metal-metal teması çizilmelere neden olur. Nem oranı düşük, serin bir yerde saklayın. Silika jel paketleri nem kontrolüne yardımcı olur.</p>
+<p>Hava geçirmez (zip-lock) poşetlerde, mümkünse anti-kararma şeritleriyle (3M anti-tarnish strips gibi) birlikte saklayın. Her parçayı ayrı bölmede veya yumuşak bezle sarılmış olarak tutun — metal-metal teması çizilmelere neden olur. Nem oranı düşük, serin bir yerde saklayın (%40-50 bağıl nem ideal). Silika jel paketleri nem kontrolüne yardımcı olur.</p>
+<p>Özel gümüş saklama kutuları (tarnish-proof chest) iç yüzeyleri anti-kararma kumaşla kaplıdır — büyük koleksiyonlar için en iyi çözümdür.</p>
+
 <h3>Profesyonel Bakım</h3>
-<p>Yılda bir kez ultrasonik temizlik yaptırmak, ev yöntemlerinin ulaşamadığı gözeneklerdeki kirleri temizler. Rodyum kaplı parçalar için yeniden kaplama ihtiyacı 12-18 ayda bir doğabilir. Derin çizikler ve hasar için profesyonel kuyumcu restorasyonu gerekir.</p>
-<div class="fact-box"><strong>📅 Bakım Takvimi:</strong> Her gün → mikrofiber silme | Haftalık → sabunlu su yıkama | Aylık → cilalama bezi | 3 ayda bir → derin temizlik | Yıllık → profesyonel ultrasonik</div>
+<p>Yılda bir kez ultrasonik temizlik yaptırmak, ev yöntemlerinin ulaşamadığı gözeneklere ve montaj bölgelerine yerleşmiş kirleri temizler. Ultrasonik cihaz, su içinde yüksek frekanslı titreşim oluşturarak mikroskobik kabarcıklar yaratır — bu kabarcıklar yüzeyi hasarsız şekilde temizler.</p>
+<p>Rodyum kaplı parçalar için yeniden kaplama ihtiyacı genellikle 12-18 ayda bir doğar — yoğun kullanılan yüzük ve bileziklerde daha erken. Derin çizikler, ezik veya yapısal hasar için profesyonel kuyumcu restorasyonu gerekir.</p>
+
+<div class="fact-box"><strong>📅 Bakım Takvimi:</strong> Her gün → mikrofiber silme (10 sn) | Haftalık → sabunlu su yıkama (5 dk) | Aylık → cilalama bezi (3 dk) | 3 ayda bir → derin temizlik veya folyo yöntemi | Yıllık → profesyonel ultrasonik temizlik + tırnak/montaj kontrolü</div>
+
+<h3>Özel Durumlar</h3>
+<p><strong>Oksitlenmiş (antique/patina) gümüş:</strong> Kasıtlı olarak karartılmış yüzeyleri korumak için yalnızca yumuşak bezle silin. Daldırma çözeltileri veya folyo yöntemi kullanmayın — patinayı söker.</p>
+<p><strong>Taşlı gümüş:</strong> İnci, opal, turkuaz, mercan ve kehribar kimyasal temizliğe duyarlıdır. Bu taşlara sahip takılar yalnızca nemli bezle silinmelidir. Elmas, safir ve yakut dayanıklıdır.</p>
+<p><strong>Gümüş sofra takımı:</strong> Kullanımdan sonra hemen yıkayın — yumurta, hardal ve tuz gümüşe saldırır. Bulaşık makinesine koymayın.</p>
+
+<h3>Sıkça Sorulan Sorular</h3>
+<p><strong>Gümüşüm çok çabuk kararıyor, normal mi?</strong> Terleme, nem, ilaç kullanımı ve çevre (endüstriyel bölge, sıcak iklim) kararma hızını etkiler. Çok hızlı kararma yaşıyorsanız rodyum kaplama düşünebilirsiniz.</p>
+<p><strong>Kararmış gümüş zararlı mıdır?</strong> Hayır. Gümüş sülfür (Ag₂S) toksik değildir ve cilt temasından zarar gelmez.</p>
+<p><strong>Ev yapımı çözümler işe yarar mı?</strong> Alüminyum folyo + karbonat yöntemi bilimsel olarak kanıtlanmış elektrokimyasal bir süreçtir ve güvenlidir. Diş macunu, kola ve ketchup gibi "halk tarifleri" ise zararlı olabilir.</p>
+
 <h3>Kaynak</h3>
-<p>Tiffany & Co. care guide, Mejuri bakım önerileri ve Rio Grande teknik kaynaklarından derlenmiştir.</p>`,
-  en: `<h3>Silver Care A-Z Guide</h3>
-<p>With proper care, silver can last for generations. This comprehensive guide covers everything from daily maintenance to professional restoration.</p>
-<h3>Daily Care Routine</h3>
-<p>Wipe silver with a soft microfiber cloth after each wear. Put jewelry on last, take it off first — minimize contact with perfume, lotion, and hairspray.</p>
+<p>Tiffany & Co. Silver Care Guide, Mejuri bakım önerileri, Rio Grande teknik kaynakları, American Chemical Society gümüş kararma araştırması.</p>`,
+  en: `<h3>Silver Care A-Z: Generations of Brilliance</h3>
+<p>With proper care, silver lasts for generations. Ancient Roman silver plates still shine after two millennia, while a neglected modern ring can tarnish in six months. The difference is entirely about maintenance.</p>
+<h3>The Science of Tarnish</h3>
+<p>Tarnish is silver sulfide (Ag₂S) formed when silver reacts with airborne sulfur compounds. It's natural, not a quality issue — tarnishing actually proves authenticity. Eggs, onions, rubber, wool, and some cosmetics contain sulfur and accelerate tarnish.</p>
+<h3>Daily Care</h3>
+<p>Wipe with a soft microfiber cloth after each wear (10 seconds). Put jewelry on last, remove first. Remove before showering, swimming, exercising, and cleaning.</p>
 <h3>Weekly Cleaning</h3>
-<p>Prepare a gentle solution of warm water and a few drops of dish soap. Soak for 5-10 minutes, brush detail areas gently with a soft toothbrush. Rinse thoroughly and dry completely to prevent water spots.</p>
+<p>Warm water + pH-neutral dish soap, soak 5-10 minutes, gently brush details with soft toothbrush, rinse thoroughly, dry completely to prevent water spots.</p>
 <h3>Tarnish Removal</h3>
-<p>Tarnish is silver sulfide (Ag₂S) formed by sulfur compounds in air — natural, not a quality issue.</p>
-<p><strong>Aluminum foil method:</strong> Line a glass container with foil, add 1 tablespoon baking soda and hot water. Place silver touching the foil. The electrochemical reaction dissolves tarnish. Wait 2-5 minutes.</p>
-<p><strong>Professional polishing cloths:</strong> Contain micro-abrasives and anti-tarnish compounds. Wipe in one direction with light pressure — circular motions cause micro-scratches.</p>
-<h3>What NOT to Do</h3>
-<p>No toothpaste, chlorine cleaners, ammonia products, rubber gloves (contain sulfur), or dishwashers.</p>
-<h3>Storage Rules</h3>
-<p>Airtight bags with anti-tarnish strips. Separate compartments. Cool, low-humidity location. Silica gel packets help.</p>
-<div class="fact-box"><strong>📅 Care Calendar:</strong> Daily → microfiber wipe | Weekly → soap wash | Monthly → polish cloth | Quarterly → deep clean | Yearly → professional ultrasonic</div>
+<p><strong>Aluminum foil method:</strong> Glass container + foil + 1 tbsp baking soda + boiling water. Place silver touching foil. Aluminum attracts sulfur from silver — no material loss, only tarnish removal. 2-5 minutes.</p>
+<p><strong>Professional cloths:</strong> Contain micro-abrasives and anti-tarnish compounds. Wipe in one direction only.</p>
+<p><strong>Commercial dip solutions:</strong> Fast but aggressive — avoid on antique/patinated silver and with sensitive stones (pearl, opal, turquoise).</p>
+<h3>Never Do This</h3>
+<p>No toothpaste (scratches), chlorine/ammonia cleaners (chemical damage), rubber gloves (sulfur), dishwashers (heat damage), or newspaper wrapping (ink is abrasive).</p>
+<h3>Storage</h3>
+<p>Airtight bags with anti-tarnish strips, separate compartments, 40-50% humidity. Silica gel packets help. Tarnish-proof chests with lined interiors for large collections.</p>
+<h3>Professional Care</h3>
+<p>Annual ultrasonic cleaning reaches crevices home methods can't. Rhodium replating every 12-18 months for heavily worn pieces.</p>
+<div class="fact-box"><strong>📅 Calendar:</strong> Daily → microfiber wipe | Weekly → soap wash | Monthly → polish cloth | Quarterly → deep clean/foil method | Yearly → professional ultrasonic + prong check</div>
+<h3>Special Cases</h3>
+<p><strong>Oxidized silver:</strong> Soft cloth only — dip solutions strip patina. <strong>Gemstone silver:</strong> Pearl, opal, turquoise are chemical-sensitive — damp cloth only. <strong>Silverware:</strong> Wash immediately after use — eggs, mustard, salt attack silver.</p>
 <h3>Source</h3>
-<p>Compiled from Tiffany & Co. care guide, Mejuri recommendations, and Rio Grande technical resources.</p>`,
-  ar: `<h3>دليل العناية بالفضة من الألف إلى الياء</h3>
-<p>مع العناية المناسبة، يمكن أن تدوم الفضة لأجيال. امسح الفضة بقطعة قماش ناعمة بعد كل استخدام. نظفها أسبوعيًا بالماء الدافئ والصابون.</p>
-<p>التأكسد طبيعي وليس مشكلة جودة. طريقة رقائق الألمنيوم مع كربونات الصودا فعالة لإزالته. خزّن في أكياس محكمة مع شرائط مضادة للتأكسد.</p>`
+<p>Tiffany care guide, Mejuri recommendations, Rio Grande technical resources, ACS tarnish research.</p>`,
+  ar: `<h3>العناية بالفضة من الألف إلى الياء</h3>
+<p>مع العناية المناسبة، تدوم الفضة لأجيال. أطباق الفضة الرومانية القديمة لا تزال تلمع بعد ألفي عام، بينما خاتم حديث مهمل قد يتأكسد في ستة أشهر.</p>
+<h3>علم التأكسد</h3>
+<p>التأكسد هو كبريتيد الفضة (Ag₂S) الذي يتشكل عند تفاعل الفضة مع مركبات الكبريت في الهواء. إنه طبيعي وليس مشكلة جودة — بل يثبت الأصالة. البيض والبصل والمطاط والصوف وبعض مستحضرات التجميل تحتوي على الكبريت وتسرع التأكسد.</p>
+<h3>العناية اليومية</h3>
+<p>امسح بقطعة ميكروفيبر ناعمة بعد كل استخدام (10 ثوانٍ). ارتدِ المجوهرات أخيرًا وانزعها أولاً. انزعها قبل الاستحمام والسباحة والرياضة والتنظيف.</p>
+<h3>التنظيف الأسبوعي</h3>
+<p>ماء دافئ + صابون أطباق محايد الحموضة، انقع 5-10 دقائق، فرشِ التفاصيل بفرشاة أسنان ناعمة، اشطف جيدًا، جفف تمامًا.</p>
+<h3>إزالة التأكسد</h3>
+<p><strong>طريقة رقائق الألمنيوم:</strong> وعاء زجاجي + رقائق + ملعقة كربونات الصودا + ماء مغلي. ضع الفضة ملامسة للرقائق — الألمنيوم يجذب الكبريت من الفضة. 2-5 دقائق.</p>
+<p><strong>الأقمشة المهنية:</strong> تحتوي على مواد كاشطة دقيقة ومركبات مضادة للتأكسد. امسح في اتجاه واحد فقط.</p>
+<h3>لا تفعل أبدًا</h3>
+<p>لا معجون أسنان (يخدش)، لا منظفات بالكلور/الأمونيا (ضرر كيميائي)، لا قفازات مطاطية (تحتوي كبريت)، لا غسالة أطباق.</p>
+<h3>التخزين</h3>
+<p>أكياس محكمة مع شرائط مضادة للتأكسد. حجرات منفصلة. رطوبة 40-50%. حزم السيليكا جل تساعد.</p>
+<div class="fact-box"><strong>📅 التقويم:</strong> يوميًا ← مسح ميكروفيبر | أسبوعيًا ← غسل بالصابون | شهريًا ← قماش تلميع | فصليًا ← تنظيف عميق | سنويًا ← تنظيف بالموجات فوق الصوتية</div>
+<h3>حالات خاصة</h3>
+<p><strong>الفضة المؤكسدة عمدًا:</strong> قماش ناعم فقط. <strong>الفضة بأحجار:</strong> اللؤلؤ والأوبال والفيروز حساسة — قماش رطب فقط.</p>
+<h3>المصدر</h3>
+<p>دليل عناية Tiffany، توصيات Mejuri، موارد Rio Grande التقنية.</p>`
 };
 
+
 C[67] = {
-  tr: `<h3>Gümüş Hediye Rehberi</h3>
-<p>Gümüş, hem ekonomik hem zarif bir hediye seçeneğidir. Bu rehber, farklı bütçeler ve vesileler için gümüş hediye önerileri sunar.</p>
+  tr: `<h3>Gümüş Hediye Rehberi: Bütçe ve Vesileye Göre</h3>
+<p>Gümüş, hem erişilebilir fiyatı hem zarif görünümüyle mükemmel bir hediye seçeneğidir. Antik çağlardan beri gümüş hediyeler statü, sevgi ve saygının ifadesi olmuştur. 25. evlilik yıl dönümüne "gümüş yıl dönümü" (silver anniversary) denmesi tesadüf değildir — gümüş, dayanıklılığı ve zarafetiyle uzun süreli bağları simgeler.</p>
+
 <h3>₺500 Altı — Günlük Zarafet</h3>
-<p>925 ayar gümüş küpe (halka veya saplama), ince zincir bilezik, basit kolye ucu (ay, yıldız, elif gibi motifler), gümüş anahtarlık. Bu fiyat aralığında markasit taşlı veya oksitlenmiş gümüş parçalar da bulunabilir.</p>
+<p>Bu bütçe aralığında kaliteli ve anlamlı gümüş hediyeler bulmak mümkündür. 925 ayar gümüş halka küpe veya minimal saplama küpe en güvenli seçimdir — her stile uyum sağlar. İnce zincir bilezik (1-2mm kalınlık) zarif ve günlük kullanıma uygundur. Basit kolye uçları — ay, yıldız, elif harfi, nazar boncuğu, hayat ağacı gibi sembolik motifler — kişiselleştirme imkânı sunar. Gümüş anahtarlık veya kitap ayracı fonksiyonel ve şık bir alternatiftir.</p>
+
 <h3>₺500 – ₺2.000 — Özel Günler</h3>
-<p>İsme özel gravürlü yüzük, taşlı bilezik (beyaz topaz veya ametist), el yapımı telkâri takılar, gümüş kalem veya masa aksesarı, bebek gümüşü (ilk diş, doğum hatırası).</p>
+<p>İsme veya tarihe özel gravürlü yüzük ya da bilezik en kişisel hediyedir. Yarı değerli taşlı (ametist, topaz, aytaşı) gümüş takılar hem estetik hem enerji boyutuyla anlam taşır. El yapımı telkâri takılar Anadolu zanaat mirasını hediye olarak sunar. Gümüş kalem veya masa aksesarı profesyonel çevrede şık bir seçimdir. Bebek gümüşü — ilk diş çıkma hediyesi, doğum hatırası biblo, gümüş çerçeve — uzun ömürlü ve duygusal değeri yüksektir.</p>
+
 <h3>₺2.000+ — Yatırım Değeri</h3>
-<p>Tasarımcı imzalı takı setleri, koleksiyoner gümüş sikkeler, antik gümüş objeler, özel komisyon el işçiliği. Bu segmentte parça hem estetik hem yatırım değeri taşır.</p>
+<p>Tasarımcı imzalı takı setleri hem estetik hem marka değeri taşır. Koleksiyoner gümüş sikkeler (Osmanlı akçesi, Darphane hatıra paraları) hem yatırım hem koleksiyon zevki sunar. Antik gümüş objeler (osmanlı gümüş tepsi, kahve fincanı, ayna) hem dekoratif hem tarihî değere sahiptir. Özel komisyon el işçiliği — kişiye özel tasarım telkâri veya gravür — en üst düzey kişiselleştirmedir.</p>
+
 <h3>Vesileye Göre Öneriler</h3>
-<p><strong>Doğum günü:</strong> Burç taşlı gümüş kolye veya isimli yüzük. <strong>Düğün/nişan:</strong> Çift yüzük, gümüş çerçeve, ev aksesuarı. <strong>Mezuniyet:</strong> Gravürlü bilezik veya gümüş kalem. <strong>Bayram:</strong> Gümüş Kur'an-ı Kerim kutusu, tespih, fincan seti. <strong>Anneler Günü:</strong> İnci-gümüş kombinasyonu, aile ağacı kolye.</p>
-<h3>Hediye Paketleme İpuçları</h3>
-<p>Gümüş hediyeler, anti-kararma bezle sarılmış olarak sunulmalıdır. Bir bakım kartı (nasıl temizlenir, nasıl saklanır) eklemek düşünceli bir dokunuştur. Gravür seçeneği kişiselleştirme sağlar.</p>
-<div class="fact-box"><strong>🎁 İpucu:</strong> Gümüşün 25. evlilik yıl dönümüne adanması (silver anniversary) tesadüf değildir — dayanıklılığı ve zarafetiyle uzun süreli bağları simgeler.</div>`,
-  en: `<h3>Silver Gift Guide</h3>
-<p>Silver is both affordable and elegant as a gift. This guide offers silver gift suggestions across budgets and occasions.</p>
+<p><strong>Doğum günü:</strong> Burç taşlı gümüş kolye (ocak-garnet, şubat-ametist, mart-akvamarin...) veya isim/tarih gravürlü yüzük. <strong>Düğün/nişan:</strong> Çift yüzük seti, gümüş çerçeve, ev aksesuarı (mumluk, servis tabağı). <strong>Mezuniyet:</strong> Motivasyon gravürlü bilezik veya premium gümüş kalem. <strong>Bayram (Ramazan/Kurban):</strong> Gümüş Kur'an-ı Kerim kutusu, gümüş tespih, fincan seti, hurma tabağı. <strong>Anneler Günü:</strong> İnci-gümüş kombinasyonu kolye, aile ağacı (family tree) kolye ucu, doğum taşlı bilezik (çocuk sayısı kadar taş). <strong>Yeni iş/terfi:</strong> Gümüş kol düğmesi, kravat iğnesi veya kartvizitlik.</p>
+
+<h3>Hediye Paketleme ve Sunum</h3>
+<p>Gümüş hediyeler, anti-kararma bezle sarılmış olarak sunulmalıdır. Bir bakım kartı (nasıl temizlenir, nasıl saklanır) eklemek düşünceli ve pratik bir dokunuştur. Gravür seçeneği en güçlü kişiselleştirme aracıdır — tarih, isim, kısa mesaj veya koordinat gravürü. Hediye kutusunun kalitesi ilk izlenimi belirler — kadife kaplı kutu premium hissiyat yaratır.</p>
+
+<div class="fact-box"><strong>🎁 Pro İpucu:</strong> Hediye alırken alıcının alerji durumunu sorun (nikel hassasiyeti). 925 ayar genellikle güvenlidir ama doğrulamak nezaket göstergesidir. Ayrıca takı ölçülerini önceden araştırın — yanlış beden yüzük hediyenin etkisini azaltır.</div>
+
+<h3>Türkiye'de Gümüş Hediye Nereden Alınır?</h3>
+<p>Kapalıçarşı ve yerel kuyumcular geniş seçenek sunar — pazarlık yapılabilir. Online platformlar (Trendyol, Hepsiburada) fiyat karşılaştırması kolaylığı sağlar ancak ayar ve kalite kontrolü dikkat gerektirir. Zanaat atölyeleri (Midyat telkâri, Beypazarı gümüş) otantik ve benzersiz parçalar sunar. Darphane online satış sitesi resmi koleksiyoner ürünleri için güvenilir bir kaynaktır.</p>
+
+<h3>Kaynak</h3>
+<p>Mejuri Gift Guide konseptinden, Tiffany & Co. hediye kategorilerinden ve Türk kuyumculuk sektörü verilerinden derlenmiştir.</p>`,
+  en: `<h3>Silver Gift Guide: By Budget and Occasion</h3>
+<p>Silver combines accessible pricing with timeless elegance, making it a perfect gift. The 25th wedding anniversary being called a "silver anniversary" reflects silver's symbolism of lasting bonds.</p>
 <h3>Under $30 — Everyday Elegance</h3>
-<p>Sterling silver studs or hoops, thin chain bracelets, simple pendants, silver keychains.</p>
-<h3>$30 – $100 — Special Occasions</h3>
-<p>Personalized engraved rings, gemstone bracelets, handcrafted filigree, silver pens, baby silver gifts.</p>
+<p>925 sterling hoop or stud earrings, thin chain bracelets, symbolic pendants (moon, star, tree of life), silver keychains or bookmarks.</p>
+<h3>$30-$100 — Special Occasions</h3>
+<p>Personalized engraved rings or bracelets, semi-precious gemstone jewelry (amethyst, topaz, moonstone), handcrafted filigree, silver pens, baby silver gifts.</p>
 <h3>$100+ — Investment Value</h3>
-<p>Designer jewelry sets, collector silver coins, antique objects, commissioned handwork.</p>
+<p>Designer jewelry sets, collector coins, antique silver objects, custom commissioned handwork.</p>
 <h3>By Occasion</h3>
-<p><strong>Birthday:</strong> Birthstone pendant. <strong>Wedding:</strong> Matching rings, silver frame. <strong>Graduation:</strong> Engraved bracelet. <strong>Mother's Day:</strong> Pearl-silver combination, family tree necklace.</p>
-<div class="fact-box"><strong>🎁 Tip:</strong> The 25th wedding anniversary is called the "silver anniversary" — silver symbolizes durability and elegance in lasting bonds.</div>`,
-  ar: `<h3>دليل هدايا الفضة</h3>
-<p>الفضة خيار هدية أنيق واقتصادي. أقراط فضة 925، أساور رفيعة، قلادات بسيطة للميزانيات المحدودة. خواتم محفورة وأساور بأحجار كريمة للمناسبات الخاصة.</p>`
+<p><strong>Birthday:</strong> Birthstone pendant or engraved ring. <strong>Wedding:</strong> Matching ring set, silver frame. <strong>Graduation:</strong> Motivational engraved bracelet. <strong>Mother's Day:</strong> Pearl-silver necklace, family tree pendant. <strong>New job:</strong> Silver cufflinks or card holder.</p>
+<h3>Gift Presentation</h3>
+<p>Wrap in anti-tarnish cloth, include a care card, consider engraving for personalization, use velvet-lined gift boxes for premium feel.</p>
+<div class="fact-box"><strong>🎁 Pro Tip:</strong> Ask about metal allergies (nickel sensitivity). Verify ring sizes in advance — wrong sizing diminishes impact.</div>
+<h3>Source</h3>
+<p>Inspired by Mejuri Gift Guide, Tiffany & Co. gift categories.</p>`,
+  ar: `<h3>دليل هدايا الفضة: حسب الميزانية والمناسبة</h3>
+<p>الفضة تجمع بين السعر المعقول والأناقة الخالدة. تسمية الذكرى 25 للزواج "ذكرى الفضة" تعكس رمزية الفضة للروابط الدائمة.</p>
+<h3>أقل من 30 دولارًا</h3>
+<p>أقراط حلقية أو مسمارية من فضة 925، أساور سلسلة رفيعة، قلادات رمزية (قمر، نجمة، شجرة الحياة).</p>
+<h3>30-100 دولار</h3>
+<p>خواتم أو أساور محفورة شخصيًا، مجوهرات بأحجار شبه كريمة (أمثيست، توباز)، أعمال فيلجران يدوية.</p>
+<h3>أكثر من 100 دولار</h3>
+<p>مجموعات مجوهرات مصممة، عملات جامعية، قطع فضية أثرية، أعمال مخصصة.</p>
+<h3>حسب المناسبة</h3>
+<p><strong>عيد ميلاد:</strong> قلادة بحجر البرج. <strong>زفاف:</strong> طقم خواتم متطابقة. <strong>تخرج:</strong> سوار محفور تحفيزي. <strong>عيد الأم:</strong> قلادة لؤلؤ-فضة.</p>
+<div class="fact-box"><strong>🎁 نصيحة:</strong> اسأل عن حساسية المعادن (النيكل). تحقق من مقاسات الخواتم مسبقًا.</div>
+<h3>المصدر</h3>
+<p>مستوحى من دليل هدايا Mejuri وفئات هدايا Tiffany.</p>`
 };
 
 C[68] = {
-  tr: `<h3>Gümüş ile Su Arıtma</h3>
-<p>Gümüş iyonlarının antimikrobiyal özellikleri, su arıtma teknolojisinde giderek artan bir rol oynamaktadır. Gümüş, bakterileri, virüsleri ve mantarları etkili bir şekilde yok edebilen nadir metallerden biridir.</p>
+  tr: `<h3>Gümüş ile Su Arıtma: İyondan Nanoteknolojiye</h3>
+<p>Gümüş iyonlarının antimikrobiyal özellikleri, su arıtma teknolojisinde giderek artan bir rol oynamaktadır. Gümüş, bakterileri, virüsleri ve mantarları etkili bir şekilde yok edebilen nadir metallerden biridir. Bu özellik, Antik Yunan'dan NASA'ya kadar insanlık tarafından binlerce yıldır kullanılmaktadır.</p>
+
+<h3>Tarihsel Arka Plan</h3>
+<p>Antik çağlarda su ve şarap gümüş kaplarda saklanırdı — gümüşün koruyucu etkisi ampirik olarak biliniyordu. Heredot, Pers krallarının seferlerde su taşımak için gümüş kaplar kullandığını kaydetmiştir. Amerikan öncüleri (pioneers) su fıçılarına gümüş sikkeler atardı. 19. yüzyılda bilim insanları gümüşün bakterisidal etkisini deneysel olarak kanıtlamıştır.</p>
+
 <h3>Gümüş İyonları Nasıl Çalışır?</h3>
-<p>Gümüş iyonları (Ag⁺) bakteri hücre zarına nüfuz ederek enzim fonksiyonlarını bozar ve DNA replikasyonunu engeller. Bu mekanizma, antibiyotiklere dirençli bakterilere karşı bile etkilidir — bu da gümüşü "son çare" antimikrobiyali yapan önemli bir özelliktir.</p>
+<p>Gümüş iyonları (Ag⁺) bakteri hücre zarına nüfuz ederek birden fazla mekanizma ile patojenleri yok eder: hücre zarı bütünlüğünü bozar, enzim fonksiyonlarını devre dışı bırakır (özellikle sülfhidril gruplarını hedefler), DNA replikasyonunu engeller ve oksidatif stres yaratarak hücre içi hasarı tetikler.</p>
+<p>Bu çoklu saldırı mekanizması, gümüşün antibiyotiklere dirençli bakterilere (MRSA, VRE gibi "süper mikroplar") karşı bile etkili olmasının nedenidir — bakteri tek bir savunma mekanizması geliştirerek gümüşe direnç kazanamaz.</p>
+
+<div style="text-align:center;margin:24px 0;padding:20px;border-radius:18px;background:rgba(192,192,192,0.04);border:1px solid rgba(192,192,192,0.1)">
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg" style="max-width:300px;width:100%">
+<text x="150" y="14" text-anchor="middle" fill="#9a9ab0" font-size="10" font-family="Source Sans 3,sans-serif" font-weight="600">Ag⁺ İyon Antimikrobiyal Mekanizması</text>
+<circle cx="150" cy="70" r="35" fill="none" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4 2"/>
+<text x="150" y="73" text-anchor="middle" fill="#f87171" font-size="8" font-family="Source Sans 3,sans-serif">Bakteri</text>
+<circle cx="80" cy="45" r="6" fill="#C0C0C0" opacity="0.6"><animate attributeName="cx" from="80" to="118" dur="1.5s" fill="freeze"/></circle>
+<text x="80" y="33" fill="#C0C0C0" font-size="7" font-family="Source Sans 3,sans-serif">Ag⁺</text>
+<circle cx="220" cy="55" r="6" fill="#C0C0C0" opacity="0.6"><animate attributeName="cx" from="220" to="182" dur="1.5s" fill="freeze"/></circle>
+<circle cx="130" cy="105" r="6" fill="#C0C0C0" opacity="0.6"><animate attributeName="cy" from="105" to="88" dur="1.5s" fill="freeze"/></circle>
+<text x="40" y="80" fill="#9a9ab0" font-size="7" font-family="Source Sans 3,sans-serif">1. Zar bozulması</text>
+<text x="40" y="92" fill="#9a9ab0" font-size="7" font-family="Source Sans 3,sans-serif">2. Enzim bloğu</text>
+<text x="40" y="104" fill="#9a9ab0" font-size="7" font-family="Source Sans 3,sans-serif">3. DNA engeli</text>
+</svg></div>
+
 <h3>Su Filtrelerinde Gümüş</h3>
-<p>Seramik su filtrelerinde gümüş nanopartiküller kullanılmaktadır. Bu filtreler özellikle gelişmekte olan ülkelerde, elektrik altyapısı olmayan bölgelerde temiz su sağlamada kritik rol oynar. Dünya Sağlık Örgütü (WHO), gümüş bazlı nokta-kullanım su arıtma sistemlerini onaylı yöntemler arasında listelemektedir.</p>
+<p>Seramik su filtrelerinde gümüş nanopartiküller kullanılmaktadır. Bu filtreler özellikle gelişmekte olan ülkelerde, elektrik altyapısı olmayan kırsal bölgelerde temiz su sağlamada kritik rol oynar. Dünya Sağlık Örgütü (WHO), gümüş bazlı nokta-kullanım (point-of-use) su arıtma sistemlerini onaylı yöntemler arasında listelemektedir.</p>
+<p>Potters for Peace gibi sivil toplum kuruluşları, yerel üretim gümüş kaplı seramik filtreler dağıtarak su kaynaklı hastalıkları azaltmaktadır. Bu filtreler ucuz, bakım gerektirmeyen ve 2-3 yıl ömürlüdür.</p>
+
 <h3>Endüstriyel Uygulamalar</h3>
-<p>Hastane su sistemlerinde Legionella önleme için gümüş-bakır iyonlaştırma kullanılır. Yüzme havuzu dezenfeksiyonunda gümüş iyonları klor miktarını azaltmak için tamamlayıcı olarak uygulanır. İçme suyu depolarında gümüş kaplı filtreler biyofilm oluşumunu engeller.</p>
+<p><strong>Hastane su sistemleri:</strong> Legionella pnömonisi önleme için gümüş-bakır iyonlaştırma yaygın olarak kullanılır. CDC (ABD Hastalık Kontrol Merkezi) bu yöntemi etkin dezenfeksiyon tekniği olarak tanımıştır.</p>
+<p><strong>Yüzme havuzu dezenfeksiyonu:</strong> Gümüş iyonları klor miktarını %50-80 azaltmak için tamamlayıcı olarak uygulanır — daha az klor kokusu, daha az göz tahrişi.</p>
+<p><strong>İçme suyu depoları:</strong> Gümüş kaplı filtreler biyofilm oluşumunu engeller. Biyofilm, boru iç yüzeylerinde biriken ve geleneksel dezenfeksiyona dirençli bakteri kolonileridir.</p>
+
 <h3>Uzay Teknolojisinde Gümüş</h3>
-<p>NASA, Uluslararası Uzay İstasyonu'nda (ISS) su arıtma için gümüş bazlı sistemler kullanmaktadır. Gümüş iyonları, kapalı döngü su geri dönüşüm sistemlerinde kimyasal katkıya alternatif olarak tercih edilir.</p>
-<h3>Gelişmekte Olan Dünyada Etki</h3>
-<p>Su kaynaklı hastalıklar gelişmekte olan ülkelerde büyük bir sorun olmaya devam etmektedir. Gümüş bazlı filtrelerin düşük maliyetli, bakım gerektirmeyen ve elektriksiz çalışabilen versiyonları, özellikle kırsal Afrika ve Güney Asya'da yaşam kurtarmaktadır.</p>
-<div class="fact-box"><strong>💧 İlginç Bilgi:</strong> Antik çağlarda su ve şarap gümüş kaplarda saklanırdı — gümüşün koruyucu etkisi ampirik olarak biliniyordu. Modern bilim, bu geleneğin arkasındaki Ag⁺ iyonlarının antimikrobiyal mekanizmasını doğrulamıştır.</div>
+<p>NASA, Uluslararası Uzay İstasyonu'nda (ISS) su arıtma için gümüş bazlı sistemler kullanmaktadır. Kapalı döngü su geri dönüşüm sistemlerinde kimyasal katkıya alternatif olarak gümüş iyonları tercih edilir — çünkü gümüş kalıntısı insan sağlığına zararsızdır ve tat/koku bırakmaz.</p>
+
+<h3>Nano-Gümüş ve Gelecek</h3>
+<p>Nano-gümüş partikülleri (1-100 nanometre boyutunda) konvansiyonel gümüşten çok daha yüksek yüzey alanına sahiptir — bu da antimikrobiyal etkinliği katlanarak artırır. Su arıtma membranlarına gömülü nano-gümüş, biyofouling (organik kirlenme) direnci sağlar ve membran ömrünü uzatır.</p>
+<p>Ancak nano-gümüşün çevresel etkileri tartışmalıdır. Arıtma tesislerinden doğaya salınan nano-gümüşün toprak mikrobiyomuna etkisi araştırılmaktadır. Düzenleyici çerçeveler henüz tam olarak oluşturulamamıştır.</p>
+
+<div class="fact-box"><strong>💧 Tarihî Gerçek:</strong> İskender'in ordusu seferlerde suyu gümüş kaplarda taşırdı. Modern bilim, bu geleneğin arkasındaki Ag⁺ iyonlarının antimikrobiyal mekanizmasını doğrulamıştır. 0,1 ppm (milyonda bir parça) gibi düşük konsantrasyonlarda bile gümüş iyonları E. coli ve Salmonella'yı 6 saat içinde %99,9 oranında yok edebilir.</div>
+
 <h3>Kaynak</h3>
-<p>Silver Institute "Silver in Industry" verileri, WHO su arıtma rehberi, NASA ISS teknik dokümanları.</p>`,
-  en: `<h3>Silver in Water Purification</h3>
-<p>Silver ions' antimicrobial properties play an increasingly important role in water purification technology. Silver is one of the rare metals that can effectively destroy bacteria, viruses, and fungi.</p>
+<p>Silver Institute "Silver in Industry" verileri, WHO su arıtma rehberi, NASA ISS Life Support teknik dokümanları, CDC Legionella kontrol kılavuzu.</p>`,
+  en: `<h3>Silver in Water Purification: From Ions to Nanotechnology</h3>
+<p>Silver ions' antimicrobial properties play an increasingly important role in water purification. Silver can effectively destroy bacteria, viruses, and fungi through multiple mechanisms — a capability used by humanity from Ancient Greece to NASA.</p>
+<h3>Historical Background</h3>
+<p>Ancient civilizations stored water and wine in silver vessels. Herodotus recorded Persian kings using silver containers during campaigns. American pioneers dropped silver coins into water barrels. 19th-century scientists experimentally proved silver's bactericidal effect.</p>
 <h3>How Silver Ions Work</h3>
-<p>Silver ions (Ag⁺) penetrate bacterial cell membranes, disrupting enzyme functions and blocking DNA replication. This mechanism works even against antibiotic-resistant bacteria.</p>
+<p>Silver ions (Ag⁺) destroy pathogens through multiple mechanisms: disrupting cell membrane integrity, disabling enzyme functions (targeting sulfhydryl groups), blocking DNA replication, and triggering oxidative stress. This multi-pronged attack makes silver effective even against antibiotic-resistant bacteria like MRSA.</p>
 <h3>Silver in Water Filters</h3>
-<p>Silver nanoparticles are used in ceramic water filters, playing a critical role in providing clean water in developing countries without electrical infrastructure. WHO lists silver-based point-of-use water treatment systems among approved methods.</p>
+<p>Silver nanoparticles in ceramic filters provide clean water in developing regions without electricity. WHO lists silver-based point-of-use systems among approved methods. Organizations like Potters for Peace distribute locally-produced silver-coated ceramic filters.</p>
 <h3>Industrial Applications</h3>
-<p>Silver-copper ionization prevents Legionella in hospital water systems. Silver ions complement chlorine in pool disinfection. Silver-coated filters prevent biofilm formation in drinking water tanks.</p>
+<p>Hospital water systems use silver-copper ionization against Legionella (CDC-recognized). Swimming pools use silver ions to reduce chlorine by 50-80%. Silver-coated filters prevent biofilm formation in drinking water tanks.</p>
 <h3>Space Technology</h3>
-<p>NASA uses silver-based systems for water purification on the International Space Station, preferred over chemical additives in closed-loop water recycling systems.</p>
-<div class="fact-box"><strong>💧 Fun Fact:</strong> In ancient times, water and wine were stored in silver vessels — silver's protective effect was known empirically. Modern science has confirmed the antimicrobial mechanism of Ag⁺ ions behind this tradition.</div>
+<p>NASA uses silver-based water purification on the ISS — silver residue is harmless and leaves no taste or odor, ideal for closed-loop recycling.</p>
+<h3>Nano-Silver and the Future</h3>
+<p>Nano-silver particles (1-100nm) have vastly greater surface area than conventional silver, multiplying antimicrobial effectiveness. However, environmental impacts of nano-silver released from treatment plants are under investigation.</p>
+<div class="fact-box"><strong>💧 Historical Fact:</strong> Alexander the Great's army carried water in silver vessels. At concentrations as low as 0.1 ppm, silver ions can eliminate 99.9% of E. coli and Salmonella within 6 hours.</div>
 <h3>Source</h3>
-<p>Silver Institute "Silver in Industry" data, WHO water treatment guide, NASA ISS technical documentation.</p>`,
-  ar: `<h3>الفضة في تنقية المياه</h3>
-<p>تلعب خصائص أيونات الفضة المضادة للميكروبات دورًا متزايدًا في تكنولوجيا تنقية المياه. أيونات الفضة (Ag⁺) تخترق أغشية الخلايا البكتيرية وتعطل وظائف الإنزيمات.</p>
-<p>تُستخدم في مرشحات المياه الخزفية في البلدان النامية. أقرت منظمة الصحة العالمية أنظمة معالجة المياه القائمة على الفضة.</p>`
+<p>Silver Institute, WHO water treatment guide, NASA ISS Life Support docs, CDC Legionella guidelines.</p>`,
+  ar: `<h3>الفضة في تنقية المياه: من الأيونات إلى النانو</h3>
+<p>خصائص أيونات الفضة المضادة للميكروبات تلعب دورًا متزايدًا في تنقية المياه. الفضة تدمر البكتيريا والفيروسات والفطريات من خلال آليات متعددة — قدرة استخدمتها البشرية من اليونان القديمة إلى ناسا.</p>
+<h3>الخلفية التاريخية</h3>
+<p>الحضارات القديمة خزّنت الماء والنبيذ في أوعية فضية. هيرودوت سجّل استخدام الملوك الفارسيين لأوعية فضية في الحملات. الرواد الأمريكيون أسقطوا عملات فضية في براميل الماء.</p>
+<h3>كيف تعمل أيونات الفضة</h3>
+<p>أيونات الفضة (Ag⁺) تدمر مسببات الأمراض عبر آليات متعددة: تعطيل سلامة غشاء الخلية، تعطيل وظائف الإنزيمات، منع تكرار الحمض النووي، وتحفيز الإجهاد التأكسدي. هذا الهجوم متعدد الجوانب يجعل الفضة فعالة حتى ضد البكتيريا المقاومة للمضادات الحيوية مثل MRSA.</p>
+<h3>الفضة في مرشحات المياه</h3>
+<p>جسيمات الفضة النانوية في المرشحات الخزفية توفر مياهًا نظيفة في المناطق النامية بدون كهرباء. منظمة الصحة العالمية أدرجت أنظمة نقاط الاستخدام القائمة على الفضة ضمن الطرق المعتمدة.</p>
+<h3>التطبيقات الصناعية</h3>
+<p>أنظمة المستشفيات تستخدم تأيين الفضة-النحاس ضد الليجيونيلا. أحواض السباحة تستخدم أيونات الفضة لتقليل الكلور بنسبة 50-80%. المرشحات المطلية بالفضة تمنع تكوين الأغشية الحيوية.</p>
+<h3>تكنولوجيا الفضاء</h3>
+<p>ناسا تستخدم أنظمة تنقية المياه القائمة على الفضة في محطة الفضاء الدولية.</p>
+<div class="fact-box"><strong>💧 حقيقة تاريخية:</strong> جيش الإسكندر الأكبر حمل الماء في أوعية فضية. بتركيزات منخفضة تصل إلى 0.1 جزء من المليون، يمكن لأيونات الفضة القضاء على 99.9% من بكتيريا E. coli والسالمونيلا خلال 6 ساعات.</div>
+<h3>المصدر</h3>
+<p>معهد الفضة، دليل منظمة الصحة العالمية، وثائق ناسا التقنية، إرشادات CDC.</p>`
+};
+
+// ═══ NEW: ZANAAT CATEGORY EXPANSION ═══
+
+C[69] = {
+  tr: `<h3>Gümüş Döküm (Casting) Teknikleri</h3>
+<p>Döküm, erimiş gümüşün bir kalıba dökülerek şekillendirilmesi sürecidir. Takı üretiminin en temel ve en eski tekniklerinden biri olan döküm, hem endüstriyel seri üretime hem bireysel sanat eserlerine kapı açar. Anadolu'da MÖ 3000'lerden beri uygulanan bu teknik, bugün modern teknolojilerle buluşmuştur.</p>
+
+<h3>Kayıp Mum (Lost Wax / Cire Perdue) Tekniği</h3>
+<p>En yaygın ve en eski döküm yöntemidir. Süreç şu adımlardan oluşur: önce takı modeli mumdan (günümüzde genellikle enjeksiyon mumu) şekillendirilir. Mum model, alçı-benzeri bir yatırım malzemesiyle kaplanır ve fırında ısıtılarak mum eritilip boşaltılır — geride takının negatif kalıbı kalır. Erimiş gümüş (961°C üzerinde) bu boşluğa santrifüj veya vakum yardımıyla dökülür. Soğuduktan sonra alçı kırılarak gümüş parça çıkarılır.</p>
+<p>Bu tekniğin en büyük avantajı karmaşık ve detaylı formların üretilebilmesidir — ince yüzeyler, keskin köşeler, organik formlar. Dezavantajı ise her döküm için yeni bir mum model gerektiğidir (kalıp tek kullanımlık).</p>
+
+<h3>Kum Döküm</h3>
+<p>Daha büyük ve basit formlar için kullanılır. Nemli kumdan (olivin kumu veya zirkon kumu) bir kalıp oluşturulur ve erimiş gümüş dökülür. Yüzey dokusu daha kaba olduğu için takıda nadiren kullanılır — daha çok külçe ve endüstriyel parça üretiminde tercih edilir. Ancak bazı sanatçılar kum dokusunun organik estetiğini bilinçli olarak kullanır.</p>
+
+<h3>Santrifüj vs Vakum Döküm</h3>
+<p>Kayıp mum tekniğinde erimiş metalin kalıba doldurulması iki yöntemle yapılır. Santrifüj döküm, kalıbı yüksek hızda döndürerek metalin merkezkaç kuvvetiyle kalıbın en ince detaylarına kadar ulaşmasını sağlar. Vakum döküm ise kalıbın altından hava emilerek metalin yerçekimi ve basınç farkıyla doldurulmasını sağlar — daha kontrollü ve hava kabarcığı riski daha düşüktür.</p>
+
+<h3>3D Baskı ve Dijital Döküm</h3>
+<p>Modern teknoloji döküm sürecini dönüştürmüştür. CAD (bilgisayar destekli tasarım) yazılımlarıyla dijital model oluşturulur, 3D yazıcıyla reçine veya mum model basılır ve kayıp mum tekniğiyle dökülür. Bu yöntem özel sipariş (custom) takılarda çığır açmıştır — müşteri 3D olarak tasarımı görüp onaylayabilir.</p>
+<p>Doğrudan metal 3D baskı (DMLS — Direct Metal Laser Sintering) gümüş tozu kullanarak döküm sürecini tamamen atlayabilir, ancak maliyet yüksektir ve yüzey kalitesi geleneksel döküme henüz yetişememiştir.</p>
+
+<h3>Döküm Hataları ve Çözümleri</h3>
+<p><strong>Porozite (gözeneklilik):</strong> Metal içinde hava kabarcıkları kalması. Çözüm: uygun erime sıcaklığı ve vakum döküm. <strong>Soğuk birleşme:</strong> Metal kalıpta tam dolmadan katılaşması. Çözüm: ön ısıtma ve daha yüksek döküm sıcaklığı. <strong>Çatlak:</strong> Hızlı soğumadan kaynaklanan iç gerilmeler. Çözüm: kontrollü soğutma. <strong>Pürüzlü yüzey:</strong> Kalıp malzemesinin yetersizliği. Çözüm: kaliteli yatırım malzemesi ve doğru tane boyutu.</p>
+
+<h3>Gümüş Alaşımlarında Döküm</h3>
+<p>999 ayar (saf) gümüş döküm için idealdir — akışkanlığı yüksektir ve kalıbın detaylarını iyi doldurur. Ancak çok yumuşak olduğu için bitmiş parça daha az dayanıklıdır. 925 ayar (sterling) daha sert ama erime noktası biraz farklıdır ve oksidasyona daha yatkındır. Döküm ustası, alaşım türüne göre sıcaklık ve atmosfer kontrolünü ayarlar.</p>
+
+<div class="fact-box"><strong>🔥 İlginç Bilgi:</strong> Kayıp mum tekniği MÖ 3700 civarında Çatalhöyük (Konya) yakınlarında kullanılmış olabilir — Anadolu, bu tekniğin bilinen en eski uygulama alanlarından biridir. Benzer teknikler bağımsız olarak Güney Amerika (İnka), Batı Afrika (Benin bronzları) ve Güneydoğu Asya'da da geliştirilmiştir.</div>
+
+<h3>Kaynak</h3>
+<p>Rio Grande döküm rehberleri, GIA Manufacturing Arts, Türk kuyumculuk sektörü atölye verileri.</p>`,
+  en: `<h3>Silver Casting Techniques</h3>
+<p>Casting is the process of pouring molten silver into a mold. One of the oldest and most fundamental jewelry-making techniques, it enables both industrial mass production and individual art pieces.</p>
+<h3>Lost Wax (Cire Perdue)</h3>
+<p>The most common method: wax model → investment mold → wax burnout → silver pour (centrifugal or vacuum) → mold breakout → finishing. Advantage: complex, detailed forms. Disadvantage: each mold is single-use.</p>
+<h3>Sand Casting</h3>
+<p>For larger, simpler forms using olivine or zircon sand molds. Rougher surface texture, more common for bullion and industrial pieces. Some artists deliberately use the organic sand texture.</p>
+<h3>Centrifugal vs Vacuum</h3>
+<p>Centrifugal spinning forces metal into fine details. Vacuum pulls metal via pressure differential — more controlled, fewer air bubbles.</p>
+<h3>3D Printing and Digital Casting</h3>
+<p>CAD design → 3D-printed resin/wax model → lost wax casting. Revolutionary for custom jewelry — clients can approve 3D previews. Direct Metal Laser Sintering (DMLS) can skip casting entirely but remains costly with inferior surface quality.</p>
+<h3>Common Casting Defects</h3>
+<p>Porosity (air bubbles), cold shuts (incomplete fills), cracking (rapid cooling stress), rough surfaces (poor investment). Each has established solutions involving temperature, atmosphere, and material control.</p>
+<div class="fact-box"><strong>🔥 Fact:</strong> Lost wax casting may have been used near Çatalhöyük (Konya) around 3700 BCE — Anatolia is among the oldest known practice sites.</div>
+<h3>Source</h3>
+<p>Rio Grande casting guides, GIA Manufacturing Arts.</p>`,
+  ar: `<h3>تقنيات صب الفضة</h3>
+<p>الصب هو عملية صبّ الفضة المنصهرة في قالب. من أقدم تقنيات صنع المجوهرات وأكثرها أساسية.</p>
+<h3>الشمع المفقود</h3>
+<p>الطريقة الأكثر شيوعًا: نموذج شمعي ← قالب استثماري ← حرق الشمع ← صب الفضة ← كسر القالب ← التشطيب. الميزة: أشكال معقدة ومفصلة.</p>
+<h3>الصب بالرمل</h3>
+<p>للأشكال الأكبر والأبسط. ملمس سطح أخشن. أكثر شيوعًا للسبائك والقطع الصناعية.</p>
+<h3>الطباعة ثلاثية الأبعاد والصب الرقمي</h3>
+<p>تصميم CAD ← نموذج مطبوع ثلاثي الأبعاد ← صب الشمع المفقود. ثوري للمجوهرات المخصصة.</p>
+<div class="fact-box"><strong>🔥 حقيقة:</strong> ربما استُخدم صب الشمع المفقود بالقرب من تشاتالهويوك (قونية) حوالي 3700 قبل الميلاد — الأناضول من أقدم مواقع الممارسة المعروفة.</div>
+<h3>المصدر</h3>
+<p>أدلة صب Rio Grande، فنون التصنيع GIA.</p>`
+};
+
+C[70] = {
+  tr: `<h3>Oksitleme ve Patina Sanatı</h3>
+<p>Oksitleme (antiquing/patination), gümüş yüzeyinde kasıtlı olarak koyu bir tabaka oluşturarak derinlik, kontrast ve yaşanmışlık hissi yaratma sanatıdır. Doğal kararma bir "sorun" iken, kontrollü oksitleme bir "teknik"tir — telkâri, gravür ve kabartma işlerinin detaylarını görünür kılan güçlü bir estetik araçtır.</p>
+
+<h3>Karakükürt (Liver of Sulfur) Yöntemi</h3>
+<p>En yaygın oksitleme tekniğidir. Potasyum polisülfür (K₂Sₓ) sıcak suyla çözülerek gümüş parça batırılır. Konsantrasyona ve süreye bağlı olarak sarıdan kahverengiye, oradan siyaha kadar değişen tonlar elde edilir. İşlem sonrası yüzey seçici olarak parlatılarak sadece girintilerde koyu ton bırakılır — yüksek noktalar parlak kalır ve dramatik bir kontrast oluşur.</p>
+
+<h3>Yumurta Yöntemi</h3>
+<p>Kaynatılmış yumurta hava geçirmez bir kapta gümüşle birlikte bırakılır. Yumurtadaki kükürt bileşikleri (H₂S) gümüş yüzeyinde doğal patina oluşturur. Daha yavaş ve kontrollüdür; sanatçılar tarafından kademeli ton geçişleri için tercih edilir.</p>
+
+<h3>Kimyasal Patinalar</h3>
+<p>Farklı kimyasallar farklı renkler üretir. Amonyak buharı açık mavi tonlar, bakır sülfat yeşil tonlar, selenyum dioksit koyu gri-siyah tonlar verir. Bu ileri teknikler deneyim ve güvenlik ekipmanı gerektirir — kimyasal maruziyetten korunmak için iyi havalandırma, eldiven ve göz koruması şarttır.</p>
+
+<h3>Japon Patina Geleneği: Rokushō</h3>
+<p>Japon metalciliğinde "rokushō" (yeşil paslanma) patina banyosu, bakır ve bakır alaşımlarında muhteşem renk geçişleri yaratır. Gümüş üzerinde doğrudan uygulanmasa da, gümüş-bakır alaşımları (shibuichi — %25 gümüş + %75 bakır) rokushō ile lavanta-griden koyu mora kadar tonlar elde eder. Bu teknik, gümüşün diğer metallerle birleştiğinde sanatsal potansiyelini gösterir.</p>
+
+<h3>Seçici Parlatma ve Son İşlem</h3>
+<p>Oksitlemenin sanatsal değeri, seçici parlatmadadır. Tüm yüzey karartıldıktan sonra yüksek noktalar (kabartmalar, kenarlar) ince zımpara veya polisaj tekerleğiyle parlatılır. Girintiler, oyuklar ve desen detayları koyu kalarak kontrast oluşturur. Bu teknik "antique finish" veya "oxidized finish" olarak adlandırılır.</p>
+<p>Mikro-motor (Dremel tipi) veya fleksible shaft ile kontrollü parlatma, detaylı çalışmalar için idealdir. Çelik yün (0000 derece — en ince) hafif saten efekti verir.</p>
+
+<h3>Oksitlemenin Korunması</h3>
+<p>Oksitlenmiş gümüşün patinasını korumak için rönesans mumu (Renaissance Wax) veya mikrokristal mum ince bir tabaka halinde uygulanır. Vernik veya lak kullanmayın — zamanla sararır ve soyulur. Oksitlenmiş takılar cilalama bezleriyle agresif temizlenmemeli, yalnızca yumuşak bezle silinmelidir.</p>
+
+<div class="fact-box"><strong>🎨 İpucu:</strong> Oksitleme geri dönüşümlüdür — beğenmediğiniz bir patina, gümüş daldırma çözeltisiyle (pickle) çıkarılarak yeniden uygulanabilir. Deneme korkusu taşımayın!</div>
+
+<h3>Kaynak</h3>
+<p>Tim McCreight "Complete Metalsmith", Ganoksin teknik arşivi, Japon metalcilik kaynakları.</p>`,
+  en: `<h3>Oxidation and Patina Art</h3>
+<p>Oxidation (antiquing/patination) is the art of deliberately creating dark layers on silver to add depth, contrast, and character. While natural tarnish is a "problem," controlled oxidation is a "technique" — a powerful aesthetic tool that reveals details in filigree, engraving, and repoussé work.</p>
+<h3>Liver of Sulfur</h3>
+<p>The most common technique. Potassium polysulfide dissolved in hot water produces colors from yellow to brown to black depending on concentration and time. Selective polishing afterward leaves dark tones in recesses while high points shine — creating dramatic contrast.</p>
+<h3>Egg Method</h3>
+<p>Boiled egg sealed with silver creates natural patina via sulfur compounds (H₂S). Slower and more controlled for gradual tonal transitions.</p>
+<h3>Chemical Patinas</h3>
+<p>Different chemicals produce different colors: ammonia vapor → pale blue, copper sulfate → green, selenium dioxide → dark grey-black. Advanced techniques requiring ventilation and safety equipment.</p>
+<h3>Japanese Tradition: Rokushō</h3>
+<p>Japanese metalwork patina bath creates spectacular color transitions on silver-copper alloys (shibuichi) — lavender-grey to deep purple.</p>
+<h3>Selective Polishing</h3>
+<p>The artistic value lies in selective polishing after full oxidation. High points are polished bright while recesses stay dark. Micro-motor or flexible shaft tools for detailed work.</p>
+<h3>Preserving Oxidation</h3>
+<p>Apply Renaissance Wax or microcrystalline wax. Avoid varnish (yellows/peels). Clean oxidized pieces with soft cloth only, never polishing cloths.</p>
+<div class="fact-box"><strong>🎨 Tip:</strong> Oxidation is reversible — unwanted patina can be removed with pickle solution and reapplied. Don't be afraid to experiment!</div>
+<h3>Source</h3>
+<p>Tim McCreight "Complete Metalsmith," Ganoksin archive, Japanese metalwork sources.</p>`,
+  ar: `<h3>فن الأكسدة والباتينا</h3>
+<p>الأكسدة هي فن إنشاء طبقات داكنة عمدًا على الفضة لإضافة العمق والتباين والشخصية. بينما التأكسد الطبيعي "مشكلة"، الأكسدة المتحكم بها "تقنية" — أداة جمالية قوية تكشف التفاصيل في أعمال الفيلجران والنقش والنحت.</p>
+<h3>كبريت البوتاسيوم</h3>
+<p>التقنية الأكثر شيوعًا. ينتج ألوانًا من الأصفر إلى البني إلى الأسود. التلميع الانتقائي بعدها يترك الألوان الداكنة في التجاويف بينما تلمع النقاط العالية.</p>
+<h3>طريقة البيض</h3>
+<p>بيضة مسلوقة مغلقة مع الفضة تخلق باتينا طبيعية عبر مركبات الكبريت. أبطأ وأكثر تحكمًا.</p>
+<h3>التلميع الانتقائي</h3>
+<p>القيمة الفنية في التلميع الانتقائي بعد الأكسدة الكاملة. النقاط العالية تُلمّع بينما التجاويف تبقى داكنة.</p>
+<div class="fact-box"><strong>🎨 نصيحة:</strong> الأكسدة قابلة للعكس — يمكن إزالة الباتينا غير المرغوبة وإعادة تطبيقها.</div>
+<h3>المصدر</h3>
+<p>Tim McCreight "Complete Metalsmith"، أرشيف Ganoksin.</p>`
+};
+
+C[73] = {
+  tr: `<h3>Repoussé ve Chasing: Gümüşü Şekillendirmek</h3>
+<p>Repoussé (Fransızca "geri itmek") ve chasing ("kovalamak"), gümüş levhayı çekiç ve zımba ile şekillendirerek kabartma tasarımlar oluşturma sanatıdır. İkisi birlikte kullanılır: repoussé arka yüzden kabartma yapar, chasing ön yüzden detay ekler. Bu teknikle göğüs zırhlarından takı panellerine, tabak süslemelerinden mimari detaylara kadar sayısız eser üretilmiştir.</p>
+
+<h3>Tekniğin Temelleri</h3>
+<p>Gümüş levha (genellikle 0,5-1,5 mm kalınlıkta) bir reçine veya zift yatağına sabitlenir. Usta, arkadan metal veya ağaç zımbalarla levhayı iterek ana formları oluşturur (repoussé aşaması). Sonra parça çevrilir ve ön yüzden keskin zımbalarla detaylar, çizgiler ve dokular eklenir (chasing aşaması). Bu süreç defalarca tekrarlanarak form derinleştirilir ve rafine edilir.</p>
+<p>Her iterasyonda metal sertleşir (iş sertleşmesi / work hardening) — bu nedenle ara ara "tavlama" (annealing) yapılarak metal yumuşatılır. 925 gümüş yaklaşık 650°C'de tavlanır, sonra suya batırılarak hızla soğutulur.</p>
+
+<h3>Araçlar</h3>
+<p>Repoussé çekiçleri (chasing hammer) hafif ve dengeli olmalıdır — kontrol ağırlıktan önemlidir. Zımbalar (punches) çelik veya ağaçtan üretilir; düz, yuvarlak, çizgi, doku ve şekil zımbaları olmak üzere yüzlerce çeşidi vardır. Zift (pitch) yatağı, parçayı sabitlerken aynı zamanda yeterli esnekliği sağlar — çam reçinesi, alçı ve yağ karışımından hazırlanır.</p>
+
+<h3>Osmanlı ve Anadolu Geleneği</h3>
+<p>Osmanlı saraylarında repoussé ustalarına "kabartmacı" denirdi. Saray mutfak takımları, ayna çerçeveleri, kutu kapakları ve kılıç kabzaları bu teknikle bezenmişti. Topkapı Sarayı koleksiyonu, Osmanlı repoussé sanatının en görkemli örneklerini barındırır — bitkisel motifler (rumi, hatai), geometrik desenler ve kaligrafi kompozisyonları.</p>
+
+<h3>Modern Uygulamalar</h3>
+<p>Günümüzde repoussé, hem geleneksel hem çağdaş takı tasarımında kullanılır. Büyük kolye panelleri, manşet bilezikler, kemer tokaları ve dekoratif tabaklar popüler uygulamalardır. Bazı çağdaş sanatçılar repoussé tekniğini soyut heykelle birleştirerek galeri işleri üretmektedir.</p>
+
+<h3>Kakma (Inlay) Tekniği</h3>
+<p>Kakma, farklı metallerden (altın, bakır, bronz) ince şeritlerin gümüş yüzeyine açılan oluklara yerleştirilmesidir. Şam çeliği geleneğinden esinlenen bu teknik, çok renkli metal kontrastlar yaratır. Türkiye'de özellikle Kayseri ve Sivas kakma işçiliğiyle tanınır.</p>
+
+<div class="fact-box"><strong>🔨 İpucu:</strong> Repoussé öğrenmeye başlayanlar için bakır levha ile pratik yapılması önerilir — bakır gümüşten ucuzdur ve benzer işlenebilirlik özelliklerine sahiptir. Teknik yeterince geliştikten sonra gümüşe geçilmelidir.</div>
+
+<h3>Kaynak</h3>
+<p>Victoria & Albert Museum metalwork koleksiyonu, Topkapı Sarayı envanterleri, Ganoksin repoussé eğitimleri.</p>`,
+  en: `<h3>Repoussé and Chasing: Shaping Silver</h3>
+<p>Repoussé ("to push back" in French) and chasing ("to chase") shape silver sheet into raised designs using hammers and punches. Repoussé pushes from behind to create forms; chasing adds detail from the front. Together, they've produced everything from armor to jewelry panels to architectural details.</p>
+<h3>Fundamentals</h3>
+<p>Silver sheet (0.5-1.5mm) is secured on a pitch bed. The artist pushes main forms from behind (repoussé), then flips and adds details from front (chasing). Multiple iterations deepen and refine the form. Metal work-hardens and needs annealing (~650°C for 925 silver).</p>
+<h3>Tools</h3>
+<p>Lightweight chasing hammers, steel/wood punches (flat, round, line, texture — hundreds of varieties), pitch bed (pine resin, plaster, oil mixture).</p>
+<h3>Ottoman and Anatolian Tradition</h3>
+<p>Ottoman palace artisans called "kabartmacı" decorated kitchenware, mirror frames, boxes, and sword hilts. Topkapı Palace holds magnificent examples featuring botanical motifs (rumi, hatai), geometric patterns, and calligraphy.</p>
+<h3>Inlay (Kakma)</h3>
+<p>Different metals (gold, copper, bronze) inlaid into grooves cut in silver, creating multi-colored contrasts. Kayseri and Sivas in Turkey are known for this craft.</p>
+<div class="fact-box"><strong>🔨 Tip:</strong> Beginners should practice on copper sheet first — cheaper than silver with similar workability.</div>
+<h3>Source</h3>
+<p>V&A metalwork collection, Topkapı Palace inventories, Ganoksin repoussé tutorials.</p>`,
+  ar: `<h3>الريبوسيه والتشيسينغ: تشكيل الفضة</h3>
+<p>الريبوسيه ("الدفع للخلف") والتشيسينغ ("المطاردة") تقنيتان لتشكيل صفائح الفضة في تصاميم بارزة باستخدام المطارق والمسامير. الريبوسيه يدفع من الخلف لإنشاء الأشكال؛ التشيسينغ يضيف التفاصيل من الأمام.</p>
+<h3>الأساسيات</h3>
+<p>صفيحة فضة (0.5-1.5 مم) مثبتة على سطح من القار. الفنان يدفع الأشكال الرئيسية من الخلف ثم يقلب ويضيف التفاصيل من الأمام. تكرارات متعددة تعمّق النموذج. المعدن يتصلب ويحتاج تلدينًا (~650 درجة مئوية).</p>
+<h3>التقليد العثماني</h3>
+<p>حرفيو القصر العثماني "القبارتماجي" زينوا أدوات المطبخ وإطارات المرايا والصناديق ومقابض السيوف. قصر توبكابي يحتضن أمثلة رائعة.</p>
+<h3>التكفيت (الككما)</h3>
+<p>معادن مختلفة (ذهب، نحاس، برونز) مُرصّعة في أخاديد محفورة في الفضة، مما يخلق تباينات متعددة الألوان.</p>
+<div class="fact-box"><strong>🔨 نصيحة:</strong> المبتدئون يجب أن يتدربوا على صفائح النحاس أولاً — أرخص من الفضة بخصائص عمل مماثلة.</div>
+<h3>المصدر</h3>
+<p>مجموعة V&A، مخزونات قصر توبكابي، دروس Ganoksin.</p>`
+};
+
+C[71] = {
+  tr: `<h3>Dünya Gümüş Sikke Rehberi</h3>
+<p>Gümüş sikkeler, insanlık tarihinin en eski ve en yaygın para birimi formu olmuştur. MÖ 600 civarında Lidya'da (bugünkü Türkiye) basılan ilk sikkelerden, 21. yüzyılın koleksiyoner ve yatırım sikkelerine kadar gümüş, paranın kendisi olmuştur. Bu rehber, dünyanın en önemli gümüş sikkelerini ve koleksiyonculuk değerlerini kapsar.</p>
+
+<h3>ABD Gümüş Sikkeleri</h3>
+<p><strong>American Silver Eagle (1986-günümüz):</strong> ABD Darphanesi'nin amiral gemisi. 1 ons %99,9 saf gümüş. Ön yüzde Walking Liberty, arka yüzde kartal. Dünyanın en çok satılan gümüş sikkesi — 2024'te toplam satış 600 milyon adedi aştı.</p>
+<p><strong>Morgan Dollar (1878-1921):</strong> George T. Morgan tasarımı. %90 gümüş. Numismatik değeri çok yüksek — nadir tarihler ve darphaneler (1893-S gibi) altı haneli fiyatlara ulaşabilir.</p>
+<p><strong>Peace Dollar (1921-1935):</strong> I. Dünya Savaşı'nın bitişini simgeler. Zarif Art Deco tasarımı ile koleksiyonerlerin gözdesi.</p>
+
+<h3>Kanada Gümüş Sikkeleri</h3>
+<p><strong>Silver Maple Leaf (1988-günümüz):</strong> Royal Canadian Mint. 1 ons %99,99 saf gümüş — dünyanın en yüksek saflıklı resmi sikkelerinden biri. Mikro-gravür ve radyal çizgi güvenlik özellikleri sahteciliği zorlaştırır.</p>
+
+<h3>Avusturya, Avustralya ve Diğerleri</h3>
+<p><strong>Vienna Philharmonic:</strong> Avusturya Darphanesi, %99,9 saf. Avrupa'nın en popüler gümüş sikkesi. <strong>Australian Kangaroo/Kookaburra:</strong> Perth Mint, her yıl değişen tasarım — koleksiyoner çekiciliği yüksek. <strong>Britannia:</strong> İngiliz Kraliyet Darphanesi, %99,9 saf. <strong>Krugerrand:</strong> Güney Afrika, 2017'den beri gümüş versiyonu.</p>
+
+<h3>Koleksiyonculuk Temelleri</h3>
+<p><strong>Grading (Derecelendirme):</strong> NGC ve PCGS dünya standardı grading kuruluşlarıdır. MS-70 (mükemmel) en yüksek derece. Derece arttıkça değer katlanarak yükselir. <strong>Tiraj:</strong> Düşük tirajlı (mintage) sikkeler daha değerlidir. <strong>Tarihî önem:</strong> Savaş dönemi, özel basım veya hatalı sikkeler prim taşır.</p>
+
+<h3>Türk Gümüş Sikkeleri</h3>
+<p><strong>Osmanlı Akçesi:</strong> Osmanlı İmparatorluğu'nun temel gümüş para birimi. İlk basım Orhan Gazi dönemine (1326) tarihlenir. Erken dönem akçeleri %90+ saf gümüş içerirken, imparatorluğun son dönemlerinde ayar düşmüştür.</p>
+<p><strong>Cumhuriyet Dönemi:</strong> Türkiye Cumhuriyeti Darphane ve Damga Matbaası özel hatıra paralar basmaktadır — Atatürk serisi, Troya Hazineleri serisi, UNESCO Dünya Mirası serisi. Bunlar hem yatırım hem koleksiyon değeri taşır.</p>
+
+<div class="fact-box"><strong>🪙 Başlangıç Önerisi:</strong> Koleksiyona modern bullion sikkelerle (Eagle, Maple, Philharmonic) başlayın — kolay bulunur, likiditeleri yüksek, ayar garantisi var. Deneyim kazandıkça tarihi sikkelere ve düşük tiraj özel basımlara yönelin.</div>
+
+<h3>Kaynak</h3>
+<p>NGC World Coin Census, PCGS Price Guide, ABD Darphanesi satış verileri, T.C. Darphane koleksiyoner kataloğu.</p>`,
+  en: `<h3>World Silver Coin Guide</h3>
+<p>Silver coins have been humanity's most enduring currency form since the first coins struck in Lydia (modern Turkey) around 600 BCE.</p>
+<h3>US Silver Coins</h3>
+<p><strong>American Silver Eagle (1986-present):</strong> US Mint flagship, 1 oz 99.9% pure. Over 600 million sold. <strong>Morgan Dollar (1878-1921):</strong> High numismatic value — rare dates reach six figures. <strong>Peace Dollar (1921-1935):</strong> Art Deco design commemorating WWI's end.</p>
+<h3>Canadian Silver</h3>
+<p><strong>Silver Maple Leaf:</strong> 99.99% pure — among the world's purest official coins. Micro-engraving and radial line security features.</p>
+<h3>Others</h3>
+<p><strong>Vienna Philharmonic:</strong> Europe's most popular. <strong>Australian Kangaroo/Kookaburra:</strong> Annual design changes add collector appeal. <strong>Britannia, Krugerrand.</strong></p>
+<h3>Collecting Fundamentals</h3>
+<p><strong>Grading:</strong> NGC and PCGS are world standards. MS-70 is the highest grade. <strong>Mintage:</strong> Lower mintage = higher value. <strong>Historical significance</strong> adds premium.</p>
+<h3>Turkish Silver Coins</h3>
+<p><strong>Ottoman Akçe:</strong> Basic silver currency from 1326. <strong>Republic commemoratives:</strong> Atatürk series, Troy Treasures, UNESCO World Heritage series.</p>
+<div class="fact-box"><strong>🪙 Starter Tip:</strong> Begin with modern bullion (Eagle, Maple, Philharmonic) — easy to find, highly liquid, purity guaranteed. Graduate to historical and low-mintage coins as you gain experience.</div>
+<h3>Source</h3>
+<p>NGC, PCGS, US Mint data, Turkish Mint catalog.</p>`,
+  ar: `<h3>دليل العملات الفضية العالمية</h3>
+<p>العملات الفضية كانت أكثر أشكال العملات ديمومة منذ أول عملات سُكّت في ليديا (تركيا الحديثة) حوالي 600 قبل الميلاد.</p>
+<h3>عملات أمريكية</h3>
+<p><strong>النسر الفضي الأمريكي:</strong> أونصة واحدة بنقاء 99.9%. أكثر من 600 مليون مباعة. <strong>دولار مورغان:</strong> قيمة نُمسماتية عالية جدًا.</p>
+<h3>عملات كندية</h3>
+<p><strong>ورقة القيقب الفضية:</strong> نقاء 99.99% — من أنقى العملات الرسمية في العالم.</p>
+<h3>أساسيات الجمع</h3>
+<p><strong>التصنيف:</strong> NGC وPCGS المعايير العالمية. MS-70 أعلى درجة. <strong>حجم السك:</strong> أقل = أعلى قيمة.</p>
+<h3>العملات التركية</h3>
+<p><strong>الأقجة العثمانية:</strong> العملة الفضية الأساسية منذ 1326. <strong>عملات تذكارية جمهورية:</strong> سلسلة أتاتورك وكنوز طروادة.</p>
+<div class="fact-box"><strong>🪙 نصيحة للبداية:</strong> ابدأ بعملات السبائك الحديثة — سهلة الإيجاد، سيولة عالية، نقاء مضمون.</div>
+<h3>المصدر</h3>
+<p>NGC، PCGS، بيانات دار السك الأمريكية، كتالوج دار السك التركية.</p>`
+};
+
+C[72] = {
+  tr: `<h3>Sikke Grading ve Değerleme</h3>
+<p>Sikke grading (derecelendirme), bir sikkenin fiziksel kondisyonunu standart bir skalada değerlendirme sürecidir. Aynı yıl ve darphanede basılan iki sikke, kondisyon farkına bağlı olarak 10 ile 10.000 kat arasında fiyat farkı gösterebilir. Bu nedenle grading, koleksiyonculuğun ve yatırımın temel taşıdır.</p>
+
+<h3>Sheldon Skalası: 1-70 Arası</h3>
+<p>William Sheldon tarafından 1949'da geliştirilen bu sınıflandırma sistemi bugün dünya standardıdır. Skala 1 (zar zor tanınabilir — PO-1) ile 70 (mutlak mükemmel — MS-70) arasında değişir. İlk harf durumu belirtir: PO (Poor), AG (About Good), G (Good), VG (Very Good), F (Fine), VF (Very Fine), EF (Extremely Fine), AU (About Uncirculated), MS (Mint State — hiç tedavüle çıkmamış), PF (Proof — özel basım).</p>
+<p>Pratik koleksiyonculukta en kritik aralık MS-60 ile MS-70 arasıdır. MS-60 darphane durumunda ama çizik ve lekeler olabilir; MS-65 "gem" kalite — minimal kusur; MS-67 "superb gem"; MS-69 neredeyse mükemmel; MS-70 mutlak mükemmel (büyüteçle bile kusur yok).</p>
+
+<h3>NGC ve PCGS: Güvenilir Otorite</h3>
+<p><strong>NGC (Numismatic Guaranty Company):</strong> 1987'den beri faaliyet gösteren bağımsız grading kuruluşu. Sikkeleri kapsüle (slab) yerleştirir ve derece/tarih/darphane bilgisi ile etiketler. NGC kapsülü açılmadıkça derece geçerliliğini korur.</p>
+<p><strong>PCGS (Professional Coin Grading Service):</strong> 1986'dan beri aktif. Kendi veritabanı ve fiyat rehberine sahiptir. NGC ve PCGS arasında genel olarak eşdeğer güvenilirlik vardır, ancak bazı koleksiyonerler belirli bir kuruluşu tercih eder.</p>
+<p>Her iki kuruluş da online doğrulama sunar — slab üzerindeki seri numarası ile sikkenin bilgileri ve fotoğrafları internet üzerinden kontrol edilebilir.</p>
+
+<h3>Değerlendirme Kriterleri</h3>
+<p><strong>Aşınma (Wear):</strong> Tedavüldeki kullanımdan kaynaklanan yüzey kaybı. Yüksek noktalar (saç detayları, kartal tüyleri) ilk aşınan bölgelerdir. <strong>Parlaklık (Luster):</strong> Darphane çıkışındaki orijinal parlaklık. Temizlenmiş veya cilalanmış sikkeler doğal parlaklığını kaybeder ve düşük derecelendirilir. <strong>Çizikler (Contact Marks):</strong> Diğer sikkelerle temasdan kaynaklanan izler. Büyüklük, derinlik ve konuma göre değerlendirilir — yüzde çizik, kenarda olandan daha ağırdır. <strong>Göz çekiciliği (Eye Appeal):</strong> Subjektif ama önemli — güzel patinalı bir sikke, temizlenmiş parlak bir sikkeden daha değerli olabilir.</p>
+
+<h3>Değerlemeyi Etkileyen Faktörler</h3>
+<p><strong>Tiraj (Mintage):</strong> Basım adedi. Düşük tiraj genellikle yüksek değer demektir. <strong>Darphane işareti:</strong> ABD sikkelerinde P (Philadelphia), D (Denver), S (San Francisco), W (West Point). San Francisco basımları genellikle daha düşük tirajlıdır. <strong>Tarihî önem:</strong> Savaş dönemi, anma basımı, ilk/son basım. <strong>Hata basımlar:</strong> Çift basım (double die), kaydırılmış merkez (off-center), eksik kaplama — bazı hatalar büyük prim taşır.</p>
+
+<div class="fact-box"><strong>🏆 Fiyat Etkisi Örneği:</strong> 1921 Morgan Dolar — VG-8 derecede ~35 USD | MS-63 derecede ~65 USD | MS-67 derecede ~5.500 USD | MS-67+ derecede ~25.000+ USD. Aynı sikke, kondisyon farkıyla 700 kat değer kazanabilir.</div>
+
+<h3>Kendi Sikkenizi Değerlendirmek</h3>
+<p>Profesyonel grading öncesi ön değerlendirme için: güçlü bir ışık kaynağı altında sikkeyi 45° açıyla tutun ve 7-10x büyüteç kullanın. Parlaklığın doğal mı (darphane çıkışı) yoksa suni mi (temizlenmiş) olduğunu kontrol edin. Yüksek noktaların aşınma durumunu inceleyin. Referans fotoğraflarla (NGC/PCGS online census) karşılaştırın.</p>
+<p>Uyarı: sikkelere çıplak elle dokunmak parmak izi bırakır ve değeri düşürür. Her zaman pamuklu eldiven veya kenar tutma yöntemi kullanın.</p>
+
+<h3>Kaynak</h3>
+<p>NGC Coin Grading Guide, PCGS CoinFacts, ANA (American Numismatic Association) eğitim kaynakları.</p>`,
+  en: `<h3>Coin Grading and Valuation</h3>
+<p>Coin grading evaluates a coin's physical condition on a standardized scale. Two coins from the same year and mint can differ in price by 10 to 10,000 times based on condition alone.</p>
+<h3>The Sheldon Scale: 1-70</h3>
+<p>Developed by William Sheldon in 1949, now the world standard. Ranges from PO-1 (barely identifiable) to MS-70 (absolute perfection). Key range: MS-60 (uncirculated with marks) to MS-70 (flawless under magnification).</p>
+<h3>NGC and PCGS</h3>
+<p>The two trusted independent grading services. Both encapsulate coins in tamper-evident "slabs" with grade, date, and mint information. Online verification available via serial number.</p>
+<h3>Grading Criteria</h3>
+<p><strong>Wear:</strong> Surface loss from circulation. <strong>Luster:</strong> Original mint brilliance (cleaned coins grade lower). <strong>Contact marks:</strong> Scratches from other coins — size, depth, and location matter. <strong>Eye appeal:</strong> Subjective but important — beautiful toning can add value.</p>
+<h3>Valuation Factors</h3>
+<p><strong>Mintage:</strong> Lower = higher value. <strong>Mint mark:</strong> Different facilities produce different quantities. <strong>Historical significance.</strong> <strong>Errors:</strong> Double dies, off-centers — some command huge premiums.</p>
+<div class="fact-box"><strong>🏆 Price Impact:</strong> 1921 Morgan Dollar — VG-8: ~$35 | MS-63: ~$65 | MS-67: ~$5,500 | MS-67+: ~$25,000+. Same coin, 700x value difference from condition alone.</div>
+<h3>DIY Assessment</h3>
+<p>Use strong light at 45° angle with 7-10x loupe. Check if luster is natural or artificial (cleaned). Examine high-point wear. Compare with NGC/PCGS reference photos. Always use cotton gloves or edge-hold technique.</p>
+<h3>Source</h3>
+<p>NGC Grading Guide, PCGS CoinFacts, ANA educational resources.</p>`,
+  ar: `<h3>تصنيف العملات وتقييمها</h3>
+<p>تصنيف العملات يقيّم الحالة المادية للعملة على مقياس موحد. عملتان من نفس السنة والدار قد تختلفان في السعر بمقدار 10 إلى 10,000 مرة حسب الحالة.</p>
+<h3>مقياس شيلدون: 1-70</h3>
+<p>طوّره ويليام شيلدون عام 1949. يتراوح من PO-1 (بالكاد يمكن التعرف عليها) إلى MS-70 (الكمال المطلق). النطاق الحرج: MS-60 إلى MS-70.</p>
+<h3>NGC وPCGS</h3>
+<p>خدمتا التصنيف المستقلتان الموثوقتان. كلاهما يغلف العملات في كبسولات مع معلومات الدرجة والتاريخ. التحقق عبر الإنترنت متاح.</p>
+<h3>معايير التصنيف</h3>
+<p><strong>التآكل:</strong> فقدان السطح من التداول. <strong>اللمعان:</strong> البريق الأصلي. <strong>علامات التلامس:</strong> الخدوش من عملات أخرى. <strong>الجاذبية البصرية:</strong> ذاتية لكن مهمة.</p>
+<div class="fact-box"><strong>🏆 تأثير السعر:</strong> دولار مورغان 1921 — VG-8: ~35$ | MS-63: ~65$ | MS-67: ~5,500$ | MS-67+: ~25,000$+. نفس العملة، فارق 700 ضعف.</div>
+<h3>المصدر</h3>
+<p>دليل تصنيف NGC، PCGS CoinFacts، موارد ANA التعليمية.</p>`
 };
 
 export function getArticleContent(id, article) {

@@ -1,12 +1,32 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { t } from '../i18n/translations';
 import useSilverPrice from '../hooks/useSilverPrice';
+import { ARTICLES } from '../data/articles';
+import { getArticleContent } from '../data/articleContent';
 
 /* ── TOOL 0: Purity Calculator ── */
 function PurityCalc({ lang }) {
-  const [w, setW] = useState(10), [p, setP] = useState(0.925);
-  const L = { tr: ['Ağırlık (gram)', 'Ayar', 'Saf Gümüş'], en: ['Weight (g)', 'Purity', 'Pure Silver'], ar: ['الوزن (غرام)', 'العيار', 'الفضة النقية'] }[lang];
-  return (<div className="tm-tool"><label className="calc-label">{L[0]}</label><input type="number" className="calc-input" value={w} onChange={e=>setW(+e.target.value)} min="0" step="0.1" inputMode="decimal"/><label className="calc-label" style={{marginTop:12}}>{L[1]}</label><select className="calc-select" value={p} onChange={e=>setP(+e.target.value)}><option value={0.999}>999</option><option value={0.925}>925</option><option value={0.900}>900</option><option value={0.835}>835</option><option value={0.800}>800</option></select><div className="calc-result" style={{marginTop:16}}><div className="calc-result-num">{(w*p).toFixed(2)} g</div><div className="calc-result-label">{L[2]}</div></div></div>);
+  const [w, setW] = useState(10), [metal, setMetal] = useState('silver'), [p, setP] = useState(0.925);
+  const silverOpts = [{v:0.999,l:'999'},{v:0.925,l:'925'},{v:0.900,l:'900'},{v:0.835,l:'835'},{v:0.800,l:'800'}];
+  const goldOpts = [{v:0.999,l:'24K (999)'},{v:0.916,l:'22K (916)'},{v:0.750,l:'18K (750)'},{v:0.585,l:'14K (585)'},{v:0.417,l:'10K (417)'},{v:0.333,l:'8K (333)'}];
+  const opts = metal === 'gold' ? goldOpts : silverOpts;
+  const L = { tr: ['Ağırlık (gram)', 'Ayar', metal==='gold'?'Saf Altın':'Saf Gümüş'], en: ['Weight (g)', 'Purity', metal==='gold'?'Pure Gold':'Pure Silver'], ar: ['الوزن (غرام)', 'العيار', metal==='gold'?'الذهب الخالص':'الفضة النقية'] }[lang];
+  const accentColor = metal === 'gold' ? 'var(--gold)' : 'var(--silver)';
+  return (<div className="tm-tool">
+    <div style={{display:'flex',gap:4,marginBottom:14,padding:3,background:'var(--card)',borderRadius:10,border:'1px solid var(--border)'}}>
+      {[{id:'silver',l:{tr:'🥈 Gümüş',en:'🥈 Silver',ar:'🥈 فضة'}},{id:'gold',l:{tr:'🥇 Altın',en:'🥇 Gold',ar:'🥇 ذهب'}}].map(m=>
+        <button key={m.id} onClick={()=>{setMetal(m.id);setP(m.id==='gold'?0.750:0.925)}} style={{flex:1,padding:'8px',borderRadius:8,border:'none',cursor:'pointer',fontSize:13,fontWeight:600,background:metal===m.id?(m.id==='gold'?'rgba(212,175,55,0.15)':'rgba(192,192,192,0.12)'):'transparent',color:metal===m.id?(m.id==='gold'?'var(--gold)':'var(--silver)'):'var(--text3)'}}>{m.l[lang]}</button>
+      )}
+    </div>
+    <label className="calc-label">{L[0]}</label><input type="number" className="calc-input" value={w} onChange={e=>setW(+e.target.value)} min="0" step="0.1" inputMode="decimal"/>
+    <label className="calc-label" style={{marginTop:12}}>{L[1]}</label>
+    <select className="calc-select" value={p} onChange={e=>setP(+e.target.value)}>{opts.map(o=><option key={o.v} value={o.v}>{o.l}</option>)}</select>
+    <div className="calc-result" style={{marginTop:16}}>
+      <div className="calc-result-num" style={{color:accentColor}}>{(w*p).toFixed(2)} g</div>
+      <div className="calc-result-label">{L[2]}</div>
+      <div style={{fontSize:'.75rem',color:'var(--text3)',marginTop:4}}>{lang==='tr'?'Alaşım':'Alloy'}: {(w*(1-p)).toFixed(2)} g ({((1-p)*100).toFixed(1)}%)</div>
+    </div>
+  </div>);
 }
 
 /* ── TOOL 1: Unit Converter ── */
@@ -445,8 +465,8 @@ function RingSizer({ lang }) {
           flex:1,padding:'12px',borderRadius:12,border:'1px solid var(--border)',
           fontSize:'.85rem',color:'var(--text2)'}}>{TX.restart}</button>
         <button onClick={()=>{
-          const txt = `${TX.resultTitle}: US ${s.us} / EU ${s.eu} / UK ${s.uk} / ${s.dia}mm — Silverpedi`;
-          if(navigator.share) navigator.share({title:'Silverpedi Ring Size',text:txt}).catch(()=>{});
+          const txt = `${TX.resultTitle}: US ${s.us} / EU ${s.eu} / UK ${s.uk} / ${s.dia}mm — JewelPedi`;
+          if(navigator.share) navigator.share({title:'JewelPedi Ring Size',text:txt}).catch(()=>{});
           else navigator.clipboard?.writeText(txt);
         }} style={{flex:1,padding:'12px',borderRadius:12,
           background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',
@@ -500,7 +520,25 @@ const TL=[{y:'MÖ 5000',t:{tr:'Anadolu ilk gümüş',en:'First silver in Anatoli
 function TimelineTool({lang}){return<div className="tm-tool" style={{gap:0}}>{TL.map((e,i)=><div key={i} style={{display:'flex',gap:10,paddingBottom:14}}><div style={{display:'flex',flexDirection:'column',alignItems:'center',minWidth:28}}><div style={{width:28,height:28,borderRadius:'50%',background:'var(--card)',border:'2px solid var(--silver)',display:'flex',alignItems:'center',justifyContent:'center',fontSize:12,zIndex:1}}>{e.i}</div>{i<TL.length-1&&<div style={{width:2,flex:1,background:'var(--border)',marginTop:3}}/>}</div><div style={{paddingTop:3}}><div style={{fontFamily:'var(--f-mono)',fontSize:11,fontWeight:700,color:'var(--gold)',marginBottom:2}}>{e.y}</div><div style={{fontSize:13,color:'var(--text)',lineHeight:1.5}}>{e.t[lang]}</div></div></div>)}</div>}
 
 /* ── TOOL 12: Stamp Identifier ── */
-const STAMPS=[{s:"Lion 🦁",c:{tr:"İngiltere",en:"England",ar:"إنجلترا"},p:"925",y:"1544+"},{s:"Minerva 🏛️",c:{tr:"Fransa",en:"France",ar:"فرنسا"},p:"800/925",y:"1838+"},{s:"Moon ☽",c:{tr:"Almanya",en:"Germany",ar:"ألمانيا"},p:"800/925",y:"1884+"},{s:"925+Kod",c:{tr:"Türkiye",en:"Turkey",ar:"تركيا"},p:"800/925",y:"1923+"},{s:"Kokoshnik",c:{tr:"Rusya",en:"Russia",ar:"روسيا"},p:"875/925",y:"1899+"},{s:"Star ⭐",c:{tr:"İtalya",en:"Italy",ar:"إيطاليا"},p:"800/925",y:"1872+"},{s:"STERLING",c:{tr:"ABD",en:"USA",ar:"أمريكا"},p:"925",y:"1906+"},{s:"Anchor ⚓",c:{tr:"Birmingham",en:"Birmingham",ar:"برمنغهام"},p:"925",y:"1773+"}];
+const STAMPS=[
+{s:"Lion 🦁",c:{tr:"İngiltere",en:"England",ar:"إنجلترا"},p:"925 Ag",y:"1544+"},
+{s:"Minerva 🏛️",c:{tr:"Fransa",en:"France",ar:"فرنسا"},p:"800/925 Ag",y:"1838+"},
+{s:"Moon ☽",c:{tr:"Almanya",en:"Germany",ar:"ألمانيا"},p:"800/925 Ag",y:"1884+"},
+{s:"925+Kod",c:{tr:"Türkiye",en:"Turkey",ar:"تركيا"},p:"800/925 Ag",y:"1923+"},
+{s:"Kokoshnik",c:{tr:"Rusya",en:"Russia",ar:"روسيا"},p:"875/925 Ag",y:"1899+"},
+{s:"Star ⭐",c:{tr:"İtalya",en:"Italy",ar:"إيطاليا"},p:"800/925 Ag",y:"1872+"},
+{s:"STERLING",c:{tr:"ABD",en:"USA",ar:"أمريكا"},p:"925 Ag",y:"1906+"},
+{s:"Anchor ⚓",c:{tr:"Birmingham",en:"Birmingham",ar:"برمنغهام"},p:"925 Ag",y:"1773+"},
+// ── Gold Stamps ──
+{s:"Crown 👑",c:{tr:"İngiltere",en:"England",ar:"إنجلترا"},p:"375-916 Au",y:"1798+"},
+{s:"Eagle 🦅",c:{tr:"Fransa",en:"France",ar:"فرنسا"},p:"750 Au",y:"1838+"},
+{s:"Sun ☀️",c:{tr:"Almanya",en:"Germany",ar:"ألمانيا"},p:"333-750 Au",y:"1884+"},
+{s:"585/750/916+Kod",c:{tr:"Türkiye",en:"Turkey",ar:"تركيا"},p:"585-916 Au",y:"1923+"},
+{s:"750 ★",c:{tr:"İtalya",en:"Italy",ar:"إيطاليا"},p:"750 Au",y:"1872+"},
+{s:"14K / 585",c:{tr:"ABD",en:"USA",ar:"أمريكا"},p:"417-750 Au",y:"1906+"},
+{s:"Owl 🦉",c:{tr:"Fransa (İthal)",en:"France (Import)",ar:"فرنسا (مستورد)"},p:"750 Au",y:"1893+"},
+{s:"Darphane 🏛️",c:{tr:"Türkiye (Sikke)",en:"Turkey (Coins)",ar:"تركيا (عملات)"},p:"916 Au",y:"1923+"}
+];
 function StampIdentifier({lang}){const[q,setQ]=useState('');const fl=q?STAMPS.filter(s=>s.s.toLowerCase().includes(q.toLowerCase())||s.c[lang].toLowerCase().includes(q.toLowerCase())):STAMPS;
 return<div className="tm-tool" style={{gap:10}}><input type="text" className="calc-input" placeholder={lang==='tr'?'Damga veya ülke ara...':'Search stamp or country...'} value={q} onChange={e=>setQ(e.target.value)} style={{fontSize:14}}/><div style={{fontSize:11,color:'var(--text3)'}}>{fl.length} {lang==='tr'?'sonuç':'results'}</div>{fl.map((s,i)=><div key={i} style={{padding:10,borderRadius:10,border:'1px solid var(--border)',background:'var(--card)'}}><div style={{fontSize:14,fontWeight:600,marginBottom:3}}>{s.s}</div><div style={{fontSize:12,color:'var(--silver)',marginBottom:2}}>{s.c[lang]}</div><div style={{display:'flex',gap:4}}><span style={{fontSize:10,padding:'2px 6px',borderRadius:4,background:'rgba(212,175,55,0.12)',color:'var(--gold)',fontFamily:'var(--f-mono)',fontWeight:600}}>{s.p}</span><span style={{fontSize:10,padding:'2px 6px',borderRadius:4,background:'rgba(192,192,192,0.08)',color:'var(--silver)'}}>{s.y}</span></div></div>)}</div>}
 
@@ -509,15 +547,20 @@ function PriceAlert({lang}){const[pr,setPr]=useState(32.5);const[tg,setTg]=useSt
 return<div className="tm-tool"><div style={{textAlign:'center',fontSize:28,fontWeight:700,color:'var(--gold)',fontFamily:'var(--f-mono)',marginBottom:4}}>${pr.toFixed(2)}</div><input type="range" min={15} max={60} step={0.1} value={pr} onChange={e=>setPr(+e.target.value)} style={{width:'100%',accentColor:'var(--gold)',marginBottom:12}}/><input type="number" className="calc-input" value={tg} onChange={e=>setTg(+e.target.value)} min={1} step={0.5}/><div style={{display:'flex',gap:6,margin:'8px 0'}}>{['above','below'].map(d=><button key={d} onClick={()=>setDr(d)} style={{flex:1,padding:'10px',borderRadius:8,border:`1.5px solid ${dr===d?'var(--gold)':'var(--border)'}`,background:dr===d?'rgba(212,175,55,0.1)':'transparent',color:dr===d?'var(--gold)':'var(--text2)',cursor:'pointer',fontSize:13}}>{d==='above'?'↑':'↓'} {d==='above'?(lang==='tr'?'Üstü':'Above'):(lang==='tr'?'Altı':'Below')}</button>)}</div><button className="btn btn-primary" style={{width:'100%'}} onClick={()=>setAls(p=>[...p,{id:Date.now(),t:tg,d:dr}])}>{lang==='tr'?'Alarm Kur':'Set Alert'}</button>{als.map(a=><div key={a.id} style={{display:'flex',justifyContent:'space-between',padding:'8px 0',borderBottom:'1px solid var(--border)'}}><span style={{fontFamily:'var(--f-mono)',color:(a.d==='above'?pr>=a.t:pr<=a.t)?'#27ae60':'var(--text)'}}>${a.t} {a.d==='above'?'↑':'↓'}</span><span style={{fontSize:11,color:(a.d==='above'?pr>=a.t:pr<=a.t)?'#27ae60':'#f39c12'}}>{(a.d==='above'?pr>=a.t:pr<=a.t)?'🔔':'⏳'}</span></div>)}<div style={{marginTop:8,fontSize:10,color:'var(--text3)',textAlign:'center'}}>{lang==='tr'?'Simülasyondur.':'Simulation only.'}</div></div>}
 
 /* ── TOOL 14: Zakat ── */
-function ZakatCalc({lang}){const[g,setG]=useState(612);const[p,setP]=useState(30);const nisab=595;const zakat=g>=nisab?(g*p*0.025):0;
-return<div className="tm-tool"><label className="calc-label">{lang==='tr'?'Gümüş (gram)':'Silver (g)'}</label><input type="number" className="calc-input" value={g} onChange={e=>setG(+e.target.value)} min="0" inputMode="numeric"/><label className="calc-label" style={{marginTop:12}}>{lang==='tr'?'1g fiyat':'Price/g'}</label><input type="number" className="calc-input" value={p} onChange={e=>setP(+e.target.value)} min="0" step="0.01" inputMode="decimal"/><div className="calc-result" style={{marginTop:16}}>{g>=nisab?<><div className="calc-result-num">{zakat.toFixed(2)}</div><div className="calc-result-label">{lang==='tr'?'Zekât (%2.5)':'Zakat (2.5%)'}</div></>:<><div className="calc-result-num" style={{color:'var(--text2)',fontSize:'1.1rem'}}>{lang==='tr'?'Nisab altında':'Below nisab'}</div><div className="calc-result-label">Nisab: 595g</div></>}</div></div>}
+function ZakatCalc({lang}){const[metal,setMetal]=useState('silver');const[g,setG]=useState(612);const[p,setP]=useState(30);const nisab=metal==='gold'?85:595;const zakat=g>=nisab?(g*p*0.025):0;
+const metalL={silver:{tr:'🥈 Gümüş',en:'🥈 Silver',ar:'🥈 فضة'},gold:{tr:'🥇 Altın',en:'🥇 Gold',ar:'🥇 ذهب'}};
+return<div className="tm-tool">
+<div style={{display:'flex',gap:4,marginBottom:14,padding:3,background:'var(--card)',borderRadius:10,border:'1px solid var(--border)'}}>
+{['silver','gold'].map(m=><button key={m} onClick={()=>{setMetal(m);setG(m==='gold'?100:612);setP(m==='gold'?2800:30)}} style={{flex:1,padding:'8px',borderRadius:8,border:'none',cursor:'pointer',fontSize:13,fontWeight:600,background:metal===m?(m==='gold'?'rgba(212,175,55,0.15)':'rgba(192,192,192,0.12)'):'transparent',color:metal===m?(m==='gold'?'var(--gold)':'var(--silver)'):'var(--text3)'}}>{metalL[m][lang]}</button>)}
+</div>
+<label className="calc-label">{metal==='gold'?(lang==='tr'?'Altın (gram)':'Gold (g)'):(lang==='tr'?'Gümüş (gram)':'Silver (g)')}</label><input type="number" className="calc-input" value={g} onChange={e=>setG(+e.target.value)} min="0" inputMode="numeric"/><label className="calc-label" style={{marginTop:12}}>{lang==='tr'?'1g fiyat':'Price/g'}</label><input type="number" className="calc-input" value={p} onChange={e=>setP(+e.target.value)} min="0" step="0.01" inputMode="decimal"/><div className="calc-result" style={{marginTop:16}}>{g>=nisab?<><div className="calc-result-num" style={{color:metal==='gold'?'var(--gold)':'var(--silver)'}}>{zakat.toFixed(2)}</div><div className="calc-result-label">{lang==='tr'?'Zekât (%2.5)':'Zakat (2.5%)'}</div></>:<><div className="calc-result-num" style={{color:'var(--text2)',fontSize:'1.1rem'}}>{lang==='tr'?'Nisab altında':'Below nisab'}</div><div className="calc-result-label">Nisab: {nisab}g ({metal==='gold'?'Au':'Ag'})</div></>}</div></div>}
 
 /* ── TOOL 15: Purity Test Guide ── */
 function PurityTestGuide({lang}){const[e,setE]=useState(0);const ts=[{i:'🧲',n:{tr:'Mıknatıs',en:'Magnet',ar:'مغناطيس'},r:60,s:{tr:['Gümüş manyetik değildir'],en:['Silver is not magnetic'],ar:['الفضة ليست مغناطيسية']}},{i:'🧊',n:{tr:'Buz',en:'Ice',ar:'ثلج'},r:70,s:{tr:['Buz çok hızlı erir'],en:['Ice melts very fast'],ar:['يذوب الثلج بسرعة']}},{i:'⚗️',n:{tr:'Asit',en:'Acid',ar:'حمض'},r:90,s:{tr:['Kremsi beyaz=925'],en:['Creamy white=925'],ar:['أبيض كريمي=٩٢٥']}},{i:'🔬',n:{tr:'XRF',en:'XRF',ar:'XRF'},r:99,s:{tr:['En kesin yöntem'],en:['Most accurate'],ar:['الأكثر دقة']}}];const rc=(r)=>r>=90?'#27ae60':r>=70?'#f39c12':'#e74c3c';
 return<div className="tm-tool" style={{gap:8}}>{ts.map((t,i)=><div key={i} style={{borderRadius:10,border:`1px solid ${e===i?'var(--gold)':'var(--border)'}44`,overflow:'hidden'}}><button onClick={()=>setE(e===i?-1:i)} style={{width:'100%',padding:'10px 12px',border:'none',cursor:'pointer',background:'transparent',display:'flex',alignItems:'center',gap:8,justifyContent:'space-between'}}><div style={{display:'flex',alignItems:'center',gap:8}}><span style={{fontSize:18}}>{t.i}</span><span style={{fontWeight:600,fontSize:13,color:'var(--text)'}}>{t.n[lang]}</span><span style={{fontSize:9,color:rc(t.r),fontWeight:600}}>{t.r}%</span></div><span style={{transform:e===i?'rotate(180deg)':'none',transition:'transform .3s',color:'var(--text3)',fontSize:10}}>▼</span></button>{e===i&&<div style={{padding:'0 12px 10px'}}>{t.s[lang].map((s,j)=><div key={j} style={{fontSize:12,color:'var(--text2)',marginBottom:3}}>• {s}</div>)}</div>}</div>)}</div>}
 
 /* ── TOOL 16: Metal Comparator ── */
-const MTS=[{id:'silver',s:'Ag',n:{tr:'Gümüş',en:'Silver',ar:'فضة'},c:'#C0C0C0',d:10.49,m:961,h:2.5,k:429},{id:'gold',s:'Au',n:{tr:'Altın',en:'Gold',ar:'ذهب'},c:'#FFD700',d:15.6,m:1064,h:2.75,k:317},{id:'platinum',s:'Pt',n:{tr:'Platin',en:'Platinum',ar:'بلاتين'},c:'#E5E4E2',d:21.45,m:1768,h:4,k:71.6},{id:'titanium',s:'Ti',n:{tr:'Titanyum',en:'Titanium',ar:'تيتانيوم'},c:'#878681',d:4.51,m:1668,h:6,k:21.9},{id:'steel',s:'Fe',n:{tr:'Çelik',en:'Steel',ar:'فولاذ'},c:'#8B8D8E',d:7.93,m:1510,h:5.5,k:16.3}];
+const MTS=[{id:'silver',s:'Ag',n:{tr:'Gümüş',en:'Silver',ar:'فضة'},c:'#C0C0C0',d:10.49,m:961,h:2.5,k:429},{id:'gold',s:'Au',n:{tr:'Altın',en:'Gold',ar:'ذهب'},c:'#FFD700',d:19.3,m:1064,h:2.75,k:317},{id:'platinum',s:'Pt',n:{tr:'Platin',en:'Platinum',ar:'بلاتين'},c:'#E5E4E2',d:21.45,m:1768,h:4,k:71.6},{id:'palladium',s:'Pd',n:{tr:'Paladyum',en:'Palladium',ar:'بالاديوم'},c:'#CED0CE',d:12.02,m:1555,h:4.75,k:71.8},{id:'titanium',s:'Ti',n:{tr:'Titanyum',en:'Titanium',ar:'تيتانيوم'},c:'#878681',d:4.51,m:1668,h:6,k:21.9},{id:'steel',s:'Fe',n:{tr:'Çelik',en:'Steel',ar:'فولاذ'},c:'#8B8D8E',d:7.93,m:1510,h:5.5,k:16.3}];
 function MetalComparator({lang}){const[sel,setSel]=useState(['silver','gold']);const tg=(id)=>setSel(p=>p.includes(id)?p.length>2?p.filter(x=>x!==id):p:p.length<4?[...p,id]:p);const sm=MTS.filter(m=>sel.includes(m.id));const props=[{k:'d',l:{tr:'Yoğunluk',en:'Density',ar:'الكثافة'},mx:22},{k:'m',l:{tr:'Erime',en:'Melting',ar:'الانصهار'},mx:1800},{k:'h',l:{tr:'Sertlik',en:'Hardness',ar:'الصلابة'},mx:7},{k:'k',l:{tr:'İletkenlik',en:'Conductivity',ar:'التوصيل'},mx:430}];
 return<div className="tm-tool" style={{gap:10}}><div style={{display:'flex',flexWrap:'wrap',gap:6}}>{MTS.map(m=><button key={m.id} onClick={()=>tg(m.id)} style={{padding:'6px 10px',borderRadius:14,border:`1.5px solid ${sel.includes(m.id)?m.c:'var(--border)'}`,background:sel.includes(m.id)?m.c+'18':'transparent',color:sel.includes(m.id)?m.c:'var(--text2)',fontSize:11,cursor:'pointer',fontWeight:600}}>{m.s} {m.n[lang]}</button>)}</div>{props.map(p=><div key={p.k} style={{marginBottom:6}}><div style={{fontSize:10,color:'var(--text3)',marginBottom:3}}>{p.l[lang]}</div>{sm.map(m=><div key={m.id} style={{display:'flex',alignItems:'center',gap:5,marginBottom:3}}><span style={{fontSize:10,color:m.c,fontWeight:600,minWidth:20,fontFamily:'var(--f-mono)'}}>{m.s}</span><div style={{flex:1,height:10,background:'var(--card)',borderRadius:5,overflow:'hidden',border:'1px solid var(--border)'}}><div style={{width:`${(m[p.k]/p.mx)*100}%`,height:'100%',background:m.c,borderRadius:5,transition:'width .4s'}}/></div><span style={{fontSize:10,fontFamily:'var(--f-mono)',minWidth:32,textAlign:'end'}}>{m[p.k]}</span></div>)}</div>)}</div>}
 
@@ -654,7 +697,7 @@ function BraceletSizer({lang}){
       {[{v:braceletCm+'cm',l:'Metric'},{v:braceletIn+'"',l:'Imperial'},{v:braceletMm+'mm',l:'mm'}].map((x,i)=>(<div key={i} style={{padding:'10px 4px',borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}><div style={{fontFamily:'var(--f-mono)',fontSize:'1rem',fontWeight:700,color:i===0?'var(--silver)':'var(--text)'}}>{x.v}</div><div style={{fontSize:'.6rem',color:'var(--text3)',marginTop:1}}>{x.l}</div></div>))}
     </div>
     <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" style={{display:'block',padding:'12px',borderRadius:12,background:'rgba(212,175,55,0.06)',border:'1.5px solid rgba(212,175,55,0.2)',color:'var(--gold)',fontWeight:600,fontSize:'.88rem',marginBottom:10,textDecoration:'none'}}>{TX.order}</a>
-    <div style={{display:'flex',gap:8}}><button onClick={()=>{setPhase('start')}} style={{flex:1,padding:'10px',borderRadius:10,border:'1px solid var(--border)',fontSize:'.82rem',color:'var(--text2)'}}>{TX.restart}</button><button onClick={()=>{const t=`${TX.result}: ${braceletCm}cm / ${braceletIn}" — Silverpedi`;if(navigator.share)navigator.share({title:'Silverpedi',text:t}).catch(()=>{});else navigator.clipboard?.writeText(t)}} style={{flex:1,padding:'10px',borderRadius:10,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:600,fontSize:'.82rem',border:'none'}}>{TX.share}</button></div>
+    <div style={{display:'flex',gap:8}}><button onClick={()=>{setPhase('start')}} style={{flex:1,padding:'10px',borderRadius:10,border:'1px solid var(--border)',fontSize:'.82rem',color:'var(--text2)'}}>{TX.restart}</button><button onClick={()=>{const t=`${TX.result}: ${braceletCm}cm / ${braceletIn}" — JewelPedi`;if(navigator.share)navigator.share({title:'JewelPedi',text:t}).catch(()=>{});else navigator.clipboard?.writeText(t)}} style={{flex:1,padding:'10px',borderRadius:10,background:'linear-gradient(135deg,var(--silver),#a0a8b0)',color:'var(--bg)',fontWeight:600,fontSize:'.82rem',border:'none'}}>{TX.share}</button></div>
   </div>);
 }
 
@@ -906,18 +949,29 @@ function CounterfeitDetection({ lang }) {
 function MeltValueCalc({ lang }) {
   const lp = useSilverPrice();
   const [weight, setWeight] = useState(31.1);
+  const [metal, setMetal] = useState('silver');
   const [purity, setPurity] = useState(0.999);
   const [unit, setUnit] = useState('g');
+  const silverPurities = [{v:0.999,l:'999 (Saf/Pure)'},{v:0.950,l:'950'},{v:0.925,l:'925 (Sterling)'},{v:0.900,l:'900 (Coin)'},{v:0.835,l:'835'},{v:0.800,l:'800'}];
+  const goldPurities = [{v:0.999,l:'24K (999)'},{v:0.916,l:'22K (916)'},{v:0.750,l:'18K (750)'},{v:0.585,l:'14K (585)'},{v:0.417,l:'10K (417)'}];
+  const purities = metal === 'gold' ? goldPurities : silverPurities;
   const L = {
-    tr: { w:'Ağırlık',u:'Birim',p:'Ayar',result:'Erime Değeri',note:'Spot fiyat üzerinden hesaplanır. Gerçek alım/satım fiyatı prim ve komisyon içerir.',spot:'Spot Fiyat',tl:'TL Karşılığı' },
-    en: { w:'Weight',u:'Unit',p:'Purity',result:'Melt Value',note:'Calculated at spot price. Actual buy/sell price includes premium and commission.',spot:'Spot Price',tl:'TRY Equivalent' },
+    tr: { w:'Ağırlık',u:'Birim',p:'Ayar',result:'Erime Değeri',note:'Spot fiyat üzerinden hesaplanır.',spot:'Spot Fiyat',tl:'TL Karşılığı' },
+    en: { w:'Weight',u:'Unit',p:'Purity',result:'Melt Value',note:'Calculated at spot price.',spot:'Spot Price',tl:'TRY Equivalent' },
     ar: { w:'الوزن',u:'الوحدة',p:'العيار',result:'قيمة الصهر',note:'محسوبة بسعر السوق الفوري.',spot:'السعر الفوري',tl:'المقابل بالليرة' }
   }[lang] || {};
   const wGrams = unit === 'oz' ? weight * 31.1035 : unit === 'kg' ? weight * 1000 : weight;
-  const pricePerG = lp.silver ? lp.silver / 31.1035 : 0;
+  const spotPrice = metal === 'gold' ? lp.gold : lp.silver;
+  const pricePerG = spotPrice ? spotPrice / 31.1035 : 0;
   const meltUSD = wGrams * purity * pricePerG;
   const meltTRY = lp.usdtry ? meltUSD * lp.usdtry : null;
+  const accentColor = metal === 'gold' ? 'var(--gold)' : 'var(--silver)';
   return (<div className="tm-tool">
+    <div style={{display:'flex',gap:4,marginBottom:14,padding:3,background:'var(--card)',borderRadius:10,border:'1px solid var(--border)'}}>
+      {[{id:'silver',l:{tr:'🥈 Gümüş',en:'🥈 Silver',ar:'🥈 فضة'}},{id:'gold',l:{tr:'🥇 Altın',en:'🥇 Gold',ar:'🥇 ذهب'}}].map(m=>
+        <button key={m.id} onClick={()=>{setMetal(m.id);setPurity(0.999)}} style={{flex:1,padding:'8px',borderRadius:8,border:'none',cursor:'pointer',fontSize:13,fontWeight:600,background:metal===m.id?(m.id==='gold'?'rgba(212,175,55,0.15)':'rgba(192,192,192,0.12)'):'transparent',color:metal===m.id?(m.id==='gold'?'var(--gold)':'var(--silver)'):'var(--text3)'}}>{m.l[lang]}</button>
+      )}
+    </div>
     <label className="calc-label">{L.w}</label>
     <input type="number" className="calc-input" value={weight} onChange={e=>setWeight(+e.target.value)} min="0" step="0.1" inputMode="decimal"/>
     <label className="calc-label" style={{marginTop:12}}>{L.u}</label>
@@ -926,22 +980,22 @@ function MeltValueCalc({ lang }) {
     </select>
     <label className="calc-label" style={{marginTop:12}}>{L.p}</label>
     <select className="calc-select" value={purity} onChange={e=>setPurity(+e.target.value)}>
-      <option value={0.999}>999 (Saf/Pure)</option><option value={0.950}>950</option><option value={0.925}>925 (Sterling)</option><option value={0.900}>900 (Coin)</option><option value={0.835}>835</option><option value={0.800}>800</option>
+      {purities.map(o=><option key={o.v} value={o.v}>{o.l}</option>)}
     </select>
-    {lp.silver ? (<>
+    {spotPrice ? (<>
       <div className="calc-result" style={{marginTop:16}}>
-        <div className="calc-result-num">${meltUSD.toFixed(2)}</div>
+        <div className="calc-result-num" style={{color:accentColor}}>${meltUSD.toFixed(2)}</div>
         <div className="calc-result-label">{L.result}</div>
         {meltTRY && <div style={{fontFamily:'var(--f-mono)',fontSize:'1.1rem',color:'var(--green)',marginTop:6}}>≈ ₺{meltTRY.toFixed(2)}</div>}
       </div>
       <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginTop:12}}>
         <div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}>
-          <span style={{fontSize:'.65rem',color:'var(--text3)'}}>{L.spot}</span>
-          <span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'.85rem',color:'var(--silver)'}}>${lp.silver?.toFixed(2)}/oz</span>
+          <span style={{fontSize:'.65rem',color:'var(--text3)'}}>{L.spot} ({metal==='gold'?'Au':'Ag'})</span>
+          <span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'.85rem',color:accentColor}}>${spotPrice?.toFixed(2)}/oz</span>
         </div>
         <div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}>
           <span style={{fontSize:'.65rem',color:'var(--text3)'}}>$/g</span>
-          <span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'.85rem',color:'var(--silver)'}}>${pricePerG.toFixed(3)}</span>
+          <span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'.85rem',color:accentColor}}>${pricePerG.toFixed(3)}</span>
         </div>
       </div>
     </>) : <div style={{textAlign:'center',color:'var(--text3)',padding:20}}>Loading...</div>}
@@ -949,11 +1003,815 @@ function MeltValueCalc({ lang }) {
   </div>);
 }
 
+/* ── TOOL 33: Gold Karat Calculator ── */
+function GoldKaratCalc({lang}){const[karat,setKarat]=useState(18);const[weight,setWeight]=useState(10);
+const lp=useSilverPrice();const purity=karat/24;const pureG=weight*purity;const alloyG=weight-pureG;
+const pricePerG=lp.gold?(lp.gold/31.1035):0;const valueUSD=pureG*pricePerG;const valueTRY=lp.usdtry?valueUSD*lp.usdtry:null;
+const L={tr:{title:'Karat Hesaplayıcı',w:'Ağırlık (g)',k:'Karat',pure:'Saf Altın',alloy:'Alaşım',value:'Tahmini Değer',fineness:'Milyem'},en:{title:'Karat Calculator',w:'Weight (g)',k:'Karat',pure:'Pure Gold',alloy:'Alloy',value:'Estimated Value',fineness:'Fineness'},ar:{title:'حاسبة القيراط',w:'الوزن (غ)',k:'القيراط',pure:'الذهب الخالص',alloy:'السبيكة',value:'القيمة المقدرة',fineness:'الألفية'}}[lang]||{};
+return<div className="tm-tool">
+<label className="calc-label">{L.k}</label>
+<input type="range" min={8} max={24} step={1} value={karat} onChange={e=>setKarat(+e.target.value)} style={{width:'100%',accentColor:'var(--gold)'}}/>
+<div style={{display:'flex',justifyContent:'space-between',fontSize:12,color:'var(--text2)',marginBottom:12}}>
+<span>{karat}K</span><span>{(purity*100).toFixed(1)}%</span><span>{Math.round(purity*1000)} {L.fineness}</span>
+</div>
+<label className="calc-label">{L.w}</label>
+<input type="number" className="calc-input" value={weight} onChange={e=>setWeight(+e.target.value)} min="0" step="0.1" inputMode="decimal"/>
+<div style={{marginTop:16,display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}}>
+<div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:10}}>
+<span style={{fontSize:'.65rem',color:'var(--text3)'}}>{L.pure}</span>
+<span style={{fontFamily:'var(--f-mono)',fontWeight:700,fontSize:'1.1rem',color:'var(--gold)'}}>{pureG.toFixed(2)}g</span>
+</div>
+<div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:10}}>
+<span style={{fontSize:'.65rem',color:'var(--text3)'}}>{L.alloy}</span>
+<span style={{fontFamily:'var(--f-mono)',fontWeight:600,fontSize:'1.1rem',color:'var(--text2)'}}>{alloyG.toFixed(2)}g</span>
+</div>
+</div>
+{lp.gold&&valueTRY&&<div className="calc-result" style={{marginTop:12}}>
+<div className="calc-result-num" style={{color:'var(--gold)'}}>${valueUSD.toFixed(2)}</div>
+<div style={{fontFamily:'var(--f-mono)',fontSize:'1rem',color:'var(--green)',marginTop:4}}>≈ ₺{valueTRY.toFixed(2)}</div>
+<div className="calc-result-label">{L.value}</div>
+</div>}
+</div>}
+
+/* ── TOOL 34: Wedding Gold Budget Planner ── */
+function WeddingGoldPlanner({lang}){const[guests,setGuests]=useState(150);const[avgQ,setAvgQ]=useState(1.5);const[price,setPrice]=useState(3500);
+const totalCoins=Math.round(guests*avgQ);const totalGrams=totalCoins*1.804;const totalCost=totalCoins*price;
+const L={tr:{title:'Düğün Altını Planlayıcı',g:'Davetli Sayısı',avg:'Kişi Başı Ortalama (çeyrek)',p:'Çeyrek Altın Fiyatı (₺)',total:'Toplam Çeyrek',grams:'Toplam Gram',cost:'Tahmini Maliyet',note:'Tahmindir; bölgeye ve geleneğe göre değişir.'},en:{title:'Wedding Gold Planner',g:'Guest Count',avg:'Average per Guest (quarter coins)',p:'Quarter Coin Price (₺)',total:'Total Quarters',grams:'Total Grams',cost:'Estimated Cost',note:'Estimate; varies by region and tradition.'},ar:{title:'مخطط ذهب الأعراس',g:'عدد المدعوين',avg:'المتوسط لكل ضيف (ربع)',p:'سعر الربع (₺)',total:'إجمالي الأرباع',grams:'إجمالي الغرامات',cost:'التكلفة المقدرة',note:'تقدير يختلف حسب المنطقة.'}}[lang]||{};
+return<div className="tm-tool">
+<label className="calc-label">{L.g}</label>
+<input type="number" className="calc-input" value={guests} onChange={e=>setGuests(+e.target.value)} min="1" inputMode="numeric"/>
+<label className="calc-label" style={{marginTop:12}}>{L.avg}</label>
+<input type="range" min={0.5} max={3} step={0.25} value={avgQ} onChange={e=>setAvgQ(+e.target.value)} style={{width:'100%',accentColor:'var(--gold)'}}/>
+<div style={{textAlign:'center',fontSize:13,color:'var(--gold)',fontWeight:600}}>{avgQ} {lang==='tr'?'çeyrek':'quarters'}</div>
+<label className="calc-label" style={{marginTop:12}}>{L.p}</label>
+<input type="number" className="calc-input" value={price} onChange={e=>setPrice(+e.target.value)} min="0" step="100" inputMode="numeric"/>
+<div style={{marginTop:16,display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:6}}>
+<div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}><span style={{fontSize:'.6rem',color:'var(--text3)'}}>{L.total}</span><span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--gold)'}}>{totalCoins}</span></div>
+<div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}><span style={{fontSize:'.6rem',color:'var(--text3)'}}>{L.grams}</span><span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--gold)'}}>{totalGrams.toFixed(0)}g</span></div>
+<div className="tm-result-row" style={{flexDirection:'column',alignItems:'center',padding:8}}><span style={{fontSize:'.6rem',color:'var(--text3)'}}>22K Au</span><span style={{fontFamily:'var(--f-mono)',fontWeight:700,color:'var(--gold)'}}>{(totalGrams*0.916).toFixed(0)}g</span></div>
+</div>
+<div className="calc-result" style={{marginTop:12}}>
+<div className="calc-result-num" style={{color:'var(--gold)'}}>₺{totalCost.toLocaleString()}</div>
+<div className="calc-result-label">{L.cost}</div>
+</div>
+<p style={{fontSize:'.72rem',color:'var(--text3)',marginTop:10,fontStyle:'italic'}}>{L.note}</p>
+</div>}
+
+/* ── TOOL 35: Live Metal Comparison Dashboard ── */
+function MetalDashboard({lang}){const lp=useSilverPrice();
+const metals=[
+{id:'Ag',n:{tr:'Gümüş',en:'Silver',ar:'فضة'},price:lp.silver,c:'#C0C0C0'},
+{id:'Au',n:{tr:'Altın',en:'Gold',ar:'ذهب'},price:lp.gold,c:'#D4AF37'},
+];
+const ratio=lp.silver&&lp.gold?(lp.gold/lp.silver).toFixed(1):null;
+return<div className="tm-tool" style={{gap:10}}>
+{metals.map(m=>{const gUSD=m.price?(m.price/31.1035):0;const gTRY=gUSD&&lp.usdtry?(gUSD*lp.usdtry):0;
+return<div key={m.id} style={{padding:14,borderRadius:14,border:'1px solid var(--border)',background:'var(--card)'}}>
+<div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:8}}>
+<span style={{fontWeight:700,color:m.c,fontSize:14}}>{m.id} — {m.n[lang]}</span>
+{m.price&&<span style={{fontFamily:'var(--f-mono)',fontWeight:700,fontSize:16,color:m.c}}>${m.price.toFixed(2)}</span>}
+</div>
+{m.price?<div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:6}}>
+<div style={{textAlign:'center'}}><div style={{fontSize:9,color:'var(--text3)'}}>$/oz</div><div style={{fontFamily:'var(--f-mono)',fontSize:12,fontWeight:600}}>{m.price.toFixed(2)}</div></div>
+<div style={{textAlign:'center'}}><div style={{fontSize:9,color:'var(--text3)'}}>$/g</div><div style={{fontFamily:'var(--f-mono)',fontSize:12,fontWeight:600}}>{gUSD.toFixed(3)}</div></div>
+<div style={{textAlign:'center'}}><div style={{fontSize:9,color:'var(--text3)'}}>₺/g</div><div style={{fontFamily:'var(--f-mono)',fontSize:12,fontWeight:600,color:'var(--green)'}}>{gTRY.toFixed(2)}</div></div>
+</div>:<div style={{textAlign:'center',color:'var(--text3)',fontSize:12}}>Loading...</div>}
+</div>})}
+{ratio&&<div style={{textAlign:'center',padding:12,borderRadius:14,background:'rgba(212,175,55,0.05)',border:'1px solid rgba(212,175,55,0.1)'}}>
+<div style={{fontSize:11,color:'var(--text3)',marginBottom:4}}>Au/Ag {lang==='tr'?'Oranı':'Ratio'}</div>
+<div style={{fontFamily:'var(--f-mono)',fontWeight:800,fontSize:24,color:'var(--gold)'}}>1:{ratio}</div>
+<div style={{fontSize:10,color:'var(--text3)',marginTop:2}}>{lang==='tr'?'1 ons altın = '+ratio+' ons gümüş':'1 oz gold = '+ratio+' oz silver'}</div>
+</div>}
+{lp.usdtry&&<div style={{textAlign:'center',fontSize:11,color:'var(--text3)',marginTop:4}}>USD/TRY: ₺{lp.usdtry.toFixed(2)}</div>}
+</div>}
+
 /* ════════════ TOOL REGISTRY ════════════ */
-const TOOL_COMPONENTS = { 0:PurityCalc,1:UnitConverter,2:RingSizer,3:QuizTool,4:ColorPalette,5:CarbonFootprint,6:PeriodicTable,7:KaratConverter,8:GemstoneGuide,9:CareGuide,10:WorldMapTool,11:TimelineTool,12:StampIdentifier,13:PriceAlert,14:ZakatCalc,15:PurityTestGuide,16:MetalComparator,17:JewelryCombinator,18:TurkeyAtlas,19:PriceTracker,20:EngravingPreview,21:InsuranceCalc,22:AdvancedQuiz,23:TarnishSimulator,24:WorldClock,25:PortfolioTracker,26:CertificateVerifier,27:BraceletSizer,28:NecklaceGuide,29:SilverPriceEstimator,30:GoldSilverRatio,31:CounterfeitDetection,32:MeltValueCalc };
+/* ── TOOL 36: 4C Diamond Value Estimator ── */
+function DiamondEstimator({lang}){
+  const[carat,setCarat]=useState(1);const[color,setColor]=useState('G');const[clarity,setClarity]=useState('VS1');const[cut,setCut]=useState('Excellent');
+  const colors=['D','E','F','G','H','I','J','K','L','M'];const clarities=['FL','IF','VVS1','VVS2','VS1','VS2','SI1','SI2','I1'];const cuts=['Excellent','Very Good','Good','Fair'];
+  const basePerCarat={D:12000,E:10500,F:9500,G:8000,H:6800,I:5500,J:4500,K:3500,L:2800,M:2200};
+  const clarMult={FL:2.2,IF:1.8,VVS1:1.5,VVS2:1.3,VS1:1.1,VS2:1.0,SI1:0.82,SI2:0.65,I1:0.4};
+  const cutMult={Excellent:1.15,'Very Good':1.0,Good:0.88,Fair:0.72};
+  const sizeF=carat<0.5?0.7:carat<1?0.85:carat<1.5?1:carat<2?1.35:carat<3?1.8:2.5;
+  const est=Math.round((basePerCarat[color]||5000)*(clarMult[clarity]||1)*(cutMult[cut]||1)*sizeF*carat);
+  const lo=Math.round(est*0.7),hi=Math.round(est*1.3);
+  const L={tr:['Karat','Renk','Berraklık','Kesim','Tahmini Fiyat Aralığı','Bu tahmindir, kesin fiyat için sertifikalı gemolog değerlendirmesi gerekir.'],en:['Carat','Color','Clarity','Cut','Estimated Price Range','This is an estimate; consult a certified gemologist for exact pricing.'],ar:['القيراط','اللون','النقاء','القطع','نطاق السعر التقديري','هذا تقدير؛ استشر خبيراً معتمداً للتسعير الدقيق.']}[lang];
+  return<div className="tm-tool">
+    <label className="calc-label">{L[0]}</label><input type="number" className="calc-input" value={carat} onChange={e=>setCarat(Math.max(0.1,+e.target.value))} min="0.1" max="10" step="0.1" inputMode="decimal"/>
+    <label className="calc-label" style={{marginTop:10}}>{L[1]}</label><select className="calc-select" value={color} onChange={e=>setColor(e.target.value)}>{colors.map(c=><option key={c} value={c}>{c}</option>)}</select>
+    <label className="calc-label" style={{marginTop:10}}>{L[2]}</label><select className="calc-select" value={clarity} onChange={e=>setClarity(e.target.value)}>{clarities.map(c=><option key={c} value={c}>{c}</option>)}</select>
+    <label className="calc-label" style={{marginTop:10}}>{L[3]}</label><select className="calc-select" value={cut} onChange={e=>setCut(e.target.value)}>{cuts.map(c=><option key={c} value={c}>{c}</option>)}</select>
+    <div className="calc-result" style={{marginTop:16}}>
+      <div className="calc-result-num" style={{color:'#B9F2FF'}}>${lo.toLocaleString()} – ${hi.toLocaleString()}</div>
+      <div className="calc-result-label">{L[4]}</div>
+      <div style={{fontSize:'.7rem',color:'var(--text3)',marginTop:6,lineHeight:1.4}}>{L[5]}</div>
+    </div>
+  </div>
+}
+
+/* ── TOOL 37: Mohs Hardness Scale Interactive ── */
+function MohsScale({lang}){
+  const[sel,setSel]=useState(null);
+  const gems=[
+    {m:1,n:{tr:'Talk',en:'Talc',ar:'التلك'},ex:{tr:'Tırnak çizer',en:'Fingernail scratches',ar:'يخدشه الظفر'},co:'#ddd',gems:[]},
+    {m:2,n:{tr:'Jips',en:'Gypsum',ar:'الجبس'},ex:{tr:'Tırnak çizer',en:'Fingernail scratches',ar:'يخدشه الظفر'},co:'#f5f5dc',gems:['Kehribar (2-2.5)','Lületaşı (2-2.5)','İnci (2.5-4.5)']},
+    {m:3,n:{tr:'Kalsit',en:'Calcite',ar:'الكالسيت'},ex:{tr:'Bakır bozuk para çizer',en:'Copper coin scratches',ar:'تخدشه العملة النحاسية'},co:'#ffe4b5',gems:['Mercan (3-4)']},
+    {m:4,n:{tr:'Fluorit',en:'Fluorite',ar:'الفلوريت'},ex:{tr:'Çelik bıçak çizer',en:'Steel knife scratches',ar:'تخدشه السكين الفولاذية'},co:'#da70d6',gems:[]},
+    {m:5,n:{tr:'Apatit',en:'Apatite',ar:'الأباتيت'},ex:{tr:'Çelik bıçak zor çizer',en:'Steel knife barely scratches',ar:'السكين تخدشه بصعوبة'},co:'#87ceeb',gems:['Turkuaz (5-6)','Lapis Lazuli (5-5.5)','Opal (5.5-6.5)']},
+    {m:6,n:{tr:'Orthoklas',en:'Orthoclase',ar:'الأورثوكلاز'},ex:{tr:'Çelik eğe çizer',en:'Steel file scratches',ar:'تخدشه المبرد'},co:'#ffd700',gems:['Ay Taşı (6-6.5)','Tanzanit (6-7)']},
+    {m:7,n:{tr:'Kuvars',en:'Quartz',ar:'الكوارتز'},ex:{tr:'Camı çizer',en:'Scratches glass',ar:'يخدش الزجاج'},co:'#dda0dd',gems:['Ametist (7)','Sitrin (7)','Peridot (6.5-7)','Garnet (6.5-7.5)','Zultanit (6.5-7)']},
+    {m:8,n:{tr:'Topaz',en:'Topaz',ar:'التوباز'},ex:{tr:'Kuvarsı çizer',en:'Scratches quartz',ar:'يخدش الكوارتز'},co:'#ffa500',gems:['Topaz (8)','Zümrüt (7.5-8)','Akvamarin (7.5-8)']},
+    {m:9,n:{tr:'Korundum',en:'Corundum',ar:'الكوروندوم'},ex:{tr:'Topazı çizer',en:'Scratches topaz',ar:'يخدش التوباز'},co:'#dc143c',gems:['Yakut (9)','Safir (9)','Moissanite (9.25)']},
+    {m:10,n:{tr:'Elmas',en:'Diamond',ar:'الألماس'},ex:{tr:'Her şeyi çizer',en:'Scratches everything',ar:'يخدش كل شيء'},co:'#e0e0e0',gems:['Pırlanta (10)']},
+  ];
+  const s=sel!==null?gems[sel]:null;
+  return<div className="tm-tool" style={{gap:8}}>
+    <div style={{display:'flex',gap:4,flexWrap:'wrap'}}>{gems.map((g,i)=><button key={i} onClick={()=>setSel(i)} style={{width:54,padding:'8px 4px',borderRadius:10,border:`2px solid ${sel===i?g.co:'var(--border)'}`,background:sel===i?g.co+'20':'transparent',cursor:'pointer',textAlign:'center'}}>
+      <div style={{fontSize:18,fontWeight:800,color:g.co,fontFamily:'var(--f-mono)'}}>{g.m}</div>
+      <div style={{fontSize:8,fontWeight:600,color:'var(--text2)',marginTop:2}}>{g.n[lang]}</div>
+    </button>)}</div>
+    {s?<div style={{padding:14,borderRadius:12,border:`1px solid ${s.co}44`,background:'var(--card)',marginTop:4}}>
+      <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:8}}>
+        <div style={{width:40,height:40,borderRadius:'50%',background:s.co+'33',display:'flex',alignItems:'center',justifyContent:'center',fontSize:20,fontWeight:800,color:s.co,fontFamily:'var(--f-mono)'}}>{s.m}</div>
+        <div><div style={{fontSize:15,fontWeight:600}}>{s.n[lang]}</div><div style={{fontSize:11,color:'var(--text3)'}}>{s.ex[lang]}</div></div>
+      </div>
+      {s.gems.length>0&&<div style={{marginTop:8}}><div style={{fontSize:11,fontWeight:600,color:'var(--text2)',marginBottom:4}}>{lang==='tr'?'Bu aralıktaki taşlar:':lang==='en'?'Gems at this level:':'الأحجار في هذا المستوى:'}</div>
+      {s.gems.map((g,i)=><div key={i} style={{fontSize:12,color:'var(--text)',padding:'3px 0',borderBottom:'1px solid var(--border)'}}>{g}</div>)}</div>}
+    </div>:<div style={{textAlign:'center',padding:16,color:'var(--text3)',fontSize:13}}>{lang==='tr'?'Bir sertlik derecesi seçin':'Select a hardness level'}</div>}
+  </div>
+}
+
+/* ── TOOL 38: Birthstone Finder ── */
+function BirthstoneFinder({lang}){
+  const[month,setMonth]=useState(new Date().getMonth());
+  const data=[
+    {m:{tr:'Ocak',en:'January',ar:'يناير'},s:'♑',g:[{n:{tr:'Garnet',en:'Garnet',ar:'عقيق'},co:'#8B0000',h:'6.5-7.5'}]},
+    {m:{tr:'Şubat',en:'February',ar:'فبراير'},s:'♒',g:[{n:{tr:'Ametist',en:'Amethyst',ar:'جمشت'},co:'#9B59B6',h:'7'}]},
+    {m:{tr:'Mart',en:'March',ar:'مارس'},s:'♓',g:[{n:{tr:'Akvamarin',en:'Aquamarine',ar:'أكوامارين'},co:'#7FDBFF',h:'7.5-8'}]},
+    {m:{tr:'Nisan',en:'April',ar:'أبريل'},s:'♈',g:[{n:{tr:'Pırlanta',en:'Diamond',ar:'ألماس'},co:'#E8E8E8',h:'10'}]},
+    {m:{tr:'Mayıs',en:'May',ar:'مايو'},s:'♉',g:[{n:{tr:'Zümrüt',en:'Emerald',ar:'زمرد'},co:'#50C878',h:'7.5-8'}]},
+    {m:{tr:'Haziran',en:'June',ar:'يونيو'},s:'♊',g:[{n:{tr:'İnci',en:'Pearl',ar:'لؤلؤ'},co:'#FDEBD0',h:'2.5-4.5'},{n:{tr:'Ay Taşı',en:'Moonstone',ar:'حجر القمر'},co:'#D5DBDB',h:'6-6.5'}]},
+    {m:{tr:'Temmuz',en:'July',ar:'يوليو'},s:'♋',g:[{n:{tr:'Yakut',en:'Ruby',ar:'ياقوت'},co:'#E0115F',h:'9'}]},
+    {m:{tr:'Ağustos',en:'August',ar:'أغسطس'},s:'♌',g:[{n:{tr:'Peridot',en:'Peridot',ar:'زبرجد'},co:'#9ACD32',h:'6.5-7'}]},
+    {m:{tr:'Eylül',en:'September',ar:'سبتمبر'},s:'♍',g:[{n:{tr:'Safir',en:'Sapphire',ar:'ياقوت أزرق'},co:'#0F52BA',h:'9'}]},
+    {m:{tr:'Ekim',en:'October',ar:'أكتوبر'},s:'♎',g:[{n:{tr:'Opal',en:'Opal',ar:'أوبال'},co:'#FF6347',h:'5.5-6.5'}]},
+    {m:{tr:'Kasım',en:'November',ar:'نوفمبر'},s:'♏',g:[{n:{tr:'Topaz',en:'Topaz',ar:'توباز'},co:'#FFA500',h:'8'},{n:{tr:'Sitrin',en:'Citrine',ar:'سترين'},co:'#F39C12',h:'7'}]},
+    {m:{tr:'Aralık',en:'December',ar:'ديسمبر'},s:'♐',g:[{n:{tr:'Tanzanit',en:'Tanzanite',ar:'تنزانيت'},co:'#6C3483',h:'6-7'},{n:{tr:'Turkuaz',en:'Turquoise',ar:'فيروز'},co:'#40E0D0',h:'5-6'}]},
+  ];
+  const d=data[month];
+  return<div className="tm-tool">
+    <label className="calc-label">{lang==='tr'?'Doğum Ayınız':lang==='en'?'Your Birth Month':'شهر ميلادك'}</label>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:6,marginBottom:16}}>
+      {data.map((m,i)=><button key={i} onClick={()=>setMonth(i)} style={{padding:'8px 4px',borderRadius:10,border:`2px solid ${month===i?d.g[0].co:'var(--border)'}`,background:month===i?d.g[0].co+'18':'transparent',cursor:'pointer',textAlign:'center'}}>
+        <div style={{fontSize:16}}>{m.s}</div><div style={{fontSize:9,fontWeight:600}}>{m.m[lang]}</div>
+      </button>)}
+    </div>
+    <div style={{padding:16,borderRadius:14,border:`1px solid ${d.g[0].co}44`,background:'var(--card)'}}>
+      <div style={{fontSize:11,color:'var(--text3)',marginBottom:8}}>{d.m[lang]} {d.s}</div>
+      {d.g.map((gem,i)=><div key={i} style={{display:'flex',alignItems:'center',gap:12,marginBottom:i<d.g.length-1?10:0}}>
+        <div style={{width:44,height:44,borderRadius:'50%',background:gem.co,boxShadow:`0 0 16px ${gem.co}55`}}/>
+        <div><div style={{fontWeight:700,fontSize:15}}>{gem.n[lang]}</div><div style={{fontSize:11,color:'var(--text3)'}}>Mohs: {gem.h}</div></div>
+      </div>)}
+    </div>
+  </div>
+}
+
+/* ── TOOL 39: Gem Identifier ── */
+function GemIdentifier({lang}){
+  const[color,setColor]=useState('red');const[hardness,setHardness]=useState('high');const[transparency,setTransparency]=useState('transparent');
+  const colors=[{id:'red',l:{tr:'Kırmızı',en:'Red',ar:'أحمر'},co:'#E0115F'},{id:'blue',l:{tr:'Mavi',en:'Blue',ar:'أزرق'},co:'#0F52BA'},{id:'green',l:{tr:'Yeşil',en:'Green',ar:'أخضر'},co:'#50C878'},{id:'purple',l:{tr:'Mor',en:'Purple',ar:'بنفسجي'},co:'#9B59B6'},{id:'yellow',l:{tr:'Sarı',en:'Yellow',ar:'أصفر'},co:'#F1C40F'},{id:'white',l:{tr:'Beyaz/Renksiz',en:'Colorless',ar:'عديم اللون'},co:'#E8E8E8'},{id:'black',l:{tr:'Siyah',en:'Black',ar:'أسود'},co:'#333'}];
+  const db={red:{high:['Yakut (Ruby)','Garnet (Pyrope)','Spinel'],medium:['Garnet','Rubellite Turmalin'],low:['Mercan (Coral)']},blue:{high:['Safir (Sapphire)','Tanzanit'],medium:['Akvamarin','Topaz','Lapis Lazuli'],low:['Turkuaz']},green:{high:['Zümrüt (Emerald)','Tsavorite'],medium:['Peridot','Yeşim (Jade)','Turmalin'],low:['Malakit']},purple:{high:['Safir (Purple)'],medium:['Ametist','Tanzanit'],low:[]},yellow:{high:['Sarı Safir','Chrysoberyl'],medium:['Sitrin','Topaz'],low:['Kehribar (Amber)']},white:{high:['Pırlanta (Diamond)','Beyaz Safir','Moissanite'],medium:['Beyaz Topaz','Zirkon'],low:['Ay Taşı','Opal']},black:{high:[],medium:['Siyah Spinel','Oniks'],low:['Oltu Taşı (Jet)']}};
+  const results=db[color]?.[hardness]||[];
+  const L={tr:['Renk','Sertlik Hissi','Yüksek (çelik çizmez)','Orta','Düşük (tırnakla çizilebilir)','Olası Taşlar:','Kesin tanı için gemolojik test gerekir.'],en:['Color','Hardness Feel','High (steel won\'t scratch)','Medium','Low (fingernail can scratch)','Possible Gems:','Gemological testing required for definitive identification.'],ar:['اللون','الإحساس بالصلابة','عالية','متوسطة','منخفضة','الأحجار المحتملة:','يلزم فحص جمولوجي للتحديد النهائي.']}[lang];
+  return<div className="tm-tool">
+    <label className="calc-label">{L[0]}</label>
+    <div style={{display:'flex',gap:6,flexWrap:'wrap',marginBottom:12}}>{colors.map(c=><button key={c.id} onClick={()=>setColor(c.id)} style={{width:40,height:40,borderRadius:'50%',background:c.co,border:`3px solid ${color===c.id?'var(--text)':'transparent'}`,cursor:'pointer',boxShadow:color===c.id?`0 0 12px ${c.co}66`:'none'}} title={c.l[lang]}/>)}</div>
+    <label className="calc-label">{L[1]}</label>
+    <div style={{display:'flex',gap:6,marginBottom:14}}>{['high','medium','low'].map((h,i)=><button key={h} onClick={()=>setHardness(h)} style={{flex:1,padding:'10px 6px',borderRadius:10,border:`2px solid ${hardness===h?'var(--silver)':'var(--border)'}`,background:hardness===h?'rgba(192,192,192,0.1)':'transparent',cursor:'pointer',fontSize:11,fontWeight:600,color:hardness===h?'var(--text)':'var(--text3)'}}>{L[2+i]}</button>)}</div>
+    <div style={{padding:14,borderRadius:12,background:'var(--card)',border:'1px solid var(--border)'}}>
+      <div style={{fontSize:12,fontWeight:600,color:'var(--text2)',marginBottom:8}}>{L[5]}</div>
+      {results.length>0?results.map((r,i)=><div key={i} style={{display:'flex',alignItems:'center',gap:8,padding:'6px 0',borderBottom:i<results.length-1?'1px solid var(--border)':'none'}}>
+        <div style={{width:8,height:8,borderRadius:'50%',background:colors.find(c=>c.id===color)?.co}}/>
+        <span style={{fontSize:13,fontWeight:500}}>{r}</span>
+      </div>):<div style={{color:'var(--text3)',fontSize:12}}>{lang==='tr'?'Bu kombinasyonda taş bulunamadı.':'No gems found for this combination.'}</div>}
+      <div style={{fontSize:'.68rem',color:'var(--text3)',marginTop:10,fontStyle:'italic'}}>{L[6]}</div>
+    </div>
+  </div>
+}
+
+/* ── TOOL 40: Cut Comparator (Visual) ── */
+function CutComparator({lang}){
+  const[sel,setSel]=useState([0,1]);
+  const cuts=[
+    {id:'round',n:{tr:'Round Brilliant',en:'Round Brilliant',ar:'بريلانت دائري'},f:58,pop:75,bri:10,fire:8,sci:10,w:1.0,h:1.0,shape:'circle'},
+    {id:'princess',n:{tr:'Princess',en:'Princess',ar:'أميرة'},f:76,pop:12,bri:9,fire:7,sci:9,w:1.0,h:1.0,shape:'square'},
+    {id:'emerald',n:{tr:'Emerald',en:'Emerald',ar:'زمرد'},f:57,pop:4,bri:6,fire:5,sci:6,w:0.75,h:1.0,shape:'rect'},
+    {id:'oval',n:{tr:'Oval',en:'Oval',ar:'بيضاوي'},f:58,pop:8,bri:9,fire:7,sci:8,w:0.68,h:1.0,shape:'oval'},
+    {id:'cushion',n:{tr:'Cushion',en:'Cushion',ar:'وسادة'},f:64,pop:7,bri:8,fire:9,sci:7,w:0.9,h:1.0,shape:'cushion'},
+    {id:'pear',n:{tr:'Pear',en:'Pear',ar:'كمثرى'},f:58,pop:4,bri:8,fire:7,sci:8,w:0.62,h:1.0,shape:'pear'},
+    {id:'marquise',n:{tr:'Marquise',en:'Marquise',ar:'ماركيز'},f:58,pop:2,bri:8,fire:7,sci:8,w:0.5,h:1.0,shape:'marquise'},
+    {id:'heart',n:{tr:'Heart',en:'Heart',ar:'قلب'},f:59,pop:2,bri:7,fire:7,sci:7,w:0.9,h:1.0,shape:'heart'},
+    {id:'asscher',n:{tr:'Asscher',en:'Asscher',ar:'أشر'},f:58,pop:2,bri:6,fire:5,sci:6,w:1.0,h:1.0,shape:'square'},
+    {id:'radiant',n:{tr:'Radiant',en:'Radiant',ar:'راديانت'},f:70,pop:3,bri:9,fire:8,sci:8,w:0.82,h:1.0,shape:'rect'},
+  ];
+  const toggle=(i)=>{if(sel.includes(i)){if(sel.length>1)setSel(sel.filter(x=>x!==i))}else if(sel.length<3)setSel([...sel,i])};
+  const selCuts=sel.map(i=>cuts[i]);
+  const bars=[{k:'bri',l:{tr:'Parlaklık',en:'Brilliance',ar:'البريق'},co:'#B9F2FF'},{k:'fire',l:{tr:'Ateş',en:'Fire',ar:'النار'},co:'#FF6B6B'},{k:'sci',l:{tr:'Işıltı',en:'Scintillation',ar:'التلألؤ'},co:'#FFD93D'}];
+  const shapeSVG=(s,w,h)=>{const sz=48;
+    if(s==='circle')return`<circle cx="${sz/2}" cy="${sz/2}" r="${sz*0.42}" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='square')return`<rect x="${sz*0.1}" y="${sz*0.1}" width="${sz*0.8}" height="${sz*0.8}" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='rect')return`<rect x="${sz*0.15}" y="${sz*0.08}" width="${sz*0.7}" height="${sz*0.84}" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='oval')return`<ellipse cx="${sz/2}" cy="${sz/2}" rx="${sz*0.32}" ry="${sz*0.42}" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='cushion')return`<rect x="${sz*0.1}" y="${sz*0.1}" width="${sz*0.8}" height="${sz*0.8}" rx="12" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='pear')return`<path d="M${sz/2} ${sz*0.08} Q${sz*0.85} ${sz*0.45} ${sz*0.7} ${sz*0.75} Q${sz/2} ${sz*0.95} ${sz*0.3} ${sz*0.75} Q${sz*0.15} ${sz*0.45} ${sz/2} ${sz*0.08}Z" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='marquise')return`<ellipse cx="${sz/2}" cy="${sz/2}" rx="${sz*0.22}" ry="${sz*0.44}" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    if(s==='heart')return`<path d="M${sz/2} ${sz*0.9} Q${sz*0.05} ${sz*0.55} ${sz*0.15} ${sz*0.3} Q${sz*0.25} ${sz*0.1} ${sz/2} ${sz*0.3} Q${sz*0.75} ${sz*0.1} ${sz*0.85} ${sz*0.3} Q${sz*0.95} ${sz*0.55} ${sz/2} ${sz*0.9}Z" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+    return`<circle cx="${sz/2}" cy="${sz/2}" r="${sz*0.4}" fill="none" stroke="currentColor" stroke-width="1.5"/>`;
+  };
+  return<div className="tm-tool" style={{gap:8}}>
+    <div style={{fontSize:11,color:'var(--text3)',marginBottom:4}}>{lang==='tr'?'2-3 kesim seçerek karşılaştırın':lang==='en'?'Select 2-3 cuts to compare':'اختر ٢-٣ قطع للمقارنة'}</div>
+    <div style={{display:'flex',gap:6,flexWrap:'wrap',marginBottom:12}}>{cuts.map((c,i)=><button key={c.id} onClick={()=>toggle(i)} style={{padding:'6px 10px',borderRadius:8,border:`2px solid ${sel.includes(i)?'#B9F2FF':'var(--border)'}`,background:sel.includes(i)?'rgba(185,242,255,0.1)':'transparent',cursor:'pointer',fontSize:11,fontWeight:600,color:sel.includes(i)?'#7DD3FC':'var(--text3)'}}>{c.n[lang]}</button>)}</div>
+    <div style={{display:'flex',gap:12,justifyContent:'center',marginBottom:16}}>{selCuts.map(c=><div key={c.id} style={{textAlign:'center'}}>
+      <svg width="48" height="48" viewBox="0 0 48 48" style={{color:'#B9F2FF'}} dangerouslySetInnerHTML={{__html:shapeSVG(c.shape)}}/>
+      <div style={{fontSize:10,fontWeight:600,marginTop:4}}>{c.n[lang]}</div>
+      <div style={{fontSize:9,color:'var(--text3)'}}>{c.f} facet</div>
+    </div>)}</div>
+    {bars.map(b=><div key={b.k} style={{marginBottom:10}}>
+      <div style={{fontSize:10,fontWeight:600,color:'var(--text2)',marginBottom:4}}>{b.l[lang]}</div>
+      <div style={{display:'flex',gap:4,alignItems:'center'}}>{selCuts.map(c=><div key={c.id} style={{flex:1}}>
+        <div style={{height:8,borderRadius:4,background:'var(--border)',overflow:'hidden'}}><div style={{width:`${c[b.k]*10}%`,height:'100%',background:b.co,borderRadius:4,transition:'width .4s'}}/></div>
+        <div style={{fontSize:9,textAlign:'center',color:'var(--text3)',marginTop:2}}>{c.n[lang]} {c[b.k]}/10</div>
+      </div>)}</div>
+    </div>)}
+    <div style={{marginTop:8,padding:10,borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}>
+      <div style={{fontSize:10,fontWeight:600,color:'var(--text2)',marginBottom:6}}>{lang==='tr'?'Popülerlik':lang==='en'?'Popularity':'الشعبية'}</div>
+      {selCuts.map(c=><div key={c.id} style={{display:'flex',alignItems:'center',gap:8,marginBottom:4}}>
+        <span style={{fontSize:11,fontWeight:600,width:80}}>{c.n[lang]}</span>
+        <div style={{flex:1,height:6,borderRadius:3,background:'var(--border)'}}><div style={{width:`${c.pop}%`,height:'100%',background:'linear-gradient(90deg,#B9F2FF,#7DD3FC)',borderRadius:3}}/></div>
+        <span style={{fontSize:10,fontFamily:'var(--f-mono)',color:'var(--text3)',width:30,textAlign:'right'}}>{c.pop}%</span>
+      </div>)}
+    </div>
+  </div>
+}
+
+/* ── TOOL 41: Carat to mm Converter ── */
+function CaratToMm({lang}){
+  const[carat,setCarat]=useState(1);const[shape,setShape]=useState('round');
+  const shapes=[
+    {id:'round',n:{tr:'Round',en:'Round',ar:'دائري'},calc:c=>({w:(6.5*Math.pow(c,1/3)).toFixed(1),h:(6.5*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'princess',n:{tr:'Princess',en:'Princess',ar:'أميرة'},calc:c=>({w:(5.5*Math.pow(c,1/3)).toFixed(1),h:(5.5*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'emerald',n:{tr:'Emerald',en:'Emerald',ar:'زمرد'},calc:c=>({w:(5.0*Math.pow(c,1/3)).toFixed(1),h:(6.9*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'oval',n:{tr:'Oval',en:'Oval',ar:'بيضاوي'},calc:c=>({w:(5.1*Math.pow(c,1/3)).toFixed(1),h:(7.7*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'cushion',n:{tr:'Cushion',en:'Cushion',ar:'وسادة'},calc:c=>({w:(5.8*Math.pow(c,1/3)).toFixed(1),h:(5.8*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'pear',n:{tr:'Pear',en:'Pear',ar:'كمثرى'},calc:c=>({w:(5.2*Math.pow(c,1/3)).toFixed(1),h:(8.0*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'marquise',n:{tr:'Marquise',en:'Marquise',ar:'ماركيز'},calc:c=>({w:(4.2*Math.pow(c,1/3)).toFixed(1),h:(9.8*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'heart',n:{tr:'Heart',en:'Heart',ar:'قلب'},calc:c=>({w:(6.0*Math.pow(c,1/3)).toFixed(1),h:(6.0*Math.pow(c,1/3)).toFixed(1)})},
+    {id:'radiant',n:{tr:'Radiant',en:'Radiant',ar:'راديانت'},calc:c=>({w:(5.3*Math.pow(c,1/3)).toFixed(1),h:(6.8*Math.pow(c,1/3)).toFixed(1)})},
+  ];
+  const active=shapes.find(s=>s.id===shape);
+  const dim=active.calc(carat);
+  const ref=[0.25,0.5,0.75,1.0,1.5,2.0,3.0].map(c=>({ct:c,...active.calc(c)}));
+  return<div className="tm-tool">
+    <label className="calc-label">{lang==='tr'?'Karat':lang==='en'?'Carat':'القيراط'}</label>
+    <input type="number" className="calc-input" value={carat} onChange={e=>setCarat(Math.max(0.1,+e.target.value))} min="0.1" max="20" step="0.01" inputMode="decimal"/>
+    <label className="calc-label" style={{marginTop:10}}>{lang==='tr'?'Kesim Şekli':lang==='en'?'Cut Shape':'شكل القطع'}</label>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:6,marginBottom:14}}>
+      {shapes.map(s=><button key={s.id} onClick={()=>setShape(s.id)} style={{padding:'8px 6px',borderRadius:8,border:`2px solid ${shape===s.id?'#B9F2FF':'var(--border)'}`,background:shape===s.id?'rgba(185,242,255,0.08)':'transparent',cursor:'pointer',fontSize:11,fontWeight:600,color:shape===s.id?'#7DD3FC':'var(--text3)'}}>{s.n[lang]}</button>)}
+    </div>
+    <div className="calc-result" style={{marginTop:8}}>
+      <div className="calc-result-num" style={{color:'#B9F2FF'}}>{dim.w} × {dim.h} mm</div>
+      <div className="calc-result-label">{carat} ct {active.n[lang]}</div>
+    </div>
+    <div style={{marginTop:14,padding:10,borderRadius:10,background:'var(--card)',border:'1px solid var(--border)'}}>
+      <div style={{fontSize:10,fontWeight:600,color:'var(--text2)',marginBottom:6}}>{lang==='tr'?'Referans Tablosu':lang==='en'?'Reference Table':'جدول مرجعي'}</div>
+      <div style={{display:'grid',gridTemplateColumns:'auto 1fr',gap:'4px 12px',fontSize:11}}>
+        <span style={{fontWeight:700,color:'var(--text3)'}}>ct</span><span style={{fontWeight:700,color:'var(--text3)'}}>mm</span>
+        {ref.map(r=><React.Fragment key={r.ct}>
+          <span style={{fontFamily:'var(--f-mono)',color:'var(--text2)'}}>{r.ct}</span>
+          <span style={{fontFamily:'var(--f-mono)',color:'#7DD3FC'}}>{r.w}×{r.h}</span>
+        </React.Fragment>)}
+      </div>
+    </div>
+  </div>
+}
+
+/* ── TOOL 42: AI Jewelry Advisor (Faz 4.1) ── */
+function JewelryAIAdvisor({ lang }) {
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState('');
+  const [loading, setLoading] = useState(false);
+  const scrollRef = useRef(null);
+  const inputRef = useRef(null);
+
+  const SUGGESTIONS = {
+    tr: ['18K ve 14K altın farkı nedir?','Pırlanta alırken nelere dikkat etmeliyim?','Gümüş takım nasıl temizlenir?','Yatırım için hangi metal?','Nişan yüzüğü rehberi','Zümrüt mü yakut mu?'],
+    en: ['What\'s the difference between 18K and 14K?','What to look for when buying diamonds?','How to clean silver jewelry?','Which metal for investment?','Engagement ring guide','Emerald or ruby?'],
+    ar: ['ما الفرق بين ١٨ و١٤ قيراط؟','ما يجب مراعاته عند شراء الألماس؟','كيف تنظف المجوهرات الفضية؟','أي معدن للاستثمار؟','دليل خاتم الخطوبة','زمرد أم ياقوت؟']
+  };
+
+  const SYSTEM_PROMPT = `You are JewelPedi AI — an expert jewelry, gemstone, and precious metals advisor embedded in a comprehensive encyclopedia app. You have deep knowledge of:
+- Silver (925 sterling, alloys, care, hallmarks)
+- Gold (karat systems 8K-24K, colors, investment, cultural significance)
+- Platinum group metals (Pt, Pd, Rh)
+- Diamonds (4C grading, certifications, lab-grown vs natural)
+- Colored gemstones (emerald, ruby, sapphire, semi-precious)
+- Jewelry care, buying guides, and cultural traditions
+- Market trends, investment strategies, pricing
+
+Guidelines:
+- Respond in ${lang === 'tr' ? 'Turkish' : lang === 'ar' ? 'Arabic' : 'English'}
+- Be concise (2-4 paragraphs max), warm, and knowledgeable
+- Use practical advice the user can act on
+- When relevant, suggest specific karat/purity levels with reasons
+- Format key terms with **bold**
+- Never recommend specific brands or stores
+- If asked about pricing, give general ranges and factors, not specific prices
+- Always mention if professional appraisal is recommended for high-value items`;
+
+  useEffect(() => {
+    if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+  }, [messages, loading]);
+
+  const sendMessage = useCallback(async (text) => {
+    if (!text.trim() || loading) return;
+    const userMsg = { role: 'user', content: text.trim() };
+    const newMsgs = [...messages, userMsg];
+    setMessages(newMsgs);
+    setInput('');
+    setLoading(true);
+    try {
+      const response = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 1000,
+          system: SYSTEM_PROMPT,
+          messages: newMsgs.map(m => ({ role: m.role, content: m.content })),
+        })
+      });
+      const data = await response.json();
+      const assistantText = data.content?.map(c => c.type === 'text' ? c.text : '').join('') || (lang === 'tr' ? 'Yanıt alınamadı, tekrar deneyin.' : lang === 'ar' ? 'لم يتم استلام الرد، حاول مرة أخرى.' : 'Could not get response, please try again.');
+      setMessages(prev => [...prev, { role: 'assistant', content: assistantText }]);
+    } catch (err) {
+      setMessages(prev => [...prev, { role: 'assistant', content: lang === 'tr' ? '⚠️ Bağlantı hatası. Lütfen tekrar deneyin.' : lang === 'ar' ? '⚠️ خطأ في الاتصال. يرجى المحاولة مرة أخرى.' : '⚠️ Connection error. Please try again.' }]);
+    }
+    setLoading(false);
+    inputRef.current?.focus();
+  }, [messages, loading, lang]);
+
+  const handleKeyDown = useCallback((e) => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(input); }
+  }, [input, sendMessage]);
+
+  // Simple markdown-ish rendering: **bold** → <strong>
+  const renderContent = (text) => {
+    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+  };
+
+  const welcomeMsg = {
+    tr: '💎 Merhaba! Ben JewelPedi AI asistanınızım. Gümüş, altın, pırlanta, değerli taşlar ve takı hakkında her sorunuza yanıt verebilirim. Ne sormak istersiniz?',
+    en: '💎 Hello! I\'m your JewelPedi AI assistant. I can answer any questions about silver, gold, diamonds, gemstones and jewelry. What would you like to know?',
+    ar: '💎 مرحباً! أنا مساعد JewelPedi الذكي. يمكنني الإجابة على أي أسئلة حول الفضة والذهب والألماس والأحجار الكريمة والمجوهرات. ماذا تريد أن تعرف؟'
+  };
+
+  return (
+    <div className="ai-chat-container">
+      <div className="ai-chat-messages" ref={scrollRef}>
+        <div className="ai-chat-msg system">{welcomeMsg[lang]}</div>
+        {messages.map((m, i) => (
+          <div key={i} className={`ai-chat-msg ${m.role}`}
+            dangerouslySetInnerHTML={{ __html: m.role === 'assistant' ? renderContent(m.content) : m.content }} />
+        ))}
+        {loading && (
+          <div className="ai-chat-typing">
+            <span /><span /><span />
+          </div>
+        )}
+        {messages.length === 0 && !loading && (
+          <div className="ai-chat-suggestions">
+            {(SUGGESTIONS[lang] || SUGGESTIONS.en).slice(0, 4).map((s, i) => (
+              <button key={i} className="ai-chat-suggest-btn" onClick={() => sendMessage(s)}>{s}</button>
+            ))}
+          </div>
+        )}
+      </div>
+      <div className="ai-chat-input-row">
+        <input ref={inputRef} className="ai-chat-input" value={input} onChange={e => setInput(e.target.value)}
+          onKeyDown={handleKeyDown} placeholder={lang === 'tr' ? 'Takı hakkında bir soru sorun...' : lang === 'ar' ? 'اسأل سؤالاً عن المجوهرات...' : 'Ask about jewelry...'}
+          disabled={loading} maxLength={500} />
+        <button className="ai-chat-send" onClick={() => sendMessage(input)} disabled={loading || !input.trim()}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ── TOOL 43: Photo Gem/Metal Identifier (Faz 4.1) ── */
+function PhotoGemIdentifier({ lang }) {
+  const [image, setImage] = useState(null);
+  const [preview, setPreview] = useState(null);
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const fileRef = useRef(null);
+
+  const L = {
+    tr: { title: 'Fotoğrafla Taş/Metal Tanımlama', desc: 'Bir taş veya mücevher fotoğrafı yükleyin, AI tanımlasın.',
+      upload: '📸 Fotoğraf Seç', camera: '📷 Kamera', analyzing: 'Analiz ediliyor...', retry: 'Yeni Fotoğraf',
+      tip: 'İpucu: Net, yakın çekim ve iyi aydınlatılmış fotoğraflar en iyi sonucu verir.',
+      error: 'Analiz yapılamadı. Lütfen tekrar deneyin.' },
+    en: { title: 'Photo Gem/Metal Identifier', desc: 'Upload a photo of a stone or jewelry, let AI identify it.',
+      upload: '📸 Choose Photo', camera: '📷 Camera', analyzing: 'Analyzing...', retry: 'New Photo',
+      tip: 'Tip: Clear, close-up, well-lit photos give the best results.',
+      error: 'Analysis failed. Please try again.' },
+    ar: { title: 'تعريف الحجر/المعدن بالصورة', desc: 'ارفع صورة لحجر أو مجوهرات، ودع الذكاء الاصطناعي يحددها.',
+      upload: '📸 اختر صورة', camera: '📷 الكاميرا', analyzing: 'جار التحليل...', retry: 'صورة جديدة',
+      tip: 'نصيحة: الصور القريبة والواضحة والمضاءة جيداً تعطي أفضل النتائج.',
+      error: 'فشل التحليل. يرجى المحاولة مرة أخرى.' }
+  }[lang] || {};
+
+  const SYSTEM = `You are a gemstone and precious metal identification expert. Analyze the image and identify what you see. Respond in ${lang === 'tr' ? 'Turkish' : lang === 'ar' ? 'Arabic' : 'English'}.
+
+Provide:
+1. **Identification**: Most likely stone/metal name
+2. **Confidence**: High/Medium/Low
+3. **Key Features**: Color, luster, transparency, visible inclusions
+4. **Estimated Type**: Natural/Synthetic/Imitation/Unknown
+5. **Care Tips**: Brief care recommendation
+6. **Similar Stones**: What it could be confused with
+
+If you cannot identify the item or if the image doesn't show a gemstone/metal, say so clearly. Always recommend professional appraisal for valuable items. Format with **bold** headers.`;
+
+  const handleFile = useCallback((e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) return;
+    setResult(null);
+    const reader = new FileReader();
+    reader.onload = () => {
+      setPreview(reader.result);
+      setImage(reader.result.split(',')[1]);
+    };
+    reader.readAsDataURL(file);
+  }, []);
+
+  const analyze = useCallback(async () => {
+    if (!image || loading) return;
+    setLoading(true); setResult(null);
+    try {
+      const resp = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514', max_tokens: 1000,
+          system: SYSTEM,
+          messages: [{ role: 'user', content: [
+            { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: image } },
+            { type: 'text', text: lang === 'tr' ? 'Bu taş veya metali tanımla.' : lang === 'ar' ? 'حدد هذا الحجر أو المعدن.' : 'Identify this stone or metal.' }
+          ]}]
+        })
+      });
+      const data = await resp.json();
+      const text = data.content?.map(c => c.type === 'text' ? c.text : '').join('') || L.error;
+      setResult(text);
+    } catch { setResult(L.error); }
+    setLoading(false);
+  }, [image, loading, lang]);
+
+  useEffect(() => { if (image) analyze(); }, [image]);
+
+  const renderResult = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+
+  return (
+    <div className="photo-id-container">
+      <p className="photo-id-desc">{L.desc}</p>
+      {!preview ? (
+        <div className="photo-id-upload-area">
+          <input ref={fileRef} type="file" accept="image/*" onChange={handleFile} style={{ display: 'none' }} />
+          <button className="photo-id-btn" onClick={() => { fileRef.current.removeAttribute('capture'); fileRef.current.click(); }}>
+            {L.upload}
+          </button>
+          <button className="photo-id-btn secondary" onClick={() => { fileRef.current.setAttribute('capture', 'environment'); fileRef.current.click(); }}>
+            {L.camera}
+          </button>
+          <p className="photo-id-tip">{L.tip}</p>
+        </div>
+      ) : (
+        <div className="photo-id-result-area">
+          <div className="photo-id-preview">
+            <img src={preview} alt="Upload" />
+          </div>
+          {loading ? (
+            <div className="photo-id-loading">
+              <div className="ai-chat-typing"><span /><span /><span /></div>
+              <p>{L.analyzing}</p>
+            </div>
+          ) : result ? (
+            <div className="photo-id-result" dangerouslySetInnerHTML={{ __html: renderResult(result) }} />
+          ) : null}
+          <button className="photo-id-btn" onClick={() => { setPreview(null); setImage(null); setResult(null); }}>
+            {L.retry}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ── TOOL 44: Article Summarizer / TL;DR (Faz 4.1) ── */
+function ArticleSummarizer({ lang }) {
+  const [selectedId, setSelectedId] = useState('');
+  const [summary, setSummary] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const L = {
+    tr: { title: 'Makale Özetleyici', desc: 'Bir makale seçin, AI kısa bir özet oluştursun.', select: 'Makale seçin...',
+      go: 'Özetle', loading: 'Özetleniyor...', error: 'Özet oluşturulamadı.', tldr: 'TL;DR', keyPoints: 'Ana Noktalar', readTime: 'Okuma süresi' },
+    en: { title: 'Article Summarizer', desc: 'Select an article, let AI generate a brief summary.', select: 'Choose an article...',
+      go: 'Summarize', loading: 'Summarizing...', error: 'Could not generate summary.', tldr: 'TL;DR', keyPoints: 'Key Points', readTime: 'Read time' },
+    ar: { title: 'ملخص المقالات', desc: 'اختر مقالاً، ودع الذكاء الاصطناعي يولد ملخصاً موجزاً.', select: 'اختر مقالاً...',
+      go: 'لخص', loading: 'جار التلخيص...', error: 'لم يتمكن من إنشاء الملخص.', tldr: 'TL;DR', keyPoints: 'النقاط الرئيسية', readTime: 'وقت القراءة' }
+  }[lang] || {};
+
+  const sortedArticles = useMemo(() => [...ARTICLES].sort((a, b) => (a[lang]?.t || '').localeCompare(b[lang]?.t || '')), [lang]);
+
+  const summarize = useCallback(async () => {
+    if (!selectedId || loading) return;
+    const art = ARTICLES.find(a => a.id === Number(selectedId));
+    if (!art) return;
+    setLoading(true); setSummary(null);
+    try {
+      const content = getArticleContent(Number(selectedId), art);
+      const rawHtml = content?.[lang] || content?.tr || '';
+      const plainText = rawHtml.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 3000);
+      const resp = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514', max_tokens: 600,
+          messages: [{ role: 'user', content: `Summarize this article in ${lang === 'tr' ? 'Turkish' : lang === 'ar' ? 'Arabic' : 'English'}. Give:
+1. A one-sentence TL;DR
+2. 3-5 key bullet points (use • prefix)
+3. One practical takeaway
+
+Article title: "${art[lang]?.t}"
+Content: ${plainText}` }]
+        })
+      });
+      const data = await resp.json();
+      const text = data.content?.map(c => c.type === 'text' ? c.text : '').join('') || L.error;
+      setSummary(text);
+    } catch { setSummary(L.error); }
+    setLoading(false);
+  }, [selectedId, loading, lang]);
+
+  const renderSummary = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+
+  return (
+    <div className="summarizer-container">
+      <p className="summarizer-desc">{L.desc}</p>
+      <select className="calc-select" value={selectedId} onChange={e => { setSelectedId(e.target.value); setSummary(null); }}>
+        <option value="">{L.select}</option>
+        {sortedArticles.map(a => <option key={a.id} value={a.id}>{a[lang]?.t} ({a.min} {lang === 'tr' ? 'dk' : 'min'})</option>)}
+      </select>
+      <button className="photo-id-btn" style={{ marginTop: 12, width: '100%' }} onClick={summarize}
+        disabled={!selectedId || loading}>
+        {loading ? L.loading : L.go}
+      </button>
+      {loading && <div className="photo-id-loading" style={{ marginTop: 16 }}><div className="ai-chat-typing"><span /><span /><span /></div></div>}
+      {summary && !loading && (
+        <div className="summarizer-result" dangerouslySetInnerHTML={{ __html: renderSummary(summary) }} />
+      )}
+    </div>
+  );
+}
+
+/* ── TOOL 45: Price Comparison Widget (Faz 4.4) ── */
+function PriceComparisonWidget({ lang }) {
+  const { prices, loading: priceLoading } = useSilverPrice();
+  const [weight, setWeight] = useState(10);
+  const [currency, setCurrency] = useState('try');
+
+  const L = {
+    tr: { title: 'Metal Fiyat Karşılaştırma', weight: 'Ağırlık (gram)', currency: 'Para Birimi',
+      metal: 'Metal', purity: 'Ayar', priceG: 'Gram Fiyat', total: 'Toplam Değer', loading: 'Fiyatlar yükleniyor...',
+      note: 'Canlı spot fiyatlar üzerinden hesaplanır. İşçilik dahil değildir.' },
+    en: { title: 'Metal Price Comparison', weight: 'Weight (grams)', currency: 'Currency',
+      metal: 'Metal', purity: 'Purity', priceG: 'Price/Gram', total: 'Total Value', loading: 'Loading prices...',
+      note: 'Calculated from live spot prices. Labor costs not included.' },
+    ar: { title: 'مقارنة أسعار المعادن', weight: 'الوزن (غرام)', currency: 'العملة',
+      metal: 'المعدن', purity: 'العيار', priceG: 'السعر/غرام', total: 'القيمة الإجمالية', loading: 'جار تحميل الأسعار...',
+      note: 'محسوب من الأسعار الفورية المباشرة. تكاليف العمل غير مشمولة.' }
+  }[lang] || {};
+
+  const tryRate = prices?.usdtry || 38;
+  const ozToG = 31.1035;
+  const silverUsdG = (prices?.silver || 32) / ozToG;
+  const goldUsdG = (prices?.gold || 2400) / ozToG;
+  const platUsdG = (prices?.platinum || 1000) / ozToG;
+  const palUsdG = (prices?.palladium || 950) / ozToG;
+  const rate = currency === 'try' ? tryRate : 1;
+  const sym = currency === 'try' ? '₺' : '$';
+
+  const rows = [
+    { metal: lang==='tr'?'Gümüş':'Silver', emoji: '🥈', items: [
+      { purity: '999', factor: 0.999 }, { purity: '925', factor: 0.925 }, { purity: '800', factor: 0.800 }
+    ], baseG: silverUsdG },
+    { metal: lang==='tr'?'Altın':'Gold', emoji: '🥇', items: [
+      { purity: '24K (999)', factor: 0.999 }, { purity: '22K (916)', factor: 0.916 },
+      { purity: '18K (750)', factor: 0.750 }, { purity: '14K (585)', factor: 0.585 }
+    ], baseG: goldUsdG },
+    { metal: lang==='tr'?'Platin':'Platinum', emoji: '⚪', items: [
+      { purity: '950', factor: 0.950 }, { purity: '900', factor: 0.900 }
+    ], baseG: platUsdG },
+    { metal: lang==='tr'?'Paladyum':'Palladium', emoji: '🔘', items: [
+      { purity: '950', factor: 0.950 }
+    ], baseG: palUsdG },
+  ];
+
+  if (priceLoading) return <div className="tm-tool" style={{textAlign:'center',padding:30,color:'var(--text3)'}}>{L.loading}</div>;
+
+  return (
+    <div className="tm-tool price-comp">
+      <div style={{display:'flex',gap:10,marginBottom:14}}>
+        <div style={{flex:1}}>
+          <label className="calc-label">{L.weight}</label>
+          <input type="number" className="calc-input" value={weight} onChange={e=>setWeight(Math.max(0.1,+e.target.value))} min="0.1" step="0.5" inputMode="decimal"/>
+        </div>
+        <div style={{flex:1}}>
+          <label className="calc-label">{L.currency}</label>
+          <select className="calc-select" value={currency} onChange={e=>setCurrency(e.target.value)}>
+            <option value="try">₺ TRY</option><option value="usd">$ USD</option>
+          </select>
+        </div>
+      </div>
+      <div className="price-comp-table">
+        <div className="price-comp-header">
+          <span>{L.metal}</span><span>{L.purity}</span><span>{L.priceG}</span><span>{L.total}</span>
+        </div>
+        {rows.map(r => r.items.map((item, i) => {
+          const gPrice = r.baseG * item.factor * rate;
+          const total = gPrice * weight;
+          return (
+            <div key={`${r.metal}-${item.purity}`} className="price-comp-row">
+              <span className="price-comp-metal">{i === 0 ? `${r.emoji} ${r.metal}` : ''}</span>
+              <span className="price-comp-purity">{item.purity}</span>
+              <span className="price-comp-price">{sym}{gPrice.toFixed(2)}</span>
+              <span className="price-comp-total">{sym}{total.toLocaleString(undefined,{maximumFractionDigits:0})}</span>
+            </div>
+          );
+        }))}
+      </div>
+      <p style={{fontSize:'.7rem',color:'var(--text3)',marginTop:10,textAlign:'center'}}>{L.note}</p>
+    </div>
+  );
+}
+
+/* ── TOOL 46: Kuyumcu Haritası / Jeweler Map ── */
+const JEWELER_DATA = [
+  {name:{tr:"Kapalıçarşı",en:"Grand Bazaar",ar:"البازار الكبير"},city:"İstanbul",lat:41.0106,lng:28.9684,type:"bazaar",mat:"all",desc:{tr:"550+ kuyumcu dükkanı, 4000+ firma — dünyanın en büyük kapalı çarşısı",en:"550+ jewelry shops, 4000+ firms — world's largest covered bazaar",ar:"٥٥٠+ محل مجوهرات — أكبر بازار مسقوف في العالم"}},
+  {name:{tr:"Kuyumcukent",en:"Kuyumcukent",ar:"كويومجوكنت"},city:"İstanbul",lat:41.0325,lng:28.8372,type:"center",mat:"all",desc:{tr:"Türkiye'nin en büyük kuyumculuk merkezi — 4.500+ firma, toptan ticaret",en:"Turkey's largest jewelry center — 4,500+ firms, wholesale trade",ar:"أكبر مركز مجوهرات في تركيا — ٤٥٠٠+ شركة"}},
+  {name:{tr:"Midyat Gümüş Çarşısı",en:"Midyat Silver Bazaar",ar:"سوق فضة ميديات"},city:"Mardin",lat:37.4194,lng:41.3389,type:"craft",mat:"silver",desc:{tr:"Telkâri sanatının başkenti — Süryani ve Türk ustaları",en:"Capital of filigree art — Syriac and Turkish masters",ar:"عاصمة فن التخريم — أساتذة سريان وأتراك"}},
+  {name:{tr:"Trabzon Kuyumcular Caddesi",en:"Trabzon Jewelers Street",ar:"شارع الصاغة طرابزون"},city:"Trabzon",lat:41.0027,lng:39.7168,type:"craft",mat:"gold",desc:{tr:"Hasır bilezik ve kazaz tespih merkezi — Karadeniz zanaatı",en:"Woven bracelet and kazaz prayer bead center — Black Sea craft",ar:"مركز الأساور المنسوجة ومسابح القزاز — حرف البحر الأسود"}},
+  {name:{tr:"Ankara Kuyumcular Çarşısı",en:"Ankara Jewelers Bazaar",ar:"سوق الصاغة أنقرة"},city:"Ankara",lat:39.9334,lng:32.8597,type:"bazaar",mat:"all",desc:{tr:"Başkentin toptan ve perakende kuyumculuk merkezi",en:"Capital's wholesale and retail jewelry center",ar:"مركز المجوهرات بالجملة والتجزئة في العاصمة"}},
+  {name:{tr:"İzmir Kemeraltı",en:"İzmir Kemeraltı",ar:"كمرالتي إزمير"},city:"İzmir",lat:38.4189,lng:27.1287,type:"bazaar",mat:"all",desc:{tr:"Ege'nin tarihi ticaret merkezi — altın ve gümüş dükkanları",en:"Aegean's historic trade center — gold and silver shops",ar:"مركز التجارة التاريخي لبحر إيجه"}},
+  {name:{tr:"Konya İstanbul Gümüş",en:"Istanbul Silver (Konya)",ar:"إسطنبول غوموش (قونية)"},city:"Konya",lat:37.8746,lng:32.4932,type:"production",mat:"silver",desc:{tr:"JewelPedi sponsor — Türkiye'nin öncü gümüş üreticisi",en:"JewelPedi sponsor — Turkey's leading silver manufacturer",ar:"راعي JewelPedi — الشركة الرائدة في صناعة الفضة التركية"}},
+  {name:{tr:"Erzurum Oltu Taşı Çarşısı",en:"Erzurum Oltu Stone Market",ar:"سوق حجر أولتو أرزروم"},city:"Erzurum",lat:39.9,lng:41.27,type:"craft",mat:"gemstone",desc:{tr:"Oltu taşı-gümüş kombinasyonu — dünyada eşsiz zanaat",en:"Oltu stone-silver combination — unique craft in the world",ar:"مزيج حجر أولتو والفضة — حرفة فريدة في العالم"}},
+  {name:{tr:"Gaziantep Bakırcılar Çarşısı",en:"Gaziantep Coppersmiths Bazaar",ar:"سوق النحاسين غازي عنتاب"},city:"Gaziantep",lat:37.0662,lng:37.3833,type:"production",mat:"silver",desc:{tr:"Güneydoğu'nun en büyük gümüş üretim merkezi",en:"Southeast's largest silver production center",ar:"أكبر مركز إنتاج فضة في الجنوب الشرقي"}},
+  {name:{tr:"Beypazarı Gümüşçüler",en:"Beypazarı Silversmiths",ar:"صاغة بيبازاري"},city:"Ankara",lat:40.1672,lng:31.9214,type:"craft",mat:"silver",desc:{tr:"Osmanlı gümüş işçiliği geleneği — butik atölyeler",en:"Ottoman silverwork tradition — boutique workshops",ar:"تقليد صياغة الفضة العثماني — ورش بوتيكية"}},
+  {name:{tr:"Kastamonu Kazaziye",en:"Kastamonu Kazaziye",ar:"كازازية قسطموني"},city:"Kastamonu",lat:41.3887,lng:33.7765,type:"craft",mat:"silver",desc:{tr:"İnce gümüş tel örgü sanatı — 1000 iplikle işlenen takılar",en:"Fine silver wire weaving art — jewelry crafted with 1000 threads",ar:"فن نسج الأسلاك الفضية الدقيقة"}},
+  {name:{tr:"Diyarbakır Gümüşçüler",en:"Diyarbakır Silversmiths",ar:"صاغة ديار بكر"},city:"Diyarbakır",lat:37.91,lng:40.24,type:"craft",mat:"silver",desc:{tr:"Telkâri ve savat (niello) işçiliği — tarihi suriçi çarşıları",en:"Filigree and niello work — historic walled city bazaars",ar:"التخريم والنيلو — أسواق المدينة التاريخية المسورة"}},
+  {name:{tr:"Hatay Antakya Çarşısı",en:"Hatay Antakya Bazaar",ar:"سوق أنطاكيا حتاي"},city:"Hatay",lat:36.2,lng:36.16,type:"craft",mat:"silver",desc:{tr:"Levant etkisinde gümüş işçiliği — antik kültür mirası",en:"Levantine-influenced silverwork — ancient cultural heritage",ar:"صياغة فضة بتأثير شامي — تراث ثقافي عريق"}},
+  {name:{tr:"Safranbolu Tarihi Çarşı",en:"Safranbolu Historic Bazaar",ar:"سوق سافرانبولو التاريخي"},city:"Karabük",lat:41.2536,lng:32.6938,type:"craft",mat:"silver",desc:{tr:"UNESCO Dünya Mirası — bakır ve gümüş dükkanları",en:"UNESCO World Heritage — copper and silver shops",ar:"تراث يونسكو العالمي — محلات النحاس والفضة"}},
+  {name:{tr:"Bursa Kapalıçarşı",en:"Bursa Covered Bazaar",ar:"البازار المسقوف بورصة"},city:"Bursa",lat:40.1885,lng:29.061,type:"bazaar",mat:"gold",desc:{tr:"Osmanlı başkenti — altın takı ve ipek geleneği",en:"Ottoman capital — gold jewelry and silk tradition",ar:"العاصمة العثمانية — تقليد مجوهرات الذهب والحرير"}},
+  {name:{tr:"Van Gümüş Atölyeleri",en:"Van Silver Workshops",ar:"ورش فضة وان"},city:"Van",lat:38.49,lng:43.38,type:"craft",mat:"silver",desc:{tr:"Urartu geleneğinde gümüş kemer ve takı — Van kedisi motifi",en:"Silver belts and jewelry in Urartian tradition — Van cat motif",ar:"أحزمة ومجوهرات فضية بتقليد أورارتو"}},
+  {name:{tr:"Eskişehir Lületaşı Çarşısı",en:"Eskişehir Meerschaum Market",ar:"سوق كهرمان البحر أسكيشهير"},city:"Eskişehir",lat:39.78,lng:30.52,type:"craft",mat:"gemstone",desc:{tr:"Lületaşı-gümüş kombinasyonu — Odunpazarı el sanatları",en:"Meerschaum-silver combination — Odunpazarı handicrafts",ar:"مزيج الميرشوم والفضة — حرف أودونبازاري"}},
+  {name:{tr:"Muğla / Bodrum Kuyumcuları",en:"Muğla / Bodrum Jewelers",ar:"صاغة موغلا/بودروم"},city:"Muğla",lat:37.035,lng:27.43,type:"bazaar",mat:"all",desc:{tr:"Turizm odaklı lüks takı — zultanit özel tasarımlar",en:"Tourism-focused luxury jewelry — zultanite specialty designs",ar:"مجوهرات فاخرة سياحية — تصاميم زلتانيت خاصة"}},
+];
+const JM_TYPES = {bazaar:{tr:"Çarşı",en:"Bazaar",ar:"سوق",c:"#E67E22",i:"🏪"},craft:{tr:"Zanaat",en:"Craft",ar:"حرف",c:"#8E44AD",i:"🔨"},production:{tr:"Üretim",en:"Production",ar:"إنتاج",c:"#27AE60",i:"🏭"},center:{tr:"Merkez",en:"Center",ar:"مركز",c:"#2980B9",i:"🏢"}};
+const JM_MATS = {all:{tr:"Tümü",en:"All",ar:"الكل",c:"#888"},silver:{tr:"Gümüş",en:"Silver",ar:"فضة",c:"var(--silver)"},gold:{tr:"Altın",en:"Gold",ar:"ذهب",c:"var(--gold)"},gemstone:{tr:"Taş",en:"Gem",ar:"حجر",c:"#9B59B6"}};
+
+function JewelerMap({lang}) {
+  const mapRef = useRef(null);
+  const mapObj = useRef(null);
+  const [typeFilter, setTypeFilter] = useState('all');
+  const [matFilter, setMatFilter] = useState('all');
+  const [selected, setSelected] = useState(null);
+  const markersRef = useRef([]);
+
+  const filtered = useMemo(() => {
+    return JEWELER_DATA.filter(j => {
+      if (typeFilter !== 'all' && j.type !== typeFilter) return false;
+      if (matFilter !== 'all' && j.mat !== matFilter && j.mat !== 'all') return false;
+      return true;
+    });
+  }, [typeFilter, matFilter]);
+
+  useEffect(() => {
+    let L;
+    (async () => {
+      L = await import('leaflet');
+      await import('leaflet/dist/leaflet.css');
+      if (mapObj.current) { mapObj.current.remove(); mapObj.current = null; }
+      if (!mapRef.current) return;
+      const map = L.map(mapRef.current, {
+        center: [39.0, 35.0],
+        zoom: 6,
+        zoomControl: true,
+        attributionControl: false,
+        scrollWheelZoom: true,
+      });
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 18,
+      }).addTo(map);
+      mapObj.current = map;
+      // Add markers
+      markersRef.current.forEach(m => m.remove());
+      markersRef.current = [];
+      filtered.forEach(j => {
+        const typeInfo = JM_TYPES[j.type] || JM_TYPES.bazaar;
+        const icon = L.divIcon({
+          html: `<div style="background:${typeInfo.c};width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;border:2px solid rgba(255,255,255,0.5);box-shadow:0 2px 8px rgba(0,0,0,0.4)">${typeInfo.i}</div>`,
+          iconSize: [28, 28],
+          iconAnchor: [14, 14],
+          className: '',
+        });
+        const marker = L.marker([j.lat, j.lng], { icon }).addTo(map);
+        marker.on('click', () => setSelected(j));
+        markersRef.current.push(marker);
+      });
+      setTimeout(() => map.invalidateSize(), 200);
+    })();
+    return () => { if (mapObj.current) { mapObj.current.remove(); mapObj.current = null; } };
+  }, [filtered]);
+
+  const L = {
+    tr: { title: "Türkiye Kuyumcu & Atölye Haritası", type: "Tür", mat: "Metal", all: "Tümü", count: "nokta", info: "Detaylar için işaretçiye tıklayın" },
+    en: { title: "Turkey Jeweler & Workshop Map", type: "Type", mat: "Metal", all: "All", count: "points", info: "Click markers for details" },
+    ar: { title: "خريطة الصاغة وورش العمل في تركيا", type: "النوع", mat: "المعدن", all: "الكل", count: "نقاط", info: "انقر على العلامات للتفاصيل" },
+  }[lang] || {};
+
+  return (
+    <div className="tm-tool" style={{ gap: 8 }}>
+      <div style={{fontSize:11,fontWeight:700,color:'var(--text2)',textAlign:'center',marginBottom:4}}>{L.title}</div>
+      {/* Type filter */}
+      <div style={{display:'flex',gap:4,flexWrap:'wrap',justifyContent:'center'}}>
+        <button onClick={()=>setTypeFilter('all')} style={{padding:'4px 10px',borderRadius:12,border:`1.5px solid ${typeFilter==='all'?'var(--accent)':'var(--border)'}`,background:typeFilter==='all'?'rgba(192,192,192,0.1)':'transparent',color:typeFilter==='all'?'var(--accent)':'var(--text3)',fontSize:10,cursor:'pointer',fontWeight:600}}>{L.all}</button>
+        {Object.entries(JM_TYPES).map(([k,v])=>(
+          <button key={k} onClick={()=>setTypeFilter(k)} style={{padding:'4px 10px',borderRadius:12,border:`1.5px solid ${typeFilter===k?v.c:'var(--border)'}`,background:typeFilter===k?v.c+'18':'transparent',color:typeFilter===k?v.c:'var(--text3)',fontSize:10,cursor:'pointer',fontWeight:600}}>{v.i} {v[lang]}</button>
+        ))}
+      </div>
+      {/* Material filter */}
+      <div style={{display:'flex',gap:4,flexWrap:'wrap',justifyContent:'center'}}>
+        {Object.entries(JM_MATS).map(([k,v])=>(
+          <button key={k} onClick={()=>setMatFilter(k)} style={{padding:'3px 8px',borderRadius:10,border:`1px solid ${matFilter===k?'var(--accent)':'var(--border)'}`,background:matFilter===k?'rgba(192,192,192,0.08)':'transparent',color:matFilter===k?'var(--text)':'var(--text3)',fontSize:9,cursor:'pointer'}}>{v[lang]}</button>
+        ))}
+      </div>
+      {/* Map container */}
+      <div ref={mapRef} style={{width:'100%',height:320,borderRadius:14,overflow:'hidden',border:'1px solid var(--border)',background:'#1a1a2e'}}/>
+      <div style={{textAlign:'center',fontSize:10,color:'var(--text3)'}}>{filtered.length} {L.count} · {L.info}</div>
+      {/* Selected detail card */}
+      {selected && (
+        <div style={{padding:12,borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',position:'relative'}}>
+          <button onClick={()=>setSelected(null)} style={{position:'absolute',top:6,right:8,background:'none',border:'none',color:'var(--text3)',cursor:'pointer',fontSize:16}}>×</button>
+          <div style={{fontWeight:700,fontSize:14,marginBottom:4}}>{JM_TYPES[selected.type]?.i} {selected.name[lang]}</div>
+          <div style={{fontSize:11,color:'var(--text2)',marginBottom:4}}>{selected.city}</div>
+          <div style={{fontSize:12,color:'var(--text)',lineHeight:1.5}}>{selected.desc[lang]}</div>
+          <div style={{display:'flex',gap:6,marginTop:8}}>
+            <span style={{fontSize:9,padding:'2px 8px',borderRadius:8,background:JM_TYPES[selected.type]?.c+'20',color:JM_TYPES[selected.type]?.c,fontWeight:600}}>{JM_TYPES[selected.type]?.[lang]}</span>
+            <span style={{fontSize:9,padding:'2px 8px',borderRadius:8,background:'var(--card)',border:'1px solid var(--border)',color:'var(--text2)'}}>{JM_MATS[selected.mat]?.[lang]||selected.mat}</span>
+          </div>
+        </div>
+      )}
+      {/* List view */}
+      <div style={{maxHeight:200,overflowY:'auto',display:'flex',flexDirection:'column',gap:4}}>
+        {filtered.map((j,i)=>(
+          <div key={i} onClick={()=>{setSelected(j);if(mapObj.current)mapObj.current.flyTo([j.lat,j.lng],10,{duration:0.6});}} style={{padding:8,borderRadius:10,border:'1px solid var(--border)',background:selected===j?'rgba(192,192,192,0.06)':'var(--card)',cursor:'pointer',display:'flex',gap:8,alignItems:'center',transition:'background .2s'}}>
+            <span style={{fontSize:18}}>{JM_TYPES[j.type]?.i}</span>
+            <div style={{flex:1,minWidth:0}}>
+              <div style={{fontSize:12,fontWeight:600,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{j.name[lang]}</div>
+              <div style={{fontSize:10,color:'var(--text3)'}}>{j.city}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const TOOL_COMPONENTS = { 0:PurityCalc,1:UnitConverter,2:RingSizer,3:QuizTool,4:ColorPalette,5:CarbonFootprint,6:PeriodicTable,7:KaratConverter,8:GemstoneGuide,9:CareGuide,10:WorldMapTool,11:TimelineTool,12:StampIdentifier,13:PriceAlert,14:ZakatCalc,15:PurityTestGuide,16:MetalComparator,17:JewelryCombinator,18:TurkeyAtlas,19:PriceTracker,20:EngravingPreview,21:InsuranceCalc,22:AdvancedQuiz,23:TarnishSimulator,24:WorldClock,25:PortfolioTracker,26:CertificateVerifier,27:BraceletSizer,28:NecklaceGuide,29:SilverPriceEstimator,30:GoldSilverRatio,31:CounterfeitDetection,32:MeltValueCalc,33:GoldKaratCalc,34:WeddingGoldPlanner,35:MetalDashboard,36:DiamondEstimator,37:MohsScale,38:BirthstoneFinder,39:GemIdentifier,40:CutComparator,41:CaratToMm,42:JewelryAIAdvisor,43:PhotoGemIdentifier,44:ArticleSummarizer,45:PriceComparisonWidget,46:JewelerMap };
+
+// Tool → Related Article IDs mapping
+const TOOL_ARTICLE_MAP = {
+  0:[1,54],1:[24],2:[51,42],3:[1,5],5:[30,43],6:[5,24],7:[74,76],8:[65,110],9:[66,91],
+  11:[2,16],12:[20,77],14:[19,29,83],15:[1,54],16:[3,137],17:[34,67],20:[35,4],21:[8,61],
+  23:[55,66],25:[8,58,81],26:[20,102],27:[52],28:[53],30:[3,9],31:[1,39],32:[8,9,81],
+  33:[74,76,80],34:[86,93],35:[8,81,139],36:[95,96,97,98],37:[131],38:[134],39:[110,111,112],
+  40:[99,100,101],41:[98,99],42:[1,74,95,110,135],43:[131,133,110,111,112],44:[1,74,95,135],45:[8,81,139,158],46:[145,146,147,149,195]
+};
 
 /* ════════════ TOOL MODAL ════════════ */
-export default function ToolModal({ tool, toolIndex, lang, onClose }) {
+export default function ToolModal({ tool, toolIndex, lang, onClose, onOpenArticle }) {
   const sheetRef = useRef(null);
   const startY = useRef(0);
   const curY = useRef(0);
@@ -1005,6 +1863,33 @@ export default function ToolModal({ tool, toolIndex, lang, onClose }) {
               <p>{tool[lang]}</p>
             </div>
           )}
+          {/* Tool → Article cross-references */}
+          {(() => {
+            const ids = TOOL_ARTICLE_MAP[toolIndex];
+            if (!ids || !ids.length || !onOpenArticle) return null;
+            const arts = ids.map(id => ARTICLES.find(a => a.id === id)).filter(Boolean).slice(0, 3);
+            if (!arts.length) return null;
+            return (
+              <div style={{ marginTop: 16, paddingTop: 14, borderTop: '1px solid var(--border)' }}>
+                <div style={{ fontSize: '.75rem', fontWeight: 700, color: 'var(--text3)', marginBottom: 8, fontFamily: 'var(--f-mono)', letterSpacing: '.5px' }}>
+                  {lang === 'tr' ? 'İLGİLİ MAKALE' : lang === 'en' ? 'RELATED ARTICLE' : 'مقال ذو صلة'}
+                </div>
+                {arts.map(a => (
+                  <button key={a.id} onClick={() => onOpenArticle(a)}
+                    style={{ display: 'flex', alignItems: 'center', gap: 10, width: '100%', padding: '8px 10px',
+                      borderRadius: 10, background: 'var(--card)', border: '1px solid var(--border)',
+                      cursor: 'pointer', marginBottom: 6, textAlign: 'start', transition: 'all .2s' }}>
+                    <span style={{ fontSize: '1.1rem' }}>{a.icon}</span>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ fontSize: '.82rem', fontWeight: 600, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{a[lang]?.t}</div>
+                      <div style={{ fontSize: '.68rem', color: 'var(--text3)' }}>{a.min} {lang === 'tr' ? 'dk' : lang === 'en' ? 'min' : 'د'}</div>
+                    </div>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--text3)" strokeWidth="2"><polyline points="9 18 15 12 9 6"/></svg>
+                  </button>
+                ))}
+              </div>
+            );
+          })()}
         </div>
       </div>
     </div>

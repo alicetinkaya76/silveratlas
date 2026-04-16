@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/silveratlas/',
+  base: '/',
   resolve: { alias: { '@': path.resolve(__dirname, './src') } },
   build: {
     outDir: 'dist',
@@ -15,10 +15,6 @@ export default defineConfig({
         manualChunks: {
           vendor: ['react', 'react-dom'],
           map: ['leaflet', 'react-leaflet'],
-          content: [
-            './src/data/articleContent.js',
-            './src/data/mapData.js',
-          ],
         },
       },
     },

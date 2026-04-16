@@ -3,73 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>SilverAtlas — Gümüşün Tüm Hikâyesi</title>
-<meta name="description" content="Bilimden tarihe, madencilikten modaya — dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 interaktif araç, 3 dil.">
-<meta name="keywords" content="gümüş, silver, فضة, 925 ayar, sterling silver, gümüş fiyat, silver price, gümüş yatırım, Kur'an gümüş, İslam gümüş">
-<meta name="author" content="SilverAtlas">
+<title>JewelPedi — Kıymetli Metal & Taş Ansiklopedisi</title>
+<meta name="description" content="Gümüş, altın, pırlanta, platin ve değerli taşlar hakkında dünyanın en kapsamlı, ücretsiz, çok dilli dijital ansiklopedisi. 200 makale, 47 araç, 3 dil.">
+<meta name="keywords" content="gümüş, altın, pırlanta, platin, paladyum, değerli taş, silver, gold, diamond, platinum, gemstone, 925 ayar, karat, 4C, zümrüt, yakut, safir, jewelpedi, mücevher ansiklopedi">
+<meta name="author" content="JewelPedi">
 <meta name="robots" content="index, follow">
-
-<!-- Open Graph / Facebook -->
+<link rel="alternate" hreflang="tr" href="https://istanbul.silver/">
+<link rel="alternate" hreflang="en" href="https://istanbul.silver/?lang=en">
+<link rel="alternate" hreflang="ar" href="https://istanbul.silver/?lang=ar">
+<link rel="alternate" hreflang="x-default" href="https://istanbul.silver/">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://alicetinkaya76.github.io/silveratlas/">
-<meta property="og:title" content="SilverAtlas — Gümüşün Tüm Hikâyesi">
-<meta property="og:description" content="Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil. Bilim, tarih, yatırım, Kur'an'da gümüş ve daha fazlası.">
-<meta property="og:image" content="https://alicetinkaya76.github.io/silveratlas/og-image.svg">
+<meta property="og:url" content="https://istanbul.silver/">
+<meta property="og:title" content="JewelPedi — Precious Metals & Gemstone Encyclopedia">
+<meta property="og:description" content="The world's most comprehensive free encyclopedia of silver, gold, diamonds, platinum and gemstones. 200 articles, 47 tools, 3 languages.">
+<meta property="og:image" content="https://istanbul.silver/og-image.svg">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:locale:alternate" content="ar_SA">
-
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SilverAtlas — Gümüşün Tüm Hikâyesi">
-<meta name="twitter:description" content="Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil.">
-<meta name="twitter:image" content="https://alicetinkaya76.github.io/silveratlas/og-image.svg">
-
-<!-- PWA -->
+<meta name="twitter:title" content="JewelPedi — Precious Metals & Gemstone Encyclopedia">
+<meta name="twitter:description" content="Silver, gold, diamonds, platinum & gemstones. 200 articles, 47 tools, 3 languages.">
+<meta name="twitter:image" content="https://istanbul.silver/og-image.svg">
 <link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#08080d">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="SilverAtlas">
-
-<link rel="canonical" href="https://alicetinkaya76.github.io/silveratlas/">
+<meta name="apple-mobile-web-app-title" content="JewelPedi">
+<link rel="canonical" href="https://istanbul.silver/">
 <link rel="icon" type="image/svg+xml" href="./favicon.svg">
 <link rel="apple-touch-icon" href="./favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://api.gold-api.com">
+<link rel="dns-prefetch" href="https://open.er-api.com">
+<link rel="dns-prefetch" href="https://basemaps.cartocdn.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
-
-<!-- Structured Data -->
+<style>
+/* Critical inline CSS — prevent FOUC & improve LCP */
+body{margin:0;background:#08080d;color:#e4e4e7;font-family:'Source Sans 3',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+#root{min-height:100dvh}
+.splash{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#08080d}
+</style>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "SilverAtlas",
-  "url": "https://alicetinkaya76.github.io/silveratlas/",
-  "description": "Dünyanın en kapsamlı gümüş bilgi platformu",
-  "inLanguage": ["tr", "en", "ar"],
-  "publisher": {
-    "@type": "Organization",
-    "name": "SilverAtlas",
-    "sponsor": {
-      "@type": "Organization",
-      "name": "İstanbul Gümüş",
-      "url": "https://www.instagram.com/istanbulgumustr/"
-    }
-  }
-}
+{"@context":"https://schema.org","@type":"WebSite","name":"JewelPedi","alternateName":"Kıymetli Metal & Taş Ansiklopedisi","url":"https://istanbul.silver/","description":"The world's most comprehensive free encyclopedia of precious metals and gemstones. 200 articles covering silver, gold, platinum, diamonds and gemstones in 3 languages.","inLanguage":["tr","en","ar"],"about":[{"@type":"Thing","name":"Silver"},{"@type":"Thing","name":"Gold"},{"@type":"Thing","name":"Platinum"},{"@type":"Thing","name":"Palladium"},{"@type":"Thing","name":"Diamond"},{"@type":"Thing","name":"Gemstones"}],"publisher":{"@type":"Organization","name":"JewelPedi","url":"https://istanbul.silver","sponsor":{"@type":"Organization","name":"İstanbul Gümüş","url":"https://www.instagram.com/istanbulgumustr/"}},"potentialAction":{"@type":"SearchAction","target":"https://istanbul.silver/#search={search_term_string}","query-input":"required name=search_term_string"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"JewelPedi Articles","description":"200 articles on precious metals and gemstones","numberOfItems":200,"inLanguage":["tr","en","ar"],"mainEntity":{"@type":"ItemList","numberOfItems":200,"itemListElement":[{"@type":"ListItem","position":1,"name":"925 Sterling Silver"},{"@type":"ListItem","position":2,"name":"History of Silver"},{"@type":"ListItem","position":3,"name":"What is Platinum?"},{"@type":"ListItem","position":4,"name":"Diamond 4C Guide"},{"@type":"ListItem","position":5,"name":"Emerald Guide"},{"@type":"ListItem","position":6,"name":"Grand Bazaar Guide"},{"@type":"ListItem","position":7,"name":"JewelPedi Future Vision"}]}}
 </script>
 </head>
 <body>
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
-<script>
-// Register service worker for PWA
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
-  });
-}
-</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js').catch(()=>{})})}</script>
 </body>
 </html>

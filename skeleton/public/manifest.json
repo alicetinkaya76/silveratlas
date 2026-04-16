@@ -1,8 +1,8 @@
 {
-  "name": "SilverAtlas — Gümüşün Tüm Hikâyesi",
-  "short_name": "SilverAtlas",
-  "description": "Dünyanın en kapsamlı gümüş bilgi platformu. 50 makale, 33 araç, 3 dil.",
-  "start_url": "/silveratlas/",
+  "name": "JewelPedi — Kıymetli Metal & Taş Ansiklopedisi",
+  "short_name": "JewelPedi",
+  "description": "Gümüş, altın, pırlanta, platin ve değerli taşlar ansiklopedisi. 200 makale, 47 araç, 3 dil.",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#08080d",
   "theme_color": "#08080d",

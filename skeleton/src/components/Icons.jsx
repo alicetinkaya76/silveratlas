@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* ═══════════════════════════════════════════
-   Silverpedi SVG Icon System — Faz 10
+   JewelPedi SVG Icon System — Faz 10
    currentColor-based, theme-adaptive
    ═══════════════════════════════════════════ */
 
@@ -122,6 +122,11 @@ const CAT_ICONS = {
   rehber: IconBookOpen,
   zanaat: IconTools,
   koleksiyon: IconVase,
+  // Gold categories
+  'altin-temel': IconStar,
+  'altin-yatirim': IconTrendUp,
+  'altin-taki': IconRing,
+  'altin-kultur': IconTemple,
 };
 
 export function getCatIcon(catId, size = 24, style = {}) {
@@ -137,6 +142,8 @@ const TOOL_ICONS = [
   IconFlask, IconMirror, IconDress, IconTurkey, IconTrendUp,
   IconPencil, IconShield, IconTrophy, IconRefresh, IconClock,
   IconWallet, IconCertificate, IconRing, IconGem, IconWallet,
+  IconChart, IconMicroscope, IconFlask, // 30:Ratio, 31:Counterfeit, 32:MeltValue
+  IconStar, IconTemple, IconChart, // 33:GoldKarat, 34:WeddingPlanner, 35:Dashboard
 ];
 
 export function getToolIcon(idx, size = 24, style = {}) {
@@ -160,6 +167,14 @@ const ARTICLE_ICON_MAP = {
   '🏆': IconTrophy, '🕐': IconClock, '💰': IconWallet, '💱': IconExchange,
   '🧠': IconBrain, '🗺️': IconMap, '✨': IconSparkles, '🪞': IconMirror,
   '👗': IconDress, '⚗️': IconFlask,
+  // Gold article icons
+  '🥇': IconStar, '🏅': IconTrophy, '💛': IconSparkles,
+  '🌎': IconEarth, '🪷': IconGem, '💒': IconTemple,
+  '🗿': IconVase, '🧽': IconTools, '🎁': IconSparkles,
+  '💧': IconFlask, '🤖': IconAtom, '🚗': IconGear,
+  '♻️': IconRefresh, '🏯': IconTemple, '🎵': IconSparkles,
+  '🌱': IconPickaxe, '🚀': IconTrendUp, '🏦': IconChart,
+  '🔍': IconMicroscope, '♈': IconCrescent, '🥈': IconScale,
 };
 
 export function getArticleIcon(iconKey, size = 24, style = {}) {

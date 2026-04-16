@@ -12,7 +12,7 @@ const LINKS = [
   { Icon: IconSparkle, section: 'sponsor-section', key: 'about' },
 ];
 
-export default function MobileMenu({ open, close, lang, setLang, dark, toggleTheme }) {
+export default function MobileMenu({ open, close, lang, setLang, dark, themeMode, toggleTheme }) {
   useEffect(() => {
     if (!open) return;
     const onKey = (e) => { if (e.key === 'Escape') close(); };
@@ -38,8 +38,8 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
       <div className="mm-safe">
         <div className="mm-top">
           <span className="nav-logo" style={{ pointerEvents: 'none' }}>
-            <span className="logo-circle">Ag</span>
-            <span>Silverpedi</span>
+            <span className="logo-circle">Ag<span style={{fontSize:7,opacity:.6}}>/Au</span></span>
+            <span>JewelPedi</span>
           </span>
           <button className="mm-close" onClick={close} aria-label={t(lang, 'menu.close')}>
             <IconX size={18} />
@@ -61,9 +61,13 @@ export default function MobileMenu({ open, close, lang, setLang, dark, toggleThe
               </button>
             ))}
           </div>
-          <button className="mm-theme" onClick={() => { toggleTheme(); close(); }}>
-            {dark ? <IconMoon size={20} /> : <IconSun size={20} />}
-            <span>{t(lang, 'menu.theme')}</span>
+          <button className="mm-theme" onClick={() => { toggleTheme(); }}>
+            {themeMode === 'auto' ? (
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" opacity=".4"/>
+              </svg>
+            ) : dark ? <IconMoon size={20} /> : <IconSun size={20} />}
+            <span>{themeMode === 'auto' ? (lang === 'tr' ? 'Otomatik Tema' : lang === 'en' ? 'Auto Theme' : 'سمة تلقائية') : t(lang, 'menu.theme')}</span>
           </button>
           <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" className="mm-sponsor" onClick={close}>
             <IconSparkle size={20} style={{ color: 'var(--gold)' }} />

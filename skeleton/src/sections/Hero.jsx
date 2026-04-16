@@ -1,15 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { t } from '../i18n/translations';
 import useSilverPrice from '../hooks/useSilverPrice';
 import { TOOLS } from '../data/tools';
 import { getToolIcon } from '../components/Icons';
 
-const HERO_TOOLS = [2, 32, 31]; // Ring, Melt Value, Counterfeit
+const HERO_TOOLS = [2, 32, 31, 33]; // Ring, Melt Value, Counterfeit, Gold Karat
 
 export default function Hero({ lang, onOpenTool }) {
   const ref = useRef(null);
   const canvasRef = useRef(null);
   const lp = useSilverPrice();
+  const [priceMode, setPriceMode] = useState('silver'); // silver | gold
 
   // Silver particle animation with RAF throttle (30fps cap)
   useEffect(() => {
@@ -63,11 +64,15 @@ export default function Hero({ lang, onOpenTool }) {
   }, []);
 
   const silverTLg = lp.silverPerGTL ? lp.silverPerGTL.toFixed(2) : null;
+  const goldTLg = lp.goldPerGTL ? lp.goldPerGTL.toFixed(2) : null;
+  const showPrice = priceMode === 'gold' ? goldTLg : silverTLg;
+  const priceLabel = priceMode === 'gold' ? t(lang, 'price.gold') : t(lang, 'price.silver');
+  const priceColor = priceMode === 'gold' ? '#D4AF37' : '#C0C0C0';
 
   const FEATURES = {
-    tr: ['73 Makale · 3 Dil', '33 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
-    en: ['73 Articles · 3 Languages', '33 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
-    ar: ['٧٣ مقال · ٣ لغات', '٣٣ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
+    tr: ['144 Makale · 3 Dil', '42 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
+    en: ['144 Articles · 3 Languages', '42 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
+    ar: ['١٤٤ مقال · ٣ لغات', '٤٢ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
   }[lang] || [];
 
   const PILL_SVG = [
@@ -103,12 +108,16 @@ export default function Hero({ lang, onOpenTool }) {
 
       <p className="hero-sub">{t(lang, 'hero.sub')}</p>
 
-      {silverTLg && (
-        <div className="hero-price">
-          <span className="hero-price-dot" />
-          <span className="hero-price-label">{t(lang, 'price.silver')}</span>
-          <span className="hero-price-val">₺{silverTLg}</span>
+      {showPrice && (
+        <div className="hero-price" onClick={() => setPriceMode(p => p === 'silver' ? 'gold' : 'silver')}
+          style={{ cursor: 'pointer', transition: 'all .3s' }}>
+          <span className="hero-price-dot" style={{ background: priceColor }} />
+          <span className="hero-price-label">{priceLabel}</span>
+          <span className="hero-price-val" style={{ color: priceColor }}>₺{showPrice}</span>
           <span className="hero-price-unit">/g</span>
+          <span style={{ fontSize: '.6rem', marginLeft: 6, opacity: 0.5, color: 'var(--text3)' }}>
+            {priceMode === 'silver' ? 'Ag ↔ Au' : 'Au ↔ Ag'}
+          </span>
         </div>
       )}
 

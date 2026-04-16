@@ -32,6 +32,24 @@ export const TOOLS = [
   {i:"📉",tr:"Altın/Gümüş Oranı",en:"Gold/Silver Ratio",ar:"نسبة الذهب/الفضة",isNew:true},
   {i:"🔍",tr:"Sahtecilik Tespit Rehberi",en:"Counterfeit Detection",ar:"كشف التزوير",isNew:true},
   {i:"🔥",tr:"Erime Değeri Hesaplayıcı",en:"Melt Value Calculator",ar:"حاسبة قيمة الصهر",isNew:true},
+  // ── Gold Tools (Faz 1.6) ──
+  {i:"🥇",tr:"Altın Karat Hesaplayıcı",en:"Gold Karat Calculator",ar:"حاسبة قيراط الذهب",isNew:true},
+  {i:"💒",tr:"Düğün Altını Planlayıcı",en:"Wedding Gold Planner",ar:"مخطط ذهب الأعراس",isNew:true},
+  {i:"📊",tr:"Canlı Metal Dashboard",en:"Live Metal Dashboard",ar:"لوحة المعادن المباشرة",isNew:true},
+  // ── Diamond & Gemstone Tools (Faz 2.3) ──
+  {i:"💎",tr:"4C Pırlanta Değer Tahmini",en:"4C Diamond Estimator",ar:"تقدير قيمة الألماس 4C",isNew:true},
+  {i:"💪",tr:"Mohs Sertlik Karşılaştırıcı",en:"Mohs Hardness Scale",ar:"مقياس موس للصلابة",isNew:true},
+  {i:"♈",tr:"Burç Taşı Bulucu",en:"Birthstone Finder",ar:"حجر البرج",isNew:true},
+  {i:"🔍",tr:"Taş Tanımlayıcı",en:"Gem Identifier",ar:"معرّف الأحجار",isNew:true},
+  {i:"✂️",tr:"Kesim Karşılaştırıcı",en:"Cut Comparator",ar:"مقارن القطع",isNew:true},
+  {i:"📐",tr:"Karat → mm Dönüştürücü",en:"Carat to mm",ar:"تحويل القيراط إلى مم",isNew:true},
+  // ── AI Tools (Faz 4.1) ──
+  {i:"🤖",tr:"AI Takı Danışmanı",en:"AI Jewelry Advisor",ar:"مستشار المجوهرات الذكي",isNew:true},
+  {i:"📸",tr:"Fotoğrafla Taş Tanımlama",en:"Photo Gem Identifier",ar:"تعريف الحجر بالصورة",isNew:true},
+  {i:"📝",tr:"Makale Özetleyici",en:"Article Summarizer",ar:"ملخص المقالات",isNew:true},
+  {i:"💹",tr:"Fiyat Karşılaştırma",en:"Price Comparison",ar:"مقارنة الأسعار",isNew:true},
+  // ── Directory & Map Tool (Faz 5) ──
+  {i:"📍",tr:"Kuyumcu Haritası",en:"Jeweler Map",ar:"خريطة الصاغة",isNew:true},
 ];
 
-export const QUICK_TOOL_INDICES = [2,27,28,32,30,0,14,31]; // Ring, Bracelet, Necklace, Melt, Ratio, Purity, Zakat, Counterfeit
+export const QUICK_TOOL_INDICES = [42,43,46,2,27,28,36,37,38,0,14,30,39]; // AI Advisor, Photo ID, JewelerMap, Ring, Bracelet, Necklace, DiamondEst, Mohs, Birthstone, Purity, Zakat, Ratio, GemID

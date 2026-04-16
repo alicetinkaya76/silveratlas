@@ -18,16 +18,18 @@ export default function SplashScreen({ onDone }) {
         <svg width="72" height="72" viewBox="0 0 72 72" className="splash-logo">
           <defs>
             <linearGradient id="splash-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#e0e0e0" />
-              <stop offset="50%" stopColor="#D4AF37" />
-              <stop offset="100%" stopColor="#C0C0C0" />
+              <stop offset="0%" stopColor="#C0C0C0" />
+              <stop offset="33%" stopColor="#D4AF37" />
+              <stop offset="66%" stopColor="#B9F2FF" />
+              <stop offset="100%" stopColor="#9B59B6" />
             </linearGradient>
           </defs>
           <circle cx="36" cy="36" r="34" fill="none" stroke="url(#splash-grad)" strokeWidth="2" />
-          <text x="36" y="42" textAnchor="middle" fill="url(#splash-grad)"
-            fontFamily="'Playfair Display',Georgia,serif" fontSize="24" fontWeight="800">Ag</text>
+          <polygon points="36,8 46,22 36,32 26,22" fill="none" stroke="url(#splash-grad)" strokeWidth="1.3" strokeLinejoin="round" />
+          <text x="36" y="52" textAnchor="middle" fill="url(#splash-grad)"
+            fontFamily="'Playfair Display',Georgia,serif" fontSize="16" fontWeight="800">JP</text>
         </svg>
-        <div className="splash-text">Silverpedi</div>
+        <div className="splash-text">JewelPedi</div>
         <div className="splash-bar"><div className="splash-bar-fill" /></div>
       </div>
     </div>

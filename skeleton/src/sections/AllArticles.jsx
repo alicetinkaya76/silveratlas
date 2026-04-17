@@ -64,7 +64,7 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
           </div>
         )}
       </div></FadeUp>
-      <FadeUp>
+      <>
         {/* Material Tab Bar */}
         <div className="material-tabs">
           {MATERIALS.map(m => (
@@ -151,7 +151,7 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
             );
           })}
         </div>
-      </FadeUp>
+      </>
     </section>
   );
 }

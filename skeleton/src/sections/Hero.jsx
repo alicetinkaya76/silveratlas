@@ -70,9 +70,9 @@ export default function Hero({ lang, onOpenTool }) {
   const priceColor = priceMode === 'gold' ? '#D4AF37' : '#C0C0C0';
 
   const FEATURES = {
-    tr: ['144 Makale · 3 Dil', '42 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
-    en: ['144 Articles · 3 Languages', '42 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
-    ar: ['١٤٤ مقال · ٣ لغات', '٤٢ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
+    tr: ['200 Makale · 3 Dil', '47 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
+    en: ['200 Articles · 3 Languages', '47 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
+    ar: ['٢٠٠ مقال · ٣ لغات', '٤٧ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
   }[lang] || [];
 
   const PILL_SVG = [

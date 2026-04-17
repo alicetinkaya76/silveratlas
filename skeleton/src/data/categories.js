@@ -38,8 +38,8 @@ export const CATEGORIES = [
 // Material definitions for UI
 export const MATERIALS = [
   {id:"all",      tr:"Tümü",      en:"All",        ar:"الكل",       icon:"📚", co:null},
-  {id:"silver",   tr:"Gümüş",     en:"Silver",     ar:"الفضة",      icon:"🥈", co:"#C0C0C0"},
   {id:"gold",     tr:"Altın",     en:"Gold",       ar:"الذهب",      icon:"🥇", co:"#D4AF37"},
+  {id:"silver",   tr:"Gümüş",     en:"Silver",     ar:"الفضة",      icon:"🥈", co:"#C0C0C0"},
   {id:"diamond",  tr:"Pırlanta",  en:"Diamond",    ar:"الألماس",    icon:"💎", co:"#B9F2FF"},
   {id:"gemstone", tr:"Taşlar",    en:"Gemstones",  ar:"الأحجار",    icon:"💜", co:"#9B59B6"},
   {id:"platinum", tr:"Platin",    en:"Platinum",   ar:"البلاتين",   icon:"⚪", co:"#E5E4E2"},

@@ -52,4 +52,4 @@ export const TOOLS = [
   {i:"📍",tr:"Kuyumcu Haritası",en:"Jeweler Map",ar:"خريطة الصاغة",isNew:true},
 ];
 
-export const QUICK_TOOL_INDICES = [42,43,46,2,27,28,36,37,38,0,14,30,39]; // AI Advisor, Photo ID, JewelerMap, Ring, Bracelet, Necklace, DiamondEst, Mohs, Birthstone, Purity, Zakat, Ratio, GemID
+export const QUICK_TOOL_INDICES = [42,43,36,46,2,38,33,0,30,44]; // AI Advisor, Photo ID, JewelerMap, Ring, Bracelet, Necklace, DiamondEst, Mohs, Birthstone, Purity, Zakat, Ratio, GemID

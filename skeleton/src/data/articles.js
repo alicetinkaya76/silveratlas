@@ -237,7 +237,7 @@ export const ARTICLES = [
   {id:200,slug:"jewelpedi-gelecek-vizyonu",cat:"rehber",material:"shared",min:8,isNew:true,icon:"🔭",tr:{t:"JewelPedi Gelecek Vizyonu",d:"200 makale milestone: yol haritası, topluluk ve açık kaynak planı"},en:{t:"JewelPedi Future Vision",d:"200 article milestone: roadmap, community and open-source plan"},ar:{t:"رؤية JewelPedi المستقبلية",d:"إنجاز ٢٠٠ مقال: خارطة الطريق والمجتمع وخطة المصدر المفتوح"}},
 ];
 
-export const FEATURED_IDS = [1,74,95,110,135,145,200,185,8,81,105,127,188,189,3];
+export const FEATURED_IDS = [74,95,110,135,1,81,105,188,139,200,185,8,187,189,145];
 
 // Material-specific featured for tab-based display
 export const MATERIAL_FEATURED = {

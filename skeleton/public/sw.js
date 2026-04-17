@@ -1,8 +1,8 @@
-const CACHE_STATIC = 'jewelpedi-static-v30';
-const CACHE_DYNAMIC = 'jewelpedi-dynamic-v30';
-const CACHE_API = 'jewelpedi-api-v30';
+const CACHE_STATIC = 'jewelpedi-static-v31';
+const CACHE_DYNAMIC = 'jewelpedi-dynamic-v31';
+const CACHE_API = 'jewelpedi-api-v31';
 
-const PRECACHE = ['/', '/index.html'];
+const PRECACHE = ['./', './index.html'];
 const API_DOMAINS = ['api.gold-api.com', 'open.er-api.com'];
 const DYNAMIC_MAX = 60;
 

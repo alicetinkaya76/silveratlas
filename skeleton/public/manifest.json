@@ -2,7 +2,7 @@
   "name": "JewelPedi — Kıymetli Metal & Taş Ansiklopedisi",
   "short_name": "JewelPedi",
   "description": "Gümüş, altın, pırlanta, platin ve değerli taşlar ansiklopedisi. 200 makale, 47 araç, 3 dil.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#08080d",
   "theme_color": "#08080d",

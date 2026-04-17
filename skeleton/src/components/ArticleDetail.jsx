@@ -259,11 +259,9 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
     }
   }, [article, lang]);
 
-  if (!article) return null;
-
-  const cat = CATEGORIES.find(c => c.id === article.cat);
   // Cross-referencing: same category → same material different cat → shared/cross-material
   const related = useMemo(() => {
+    if (!article) return [];
     const sameCat = ARTICLES.filter(a => a.cat === article.cat && a.id !== article.id);
     const sameMat = ARTICLES.filter(a => a.material === article.material && a.cat !== article.cat && a.id !== article.id);
     const cross = ARTICLES.filter(a => (a.material === 'shared' || (article.material === 'shared' && a.material !== 'shared')) && a.id !== article.id && a.cat !== article.cat);
@@ -271,6 +269,10 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
     const seen = new Set();
     return pool.filter(a => { if (seen.has(a.id)) return false; seen.add(a.id); return true; }).slice(0, 5);
   }, [article]);
+
+  if (!article) return null;
+
+  const cat = CATEGORIES.find(c => c.id === article.cat);
   const isRTL = lang === 'ar';
   const svgIcon = getArticleIcon(article.icon, 48, { color: cat?.co });
 

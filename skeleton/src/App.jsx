@@ -23,6 +23,7 @@ const QuranSilver = lazy(() => import('./sections/QuranSilver'));
 const SponsorCTA = lazy(() => import('./sections/SponsorCTA'));
 const ReadingHistory = lazy(() => import('./sections/ReadingHistory'));
 const MostRead = lazy(() => import('./sections/MostRead'));
+const JewelryTypeExplorer = lazy(() => import('./sections/JewelryTypeExplorer'));
 const Footer = lazy(() => import('./components/Footer'));
 const ArticleDetail = lazy(() => import('./components/ArticleDetail'));
 const ToolModal = lazy(() => import('./components/ToolModal'));
@@ -34,6 +35,7 @@ export default function App() {
   const [article, setArticle] = useState(null);
   const [catFilter, setCatFilter] = useState(null);
   const [materialFilter, setMaterialFilter] = useState(null);
+  const [jewelryTypeFilter, setJewelryTypeFilter] = useState(null);
   const [activeTool, setActiveTool] = useState(null);
   const [activeToolIdx, setActiveToolIdx] = useState(null);
   const [splashDone, setSplashDone] = useState(false);
@@ -73,6 +75,15 @@ export default function App() {
     if (material) setMaterialFilter(material);
     document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
   }, []);
+  const selectJewelryType = useCallback((typeId) => {
+    setJewelryTypeFilter(typeId);
+    // When user picks a jewelry type from Hero, reset any competing narrow filters
+    // (category) but keep material — so "Ring" under "Silver tab" still works.
+    setCatFilter(null);
+    setTimeout(() => {
+      document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
+    }, 60);
+  }, []);
 
   return (
     <div dir={isRTL ? 'rtl' : 'ltr'}>
@@ -83,7 +94,7 @@ export default function App() {
       <PriceTicker lang={lang} />
 
       <main role="main">
-        <Hero lang={lang} onOpenTool={openTool} />
+        <Hero lang={lang} onOpenTool={openTool} onSelectJewelryType={selectJewelryType} />
         <WaveDivider variant={1} color="var(--card)" />
         <QuickTools lang={lang} onOpenTool={openTool} />
         <Suspense fallback={<div style={{minHeight:'60vh'}} />}>
@@ -92,9 +103,11 @@ export default function App() {
           <FeaturedArticles lang={lang} onOpen={openArticle} materialFilter={materialFilter} />
           <ReadingHistory lang={lang} onOpen={openArticle} />
           <MostRead lang={lang} onOpen={openArticle} />
+          <JewelryTypeExplorer lang={lang} activeType={jewelryTypeFilter} onSelectType={selectJewelryType} />
           <Categories lang={lang} onFilter={filterCat} materialFilter={materialFilter} />
           <AllArticles lang={lang} onOpen={openArticle} catFilter={catFilter} setCatFilter={setCatFilter}
-            materialFilter={materialFilter} setMaterialFilter={setMaterialFilter} />
+            materialFilter={materialFilter} setMaterialFilter={setMaterialFilter}
+            jewelryTypeFilter={jewelryTypeFilter} setJewelryTypeFilter={setJewelryTypeFilter} />
           <WaveDivider variant={3} color="var(--card)" />
           <ToolsGrid lang={lang} onOpenTool={openTool} />
           <AtlasPreview lang={lang} />

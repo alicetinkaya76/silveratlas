@@ -183,6 +183,249 @@ export function getArticleIcon(iconKey, size = 24, style = {}) {
   return Comp ? <Comp size={size} style={style} /> : null;
 }
 
+// ═══════════════════════════════════════════════════════════
+// Faz 6.2 — JEWELRY TYPE ICONS
+// Distinct visual identity for each type. All use currentColor.
+// ═══════════════════════════════════════════════════════════
+export const IconJTRing = (p) => <I {...p}><circle cx="12" cy="14" r="6"/><path d="M9 8l1-4h4l1 4"/></I>;
+export const IconJTNecklace = (p) => <I {...p}><path d="M4 4c2 6 6 9 8 9s6-3 8-9"/><circle cx="12" cy="18" r="2.5"/></I>;
+export const IconJTBracelet = (p) => <I {...p}><ellipse cx="12" cy="12" rx="9" ry="5"/><circle cx="12" cy="7" r="1.2" fill="currentColor"/></I>;
+export const IconJTEarring = (p) => <I {...p}><path d="M9 4a3 3 0 016 0"/><circle cx="12" cy="14" r="5"/><line x1="12" y1="4" x2="12" y2="9"/></I>;
+export const IconJTWedding = (p) => <I {...p}><circle cx="9" cy="14" r="5"/><circle cx="15" cy="14" r="5"/><path d="M8 6l1-2h6l1 2"/></I>;
+export const IconJTReligious = (p) => <I {...p}><circle cx="12" cy="12" r="9"/><circle cx="8" cy="10" r="1" fill="currentColor"/><circle cx="12" cy="10" r="1" fill="currentColor"/><circle cx="16" cy="10" r="1" fill="currentColor"/><path d="M6 14c2 2 4 3 6 3s4-1 6-3"/></I>;
+export const IconJTCraft = (p) => <I {...p}><path d="M3 21l6-6"/><path d="M14 3l7 7-11 11H3v-7z"/><path d="M14 10l-4 4"/></I>;
+export const IconJTInvestment = (p) => <I {...p}><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></I>;
+export const IconJTCare = (p) => <I {...p}><path d="M5 6l2-3h10l2 3"/><path d="M5 6h14l-1 14a1 1 0 01-1 1H7a1 1 0 01-1-1z"/><path d="M10 11l2 2 4-4"/></I>;
+export const IconJTCoin = (p) => <I {...p}><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></I>;
+export const IconJTMen = (p) => <I {...p}><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/><path d="M9 14l3 3 3-3"/></I>;
+export const IconJTVintage = (p) => <I {...p}><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="1" fill="currentColor"/></I>;
+
+const JEWELRY_TYPE_ICON_MAP = {
+  'jt-ring': IconJTRing, 'jt-necklace': IconJTNecklace, 'jt-bracelet': IconJTBracelet,
+  'jt-earring': IconJTEarring, 'jt-wedding': IconJTWedding, 'jt-religious': IconJTReligious,
+  'jt-craft': IconJTCraft, 'jt-investment': IconJTInvestment, 'jt-care': IconJTCare,
+  'jt-coin': IconJTCoin, 'jt-men': IconJTMen, 'jt-vintage': IconJTVintage,
+};
+
+export function getJewelryTypeIcon(iconKey, size = 24, style = {}) {
+  const Comp = JEWELRY_TYPE_ICON_MAP[iconKey];
+  return Comp ? <Comp size={size} style={style} /> : null;
+}
+
+// ═══════════════════════════════════════════════════════════
+// Faz 7A — MATERIAL THUMBNAIL SYSTEM
+// Per-material gradient + per-category decorative motif.
+// Returns a self-contained SVG sized to `size` px square.
+// ═══════════════════════════════════════════════════════════
+
+// Material-specific gradient stops
+const MATERIAL_GRADIENTS = {
+  silver:   { from: '#e8eaed', mid: '#c0c0c0', to: '#8f9296', stroke: '#9ca3af' },
+  gold:     { from: '#fef3c7', mid: '#d4af37', to: '#a87d1d', stroke: '#b8860b' },
+  diamond:  { from: '#e0f2fe', mid: '#b9f2ff', to: '#7dd3fc', stroke: '#38bdf8' },
+  gemstone: { from: '#f3e8ff', mid: '#c39bd3', to: '#9b59b6', stroke: '#a855f7' },
+  platinum: { from: '#f3f4f6', mid: '#e5e4e2', to: '#bcc6cc', stroke: '#9ca3af' },
+  shared:   { from: '#e8eaed', mid: '#c0c0c0', to: '#d4af37', stroke: '#9ca3af' },
+};
+
+// Category → motif type. Used to pick an SVG symbol inside the thumbnail.
+// Fallback = 'dots' (universal geometric pattern).
+function categoryMotif(catId) {
+  if (!catId) return 'dots';
+  if (catId.startsWith('altin') || catId === 'tarih') return 'ottoman';
+  if (catId.startsWith('pirlanta')) return 'facet';
+  if (catId.startsWith('tas')) return 'crystal';
+  if (catId.startsWith('platin')) return 'minimal';
+  if (catId === 'bilim') return 'atom';
+  if (catId === 'zanaat' || catId === 'uretim') return 'hammer';
+  if (catId === 'piyasa') return 'chart';
+  if (catId === 'koleksiyon') return 'coin';
+  if (catId === 'kultur') return 'temple';
+  if (catId === 'maden') return 'pickaxe';
+  if (catId === 'stil') return 'sparkle';
+  if (catId === 'rehber') return 'book';
+  if (catId === 'carsi-rehber') return 'arch';
+  return 'dots';
+}
+
+// Each motif is a SVG fragment drawn at viewBox 0 0 100 100.
+// Uses currentColor for stroke so it picks up the parent text color.
+function motifFragment(motif) {
+  switch (motif) {
+    case 'ottoman': // hilal + Ottoman-inspired curve
+      return (
+        <g opacity="0.85">
+          <path d="M70 30a20 20 0 11-15 35 14 14 0 0015-35z" fill="currentColor" opacity="0.22"/>
+          <path d="M28 70c8-6 14-14 14-24" stroke="currentColor" strokeWidth="2.2" fill="none" opacity="0.55"/>
+          <circle cx="32" cy="32" r="2.2" fill="currentColor" opacity="0.55"/>
+        </g>
+      );
+    case 'facet': // diamond facet lines
+      return (
+        <g opacity="0.9">
+          <polygon points="50,22 72,40 62,72 38,72 28,40" fill="none" stroke="currentColor" strokeWidth="2"/>
+          <line x1="50" y1="22" x2="50" y2="72" stroke="currentColor" strokeWidth="1.3" opacity="0.6"/>
+          <line x1="28" y1="40" x2="72" y2="40" stroke="currentColor" strokeWidth="1.3" opacity="0.6"/>
+          <line x1="28" y1="40" x2="62" y2="72" stroke="currentColor" strokeWidth="1" opacity="0.4"/>
+          <line x1="72" y1="40" x2="38" y2="72" stroke="currentColor" strokeWidth="1" opacity="0.4"/>
+        </g>
+      );
+    case 'crystal': // prismatic crystal
+      return (
+        <g opacity="0.9">
+          <polygon points="50,20 70,50 50,80 30,50" fill="none" stroke="currentColor" strokeWidth="2.2"/>
+          <line x1="30" y1="50" x2="70" y2="50" stroke="currentColor" strokeWidth="1.3" opacity="0.6"/>
+          <polygon points="50,20 60,50 50,45 40,50" fill="currentColor" opacity="0.18"/>
+        </g>
+      );
+    case 'minimal': // concentric thin circles
+      return (
+        <g opacity="0.8" fill="none" stroke="currentColor">
+          <circle cx="50" cy="50" r="28" strokeWidth="1.4"/>
+          <circle cx="50" cy="50" r="18" strokeWidth="1.1" opacity="0.7"/>
+          <circle cx="50" cy="50" r="8" strokeWidth="1" opacity="0.5"/>
+        </g>
+      );
+    case 'atom': // electron shells
+      return (
+        <g opacity="0.8" fill="none" stroke="currentColor" strokeWidth="1.4">
+          <ellipse cx="50" cy="50" rx="30" ry="12"/>
+          <ellipse cx="50" cy="50" rx="30" ry="12" transform="rotate(60 50 50)"/>
+          <ellipse cx="50" cy="50" rx="30" ry="12" transform="rotate(-60 50 50)"/>
+          <circle cx="50" cy="50" r="3.5" fill="currentColor"/>
+        </g>
+      );
+    case 'hammer': // hammer/craft tool abstracted
+      return (
+        <g opacity="0.85">
+          <rect x="60" y="28" width="14" height="20" fill="currentColor" opacity="0.28" transform="rotate(30 67 38)"/>
+          <line x1="40" y1="72" x2="62" y2="36" stroke="currentColor" strokeWidth="2.4" opacity="0.7"/>
+          <circle cx="38" cy="74" r="3" fill="currentColor" opacity="0.55"/>
+        </g>
+      );
+    case 'chart': // stepped bars
+      return (
+        <g opacity="0.85">
+          <rect x="22" y="60" width="10" height="20" fill="currentColor" opacity="0.35"/>
+          <rect x="38" y="48" width="10" height="32" fill="currentColor" opacity="0.5"/>
+          <rect x="54" y="38" width="10" height="42" fill="currentColor" opacity="0.65"/>
+          <rect x="70" y="28" width="10" height="52" fill="currentColor" opacity="0.8"/>
+        </g>
+      );
+    case 'coin': // coin stack
+      return (
+        <g opacity="0.85">
+          <ellipse cx="50" cy="62" rx="24" ry="7" fill="currentColor" opacity="0.45"/>
+          <ellipse cx="50" cy="50" rx="24" ry="7" fill="currentColor" opacity="0.6"/>
+          <ellipse cx="50" cy="38" rx="24" ry="7" fill="currentColor" opacity="0.75"/>
+          <ellipse cx="50" cy="38" rx="24" ry="7" fill="none" stroke="currentColor" strokeWidth="1.2"/>
+        </g>
+      );
+    case 'temple': // minaret / dome
+      return (
+        <g opacity="0.85" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M30 78V54c0-11 9-20 20-20s20 9 20 20v24"/>
+          <line x1="22" y1="78" x2="78" y2="78"/>
+          <line x1="50" y1="34" x2="50" y2="24"/>
+          <circle cx="50" cy="22" r="2.5" fill="currentColor"/>
+        </g>
+      );
+    case 'pickaxe':
+      return (
+        <g opacity="0.85">
+          <path d="M28 28L66 66" stroke="currentColor" strokeWidth="2.4" opacity="0.75"/>
+          <path d="M20 28C30 20 44 22 54 30l-6 6c-8-6-18-8-28-2z" fill="currentColor" opacity="0.4"/>
+          <rect x="62" y="62" width="10" height="10" fill="currentColor" opacity="0.55" transform="rotate(45 67 67)"/>
+        </g>
+      );
+    case 'sparkle': // 4-point stars
+      return (
+        <g opacity="0.85" fill="currentColor">
+          <path d="M50 22l3 12 12 3-12 3-3 12-3-12-12-3 12-3z" opacity="0.8"/>
+          <path d="M26 62l1.5 6 6 1.5-6 1.5-1.5 6-1.5-6-6-1.5 6-1.5z" opacity="0.6"/>
+          <path d="M74 64l1.5 6 6 1.5-6 1.5-1.5 6-1.5-6-6-1.5 6-1.5z" opacity="0.4"/>
+        </g>
+      );
+    case 'book':
+      return (
+        <g opacity="0.85" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M22 30c6-3 14-3 22 0v44c-8-3-16-3-22 0z"/>
+          <path d="M78 30c-6-3-14-3-22 0v44c8-3 16-3 22 0z"/>
+        </g>
+      );
+    case 'arch': // bazaar arch
+      return (
+        <g opacity="0.85" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M22 78V50a14 14 0 0128 0v28"/>
+          <path d="M52 78V50a14 14 0 0128 0v28"/>
+          <line x1="18" y1="78" x2="82" y2="78"/>
+        </g>
+      );
+    case 'dots':
+    default:
+      return (
+        <g opacity="0.75" fill="currentColor">
+          <circle cx="30" cy="30" r="2.5" opacity="0.8"/>
+          <circle cx="50" cy="30" r="2" opacity="0.6"/>
+          <circle cx="70" cy="30" r="2.5" opacity="0.5"/>
+          <circle cx="30" cy="50" r="2" opacity="0.5"/>
+          <circle cx="50" cy="50" r="3" opacity="0.9"/>
+          <circle cx="70" cy="50" r="2" opacity="0.5"/>
+          <circle cx="30" cy="70" r="2.5" opacity="0.5"/>
+          <circle cx="50" cy="70" r="2" opacity="0.6"/>
+          <circle cx="70" cy="70" r="2.5" opacity="0.8"/>
+        </g>
+      );
+  }
+}
+
+/**
+ * getMaterialThumbnail — renders a gradient-filled SVG square with a
+ * material-specific color palette and a category-specific decorative motif.
+ *
+ * Used by FeaturedArticles card headers and AllArticles list item thumbs.
+ * Self-contained: no external images, no extra CSS required.
+ *
+ * @param {string} material — silver|gold|diamond|gemstone|platinum|shared
+ * @param {string} catId — category id (drives motif selection)
+ * @param {number} size — px, square
+ * @param {string} uid — unique suffix for gradient IDs (required if multiple render)
+ */
+export function getMaterialThumbnail(material, catId, size = 60, uid = 'mt') {
+  const grad = MATERIAL_GRADIENTS[material] || MATERIAL_GRADIENTS.shared;
+  const motif = categoryMotif(catId);
+  // Gradient IDs must be unique to avoid cross-card bleed when multiple render on one page.
+  const gid = `${uid}-${material}-${catId || 'x'}`;
+  const motifColor = material === 'gold' ? '#5c3d0a'
+    : material === 'diamond' ? '#0c4a6e'
+    : material === 'gemstone' ? '#4c1d6a'
+    : material === 'platinum' ? '#1f2937'
+    : '#374151'; // silver / shared default
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 100 100"
+      style={{ flexShrink: 0, display: 'block', borderRadius: 10, overflow: 'hidden' }}>
+      <defs>
+        <linearGradient id={`g-${gid}`} x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor={grad.from}/>
+          <stop offset="55%" stopColor={grad.mid}/>
+          <stop offset="100%" stopColor={grad.to}/>
+        </linearGradient>
+        <radialGradient id={`r-${gid}`} cx="30%" cy="25%" r="60%">
+          <stop offset="0%" stopColor="#ffffff" stopOpacity="0.45"/>
+          <stop offset="100%" stopColor="#ffffff" stopOpacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="100" height="100" fill={`url(#g-${gid})`}/>
+      <rect x="0" y="0" width="100" height="100" fill={`url(#r-${gid})`}/>
+      {/* Motif tinted with material-appropriate dark color */}
+      <g style={{ color: motifColor }}>{motifFragment(motif)}</g>
+      {/* Subtle inner border for definition */}
+      <rect x="0.5" y="0.5" width="99" height="99" fill="none"
+        stroke={grad.stroke} strokeWidth="0.8" opacity="0.5"/>
+    </svg>
+  );
+}
+
 // ─── HERO ANIMATED SVG ───
 export function HeroAtomSVG({ size = 200 }) {
   return (

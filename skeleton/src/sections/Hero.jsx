@@ -2,11 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import { t } from '../i18n/translations';
 import useSilverPrice from '../hooks/useSilverPrice';
 import { TOOLS } from '../data/tools';
-import { getToolIcon } from '../components/Icons';
+import { getToolIcon, getJewelryTypeIcon } from '../components/Icons';
+import { JEWELRY_TYPES, HERO_JEWELRY_TYPES } from '../data/categories';
 
 const HERO_TOOLS = [2, 32, 31, 33]; // Ring, Melt Value, Counterfeit, Gold Karat
 
-export default function Hero({ lang, onOpenTool }) {
+export default function Hero({ lang, onOpenTool, onSelectJewelryType }) {
   const ref = useRef(null);
   const canvasRef = useRef(null);
   const lp = useSilverPrice();
@@ -149,6 +150,31 @@ export default function Hero({ lang, onOpenTool }) {
               </div>
             );
           })}
+        </div>
+      )}
+
+      {/* ═══ Faz 6.2 — "Ne Arıyorsun?" jewelry type shortcuts ═══ */}
+      {onSelectJewelryType && (
+        <div className="hero-jt-wrap">
+          <div className="hero-jt-label">
+            {lang === 'tr' ? 'Ne Arıyorsun?' : lang === 'ar' ? 'ماذا تبحث عنه؟' : 'What are you looking for?'}
+          </div>
+          <div className="hero-jt-row">
+            {HERO_JEWELRY_TYPES.map(typeId => {
+              const jt = JEWELRY_TYPES.find(t => t.id === typeId);
+              if (!jt) return null;
+              return (
+                <button key={typeId} type="button" className="hero-jt-card"
+                  onClick={() => onSelectJewelryType(typeId)}
+                  aria-label={jt[lang] || jt.tr}>
+                  <span className="hero-jt-icon" aria-hidden="true">
+                    {getJewelryTypeIcon(jt.icon, 22) || <span>{jt.emoji}</span>}
+                  </span>
+                  <span className="hero-jt-name">{jt[lang] || jt.tr}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       )}
 

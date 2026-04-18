@@ -1,15 +1,15 @@
 import React, { useState, useMemo } from 'react';
 import { t } from '../i18n/translations';
 import { ARTICLES } from '../data/articles';
-import { CATEGORIES, MATERIALS } from '../data/categories';
+import { CATEGORIES, MATERIALS, JEWELRY_TYPES } from '../data/categories';
 import { getArticleContent } from '../data/articleContent';
 import FadeUp from '../components/FadeUp';
-import { getArticleIcon, getCatIcon, IconSearch } from '../components/Icons';
+import { getCatIcon, getJewelryTypeIcon, getMaterialThumbnail, IconSearch, IconX } from '../components/Icons';
 
 // Strip HTML for full-text search
 function stripHtml(html) { return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').toLowerCase(); }
 
-export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, materialFilter, setMaterialFilter }) {
+export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, materialFilter, setMaterialFilter, jewelryTypeFilter, setJewelryTypeFilter }) {
   const [query, setQuery] = useState('');
 
   // Filter categories by active material
@@ -26,20 +26,23 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
     }
     // Category filter
     if (catFilter) list = list.filter(a => a.cat === catFilter);
+    // Jewelry type filter (Faz 6.2) — multi-tag; article matches if any of its types equal filter
+    if (jewelryTypeFilter) {
+      list = list.filter(a => (a.jewelryType || []).includes(jewelryTypeFilter));
+    }
     // Full-text search: title + description + article body
     if (query.trim()) {
       const q = query.toLowerCase();
       list = list.filter(a => {
         const titleDesc = `${a[lang]?.t} ${a[lang]?.d}`.toLowerCase();
         if (titleDesc.includes(q)) return true;
-        // Search in body content
         const content = getArticleContent(a.id, a);
         const body = content?.[lang] || content?.tr || '';
         return stripHtml(body).includes(q);
       });
     }
     return list;
-  }, [catFilter, materialFilter, query, lang]);
+  }, [catFilter, materialFilter, jewelryTypeFilter, query, lang]);
 
   // Count articles per material
   const matCounts = useMemo(() => {
@@ -54,6 +57,8 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
     return counts;
   }, []);
 
+  const activeJT = jewelryTypeFilter ? JEWELRY_TYPES.find(j => j.id === jewelryTypeFilter) : null;
+
   return (
     <section className="section" id="articles-section">
       <FadeUp><div className="section-header">
@@ -65,7 +70,6 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
         )}
       </div></FadeUp>
       <>
-        {/* Material Tab Bar */}
         <div className="material-tabs">
           {MATERIALS.map(m => (
             <button
@@ -89,6 +93,22 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
           <input type="text" className="search-bar" value={query} onChange={e => setQuery(e.target.value)}
             placeholder={t(lang, 'search.placeholder')} autoComplete="off" />
         </div>
+
+        {/* Faz 6.2: Active jewelry type filter pill (dismissible) */}
+        {activeJT && setJewelryTypeFilter && (
+          <div className="jt-active-bar">
+            <span className="jt-active-label">
+              {lang === 'tr' ? 'Takı tipi:' : lang === 'ar' ? 'نوع المجوهرات:' : 'Jewelry type:'}
+            </span>
+            <button type="button" className="jt-active-chip" onClick={() => setJewelryTypeFilter(null)}
+              aria-label={lang === 'tr' ? 'Filtreyi temizle' : lang === 'ar' ? 'مسح الفلتر' : 'Clear filter'}>
+              <span style={{ display: 'inline-flex' }}>{getJewelryTypeIcon(activeJT.icon, 14) || activeJT.emoji}</span>
+              <span>{activeJT[lang] || activeJT.tr}</span>
+              <span className="jt-active-x" aria-hidden="true"><IconX size={12} /></span>
+            </button>
+          </div>
+        )}
+
         <div className="chips">
           <button className={`chip${!catFilter ? ' active' : ''}`}
             data-mat={materialFilter || 'all'}
@@ -109,13 +129,15 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
           {filtered.length === 0 && <div className="no-result">{t(lang, 'search.noResult')}</div>}
           {filtered.map((a, ai) => {
             const cat = CATEGORIES.find(c => c.id === a.cat);
-            const svgIcon = getArticleIcon(a.icon, 22, { color: cat?.co });
             const isGold = a.material === 'gold';
             return (
-              <div className="art-item" key={a.id} onClick={() => onOpen(a)}
+              <div className="art-item art-item-thumbed" key={a.id} onClick={() => onOpen(a)}
                 style={{ '--cat-co': cat?.co, animationDelay: `${ai * 30}ms` }}
                 role="button" tabIndex={0} onKeyDown={e => e.key === 'Enter' && onOpen(a)}>
-                <span className="art-icon">{svgIcon || a.icon}</span>
+                {/* Faz 7A — material-themed gradient thumbnail replaces plain emoji */}
+                <span className="art-thumb" aria-hidden="true">
+                  {getMaterialThumbnail(a.material, a.cat, 52, `ai${a.id}`)}
+                </span>
                 <div className="art-info">
                   <div className="art-title">
                     {a[lang]?.t}

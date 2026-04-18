@@ -44,3 +44,25 @@ export const MATERIALS = [
   {id:"gemstone", tr:"Taşlar",    en:"Gemstones",  ar:"الأحجار",    icon:"💜", co:"#9B59B6"},
   {id:"platinum", tr:"Platin",    en:"Platinum",   ar:"البلاتين",   icon:"⚪", co:"#E5E4E2"},
 ];
+
+// ═══ Faz 6.2 — JEWELRY TYPE NAVIGATION ═══
+// 12 cross-material tags. Order = display order in the 4×3 grid.
+// `icon` intentionally refers to Icons.jsx keys (rendered as inline SVG);
+// emoji is a fallback/semantic label for screen readers.
+export const JEWELRY_TYPES = [
+  {id:"ring",       icon:"jt-ring",       emoji:"💍", tr:"Yüzük",       en:"Ring",        ar:"خاتم"},
+  {id:"necklace",   icon:"jt-necklace",   emoji:"📿", tr:"Kolye",       en:"Necklace",    ar:"قلادة"},
+  {id:"bracelet",   icon:"jt-bracelet",   emoji:"⌚", tr:"Bilezik",     en:"Bracelet",    ar:"سوار"},
+  {id:"earring",    icon:"jt-earring",    emoji:"👂", tr:"Küpe",        en:"Earring",     ar:"قرط"},
+  {id:"wedding",    icon:"jt-wedding",    emoji:"💒", tr:"Düğün/Nişan", en:"Wedding",     ar:"زفاف"},
+  {id:"religious",  icon:"jt-religious",  emoji:"☪️", tr:"Dini",        en:"Religious",   ar:"ديني"},
+  {id:"craft",      icon:"jt-craft",      emoji:"🔨", tr:"Zanaat",      en:"Craft",       ar:"حرفة"},
+  {id:"investment", icon:"jt-investment", emoji:"📈", tr:"Yatırım",     en:"Investment",  ar:"استثمار"},
+  {id:"care",       icon:"jt-care",       emoji:"🧽", tr:"Bakım",       en:"Care",        ar:"عناية"},
+  {id:"coin",       icon:"jt-coin",       emoji:"🪙", tr:"Sikke",       en:"Coin",        ar:"عملة"},
+  {id:"men",        icon:"jt-men",        emoji:"👔", tr:"Erkek",       en:"Men's",       ar:"رجالي"},
+  {id:"vintage",    icon:"jt-vintage",    emoji:"🕰️", tr:"Vintage",     en:"Vintage",     ar:"عتيق"},
+];
+
+// Popular 6 types for Hero "Ne Arıyorsun?" cards (subset of JEWELRY_TYPES)
+export const HERO_JEWELRY_TYPES = ["ring", "necklace", "bracelet", "wedding", "coin", "care"];

@@ -3,7 +3,7 @@ import { t } from '../i18n/translations';
 import { ARTICLES } from '../data/articles';
 import { CATEGORIES } from '../data/categories';
 import { getArticleContent, loadArticleContent } from '../data/articleContent';
-import { getArticleIcon, IconChevronLeft, IconChevronRight, IconShare } from './Icons';
+import { getArticleIcon, getMaterialThumbnail, IconChevronLeft, IconChevronRight, IconShare } from './Icons';
 import { getSponsor } from '../data/sponsors';
 
 // Favorites helpers
@@ -199,11 +199,11 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
     loadArticleContent(article.id, article).then(content => {
       if (cancelled) return;
       let raw = content?.[lang] || content?.tr || '';
-      // Inject IDs into h3 tags for TOC anchoring
+      // Inject IDs + decorative divider into h3 tags (Faz 7C)
       let idx = 0;
       raw = raw.replace(/<h3([^>]*)>(.*?)<\/h3>/gi, (match, attrs, text) => {
         const id = `toc-${idx++}`;
-        return `<h3${attrs} id="${id}">${text}</h3>`;
+        return `<div class="ad-h3-divider" aria-hidden="true"></div><h3${attrs} id="${id}">${text}</h3>`;
       });
       // Lazy loading for images
       raw = raw.replace(/<img(?!\s+loading)/gi, '<img loading="lazy"');
@@ -217,7 +217,7 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
       let idx = 0;
       raw = raw.replace(/<h3([^>]*)>(.*?)<\/h3>/gi, (match, attrs, text) => {
         const id = `toc-${idx++}`;
-        return `<h3${attrs} id="${id}">${text}</h3>`;
+        return `<div class="ad-h3-divider" aria-hidden="true"></div><h3${attrs} id="${id}">${text}</h3>`;
       });
       raw = raw.replace(/<img(?!\s+loading)/gi, '<img loading="lazy"');
       setHtml(raw);
@@ -308,9 +308,19 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
       </div>
 
       <div className="ad-content" key={`${article.id}-${lang}`}>
-        {/* Hero header with gradient */}
-        <div className="ad-hero" style={{ '--cat-co': cat?.co || '#C0C0C0' }}>
-          <span className="ad-hero-icon">{svgIcon || article.icon}</span>
+        {/* Faz 7B — Enhanced hero with material thumbnail + floating decorative shapes */}
+        <div className={`ad-hero ad-hero-v2 ad-hero-${article.material}`} style={{ '--cat-co': cat?.co || '#C0C0C0' }}>
+          {/* Decorative floating shapes (purely aesthetic, no interaction) */}
+          <div className="ad-hero-float ad-hero-float-1" aria-hidden="true" />
+          <div className="ad-hero-float ad-hero-float-2" aria-hidden="true" />
+          <div className="ad-hero-float ad-hero-float-3" aria-hidden="true" />
+          {/* Material-themed big thumbnail acts as the illustration */}
+          <div className="ad-hero-thumb" aria-hidden="true">
+            {getMaterialThumbnail(article.material, article.cat, 140, `adh${article.id}`)}
+          </div>
+          <div className="ad-hero-icon">
+            <span className="ad-hero-icon-inner">{svgIcon || article.icon}</span>
+          </div>
           <h2>{article[lang]?.t}</h2>
           <p className="ad-desc">{article[lang]?.d}</p>
           <div className="ad-time">

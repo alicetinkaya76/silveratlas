@@ -1123,3 +1123,193 @@ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pwa-install-btn:hover{transform:scale(1.05);box-shadow:0 4px 12px rgba(212,175,55,0.3)}
 .pwa-install-close{width:24px;height:24px;border-radius:50%;border:none;background:transparent;
   color:var(--text3);font-size:.7rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 6.2 — JEWELRY TYPE EXPLORER (4×3 grid)
+   ═══════════════════════════════════════════════════════════ */
+.jt-section{margin-top:8px}
+.jt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(min-width:640px){.jt-grid{grid-template-columns:repeat(4,1fr)}}
+.jt-card{padding:16px 12px 14px;border-radius:var(--r-card);background:var(--card);
+  border:1px solid var(--border);display:flex;flex-direction:column;align-items:center;
+  text-align:center;gap:8px;cursor:pointer;transition:all .35s var(--ease-out-expo);
+  min-height:96px;box-shadow:var(--shadow);position:relative;overflow:hidden;color:var(--text)}
+.jt-card::before{content:'';position:absolute;inset:0;opacity:0;transition:opacity .4s;
+  background:linear-gradient(135deg,rgba(212,175,55,0.08),rgba(192,192,192,0.05));pointer-events:none}
+.jt-card:hover::before,.jt-card.active::before{opacity:1}
+.jt-card:active{transform:scale(.96)}
+.jt-card.active{border-color:var(--silver);box-shadow:var(--shadow),var(--glow-silver);color:var(--text)}
+.jt-card.active[data-type="ring"],.jt-card.active[data-type="wedding"]{
+  border-color:var(--gold);box-shadow:var(--shadow),var(--glow-gold)}
+.jt-card-icon{width:36px;height:36px;display:flex;align-items:center;justify-content:center;
+  border-radius:10px;background:linear-gradient(135deg,rgba(212,175,55,0.12),rgba(192,192,192,0.08));
+  color:var(--text);transition:transform .3s var(--ease-out-expo)}
+.jt-card:hover .jt-card-icon{transform:rotate(-6deg) scale(1.08)}
+.jt-card-label{font-size:.82rem;font-weight:600;line-height:1.2;letter-spacing:.1px}
+.jt-card-count{font-size:.66rem;font-family:var(--f-mono);color:var(--text3);
+  padding:2px 7px;background:rgba(0,0,0,0.05);border-radius:8px;letter-spacing:.3px}
+[data-theme="dark"] .jt-card-count{background:rgba(255,255,255,0.06)}
+.jt-card.active .jt-card-count{background:rgba(212,175,55,0.18);color:var(--gold)}
+
+/* ── Active filter bar in AllArticles ── */
+.jt-active-bar{display:flex;align-items:center;gap:10px;margin:6px 0 10px;
+  padding:8px 12px;border-radius:12px;background:linear-gradient(90deg,
+  rgba(212,175,55,0.08),rgba(192,192,192,0.04));border:1px solid rgba(212,175,55,0.15)}
+.jt-active-label{font-size:.76rem;color:var(--text3);font-family:var(--f-mono);letter-spacing:.3px}
+.jt-active-chip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px 5px 8px;
+  border-radius:20px;background:var(--card);border:1px solid var(--border);
+  font-size:.8rem;font-weight:600;color:var(--text);cursor:pointer;
+  transition:all .25s;font-family:var(--f-body)}
+.jt-active-chip:hover{border-color:var(--gold);transform:scale(1.02)}
+.jt-active-chip .jt-active-x{display:inline-flex;margin-inline-start:2px;opacity:.55}
+.jt-active-chip:hover .jt-active-x{opacity:1;color:#e74c3c}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 6.2 — HERO "NE ARIYORSUN?" CARDS
+   ═══════════════════════════════════════════════════════════ */
+.hero-jt-wrap{margin-top:22px;display:flex;flex-direction:column;align-items:center;gap:10px;
+  width:100%;max-width:640px}
+.hero-jt-label{font-size:.78rem;color:var(--text3);font-family:var(--f-mono);
+  letter-spacing:.4px;text-transform:uppercase;opacity:.85}
+.hero-jt-row{display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;
+  scrollbar-width:none;padding:2px 4px 6px;max-width:100%;width:100%;
+  justify-content:flex-start}
+.hero-jt-row::-webkit-scrollbar{display:none}
+@media(min-width:640px){.hero-jt-row{justify-content:center}}
+.hero-jt-card{flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;
+  padding:9px 14px;border-radius:22px;background:rgba(255,255,255,0.04);
+  border:1px solid rgba(192,192,192,0.12);cursor:pointer;
+  transition:all .3s var(--ease-out-expo);color:var(--text);
+  font-family:var(--f-body);font-size:.82rem;font-weight:500}
+.hero-jt-card:hover{background:rgba(212,175,55,0.08);border-color:rgba(212,175,55,0.3);
+  transform:translateY(-2px)}
+.hero-jt-card:active{transform:translateY(0) scale(.96)}
+.hero-jt-icon{display:inline-flex;color:var(--gold);opacity:.9}
+[data-theme="light"] .hero-jt-card{background:rgba(0,0,0,0.025);border-color:rgba(0,0,0,0.06)}
+[data-theme="light"] .hero-jt-card:hover{background:rgba(212,175,55,0.06);border-color:rgba(212,175,55,0.3)}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 7A — FEATURED CARD THUMBNAILS
+   ═══════════════════════════════════════════════════════════ */
+.feat-card-thumbed .feat-top-thumbed{height:140px;padding:0;background:none;overflow:hidden}
+.feat-top-thumbed .feat-thumb-bg{position:absolute;inset:0;display:flex;
+  align-items:center;justify-content:center}
+.feat-top-thumbed .feat-thumb-bg svg{width:100%;height:100%;display:block;border-radius:0}
+.feat-top-thumbed::before{content:'';position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,0.08) 100%)}
+[data-theme="dark"] .feat-top-thumbed::before{
+  background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,0.35) 100%)}
+.feat-mat-badge{position:absolute;top:10px;left:10px;font-size:.62rem;padding:3px 8px;
+  border-radius:8px;font-family:var(--f-mono);font-weight:700;z-index:2;
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+[dir="rtl"] .feat-mat-badge{left:auto;right:10px}
+.feat-mat-gold{background:rgba(255,255,255,0.72);color:#8a6a1a}
+.feat-mat-silver{background:rgba(255,255,255,0.72);color:#4b5563}
+.feat-mat-diamond{background:rgba(255,255,255,0.78);color:#0c4a6e}
+.feat-mat-gemstone{background:rgba(255,255,255,0.72);color:#5b21b6}
+.feat-mat-platinum{background:rgba(255,255,255,0.72);color:#1f2937}
+[data-theme="dark"] .feat-mat-badge{background:rgba(0,0,0,0.45);color:#fff}
+/* Keep existing feat-cat badge positioned correctly over new thumbnail */
+.feat-top-thumbed .feat-cat{z-index:2;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 7A — ART ITEM THUMBNAILS
+   ═══════════════════════════════════════════════════════════ */
+.art-item-thumbed{gap:14px;padding:12px 16px 12px 12px}
+.art-thumb{flex-shrink:0;width:52px;height:52px;display:flex;align-items:center;
+  justify-content:center;border-radius:10px;overflow:hidden;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,0.04)}
+.art-thumb svg{display:block;width:100%;height:100%;border-radius:10px}
+[data-theme="dark"] .art-thumb{box-shadow:inset 0 0 0 1px rgba(255,255,255,0.05)}
+.art-item-thumbed:hover .art-thumb{transform:scale(1.04);transition:transform .3s var(--ease-out-expo)}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 7B — ENHANCED ARTICLE DETAIL HERO
+   ═══════════════════════════════════════════════════════════ */
+.ad-hero-v2{text-align:center;padding:48px 0 36px;margin-bottom:28px;
+  position:relative;overflow:hidden;border-bottom:1px solid var(--border);
+  min-height:280px}
+.ad-hero-v2::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 120% 80% at 50% 0%,
+    color-mix(in srgb, var(--cat-co) 14%, transparent),transparent 70%);
+  pointer-events:none}
+.ad-hero-v2 h2{position:relative;z-index:2;font-family:var(--f-head);
+  font-size:1.55rem;font-weight:700;margin:0 0 10px;line-height:1.25;
+  letter-spacing:-.3px;padding:0 8px}
+@media(min-width:768px){.ad-hero-v2 h2{font-size:1.95rem}}
+.ad-hero-v2 .ad-desc{position:relative;z-index:2;max-width:520px;margin:0 auto;
+  font-size:.95rem;color:var(--text2);line-height:1.55;padding:0 16px}
+.ad-hero-v2 .ad-time{position:relative;z-index:2;margin-top:16px;font-size:.78rem;
+  color:var(--text3);font-family:var(--f-mono);letter-spacing:.4px}
+
+/* Big material thumbnail as backdrop illustration */
+.ad-hero-v2 .ad-hero-thumb{position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-60%);z-index:0;opacity:.28;pointer-events:none;
+  filter:blur(0.5px) saturate(1.05)}
+.ad-hero-v2 .ad-hero-thumb svg{width:clamp(220px,50vw,320px);height:auto;
+  border-radius:50%;box-shadow:0 20px 60px -20px color-mix(in srgb,var(--cat-co) 35%, transparent)}
+[data-theme="dark"] .ad-hero-v2 .ad-hero-thumb{opacity:.22}
+
+/* Floating shapes — pure CSS */
+.ad-hero-float{position:absolute;border-radius:50%;pointer-events:none;z-index:1;
+  background:radial-gradient(circle at 30% 30%,
+    color-mix(in srgb, var(--cat-co) 30%, transparent),
+    color-mix(in srgb, var(--cat-co) 5%, transparent));
+  filter:blur(2px);animation:adFloat 12s ease-in-out infinite}
+.ad-hero-float-1{width:120px;height:120px;top:-20px;left:8%;animation-delay:0s;opacity:.45}
+.ad-hero-float-2{width:80px;height:80px;top:40%;right:12%;animation-delay:-4s;opacity:.35}
+.ad-hero-float-3{width:60px;height:60px;bottom:8%;left:25%;animation-delay:-8s;opacity:.3}
+@keyframes adFloat{
+  0%,100%{transform:translate(0,0) scale(1)}
+  33%{transform:translate(15px,-12px) scale(1.08)}
+  66%{transform:translate(-10px,10px) scale(.95)}
+}
+@media(prefers-reduced-motion:reduce){.ad-hero-float{animation:none}}
+
+/* Icon chip over the illustration */
+.ad-hero-v2 .ad-hero-icon{position:relative;z-index:2;display:inline-flex;
+  align-items:center;justify-content:center;margin:0 auto 18px;
+  width:72px;height:72px;border-radius:50%;
+  background:color-mix(in srgb, var(--card) 88%, transparent);
+  border:1.5px solid color-mix(in srgb, var(--cat-co) 30%, transparent);
+  box-shadow:0 8px 30px -8px color-mix(in srgb, var(--cat-co) 45%, transparent),
+    inset 0 1px 0 rgba(255,255,255,0.15);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.ad-hero-v2 .ad-hero-icon-inner{display:inline-flex;color:var(--cat-co);
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
+
+/* Material-specific hero tints refine the backdrop */
+.ad-hero-gold::before{background:radial-gradient(ellipse 120% 80% at 50% 0%,
+  rgba(212,175,55,0.18),transparent 70%)}
+.ad-hero-diamond::before{background:radial-gradient(ellipse 120% 80% at 50% 0%,
+  rgba(185,242,255,0.22),transparent 70%)}
+.ad-hero-gemstone::before{background:radial-gradient(ellipse 120% 80% at 50% 0%,
+  rgba(155,89,182,0.16),transparent 70%)}
+.ad-hero-platinum::before{background:radial-gradient(ellipse 120% 80% at 50% 0%,
+  rgba(229,228,226,0.18),transparent 70%)}
+.ad-hero-silver::before{background:radial-gradient(ellipse 120% 80% at 50% 0%,
+  rgba(192,192,192,0.14),transparent 70%)}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 7C — H3 DECORATIVE DIVIDERS
+   Thin gradient line with centered dot, themed per category color.
+   ═══════════════════════════════════════════════════════════ */
+.ad-h3-divider{position:relative;margin:34px auto 10px;height:16px;width:100%;
+  max-width:420px;display:flex;align-items:center;justify-content:center;gap:12px;
+  background:radial-gradient(circle,
+    color-mix(in srgb, var(--cat-co, var(--gold)) 60%, transparent) 0 2.5px,
+    transparent 3px) no-repeat center;
+  background-size:7px 7px}
+.ad-h3-divider::before,.ad-h3-divider::after{content:'';flex:1;height:1px;
+  background:linear-gradient(90deg,transparent,
+    color-mix(in srgb, var(--cat-co, var(--gold)) 45%, transparent),transparent)}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 7C — FACT BOX material-accent (if .fact-box exists in content)
+   ═══════════════════════════════════════════════════════════ */
+.ad-body .fact-box,.ad-body .factbox{position:relative;padding:14px 16px 14px 20px;
+  border-radius:12px;margin:18px 0;
+  border-inline-start:3px solid var(--cat-co,var(--gold));
+  background:color-mix(in srgb, var(--cat-co, var(--gold)) 6%, var(--card))}
+[data-theme="dark"] .ad-body .fact-box,[data-theme="dark"] .ad-body .factbox{
+  background:color-mix(in srgb, var(--cat-co, var(--gold)) 12%, var(--card))}

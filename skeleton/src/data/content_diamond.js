@@ -1180,3 +1180,2950 @@ C[177] = {
 
 <p>مستند إلى Rapaport وكريستيز وسوذبيز وIDEX وDe Beers Diamond Insight.</p>`
 };
+
+// ═══════════════════════════════════════════════════════════════
+// FAZ 9 — OTURUM 3 — BATCH B07: Diamond 4C + Kesimler
+// Enriched format (Spinel referans)
+// Append via: cat append_b07.js >> src/data/content_diamond.js
+// ═══════════════════════════════════════════════════════════════
+
+C[98] = {
+  tr: `<h2>Carat (Karat) — 4C Serisi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">1 Karat</div>
+    <div class="ad-metric-value">200<span class="ad-metric-unit">mg</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Çap (1 ct Round)</div>
+    <div class="ad-metric-value">6.5<span class="ad-metric-unit">mm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat Sıçraması</div>
+    <div class="ad-metric-value">15–20<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Karat, pırlantanın ağırlık birimidir; 1 karat = 200 miligram (0.2 gram). Kelime, antik çağda kuyumcuların tartı referansı olarak kullandığı keçi boynuzu (carob) tohumlarından türemiştir — bu tohumlar şaşırtıcı derecede tekdüze ağırlıktaydı. Karat, pırlantanın fiyatını en doğrudan etkileyen 4C kriteridir ancak "büyük = güzel" denkleminin pek çok tuzağı vardır.</p>
+
+<h3>Karat ve Boyut İlişkisi</h3>
+
+<p>Karat ağırlık ölçüsüdür, boyut ölçüsü değildir. Aynı karattaki iki pırlanta, kesim derinliğine bağlı olarak farklı boyutlarda görünebilir. Sığ kesilmiş bir 1 karatlık taş, derin kesilmiş olandan daha geniş görünür ama ışık performansı düşer. Optimal kesimde 1 karatlık round brilliant yaklaşık 6.5 mm çapa sahiptir.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">0.50 ct</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Çap</span><span class="value">~5.1 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">100 mg</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat aralığı</span><span class="value">$1,200–3,500</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">1.00 ct</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Çap</span><span class="value">~6.5 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">200 mg</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat aralığı</span><span class="value">$4,500–16,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">2.00 ct</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Çap</span><span class="value">~8.2 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">400 mg</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat aralığı</span><span class="value">$18,000–65,000</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Magic Sizes ve Fiyat Eşikleri</h3>
+
+<p>Pırlanta fiyatları belirli karat eşiklerinde sıçrama yapar: 0.50, 0.75, 1.00, 1.50 ve 2.00 karat. Bu "magic size" noktalarında psikolojik talep artışı fiyatı disproportiyonel olarak yükseltir. Örneğin 0.99 karatlık bir taş, 1.00 karattan %15–20 daha ucuz olabilir; görsel fark ise milimetrenin onda biri kadardır. Bu eşiklerin hemen altında alışveriş yapmak akıllı bir stratejidir.</p>
+
+<h3>Karat Başına Fiyat Dinamiği</h3>
+
+<p>Fiyat karat ile doğrusal artmaz — katlanarak yükselir. 2 karatlık bir pırlanta, 1 karatlığın iki katı değil, tipik olarak 3–4 katı fiyattadır. Bunun nedeni büyük pırlantaların doğada üstel olarak daha nadir olmasıdır. 3 karat ve üzeri taşlar koleksiyon–yatırım segmentine girer.</p>
+
+<h3>Total Carat Weight (TCW)</h3>
+
+<p>Birden fazla taş içeren takılarda toplam karat ağırlığı (TCW) kullanılır. 1.00 TCW'lik bir yüzük, tek bir 1 karatlık taş veya on küçük taşın toplamı olabilir — fiyat ve görsel etki arasında devasa fark vardır. TCW tek başına kalite göstergesi değildir; her zaman merkez taşın karatını ayrıca sorun.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Akıllı Alıcı İpucu</div>
+  <div class="ad-fact-callout-text">0.90–0.99 ct aralığındaki taşlar, 1.00 ct'ye görsel olarak neredeyse aynı görünür ama %15–20 daha uygun fiyatlıdır. Bütçe sınırlıysa kesim kalitesinden ödün vermeden karat eşiğinin hemen altını tercih edin — bu farkı hiç kimse fark edemez.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA (Gemological Institute of America) karat eğitim materyalleri, Rapaport Diamond Report fiyatlandırma verileri ve IDEX Online pazar analizlerine dayanmaktadır.</p>`,
+
+  en: `<h2>Carat — The 4C Series</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">1 Carat</div>
+    <div class="ad-metric-value">200<span class="ad-metric-unit">mg</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Diameter (1 ct Round)</div>
+    <div class="ad-metric-value">6.5<span class="ad-metric-unit">mm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Price Jump</div>
+    <div class="ad-metric-value">15–20<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Carat is a diamond's unit of weight: 1 carat = 200 milligrams (0.2 grams). The word derives from carob seeds, which ancient gem traders used as balance references due to their remarkably uniform weight. Carat is the 4C criterion that most directly affects price, yet the "bigger = better" equation comes with many pitfalls.</p>
+
+<h3>Carat vs Size</h3>
+
+<p>Carat measures weight, not size. Two diamonds of equal carat can appear different sizes depending on cut depth. A shallow-cut 1-carat stone looks wider than a deep-cut one but sacrifices light performance. At optimal cut, a 1-carat round brilliant measures approximately 6.5 mm in diameter.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">0.50 ct</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Diameter</span><span class="value">~5.1 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">100 mg</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$1,200–3,500</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">1.00 ct</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Diameter</span><span class="value">~6.5 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">200 mg</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$4,500–16,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">2.00 ct</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Diameter</span><span class="value">~8.2 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">400 mg</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$18,000–65,000</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Magic Sizes and Price Jumps</h3>
+
+<p>Diamond prices spike at certain carat thresholds: 0.50, 0.75, 1.00, 1.50, and 2.00. Psychological demand at these "magic sizes" drives disproportionate price increases. A 0.99-carat stone can cost 15–20% less than 1.00 — with a visual difference measured in tenths of a millimeter. Shopping just below these thresholds is a savvy strategy.</p>
+
+<h3>Price-Per-Carat Dynamics</h3>
+
+<p>Price does not increase linearly with carat — it compounds exponentially. A 2-carat diamond typically costs 3–4× a 1-carat of similar quality, not 2×, because large diamonds are exponentially rarer in nature. Stones of 3 carats and above enter the collector-investment segment.</p>
+
+<h3>Total Carat Weight (TCW)</h3>
+
+<p>Multi-stone jewelry uses Total Carat Weight. A 1.00 TCW ring could be one 1-carat stone or ten small ones — the price and visual impact differ enormously. TCW alone is not a quality indicator; always ask for the center stone's carat separately.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Smart Buyer Tip</div>
+  <div class="ad-fact-callout-text">Diamonds in the 0.90–0.99 ct range look virtually identical to 1.00 ct but cost 15–20% less. When budget is limited, stay just below the magic threshold without compromising cut quality — no one will ever notice the difference.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA carat education materials, Rapaport Diamond Report pricing data, and IDEX Online market analysis.</p>`,
+
+  ar: `<h2>القيراط — سلسلة الـ4C</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">١ قيراط</div>
+    <div class="ad-metric-value">200<span class="ad-metric-unit">ملغ</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">القطر (١ قيراط دائري)</div>
+    <div class="ad-metric-value">6.5<span class="ad-metric-unit">مم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">قفزة السعر</div>
+    <div class="ad-metric-value">15–20<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>القيراط هو وحدة وزن الألماس: ١ قيراط = ٢٠٠ ملغ (٠.٢ غرام). الكلمة مشتقة من بذور الخروب التي استخدمها التجار القدماء كمرجع للوزن بسبب تجانسها المذهل. القيراط هو المعيار الأكثر تأثيراً مباشراً على السعر ضمن الـ4C، لكن معادلة "الأكبر = الأجمل" تخفي مزالق عديدة.</p>
+
+<h3>القيراط مقابل الحجم</h3>
+
+<p>القيراط يقيس الوزن لا الحجم. ألماستان بنفس القيراط قد تبدوان بحجمين مختلفين حسب عمق القطع. القطع الضحل يبدو أعرض لكنه يفقد أداء الضوء. في القطع المثالي، ألماسة ١ قيراط بريلانت دائري قطرها حوالي ٦.٥ مم.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">٠.٥٠ قيراط</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القطر</span><span class="value">~٥.١ مم</span></div>
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">١٠٠ ملغ</span></div>
+      <div class="ad-compare-row"><span class="label">نطاق السعر</span><span class="value">$١,٢٠٠–٣,٥٠٠</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">١.٠٠ قيراط</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القطر</span><span class="value">~٦.٥ مم</span></div>
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">٢٠٠ ملغ</span></div>
+      <div class="ad-compare-row"><span class="label">نطاق السعر</span><span class="value">$٤,٥٠٠–١٦,٠٠٠</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">٢.٠٠ قيراط</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القطر</span><span class="value">~٨.٢ مم</span></div>
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">٤٠٠ ملغ</span></div>
+      <div class="ad-compare-row"><span class="label">نطاق السعر</span><span class="value">$١٨,٠٠٠–٦٥,٠٠٠</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الأحجام السحرية وقفزات الأسعار</h3>
+
+<p>تقفز أسعار الألماس عند عتبات معينة: ٠.٥٠ و٠.٧٥ و١.٠٠ و١.٥٠ و٢.٠٠ قيراط. الطلب النفسي عند هذه "الأحجام السحرية" يرفع السعر بشكل غير متناسب. حجر ٠.٩٩ قيراط قد يكلف أقل بـ١٥–٢٠٪ من ١.٠٠ قيراط — والفرق البصري بعُشر المليمتر. التسوق تحت هذه العتبات مباشرة استراتيجية ذكية.</p>
+
+<h3>الوزن القيراطي الإجمالي (TCW)</h3>
+
+<p>في المجوهرات متعددة الأحجار يُستخدم الوزن القيراطي الإجمالي. خاتم ١.٠٠ TCW قد يكون حجراً واحداً أو عشرة أحجار صغيرة — الفرق في السعر والتأثير البصري هائل. اسأل دائماً عن قيراط الحجر المركزي منفرداً.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة المشتري الذكي</div>
+  <div class="ad-fact-callout-text">ألماسات ٠.٩٠–٠.٩٩ قيراط تبدو متطابقة بصرياً مع ١.٠٠ قيراط لكنها أرخص بـ١٥–٢٠٪. عندما تكون الميزانية محدودة، ابقَ تحت العتبة السحرية دون التنازل عن جودة القطع — لن يلاحظ أحد الفرق أبداً.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى مواد GIA التعليمية وبيانات Rapaport وتحليلات IDEX Online.</p>`
+};
+
+C[99] = {
+  tr: `<h2>Round Brilliant Kesim</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Facet Sayısı</div>
+    <div class="ad-metric-value">57<span class="ad-metric-unit">+1</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pazar Payı</div>
+    <div class="ad-metric-value">~50<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Işık Geri Dönüşü</div>
+    <div class="ad-metric-value">95<span class="ad-metric-unit">%+</span></div>
+  </div>
+</div>
+
+<p>Marcel Tolkowsky'nin 1919'daki matematiksel analizi, 57 (veya 58) facetli round brilliant kesimin temelini attı. Bu kesim, ışık performansı açısından tüm diğer kesimleri geride bırakır ve dünya pırlanta satışlarının yaklaşık yarısını oluşturur. "Pırlanta" denildiğinde akla gelen ilk şekildir — ve bunun arkasında yüz yılı aşan optik mühendislik vardır.</p>
+
+<h3>57+1 Facet Yapısı</h3>
+
+<p>Round brilliant, 33 taç faceti (tablo, yıldız, bezel, üst halka) ve 24 pavilyon facetinden oluşur. İsteğe bağlı 58. facet olan culet, alt uçtaki küçük bir düzlemdir. Modern kesimlerde çoğunlukla "none" veya "very small" culet tercih edilir — bu, ışığın alt uçtan kaçmasını minimize eder.</p>
+
+<h3>İdeal Oranlar</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">GIA Excellent Parametreleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tablo %</span><span class="value">54–57%</span></div>
+      <div class="ad-compare-row"><span class="label">Derinlik %</span><span class="value">61.0–62.5%</span></div>
+      <div class="ad-compare-row"><span class="label">Taç açısı</span><span class="value">34.0–35.0°</span></div>
+      <div class="ad-compare-row"><span class="label">Pavilyon açısı</span><span class="value">40.6–41.0°</span></div>
+      <div class="ad-compare-row"><span class="label">Kuşak</span><span class="value">Thin–Medium</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">AGS Ideal (0) Parametreleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tablo %</span><span class="value">53–58%</span></div>
+      <div class="ad-compare-row"><span class="label">Derinlik %</span><span class="value">59.3–62.8%</span></div>
+      <div class="ad-compare-row"><span class="label">Taç açısı</span><span class="value">33.7–35.8°</span></div>
+      <div class="ad-compare-row"><span class="label">Pavilyon açısı</span><span class="value">40.2–41.2°</span></div>
+      <div class="ad-compare-row"><span class="label">Kuşak</span><span class="value">Thin–Slightly Thick</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Hearts & Arrows</h3>
+
+<p>En mükemmel simetriye sahip round brilliantlarda, özel bir gemolojik viewer ile bakıldığında 8 ok (yukarıdan) ve 8 kalp (alttan) deseni görülür. Bu "Hearts & Arrows" özelliği, kesim ustalığının zirvesini temsil eder ve premium fiyatlandırılır — tipik olarak standart Excellent kesimden %10–15 daha pahalıdır.</p>
+
+<h3>Neden Bu Kadar Popüler?</h3>
+
+<p>Round brilliant'ın hakimiyeti üç faktöre dayanır: maksimum ışık geri dönüşü, evrensel estetik çekicilik ve yüzyıllık gelenek. Tektaş yüzüklerin büyük çoğunluğu bu kesimle yapılır. Tek dezavantajı, ham taştan en fazla kayıp (%50–60) bu kesimde yaşanmasıdır — bu da karat başına fiyatı fancy kesimlere kıyasla daha yüksek kılar.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Tarihi Not</div>
+  <div class="ad-fact-callout-text">Marcel Tolkowsky, 1919'da Antwerp'te yazdığı doktora tezinde ışığın elmas içindeki yolculuğunu matematiksel olarak modelledi ve ideal facet açılarını hesapladı. Bu çalışma, yüz yıldan fazladır modern pırlantacılığın temel taşıdır — ve hiçbir bilgisayar simülasyonu onun orijinal oranlarını önemli ölçüde iyileştirememiştir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Tolkowsky (1919) "Diamond Design", GIA kesim derecelendirme sistemi ve AGS Ideal kesim standartlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Round Brilliant Cut</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Facet Count</div>
+    <div class="ad-metric-value">57<span class="ad-metric-unit">+1</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Market Share</div>
+    <div class="ad-metric-value">~50<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Light Return</div>
+    <div class="ad-metric-value">95<span class="ad-metric-unit">%+</span></div>
+  </div>
+</div>
+
+<p>Marcel Tolkowsky's 1919 mathematical analysis laid the foundation for the 57 (or 58) facet round brilliant — the most popular diamond cut, commanding roughly half of global sales. It is the shape that comes to mind when you hear the word "diamond," backed by over a century of optical engineering.</p>
+
+<h3>57+1 Facet Structure</h3>
+
+<p>The round brilliant comprises 33 crown facets (table, star, bezel, upper girdle) and 24 pavilion facets. The optional 58th facet — the culet — is a small flat at the bottom tip. Modern cuts favor "none" or "very small" culets to minimize light leakage from below.</p>
+
+<h3>Ideal Proportions</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">GIA Excellent Parameters</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Table %</span><span class="value">54–57%</span></div>
+      <div class="ad-compare-row"><span class="label">Depth %</span><span class="value">61.0–62.5%</span></div>
+      <div class="ad-compare-row"><span class="label">Crown angle</span><span class="value">34.0–35.0°</span></div>
+      <div class="ad-compare-row"><span class="label">Pavilion angle</span><span class="value">40.6–41.0°</span></div>
+      <div class="ad-compare-row"><span class="label">Girdle</span><span class="value">Thin–Medium</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">AGS Ideal (0) Parameters</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Table %</span><span class="value">53–58%</span></div>
+      <div class="ad-compare-row"><span class="label">Depth %</span><span class="value">59.3–62.8%</span></div>
+      <div class="ad-compare-row"><span class="label">Crown angle</span><span class="value">33.7–35.8°</span></div>
+      <div class="ad-compare-row"><span class="label">Pavilion angle</span><span class="value">40.2–41.2°</span></div>
+      <div class="ad-compare-row"><span class="label">Girdle</span><span class="value">Thin–Slightly Thick</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Hearts & Arrows</h3>
+
+<p>The most perfectly symmetrical round brilliants display 8 arrows (from above) and 8 hearts (below) through a special viewer — representing the pinnacle of cutting mastery. H&A stones typically command a 10–15% premium over standard Excellent cuts.</p>
+
+<h3>Why So Popular?</h3>
+
+<p>The round brilliant's dominance rests on three pillars: maximum light return, universal aesthetic appeal, and a century of tradition. The sole drawback is the highest rough-to-polished loss (50–60%), which makes it pricier per carat than fancy shapes.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Historical Note</div>
+  <div class="ad-fact-callout-text">In his 1919 Antwerp doctoral thesis, Marcel Tolkowsky mathematically modelled light's journey through diamond and calculated ideal facet angles. Over a century later, no computer simulation has significantly improved upon his original proportions — a testament to his engineering brilliance.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Tolkowsky (1919) "Diamond Design," GIA cut grading system, and AGS Ideal cut standards.</p>`,
+
+  ar: `<h2>القطع البريلانت الدائري</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عدد الأوجه</div>
+    <div class="ad-metric-value">57<span class="ad-metric-unit">+١</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حصة السوق</div>
+    <div class="ad-metric-value">~50<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عائد الضوء</div>
+    <div class="ad-metric-value">95<span class="ad-metric-unit">%+</span></div>
+  </div>
+</div>
+
+<p>وضع مارسيل تولكوفسكي عام ١٩١٩ الأساس الرياضي للقطع البريلانت ذي ٥٧ (أو ٥٨) وجهاً — أشهر قطع الألماس الذي يستحوذ على نحو نصف المبيعات العالمية. إنه الشكل الذي يتبادر للذهن عند ذكر كلمة "ألماس"، مدعوماً بأكثر من قرن من الهندسة البصرية.</p>
+
+<h3>بنية ٥٧+١ وجه</h3>
+
+<p>يتألف البريلانت الدائري من ٣٣ وجهاً للتاج و٢٤ وجهاً للجناح. الوجه الاختياري ٥٨ — الكوليت — مسطح صغير في الطرف السفلي. القطع الحديثة تفضل كوليت "معدوم" أو "صغير جداً" لتقليل تسرب الضوء.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">معايير GIA Excellent</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطاولة</span><span class="value">٥٤–٥٧٪</span></div>
+      <div class="ad-compare-row"><span class="label">العمق</span><span class="value">٦١.٠–٦٢.٥٪</span></div>
+      <div class="ad-compare-row"><span class="label">زاوية التاج</span><span class="value">٣٤.٠–٣٥.٠°</span></div>
+      <div class="ad-compare-row"><span class="label">زاوية الجناح</span><span class="value">٤٠.٦–٤١.٠°</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">معايير AGS Ideal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطاولة</span><span class="value">٥٣–٥٨٪</span></div>
+      <div class="ad-compare-row"><span class="label">العمق</span><span class="value">٥٩.٣–٦٢.٨٪</span></div>
+      <div class="ad-compare-row"><span class="label">زاوية التاج</span><span class="value">٣٣.٧–٣٥.٨°</span></div>
+      <div class="ad-compare-row"><span class="label">زاوية الجناح</span><span class="value">٤٠.٢–٤١.٢°</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>القلوب والسهام</h3>
+
+<p>أكثر البريلانتات تناسقاً تعرض ٨ سهام (من أعلى) و٨ قلوب (من أسفل) عبر عدسة خاصة — قمة إتقان القطع. أحجار H&A تُسعّر بعلاوة ١٠–١٥٪ فوق القطع الممتاز القياسي.</p>
+
+<h3>لماذا هذه الشعبية؟</h3>
+
+<p>هيمنة البريلانت الدائري تستند إلى ثلاث ركائز: أقصى عائد ضوئي، جاذبية جمالية عالمية، وقرن من التقاليد. العيب الوحيد هو أعلى نسبة فقد من الحجر الخام (٥٠–٦٠٪)، مما يرفع سعر القيراط مقارنة بالأشكال الفاخرة.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">ملاحظة تاريخية</div>
+  <div class="ad-fact-callout-text">في أطروحة الدكتوراه بأنتويرب عام ١٩١٩، صاغ تولكوفسكي نموذجاً رياضياً لمسار الضوء في الألماس وحسب زوايا الأوجه المثالية. بعد أكثر من قرن، لم تتمكن أي محاكاة حاسوبية من تحسين نسبه الأصلية بشكل ملموس.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى Tolkowsky (١٩١٩) "Diamond Design" ونظام تصنيف GIA ومعايير AGS Ideal.</p>`
+};
+
+C[100] = {
+  tr: `<h2>Fancy Kesimler Karşılaştırması</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fancy Kesim Sayısı</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Round'a Kıyasla</div>
+    <div class="ad-metric-value">20–40<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Büyük Yüzey</div>
+    <div class="ad-metric-value">Marquise</div>
+  </div>
+</div>
+
+<p>Round brilliant dışındaki tüm kesimler "fancy" olarak sınıflandırılır. Her birinin kendine özgü ışık performansı, boyut algısı ve estetik karakteri vardır. Fancy kesimler genellikle round'dan %20–40 daha uygun fiyatlıdır çünkü ham taştan daha az kayıpla üretilir ve pazar talebi daha düşüktür.</p>
+
+<h3>Briliyan Ailesi</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Princess</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Form</span><span class="value">Kare / dikdörtgen</span></div>
+      <div class="ad-compare-row"><span class="label">Facet</span><span class="value">76</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Briliyan parıltı</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat/ct</span><span class="value">Round'dan %25–35 ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">Sivri köşe koruması gerek</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Oval</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Form</span><span class="value">Uzatılmış daire</span></div>
+      <div class="ad-compare-row"><span class="label">Boy/En</span><span class="value">1.35–1.50 ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Round'a yakın</span></div>
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Parmağı uzun gösterir</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">Papyon etkisi</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cushion</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Form</span><span class="value">Yumuşak köşeli kare</span></div>
+      <div class="ad-compare-row"><span class="label">Karakter</span><span class="value">Güçlü fire</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Geniş renk dağılımı</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat/ct</span><span class="value">Round'dan %25–30 ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Vintage & romantik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Step-Cut Ailesi</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerald</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Form</span><span class="value">Dikdörtgen, kırpık köşe</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">"Salon aynası" efekti</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">VS2+ önerilir</span></div>
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Art Deco zarif</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Asscher</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Form</span><span class="value">Kare, kırpık köşe</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Hipnotik "kuyu" derinliği</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">VS1+ önerilir</span></div>
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Art Deco geometrik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Radiant Kesim</h3>
+
+<p>Radiant, emerald kesimin dikdörtgen formuyla briliyan kesimlerin ışık performansını birleştirir. Kırpık köşeli, 70 facetli hibrit bir kesimdir. Step-cut'ın zarif geometrisiyle briliyan'ın ışıltısını bir arada isteyen alıcılar için idealdir. Fancy color pırlantaları en iyi gösteren kesimlerden biridir çünkü geniş facetleri renk yoğunluğunu artırır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Değer İpucu</div>
+  <div class="ad-fact-callout-text">Fancy kesimler, aynı karat, renk ve berraklıkta round brilliant'tan %20–40 daha uygun fiyatlıdır. Üstelik oval ve marquise gibi uzun formlar, aynı karatta round'dan optik olarak daha büyük görünür. Bütçe-performans dengesi arayanlar için fancy kesimler akıllı tercihtir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA ve AGS fancy kesim eğitim materyalleri, Rapaport pazar verileri ve IDEX trend raporlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Fancy Cuts Comparison</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fancy Cut Types</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">vs Round Price</div>
+    <div class="ad-metric-value">20–40<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Largest Face-Up</div>
+    <div class="ad-metric-value">Marquise</div>
+  </div>
+</div>
+
+<p>All cuts other than round brilliant are classified as "fancy." Each has unique light performance, size perception, and aesthetic character. Fancy cuts generally cost 20–40% less than rounds because they yield more from rough stone and face lower market demand.</p>
+
+<h3>Brilliant Family</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Princess</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Square / rectangular</span></div>
+      <div class="ad-compare-row"><span class="label">Facets</span><span class="value">76</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">Brilliant sparkle</span></div>
+      <div class="ad-compare-row"><span class="label">Price/ct</span><span class="value">25–35% below round</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Needs corner protection</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Oval</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Elongated circle</span></div>
+      <div class="ad-compare-row"><span class="label">L/W ratio</span><span class="value">1.35–1.50 ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">Near-round performance</span></div>
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Elongates the finger</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Watch for bow-tie</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cushion</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Soft-cornered square</span></div>
+      <div class="ad-compare-row"><span class="label">Character</span><span class="value">Strong fire</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">Broad color dispersion</span></div>
+      <div class="ad-compare-row"><span class="label">Price/ct</span><span class="value">25–30% below round</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Vintage & romantic</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Step-Cut Family</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerald</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Rectangle, cropped corners</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">"Hall of mirrors" flash</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">VS2+ recommended</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Art Deco elegance</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Asscher</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Square, cropped corners</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">Hypnotic "well" depth</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">VS1+ recommended</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Art Deco geometric</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Radiant Cut</h3>
+
+<p>Radiant merges the emerald's rectangular form with brilliant-cut light performance. A 70-facet hybrid with cropped corners, ideal for buyers wanting step-cut geometry with brilliant sparkle. It is one of the best cuts for fancy color diamonds, as its large facets intensify color saturation.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Value Tip</div>
+  <div class="ad-fact-callout-text">Fancy cuts cost 20–40% less than rounds at the same carat, color, and clarity. Moreover, elongated shapes like oval and marquise appear optically larger than rounds of equal carat. For those seeking the best budget-to-performance ratio, fancy cuts are the smart choice.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA and AGS fancy cut education materials, Rapaport market data, and IDEX trend reports.</p>`,
+
+  ar: `<h2>مقارنة القطع الفاخرة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أنواع القطع</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مقابل الدائري</div>
+    <div class="ad-metric-value">20–40<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أكبر سطح</div>
+    <div class="ad-metric-value">ماركيز</div>
+  </div>
+</div>
+
+<p>جميع القطع غير البريلانت الدائري تُصنف "فاخرة". لكل منها أداء ضوئي وتأثير بصري وطابع جمالي فريد. القطع الفاخرة عموماً أرخص بـ٢٠–٤٠٪ من الدائري لأنها تنتج فقداً أقل من الحجر الخام.</p>
+
+<h3>عائلة البريلانت</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الأميرة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الشكل</span><span class="value">مربع / مستطيل</span></div>
+      <div class="ad-compare-row"><span class="label">الأوجه</span><span class="value">٧٦</span></div>
+      <div class="ad-compare-row"><span class="label">السعر/قيراط</span><span class="value">أقل ٢٥–٣٥٪ من الدائري</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البيضاوي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الشكل</span><span class="value">دائرة ممتدة</span></div>
+      <div class="ad-compare-row"><span class="label">الطول/العرض</span><span class="value">١.٣٥–١.٥٠ مثالي</span></div>
+      <div class="ad-compare-row"><span class="label">ملاحظة</span><span class="value">انتبه لتأثير الفراشة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الوسادة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الشكل</span><span class="value">مربع ناعم الزوايا</span></div>
+      <div class="ad-compare-row"><span class="label">الطابع</span><span class="value">نار قوية</span></div>
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">عتيق ورومانسي</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>عائلة القطع السُّلَّمي</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الزمردي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الضوء</span><span class="value">تأثير "صالة المرايا"</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">VS2+ موصى به</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">آشر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الضوء</span><span class="value">عمق بصري مُنوِّم</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">VS1+ موصى به</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة القيمة</div>
+  <div class="ad-fact-callout-text">القطع الفاخرة أرخص بـ٢٠–٤٠٪ من الدائري بنفس القيراط واللون والنقاء. الأشكال المستطيلة كالبيضاوي والماركيز تبدو أكبر بصرياً. لمن يبحث عن أفضل توازن بين الميزانية والأداء، القطع الفاخرة هي الخيار الأذكى.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى مواد GIA وAGS وبيانات Rapaport وتقارير IDEX.</p>`
+};
+
+C[101] = {
+  tr: `<h2>Pear, Marquise & Heart Kesimler</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pear Facet</div>
+    <div class="ad-metric-value">58</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Büyük Yüzey</div>
+    <div class="ad-metric-value">Marquise</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Zor Kesim</div>
+    <div class="ad-metric-value">Heart</div>
+  </div>
+</div>
+
+<p>Bu üç kesim, pırlantaya duygusal ve dramatik bir karakter kazandıran "şekilli" kesimlerdir. Her biri güçlü bir kişilik taşır ve doğru seçildiğinde parmakta büyüleyici bir etki yaratır.</p>
+
+<h3>Pear (Armut) Kesim</h3>
+
+<p>Bir ucu sivri, diğer ucu yuvarlak olan damla formundadır. 58 facete sahiptir ve round brilliant'a benzer bir ışık performansı sunar. Kolye uçları ve küpeler için idealdir; yüzükte parmağı uzun gösterir. Sivri uç koruyucu pençeyle monte edilmelidir. İyi bir pear kesimde simetri kritiktir — iki yarım birbirinin aynası olmalıdır. İdeal boy/en oranı 1.50–1.75 arasındadır.</p>
+
+<h3>Marquise Kesim</h3>
+
+<p>İki sivri uçlu, tekne biçimli uzun bir kesimdir. Fransa Kralı XV. Louis'nin gözdesi Marquise de Pompadour'un dudak şekline benzetilerek adlandırıldığı rivayet edilir. Tüm kesimler arasında en büyük yüzey alanına sahiptir — aynı karatta diğer kesimlerden belirgin biçimde büyük görünür. İdeal boy/en oranı 1.85–2.10 arasındadır.</p>
+
+<h3>Heart Kesim</h3>
+
+<p>Aşk ve romantizmin sembolü olan kalp kesim, teknik olarak en zor fancy kesimdir. Mükemmel bir simetri ve belirgin yarık (cleft) gerektirir. 0.50 karatın altında kalp formu gözle zor algılandığından genellikle daha büyük taşlarda tercih edilir.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pear</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İdeal boy/en</span><span class="value">1.50–1.75</span></div>
+      <div class="ad-compare-row"><span class="label">Güç</span><span class="value">Çok yönlü, zarif</span></div>
+      <div class="ad-compare-row"><span class="label">Zayıf</span><span class="value">Papyon etkisi</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal kullanım</span><span class="value">Kolye, küpe, yüzük</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Marquise</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İdeal boy/en</span><span class="value">1.85–2.10</span></div>
+      <div class="ad-compare-row"><span class="label">Güç</span><span class="value">Optik olarak en büyük</span></div>
+      <div class="ad-compare-row"><span class="label">Zayıf</span><span class="value">Sivri uç kırılma riski</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal kullanım</span><span class="value">Tektaş, vintage tarz</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Heart</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İdeal boy/en</span><span class="value">0.90–1.10</span></div>
+      <div class="ad-compare-row"><span class="label">Güç</span><span class="value">Romantik sembol</span></div>
+      <div class="ad-compare-row"><span class="label">Zayıf</span><span class="value">Küçük karatta zor algılanır</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal kullanım</span><span class="value">Sevgililer günü, yıl dönümü</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Papyon Etkisi</h3>
+
+<p>Pear ve marquise kesimlerde taşın merkezinde ışığın yansımadığı koyu bir alan oluşabilir — buna "papyon etkisi" (bow-tie) denir. Hafif bir papyon kabul edilebilir ve hatta karakteristiktir ancak yoğun bir papyon taşın parlaklığını ciddi ölçüde azaltır. Bu nedenle bu kesimleri mutlaka video veya yüz yüze görerek değerlendirin.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Tarihî Detay</div>
+  <div class="ad-fact-callout-text">Marquise kesim, XVIII. yüzyılda Fransız sarayında doğmuştur. Kral XV. Louis, sevgilisi Marquise de Pompadour'un gülümsemesini andıran bir taş şekli istemiş — ve bu zarif form beş yüzyıldır mücevher dünyasının ikonlarından biri olmaya devam etmektedir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA fancy shape guidelines, AGS eğitim materyalleri ve gemolojik referans kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Pear, Marquise & Heart Cuts</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pear Facets</div>
+    <div class="ad-metric-value">58</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Largest Face-Up</div>
+    <div class="ad-metric-value">Marquise</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardest to Cut</div>
+    <div class="ad-metric-value">Heart</div>
+  </div>
+</div>
+
+<p>These three "fancy shapes" bring emotional and dramatic character to diamonds. Each carries a strong personality and, when chosen wisely, creates a captivating presence on the finger.</p>
+
+<h3>Pear (Teardrop) Cut</h3>
+
+<p>One pointed end, one rounded — a teardrop form with 58 facets and light performance approaching the round brilliant. Ideal for pendants and earrings; on a ring it elongates the finger. The pointed tip requires a protective prong setting. Good symmetry is critical: both halves must mirror each other. Ideal length-to-width ratio is 1.50–1.75.</p>
+
+<h3>Marquise Cut</h3>
+
+<p>A boat-shaped elongated cut with two pointed ends. Legend has it that it was named after Marquise de Pompadour, whose smile King Louis XV of France wished to immortalize in stone. It boasts the largest face-up surface area of any cut — appearing significantly larger per carat. Ideal L/W ratio is 1.85–2.10.</p>
+
+<h3>Heart Cut</h3>
+
+<p>The technically most challenging fancy cut, symbolizing love and romance. It demands perfect symmetry and a distinct cleft. Below 0.50 carats the heart shape becomes hard to perceive, so it is generally preferred in larger stones.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pear</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ideal L/W</span><span class="value">1.50–1.75</span></div>
+      <div class="ad-compare-row"><span class="label">Strength</span><span class="value">Versatile, elegant</span></div>
+      <div class="ad-compare-row"><span class="label">Weakness</span><span class="value">Bow-tie effect</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Pendants, earrings, rings</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Marquise</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ideal L/W</span><span class="value">1.85–2.10</span></div>
+      <div class="ad-compare-row"><span class="label">Strength</span><span class="value">Optically largest</span></div>
+      <div class="ad-compare-row"><span class="label">Weakness</span><span class="value">Pointed-tip chip risk</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Solitaires, vintage style</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Heart</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ideal L/W</span><span class="value">0.90–1.10</span></div>
+      <div class="ad-compare-row"><span class="label">Strength</span><span class="value">Romantic symbol</span></div>
+      <div class="ad-compare-row"><span class="label">Weakness</span><span class="value">Hard to see at small carat</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Valentine's, anniversaries</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>The Bow-Tie Effect</h3>
+
+<p>Pear and marquise cuts can develop a dark area at the center where light fails to reflect — the "bow-tie effect." A faint bow-tie is acceptable and even characteristic, but a heavy one significantly reduces brilliance. Always evaluate these shapes via video or in person.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Historical Detail</div>
+  <div class="ad-fact-callout-text">The marquise cut was born in the 18th-century French court. King Louis XV reportedly asked for a gem shape resembling the smile of his beloved Marquise de Pompadour — and this elegant form has remained a jewellery icon for over five centuries.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA fancy shape guidelines, AGS education materials, and gemological references.</p>`,
+
+  ar: `<h2>قطع الكمثرى والماركيز والقلب</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أوجه الكمثرى</div>
+    <div class="ad-metric-value">58</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أكبر سطح</div>
+    <div class="ad-metric-value">ماركيز</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أصعب قطع</div>
+    <div class="ad-metric-value">قلب</div>
+  </div>
+</div>
+
+<p>ثلاثة أشكال "فاخرة" تضفي طابعاً عاطفياً ودرامياً على الألماس. لكل منها شخصية قوية وتأثير آسر على الإصبع عند الاختيار الصائب.</p>
+
+<h3>الكمثرى (الدمعة)</h3>
+
+<p>شكل القطرة بطرف مدبب وآخر مستدير — ٥٨ وجهاً وأداء ضوئي قريب من الدائري. مثالي للقلائد والأقراط. التناسق حاسم: النصفان يجب أن يتطابقا. النسبة المثالية ١.٥٠–١.٧٥.</p>
+
+<h3>الماركيز</h3>
+
+<p>شكل القارب بطرفين مدببين. يمتلك أكبر مساحة سطحية بين جميع القطع — يبدو أكبر بشكل ملحوظ لنفس القيراط. النسبة المثالية ١.٨٥–٢.١٠.</p>
+
+<h3>القلب</h3>
+
+<p>أصعب القطع الفاخرة تقنياً — يتطلب تناسقاً مثالياً وشقاً واضحاً. تحت ٠.٥٠ قيراط يصعب إدراك شكل القلب، لذا يُفضل في أحجار أكبر.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الكمثرى</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطول/العرض</span><span class="value">١.٥٠–١.٧٥</span></div>
+      <div class="ad-compare-row"><span class="label">القوة</span><span class="value">متعدد الاستخدامات</span></div>
+      <div class="ad-compare-row"><span class="label">الضعف</span><span class="value">تأثير الفراشة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الماركيز</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطول/العرض</span><span class="value">١.٨٥–٢.١٠</span></div>
+      <div class="ad-compare-row"><span class="label">القوة</span><span class="value">الأكبر بصرياً</span></div>
+      <div class="ad-compare-row"><span class="label">الضعف</span><span class="value">خطر كسر الطرف</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">القلب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطول/العرض</span><span class="value">٠.٩٠–١.١٠</span></div>
+      <div class="ad-compare-row"><span class="label">القوة</span><span class="value">رمز رومانسي</span></div>
+      <div class="ad-compare-row"><span class="label">الضعف</span><span class="value">صعب الإدراك صغيراً</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">تفصيل تاريخي</div>
+  <div class="ad-fact-callout-text">وُلد قطع الماركيز في البلاط الفرنسي بالقرن الثامن عشر. طلب الملك لويس الخامس عشر شكل جوهرة يشبه ابتسامة حبيبته ماركيزة بومبادور — وظل هذا الشكل الأنيق أيقونة مجوهرات لأكثر من خمسة قرون.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى إرشادات GIA وAGS والمراجع الجمولوجية.</p>`
+};
+
+C[102] = {
+  tr: `<h2>GIA Raporu Nasıl Okunur?</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kuruluş</div>
+    <div class="ad-metric-value">1931</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rapor Bölümü</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">alan</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğrulama</div>
+    <div class="ad-metric-value">QR + Lazer</div>
+  </div>
+</div>
+
+<p>GIA (Gemological Institute of America) 1931'de kurulmuş, 4C sistemini geliştiren ve pırlanta derecelendirmede dünya standardını belirleyen kurumdur. Bir GIA sertifikası, pırlantanın kimlik kartıdır — ve bu kartı okuyabilmek, bilinçli alışverişin ilk adımıdır.</p>
+
+<h3>Raporun Bölümleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tanımlama & 4C</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Rapor No</span><span class="value">Benzersiz tanımlayıcı</span></div>
+      <div class="ad-compare-row"><span class="label">Tarih</span><span class="value">Değerlendirme tarihi</span></div>
+      <div class="ad-compare-row"><span class="label">Şekil</span><span class="value">Round, Oval, vb.</span></div>
+      <div class="ad-compare-row"><span class="label">Karat</span><span class="value">0.01 hassasiyetle</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">D–Z skalası</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">FL–I3 skalası</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim</span><span class="value">Excellent–Poor</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Ek Bilgiler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ölçüm</span><span class="value">U × G × D (mm)</span></div>
+      <div class="ad-compare-row"><span class="label">Tablo %</span><span class="value">Taşın en geniş faceti</span></div>
+      <div class="ad-compare-row"><span class="label">Derinlik %</span><span class="value">Yükseklik / genişlik</span></div>
+      <div class="ad-compare-row"><span class="label">Polish</span><span class="value">Exc–Poor (yüzey cilası)</span></div>
+      <div class="ad-compare-row"><span class="label">Symmetry</span><span class="value">Exc–Poor (simetri)</span></div>
+      <div class="ad-compare-row"><span class="label">Floresan</span><span class="value">None–Very Strong</span></div>
+      <div class="ad-compare-row"><span class="label">Kuşak</span><span class="value">Thin–Extremely Thick</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Berraklık Haritası (Plot)</h3>
+
+<p>GIA raporu, taşın iç ve dış kusurlarının konumunu gösteren bir diyagram içerir. Kırmızı semboller iç kusurları (inclusions), yeşil semboller dış izleri (blemishes) temsil eder. Bu harita, taşınızın benzersiz "parmak izi"dir ve doğrulama için kullanılır. Aynı dereceye sahip iki taş bile farklı haritalar taşır.</p>
+
+<h3>QR ve Lazer Doğrulama</h3>
+
+<p>Modern GIA raporları QR kod içerir. Bu kodu tarayarak report.gia.edu üzerinden raporun gerçekliğini doğrulayabilirsiniz. Ayrıca lazer kazıma (inscription) ile kuşak üzerine yazılan rapor numarası, taşı rapora fiziksel olarak bağlar — 10x büyütme ile görülebilir.</p>
+
+<h3>Rapor Türleri</h3>
+
+<p>GIA iki ana rapor türü sunar: tam Diamond Grading Report (genellikle 1.00 ct ve üstü) ve daha kısa Diamond Dossier (genellikle 1.00 ct altı). İkisi de aynı derecelendirme standartlarını kullanır; fark, tam raporun berraklık haritası ve daha detaylı ölçümler içermesidir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pratik İpucu</div>
+  <div class="ad-fact-callout-text">Bir pırlanta satın almadan önce, GIA rapor numarasını report.gia.edu adresinde mutlaka doğrulayın. Rapor numarasıyla taşın lazer kazımasını 10x büyütmeyle karşılaştırın. Bu iki adım, sahte sertifika riskini neredeyse sıfıra indirir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA Report Check sistemi, GIA eğitim materyalleri ve gemolojik referans kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>How to Read a GIA Report</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Founded</div>
+    <div class="ad-metric-value">1931</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Report Sections</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">fields</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Verification</div>
+    <div class="ad-metric-value">QR + Laser</div>
+  </div>
+</div>
+
+<p>GIA (Gemological Institute of America), founded in 1931, created the 4Cs system and sets the global standard for diamond grading. A GIA certificate is a diamond's identity card — and knowing how to read it is the first step toward an informed purchase.</p>
+
+<h3>Report Sections</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ID & 4C Grades</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Report No.</span><span class="value">Unique identifier</span></div>
+      <div class="ad-compare-row"><span class="label">Date</span><span class="value">Grading date</span></div>
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Round, Oval, etc.</span></div>
+      <div class="ad-compare-row"><span class="label">Carat</span><span class="value">To 0.01 precision</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">D–Z scale</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">FL–I3 scale</span></div>
+      <div class="ad-compare-row"><span class="label">Cut</span><span class="value">Excellent–Poor</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Additional Data</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Measurements</span><span class="value">L × W × D (mm)</span></div>
+      <div class="ad-compare-row"><span class="label">Table %</span><span class="value">Widest facet ratio</span></div>
+      <div class="ad-compare-row"><span class="label">Depth %</span><span class="value">Height / width ratio</span></div>
+      <div class="ad-compare-row"><span class="label">Polish</span><span class="value">Exc–Poor (surface finish)</span></div>
+      <div class="ad-compare-row"><span class="label">Symmetry</span><span class="value">Exc–Poor</span></div>
+      <div class="ad-compare-row"><span class="label">Fluorescence</span><span class="value">None–Very Strong</span></div>
+      <div class="ad-compare-row"><span class="label">Girdle</span><span class="value">Thin–Extremely Thick</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Clarity Plot</h3>
+
+<p>The report includes a diagram mapping the stone's internal and external characteristics. Red symbols represent inclusions, green symbols blemishes. This plot is the diamond's unique "fingerprint" — even two stones with the same grade carry different plots.</p>
+
+<h3>QR and Laser Verification</h3>
+
+<p>Modern GIA reports include a QR code verifiable at report.gia.edu. Additionally, a laser inscription on the girdle physically links the stone to its report — visible under 10× magnification.</p>
+
+<h3>Report Types</h3>
+
+<p>GIA offers two main report types: the full Diamond Grading Report (typically 1.00 ct and above) and the shorter Diamond Dossier (typically under 1.00 ct). Both use identical grading standards; the difference is that the full report includes a clarity plot and more detailed measurements.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Practical Tip</div>
+  <div class="ad-fact-callout-text">Before purchasing any diamond, verify the GIA report number at report.gia.edu. Then cross-check it against the stone's laser inscription under 10× magnification. These two steps reduce the risk of a fake certificate to near zero.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA Report Check system, GIA education materials, and gemological references.</p>`,
+
+  ar: `<h2>كيف تقرأ تقرير GIA؟</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التأسيس</div>
+    <div class="ad-metric-value">1931</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أقسام التقرير</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">حقول</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التحقق</div>
+    <div class="ad-metric-value">QR + ليزر</div>
+  </div>
+</div>
+
+<p>أُنشئ GIA عام ١٩٣١ وابتكر نظام الـ4C ويضع المعيار العالمي لتصنيف الألماس. شهادة GIA هي بطاقة هوية الألماس — ومعرفة قراءتها الخطوة الأولى نحو شراء واعٍ.</p>
+
+<h3>أقسام التقرير</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الهوية والـ4C</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">رقم التقرير</span><span class="value">معرّف فريد</span></div>
+      <div class="ad-compare-row"><span class="label">القيراط</span><span class="value">دقة ٠.٠١</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">مقياس D–Z</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">مقياس FL–I3</span></div>
+      <div class="ad-compare-row"><span class="label">القطع</span><span class="value">ممتاز–ضعيف</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">بيانات إضافية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القياسات</span><span class="value">ط × ع × ع (مم)</span></div>
+      <div class="ad-compare-row"><span class="label">التلميع</span><span class="value">ممتاز–ضعيف</span></div>
+      <div class="ad-compare-row"><span class="label">التناسق</span><span class="value">ممتاز–ضعيف</span></div>
+      <div class="ad-compare-row"><span class="label">الفلورة</span><span class="value">معدومة–قوية جداً</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>خريطة النقاء</h3>
+
+<p>يتضمن التقرير مخططاً يُظهر مواقع الشوائب الداخلية (رموز حمراء) والعلامات الخارجية (رموز خضراء). هذه الخريطة هي "بصمة الإصبع" الفريدة لألماستك — حتى حجران بنفس الدرجة يحملان خرائط مختلفة.</p>
+
+<h3>التحقق بالـQR والليزر</h3>
+
+<p>تتضمن تقارير GIA الحديثة رمز QR للتحقق عبر report.gia.edu. كما يُنقش رقم التقرير بالليزر على الحزام — مرئي تحت تكبير ١٠×.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة عملية</div>
+  <div class="ad-fact-callout-text">قبل شراء أي ألماسة، تحقق من رقم تقرير GIA على report.gia.edu. ثم قارنه بالنقش الليزري على الحجر تحت تكبير ١٠×. هاتان الخطوتان تُقلصان خطر الشهادة المزيفة إلى ما يقرب من الصفر.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى نظام GIA Report Check ومواد GIA التعليمية والمراجع الجمولوجية.</p>`
+};
+
+// ═══════════════════════════════════════════════════════════════
+// FAZ 9 — OTURUM 3 — BATCH B08: Diamond Bilim + Karşılaştırma
+// ═══════════════════════════════════════════════════════════════
+
+C[103] = {
+  tr: `<h2>GIA vs AGS vs IGI vs HRD</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Altın Standart</div>
+    <div class="ad-metric-value">GIA</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kesim Uzmanı</div>
+    <div class="ad-metric-value">AGS</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lab-Grown Lideri</div>
+    <div class="ad-metric-value">IGI</div>
+  </div>
+</div>
+
+<p>Pırlanta sertifikaları taşın bağımsız bir laboratuvar tarafından değerlendirildiğini belgeler. Ancak tüm laboratuvarlar eşit değildir — derecelendirme tutarlılığı, uluslararası kabul ve güvenilirlik açısından aralarında önemli farklar vardır. Doğru laboratuvarı bilmek, doğru fiyatı ödemek demektir.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">GIA</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Merkez</span><span class="value">ABD (Carlsbad)</span></div>
+      <div class="ad-compare-row"><span class="label">Kuruluş</span><span class="value">1931</span></div>
+      <div class="ad-compare-row"><span class="label">Güç</span><span class="value">Dünya standardı, en tutarlı</span></div>
+      <div class="ad-compare-row"><span class="label">Zayıf</span><span class="value">Daha yüksek fiyat</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim notu</span><span class="value">Excellent → Poor (5 derece)</span></div>
+      <div class="ad-compare-row"><span class="label">En iyi</span><span class="value">Doğal pırlanta, yatırım</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">AGS</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Merkez</span><span class="value">ABD (Las Vegas)</span></div>
+      <div class="ad-compare-row"><span class="label">Kuruluş</span><span class="value">1934</span></div>
+      <div class="ad-compare-row"><span class="label">Güç</span><span class="value">Kesim odaklı, Ideal (0) notu</span></div>
+      <div class="ad-compare-row"><span class="label">Zayıf</span><span class="value">GIA kadar yaygın değil</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim notu</span><span class="value">0 (Ideal) → 10 (Poor)</span></div>
+      <div class="ad-compare-row"><span class="label">En iyi</span><span class="value">Kesim kalitesi odaklı alım</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">IGI</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Merkez</span><span class="value">Antwerp / Mumbai</span></div>
+      <div class="ad-compare-row"><span class="label">Kuruluş</span><span class="value">1975</span></div>
+      <div class="ad-compare-row"><span class="label">Güç</span><span class="value">Lab-grown pazarında lider</span></div>
+      <div class="ad-compare-row"><span class="label">Zayıf</span><span class="value">1–2 derece yumuşak olabilir</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim notu</span><span class="value">Excellent → Poor</span></div>
+      <div class="ad-compare-row"><span class="label">En iyi</span><span class="value">Lab-grown pırlanta</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>HRD Antwerp</h3>
+
+<p>HRD (Hoge Raad voor Diamant), Antwerp merkezli Avrupa'nın en köklü pırlanta laboratuvarıdır. 1976'da kurulmuştur ve Avrupa pazarında saygın bir konuma sahiptir. Derecelendirme tutarlılığı GIA'ya yakındır ancak küresel tanınırlığı daha düşüktür. Avrupa'dan pırlanta alırken HRD sertifikalı taşlar güvenle değerlendirilebilir.</p>
+
+<h3>Tutarlılık ve Fiyat Etkisi</h3>
+
+<p>GIA ve AGS, sektördeki en tutarlı derecelendirmeyi sunar. IGI ve HRD zaman zaman renk veya berraklıkta 1–2 derece daha yumuşak notlar verebilir — bu, aynı taşın IGI sertifikasıyla GIA sertifikasından daha yüksek bir derecede görünmesi anlamına gelir. Bu fark, fiyata doğrudan yansır: GIA sertifikalı bir pırlanta, IGI muadiline göre %5–15 daha yüksek fiyatlanabilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Alım Kuralı</div>
+  <div class="ad-fact-callout-text">Doğal pırlantada GIA veya AGS sertifikası arayın — tutarlılık ve uluslararası likidite için altın standarttır. Lab-grown pırlantada IGI sertifikası kabul edilebilir ve fiyat avantajı sağlar. HRD, Avrupa menşeli taşlar için güvenilir alternatiftir. Sertifikasız taş asla satın almayın.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA, AGS, IGI ve HRD resmi kaynaklarına, Rapaport piyasa verilerine ve bağımsız karşılaştırma analizlerine dayanmaktadır.</p>`,
+
+  en: `<h2>GIA vs AGS vs IGI vs HRD</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gold Standard</div>
+    <div class="ad-metric-value">GIA</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Cut Expert</div>
+    <div class="ad-metric-value">AGS</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lab-Grown Leader</div>
+    <div class="ad-metric-value">IGI</div>
+  </div>
+</div>
+
+<p>Diamond certificates document independent laboratory evaluation. However, not all labs are equal — significant differences exist in grading consistency, international acceptance, and reliability. Knowing the right lab means paying the right price.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">GIA</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">HQ</span><span class="value">USA (Carlsbad)</span></div>
+      <div class="ad-compare-row"><span class="label">Founded</span><span class="value">1931</span></div>
+      <div class="ad-compare-row"><span class="label">Strength</span><span class="value">Global standard, most consistent</span></div>
+      <div class="ad-compare-row"><span class="label">Cut grade</span><span class="value">Excellent → Poor (5 tiers)</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Natural diamonds, investment</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">AGS</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">HQ</span><span class="value">USA (Las Vegas)</span></div>
+      <div class="ad-compare-row"><span class="label">Founded</span><span class="value">1934</span></div>
+      <div class="ad-compare-row"><span class="label">Strength</span><span class="value">Cut-focused, Ideal (0) grade</span></div>
+      <div class="ad-compare-row"><span class="label">Cut grade</span><span class="value">0 (Ideal) → 10 (Poor)</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Cut-quality-focused buying</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">IGI</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">HQ</span><span class="value">Antwerp / Mumbai</span></div>
+      <div class="ad-compare-row"><span class="label">Founded</span><span class="value">1975</span></div>
+      <div class="ad-compare-row"><span class="label">Strength</span><span class="value">Lab-grown market leader</span></div>
+      <div class="ad-compare-row"><span class="label">Cut grade</span><span class="value">Excellent → Poor</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Lab-grown diamonds</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>HRD Antwerp</h3>
+
+<p>HRD (Hoge Raad voor Diamant), founded in 1976, is Europe's most established diamond lab. Grading consistency approaches GIA, though global recognition is lower. HRD-certified stones are reliable when purchasing from European sources.</p>
+
+<h3>Consistency and Price Impact</h3>
+
+<p>GIA and AGS deliver the most consistent grading. IGI and HRD occasionally assign 1–2 grades softer on color or clarity — meaning the same stone may appear higher-graded on an IGI certificate than on a GIA one. This difference translates directly to price: a GIA-certified diamond can command 5–15% more than its IGI equivalent.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Buying Rule</div>
+  <div class="ad-fact-callout-text">For natural diamonds, insist on GIA or AGS certification — the gold standard for consistency and international liquidity. For lab-grown, IGI certification is acceptable and offers a price advantage. HRD is a reliable alternative for European-origin stones. Never buy uncertified.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on official GIA, AGS, IGI, and HRD resources, Rapaport market data, and independent comparison analyses.</p>`,
+
+  ar: `<h2>GIA مقابل AGS مقابل IGI مقابل HRD</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">المعيار الذهبي</div>
+    <div class="ad-metric-value">GIA</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">خبير القطع</div>
+    <div class="ad-metric-value">AGS</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">رائد المختبري</div>
+    <div class="ad-metric-value">IGI</div>
+  </div>
+</div>
+
+<p>شهادات الألماس توثّق تقييم مختبر مستقل. لكن ليست كل المختبرات متساوية — توجد فروق مهمة في اتساق التصنيف والقبول الدولي والموثوقية. معرفة المختبر الصحيح تعني دفع السعر الصحيح.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">GIA</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المقر</span><span class="value">أمريكا (كارلسباد)</span></div>
+      <div class="ad-compare-row"><span class="label">التأسيس</span><span class="value">١٩٣١</span></div>
+      <div class="ad-compare-row"><span class="label">القوة</span><span class="value">المعيار العالمي، الأكثر اتساقاً</span></div>
+      <div class="ad-compare-row"><span class="label">الأفضل لـ</span><span class="value">الألماس الطبيعي، الاستثمار</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">AGS</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المقر</span><span class="value">أمريكا (لاس فيغاس)</span></div>
+      <div class="ad-compare-row"><span class="label">التأسيس</span><span class="value">١٩٣٤</span></div>
+      <div class="ad-compare-row"><span class="label">القوة</span><span class="value">متخصص بالقطع، درجة Ideal</span></div>
+      <div class="ad-compare-row"><span class="label">الأفضل لـ</span><span class="value">التركيز على جودة القطع</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">IGI</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المقر</span><span class="value">أنتويرب / مومباي</span></div>
+      <div class="ad-compare-row"><span class="label">التأسيس</span><span class="value">١٩٧٥</span></div>
+      <div class="ad-compare-row"><span class="label">القوة</span><span class="value">رائد سوق الألماس المختبري</span></div>
+      <div class="ad-compare-row"><span class="label">الأفضل لـ</span><span class="value">الألماس المختبري</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الاتساق وتأثير السعر</h3>
+
+<p>GIA وAGS يقدمان أكثر تصنيف اتساقاً. IGI وHRD قد يمنحان أحياناً درجة أو اثنتين أعلى في اللون أو النقاء — مما يعني أن نفس الحجر قد يبدو بدرجة أعلى في شهادة IGI مقارنة بـGIA. هذا الفرق ينعكس مباشرة على السعر: ألماسة بشهادة GIA قد تُسعّر أعلى بـ٥–١٥٪ من مثيلتها بشهادة IGI.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">قاعدة الشراء</div>
+  <div class="ad-fact-callout-text">للألماس الطبيعي، أصرّ على شهادة GIA أو AGS — المعيار الذهبي للاتساق والسيولة الدولية. للمختبري، شهادة IGI مقبولة وتوفر ميزة سعرية. لا تشترِ ألماساً بدون شهادة أبداً.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى موارد GIA وAGS وIGI وHRD الرسمية وبيانات Rapaport.</p>`
+};
+
+C[104] = {
+  tr: `<h2>Pırlanta Fiyatını Etkileyen Faktörler</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ana Faktör</div>
+    <div class="ad-metric-value">4C</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ek Faktör</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tepe Sezon</div>
+    <div class="ad-metric-value">Şubat & Aralık</div>
+  </div>
+</div>
+
+<p>Pırlanta fiyatlandırması 4C'nin ötesinde çok katmanlı bir sistemdir. Aynı 4C derecelerine sahip iki taş, onlarca farklı faktör nedeniyle %30–50 fiyat farkı gösterebilir. Bilinçli alıcı, bu "gizli" faktörleri bilerek pazarlık gücünü artırır.</p>
+
+<h3>4C Ötesi Fiyat Faktörleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Taş Özellikleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Floresan</span><span class="value">Strong → %5–15 indirim</span></div>
+      <div class="ad-compare-row"><span class="label">Şekil</span><span class="value">Round en pahalı, fancy %20–40↓</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">GIA premium, IGI daha ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">"Make"</span><span class="value">Oranların genel uyumu</span></div>
+      <div class="ad-compare-row"><span class="label">Culet</span><span class="value">None tercih, büyük → indirim</span></div>
+      <div class="ad-compare-row"><span class="label">Kuşak</span><span class="value">Kalın kuşak → gizli ağırlık</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Piyasa Dinamikleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Mevsimsellik</span><span class="value">Şubat & Aralık tepe</span></div>
+      <div class="ad-compare-row"><span class="label">Döviz</span><span class="value">USD güçlü → ihracat ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">Arz</span><span class="value">Maden üretimi kısıntısı ↑</span></div>
+      <div class="ad-compare-row"><span class="label">Lab-grown</span><span class="value">1 ct altında baskı</span></div>
+      <div class="ad-compare-row"><span class="label">Perakende marjı</span><span class="value">%50–200 (marka bağımlı)</span></div>
+      <div class="ad-compare-row"><span class="label">Coğrafya</span><span class="value">ABD vs Hindistan vs TR farkı</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Magic Size Fiyat Etkisi</h3>
+
+<p>Karat eşik noktaları (0.50, 1.00, 1.50, 2.00) fiyatta %15–20 sıçramaya neden olur. Bu psikolojik etki, taşın fiziksel özelliklerinden bağımsızdır. 0.90–0.99 ct aralığı, bilinçli alıcıların en çok tercih ettiği "değer aralığı"dır.</p>
+
+<h3>Rapaport Fiyat Listesi</h3>
+
+<p>Rapaport Diamond Report, sektörün referans fiyat listesidir. Her hafta güncellenir ve karat, renk, berraklık kombinasyonları için "benchmark" fiyatlar belirler. Perakende fiyatlar Rapaport üzerine %20–100 marj içerir — toptan kanallardan alım bu marjı %10–30'a düşürebilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Tasarruf Stratejisi</div>
+  <div class="ad-fact-callout-text">En büyük tasarruf kombinasyonu: magic size'ın hemen altı (0.90–0.99 ct) + G–H renk (D–F'ye görsel olarak çok yakın) + VS2 berraklık (göz-temiz) + medium blue floresan (ek indirim). Bu formül, "kâğıt üzerinde mükemmel" bir taşa kıyasla %35–50 tasarruf sağlar — görsel fark ise minimumdur.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Rapaport Diamond Report, IDEX Online, GIA ve AGS piyasa verilerine dayanmaktadır.</p>`,
+
+  en: `<h2>Factors Affecting Diamond Price</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Core Factor</div>
+    <div class="ad-metric-value">4C</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hidden Factors</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Peak Season</div>
+    <div class="ad-metric-value">Feb & Dec</div>
+  </div>
+</div>
+
+<p>Diamond pricing is a multi-layered system that extends far beyond the 4Cs. Two stones with identical grades can differ by 30–50% in price due to dozens of additional factors. The informed buyer who understands these "hidden" drivers gains real bargaining power.</p>
+
+<h3>Beyond-4C Price Factors</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Stone Properties</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Fluorescence</span><span class="value">Strong → 5–15% discount</span></div>
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Round most expensive, fancy 20–40%↓</span></div>
+      <div class="ad-compare-row"><span class="label">Certification</span><span class="value">GIA premium, IGI cheaper</span></div>
+      <div class="ad-compare-row"><span class="label">"Make"</span><span class="value">Overall proportion harmony</span></div>
+      <div class="ad-compare-row"><span class="label">Culet</span><span class="value">None preferred, large → discount</span></div>
+      <div class="ad-compare-row"><span class="label">Girdle</span><span class="value">Thick girdle → hidden weight</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Market Dynamics</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Seasonality</span><span class="value">February & December peaks</span></div>
+      <div class="ad-compare-row"><span class="label">Currency</span><span class="value">Strong USD → cheaper exports</span></div>
+      <div class="ad-compare-row"><span class="label">Supply</span><span class="value">Mine production cuts ↑ price</span></div>
+      <div class="ad-compare-row"><span class="label">Lab-grown</span><span class="value">Sub-1 ct pressure</span></div>
+      <div class="ad-compare-row"><span class="label">Retail margin</span><span class="value">50–200% (brand dependent)</span></div>
+      <div class="ad-compare-row"><span class="label">Geography</span><span class="value">US vs India vs TR pricing gaps</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Rapaport Price List</h3>
+
+<p>The Rapaport Diamond Report is the industry's benchmark price list, updated weekly. Retail prices include a 20–100% margin on Rapaport — wholesale channels can reduce this to 10–30%.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Savings Strategy</div>
+  <div class="ad-fact-callout-text">The ultimate value combo: just below magic size (0.90–0.99 ct) + G–H color (visually near D–F) + VS2 clarity (eye-clean) + medium blue fluorescence (extra discount). This formula saves 35–50% compared to a "perfect on paper" stone — with minimal visual difference.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Rapaport Diamond Report, IDEX Online, GIA, and AGS market data.</p>`,
+
+  ar: `<h2>العوامل المؤثرة في سعر الألماس</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العامل الأساسي</div>
+    <div class="ad-metric-value">4C</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عوامل خفية</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">موسم الذروة</div>
+    <div class="ad-metric-value">فبراير وديسمبر</div>
+  </div>
+</div>
+
+<p>تسعير الألماس نظام متعدد الطبقات يتجاوز الـ4C بكثير. حجران بنفس الدرجات قد يختلفان بـ٣٠–٥٠٪ في السعر بسبب عشرات العوامل الإضافية. المشتري الواعي الذي يفهم هذه المحركات "الخفية" يكتسب قوة تفاوضية حقيقية.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">خصائص الحجر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الفلورة</span><span class="value">قوية → خصم ٥–١٥٪</span></div>
+      <div class="ad-compare-row"><span class="label">الشكل</span><span class="value">الدائري أغلى، الفاخرة ٢٠–٤٠٪↓</span></div>
+      <div class="ad-compare-row"><span class="label">الشهادة</span><span class="value">GIA علاوة، IGI أرخص</span></div>
+      <div class="ad-compare-row"><span class="label">الحزام</span><span class="value">سميك → وزن مخفي</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ديناميكيات السوق</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الموسمية</span><span class="value">ذروة فبراير وديسمبر</span></div>
+      <div class="ad-compare-row"><span class="label">العملة</span><span class="value">دولار قوي → صادرات أرخص</span></div>
+      <div class="ad-compare-row"><span class="label">المختبري</span><span class="value">ضغط تحت ١ قيراط</span></div>
+      <div class="ad-compare-row"><span class="label">هامش التجزئة</span><span class="value">٥٠–٢٠٠٪</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">استراتيجية التوفير</div>
+  <div class="ad-fact-callout-text">التركيبة المثالية للقيمة: تحت الحجم السحري مباشرة (٠.٩٠–٠.٩٩ قيراط) + لون G–H (قريب بصرياً من D–F) + نقاء VS2 (نظيف بالعين) + فلورة زرقاء متوسطة. هذه الصيغة توفر ٣٥–٥٠٪ مقارنة بحجر "مثالي على الورق" — بفرق بصري ضئيل.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى Rapaport وIDEX Online وGIA وAGS.</p>`
+};
+
+C[105] = {
+  tr: `<h2>Elmas Nedir?</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Oluşum Derinliği</div>
+    <div class="ad-metric-value">150–250<span class="ad-metric-unit">km</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kırılma İndisi</div>
+    <div class="ad-metric-value">2.42</div>
+  </div>
+</div>
+
+<p>Elmas, saf karbonun kübik kristal yapısında düzenlenmiş formudur — her karbon atomu dört komşu atoma kovalent bağla bağlıdır. Bu mükemmel üç boyutlu yapı, elmasa doğadaki en sert malzeme olma özelliğini kazandırır. Yerin derinliklerinde milyonlarca yıl boyunca oluşan bu kristal, volkanik patlamalarla yüzeye taşınır.</p>
+
+<h3>Oluşum Koşulları</h3>
+
+<p>Elmas, yerin 150–250 km derinliğinde, 900–1300°C sıcaklık ve 45–60 kbar basınç altında oluşur. Karbon atomları bu aşırı koşullarda kübik kristal yapısına zorlanır. Oluşum süreci yüz milyonlarca ile milyarlarca yıl sürebilir. Volkanik patlamalar sırasında kimberlite ve lamproite boruları aracılığıyla yüzeye taşınır — bu yolculuk saatler içinde gerçekleşir; yavaş olsa elmas grafite dönüşürdü.</p>
+
+<h3>Fiziksel Özellikler</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mekanik</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">Mohs 10 (en sert doğal)</span></div>
+      <div class="ad-compare-row"><span class="label">Yoğunluk</span><span class="value">3.52 g/cm³</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılganlık</span><span class="value">Belirli düzlemlerde var</span></div>
+      <div class="ad-compare-row"><span class="label">Termal iletkenlik</span><span class="value">En yüksek (doğal)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Optik</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kırılma indisi</span><span class="value">2.42 (güçlü parlaklık)</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersiyon</span><span class="value">0.044 (gökkuşağı "fire")</span></div>
+      <div class="ad-compare-row"><span class="label">Saydamlık</span><span class="value">Şeffaf–opak</span></div>
+      <div class="ad-compare-row"><span class="label">Lüster</span><span class="value">Adamantin (elmas parıltısı)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Elmas vs Grafit: Aynı Element, Farklı Yapı</h3>
+
+<p>Hem elmas hem grafit saf karbondur — fark yalnızca atomik düzenlemededir. Grafitte karbon atomları tabakalar halinde düzlemsel bağlarla tutunur ve tabakalar arası zayıf Van der Waals kuvvetleri kolay kaymasına izin verir (bu yüzden kalem yazabilir). Elmasta ise her atom dört yönde eşit kuvvetle bağlıdır — bu üç boyutlu ağ yapısı onu doğanın en sert malzemesi kılar.</p>
+
+<h3>Endüstriyel Kullanım</h3>
+
+<p>Mücevher kalitesindeki elmaslar toplam üretimin yalnızca %20–30'unu oluşturur. Geri kalanı endüstriyel amaçlarla kullanılır: kesme ve delme aletleri, aşındırıcılar, ısı emiciler, yüksek basınç deneyleri ve lazer pencereleri. Elmasın termal iletkenliği bakırın beş katıdır — bu özellik onu ileri teknoloji uygulamalarında vazgeçilmez kılar.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Bilimsel Gerçek</div>
+  <div class="ad-fact-callout-text">Dünyanın en eski pırlantaları 3.5 milyar yaşındadır — Dünya'nın kendisi 4.5 milyar yaşında. Parmağınızdaki pırlanta, gezegenimizin tarihinin yaklaşık dörtte üçünü görmüş olabilir. Elmas, kelimenin gerçek anlamıyla "sonsuzluk taşı"dır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA eğitim materyalleri, Mineralogical Society of America kaynakları ve Nature dergisi jeoloji araştırmalarına dayanmaktadır.</p>`,
+
+  en: `<h2>What Is Diamond?</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Formation Depth</div>
+    <div class="ad-metric-value">150–250<span class="ad-metric-unit">km</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Refractive Index</div>
+    <div class="ad-metric-value">2.42</div>
+  </div>
+</div>
+
+<p>Diamond is pure carbon arranged in a cubic crystal lattice — each atom bonded covalently to four neighbors. This perfect three-dimensional structure makes diamond the hardest natural material on Earth. Formed deep underground over millions of years, these crystals reach the surface through volcanic eruptions.</p>
+
+<h3>Formation Conditions</h3>
+
+<p>Diamond forms 150–250 km deep at 900–1,300°C and 45–60 kbar pressure. The process spans hundreds of millions to billions of years. Kimberlite and lamproite pipes carry them to the surface during volcanic events — a journey completed in hours; any slower and diamond would revert to graphite.</p>
+
+<h3>Physical Properties</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mechanical</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">Mohs 10 (hardest natural)</span></div>
+      <div class="ad-compare-row"><span class="label">Density</span><span class="value">3.52 g/cm³</span></div>
+      <div class="ad-compare-row"><span class="label">Cleavage</span><span class="value">Present along specific planes</span></div>
+      <div class="ad-compare-row"><span class="label">Thermal cond.</span><span class="value">Highest of any natural material</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Optical</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Refractive index</span><span class="value">2.42 (strong brilliance)</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersion</span><span class="value">0.044 (rainbow "fire")</span></div>
+      <div class="ad-compare-row"><span class="label">Transparency</span><span class="value">Transparent to opaque</span></div>
+      <div class="ad-compare-row"><span class="label">Luster</span><span class="value">Adamantine</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Diamond vs Graphite</h3>
+
+<p>Both are pure carbon — the difference is atomic arrangement. In graphite, carbon atoms form planar sheets with weak inter-layer forces (which is why pencils write). In diamond, each atom bonds equally in four directions — creating the hardest known natural material.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Scientific Fact</div>
+  <div class="ad-fact-callout-text">The oldest diamonds on Earth are 3.5 billion years old — Earth itself is 4.5 billion. The diamond on your finger may have witnessed roughly three-quarters of our planet's history. Diamond is, quite literally, an "eternity stone."</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA education materials, Mineralogical Society of America resources, and Nature geology research.</p>`,
+
+  ar: `<h2>ما هو الألماس؟</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلابة</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">موس</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عمق التكوّن</div>
+    <div class="ad-metric-value">150–250<span class="ad-metric-unit">كم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">معامل الانكسار</div>
+    <div class="ad-metric-value">2.42</div>
+  </div>
+</div>
+
+<p>الألماس هو كربون نقي مرتب في شبكة بلورية مكعبة — كل ذرة مرتبطة تساهمياً بأربع جارات. هذه البنية الثلاثية المثالية تجعل الألماس أصلب مادة طبيعية على الأرض. يتكوّن في أعماق الأرض خلال ملايين السنين ويُحمل إلى السطح عبر الثورات البركانية.</p>
+
+<h3>ظروف التكوّن</h3>
+
+<p>يتكوّن الألماس على عمق ١٥٠–٢٥٠ كم تحت حرارة ٩٠٠–١,٣٠٠ درجة وضغط ٤٥–٦٠ كيلوبار. أنابيب الكمبرلايت تحمله إلى السطح خلال ساعات — أي تأخير وسيتحول إلى غرافيت.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ميكانيكية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">١٠ موس (أصلب طبيعي)</span></div>
+      <div class="ad-compare-row"><span class="label">الكثافة</span><span class="value">٣.٥٢ غ/سم³</span></div>
+      <div class="ad-compare-row"><span class="label">التوصيل الحراري</span><span class="value">الأعلى طبيعياً</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">بصرية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الانكسار</span><span class="value">٢.٤٢ (بريق قوي)</span></div>
+      <div class="ad-compare-row"><span class="label">التشتت</span><span class="value">٠.٠٤٤ (نار قوس قزح)</span></div>
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">ألماسي (أدامانتيني)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة علمية</div>
+  <div class="ad-fact-callout-text">أقدم ألماسات الأرض عمرها ٣.٥ مليار سنة — الأرض نفسها عمرها ٤.٥ مليار. الألماسة على إصبعك ربما شهدت نحو ثلاثة أرباع تاريخ كوكبنا. الألماس حرفياً "حجر الأبدية".</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى مواد GIA والجمعية المعدنية الأمريكية وأبحاث Nature الجيولوجية.</p>`
+};
+
+C[106] = {
+  tr: `<h2>Lab-Grown vs Doğal Pırlanta</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat Farkı</div>
+    <div class="ad-metric-value">60–80<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kimyasal</div>
+    <div class="ad-metric-value">Özdeş</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Üretim Süresi</div>
+    <div class="ad-metric-value">2–6<span class="ad-metric-unit">hafta</span></div>
+  </div>
+</div>
+
+<p>Lab-grown (laboratuvarda üretilmiş) pırlantalar, doğal elmasla kimyasal, fiziksel ve optik olarak özdeştir — fark yalnızca köken ve oluşum süresindedir. Doğal pırlanta milyonlarca yıl yerin derinliklerinde oluşurken, lab-grown muadili 2–6 haftada kontrollü ortamda üretilir.</p>
+
+<h3>Üretim Yöntemleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">HPHT</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yöntem</span><span class="value">Yüksek basınç + yüksek sıcaklık</span></div>
+      <div class="ad-compare-row"><span class="label">Koşullar</span><span class="value">~1500°C, ~60 kbar</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">Birkaç gün</span></div>
+      <div class="ad-compare-row"><span class="label">Sonuç</span><span class="value">Doğal oluşumu taklit eder</span></div>
+      <div class="ad-compare-row"><span class="label">Tespit</span><span class="value">Metalik inklüzyonlar (mıknatıs)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">CVD</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yöntem</span><span class="value">Kimyasal buhar birikimi</span></div>
+      <div class="ad-compare-row"><span class="label">Koşullar</span><span class="value">~800°C, düşük basınç</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">2–6 hafta</span></div>
+      <div class="ad-compare-row"><span class="label">Sonuç</span><span class="value">Tohum üzerine katman katman</span></div>
+      <div class="ad-compare-row"><span class="label">Tespit</span><span class="value">Büyüme çizgileri (UV altında)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Kapsamlı Karşılaştırma</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Doğal Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Köken</span><span class="value">Yer altı, milyonlarca yıl</span></div>
+      <div class="ad-compare-row"><span class="label">Nadirlik</span><span class="value">Sonlu kaynak</span></div>
+      <div class="ad-compare-row"><span class="label">Yatırım değeri</span><span class="value">Tarihsel olarak korunur</span></div>
+      <div class="ad-compare-row"><span class="label">Yeniden satış</span><span class="value">%60–80 geri dönüş</span></div>
+      <div class="ad-compare-row"><span class="label">Etik</span><span class="value">Madencilik etkisi var</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">GIA, AGS (altın standart)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Lab-Grown Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Köken</span><span class="value">Laboratuvar, 2–6 hafta</span></div>
+      <div class="ad-compare-row"><span class="label">Nadirlik</span><span class="value">Sınırsız üretim</span></div>
+      <div class="ad-compare-row"><span class="label">Yatırım değeri</span><span class="value">Düşüyor (arz artışı)</span></div>
+      <div class="ad-compare-row"><span class="label">Yeniden satış</span><span class="value">Çok düşük (%10–30)</span></div>
+      <div class="ad-compare-row"><span class="label">Etik</span><span class="value">Madencilik yok, enerji tartışmalı</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">IGI (yaygın), GIA (ayrı rapor)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fiyat Trendi</h3>
+
+<p>Lab-grown pırlantalar 2020'den bu yana dramatik fiyat düşüşü yaşadı — 1 karatlık bir lab-grown taş, 2020'de doğal muadilinin %40'ına satılırken 2025'te %15–25'ine gerilemiştir. Artan üretim kapasitesi fiyatları baskılamaya devam etmektedir. Bu durum, lab-grown'u yatırım aracı olmaktan çıkarmış ancak tüketici mücevheri olarak cazibesini artırmıştır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Karar Rehberi</div>
+  <div class="ad-fact-callout-text">Yatırım, miras veya duygusal değer arıyorsanız → doğal pırlanta. Maksimum görsel etki isteyip bütçe sınırlıysa veya etik öncelik taşıyorsanız → lab-grown. İkisi de "gerçek" pırlantadır — mesele hangisinin sizin hikâyenize uyduğudur.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA lab-grown raporlama sistemi, Rapaport piyasa verileri, IDEX Online ve Diamond Foundry endüstri analizlerine dayanmaktadır.</p>`,
+
+  en: `<h2>Lab-Grown vs Natural Diamond</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Price Gap</div>
+    <div class="ad-metric-value">60–80<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Chemistry</div>
+    <div class="ad-metric-value">Identical</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Growth Time</div>
+    <div class="ad-metric-value">2–6<span class="ad-metric-unit">weeks</span></div>
+  </div>
+</div>
+
+<p>Lab-grown diamonds are chemically, physically, and optically identical to natural diamonds — the difference lies solely in origin and formation time. Natural diamonds form over millions of years deep underground; their lab counterparts are produced in 2–6 weeks under controlled conditions.</p>
+
+<h3>Production Methods</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">HPHT</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Method</span><span class="value">High pressure + high temperature</span></div>
+      <div class="ad-compare-row"><span class="label">Conditions</span><span class="value">~1,500°C, ~60 kbar</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">Several days</span></div>
+      <div class="ad-compare-row"><span class="label">Detection</span><span class="value">Metallic inclusions (magnetic)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">CVD</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Method</span><span class="value">Chemical vapor deposition</span></div>
+      <div class="ad-compare-row"><span class="label">Conditions</span><span class="value">~800°C, low pressure</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">2–6 weeks</span></div>
+      <div class="ad-compare-row"><span class="label">Detection</span><span class="value">Growth lines (under UV)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Comprehensive Comparison</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Natural</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Origin</span><span class="value">Underground, millions of years</span></div>
+      <div class="ad-compare-row"><span class="label">Rarity</span><span class="value">Finite resource</span></div>
+      <div class="ad-compare-row"><span class="label">Investment</span><span class="value">Historically retains value</span></div>
+      <div class="ad-compare-row"><span class="label">Resale</span><span class="value">60–80% return</span></div>
+      <div class="ad-compare-row"><span class="label">Ethics</span><span class="value">Mining impact</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Lab-Grown</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Origin</span><span class="value">Laboratory, 2–6 weeks</span></div>
+      <div class="ad-compare-row"><span class="label">Rarity</span><span class="value">Unlimited production</span></div>
+      <div class="ad-compare-row"><span class="label">Investment</span><span class="value">Declining (supply growth)</span></div>
+      <div class="ad-compare-row"><span class="label">Resale</span><span class="value">Very low (10–30%)</span></div>
+      <div class="ad-compare-row"><span class="label">Ethics</span><span class="value">No mining, energy debatable</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Decision Guide</div>
+  <div class="ad-fact-callout-text">Looking for investment, heirloom, or emotional value → natural diamond. Want maximum visual impact on a budget or prioritize ethics → lab-grown. Both are "real" diamonds — the question is which one fits your story.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA lab-grown reporting, Rapaport data, IDEX Online, and Diamond Foundry industry analyses.</p>`,
+
+  ar: `<h2>الألماس المختبري مقابل الطبيعي</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">فارق السعر</div>
+    <div class="ad-metric-value">60–80<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكيمياء</div>
+    <div class="ad-metric-value">متطابقة</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مدة النمو</div>
+    <div class="ad-metric-value">2–6<span class="ad-metric-unit">أسابيع</span></div>
+  </div>
+</div>
+
+<p>الألماس المختبري متطابق كيميائياً وفيزيائياً وبصرياً مع الطبيعي — الفرق فقط في المنشأ ومدة التكوّن. الطبيعي يتكوّن خلال ملايين السنين في باطن الأرض، بينما المختبري يُنتج في ٢–٦ أسابيع.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">HPHT</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطريقة</span><span class="value">ضغط عالٍ + حرارة عالية</span></div>
+      <div class="ad-compare-row"><span class="label">الظروف</span><span class="value">~١,٥٠٠°م، ~٦٠ كيلوبار</span></div>
+      <div class="ad-compare-row"><span class="label">الكشف</span><span class="value">شوائب معدنية (مغناطيسية)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">CVD</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطريقة</span><span class="value">ترسيب البخار الكيميائي</span></div>
+      <div class="ad-compare-row"><span class="label">الظروف</span><span class="value">~٨٠٠°م، ضغط منخفض</span></div>
+      <div class="ad-compare-row"><span class="label">الكشف</span><span class="value">خطوط النمو (تحت UV)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الطبيعي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الندرة</span><span class="value">مورد محدود</span></div>
+      <div class="ad-compare-row"><span class="label">الاستثمار</span><span class="value">يحتفظ بالقيمة تاريخياً</span></div>
+      <div class="ad-compare-row"><span class="label">إعادة البيع</span><span class="value">٦٠–٨٠٪ عائد</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المختبري</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الندرة</span><span class="value">إنتاج غير محدود</span></div>
+      <div class="ad-compare-row"><span class="label">الاستثمار</span><span class="value">يتراجع (زيادة العرض)</span></div>
+      <div class="ad-compare-row"><span class="label">إعادة البيع</span><span class="value">منخفض جداً (١٠–٣٠٪)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">دليل القرار</div>
+  <div class="ad-fact-callout-text">تبحث عن استثمار أو إرث أو قيمة عاطفية → ألماس طبيعي. تريد أقصى تأثير بصري بميزانية محدودة أو تُعطي الأولوية للأخلاقيات → مختبري. كلاهما ألماس "حقيقي" — السؤال أيهما يناسب قصتك.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى نظام تقارير GIA المختبرية وبيانات Rapaport وIDEX وتحليلات Diamond Foundry.</p>`
+};
+
+C[107] = {
+  tr: `<h2>Pırlanta vs Zirkon vs Moissanite</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Elmas Sertliği</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Moissanite</div>
+    <div class="ad-metric-value">9.25<span class="ad-metric-unit">Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">CZ Fiyatı</div>
+    <div class="ad-metric-value">~1<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Kübik zirkonya (CZ) ve moissanite, pırlantanın en yaygın alternatifleridir. Görünüşte benzer olsalar da fiziksel ve optik özellikleri büyük farklılıklar taşır. Hangisinin sizin için doğru tercih olduğunu anlamak için bilimsel karşılaştırmayı bilmek gerekir.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">10 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılma indisi</span><span class="value">2.42</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersiyon</span><span class="value">0.044</span></div>
+      <div class="ad-compare-row"><span class="label">Termal iletkenlik</span><span class="value">Çok yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat (1 ct)</span><span class="value">$4,500–16,000</span></div>
+      <div class="ad-compare-row"><span class="label">Dayanıklılık</span><span class="value">Ömür boyu</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Moissanite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">9.25 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılma indisi</span><span class="value">2.65 (pırlantadan yüksek)</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersiyon</span><span class="value">0.104 (2.4× pırlanta)</span></div>
+      <div class="ad-compare-row"><span class="label">Termal iletkenlik</span><span class="value">Yüksek (test'i geçer)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat (1 ct eq.)</span><span class="value">$300–600</span></div>
+      <div class="ad-compare-row"><span class="label">Dayanıklılık</span><span class="value">Çok iyi</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kübik Zirkonya</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">8–8.5 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılma indisi</span><span class="value">2.15</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersiyon</span><span class="value">0.058</span></div>
+      <div class="ad-compare-row"><span class="label">Termal iletkenlik</span><span class="value">Düşük (test'le ayrılır)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat (1 ct eq.)</span><span class="value">$1–20</span></div>
+      <div class="ad-compare-row"><span class="label">Dayanıklılık</span><span class="value">Zayıf (çizilir, matlaşır)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Nasıl Ayırt Edilir?</h3>
+
+<p>CZ'yi ayırt etmek kolaydır — düşük termal iletkenliği standart elmas test cihazıyla anında tespit edilir. Moissanite ise daha zordur: termal iletkenliği yüksek olduğu için klasik elmas test cihazları onu "elmas" olarak okuyabilir. Çift kırılma (double refraction) özelliği nedeniyle büyütme altında facet kenarlarının çiftlenmiş görüntüsü moissanite'i ele verir. Kesin ayrım için elektriksel iletkenlik testi gereklidir.</p>
+
+<h3>Moissanite'in "Fazla Işıltısı"</h3>
+
+<p>Moissanite'in dispersiyonu pırlantanın 2.4 katıdır — bu, "gökkuşağı efekti"nin çok daha belirgin olması anlamına gelir. Bazıları bunu "yapay görünüm" olarak değerlendirir, bazıları ise bu yoğun ışıltıyı sever. Büyük boyutlarda bu fark daha belirginleşir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pratik Rehber</div>
+  <div class="ad-fact-callout-text">CZ geçici çözümdür — 1–2 yılda matlaşır ve çizilir. Moissanite kalıcı alternatiftir — sertliği ve dayanıklılığı mükemmeldir ama "fazla parlak" görünümü pırlantadan farklıdır. Ne pırlanta ne moissanite arasında kalamıyorsanız, taşları yan yana görmek farkı anında ortaya koyar.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA gemoloji referansları, Charles & Colvard moissanite teknik verileri ve bağımsız karşılaştırma analizlerine dayanmaktadır.</p>`,
+
+  en: `<h2>Diamond vs CZ vs Moissanite</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Diamond Hardness</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Moissanite</div>
+    <div class="ad-metric-value">9.25<span class="ad-metric-unit">Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">CZ Price</div>
+    <div class="ad-metric-value">~1<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Cubic zirconia (CZ) and moissanite are diamond's most common alternatives. Despite visual similarities, their physical and optical properties differ dramatically.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">10 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">RI</span><span class="value">2.42</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersion</span><span class="value">0.044</span></div>
+      <div class="ad-compare-row"><span class="label">Price (1 ct)</span><span class="value">$4,500–16,000</span></div>
+      <div class="ad-compare-row"><span class="label">Durability</span><span class="value">Lifetime</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Moissanite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">9.25 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">RI</span><span class="value">2.65 (higher than diamond)</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersion</span><span class="value">0.104 (2.4× diamond)</span></div>
+      <div class="ad-compare-row"><span class="label">Price (1 ct eq.)</span><span class="value">$300–600</span></div>
+      <div class="ad-compare-row"><span class="label">Durability</span><span class="value">Excellent</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cubic Zirconia</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">8–8.5 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">RI</span><span class="value">2.15</span></div>
+      <div class="ad-compare-row"><span class="label">Dispersion</span><span class="value">0.058</span></div>
+      <div class="ad-compare-row"><span class="label">Price (1 ct eq.)</span><span class="value">$1–20</span></div>
+      <div class="ad-compare-row"><span class="label">Durability</span><span class="value">Poor (scratches, clouds)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>How to Tell Them Apart</h3>
+
+<p>CZ is easy to detect — its low thermal conductivity is instantly flagged by standard diamond testers. Moissanite is trickier: its high thermal conductivity can fool classic testers into reading "diamond." Its double refraction creates doubled facet edges under magnification. Definitive identification requires an electrical conductivity test.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Practical Guide</div>
+  <div class="ad-fact-callout-text">CZ is a temporary fix — it clouds and scratches within 1–2 years. Moissanite is a permanent alternative with excellent hardness, but its "extra sparkle" looks different from diamond. If you're torn, seeing them side by side makes the difference immediately clear.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA gemology references, Charles & Colvard moissanite technical data, and independent comparison analyses.</p>`,
+
+  ar: `<h2>الألماس مقابل الزركونيا مقابل الموسانيت</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">صلابة الألماس</div>
+    <div class="ad-metric-value">10<span class="ad-metric-unit">موس</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الموسانيت</div>
+    <div class="ad-metric-value">9.25<span class="ad-metric-unit">موس</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">سعر CZ</div>
+    <div class="ad-metric-value">~1<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>الزركونيا المكعبة (CZ) والموسانيت أكثر بدائل الألماس شيوعاً. رغم التشابه البصري، تختلف خصائصها الفيزيائية والبصرية جذرياً.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الألماس</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">١٠ موس</span></div>
+      <div class="ad-compare-row"><span class="label">الانكسار</span><span class="value">٢.٤٢</span></div>
+      <div class="ad-compare-row"><span class="label">التشتت</span><span class="value">٠.٠٤٤</span></div>
+      <div class="ad-compare-row"><span class="label">السعر (١ قيراط)</span><span class="value">$٤,٥٠٠–١٦,٠٠٠</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الموسانيت</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">٩.٢٥ موس</span></div>
+      <div class="ad-compare-row"><span class="label">الانكسار</span><span class="value">٢.٦٥ (أعلى من الألماس)</span></div>
+      <div class="ad-compare-row"><span class="label">التشتت</span><span class="value">٠.١٠٤ (٢.٤× الألماس)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$٣٠٠–٦٠٠</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الزركونيا</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">٨–٨.٥ موس</span></div>
+      <div class="ad-compare-row"><span class="label">الانكسار</span><span class="value">٢.١٥</span></div>
+      <div class="ad-compare-row"><span class="label">التشتت</span><span class="value">٠.٠٥٨</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$١–٢٠</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>كيف تميّز بينها؟</h3>
+
+<p>CZ سهلة الكشف — التوصيل الحراري المنخفض يُرصد فوراً بجهاز اختبار الألماس القياسي. الموسانيت أصعب: توصيله الحراري العالي قد يخدع الأجهزة التقليدية. الانكسار المزدوج يُنتج حواف أوجه مزدوجة تحت التكبير. الكشف القاطع يتطلب اختبار التوصيل الكهربائي.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">دليل عملي</div>
+  <div class="ad-fact-callout-text">CZ حل مؤقت — يتعكر ويُخدش خلال سنة أو اثنتين. الموسانيت بديل دائم بصلابة ممتازة، لكن "لمعانه الزائد" يختلف عن الألماس. إذا حرت بينهما، رؤيتهما جنباً إلى جنب يوضح الفرق فوراً.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى مراجع GIA الجمولوجية وبيانات Charles & Colvard وتحليلات مقارنة مستقلة.</p>`
+};
+
+// ═══════════════════════════════════════════════════════════════
+// FAZ 9 — OTURUM 3 — BATCH B09: Diamond Tarih + Bakım
+// ═══════════════════════════════════════════════════════════════
+
+C[108] = {
+  tr: `<h2>Tektaş Geleneğinin Tarihi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">İlk Tektaş</div>
+    <div class="ad-metric-value">1477</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">"A Diamond is Forever"</div>
+    <div class="ad-metric-value">1947</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ABD Pırlanta Oranı</div>
+    <div class="ad-metric-value">~80<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Pırlanta nişan yüzüğü geleneği, bugün evrensel bir ritüel gibi görünse de aslında büyük ölçüde XX. yüzyılın ürünüdür. Ancak kökleri çok daha derine uzanır — ve bu hikâye, pazarlama tarihinin en başarılı kampanyalarından birini içerir.</p>
+
+<h3>Kökenler</h3>
+
+<p>Tarihte bilinen ilk pırlanta nişan yüzüğü, 1477'de Avusturya Arşidükü Maximilian tarafından Burgundy'li Mary'ye takılmıştır. Ancak bu gelenek yüzyıllar boyunca yalnızca Avrupa aristokrasisinde kaldı — orta sınıflar için pırlanta erişilemez bir lükstü.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Tektaş geleneği zaman çizelgesi">
+    <title>Pırlanta nişan yüzüğü tarihi</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="80" cy="80" r="4" class="tl-dot"/>
+      <text x="80" y="60" text-anchor="middle" class="tl-year">1477</text>
+      <text x="80" y="105" text-anchor="middle" class="tl-label">İlk tektaş</text>
+    </g>
+    <g>
+      <circle cx="200" cy="80" r="4" class="tl-dot"/>
+      <text x="200" y="60" text-anchor="middle" class="tl-year">1888</text>
+      <text x="200" y="105" text-anchor="middle" class="tl-label">De Beers kuruluşu</text>
+    </g>
+    <g>
+      <circle cx="350" cy="80" r="4" class="tl-dot"/>
+      <text x="350" y="60" text-anchor="middle" class="tl-year">1947</text>
+      <text x="350" y="105" text-anchor="middle" class="tl-label">"Forever" kampanyası</text>
+    </g>
+    <g>
+      <circle cx="500" cy="80" r="4" class="tl-dot"/>
+      <text x="500" y="60" text-anchor="middle" class="tl-year">1960s</text>
+      <text x="500" y="105" text-anchor="middle" class="tl-label">Japonya açılımı</text>
+    </g>
+    <g>
+      <circle cx="610" cy="80" r="5" class="tl-dot-active"/>
+      <text x="610" y="60" text-anchor="middle" class="tl-year">2026</text>
+      <text x="610" y="105" text-anchor="middle" class="tl-label">Küresel gelenek</text>
+    </g>
+  </svg>
+</div>
+
+<h3>De Beers ve "A Diamond is Forever"</h3>
+
+<p>1938'de De Beers, reklam ajansı N.W. Ayer ile çalışmaya başladı. Amaç, Büyük Buhran sonrası düşen pırlanta talebini yeniden canlandırmaktı. 1947'de copywriter Frances Gerety'nin kaleme aldığı "A Diamond is Forever" sloganı, yüzyılın en etkili reklam cümlesine dönüştü. Bu kampanya üç temel fikri zihinlere kazıdı: pırlanta sonsuz aşkın sembolüdür, iki aylık maaş harcamalısınız ve pırlanta asla yeniden satılmamalıdır (arz kontrolü için).</p>
+
+<h3>Küresel Yayılım</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Batı Pazarları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">ABD</span><span class="value">Nişanların ~%80'i pırlanta</span></div>
+      <div class="ad-compare-row"><span class="label">İngiltere</span><span class="value">Güçlü gelenek, ~%70</span></div>
+      <div class="ad-compare-row"><span class="label">Avustralya</span><span class="value">ABD'ye paralel</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Doğu Pazarları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Japonya</span><span class="value">1960'larda %5 → bugün ~%70</span></div>
+      <div class="ad-compare-row"><span class="label">Çin</span><span class="value">Hızla büyüyen, ~%50</span></div>
+      <div class="ad-compare-row"><span class="label">Hindistan</span><span class="value">Altın geleneği ağır basar</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Türkiye'de Tektaş</h3>
+
+<p>Türkiye'de pırlanta nişan yüzüğü geleneği 1990'lardan itibaren hızla yaygınlaştı. Geleneksel altın takı kültürünün yanına pırlanta tektaş eklendi — bugün büyük şehirlerde nişanların önemli bir kısmında pırlanta yüzük tercih ediliyor. "Bir taş, bir söz" anlayışı Türk kültürüne özgü bir yorumlama olarak yerleşti.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pazarlama Mucizesi</div>
+  <div class="ad-fact-callout-text">"A Diamond is Forever" sloganı, 1999'da Advertising Age tarafından yüzyılın en iyi reklam cümlesi seçildi. Frances Gerety, bir gece mesaisinin sonunda yarı uykulu halde bu cümleyi yazdığını itiraf etmiştir — ve bu altı kelime, küresel tüketim kültürünü kalıcı olarak değiştirdi.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>De Beers arşivleri, Edward Jay Epstein'ın "The Rise and Fall of Diamonds" çalışması, Advertising Age ve gemolojik referans kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>History of the Engagement Ring Tradition</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">First Ring</div>
+    <div class="ad-metric-value">1477</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">"A Diamond is Forever"</div>
+    <div class="ad-metric-value">1947</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">US Diamond Rate</div>
+    <div class="ad-metric-value">~80<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>The diamond engagement ring tradition feels like a universal ritual today, but it is largely a 20th-century creation. Its roots stretch much further back, however — and the story includes one of the most successful marketing campaigns in history.</p>
+
+<h3>Origins</h3>
+
+<p>The first known diamond engagement ring was given by Archduke Maximilian of Austria to Mary of Burgundy in 1477. Yet for centuries the tradition remained confined to European aristocracy — diamonds were an inaccessible luxury for the middle class.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Engagement ring tradition timeline">
+    <title>Diamond engagement ring history</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="80" cy="80" r="4" class="tl-dot"/>
+      <text x="80" y="60" text-anchor="middle" class="tl-year">1477</text>
+      <text x="80" y="105" text-anchor="middle" class="tl-label">First ring</text>
+    </g>
+    <g>
+      <circle cx="200" cy="80" r="4" class="tl-dot"/>
+      <text x="200" y="60" text-anchor="middle" class="tl-year">1888</text>
+      <text x="200" y="105" text-anchor="middle" class="tl-label">De Beers founded</text>
+    </g>
+    <g>
+      <circle cx="350" cy="80" r="4" class="tl-dot"/>
+      <text x="350" y="60" text-anchor="middle" class="tl-year">1947</text>
+      <text x="350" y="105" text-anchor="middle" class="tl-label">"Forever" campaign</text>
+    </g>
+    <g>
+      <circle cx="500" cy="80" r="4" class="tl-dot"/>
+      <text x="500" y="60" text-anchor="middle" class="tl-year">1960s</text>
+      <text x="500" y="105" text-anchor="middle" class="tl-label">Japan expansion</text>
+    </g>
+    <g>
+      <circle cx="610" cy="80" r="5" class="tl-dot-active"/>
+      <text x="610" y="60" text-anchor="middle" class="tl-year">2026</text>
+      <text x="610" y="105" text-anchor="middle" class="tl-label">Global tradition</text>
+    </g>
+  </svg>
+</div>
+
+<h3>De Beers and "A Diamond is Forever"</h3>
+
+<p>In 1938, De Beers partnered with ad agency N.W. Ayer to revive post-Depression diamond demand. In 1947, copywriter Frances Gerety penned the six words that became the century's most influential ad slogan: "A Diamond is Forever." The campaign planted three ideas: diamonds symbolize eternal love, you should spend two months' salary, and diamonds should never be resold (to control supply).</p>
+
+<h3>Global Spread</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Western Markets</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">USA</span><span class="value">~80% of engagements</span></div>
+      <div class="ad-compare-row"><span class="label">UK</span><span class="value">Strong tradition, ~70%</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Eastern Markets</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Japan</span><span class="value">5% in 1960s → ~70% today</span></div>
+      <div class="ad-compare-row"><span class="label">China</span><span class="value">Fast growing, ~50%</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Marketing Miracle</div>
+  <div class="ad-fact-callout-text">"A Diamond is Forever" was voted the century's best advertising slogan by Advertising Age in 1999. Frances Gerety admitted she wrote it half-asleep at the end of a late shift — and those six words permanently reshaped global consumer culture.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on De Beers archives, Edward Jay Epstein's "The Rise and Fall of Diamonds," Advertising Age, and gemological references.</p>`,
+
+  ar: `<h2>تاريخ تقليد خاتم الخطوبة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أول خاتم</div>
+    <div class="ad-metric-value">1477</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">"الألماس للأبد"</div>
+    <div class="ad-metric-value">1947</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">نسبة الألماس بأمريكا</div>
+    <div class="ad-metric-value">~80<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>يبدو تقليد خاتم الخطوبة الألماسي طقساً عالمياً اليوم، لكنه إلى حد كبير صنيعة القرن العشرين. جذوره تمتد أبعد — والقصة تتضمن إحدى أنجح الحملات التسويقية في التاريخ.</p>
+
+<h3>الأصول</h3>
+
+<p>أول خاتم خطوبة ألماسي معروف أُهدي عام ١٤٧٧ من الأرشيدوق ماكسيميليان لماري أميرة بورغندي. لكن التقليد ظل محصوراً في الأرستقراطية الأوروبية لقرون.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="الجدول الزمني لتقليد خاتم الخطوبة">
+    <title>تاريخ خاتم الخطوبة الألماسي</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="80" cy="80" r="4" class="tl-dot"/>
+      <text x="80" y="60" text-anchor="middle" class="tl-year">١٤٧٧</text>
+      <text x="80" y="105" text-anchor="middle" class="tl-label">أول خاتم</text>
+    </g>
+    <g>
+      <circle cx="240" cy="80" r="4" class="tl-dot"/>
+      <text x="240" y="60" text-anchor="middle" class="tl-year">١٨٨٨</text>
+      <text x="240" y="105" text-anchor="middle" class="tl-label">تأسيس دي بيرز</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">١٩٤٧</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">حملة "للأبد"</text>
+    </g>
+    <g>
+      <circle cx="580" cy="80" r="5" class="tl-dot-active"/>
+      <text x="580" y="60" text-anchor="middle" class="tl-year">٢٠٢٦</text>
+      <text x="580" y="105" text-anchor="middle" class="tl-label">تقليد عالمي</text>
+    </g>
+  </svg>
+</div>
+
+<h3>دي بيرز و"الألماس للأبد"</h3>
+
+<p>عام ١٩٤٧ كتبت فرانسيس غيرتي الكلمات الست التي أصبحت أشهر شعار إعلاني في القرن: "الألماس للأبد". غرست الحملة ثلاث أفكار: الألماس يرمز للحب الأبدي، يجب إنفاق راتب شهرين، والألماس لا يُعاد بيعه أبداً.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">معجزة تسويقية</div>
+  <div class="ad-fact-callout-text">اختير شعار "الألماس للأبد" كأفضل شعار إعلاني في القرن من مجلة Advertising Age عام ١٩٩٩. اعترفت غيرتي بأنها كتبته شبه نائمة في نهاية وردية متأخرة — وغيّرت تلك الكلمات الست ثقافة الاستهلاك العالمية للأبد.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أرشيف دي بيرز ودراسة إبستين "صعود وسقوط الألماس" وAdvertising Age والمراجع الجمولوجية.</p>`
+};
+
+C[109] = {
+  tr: `<h2>Dünyanın Ünlü Pırlantaları</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Büyük Ham</div>
+    <div class="ad-metric-value">3,106<span class="ad-metric-unit">ct</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Pahalı Satış</div>
+    <div class="ad-metric-value">71.2<span class="ad-metric-unit">M$</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Efsanevi Taş</div>
+    <div class="ad-metric-value">Hope</div>
+  </div>
+</div>
+
+<p>Tarih boyunca bazı pırlantalar, olağanüstü boyutları, renkleri veya hikâyeleriyle efsaneye dönüştü. Bu taşlar, mücevher dünyasının "rockstar"larıdır — her birinin arkasında savaşlar, hırsızlıklar, lanetler ve tutkulu koleksiyonculuk hikâyeleri yatar.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Hope Pırlantası</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">45.52 ct</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Fancy deep grayish blue</span></div>
+      <div class="ad-compare-row"><span class="label">Konum</span><span class="value">Smithsonian Müzesi</span></div>
+      <div class="ad-compare-row"><span class="label">Ün</span><span class="value">"Lanetli" pırlanta efsanesi</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cullinan</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ham ağırlık</span><span class="value">3,106.75 ct</span></div>
+      <div class="ad-compare-row"><span class="label">Kesildi</span><span class="value">9 büyük + 96 küçük taş</span></div>
+      <div class="ad-compare-row"><span class="label">En büyüğü</span><span class="value">Cullinan I (530.2 ct)</span></div>
+      <div class="ad-compare-row"><span class="label">Konum</span><span class="value">İngiliz Kraliyet Asası</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Koh-i-Noor</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">105.6 ct</span></div>
+      <div class="ad-compare-row"><span class="label">Anlamı</span><span class="value">"Işık Dağı"</span></div>
+      <div class="ad-compare-row"><span class="label">Konum</span><span class="value">Londra Kulesi</span></div>
+      <div class="ad-compare-row"><span class="label">Tartışma</span><span class="value">Hindistan iade talebi</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Rekor Müzayede Pırlantaları</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pembe Efsaneler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pink Star</span><span class="value">59.60 ct — $71.2M (2017)</span></div>
+      <div class="ad-compare-row"><span class="label">Graff Pink</span><span class="value">24.78 ct — $46.2M (2010)</span></div>
+      <div class="ad-compare-row"><span class="label">Pink Legacy</span><span class="value">18.96 ct — $50.4M (2018)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mavi & Diğer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Oppenheimer Blue</span><span class="value">14.62 ct — $57.5M (2016)</span></div>
+      <div class="ad-compare-row"><span class="label">De Beers Blue</span><span class="value">15.10 ct — $57.5M (2022)</span></div>
+      <div class="ad-compare-row"><span class="label">Regent</span><span class="value">140.64 ct — Louvre'da</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Osmanlı Hazineleri</h3>
+
+<p>Topkapı Sarayı Hazine Dairesi, dünyanın en önemli tarihî pırlanta koleksiyonlarından birine ev sahipliği yapar. 86 karatlık Kaşıkçı Elması (Spoonmaker's Diamond) ve Topkapı Hançeri koleksiyonun yıldızlarıdır. Kaşıkçı Elması, dünyanın en büyük pırlantalarından biri olup beşinci büyük kesilmiş pırlanta olarak kabul edilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">İnanılmaz Gerçek</div>
+  <div class="ad-fact-callout-text">1905'te Güney Afrika'da bulunan Cullinan pırlantası, ham haliyle 3,106 karattı — yaklaşık 621 gram, kabaca bir yumruk büyüklüğünde. Kesimine başlamadan önce usta kesimci Joseph Asscher'in rivayete göre bir hafta boyunca taşı incelediği ve ilk darbenin ardından bayıldığı söylenir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Smithsonian Müzesi, Christie's ve Sotheby's müzayede kayıtları, Topkapı Sarayı Müzesi ve gemolojik referans kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>The World's Famous Diamonds</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Largest Rough</div>
+    <div class="ad-metric-value">3,106<span class="ad-metric-unit">ct</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Highest Sale</div>
+    <div class="ad-metric-value">71.2<span class="ad-metric-unit">M$</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Legendary Stone</div>
+    <div class="ad-metric-value">Hope</div>
+  </div>
+</div>
+
+<p>Throughout history, certain diamonds have become legends thanks to their extraordinary size, color, or story. These are the "rockstars" of the gem world — each carrying tales of wars, thefts, curses, and passionate collecting.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Hope Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">45.52 ct</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Fancy deep grayish blue</span></div>
+      <div class="ad-compare-row"><span class="label">Location</span><span class="value">Smithsonian Museum</span></div>
+      <div class="ad-compare-row"><span class="label">Fame</span><span class="value">"Cursed" diamond legend</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cullinan</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Rough weight</span><span class="value">3,106.75 ct</span></div>
+      <div class="ad-compare-row"><span class="label">Cut into</span><span class="value">9 major + 96 small stones</span></div>
+      <div class="ad-compare-row"><span class="label">Largest</span><span class="value">Cullinan I (530.2 ct)</span></div>
+      <div class="ad-compare-row"><span class="label">Location</span><span class="value">British Royal Sceptre</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Koh-i-Noor</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">105.6 ct</span></div>
+      <div class="ad-compare-row"><span class="label">Meaning</span><span class="value">"Mountain of Light"</span></div>
+      <div class="ad-compare-row"><span class="label">Location</span><span class="value">Tower of London</span></div>
+      <div class="ad-compare-row"><span class="label">Controversy</span><span class="value">India repatriation claim</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Record Auction Diamonds</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pink Legends</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pink Star</span><span class="value">59.60 ct — $71.2M (2017)</span></div>
+      <div class="ad-compare-row"><span class="label">Graff Pink</span><span class="value">24.78 ct — $46.2M (2010)</span></div>
+      <div class="ad-compare-row"><span class="label">Pink Legacy</span><span class="value">18.96 ct — $50.4M (2018)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Blue & Others</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Oppenheimer Blue</span><span class="value">14.62 ct — $57.5M (2016)</span></div>
+      <div class="ad-compare-row"><span class="label">De Beers Blue</span><span class="value">15.10 ct — $57.5M (2022)</span></div>
+      <div class="ad-compare-row"><span class="label">Regent</span><span class="value">140.64 ct — Louvre Museum</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Incredible Fact</div>
+  <div class="ad-fact-callout-text">The Cullinan diamond, found in South Africa in 1905, weighed 3,106 carats in the rough — about 621 grams, roughly the size of a fist. Legend has it that master cutter Joseph Asscher studied the stone for a week before the first cleave, and reportedly fainted once the blow was struck.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Smithsonian Museum, Christie's and Sotheby's auction records, and gemological references.</p>`,
+
+  ar: `<h2>ألماسات العالم الشهيرة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أكبر خام</div>
+    <div class="ad-metric-value">3,106<span class="ad-metric-unit">قيراط</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أعلى بيع</div>
+    <div class="ad-metric-value">71.2<span class="ad-metric-unit">م$</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الحجر الأسطوري</div>
+    <div class="ad-metric-value">الأمل</div>
+  </div>
+</div>
+
+<p>عبر التاريخ، تحولت بعض الألماسات إلى أساطير بفضل حجمها الاستثنائي أو لونها أو قصتها. هذه هي "نجوم الروك" في عالم الجواهر — وراء كل منها حكايات حروب وسرقات ولعنات وشغف جمع.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ألماسة الأمل</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">٤٥.٥٢ قيراط</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق رمادي عميق فاخر</span></div>
+      <div class="ad-compare-row"><span class="label">الموقع</span><span class="value">متحف سميثسونيان</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">كولينان</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الوزن الخام</span><span class="value">٣,١٠٦.٧٥ قيراط</span></div>
+      <div class="ad-compare-row"><span class="label">قُطع إلى</span><span class="value">٩ كبيرة + ٩٦ صغيرة</span></div>
+      <div class="ad-compare-row"><span class="label">الأكبر</span><span class="value">كولينان I (٥٣٠.٢ قيراط)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">كوه نور</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">١٠٥.٦ قيراط</span></div>
+      <div class="ad-compare-row"><span class="label">المعنى</span><span class="value">"جبل النور"</span></div>
+      <div class="ad-compare-row"><span class="label">الجدل</span><span class="value">مطالبة الهند بالاسترداد</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">ألماسة كولينان المكتشفة في جنوب إفريقيا عام ١٩٠٥ وزنت ٣,١٠٦ قيراط خاماً — نحو ٦٢١ غراماً بحجم قبضة اليد تقريباً. يُقال إن القاطع الماهر جوزيف آشر درس الحجر أسبوعاً كاملاً قبل أول ضربة، وأُغمي عليه بعدها.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى متحف سميثسونيان وسجلات كريستيز وسوذبيز والمراجع الجمولوجية.</p>`
+};
+
+C[186] = {
+  tr: `<h2>Pırlanta Temizleme ve Bakım</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Temizlik Sıklığı</div>
+    <div class="ad-metric-value">Haftalık</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Işıltı Kaybı</div>
+    <div class="ad-metric-value">40<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Profesyonel Servis</div>
+    <div class="ad-metric-value">Yılda 1–2<span class="ad-metric-unit">×</span></div>
+  </div>
+</div>
+
+<p>Pırlanta dünyanın en sert doğal maddesi olmasına rağmen, yağ ve kir birikmesine karşı savunmasızdır. Parmak izi, losyon, sabun filmi ve günlük temas, taşın ışık performansını %40'a kadar azaltabilir. Düzenli temizlik ve doğru bakım, yüzüğünüzün ilk günkü parlaklığını korumanın anahtarıdır.</p>
+
+<h3>Evde Güvenli Temizlik</h3>
+
+<p>Ilık su (sıcak değil) ve birkaç damla bulaşık deterjanı — en güvenli ve etkili yöntem budur. Yüzüğü 20–30 dakika bekletin. Yumuşak diş fırçası ile özellikle taşın arkasını ve ayar arasındaki boşlukları nazikçe fırçalayın — kir en çok buralarda birikir. Durulayıp tüysüz bezle kurulayın. Haftada bir tekrarlayın.</p>
+
+<h3>Kaçınılması Gerekenler</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tehlikeli Maddeler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Klor</span><span class="value">Ayar metalini zayıflatır</span></div>
+      <div class="ad-compare-row"><span class="label">Diş macunu</span><span class="value">Aşındırıcı — ayarı çizer</span></div>
+      <div class="ad-compare-row"><span class="label">Amonyak (%10+)</span><span class="value">Bazı taşlara zarar verir</span></div>
+      <div class="ad-compare-row"><span class="label">Çamaşır suyu</span><span class="value">Altın alaşımını bozar</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Riskli Yöntemler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ultrasonik</span><span class="value">I1–I3 taşlarda çatlama riski</span></div>
+      <div class="ad-compare-row"><span class="label">Buhar</span><span class="value">Sadece profesyonel kullanım</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynar su</span><span class="value">Termal şok → ayar hasarı</span></div>
+      <div class="ad-compare-row"><span class="label">Sert fırça</span><span class="value">Metal ayarı çizer</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Profesyonel Servis</h3>
+
+<p>Yılda 1–2 kez kuyumcuya götürün. Profesyonel servis kapsamı: tırnak/ayar kontrolü (prong tightening) — gevşek tırnak taşın düşme riskini artırır; profesyonel ultrasonik temizlik (yüksek berraklıkta taşlar için güvenli); rodyum yenileme (beyaz altın yüzüklerde); ve genel aşınma kontrolü.</p>
+
+<h3>Günlük Koruma İpuçları</h3>
+
+<p>Losyon, parfüm ve saç spreyi sürdükten sonra yüzüğü takın — "son takılan ilk çıkarılan" kuralı. Bulaşık yıkarken, bahçe işlerinde ve spor yaparken çıkarın. Seyahatte yumuşak astarlı çantada taşıyın — pırlantalar birbirini çizer. Yüzüğü lavabo kenarına bırakmayın; gidere düşme riski yüksektir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kolay Kural</div>
+  <div class="ad-fact-callout-text">Pırlanta yağı sever — lipofiliktir. Parmak iziniz bile ışıltıyı fark edilir biçimde azaltır. Her pazar akşamı 20 dakikalık ılık sabunlu su banyosu rutini, yüzüğünüzün ışıltısını yıl boyunca zirve seviyede tutar. En basit bakım, en etkili olanıdır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA pırlanta bakım rehberi, AGS tüketici kaynakları ve kuyumculuk sektörü en iyi uygulamalarına dayanmaktadır.</p>`,
+
+  en: `<h2>Diamond Cleaning & Care</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Cleaning Frequency</div>
+    <div class="ad-metric-value">Weekly</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sparkle Loss</div>
+    <div class="ad-metric-value">40<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pro Service</div>
+    <div class="ad-metric-value">1–2<span class="ad-metric-unit">×/yr</span></div>
+  </div>
+</div>
+
+<p>Despite being the hardest natural substance, diamonds are vulnerable to oil and dirt buildup. Fingerprints, lotion, soap film, and daily contact can reduce a stone's light performance by up to 40%. Regular cleaning and proper care are the keys to preserving your ring's day-one brilliance.</p>
+
+<h3>Safe Home Cleaning</h3>
+
+<p>Warm water (not hot) and a few drops of dish soap — the safest and most effective method. Soak for 20–30 minutes. Gently brush the back of the stone and the gaps around the setting with a soft toothbrush — dirt accumulates most here. Rinse and dry with a lint-free cloth. Repeat weekly.</p>
+
+<h3>What to Avoid</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Dangerous Substances</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Chlorine</span><span class="value">Weakens setting metal</span></div>
+      <div class="ad-compare-row"><span class="label">Toothpaste</span><span class="value">Abrasive — scratches settings</span></div>
+      <div class="ad-compare-row"><span class="label">Bleach</span><span class="value">Degrades gold alloys</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Risky Methods</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ultrasonic</span><span class="value">Cracking risk for I1–I3 stones</span></div>
+      <div class="ad-compare-row"><span class="label">Steam</span><span class="value">Professional use only</span></div>
+      <div class="ad-compare-row"><span class="label">Boiling water</span><span class="value">Thermal shock → setting damage</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Professional Service</h3>
+
+<p>Visit a jeweler 1–2 times per year for prong tightening (loose prongs risk stone loss), professional ultrasonic cleaning (safe for high-clarity stones), rhodium replating (for white gold), and general wear inspection.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Easy Rule</div>
+  <div class="ad-fact-callout-text">Diamond is lipophilic — it loves oil. Even your fingerprint noticeably reduces sparkle. A 20-minute warm soapy water soak every Sunday evening keeps your ring's brilliance at peak level all year. The simplest care routine is the most effective one.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA diamond care guide, AGS consumer resources, and jewelry industry best practices.</p>`,
+
+  ar: `<h2>تنظيف وعناية الألماس</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">تكرار التنظيف</div>
+    <div class="ad-metric-value">أسبوعي</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">فقدان اللمعان</div>
+    <div class="ad-metric-value">40<span class="ad-metric-unit">%↓</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">خدمة احترافية</div>
+    <div class="ad-metric-value">1–2<span class="ad-metric-unit">×/سنة</span></div>
+  </div>
+</div>
+
+<p>رغم كون الألماس أصلب مادة طبيعية، إلا أنه عرضة لتراكم الزيوت والأوساخ. بصمات الأصابع والكريمات وأفلام الصابون قد تقلل أداء الضوء بنسبة ٤٠٪. التنظيف المنتظم والعناية السليمة مفتاح الحفاظ على بريق خاتمك كاليوم الأول.</p>
+
+<h3>التنظيف المنزلي الآمن</h3>
+
+<p>ماء دافئ (ليس ساخناً) + بضع قطرات صابون أطباق. انقع ٢٠–٣٠ دقيقة. افرك ظهر الحجر والفجوات حول الإعداد بفرشاة أسنان ناعمة. اشطف وجفف بقماش خالٍ من الوبر. كرر أسبوعياً.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مواد خطرة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الكلور</span><span class="value">يُضعف معدن الإعداد</span></div>
+      <div class="ad-compare-row"><span class="label">معجون الأسنان</span><span class="value">كاشط — يخدش</span></div>
+      <div class="ad-compare-row"><span class="label">المبيض</span><span class="value">يُفسد سبائك الذهب</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">طرق محفوفة بالمخاطر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">فوق صوتي</span><span class="value">خطر تشقق أحجار I1–I3</span></div>
+      <div class="ad-compare-row"><span class="label">البخار</span><span class="value">للمحترفين فقط</span></div>
+      <div class="ad-compare-row"><span class="label">ماء مغلي</span><span class="value">صدمة حرارية → تلف الإعداد</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">قاعدة سهلة</div>
+  <div class="ad-fact-callout-text">الألماس محب للدهون — حتى بصمة إصبعك تقلل اللمعان بشكل ملحوظ. نقع ٢٠ دقيقة في ماء صابوني دافئ كل مساء أحد يحافظ على بريق خاتمك طوال العام. أبسط روتين عناية هو الأكثر فعالية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى دليل عناية GIA وموارد AGS وأفضل ممارسات صناعة المجوهرات.</p>`
+};
+
+C[187] = {
+  tr: `<h2>Tektaş Ayar Türleri Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Popüler</div>
+    <div class="ad-metric-value">Prong</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Güvenli</div>
+    <div class="ad-metric-value">Bezel</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Modern</div>
+    <div class="ad-metric-value">Tension</div>
+  </div>
+</div>
+
+<p>Pırlantanın güzelliği yalnızca 4C ile değil, ayar (montür) seçimiyle de belirlenir. Doğru ayar taşı korur, ışıltıyı artırır ve tarzınızı yansıtır. Yanlış ayar ise en kaliteli taşı tehlikeye atabilir veya parlaklığını gizleyebilir.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Prong (Tırnak)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yapı</span><span class="value">4 veya 6 metal tırnak</span></div>
+      <div class="ad-compare-row"><span class="label">Işıltı</span><span class="value">Maksimum (taş açıkta)</span></div>
+      <div class="ad-compare-row"><span class="label">Güvenlik</span><span class="value">Orta — düzenli kontrol gerekir</span></div>
+      <div class="ad-compare-row"><span class="label">Bakım</span><span class="value">6 ayda bir tırnak kontrolü</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Klasik tektaş, maksimum parlaklık</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Bezel (Çerçeve)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yapı</span><span class="value">Metal şerit taşı çevreler</span></div>
+      <div class="ad-compare-row"><span class="label">Işıltı</span><span class="value">Daha az — kenar kapalı</span></div>
+      <div class="ad-compare-row"><span class="label">Güvenlik</span><span class="value">En yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Bakım</span><span class="value">Düşük bakım</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Aktif yaşam tarzı, sporcular</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tension (Gerilim)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yapı</span><span class="value">Metal basıncıyla havada</span></div>
+      <div class="ad-compare-row"><span class="label">Işıltı</span><span class="value">Çarpıcı — taş süzülür</span></div>
+      <div class="ad-compare-row"><span class="label">Güvenlik</span><span class="value">İyi (sert metallerde)</span></div>
+      <div class="ad-compare-row"><span class="label">Bakım</span><span class="value">Boyut değiştirme çok zor</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Modern minimalizm</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Diğer Ayar Türleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pavé</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yapı</span><span class="value">Küçük taşlar yüzeye gömülü</span></div>
+      <div class="ad-compare-row"><span class="label">Etki</span><span class="value">Ekstra ışıltı bandı</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Küçük taşlar düşebilir</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Halo ve bant tarzı</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cathedral</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yapı</span><span class="value">Yükseltilmiş kemerli yapı</span></div>
+      <div class="ad-compare-row"><span class="label">Etki</span><span class="value">Taşı büyük gösterir</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Günlük kullanımda takılma</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Vintage his, zarif profil</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Halo Ayar</h3>
+
+<p>Merkez taşın etrafında küçük pırlantalardan oluşan çerçeve, taşı optik olarak 0.25–0.50 karat daha büyük gösterir. Halo, özellikle düşük karat taşlarda dramatik bir boyut etkisi yaratır ve günümüzün en popüler ayar trendlerinden biridir. Tek dezavantajı, küçük çevre taşlarının zaman içinde düşme riskidir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Seçim Rehberi</div>
+  <div class="ad-fact-callout-text">Aktif yaşam tarzı → Bezel. Maksimum ışıltı → Prong (6 tırnak). Modern minimalizm → Tension. Vintage zarafet → Cathedral. Taşı büyük göstermek → Halo. Romantik parıltı → Pavé. En iyi ayar, taşınızın güçlü yönlerini öne çıkaran ve yaşam tarzınıza uyan ayardır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA mücevher tasarım kaynakları, JCK sektör trendleri ve kuyumculuk en iyi uygulamalarına dayanmaktadır.</p>`,
+
+  en: `<h2>Diamond Setting Types Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Most Popular</div>
+    <div class="ad-metric-value">Prong</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Most Secure</div>
+    <div class="ad-metric-value">Bezel</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Most Modern</div>
+    <div class="ad-metric-value">Tension</div>
+  </div>
+</div>
+
+<p>A diamond's beauty is determined not just by the 4Cs, but by the setting choice. The right setting protects the stone, enhances sparkle, and reflects your style. The wrong one can endanger even the finest stone or mask its brilliance.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Prong</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Structure</span><span class="value">4 or 6 metal prongs</span></div>
+      <div class="ad-compare-row"><span class="label">Sparkle</span><span class="value">Maximum (stone exposed)</span></div>
+      <div class="ad-compare-row"><span class="label">Security</span><span class="value">Medium — needs regular checks</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal for</span><span class="value">Classic solitaire, max brilliance</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Bezel</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Structure</span><span class="value">Metal rim encircles stone</span></div>
+      <div class="ad-compare-row"><span class="label">Sparkle</span><span class="value">Less — edge covered</span></div>
+      <div class="ad-compare-row"><span class="label">Security</span><span class="value">Highest</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal for</span><span class="value">Active lifestyle, athletes</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tension</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Structure</span><span class="value">Metal pressure suspends stone</span></div>
+      <div class="ad-compare-row"><span class="label">Sparkle</span><span class="value">Striking — stone floats</span></div>
+      <div class="ad-compare-row"><span class="label">Security</span><span class="value">Good (in hard metals)</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal for</span><span class="value">Modern minimalism</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Other Setting Types</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pavé</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Structure</span><span class="value">Small stones embedded in surface</span></div>
+      <div class="ad-compare-row"><span class="label">Effect</span><span class="value">Extra sparkle band</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Small stones can fall out</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cathedral</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Structure</span><span class="value">Raised arched frame</span></div>
+      <div class="ad-compare-row"><span class="label">Effect</span><span class="value">Makes stone look larger</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Snag risk in daily wear</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Halo Setting</h3>
+
+<p>A frame of small diamonds around the center stone makes it appear 0.25–0.50 carats larger. Halo creates dramatic size effect, especially on lower-carat stones, and is one of today's most popular trends.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Selection Guide</div>
+  <div class="ad-fact-callout-text">Active lifestyle → Bezel. Maximum sparkle → Prong (6-prong). Modern minimalism → Tension. Vintage elegance → Cathedral. Make it look bigger → Halo. Romantic shimmer → Pavé. The best setting highlights your stone's strengths and fits your life.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA jewelry design resources, JCK industry trends, and jewelry best practices.</p>`,
+
+  ar: `<h2>دليل أنواع تثبيت الألماس</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأكثر شعبية</div>
+    <div class="ad-metric-value">الأظافر</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأكثر أماناً</div>
+    <div class="ad-metric-value">الإطار</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأكثر حداثة</div>
+    <div class="ad-metric-value">الشد</div>
+  </div>
+</div>
+
+<p>جمال الألماس لا يتحدد فقط بمعايير الـ4C، بل أيضاً باختيار التثبيت. التثبيت الصحيح يحمي الحجر ويعزز اللمعان ويعكس أسلوبك. الخاطئ قد يعرّض أفضل حجر للخطر أو يخفي بريقه.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الأظافر (Prong)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">البنية</span><span class="value">٤ أو ٦ أظافر معدنية</span></div>
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">أقصى (الحجر مكشوف)</span></div>
+      <div class="ad-compare-row"><span class="label">الأمان</span><span class="value">متوسط — يحتاج فحصاً منتظماً</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">السوليتير الكلاسيكي</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الإطار (Bezel)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">البنية</span><span class="value">حافة معدنية تحيط بالحجر</span></div>
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">أقل — الحافة مغطاة</span></div>
+      <div class="ad-compare-row"><span class="label">الأمان</span><span class="value">الأعلى</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">نمط حياة نشط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الشد (Tension)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">البنية</span><span class="value">ضغط المعدن يعلّق الحجر</span></div>
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">مذهل — الحجر يطفو</span></div>
+      <div class="ad-compare-row"><span class="label">الأمان</span><span class="value">جيد (في معادن صلبة)</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">البساطة الحديثة</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>تثبيت الهالة</h3>
+
+<p>إطار من ألماسات صغيرة حول الحجر المركزي يجعله يبدو أكبر بـ٠.٢٥–٠.٥٠ قيراط. الهالة تخلق تأثير حجم دراماتيكي خاصة مع أحجار أصغر.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">دليل الاختيار</div>
+  <div class="ad-fact-callout-text">نمط حياة نشط → إطار. أقصى لمعان → أظافر (٦). بساطة حديثة → شد. أناقة عتيقة → كاتدرائي. تكبير بصري → هالة. وميض رومانسي → بافيه. أفضل تثبيت هو الذي يُبرز نقاط قوة حجرك ويناسب حياتك.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى موارد تصميم GIA وتقارير JCK وأفضل ممارسات المجوهرات.</p>`
+};

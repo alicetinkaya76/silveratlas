@@ -456,7 +456,6 @@ C[144] = {
 <h3>ملاحظة المصادر</h3><p>مبني على بيانات GIA وJCK.</p>`
 };
 
-export default C;
 
 C[191] = {
   tr: `<h2>Metal Alerjisi Rehberi</h2><p>Takı alerjisi, dünya nüfusunun yaklaşık %10-15'ini etkileyen yaygın bir sorundur. Suçlu genellikle nikeldir.</p><h3>Nikel Alerjisi</h3><p>En yaygın kontak dermatiti nedeni. Belirtiler: kızarıklık, kaşıntı, kabarcık, pullanma. Takıyla temas eden bölgede 12-48 saat içinde ortaya çıkar. Bir kez geliştiğinde ömür boyu devam eder.</p><h3>Hipoalerjenik Metal Sıralaması</h3><p>1. Platin: Pratik olarak alerji riski sıfır (%95-99 saf). 2. Titanyum: Biyouyumlu, implant metali. 3. 24K Altın: Saf halde alerji yapmaz (alaşımlardaki nikel sorun). 4. 925 Gümüş: Genelde güvenli, bakır alaşımı nadiren reaksiyon. 5. Cerrahi Çelik (316L): Nikel içerir ama kapalı yapıda, çoğu kişide güvenli.</p><h3>Tehlikeli Metaller</h3><p>Nikel alaşımlı beyaz altın: En sık sorun kaynağı. Pirinç/bronz: Nikel içerebilir. Kaplama takılar: Kaplama aşınınca altındaki nikel açığa çıkar.</p><div class="fact-box"><strong>AB Kuralı:</strong> Avrupa Birliği REACH yönetmeliği, ciltle temas eden takılarda nikel salınımını 0.5 µg/cm²/hafta ile sınırlar.</div>`,
@@ -469,3 +468,1387 @@ C[192] = {
   en: `<h2>Platinum & Catalytic Converters</h2><p>The platinum group (PGM) contains six metals. Their largest industrial use is in automotive catalytic converters.</p><h3>How It Works</h3><p>Catalytic converters transform harmful emissions (CO, NOx, hydrocarbons) into less harmful substances (CO₂, N₂, H₂O). Platinum and palladium serve as oxidation catalysts, rhodium as reduction catalyst.</p><h3>PGM Demand</h3><p>Automotive accounts for 25-30% of platinum and 80% of palladium demand. A diesel converter contains 3-7g platinum, a gasoline one 2-5g palladium.</p><h3>Hydrogen Future</h3><p>Hydrogen fuel cells (PEM) use platinum catalysts. Green energy transition may increase PGM demand. Toyota Mirai's fuel cell contains ~30g platinum.</p><div class="fact-box"><strong>Theft:</strong> Catalytic converter theft is rising globally — PGM value in a converter ranges $100-1000.</div>`,
   ar: `<h2>البلاتين والمحولات الحفازة</h2><p>مجموعة البلاتين تحتوي على ستة معادن. أكبر استخدام صناعي لها في المحولات الحفازة للسيارات.</p><h3>كيف تعمل؟</h3><p>المحولات الحفازة تحول الانبعاثات الضارة إلى مواد أقل ضرراً. البلاتين والبلاديوم محفزات أكسدة.</p><h3>مستقبل الهيدروجين</h3><p>خلايا وقود الهيدروجين تستخدم محفزات البلاتين. التحول الأخضر قد يزيد الطلب.</p><div class="fact-box"><strong>سرقة:</strong> سرقة المحولات الحفازة تتزايد عالمياً — قيمة المعادن فيها $١٠٠-١٠٠٠.</div>`
 };
+// ═══════════════════════════════════════════════════════
+// B14 — Platinum Ana  (5 makale)
+// Hedef: content_platinum.js  •  Oturum 5
+// ═══════════════════════════════════════════════════════
+
+// ───────────────────────────────────────────────────────
+// C[138] — Platin Nişan ve Alyans Rehberi
+// ───────────────────────────────────────────────────────
+C[138] = {
+  tr: `<h2>Platin Nişan ve Alyans Rehberi — Ömür Boyu Parlaklık</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Saflık</div>
+    <div class="ad-metric-value">%95<span class="ad-metric-unit"> Pt950</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yoğunluk</div>
+    <div class="ad-metric-value">21.45<span class="ad-metric-unit"> g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hipoalerjenik</div>
+    <div class="ad-metric-value">%100<span class="ad-metric-unit"> güvenli</span></div>
+  </div>
+</div>
+
+<p>Platin, nişan yüzüğü ve alyans için en prestijli metal seçeneğidir. Doğal beyaz rengi, olağanüstü dayanıklılığı ve hipoalerjenik yapısı onu özellikle pırlanta tektaşlar için ideal kılar. Beyaz altından farklı olarak platin rodyum kaplaması gerektirmez — rengi doğal ve kalıcıdır.</p>
+
+<h3>Platin vs Beyaz Altın</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Platin (Pt950)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Saflık</span><span class="value">%95 platin</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Doğal beyaz-gri</span></div>
+      <div class="ad-compare-row"><span class="label">Kaplama</span><span class="value">Gereksiz</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">Altından %60 ağır</span></div>
+      <div class="ad-compare-row"><span class="label">Alerji</span><span class="value">Hipoalerjenik</span></div>
+      <div class="ad-compare-row"><span class="label">Aşınma</span><span class="value">Metal kaymaz, patinalanır</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Altının ~1.0–1.3 katı</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Beyaz Altın (18K)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Saflık</span><span class="value">%75 altın + Pd/Ni</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Sarımsı (rodyumsuz)</span></div>
+      <div class="ad-compare-row"><span class="label">Kaplama</span><span class="value">Rodyum (1–3 yılda yenilenir)</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">Daha hafif</span></div>
+      <div class="ad-compare-row"><span class="label">Alerji</span><span class="value">Nikel riski (Pd ile çözülür)</span></div>
+      <div class="ad-compare-row"><span class="label">Aşınma</span><span class="value">Metal aşınır (kayıp)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Daha ekonomik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Pırlanta İçin Neden Platin?</h3>
+
+<p>Platin, pırlantanın en iyi dostu olarak kabul edilir. Sert yapısı taşı güvenle tutar — altına göre pençe (prong) kırılma riski çok daha düşüktür. Doğal beyaz rengi pırlantanın ışığını yansıtmaz ve taşın gerçek rengini ön plana çıkarır. Pt950 damgalı bir tektaş, hem değer hem kalite açısından en üst segmenttedir.</p>
+
+<h3>Patina ve Bakım</h3>
+
+<p>Platinin zamanla kazandığı mat beyaz yüzey "patina" olarak bilinir ve birçok kişi tarafından vintage cazibe olarak tercih edilir. İsteyenler kuyumcuda parlatma ile ilk parlaklığı geri kazanabilir. Önemli fark: platin aşındığında metal kaybı yaşanmaz — sadece yer değiştirir (displacement). Altında ise aşınma gerçek metal kaybıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kraliyet Tercihi</div>
+  <div class="ad-fact-callout-text">İngiliz Kraliyet Ailesi'nin taç mücevherleri ve nişan yüzüklerinde platin geleneksel tercihtir. Kraliçe II. Elizabeth'in 1947 nişan yüzüğü, Philip'in annesinin tiarasından çıkarılan pırlantalarla platin üzerine yapılmıştır. Bugün dünya genelinde üst segment tektaşların %40'ından fazlası platin üzerine monte edilmektedir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Platinum Guild International (PGI), GIA ve Johnson Matthey kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Platinum Engagement & Wedding Ring Guide — Lifelong Shine</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Purity</div>
+    <div class="ad-metric-value">95<span class="ad-metric-unit">% Pt950</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Density</div>
+    <div class="ad-metric-value">21.45<span class="ad-metric-unit"> g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hypoallergenic</div>
+    <div class="ad-metric-value">100<span class="ad-metric-unit">% safe</span></div>
+  </div>
+</div>
+
+<p>Platinum is the most prestigious metal choice for engagement rings and wedding bands. Its natural white color, extraordinary durability, and hypoallergenic nature make it ideal for diamond solitaires. Unlike white gold, platinum requires no rhodium plating — its color is natural and permanent.</p>
+
+<h3>Platinum vs White Gold</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Platinum (Pt950)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">95 % platinum</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Natural white-gray</span></div>
+      <div class="ad-compare-row"><span class="label">Plating</span><span class="value">Not needed</span></div>
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">60 % heavier than gold</span></div>
+      <div class="ad-compare-row"><span class="label">Allergy</span><span class="value">Hypoallergenic</span></div>
+      <div class="ad-compare-row"><span class="label">Wear</span><span class="value">Displaces, no metal loss</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">White Gold (18K)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">75 % gold + Pd/Ni</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Yellowish (unplated)</span></div>
+      <div class="ad-compare-row"><span class="label">Plating</span><span class="value">Rhodium (renew 1–3 yr)</span></div>
+      <div class="ad-compare-row"><span class="label">Allergy</span><span class="value">Nickel risk</span></div>
+      <div class="ad-compare-row"><span class="label">Wear</span><span class="value">Actual metal loss</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Royal Choice</div>
+  <div class="ad-fact-callout-text">Platinum is the traditional choice for British Royal Family crown jewels and engagement rings. Queen Elizabeth II's 1947 engagement ring was set in platinum with diamonds from Prince Philip's mother's tiara. Today, over 40 % of high-end solitaires worldwide are mounted on platinum.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from Platinum Guild International (PGI), GIA, and Johnson Matthey sources.</p>`,
+
+  ar: `<h2>دليل خواتم الخطبة والزفاف البلاتينية — لمعان مدى الحياة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">النقاء</div>
+    <div class="ad-metric-value">95<span class="ad-metric-unit">% Pt950</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكثافة</div>
+    <div class="ad-metric-value">21.45<span class="ad-metric-unit"> غ/سم³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مضاد للحساسية</div>
+    <div class="ad-metric-value">100<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>البلاتين الخيار الأكثر هيبة لخواتم الخطبة والزفاف. لونه الأبيض الطبيعي ومتانته الاستثنائية وطبيعته المضادة للحساسية تجعله مثالياً للألماس.</p>
+
+<h3>البلاتين مقابل الذهب الأبيض</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البلاتين (Pt950)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">95% بلاتين</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أبيض رمادي طبيعي</span></div>
+      <div class="ad-compare-row"><span class="label">الطلاء</span><span class="value">غير مطلوب</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ذهب أبيض (18 قيراط)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">75% ذهب + Pd/Ni</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">مصفرّ بدون طلاء</span></div>
+      <div class="ad-compare-row"><span class="label">الطلاء</span><span class="value">روديوم (يُجدد كل 1–3 سنوات)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">اختيار ملكي</div>
+  <div class="ad-fact-callout-text">البلاتين الخيار التقليدي لمجوهرات التاج الملكي البريطاني. خاتم خطبة الملكة إليزابيث الثانية عام 1947 صُنع من البلاتين بألماس من تياج أم الأمير فيليب. اليوم أكثر من 40% من تيجان الألماس الفاخرة عالمياً تُركب على البلاتين.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى PGI وGIA وJohnson Matthey.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[139] — Platin Yatırım Rehberi
+// ───────────────────────────────────────────────────────
+C[139] = {
+  tr: `<h2>Platin Yatırım Rehberi — Nadir Metalin Fırsatları</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yıllık Arz</div>
+    <div class="ad-metric-value">~190<span class="ad-metric-unit"> ton</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Nadirlik</div>
+    <div class="ad-metric-value">30×<span class="ad-metric-unit"> altından nadir</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Arz Konsantrasyonu</div>
+    <div class="ad-metric-value">%70+<span class="ad-metric-unit"> G.Afrika</span></div>
+  </div>
+</div>
+
+<p>Platin, altından yaklaşık 30 kat daha nadir bir metaldir ve yıllık üretimi yalnızca ~190 tondur (altın: ~3.600 ton). Bu nadirlik, platin yatırımını hem fırsat hem risk barındıran benzersiz bir alan yapar. Tarihsel olarak platin, altının üzerinde fiyatlanmıştır — ancak son yıllarda bu ilişki tersine dönmüştür.</p>
+
+<h3>Yatırım Araçları</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Fiziksel Platin</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Külçe</span><span class="value">1 oz, 10 oz, 1 kg</span></div>
+      <div class="ad-compare-row"><span class="label">Sikke</span><span class="value">Eagle, Maple, Britannia</span></div>
+      <div class="ad-compare-row"><span class="label">Spread</span><span class="value">%3–8 (altından yüksek)</span></div>
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Altından düşük</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ETF ve Fonlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">PPLT</span><span class="value">Aberdeen Physical Pt</span></div>
+      <div class="ad-compare-row"><span class="label">GraniteShares</span><span class="value">PLTM</span></div>
+      <div class="ad-compare-row"><span class="label">Yönetim ücreti</span><span class="value">%0.50–0.60/yıl</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Maden Hisseleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Anglo American Pt</span><span class="value">Dünyanın en büyüğü</span></div>
+      <div class="ad-compare-row"><span class="label">Impala Platinum</span><span class="value">G.Afrika liderlerinden</span></div>
+      <div class="ad-compare-row"><span class="label">Kaldıraç</span><span class="value">Fiyatın 2–3 katı hareket</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Altın-Platin Fiyat Oranı</h3>
+
+<p>Tarihsel olarak platin, altının üzerinde fiyatlanmıştır (oran < 1). 2015'ten bu yana oran tersine dönmüş ve altın platinden pahalı hale gelmiştir. Bazı analistler bu durumu "tarihî ucuzluk" olarak değerlendirir ve platinin yakalama potansiyeline dikkat çeker. Ancak endüstriyel talebin yapısı ve hidrojen ekonomisinin gelişim hızı gibi faktörler bu potansiyeli belirleyecektir.</p>
+
+<h3>Risk Faktörleri</h3>
+
+<p>Platinin %70'inden fazlası Güney Afrika'da üretilir — enerji kesintileri, grevler ve politik istikrarsızlık arz riskini artırır. Endüstriyel talebin %40'ını oluşturan dizel katalitik konvertör pazarı, elektrikli araç devrimiyle tehdit altındadır. Düşük likidite ve yüksek spread, kısa vadeli işlemleri zorlaştırır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Hidrojen Fırsatı</div>
+  <div class="ad-fact-callout-text">Yeşil hidrojen ekonomisinde platin, elektroliz cihazlarında (PEM elektrolizör) kritik katalizör olarak kullanılmaktadır. IEA tahminlerine göre 2030'a kadar hidrojen üretimi için platin talebi mevcut mücevherat talebini aşabilir — bu, platinin yatırım tezini kökten değiştirecek bir faktördür.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>World Platinum Investment Council (WPIC), Johnson Matthey PGM Market Report ve LBMA kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Platinum Investment Guide — Opportunities in the Rare Metal</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Annual Supply</div>
+    <div class="ad-metric-value">~190<span class="ad-metric-unit"> tonnes</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rarity</div>
+    <div class="ad-metric-value">30×<span class="ad-metric-unit"> rarer than gold</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Supply Concentration</div>
+    <div class="ad-metric-value">70+<span class="ad-metric-unit">% S.Africa</span></div>
+  </div>
+</div>
+
+<p>Platinum is approximately 30 times rarer than gold with annual production of just ~190 tonnes (gold: ~3,600 t). This rarity makes platinum investment a unique space of both opportunity and risk. Historically platinum traded above gold — but this relationship has inverted in recent years.</p>
+
+<h3>Investment Vehicles</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Physical Platinum</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Bars</span><span class="value">1 oz, 10 oz, 1 kg</span></div>
+      <div class="ad-compare-row"><span class="label">Coins</span><span class="value">Eagle, Maple, Britannia</span></div>
+      <div class="ad-compare-row"><span class="label">Spread</span><span class="value">3–8 % (higher than gold)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ETFs & Funds</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">PPLT</span><span class="value">Aberdeen Physical Pt</span></div>
+      <div class="ad-compare-row"><span class="label">Expense ratio</span><span class="value">0.50–0.60 %/yr</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mining Stocks</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Anglo American Pt</span><span class="value">World's largest</span></div>
+      <div class="ad-compare-row"><span class="label">Leverage</span><span class="value">2–3× price movement</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Hydrogen Opportunity</div>
+  <div class="ad-fact-callout-text">In the green hydrogen economy, platinum serves as a critical catalyst in PEM electrolyzers. IEA projects that by 2030, platinum demand for hydrogen production could exceed current jewelry demand — a factor that could fundamentally change platinum's investment thesis.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from WPIC, Johnson Matthey PGM Market Report, and LBMA sources.</p>`,
+
+  ar: `<h2>دليل استثمار البلاتين — فرص المعدن النادر</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العرض السنوي</div>
+    <div class="ad-metric-value">~190<span class="ad-metric-unit"> طن</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الندرة</div>
+    <div class="ad-metric-value">30×<span class="ad-metric-unit"> أندر من الذهب</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">تركز العرض</div>
+    <div class="ad-metric-value">70+<span class="ad-metric-unit">% جنوب أفريقيا</span></div>
+  </div>
+</div>
+
+<p>البلاتين أندر من الذهب بنحو 30 مرة بإنتاج سنوي ~190 طن فقط. تاريخياً تجاوز سعره الذهب لكن هذه العلاقة انعكست مؤخراً.</p>
+
+<h3>أدوات الاستثمار</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">بلاتين مادي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">سبائك</span><span class="value">1 أونصة إلى 1 كغ</span></div>
+      <div class="ad-compare-row"><span class="label">الفارق</span><span class="value">3–8%</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">صناديق متداولة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">PPLT</span><span class="value">Aberdeen</span></div>
+      <div class="ad-compare-row"><span class="label">الرسوم</span><span class="value">0.50–0.60%</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أسهم تعدين</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Anglo American Pt</span><span class="value">الأكبر عالمياً</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">فرصة الهيدروجين</div>
+  <div class="ad-fact-callout-text">في اقتصاد الهيدروجين الأخضر يُستخدم البلاتين كمحفز حاسم في أجهزة التحليل الكهربائي PEM. تتوقع وكالة الطاقة الدولية أن طلب الهيدروجين على البلاتين قد يتجاوز طلب المجوهرات الحالي بحلول 2030.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى WPIC وتقرير Johnson Matthey وLBMA.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[140] — Platin Endüstriyel Kullanım
+// ───────────────────────────────────────────────────────
+C[140] = {
+  tr: `<h2>Platin Endüstriyel Kullanım — Teknolojinin Sessiz Gücü</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Otomotiv Payı</div>
+    <div class="ad-metric-value">%33<span class="ad-metric-unit"> talep</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kimya</div>
+    <div class="ad-metric-value">%8<span class="ad-metric-unit"> talep</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hidrojen Potansiyeli</div>
+    <div class="ad-metric-value">Yükselen<span class="ad-metric-unit"> trend</span></div>
+  </div>
+</div>
+
+<p>Platinin talep yapısının yaklaşık %60'ı endüstriyel uygulamalardan gelir — bu onu altından temel olarak farklı kılar. Katalitik konvertörler, petrokimya, cam üretimi, tıbbi cihazlar ve yükselen hidrojen ekonomisi platinin endüstriyel hayattaki vazgeçilmez rollerini oluşturur.</p>
+
+<h3>Endüstriyel Uygulama Alanları</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Otomotiv</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Katalitik konvertör</span><span class="value">Dizel araçlar</span></div>
+      <div class="ad-compare-row"><span class="label">Emisyon kontrolü</span><span class="value">NOx, CO, HC dönüşümü</span></div>
+      <div class="ad-compare-row"><span class="label">Araç başına</span><span class="value">3–7 gram Pt</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">EV geçişi</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kimya & Petrokimya</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Rafineri</span><span class="value">Pt katalizör</span></div>
+      <div class="ad-compare-row"><span class="label">Silikon üretimi</span><span class="value">Pt katalizör</span></div>
+      <div class="ad-compare-row"><span class="label">Nitrik asit</span><span class="value">Ostwald süreci</span></div>
+      <div class="ad-compare-row"><span class="label">Geri kazanım</span><span class="value">%90+ verimli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yükselen Sektörler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hidrojen (PEM)</span><span class="value">Elektrolizör katalizörü</span></div>
+      <div class="ad-compare-row"><span class="label">Yakıt hücresi</span><span class="value">FCEV araçlar</span></div>
+      <div class="ad-compare-row"><span class="label">Tıp</span><span class="value">Kanser ilaçları (cisplatin)</span></div>
+      <div class="ad-compare-row"><span class="label">Cam</span><span class="value">LCD cam üretimi</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Katalitik Konvertör Detayları</h3>
+
+<p>Dizel araçlardaki katalitik konvertör, egzoz gazlarındaki zararlı bileşikleri dönüştürmek için platin katalizör kullanır. Bir dizel otomobil ortalama 3–7 gram platin içerir; ağır vasıtalar 10+ gram içerebilir. Katalizör hırsızlığı küresel bir sorun haline gelmiştir — içindeki kıymetli metallerin değeri yüzlerce doları bulabilir.</p>
+
+<h3>Hidrojen Ekonomisi ve Gelecek</h3>
+
+<p>Yeşil hidrojen üretiminde PEM elektrolizörler platin grubu metal katalizörler kullanır. Yakıt hücreli araçlar (FCEV) da platin gerektirir. IEA ve IRENA senaryolarına göre 2050'ye kadar hidrojen sektörünün platin talebi, mevcut otomotiv talebini ikame edebilir — hatta aşabilir. Bu dönüşüm, platinin endüstriyel talep yapısını kökten değiştirecektir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Tıp Alanında Platin</div>
+  <div class="ad-fact-callout-text">Cisplatin (cis-diaminodikloroplatin) dünya genelinde en çok kullanılan kanser kemoterapisi ilaçlarından biridir. 1978'de FDA onayı alan bu platin bileşiği, testis kanseri tedavisinde %90+ iyileşme oranı sağlamıştır. Platin atomu DNA'ya bağlanarak kanser hücrelerinin çoğalmasını engeller.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Johnson Matthey PGM Market Report, WPIC, IEA Hydrogen Report ve WHO Essential Medicines kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Platinum Industrial Uses — Technology's Silent Power</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Automotive Share</div>
+    <div class="ad-metric-value">33<span class="ad-metric-unit">% demand</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Chemical</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">% demand</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hydrogen Potential</div>
+    <div class="ad-metric-value">Rising<span class="ad-metric-unit"> trend</span></div>
+  </div>
+</div>
+
+<p>About 60 % of platinum demand comes from industrial applications — a fundamental difference from gold. Catalytic converters, petrochemicals, glass manufacturing, medical devices, and the emerging hydrogen economy define platinum's indispensable industrial roles.</p>
+
+<h3>Industrial Applications</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Automotive</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Catalytic converter</span><span class="value">Diesel vehicles</span></div>
+      <div class="ad-compare-row"><span class="label">Per vehicle</span><span class="value">3–7 g Pt</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">EV transition</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Chemical</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Refining</span><span class="value">Pt catalyst</span></div>
+      <div class="ad-compare-row"><span class="label">Silicone</span><span class="value">Pt catalyst</span></div>
+      <div class="ad-compare-row"><span class="label">Recovery</span><span class="value">90 %+ efficient</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerging Sectors</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hydrogen (PEM)</span><span class="value">Electrolyzer catalyst</span></div>
+      <div class="ad-compare-row"><span class="label">Fuel cells</span><span class="value">FCEV vehicles</span></div>
+      <div class="ad-compare-row"><span class="label">Medicine</span><span class="value">Cancer drugs (cisplatin)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Platinum in Medicine</div>
+  <div class="ad-fact-callout-text">Cisplatin is one of the world's most widely used cancer chemotherapy drugs. FDA-approved in 1978, this platinum compound achieves 90 %+ cure rates for testicular cancer. The platinum atom binds to DNA, preventing cancer cells from replicating.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from Johnson Matthey PGM Report, WPIC, IEA Hydrogen Report, and WHO Essential Medicines.</p>`,
+
+  ar: `<h2>الاستخدامات الصناعية للبلاتين — القوة الصامتة للتكنولوجيا</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حصة السيارات</div>
+    <div class="ad-metric-value">33<span class="ad-metric-unit">% من الطلب</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكيمياء</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">إمكانات الهيدروجين</div>
+    <div class="ad-metric-value">اتجاه<span class="ad-metric-unit"> صاعد</span></div>
+  </div>
+</div>
+
+<p>نحو 60% من طلب البلاتين يأتي من التطبيقات الصناعية — فرق جوهري عن الذهب. المحولات الحفازة والبتروكيماويات وصناعة الزجاج والأجهزة الطبية واقتصاد الهيدروجين الناشئ تحدد أدوار البلاتين الصناعية.</p>
+
+<h3>مجالات التطبيق</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">السيارات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المحول الحفاز</span><span class="value">مركبات الديزل</span></div>
+      <div class="ad-compare-row"><span class="label">لكل مركبة</span><span class="value">3–7 غ بلاتين</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الكيمياء</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التكرير</span><span class="value">محفز بلاتيني</span></div>
+      <div class="ad-compare-row"><span class="label">الاسترداد</span><span class="value">90%+ كفاءة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">قطاعات صاعدة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الهيدروجين</span><span class="value">محفز PEM</span></div>
+      <div class="ad-compare-row"><span class="label">الطب</span><span class="value">سيسبلاتين (سرطان)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">البلاتين في الطب</div>
+  <div class="ad-fact-callout-text">السيسبلاتين من أكثر أدوية العلاج الكيميائي استخداماً عالمياً. حصل على موافقة FDA عام 1978 ويحقق نسبة شفاء 90%+ في سرطان الخصية. ذرة البلاتين ترتبط بالحمض النووي فتمنع تكاثر الخلايا السرطانية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقرير Johnson Matthey وWPIC وتقرير الهيدروجين لوكالة الطاقة الدولية.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[141] — Paladyum Piyasa Analizi
+// ───────────────────────────────────────────────────────
+C[141] = {
+  tr: `<h2>Paladyum Piyasa Analizi — Volatil Metalin Hikâyesi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Arz</div>
+    <div class="ad-metric-value">~210<span class="ad-metric-unit"> ton/yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rusya Payı</div>
+    <div class="ad-metric-value">%40<span class="ad-metric-unit"> küresel</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Zirve Fiyat</div>
+    <div class="ad-metric-value">$3.440<span class="ad-metric-unit"> (2022)</span></div>
+  </div>
+</div>
+
+<p>Paladyum, platin grubu metallerinin (PGM) en volatil üyesidir. 2016'da 500 dolar seviyesinden 2022'de 3.440 dolara fırlayarak altını bile geride bırakmış, ardından sert düzeltme yaşamıştır. Bu çılgın fiyat hareketinin arkasında benzinli araç emisyon standartları, Rusya arz riski ve EV geçişi yatmaktadır.</p>
+
+<h3>Arz ve Talep</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Arz Yapısı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Rusya (Nornickel)</span><span class="value">%40 küresel arz</span></div>
+      <div class="ad-compare-row"><span class="label">Güney Afrika</span><span class="value">%35</span></div>
+      <div class="ad-compare-row"><span class="label">Kanada + ABD</span><span class="value">%15</span></div>
+      <div class="ad-compare-row"><span class="label">Geri dönüşüm</span><span class="value">~80 ton/yıl</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Talep Yapısı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Otomotiv</span><span class="value">%80+ (benzin katalizör)</span></div>
+      <div class="ad-compare-row"><span class="label">Elektronik</span><span class="value">%5–7 (kapasitör, konektör)</span></div>
+      <div class="ad-compare-row"><span class="label">Kimya</span><span class="value">%5 (katalizör)</span></div>
+      <div class="ad-compare-row"><span class="label">Diş / Mücevherat</span><span class="value">%3–5</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fiyat Hikâyesi ve Gelecek</h3>
+
+<p>Paladyumun fiyat patlaması, sıkılaşan emisyon standartlarının (Euro 6d, Çin VI) benzinli araçlarda daha fazla paladyum gerektirmesinden kaynaklanmıştır. Ancak elektrikli araç devrimi bu talebi tehdit etmektedir. Uzun vadede benzinli araç üretiminin azalması paladyum talebini düşürecektir. Öte yandan kısa-orta vadede hâlâ yapısal açık (talep > arz) devam etmektedir.</p>
+
+<h3>Mücevheratta Paladyum</h3>
+
+<p>Paladyum, doğal beyaz rengi ve hafifliğiyle beyaz altın alternatifidir. Pd950 (%95 paladyum) alaşımı nikelsiz ve hipoalerjenik bir seçenek sunar. Ancak platinden daha zor işlenir ve boyut değiştirme (resize) problemi vardır. Fiyat volatilitesi nedeniyle mücevherat kullanımı sınırlı kalmıştır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Jeopolitik Risk</div>
+  <div class="ad-fact-callout-text">Küresel paladyum arzının %40'ı Rusya'dan (Norilsk Nickel) gelir. 2022 Ukrayna savaşı sırasında yaptırım endişeleri paladyum fiyatını 3.440 dolara taşımıştır. Bu konsantrasyon, paladyumu jeopolitik olaylara en duyarlı kıymetli metal yapar.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Johnson Matthey PGM Market Report, WPIC, Nornickel yıllık raporu ve LBMA kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Palladium Market Analysis — The Volatile Metal's Story</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Supply</div>
+    <div class="ad-metric-value">~210<span class="ad-metric-unit"> t/yr</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Russia Share</div>
+    <div class="ad-metric-value">40<span class="ad-metric-unit">% global</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Peak Price</div>
+    <div class="ad-metric-value">$3,440<span class="ad-metric-unit"> (2022)</span></div>
+  </div>
+</div>
+
+<p>Palladium is the most volatile PGM. It surged from $500 in 2016 to $3,440 in 2022 — surpassing gold — before correcting sharply. Behind this wild ride: tightening gasoline emission standards, Russian supply risk, and the EV transition.</p>
+
+<h3>Supply & Demand</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Supply Structure</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Russia (Nornickel)</span><span class="value">40 % of global supply</span></div>
+      <div class="ad-compare-row"><span class="label">South Africa</span><span class="value">35 %</span></div>
+      <div class="ad-compare-row"><span class="label">Recycling</span><span class="value">~80 t/yr</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Demand Structure</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Automotive</span><span class="value">80 %+ (gasoline catalysts)</span></div>
+      <div class="ad-compare-row"><span class="label">Electronics</span><span class="value">5–7 %</span></div>
+      <div class="ad-compare-row"><span class="label">Chemical</span><span class="value">5 %</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Geopolitical Risk</div>
+  <div class="ad-fact-callout-text">40 % of global palladium supply comes from Russia (Norilsk Nickel). During the 2022 Ukraine war, sanctions fears pushed palladium to $3,440. This concentration makes palladium the precious metal most sensitive to geopolitical events.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from Johnson Matthey PGM Report, WPIC, Nornickel annual report, and LBMA.</p>`,
+
+  ar: `<h2>تحليل سوق البلاديوم — قصة المعدن المتقلب</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العرض</div>
+    <div class="ad-metric-value">~210<span class="ad-metric-unit"> طن/سنة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حصة روسيا</div>
+    <div class="ad-metric-value">40<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ذروة السعر</div>
+    <div class="ad-metric-value">$3,440<span class="ad-metric-unit"> (2022)</span></div>
+  </div>
+</div>
+
+<p>البلاديوم أكثر معادن مجموعة البلاتين تقلباً. قفز من 500 دولار في 2016 إلى 3,440 دولار في 2022 متجاوزاً الذهب قبل تصحيح حاد.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">هيكل العرض</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">روسيا</span><span class="value">40% من العرض العالمي</span></div>
+      <div class="ad-compare-row"><span class="label">جنوب أفريقيا</span><span class="value">35%</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">هيكل الطلب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السيارات</span><span class="value">80%+ (محفزات البنزين)</span></div>
+      <div class="ad-compare-row"><span class="label">الإلكترونيات</span><span class="value">5–7%</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">مخاطر جيوسياسية</div>
+  <div class="ad-fact-callout-text">40% من عرض البلاديوم العالمي يأتي من روسيا. أثناء حرب أوكرانيا 2022 دفعت مخاوف العقوبات السعر إلى 3,440 دولاراً. هذا التركز يجعل البلاديوم أكثر المعادن الثمينة حساسية للأحداث الجيوسياسية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقرير Johnson Matthey وWPIC وتقرير Nornickel السنوي.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[142] — PGM Bakım ve Temizlik
+// ───────────────────────────────────────────────────────
+C[142] = {
+  tr: `<h2>PGM Bakım ve Temizlik — Platin, Paladyum, Rodyum</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Platin Sertliği</div>
+    <div class="ad-metric-value">4–4.5<span class="ad-metric-unit"> Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Korozyon Direnci</div>
+    <div class="ad-metric-value">Mükemmel</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Patina</div>
+    <div class="ad-metric-value">Doğal<span class="ad-metric-unit"> zaman ile</span></div>
+  </div>
+</div>
+
+<p>Platin grubu metaller (PGM) korozyon dirençleri sayesinde altın ve gümüşe kıyasla çok daha az bakım gerektirir. Ancak her PGM metalinin kendine özgü bakım ihtiyaçları vardır. Bu rehber, platin, paladyum ve rodyum kaplı takılar için doğru bakım yöntemlerini sunar.</p>
+
+<h3>Metal Bazında Bakım</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Platin</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kararma</span><span class="value">Yok — doğal patina</span></div>
+      <div class="ad-compare-row"><span class="label">Temizlik</span><span class="value">Ilık sabunlu su</span></div>
+      <div class="ad-compare-row"><span class="label">Parlatma</span><span class="value">Kuyumcuda (isteğe bağlı)</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">Çizilir ama kayıp yok</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Paladyum</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kararma</span><span class="value">Minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Temizlik</span><span class="value">Ilık sabunlu su</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">Boyut değişimi zor</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonik</span><span class="value">Taşsız parçalar için güvenli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Rodyum Kaplama</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Aşınma</span><span class="value">1–3 yılda</span></div>
+      <div class="ad-compare-row"><span class="label">Temizlik</span><span class="value">Sadece yumuşak bez</span></div>
+      <div class="ad-compare-row"><span class="label">Yenileme</span><span class="value">Kuyumcuda re-plating</span></div>
+      <div class="ad-compare-row"><span class="label">Kesinlikle hayır</span><span class="value">Aşındırıcı, ultrasonik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Temel Temizlik Protokolü</h3>
+
+<p>Tüm PGM takılar için güvenli yöntem: Ilık su + hafif bulaşık deterjanı karışımında 15–20 dakika bekletme, yumuşak diş fırçasıyla nazik fırçalama, temiz suyla durulama, tüy bırakmayan bezle kurulama. Rodyum kaplı parçalarda fırçalama yerine sadece bez kullanın. Klor, çamaşır suyu ve amonyak bazlı temizleyicilerden kaçının.</p>
+
+<h3>Platin Patinası</h3>
+
+<p>Platinin zamanla kazandığı mat, saten yüzey "patina" olarak bilinir. Bu, metalin yüzeyinde mikro çiziklerden oluşan doğal bir süreçtir. Birçok takı tutkunu bu vintage görünümü tercih eder. İstenmezse kuyumcuda parlatma ile ilk parlaklık geri kazanılır. Kritik fark: platinde çizik metalin yer değiştirmesidir (kayıp yok), altında ise gerçek aşınma ve metal kaybı söz konusudur.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Uzun Ömür Sırrı</div>
+  <div class="ad-fact-callout-text">Platin takılar kuşaklar boyu dayanır — birçok antika platin nişan yüzüğü 100+ yıl sonra hâlâ günlük olarak takılmaktadır. Platin aşınmaz, sadece şekil değiştirir. Bu nedenle dededen toruna aktarılan platin alyanslar, orijinal ağırlıklarını korumuş olarak günümüze ulaşır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>PGI, GIA bakım rehberleri ve Johnson Matthey teknik belgeleri referans alınmıştır.</p>`,
+
+  en: `<h2>PGM Care & Cleaning — Platinum, Palladium, Rhodium</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Platinum Hardness</div>
+    <div class="ad-metric-value">4–4.5<span class="ad-metric-unit"> Mohs</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Corrosion Resistance</div>
+    <div class="ad-metric-value">Excellent</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Patina</div>
+    <div class="ad-metric-value">Natural<span class="ad-metric-unit"> over time</span></div>
+  </div>
+</div>
+
+<p>Platinum group metals require far less maintenance than gold and silver thanks to superior corrosion resistance. However, each PGM has unique care needs.</p>
+
+<h3>Care by Metal</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Platinum</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tarnish</span><span class="value">None — natural patina</span></div>
+      <div class="ad-compare-row"><span class="label">Cleaning</span><span class="value">Warm soapy water</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Scratches but no metal loss</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Palladium</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tarnish</span><span class="value">Minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Cleaning</span><span class="value">Warm soapy water</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Resizing difficult</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Rhodium Plating</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Wear</span><span class="value">1–3 years</span></div>
+      <div class="ad-compare-row"><span class="label">Cleaning</span><span class="value">Soft cloth only</span></div>
+      <div class="ad-compare-row"><span class="label">Never</span><span class="value">Abrasives, ultrasonic</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Longevity Secret</div>
+  <div class="ad-fact-callout-text">Platinum jewelry lasts generations — many antique platinum engagement rings are still worn daily after 100+ years. Platinum doesn't wear away, it only displaces. Heirloom platinum bands arrive at the present day with their original weight intact.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from PGI, GIA care guides, and Johnson Matthey technical documentation.</p>`,
+
+  ar: `<h2>العناية بمعادن مجموعة البلاتين وتنظيفها</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">صلابة البلاتين</div>
+    <div class="ad-metric-value">4–4.5<span class="ad-metric-unit"> موس</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مقاومة التآكل</div>
+    <div class="ad-metric-value">ممتازة</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الباتينا</div>
+    <div class="ad-metric-value">طبيعية<span class="ad-metric-unit"> مع الوقت</span></div>
+  </div>
+</div>
+
+<p>تحتاج معادن مجموعة البلاتين صيانة أقل بكثير من الذهب والفضة بفضل مقاومتها للتآكل. لكن لكل معدن احتياجات خاصة.</p>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البلاتين</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التلون</span><span class="value">لا — باتينا طبيعية</span></div>
+      <div class="ad-compare-row"><span class="label">التنظيف</span><span class="value">ماء دافئ وصابون</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البلاديوم</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التلون</span><span class="value">طفيف</span></div>
+      <div class="ad-compare-row"><span class="label">ملاحظة</span><span class="value">تغيير المقاس صعب</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">طلاء الروديوم</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">البلى</span><span class="value">1–3 سنوات</span></div>
+      <div class="ad-compare-row"><span class="label">التنظيف</span><span class="value">قماش ناعم فقط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">سر الديمومة</div>
+  <div class="ad-fact-callout-text">مجوهرات البلاتين تدوم لأجيال — كثير من خواتم الخطبة العتيقة لا تزال تُلبس يومياً بعد 100+ عام. البلاتين لا يتآكل بل يتحرك فقط. لذا تصل خواتم الزفاف الموروثة بوزنها الأصلي.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى PGI وGIA وJohnson Matthey.</p>`
+};
+// ═══════════════════════════════════════════════════════
+// B15 — Platinum Tamamlama  (3 makale)
+// Hedef: content_platinum.js  •  Oturum 5
+// ═══════════════════════════════════════════════════════
+
+// ───────────────────────────────────────────────────────
+// C[143] — Rodyum — Görünmeyen Kahraman
+// ───────────────────────────────────────────────────────
+C[143] = {
+  tr: `<h2>Rodyum — Görünmeyen Kahraman</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat Zirvesi</div>
+    <div class="ad-metric-value">$29.800<span class="ad-metric-unit"> /oz (2021)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yıllık Arz</div>
+    <div class="ad-metric-value">~30<span class="ad-metric-unit"> ton</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Nadirlik</div>
+    <div class="ad-metric-value">En nadir<span class="ad-metric-unit"> PGM</span></div>
+  </div>
+</div>
+
+<p>Rodyum, platin grubu metallerinin en nadir ve en pahalı üyesidir. Yıllık üretimi yalnızca ~30 tondur — altının 120'de biri. Adını pek az kişi duymuş olsa da, beyaz altın takıların parlaklığından otomobil egzozlarının temizliğine kadar günlük hayatın vazgeçilmez bir parçasıdır.</p>
+
+<h3>Kullanım Alanları</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Otomotiv (%80+)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İşlev</span><span class="value">Üçlü katalitik konvertör</span></div>
+      <div class="ad-compare-row"><span class="label">Dönüşüm</span><span class="value">NOx → N₂ + O₂</span></div>
+      <div class="ad-compare-row"><span class="label">Araç başına</span><span class="value">1–2 gram</span></div>
+      <div class="ad-compare-row"><span class="label">Alternatif</span><span class="value">Yok (şimdilik)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mücevherat (%10)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İşlev</span><span class="value">Beyaz altın kaplaması</span></div>
+      <div class="ad-compare-row"><span class="label">Kalınlık</span><span class="value">0.5–1.0 mikron</span></div>
+      <div class="ad-compare-row"><span class="label">Ömür</span><span class="value">1–3 yıl</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Parlak, soğuk beyaz</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fiyat Volatilitesi</h3>
+
+<p>Rodyum, finans dünyasının en volatil kıymetli metaldir. 2016'da 600 dolar olan ons fiyatı, 2021'de 29.800 dolara yükselmiş — yaklaşık 50 kat artış — ardından 4.000–5.000 dolar aralığına gerilemiştir. Bu çılgın dalgalanma, son derece kısıtlı arzın (30 ton/yıl) küçük talep değişikliklerine bile aşırı tepki vermesinden kaynaklanır.</p>
+
+<h3>Beyaz Altın ve Rodyum</h3>
+
+<p>Beyaz altın takıların parlak, soğuk beyaz görünümü aslında rodyum kaplamasından gelir. Kaplamasız beyaz altın, sarımsı-gri bir tondadır. Rodyum kaplama 0.5–1.0 mikron kalınlığında uygulanır ve normal kullanımda 1–3 yılda aşınır. Yenileme kuyumcuda hızlı ve düşük maliyetli bir işlemdir. Platin ise doğal olarak beyaz olduğu için rodyum gerektirmez.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Fiyat Rekoru</div>
+  <div class="ad-fact-callout-text">Rodyumun 2021'deki 29.800 $/oz zirvesinde, bir ons rodyum 15 ons altından daha değerliydi. Bu seviyede ortalama bir otomobilin katalitik konvertöründeki rodyum 2.000–4.000 dolar ediyordu — bu da katalizör hırsızlığının neden küresel bir suç dalgasına dönüştüğünü açıklar.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Johnson Matthey PGM Market Report, LBMA ve otomotiv endüstrisi teknik kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Rhodium — The Invisible Hero</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Peak Price</div>
+    <div class="ad-metric-value">$29,800<span class="ad-metric-unit"> /oz (2021)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Annual Supply</div>
+    <div class="ad-metric-value">~30<span class="ad-metric-unit"> tonnes</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rarity</div>
+    <div class="ad-metric-value">Rarest<span class="ad-metric-unit"> PGM</span></div>
+  </div>
+</div>
+
+<p>Rhodium is the rarest and most expensive PGM, with annual production of just ~30 tonnes — 1/120th of gold. Few people know its name, yet it is essential in daily life: from white gold jewelry shine to automobile exhaust cleaning.</p>
+
+<h3>Applications</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Automotive (80 %+)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Function</span><span class="value">Three-way catalytic converter</span></div>
+      <div class="ad-compare-row"><span class="label">Conversion</span><span class="value">NOx → N₂ + O₂</span></div>
+      <div class="ad-compare-row"><span class="label">Per vehicle</span><span class="value">1–2 grams</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Jewelry (10 %)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Function</span><span class="value">White gold plating</span></div>
+      <div class="ad-compare-row"><span class="label">Thickness</span><span class="value">0.5–1.0 micron</span></div>
+      <div class="ad-compare-row"><span class="label">Lifespan</span><span class="value">1–3 years</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Price Volatility</h3>
+
+<p>Rhodium is the most volatile precious metal. Its price surged from $600 in 2016 to $29,800 in 2021 — about 50× — before retreating to $4,000–5,000. This extreme swing results from extremely limited supply (30 t/yr) reacting to even small demand shifts.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Price Record</div>
+  <div class="ad-fact-callout-text">At rhodium's 2021 peak of $29,800/oz, one ounce was worth more than 15 ounces of gold. At that level, the rhodium in an average car's catalytic converter was worth $2,000–4,000 — explaining why catalytic converter theft became a global crime wave.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from Johnson Matthey PGM Report, LBMA, and automotive industry technical sources.</p>`,
+
+  ar: `<h2>الروديوم — البطل الخفي</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ذروة السعر</div>
+    <div class="ad-metric-value">$29,800<span class="ad-metric-unit"> /أونصة (2021)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العرض السنوي</div>
+    <div class="ad-metric-value">~30<span class="ad-metric-unit"> طن</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الندرة</div>
+    <div class="ad-metric-value">الأندر<span class="ad-metric-unit"> في PGM</span></div>
+  </div>
+</div>
+
+<p>الروديوم أندر وأغلى معادن مجموعة البلاتين بإنتاج سنوي ~30 طناً فقط. رغم قلة المعرفة به فهو ضروري: من لمعان مجوهرات الذهب الأبيض إلى تنظيف عوادم السيارات.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">السيارات (80%+)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الوظيفة</span><span class="value">محول حفاز ثلاثي</span></div>
+      <div class="ad-compare-row"><span class="label">لكل مركبة</span><span class="value">1–2 غرام</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المجوهرات (10%)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الوظيفة</span><span class="value">طلاء الذهب الأبيض</span></div>
+      <div class="ad-compare-row"><span class="label">العمر</span><span class="value">1–3 سنوات</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">رقم قياسي</div>
+  <div class="ad-fact-callout-text">عند ذروة 29,800 دولار في 2021 كانت أونصة الروديوم تساوي أكثر من 15 أونصة ذهب. بهذا المستوى كان روديوم المحول الحفاز لسيارة عادية يساوي 2,000–4,000 دولار — ما يفسر تحول سرقة المحولات الحفازة لموجة إجرام عالمية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقرير Johnson Matthey وLBMA.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[191] — Metal Alerjisi Rehberi
+// ───────────────────────────────────────────────────────
+C[191] = {
+  tr: `<h2>Metal Alerjisi Rehberi — Güvenli Takı Seçimi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Nikel Alerjisi</div>
+    <div class="ad-metric-value">%10–15<span class="ad-metric-unit"> nüfus</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">AB Kısıtlama</div>
+    <div class="ad-metric-value">EN 1811<span class="ad-metric-unit"> standart</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Güvenli</div>
+    <div class="ad-metric-value">Pt / Ti<span class="ad-metric-unit"> hipoalerjenik</span></div>
+  </div>
+</div>
+
+<p>Metal alerjisi (kontakt dermatit), takı metal(ler)inin cilt ile temas ettiğinde bağışıklık sisteminin aşırı tepki göstermesidir. Kızarıklık, kaşıntı, su toplaması ve egzama belirtileri ortaya çıkabilir. En yaygın tetikleyici nikeldir ve dünya nüfusunun %10–15'ini etkiler — kadınlarda oran %20'ye yaklaşır.</p>
+
+<h3>Metal Güvenlik Skalası</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Güvenli Metaller ✓</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Platin (Pt950)</span><span class="value">%99.9 hipoalerjenik</span></div>
+      <div class="ad-compare-row"><span class="label">Titanyum</span><span class="value">%99.9 hipoalerjenik</span></div>
+      <div class="ad-compare-row"><span class="label">Cerrahi çelik 316L</span><span class="value">Güvenli (düşük Ni salınım)</span></div>
+      <div class="ad-compare-row"><span class="label">Niyobyum</span><span class="value">Tamamen hipoalerjenik</span></div>
+      <div class="ad-compare-row"><span class="label">24K altın</span><span class="value">Hipoalerjenik (saf)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Riskli Metaller ✗</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Nikel</span><span class="value">En yaygın alerjen</span></div>
+      <div class="ad-compare-row"><span class="label">Kobalt</span><span class="value">Çapraz reaksiyon riski</span></div>
+      <div class="ad-compare-row"><span class="label">Krom</span><span class="value">Deri ürünlerinde de</span></div>
+      <div class="ad-compare-row"><span class="label">Beyaz altın (Ni)</span><span class="value">Nikel bazlı ise riskli</span></div>
+      <div class="ad-compare-row"><span class="label">Ucuz bijuteri</span><span class="value">Bilinmeyen alaşım</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>AB Nikel Düzenlemesi (EN 1811)</h3>
+
+<p>Avrupa Birliği, cilde uzun süreli temas eden ürünlerde nikel salınımını sıkı biçimde sınırlar: haftada 0.5 μg/cm² üzeri nikel salınımı yasaktır. Bu standart küpe, saat, kolye, bilezik ve gözlük çerçevelerini kapsar. Türkiye'de bu düzenleme henüz AB kadar sıkı uygulanmamaktadır.</p>
+
+<h3>Alerji Varsa Ne Yapmalı?</h3>
+
+<p><strong>Test:</strong> Dermatolojik "patch test" ile hangi metallere alerjiniz olduğunu belirleyin. <strong>Seçim:</strong> Platin, titanyum veya paladyum bazlı beyaz altın tercih edin. <strong>Koruma:</strong> Nikelli takılara şeffaf tırnak cilası sürme geçici çözümdür. <strong>Uzun vade:</strong> Hipoalerjenik takılara yatırım yapın — uzun vadede hem sağlığınız hem cüzdanınız kazanır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Sağlık Bilgisi</div>
+  <div class="ad-fact-callout-text">Nikel alerjisi bir kez geliştiğinde ömür boyu devam eder — bağışıklık sistemi "hafıza" oluşturur. Küpe deliği olan kişilerde nikel alerjisi oranı, delikleri olmayanlara göre 3 kat daha yüksektir. Bu nedenle ilk küpe için mutlaka cerrahi çelik veya titanyum tercih edilmelidir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Avrupa Dermatit Araştırma Grubu (EDRG), AB EN 1811 standardı ve dermatoloji klinik kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Metal Allergy Guide — Safe Jewelry Selection</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Nickel Allergy</div>
+    <div class="ad-metric-value">10–15<span class="ad-metric-unit">% population</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">EU Regulation</div>
+    <div class="ad-metric-value">EN 1811<span class="ad-metric-unit"> standard</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Safest</div>
+    <div class="ad-metric-value">Pt / Ti<span class="ad-metric-unit"> hypoallergenic</span></div>
+  </div>
+</div>
+
+<p>Metal allergy (contact dermatitis) is the immune system's overreaction when jewelry metals contact skin. Redness, itching, blistering, and eczema symptoms may appear. The most common trigger is nickel, affecting 10–15 % of the global population — nearly 20 % in women.</p>
+
+<h3>Metal Safety Scale</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Safe Metals ✓</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Platinum (Pt950)</span><span class="value">99.9 % hypoallergenic</span></div>
+      <div class="ad-compare-row"><span class="label">Titanium</span><span class="value">99.9 % hypoallergenic</span></div>
+      <div class="ad-compare-row"><span class="label">Surgical steel 316L</span><span class="value">Safe (low Ni release)</span></div>
+      <div class="ad-compare-row"><span class="label">24K gold</span><span class="value">Hypoallergenic (pure)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Risky Metals ✗</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Nickel</span><span class="value">Most common allergen</span></div>
+      <div class="ad-compare-row"><span class="label">Cobalt</span><span class="value">Cross-reaction risk</span></div>
+      <div class="ad-compare-row"><span class="label">White gold (Ni)</span><span class="value">Risky if nickel-based</span></div>
+      <div class="ad-compare-row"><span class="label">Cheap bijouterie</span><span class="value">Unknown alloys</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Health Info</div>
+  <div class="ad-fact-callout-text">Once nickel allergy develops, it persists for life — the immune system forms "memory." The nickel allergy rate in people with pierced ears is 3× higher than in those without. This is why first earrings should always be surgical steel or titanium.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from EDRG, EU EN 1811 standard, and dermatology clinical sources.</p>`,
+
+  ar: `<h2>دليل حساسية المعادن — اختيار مجوهرات آمنة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حساسية النيكل</div>
+    <div class="ad-metric-value">10–15<span class="ad-metric-unit">% من السكان</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">تنظيم الاتحاد الأوروبي</div>
+    <div class="ad-metric-value">EN 1811</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأكثر أماناً</div>
+    <div class="ad-metric-value">Pt / Ti</div>
+  </div>
+</div>
+
+<p>حساسية المعادن (التهاب الجلد التماسي) رد فعل مفرط من الجهاز المناعي عند ملامسة معادن المجوهرات للجلد. المحفز الأكثر شيوعاً هو النيكل ويؤثر على 10–15% من السكان.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">معادن آمنة ✓</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">البلاتين</span><span class="value">مضاد للحساسية 99.9%</span></div>
+      <div class="ad-compare-row"><span class="label">التيتانيوم</span><span class="value">مضاد للحساسية 99.9%</span></div>
+      <div class="ad-compare-row"><span class="label">ذهب 24 قيراط</span><span class="value">مضاد للحساسية (خالص)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">معادن خطرة ✗</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">النيكل</span><span class="value">أكثر المسببات شيوعاً</span></div>
+      <div class="ad-compare-row"><span class="label">الكوبالت</span><span class="value">خطر تفاعل متقاطع</span></div>
+      <div class="ad-compare-row"><span class="label">بيجوتيري رخيصة</span><span class="value">سبائك مجهولة</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">معلومة صحية</div>
+  <div class="ad-fact-callout-text">بمجرد تطور حساسية النيكل تستمر مدى الحياة. معدل الحساسية عند أصحاب ثقوب الأذن أعلى 3 مرات. لذا يجب استخدام فولاذ جراحي أو تيتانيوم للأقراط الأولى.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى EDRG ومعيار EN 1811 الأوروبي ومصادر طب الجلد.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[192] — Platin ve Katalitik Konvertör
+// ───────────────────────────────────────────────────────
+C[192] = {
+  tr: `<h2>Platin ve Katalitik Konvertör — Çevrenin Sessiz Koruyucusu</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">İşlenmiş Gaz</div>
+    <div class="ad-metric-value">%95+<span class="ad-metric-unit"> temizlik</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Araç Başına PGM</div>
+    <div class="ad-metric-value">3–10<span class="ad-metric-unit"> gram</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Geri Dönüşüm</div>
+    <div class="ad-metric-value">%95+<span class="ad-metric-unit"> verimli</span></div>
+  </div>
+</div>
+
+<p>Katalitik konvertör, otomobil egzoz sistemindeki zararlı gazları (karbon monoksit, azot oksitler, hidrokarbonlar) zararsız bileşiklere dönüştüren cihazdır. İçindeki platin grubu metaller (PGM) — platin, paladyum ve rodyum — bu kimyasal dönüşümü mümkün kılan katalizörlerdir. 1975'ten bu yana üretilen neredeyse her benzinli ve dizel araçta bulunur.</p>
+
+<h3>Nasıl Çalışır?</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Üçlü Katalitik (Benzin)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">CO → CO₂</span><span class="value">Oksidlenme</span></div>
+      <div class="ad-compare-row"><span class="label">HC → H₂O + CO₂</span><span class="value">Oksidlenme</span></div>
+      <div class="ad-compare-row"><span class="label">NOx → N₂ + O₂</span><span class="value">İndirgenme</span></div>
+      <div class="ad-compare-row"><span class="label">Katalizör</span><span class="value">Pt + Pd + Rh</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Dizel Oksidatif (DOC)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">CO → CO₂</span><span class="value">Oksidlenme</span></div>
+      <div class="ad-compare-row"><span class="label">HC → H₂O + CO₂</span><span class="value">Oksidlenme</span></div>
+      <div class="ad-compare-row"><span class="label">NOx kontrolü</span><span class="value">SCR sistemiyle</span></div>
+      <div class="ad-compare-row"><span class="label">Katalizör</span><span class="value">Ağırlıklı Pt</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>PGM İçeriği ve Değeri</h3>
+
+<p>Bir binek otomobil katalitik konvertörü ortalama 3–7 gram PGM içerir; ağır vasıtalar 10+ gram içerebilir. PGM oranları yakıt tipine göre değişir: benzinli araçlar ağırlıklı paladyum + rodyum kullanırken, dizel araçlar ağırlıklı platin kullanır. Bu PGM'lerin piyasa değeri yüzlerce, hatta binlerce doları bulabilir.</p>
+
+<h3>Katalizör Hırsızlığı</h3>
+
+<p>PGM fiyatlarındaki artış, katalizör hırsızlığını küresel bir suç dalgasına dönüştürmüştür. Bir hırsız, araç altından katalitik konvertörü 2–3 dakikada kesebilir. Korunma yöntemleri: katalitik konvertör kalkanı (shield) taktırmak, VIN numarasını kazıtmak ve park seçiminde dikkatli olmaktır.</p>
+
+<h3>EV Geçişi ve Gelecek</h3>
+
+<p>Tam elektrikli araçlar (BEV) katalitik konvertör kullanmaz — bu, uzun vadede otomotiv PGM talebini azaltacaktır. Ancak hibrit araçlar hâlâ katalizör gerektirir ve geçiş süreci on yıllar alacaktır. Ayrıca hidrojen yakıt hücreli araçlar (FCEV) platin gerektirmektedir — bu, talebin yok olması yerine dönüşmesi anlamına gelir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çevresel Etki</div>
+  <div class="ad-fact-callout-text">Katalitik konvertör, otomotiv tarihinin en etkili çevre teknolojisidir. 1975'ten bu yana araç emisyonlarını %95'in üzerinde azaltmıştır. ABD'de konvertör öncesi bir araç, bugünkü 50 modern aracın toplam emisyonundan fazla kirletici yayıyordu. Bu başarının arkasındaki kahraman: birkaç gram platin grubu metal.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Johnson Matthey, Umicore, ABD Çevre Koruma Ajansı (EPA) ve Euro standartları kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Platinum & Catalytic Converters — Environment's Silent Guardian</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gas Treatment</div>
+    <div class="ad-metric-value">95+<span class="ad-metric-unit">% clean</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">PGM per Vehicle</div>
+    <div class="ad-metric-value">3–10<span class="ad-metric-unit"> grams</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Recycling</div>
+    <div class="ad-metric-value">95+<span class="ad-metric-unit">% efficient</span></div>
+  </div>
+</div>
+
+<p>A catalytic converter transforms harmful exhaust gases (carbon monoxide, nitrogen oxides, hydrocarbons) into harmless compounds. The platinum group metals inside — platinum, palladium, and rhodium — are the catalysts enabling this chemical transformation. Found in nearly every gasoline and diesel vehicle since 1975.</p>
+
+<h3>How It Works</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Three-Way (Gasoline)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">CO → CO₂</span><span class="value">Oxidation</span></div>
+      <div class="ad-compare-row"><span class="label">HC → H₂O + CO₂</span><span class="value">Oxidation</span></div>
+      <div class="ad-compare-row"><span class="label">NOx → N₂ + O₂</span><span class="value">Reduction</span></div>
+      <div class="ad-compare-row"><span class="label">Catalyst</span><span class="value">Pt + Pd + Rh</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Diesel Oxidation (DOC)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">CO → CO₂</span><span class="value">Oxidation</span></div>
+      <div class="ad-compare-row"><span class="label">HC → H₂O + CO₂</span><span class="value">Oxidation</span></div>
+      <div class="ad-compare-row"><span class="label">NOx control</span><span class="value">Via SCR system</span></div>
+      <div class="ad-compare-row"><span class="label">Catalyst</span><span class="value">Predominantly Pt</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Converter Theft</h3>
+
+<p>Rising PGM prices have turned converter theft into a global crime wave. A thief can cut a converter in 2–3 minutes. Protection: install a catalytic converter shield, etch VIN number, and choose parking carefully.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Environmental Impact</div>
+  <div class="ad-fact-callout-text">The catalytic converter is automotive history's most effective environmental technology. Since 1975, it has reduced vehicle emissions by over 95 %. A pre-converter car in the US emitted more pollutants than 50 modern vehicles combined. Behind this achievement: a few grams of platinum group metals.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from Johnson Matthey, Umicore, US EPA, and Euro standards sources.</p>`,
+
+  ar: `<h2>البلاتين والمحول الحفاز — حارس البيئة الصامت</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">معالجة الغاز</div>
+    <div class="ad-metric-value">95+<span class="ad-metric-unit">% نظافة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">PGM لكل مركبة</div>
+    <div class="ad-metric-value">3–10<span class="ad-metric-unit"> غرام</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">إعادة التدوير</div>
+    <div class="ad-metric-value">95+<span class="ad-metric-unit">% كفاءة</span></div>
+  </div>
+</div>
+
+<p>المحول الحفاز يحوّل غازات العادم الضارة إلى مركبات غير ضارة. معادن مجموعة البلاتين — البلاتين والبلاديوم والروديوم — هي المحفزات التي تمكّن هذا التحول الكيميائي.</p>
+
+<h3>كيف يعمل؟</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ثلاثي الأتجاه (بنزين)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">CO → CO₂</span><span class="value">أكسدة</span></div>
+      <div class="ad-compare-row"><span class="label">NOx → N₂ + O₂</span><span class="value">اختزال</span></div>
+      <div class="ad-compare-row"><span class="label">المحفز</span><span class="value">Pt + Pd + Rh</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أكسدة الديزل (DOC)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">CO → CO₂</span><span class="value">أكسدة</span></div>
+      <div class="ad-compare-row"><span class="label">التحكم بـ NOx</span><span class="value">عبر نظام SCR</span></div>
+      <div class="ad-compare-row"><span class="label">المحفز</span><span class="value">بلاتين بشكل رئيسي</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">الأثر البيئي</div>
+  <div class="ad-fact-callout-text">المحول الحفاز أكثر تقنية بيئية فعالية في تاريخ السيارات. منذ 1975 خفض الانبعاثات بأكثر من 95%. سيارة أمريكية قبل المحول كانت تُصدر ملوثات أكثر من 50 سيارة حديثة مجتمعة. وراء هذا الإنجاز: بضع غرامات من معادن مجموعة البلاتين.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى Johnson Matthey وUmicore وEPA الأمريكية.</p>`
+};
+
+export default C;

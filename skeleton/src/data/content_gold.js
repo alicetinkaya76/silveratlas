@@ -844,7 +844,6 @@ C[178] = {
   ar: `<h2>سوار طرابزون المنسوج — تراث البحر الأسود</h2><p>من أكثر قطع المجوهرات التركية إيقونية. أسلاك ذهبية رفيعة منسوجة معاً تحمل تقاليد البحر الأسود.</p><h3>التقنية</h3><p>أسلاك ذهب 22 قيراط بسمك 0.3-0.5 مم تُنسج في مجموعات. كل سوار يدوي بالكامل.</p><div class="fact-box"><strong>تقليد:</strong> في طرابزون، تُهدى ثلاث أساور — واحد من الأم وواحد من الحماة وواحد من عائلة العريس.</div>`
 };
 
-export default C;
 
 C[183] = {
   tr: `<h2>Altın ve Diş Hekimliği</h2><p>Altın, diş hekimliğinde 4000 yılı aşkın süredir kullanılan en eski biyouyumlu metaldir. Etrüsk medeniyeti MÖ 700'de altın tel ile diş köprüsü yapıyordu.</p><h3>Dental Altın Alaşımları</h3><p>Tip I (yumuşak, inley): %83+ altın. Tip II (orta, kron): %78+ altın. Tip III (sert, köprü): %75+ altın. Tip IV (extra sert, parsiyel protez): %65+ altın. Paladyum, platin ve gümüş alaşım metalleri olarak kullanılır.</p><h3>Neden Altın?</h3><p>Biyouyumluluk: Alerjik reaksiyon neredeyse sıfır. Korozyon direnci: Ağız ortamında bozulmaz. Esneklik: Dişe mükemmel uyum sağlar. Dayanıklılık: 20-40 yıl ömür.</p><h3>Modern Grillz Kültürü</h3><p>Hip-hop kültüründe 1980'lerde başlayan grillz trendi, bugün 10K-24K altın, pırlanta kakmalı tasarımlarla lüks aksesuar pazarına dönüşmüştür. Özel kalıpla üretilir, takılıp çıkarılabilir modeller yaygındır.</p><div class="fact-box"><strong>Bilgi:</strong> Dünya genelinde yılda yaklaşık 70 ton altın diş hekimliğinde kullanılır — bu, toplam altın talebinin yaklaşık %1.5'idir.</div>`,
@@ -1046,3 +1045,724 @@ C[178] = {
 
 <p>مستند إلى بيانات غرفة صاغة طرابزون وأبحاث التراث الثقافي التركي.</p>`
 };
+// ═══════════════════════════════════════════════════════
+// B13 — Gold Özel Konular  (4 makale)
+// Hedef: content_gold.js  •  Oturum 5
+// ═══════════════════════════════════════════════════════
+
+// ───────────────────────────────────────────────────────
+// C[183] — Altın ve Diş Hekimliği
+// ───────────────────────────────────────────────────────
+C[183] = {
+  tr: `<h2>Altın ve Diş Hekimliği — 4000 Yıllık Biyouyumluluk</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tarih</div>
+    <div class="ad-metric-value">4000+<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yıllık Kullanım</div>
+    <div class="ad-metric-value">~70<span class="ad-metric-unit"> ton</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ömür</div>
+    <div class="ad-metric-value">20–40<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+</div>
+
+<p>Altın, diş hekimliğinde kullanılan en eski biyouyumlu metaldir. Etrüsk medeniyeti MÖ 700'de altın tel ile diş köprüsü yapıyordu. Günümüzde seramik ve zirkonyum gibi estetik alternatiflere rağmen, altın alaşımları dayanıklılık ve biyouyumluluk açısından hâlâ altın standarttır.</p>
+
+<h3>Dental Altın Alaşım Türleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yüksek Altın İçerikli</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tip I (yumuşak)</span><span class="value">%83+ Au — inley</span></div>
+      <div class="ad-compare-row"><span class="label">Tip II (orta)</span><span class="value">%78+ Au — kron</span></div>
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Mükemmel biyouyum</span></div>
+      <div class="ad-compare-row"><span class="label">Alaşım</span><span class="value">Pd, Pt, Ag</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Orta-Düşük Altın İçerikli</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tip III (sert)</span><span class="value">%75+ Au — köprü</span></div>
+      <div class="ad-compare-row"><span class="label">Tip IV (extra sert)</span><span class="value">%65+ Au — parsiyel protez</span></div>
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Yüksek dayanıklılık</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Mekanik yük taşıyan</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Neden Altın?</h3>
+
+<p><strong>Biyouyumluluk:</strong> Alerjik reaksiyon riski neredeyse sıfırdır — hiçbir dental malzeme bu kadar düşük reaksiyon oranına sahip değildir. <strong>Korozyon direnci:</strong> Ağız ortamının asidik ve enzimatik koşullarında bozulmaz. <strong>Esneklik:</strong> Dişin doğal esnekliğine uyum sağlar; porselen gibi kırılmaz. <strong>Dayanıklılık:</strong> Ortalama 20–40 yıl ömür — seramik restorasyonların 2–3 katı.</p>
+
+<h3>Modern Grillz Kültürü</h3>
+
+<p>Hip-hop kültüründe 1980'lerde başlayan altın diş kapağı (grillz) trendi, bugün 10K–24K altın ve pırlanta kakmalı tasarımlarla lüks aksesuar pazarına dönüşmüştür. Özel ağız kalıbıyla üretilir; takılıp çıkarılabilir modeller standart, kalıcı uygulamalar diş hekimi gerektirmektedir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Rakam</div>
+  <div class="ad-fact-callout-text">Dünya genelinde yılda yaklaşık 70 ton altın diş hekimliğinde kullanılmaktadır — bu, toplam küresel altın talebinin yaklaşık %1,5'idir. Ancak bu oran 1990'larda %3'ün üzerindeydi; seramik ve zirkonyumun yaygınlaşmasıyla düşmüştür.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>ADA (American Dental Association), ISO 22674 dental alaşım standardı ve dental malzeme bilimi kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Gold in Dentistry — 4,000 Years of Biocompatibility</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">History</div>
+    <div class="ad-metric-value">4,000+<span class="ad-metric-unit"> years</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Annual Use</div>
+    <div class="ad-metric-value">~70<span class="ad-metric-unit"> tonnes</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lifespan</div>
+    <div class="ad-metric-value">20–40<span class="ad-metric-unit"> years</span></div>
+  </div>
+</div>
+
+<p>Gold is the oldest biocompatible metal in dentistry. The Etruscan civilization made gold wire dental bridges in 700 BCE. Despite aesthetic alternatives like ceramics and zirconia, gold alloys remain the gold standard for durability and biocompatibility.</p>
+
+<h3>Dental Gold Alloy Types</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">High Gold Content</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Type I (soft)</span><span class="value">83 %+ Au — inlays</span></div>
+      <div class="ad-compare-row"><span class="label">Type II (medium)</span><span class="value">78 %+ Au — crowns</span></div>
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Excellent biocompatibility</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Medium-Low Gold</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Type III (hard)</span><span class="value">75 %+ Au — bridges</span></div>
+      <div class="ad-compare-row"><span class="label">Type IV (extra hard)</span><span class="value">65 %+ Au — partials</span></div>
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">High strength</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Modern Grillz Culture</h3>
+
+<p>The grillz trend starting in 1980s hip-hop has evolved into a luxury accessory market with 10K–24K gold, diamond-encrusted designs. Custom-molded, removable models are standard.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Number</div>
+  <div class="ad-fact-callout-text">Approximately 70 tonnes of gold are used in dentistry worldwide annually — about 1.5 % of total demand. This was over 3 % in the 1990s; it has declined as ceramics and zirconia gained popularity.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from ADA, ISO 22674, and dental materials science sources.</p>`,
+
+  ar: `<h2>الذهب في طب الأسنان — 4000 عام من التوافق الحيوي</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التاريخ</div>
+    <div class="ad-metric-value">4000+<span class="ad-metric-unit"> سنة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الاستخدام السنوي</div>
+    <div class="ad-metric-value">~70<span class="ad-metric-unit"> طن</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العمر</div>
+    <div class="ad-metric-value">20–40<span class="ad-metric-unit"> سنة</span></div>
+  </div>
+</div>
+
+<p>الذهب أقدم معدن متوافق حيوياً في طب الأسنان. صنعت حضارة الأتروسكان جسور أسنان من أسلاك ذهبية في 700 ق.م. رغم البدائل الجمالية كالسيراميك والزركونيا، تظل سبائك الذهب المعيار الذهبي للمتانة والتوافق الحيوي.</p>
+
+<h3>أنواع سبائك الذهب السنية</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">محتوى ذهب عالٍ</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">النوع الأول</span><span class="value">83%+ ذهب — حشوات</span></div>
+      <div class="ad-compare-row"><span class="label">النوع الثاني</span><span class="value">78%+ ذهب — تيجان</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">محتوى ذهب متوسط</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">النوع الثالث</span><span class="value">75%+ ذهب — جسور</span></div>
+      <div class="ad-compare-row"><span class="label">النوع الرابع</span><span class="value">65%+ ذهب — أطقم جزئية</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">رقم</div>
+  <div class="ad-fact-callout-text">يُستخدم نحو 70 طناً من الذهب سنوياً في طب الأسنان عالمياً — 1.5% من الطلب الإجمالي. كانت النسبة أكثر من 3% في التسعينيات قبل انتشار السيراميك.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى ADA ومعيار ISO 22674 ومصادر علم مواد الأسنان.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[184] — Altın Olimpiyat Madalyası
+// ───────────────────────────────────────────────────────
+C[184] = {
+  tr: `<h2>Altın Olimpiyat Madalyası — Gerçekten Altın mı?</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Son Saf Altın</div>
+    <div class="ad-metric-value">1912<span class="ad-metric-unit"> Stockholm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Günümüz Altın</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> gram kaplama</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Eritme Değeri</div>
+    <div class="ad-metric-value">~$900<span class="ad-metric-unit"> USD</span></div>
+  </div>
+</div>
+
+<p>Olimpiyat "altın" madalyası gerçekten altın mı? Cevap: artık hayır. Son tamamen saf altın madalyalar 1912 Stockholm Olimpiyatları'nda verilmiştir. O tarihten bu yana madalyalar gümüş çekirdek üzerine altın kaplamayla üretilmektedir.</p>
+
+<h3>Madalya Kompozisyon Tarihi</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tarihi Dönem (1896–1912)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">1896 Atina</span><span class="value">Gümüş verildi (altın yok!)</span></div>
+      <div class="ad-compare-row"><span class="label">1900 Paris</span><span class="value">Dikdörtgen madalya</span></div>
+      <div class="ad-compare-row"><span class="label">1908 Londra</span><span class="value">Saf altın, 24 gram</span></div>
+      <div class="ad-compare-row"><span class="label">1912 Stockholm</span><span class="value">Son saf altın madalya</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Modern Dönem (1920–günümüz)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">IOC standardı</span><span class="value">Min. 6 g altın kaplama</span></div>
+      <div class="ad-compare-row"><span class="label">Çekirdek</span><span class="value">%92.5 gümüş (sterling)</span></div>
+      <div class="ad-compare-row"><span class="label">2024 Paris</span><span class="value">529 g toplam, 6 g altın</span></div>
+      <div class="ad-compare-row"><span class="label">Eritme değeri</span><span class="value">~$900–1.000</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Koleksiyon Değeri</h3>
+
+<p>Olimpiyat madalyalarının koleksiyon değeri, eritme değerinin çok üzerindedir. Jesse Owens'ın 1936 Berlin madalyası 2013'te 1,47 milyon dolara satılmıştır. Madalya satışları genellikle sporcunun hikâyesi, olimpiyatın tarihî önemi ve madalyanın nadirliğine göre fiyatlanır.</p>
+
+<h3>Ev Sahibi Ülke Tasarımları</h3>
+
+<p>Her olimpiyatın ev sahibi ülkesi madalyanın arka yüzünü tasarlar. Ön yüz 2004'ten beri standart Nike (zafer tanrıçası) figürüdür. 2024 Paris madalyalarına Eyfel Kulesi'nden çıkarılan orijinal demir parçaları kakılmıştır — hem sembolik hem koleksiyon değeri taşıyan benzersiz bir uygulama.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Sürdürülebilirlik</div>
+  <div class="ad-fact-callout-text">2020 Tokyo Olimpiyat madalyaları tamamen geri dönüştürülmüş elektronik cihazlardan üretilmiştir. Japonya halkından toplanan 6,21 milyon eski cep telefonu ve 72.000 ton e-atıktan 32 kg altın, 3.500 kg gümüş ve 2.200 kg bronz elde edilmiştir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>IOC (Uluslararası Olimpiyat Komitesi) kuralları, Paris 2024 organizasyon verileri ve olimpiyat numismatik kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Olympic Gold Medal — Is It Really Gold?</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Last Solid Gold</div>
+    <div class="ad-metric-value">1912<span class="ad-metric-unit"> Stockholm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Today's Gold</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> g plating</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Melt Value</div>
+    <div class="ad-metric-value">~$900<span class="ad-metric-unit"> USD</span></div>
+  </div>
+</div>
+
+<p>Is the Olympic "gold" medal really gold? Answer: not anymore. The last solid gold medals were awarded at the 1912 Stockholm Olympics. Since then, medals have been silver core with gold plating.</p>
+
+<h3>Medal Composition History</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Historic Era (1896–1912)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">1896 Athens</span><span class="value">Silver given (no gold!)</span></div>
+      <div class="ad-compare-row"><span class="label">1908 London</span><span class="value">Solid gold, 24 grams</span></div>
+      <div class="ad-compare-row"><span class="label">1912 Stockholm</span><span class="value">Last solid gold medal</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Modern Era (1920–present)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">IOC standard</span><span class="value">Min. 6 g gold plating</span></div>
+      <div class="ad-compare-row"><span class="label">Core</span><span class="value">92.5 % silver (sterling)</span></div>
+      <div class="ad-compare-row"><span class="label">2024 Paris</span><span class="value">529 g total, 6 g gold</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Collector Value</h3>
+
+<p>Olympic medal collector value far exceeds melt value. Jesse Owens' 1936 Berlin medal sold for $1.47 million in 2013. Prices depend on the athlete's story, the Games' historical importance, and rarity.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Sustainability</div>
+  <div class="ad-fact-callout-text">The 2020 Tokyo Olympic medals were made entirely from recycled electronics. From 6.21 million old phones and 72,000 tonnes of e-waste donated by Japanese citizens, 32 kg of gold, 3,500 kg of silver, and 2,200 kg of bronze were recovered.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from IOC rules, Paris 2024 data, and Olympic numismatic sources.</p>`,
+
+  ar: `<h2>الميدالية الذهبية الأولمبية — هل هي ذهب حقاً؟</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">آخر ذهب صلب</div>
+    <div class="ad-metric-value">1912<span class="ad-metric-unit"> ستوكهولم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ذهب اليوم</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> غ طلاء</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">قيمة الصهر</div>
+    <div class="ad-metric-value">~$900</div>
+  </div>
+</div>
+
+<p>هل الميدالية الذهبية الأولمبية ذهب حقاً؟ الجواب: لا بعد الآن. آخر ميداليات ذهبية صلبة كانت في أولمبياد ستوكهولم 1912.</p>
+
+<h3>تاريخ التركيب</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">العصر التاريخي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">أثينا 1896</span><span class="value">فضة (لا ذهب!)</span></div>
+      <div class="ad-compare-row"><span class="label">ستوكهولم 1912</span><span class="value">آخر ذهب صلب</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">العصر الحديث</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">معيار IOC</span><span class="value">6 غ ذهب كحد أدنى</span></div>
+      <div class="ad-compare-row"><span class="label">باريس 2024</span><span class="value">529 غ إجمالي، 6 غ ذهب</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">استدامة</div>
+  <div class="ad-fact-callout-text">ميداليات طوكيو 2020 صُنعت بالكامل من إلكترونيات مُعاد تدويرها. من 6.21 مليون هاتف و72 ألف طن نفايات إلكترونية استُخلص 32 كغ ذهب و3500 كغ فضة و2200 كغ برونز.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى قواعد اللجنة الأولمبية الدولية وبيانات باريس 2024.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[185] — Altın Çeyiz Planlama Rehberi
+// ───────────────────────────────────────────────────────
+C[185] = {
+  tr: `<h2>Altın Çeyiz Planlama Rehberi — Gelenek ve Akıllı Yatırım</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Minimum Set</div>
+    <div class="ad-metric-value">30–50<span class="ad-metric-unit"> gram</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Orta Set</div>
+    <div class="ad-metric-value">80–120<span class="ad-metric-unit"> gram</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Premium Set</div>
+    <div class="ad-metric-value">150–250<span class="ad-metric-unit"> gram</span></div>
+  </div>
+</div>
+
+<p>Türk kültüründe altın çeyiz, evliliğin ekonomik güvencesi ve ailenin maddi desteğinin somut göstergesidir. Doğru planlama ile hem geleneği yaşatabilir hem de akıllı yatırım yapabilirsiniz. Bu rehber, bütçe ve amaca göre optimum çeyiz setini oluşturmanıza yardımcı olur.</p>
+
+<h3>Set Oluşturma Rehberi</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Minimum Set</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kolye</span><span class="value">1 adet (5–15 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Bilezik</span><span class="value">1 adet (15–25 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Küpe</span><span class="value">1 çift (2–5 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Yüzük</span><span class="value">1 adet (3–5 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Toplam</span><span class="value">~30–50 gram</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Orta Set</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kolye</span><span class="value">2 adet (farklı stil)</span></div>
+      <div class="ad-compare-row"><span class="label">Bilezik</span><span class="value">2 adet (günlük + özel)</span></div>
+      <div class="ad-compare-row"><span class="label">Küpe</span><span class="value">2 çift</span></div>
+      <div class="ad-compare-row"><span class="label">Set takım</span><span class="value">1 adet (kolye+küpe)</span></div>
+      <div class="ad-compare-row"><span class="label">Toplam</span><span class="value">~80–120 gram</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Set</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kolye</span><span class="value">3+ adet</span></div>
+      <div class="ad-compare-row"><span class="label">Bilezik</span><span class="value">3+ adet (hasır dahil)</span></div>
+      <div class="ad-compare-row"><span class="label">Küpe çeşitleri</span><span class="value">3+ çift</span></div>
+      <div class="ad-compare-row"><span class="label">Tektaş</span><span class="value">1 adet</span></div>
+      <div class="ad-compare-row"><span class="label">Toplam</span><span class="value">~150–250 gram</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bütçe Optimizasyon Stratejileri</h3>
+
+<p><strong>22K tercih edin:</strong> Hem takı hem yatırım değeri yüksek; satışta gram altın fiyatından değerlendirme yapılır. <strong>İşçilik minimize edin:</strong> Sade tasarımlar gram başına daha ekonomiktir; karmaşık işçilik %30–50 prim ekler. <strong>Parçalı alım:</strong> 6–12 aya yayarak fiyat ortalaması (DCA) düşürün — tek seferde almak fiyat riskini artırır. <strong>Altın fiyatını takip edin:</strong> Mevsimsel düşüşler (genellikle yaz ayları) alım fırsatı yaratır.</p>
+
+<h3>Ayar ve Likidite</h3>
+
+<p>Çeyiz altınında en kritik karar ayar seçimidir. 22K bilezikler en likit takı formudur — her kuyumcu gram fiyatından kolayca alır ve satar. 14K–18K takılarda ise tasarım/moda değeri öne çıkar ancak satışta gram altın fiyatının altında değerlendirme riski vardır. Hem gelenek hem yatırım dengesini gözeten çeyiz planı: büyük parçalar (bilezik) 22K, detay parçalar (küpe, yüzük) 14K–18K olarak düzenlenebilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pratik İpucu</div>
+  <div class="ad-fact-callout-text">22K bilezik, Türk altın piyasasının en likit takı ürünüdür — her kuyumcu kolayca alır ve satar. Fatura ve sertifika ile saklanan bilezikler, acil nakit ihtiyacında dakikalar içinde paraya çevrilebilir. "Bileziğini bozdurmak" deyimi boşuna değil — bilezik Türk kültüründe mobil banka hesabıdır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>İstanbul Kuyumcular Odası, Türk Kuyumcular Derneği verileri ve düğün planlama sektör raporlarından derlenmiştir.</p>`,
+
+  en: `<h2>Gold Trousseau Planning Guide — Tradition Meets Smart Investment</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Minimum Set</div>
+    <div class="ad-metric-value">30–50<span class="ad-metric-unit"> grams</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Medium Set</div>
+    <div class="ad-metric-value">80–120<span class="ad-metric-unit"> grams</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Premium Set</div>
+    <div class="ad-metric-value">150–250<span class="ad-metric-unit"> grams</span></div>
+  </div>
+</div>
+
+<p>In Turkish culture, the gold trousseau is the economic security of marriage and the tangible expression of family support. With proper planning, you can honor tradition while making smart investments.</p>
+
+<h3>Set Composition Guide</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Minimum Set</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Necklace</span><span class="value">1 (5–15 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Bracelet</span><span class="value">1 (15–25 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Earrings</span><span class="value">1 pair (2–5 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Ring</span><span class="value">1 (3–5 g)</span></div>
+      <div class="ad-compare-row"><span class="label">Total</span><span class="value">~30–50 g</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Medium Set</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Necklaces</span><span class="value">2 (different styles)</span></div>
+      <div class="ad-compare-row"><span class="label">Bracelets</span><span class="value">2 (daily + special)</span></div>
+      <div class="ad-compare-row"><span class="label">Earrings</span><span class="value">2 pairs</span></div>
+      <div class="ad-compare-row"><span class="label">Total</span><span class="value">~80–120 g</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Set</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Necklaces</span><span class="value">3+</span></div>
+      <div class="ad-compare-row"><span class="label">Bracelets</span><span class="value">3+ (incl. woven)</span></div>
+      <div class="ad-compare-row"><span class="label">Solitaire</span><span class="value">1</span></div>
+      <div class="ad-compare-row"><span class="label">Total</span><span class="value">~150–250 g</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Budget Optimization</h3>
+
+<p><strong>Prefer 22K:</strong> High both as jewelry and investment; valued at gram price for resale. <strong>Minimize craftsmanship:</strong> Simple designs are more economical per gram. <strong>Staggered buying:</strong> Spread over 6–12 months for DCA. <strong>Track gold prices:</strong> Seasonal dips (typically summer) create buying opportunities.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Practical Tip</div>
+  <div class="ad-fact-callout-text">22K bracelets are the most liquid gold jewelry in Turkey — every jeweler buys and sells them easily at gram price. With receipt and certificate, they convert to cash in minutes. The Turkish idiom "breaking your bracelet" exists for a reason — the bracelet is a mobile bank account in Turkish culture.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from Istanbul Jewelers' Chamber and Turkish Jewelers' Association data.</p>`,
+
+  ar: `<h2>دليل تخطيط جهاز الذهب — التقليد والاستثمار الذكي</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">طقم أساسي</div>
+    <div class="ad-metric-value">30–50<span class="ad-metric-unit"> غرام</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">طقم متوسط</div>
+    <div class="ad-metric-value">80–120<span class="ad-metric-unit"> غرام</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">طقم فاخر</div>
+    <div class="ad-metric-value">150–250<span class="ad-metric-unit"> غرام</span></div>
+  </div>
+</div>
+
+<p>في الثقافة التركية، جهاز الذهب هو الضمان الاقتصادي للزواج والتعبير الملموس عن دعم الأسرة.</p>
+
+<h3>تكوين الأطقم</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">طقم أساسي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">قلادة</span><span class="value">1 (5–15 غ)</span></div>
+      <div class="ad-compare-row"><span class="label">سوار</span><span class="value">1 (15–25 غ)</span></div>
+      <div class="ad-compare-row"><span class="label">أقراط</span><span class="value">1 زوج</span></div>
+      <div class="ad-compare-row"><span class="label">الإجمالي</span><span class="value">~30–50 غ</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">طقم متوسط</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">قلادات</span><span class="value">2</span></div>
+      <div class="ad-compare-row"><span class="label">أساور</span><span class="value">2</span></div>
+      <div class="ad-compare-row"><span class="label">الإجمالي</span><span class="value">~80–120 غ</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">طقم فاخر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">قلادات</span><span class="value">3+</span></div>
+      <div class="ad-compare-row"><span class="label">أساور</span><span class="value">3+</span></div>
+      <div class="ad-compare-row"><span class="label">الإجمالي</span><span class="value">~150–250 غ</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة عملية</div>
+  <div class="ad-fact-callout-text">أساور 22 قيراطاً هي الأكثر سيولة في سوق الذهب التركي — كل صائغ يشتريها ويبيعها بسعر الغرام. مع الفاتورة والشهادة تتحول لنقد في دقائق. السوار في الثقافة التركية هو حساب بنكي متنقل.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى غرفة صاغة إسطنبول وجمعية الصاغة الأتراك.</p>`
+};
+
+// ───────────────────────────────────────────────────────
+// C[197] — Altın ve Uzay Teknolojisi
+// ───────────────────────────────────────────────────────
+C[197] = {
+  tr: `<h2>Altın ve Uzay Teknolojisi — Kozmosun Vazgeçilmez Metali</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">IR Yansıma</div>
+    <div class="ad-metric-value">%98<span class="ad-metric-unit"> verimlilik</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">JWST Altını</div>
+    <div class="ad-metric-value">48.25<span class="ad-metric-unit"> gram</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ISS Altını</div>
+    <div class="ad-metric-value">~40<span class="ad-metric-unit"> kg</span></div>
+  </div>
+</div>
+
+<p>Altının mükemmel kızılötesi yansıtma özelliği ve korozyon direnci, onu uzay teknolojisinin vazgeçilmez malzemesi yapmıştır. NASA'nın astronot vizörlerinden James Webb Uzay Teleskobu'na, Mars rover'larından Uluslararası Uzay İstasyonu'na kadar altın, kosmosun her köşesinde görev yapmaktadır.</p>
+
+<h3>Uzay Uygulamaları</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Astronot Vizörleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kalınlık</span><span class="value">50 nanometre</span></div>
+      <div class="ad-compare-row"><span class="label">UV koruması</span><span class="value">%98 yansıma</span></div>
+      <div class="ad-compare-row"><span class="label">Görüş etkisi</span><span class="value">Engel yok</span></div>
+      <div class="ad-compare-row"><span class="label">Maliyet</span><span class="value">~$5 altın / vizör</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">JWST Teleskobu</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ayna çapı</span><span class="value">6.5 metre</span></div>
+      <div class="ad-compare-row"><span class="label">Segment</span><span class="value">18 berilyum parça</span></div>
+      <div class="ad-compare-row"><span class="label">Altın kaplama</span><span class="value">48.25 gram toplam</span></div>
+      <div class="ad-compare-row"><span class="label">IR verimi</span><span class="value">%98+ yansıma</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Uydu ve Uzay Aracı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Konektörler</span><span class="value">Altın kaplı PCB</span></div>
+      <div class="ad-compare-row"><span class="label">Termal battaniye</span><span class="value">Altın film katmanı</span></div>
+      <div class="ad-compare-row"><span class="label">Mars rover</span><span class="value">Altın lehim + tel</span></div>
+      <div class="ad-compare-row"><span class="label">ISS toplam</span><span class="value">~40 kg altın</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Neden Altın?</h3>
+
+<p>Uzay ortamı aşırı sıcaklık değişimleri (−270 °C ile +260 °C), kozmik radyasyon ve vakum koşulları sunar. Altın bu koşullarda mükemmel performans gösterir: kızılötesi radyasyonu %98 verimle yansıtır, oksitlenmez, elektrik iletkenliği güvenilirdir ve aşırı sıcaklıklarda mekanik özelliklerini korur. Hiçbir alternatif metal bu özellik kombinasyonunu sunamaz.</p>
+
+<h3>Gelecek: Uzay Madenciliği</h3>
+
+<p>Bazı asteroitlerde milyarlarca dolar değerinde altın bulunduğu tahmin edilmektedir. NASA'nın 2022'de keşfettiği "16 Psyche" asteroidi, tahminen 10.000 katrilyon dolar değerinde metal içermektedir — altın da dahil. Uzay madenciliği henüz bilim kurgu alanında olsa da, özel sektör şirketleri bu konuda ciddi AR-GE yatırımı yapmaktadır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Mühendislik Harikası</div>
+  <div class="ad-fact-callout-text">James Webb Uzay Teleskobu'nun 18 ayna segmentindeki toplam 48.25 gram altın, bir golf topunun boyutunda bir altın parçadan elde edilmiştir. Bu altın, her segmente 100 nanometre kalınlığında — insan saçının 1.000'de biri — buharlaştırılarak kaplanmıştır. Sonuç: evrenin 13.5 milyar yıl öncesini görebilen bir ayna.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>NASA Goddard Space Flight Center, ESA, JPL Mars Rover programı ve Space.com kaynaklarından derlenmiştir.</p>`,
+
+  en: `<h2>Gold in Space Technology — The Cosmos' Essential Metal</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">IR Reflection</div>
+    <div class="ad-metric-value">98<span class="ad-metric-unit">% efficiency</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">JWST Gold</div>
+    <div class="ad-metric-value">48.25<span class="ad-metric-unit"> grams</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ISS Gold</div>
+    <div class="ad-metric-value">~40<span class="ad-metric-unit"> kg</span></div>
+  </div>
+</div>
+
+<p>Gold's excellent infrared reflective properties and corrosion resistance make it indispensable in space technology. From NASA astronaut visors to the James Webb Space Telescope, from Mars rovers to the International Space Station, gold is on duty in every corner of the cosmos.</p>
+
+<h3>Space Applications</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Astronaut Visors</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Thickness</span><span class="value">50 nanometers</span></div>
+      <div class="ad-compare-row"><span class="label">UV protection</span><span class="value">98 % reflection</span></div>
+      <div class="ad-compare-row"><span class="label">Vision impact</span><span class="value">None</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">JWST Telescope</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Mirror diameter</span><span class="value">6.5 meters</span></div>
+      <div class="ad-compare-row"><span class="label">Segments</span><span class="value">18 beryllium pieces</span></div>
+      <div class="ad-compare-row"><span class="label">Gold coating</span><span class="value">48.25 g total</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Satellites & Craft</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Connectors</span><span class="value">Gold-plated PCBs</span></div>
+      <div class="ad-compare-row"><span class="label">Thermal blankets</span><span class="value">Gold film layers</span></div>
+      <div class="ad-compare-row"><span class="label">ISS total</span><span class="value">~40 kg gold</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Why Gold?</h3>
+
+<p>Space presents extreme conditions: temperature swings from −270 °C to +260 °C, cosmic radiation, and vacuum. Gold performs excellently: it reflects 98 % of infrared radiation, never oxidizes, maintains electrical conductivity, and preserves mechanical properties at extreme temperatures. No alternative offers this combination.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Engineering Marvel</div>
+  <div class="ad-fact-callout-text">The 48.25 grams of gold on JWST's 18 mirror segments came from a golf-ball-sized piece. This gold was vapor-deposited at 100 nanometers thickness — 1/1,000th of a human hair — onto each segment. The result: a mirror that can see 13.5 billion years into the universe's past.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Compiled from NASA Goddard, ESA, JPL Mars Rover program, and Space.com sources.</p>`,
+
+  ar: `<h2>الذهب في تكنولوجيا الفضاء — المعدن الأساسي للكون</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">انعكاس IR</div>
+    <div class="ad-metric-value">98<span class="ad-metric-unit">% كفاءة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ذهب JWST</div>
+    <div class="ad-metric-value">48.25<span class="ad-metric-unit"> غرام</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ذهب ISS</div>
+    <div class="ad-metric-value">~40<span class="ad-metric-unit"> كغ</span></div>
+  </div>
+</div>
+
+<p>خصائص الذهب العاكسة للأشعة تحت الحمراء ومقاومته للتآكل تجعله مادة لا غنى عنها في تكنولوجيا الفضاء.</p>
+
+<h3>تطبيقات الفضاء</h3>
+
+<div class="ad-compare-grid three-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أقنعة الرواد</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السُمك</span><span class="value">50 نانومتر</span></div>
+      <div class="ad-compare-row"><span class="label">حماية UV</span><span class="value">98% انعكاس</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تلسكوب JWST</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">قطر المرآة</span><span class="value">6.5 متر</span></div>
+      <div class="ad-compare-row"><span class="label">طلاء الذهب</span><span class="value">48.25 غ إجمالي</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أقمار ومركبات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الموصلات</span><span class="value">PCB مطلية بالذهب</span></div>
+      <div class="ad-compare-row"><span class="label">ذهب ISS</span><span class="value">~40 كغ</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">أعجوبة هندسية</div>
+  <div class="ad-fact-callout-text">48.25 غراماً من الذهب على مرايا JWST الـ 18 أتت من قطعة بحجم كرة غولف. رُسّب هذا الذهب بالبخار بسمك 100 نانومتر — واحد على ألف من شعرة بشرية — على كل شريحة. النتيجة: مرآة ترى 13.5 مليار سنة في ماضي الكون.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى ناسا غودارد وESA وبرنامج JPL Mars Rover.</p>`
+};
+
+export default C;

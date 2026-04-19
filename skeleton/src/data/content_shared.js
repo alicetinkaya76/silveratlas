@@ -854,7 +854,6 @@ C[180] = {
   ar: `<h2>تصوير المجوهرات بالهاتف الذكي</h2><p>في عصر إنستغرام والتجارة الإلكترونية، التصوير الجميل للمجوهرات مهارة أساسية.</p><h3>الإضاءة</h3><p>أهم عامل. ضوء النافذة الطبيعي الأفضل. تجنب أشعة الشمس المباشرة.</p><h3>الخلفية</h3><p>أبيض: نظيف ومحترف. أسود: درامي للأحجار اللامعة.</p><div class="fact-box"><strong>نصيحة احترافية:</strong> استخدم البلوتاك لتثبيت الخواتم عمودياً!</div>`
 };
 
-export default C;
 
 C[193] = {
   tr: `<h2>Mücevher Değerleme Rehberi</h2><p>Mücevher değerleme (appraisal), bir parçanın piyasa değerini, sigorta değerini veya tasfiye değerini belirleyen profesyonel süreçtir.</p><h3>Değerleme Türleri</h3><p>Sigorta değerlemesi: Yenileme maliyeti (replacement value) — genellikle en yüksek değer. Piyasa değerlemesi: Açık piyasada satılabilir fiyat. Tasfiye değerlemesi: Hızlı satış değeri — genellikle piyasanın %50-70'i. Miras değerlemesi: Vergi amaçlı adil piyasa değeri.</p><h3>Değerleme Süreci</h3><p>Fiziksel inceleme: Boyut, ağırlık, karat ölçümü. Taş tanımlama: Loupe, refraktometre, spektroskop. Metal test: XRF veya asit testi ile ayar doğrulama. Fotoğraflama: Her açıdan detaylı kayıt. Rapor: Resmi belgeli, damgalı değerleme sertifikası.</p><h3>Kimden Yaptırmalı?</h3><p>GIA (Gemological Institute of America) diplomalı gemolog. ASA (American Society of Appraisers) üyesi. Bağımsız değerleme uzmanı (kuyumcu değil — çıkar çatışması riski). Türkiye'de: Borsa İstanbul yetkili eksperler, Darphane onaylı laboratuvarlar.</p><div class="fact-box"><strong>Kural:</strong> Değerleme her 2-3 yılda güncellenmelidir — metal ve taş fiyatları değişir, sigorta teminatınız yetersiz kalabilir.</div>`,
@@ -2622,3 +2621,1666 @@ C[180] = {
 
 <p>مستند إلى أدلة Professional Jeweler وموارد Stuller التعليمية.</p>`
 };
+// ============================================================
+// Oturum 6 — B17 + B18  (Shared Çarşılar+Pazar+Müzeler+Rehber → content_shared.js)
+// Enriched: ad-metric-row · ad-compare-grid · ad-fact-callout
+// ============================================================
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//  B17 — Çarşılar + Pazar
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+// ── C[145] Kapalıçarşı Rehberi ───────────────────────────────
+C[145] = {
+  tr: `<h2>Kapalıçarşı Rehberi — İstanbul'un Efsanevi Mücevher Merkezi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kuruluş</div>
+    <div class="ad-metric-value">1461<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Dükkân Sayısı</div>
+    <div class="ad-metric-value">4.000+<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Günlük Ziyaretçi</div>
+    <div class="ad-metric-value">250–400K<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>1461 yılında Fatih Sultan Mehmet döneminde temelleri atılan <strong>Kapalıçarşı</strong>, 30.000 m²'lik alanıyla dünyanın en büyük ve en eski kapalı çarşılarından biridir. 4.000'den fazla dükkân barındıran bu devasa ticaret merkezinde yüzlerce kuyumcu ve mücevherci aktif faaliyet gösterir.</p>
+
+<h3>Kalpakçılar Caddesi — Kuyumcu Sokağı</h3>
+
+<p>Çarşının ana arteri olan Kalpakçılar Caddesi, altın ve pırlanta mağazalarıyla doludur. 14K–22K altın takılar, pırlanta tektaşlar ve geleneksel Osmanlı motifli parçalar vitrinde sizi karşılar. Fiyatlar İstiklal Caddesi'ne kıyasla %10–20 daha uygun olabilir; ancak pazarlık kültürü hâlâ geçerlidir — ilk fiyata asla razı olmayın.</p>
+
+<h3>Gümüş Bölümü ve İç Sokaklar</h3>
+
+<p>Gümüş takı ve antika gümüş eserler çarşının iç sokaklarında yoğunlaşır. 925 ayar sertifikalı ürünler, telkâri işçiliği ve modern tasarımlar bir arada bulunur. Ayar damgasını mutlaka kontrol edin ve birden fazla dükkâna bakıp karşılaştırın.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Akıllı Alışveriş İpuçları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pazarlık</span><span class="value">%20–40 indirim normaldir</span></div>
+      <div class="ad-compare-row"><span class="label">Ödeme</span><span class="value">TL ile ödeyin, kur avantajı</span></div>
+      <div class="ad-compare-row"><span class="label">Belge</span><span class="value">Fatura + sertifika isteyin</span></div>
+      <div class="ad-compare-row"><span class="label">Kontrol</span><span class="value">Gram fiyatını telefondan izleyin</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kırmızı Bayraklar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Piyasanın çok altı → şüpheli</span></div>
+      <div class="ad-compare-row"><span class="label">Damga</span><span class="value">Silik veya belirsiz ayar</span></div>
+      <div class="ad-compare-row"><span class="label">Fatura</span><span class="value">Fatura vermekten kaçınma</span></div>
+      <div class="ad-compare-row"><span class="label">İnceleme</span><span class="value">Büyüteçle bakmaya izin vermeme</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Tarih ve Atmosfer</h3>
+
+<p>560 yılı aşkın tarihiyle Kapalıçarşı, alışverişin ötesinde bir kültür deneyimidir. Osmanlı mimarisi, yüksek kubbeler ve tarihi han yapıları arasında gezinirken çay ikramını reddetmeyin — bu, Türk ticaret geleneğinin vazgeçilmez bir parçasıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Ziyaretçi Verisi</div>
+  <div class="ad-fact-callout-text">Kapalıçarşı günde 250.000–400.000 ziyaretçi alarak dünyanın en çok ziyaret edilen turistik mekânlarından biridir. 61 kapalı sokak ve 18 giriş kapısına sahip çarşıda yılda tahmini 30 ton altın işlem görür. En iyi alışveriş saatleri sabah 10:00–12:00 ve öğleden sonra 14:00–16:00 arasıdır — kalabalığın seyreleceği zamanlarda daha rahat pazarlık yapabilirsiniz.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>İstanbul Ticaret Odası verileri, Kapalıçarşı Esnaf Derneği yayınları ve Kültür ve Turizm Bakanlığı raporlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Grand Bazaar Guide — Istanbul's Legendary Jewelry Center</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Founded</div>
+    <div class="ad-metric-value">1461<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Shops</div>
+    <div class="ad-metric-value">4,000+<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Daily Visitors</div>
+    <div class="ad-metric-value">250–400K<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>Founded in 1461 under Sultan Mehmed II, the <strong>Grand Bazaar</strong> covers 30,000 m² and ranks among the world's largest and oldest covered markets. More than 4,000 shops — hundreds of them jewellers — fill its 61 covered streets.</p>
+
+<h3>Kalpakçılar Caddesi — Jewellers' Street</h3>
+
+<p>The bazaar's main artery is lined with gold and diamond shops offering 14K–22K gold, solitaire diamonds, and Ottoman-motif pieces. Prices can run 10–20 % below İstiklal Avenue, but bargaining culture still applies.</p>
+
+<h3>Silver Section &amp; Inner Streets</h3>
+
+<p>925-certified silver, filigree work, and contemporary designs cluster in the inner lanes. Always verify the hallmark stamp, and visit multiple shops before committing.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Smart Shopping Tips</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Bargaining</span><span class="value">20–40 % discount is normal</span></div>
+      <div class="ad-compare-row"><span class="label">Payment</span><span class="value">Pay in TL for best rate</span></div>
+      <div class="ad-compare-row"><span class="label">Documents</span><span class="value">Request invoice + certificate</span></div>
+      <div class="ad-compare-row"><span class="label">Verify</span><span class="value">Check gold gram price on phone</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Red Flags</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">Far below market → suspect</span></div>
+      <div class="ad-compare-row"><span class="label">Hallmark</span><span class="value">Faded or unclear stamp</span></div>
+      <div class="ad-compare-row"><span class="label">Invoice</span><span class="value">Avoiding issuing receipt</span></div>
+      <div class="ad-compare-row"><span class="label">Inspection</span><span class="value">Refusing loupe examination</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Visitor Data</div>
+  <div class="ad-fact-callout-text">The Grand Bazaar receives 250,000–400,000 daily visitors, making it one of the most visited tourist sites on Earth. With 61 covered streets and 18 gates, an estimated 30 tonnes of gold change hands here each year. The best shopping hours are 10:00–12:00 and 14:00–16:00 — when crowds thin enough for comfortable bargaining.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Istanbul Chamber of Commerce data, Grand Bazaar Tradesmen's Association publications, and Ministry of Culture reports.</p>`,
+
+  ar: `<h2>دليل البازار الكبير — مركز المجوهرات الأسطوري في إسطنبول</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التأسيس</div>
+    <div class="ad-metric-value">1461<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">المحلات</div>
+    <div class="ad-metric-value">4,000+<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الزوار يومياً</div>
+    <div class="ad-metric-value">250–400K<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>تأسس <strong>البازار الكبير</strong> عام 1461 في عهد السلطان محمد الفاتح، ويمتد على 30,000 م² بأكثر من 4,000 محل. مئات الصاغة والمجوهرجية يعملون فيه عبر 61 شارعاً مسقوفاً.</p>
+
+<h3>التسوق والنصائح</h3>
+
+<p>شارع قلبقجيلار الرئيسي مليء بمحلات الذهب والألماس. الأسعار أقل 10–20% من شارع الاستقلال لكن المساومة ضرورية. لا تقبل السعر الأول — خصم 20–40% طبيعي. ادفع بالليرة التركية للاستفادة من سعر الصرف واطلب الفواتير والشهادات دائماً.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">نصائح التسوق الذكي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المساومة</span><span class="value">خصم 20–40% طبيعي</span></div>
+      <div class="ad-compare-row"><span class="label">الدفع</span><span class="value">الليرة التركية أفضل</span></div>
+      <div class="ad-compare-row"><span class="label">التوثيق</span><span class="value">اطلب فاتورة + شهادة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">علامات التحذير</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">أقل بكثير من السوق → مشبوه</span></div>
+      <div class="ad-compare-row"><span class="label">الختم</span><span class="value">ختم عيار باهت أو غير واضح</span></div>
+      <div class="ad-compare-row"><span class="label">الفاتورة</span><span class="value">رفض إصدار إيصال</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات الزوار</div>
+  <div class="ad-fact-callout-text">يستقبل البازار الكبير 250,000–400,000 زائر يومياً مما يجعله من أكثر المعالم السياحية زيارة في العالم. يُقدر أن 30 طناً من الذهب يُتداول سنوياً عبر محلاته. أفضل أوقات التسوق: 10:00–12:00 و14:00–16:00.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى بيانات غرفة تجارة إسطنبول ومنشورات جمعية تجار البازار الكبير.</p>`
+};
+
+// ── C[146] Mısır Çarşısı ve Tarihi Çarşılar ─────────────────
+C[146] = {
+  tr: `<h2>Mısır Çarşısı ve Tarihi Çarşılar</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Mısır Çarşısı</div>
+    <div class="ad-metric-value">1660<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Arasta Çarşısı</div>
+    <div class="ad-metric-value">17.<span class="ad-metric-unit"> yy</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Cevahir Bedesteni</div>
+    <div class="ad-metric-value">1461<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>İstanbul'un mücevher alışverişi yalnızca Kapalıçarşı ile sınırlı değildir. <strong>Mısır Çarşısı</strong> (1660), baharatların yanı sıra giriş bölümlerinde gümüş takı ve yarı değerli taş dükkânları barındırır. Turkuaz, kehribar ve lapis lazuli takılar burada uygun fiyatlarla bulunabilir.</p>
+
+<h3>Arasta Çarşısı (Sultanahmet)</h3>
+
+<p>Sultanahmet Camii'nin arkasındaki Arasta Çarşısı daha sakin ve turist dostu bir ortam sunar. El yapımı gümüş takılar, İznik çini desenleri ile süslenmiş mücevherler ve Anadolu motifli ürünler öne çıkar. Fiyatlar Kapalıçarşı'ya göre biraz yüksek olabilir ancak kalite genellikle yüksektir.</p>
+
+<h3>Tarihi Hanlar ve Vintage Bölgeleri</h3>
+
+<p><strong>Kalcılar Hanı</strong> ve <strong>Cevahir Bedesteni</strong> antika mücevher ve sikke koleksiyoncuları için cennettir; Osmanlı dönemi gümüş takılar, eski sikke koleksiyonları ve nadir taşlar bulunur. Çukurcuma ve Kuzguncuk ise Art Deco dönem broşlar, retro yüzükler ve koleksiyonluk parçalarla vintage meraklılarını bekler.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Modern Alışveriş Alanları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Mısır Çarşısı</span><span class="value">Gümüş takı, yarı değerli taş</span></div>
+      <div class="ad-compare-row"><span class="label">Arasta Çarşısı</span><span class="value">El yapımı, İznik motif</span></div>
+      <div class="ad-compare-row"><span class="label">Nişantaşı</span><span class="value">Lüks markalar, çağdaş</span></div>
+      <div class="ad-compare-row"><span class="label">Bağdat Caddesi</span><span class="value">Butik kuyumcular</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Antika &amp; Vintage Alanları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Cevahir Bedesteni</span><span class="value">Osmanlı sikke, antika takı</span></div>
+      <div class="ad-compare-row"><span class="label">Kalcılar Hanı</span><span class="value">Nadir taşlar, gümüş</span></div>
+      <div class="ad-compare-row"><span class="label">Çukurcuma</span><span class="value">Art Deco broş, retro yüzük</span></div>
+      <div class="ad-compare-row"><span class="label">Kuzguncuk</span><span class="value">Koleksiyonluk vintage</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Tarih Notu</div>
+  <div class="ad-fact-callout-text">Mısır Çarşısı gelirleri orijinal olarak Yeni Cami vakfına aktarılırdı — adı Mısır'dan gelen vergi gelirlerinden beslenmesinden gelir. Cevahir Bedesteni, "mücevher pazarı" anlamına gelir ve 1461'den bu yana kesintisiz ticaret yapılan dünyanın en eski mücevher pazarlarından biridir. Antika alırken bağımsız uzman görüşü almanız önerilir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>İstanbul Büyükşehir Belediyesi kültürel miras arşivleri ve Kapalıçarşı Esnaf Derneği yayınlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Spice Bazaar &amp; Historic Markets</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Spice Bazaar</div>
+    <div class="ad-metric-value">1660<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Arasta Bazaar</div>
+    <div class="ad-metric-value">17th<span class="ad-metric-unit"> c.</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Cevahir Bedesten</div>
+    <div class="ad-metric-value">1461<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>Istanbul's jewelry shopping extends far beyond the Grand Bazaar. The <strong>Spice Bazaar</strong> (1660) houses silver jewelry and semi-precious-stone shops alongside spices. Turquoise, amber, and lapis lazuli pieces can be found at fair prices.</p>
+
+<h3>Arasta Bazaar &amp; Historic Hans</h3>
+
+<p>Behind the Blue Mosque, the Arasta Bazaar offers a calmer atmosphere with hand-crafted silver, İznik-tile-patterned jewellery, and Anatolian-motif products. The <strong>Cevahir Bedesten</strong> and <strong>Kalcılar Han</strong> are a haven for antique jewellery and coin collectors. Çukurcuma and Kuzguncuk attract vintage enthusiasts with Art Deco brooches and retro rings.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Modern Shopping Areas</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Spice Bazaar</span><span class="value">Silver, semi-precious stones</span></div>
+      <div class="ad-compare-row"><span class="label">Arasta Bazaar</span><span class="value">Handmade, İznik motifs</span></div>
+      <div class="ad-compare-row"><span class="label">Nişantaşı</span><span class="value">Luxury brands, contemporary</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Antique &amp; Vintage Areas</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Cevahir Bedesten</span><span class="value">Ottoman coins, antique jewelry</span></div>
+      <div class="ad-compare-row"><span class="label">Kalcılar Han</span><span class="value">Rare stones, silverware</span></div>
+      <div class="ad-compare-row"><span class="label">Çukurcuma</span><span class="value">Art Deco brooches, retro rings</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">History Note</div>
+  <div class="ad-fact-callout-text">The Spice Bazaar's revenues originally funded the Yeni Mosque endowment — its name derives from Egyptian tax income. The Cevahir Bedesten, meaning "jewel market," has hosted uninterrupted trade since 1461, making it one of the world's oldest continuously operating jewelry markets. Get independent expert appraisals before buying antiques.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Istanbul Metropolitan Municipality cultural-heritage archives and Grand Bazaar Tradesmen's Association publications.</p>`,
+
+  ar: `<h2>سوق المصري والأسواق التاريخية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">سوق المصري</div>
+    <div class="ad-metric-value">1660<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">سوق أراستا</div>
+    <div class="ad-metric-value">17<span class="ad-metric-unit"> قرن</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">بدستان الجواهر</div>
+    <div class="ad-metric-value">1461<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>التسوق للمجوهرات في إسطنبول لا يقتصر على البازار الكبير. <strong>سوق المصري</strong> (1660) يضم محلات فضة وأحجار شبه كريمة. سوق أراستا خلف المسجد الأزرق يوفر أجواء هادئة مع مجوهرات يدوية بزخارف إزنيك. بدستان الجواهر وخان القلجيلر جنة لجامعي المجوهرات والعملات العثمانية القديمة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مناطق التسوق الحديثة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">سوق المصري</span><span class="value">فضة، أحجار شبه كريمة</span></div>
+      <div class="ad-compare-row"><span class="label">سوق أراستا</span><span class="value">يدوي، زخارف إزنيك</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مناطق التحف والعتيق</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">بدستان الجواهر</span><span class="value">عملات عثمانية، تحف</span></div>
+      <div class="ad-compare-row"><span class="label">تشوكورجوما</span><span class="value">بروشات آرت ديكو</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">ملاحظة تاريخية</div>
+  <div class="ad-fact-callout-text">بدستان الجواهر يعني "سوق الجواهر" ويشهد تجارة متواصلة منذ 1461 مما يجعله من أقدم أسواق المجوهرات العاملة باستمرار في العالم. يُنصح بالحصول على تقييم خبير مستقل قبل شراء التحف.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أرشيفات بلدية إسطنبول الكبرى للتراث الثقافي.</p>`
+};
+
+// ── C[147] Midyat Gümüş Çarşısı ─────────────────────────────
+C[147] = {
+  tr: `<h2>Midyat Gümüş Çarşısı — Telkâri Başkenti</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat Farkı</div>
+    <div class="ad-metric-value">%30–50<span class="ad-metric-unit"> ucuz</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tel Kalınlığı</div>
+    <div class="ad-metric-value">0,2–0,5<span class="ad-metric-unit">mm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kolye Süresi</div>
+    <div class="ad-metric-value">3–5<span class="ad-metric-unit"> gün</span></div>
+  </div>
+</div>
+
+<p><strong>Midyat</strong> (Mardin), yüzyıllardır süren gümüş telkâri geleneğiyle Türkiye'nin en önemli gümüş işçiliği merkezlerinden biridir. Süryaniler ve Kürt ustaların nesiller boyu aktardığı bu zanaat UNESCO somut olmayan kültürel miras adayları arasında değerlendirilmektedir. Telkâri, 0,2–0,5 mm kalınlığındaki gümüş tellerin bükülerek, örülerek ve lehimlenerek dantel benzeri motifler oluşturulmasıdır.</p>
+
+<h3>Çarşıda Alışveriş</h3>
+
+<p>Midyat çarşısında düzinelerce gümüş atölyesi sıra sıra dizilir. Doğrudan ustadan alışveriş yapabilir, atölye ziyaretiyle üretim sürecini izleyebilirsiniz. Fiyatlar İstanbul'a göre %30–50 daha uygundur. Kritik ipucu: gerçek el yapımı telkâride her motif hafifçe farklıdır; döküm (makine) kopyalarda ise tüm motifler simetrik ve "mükemmel" görünür.</p>
+
+<h3>Ne Almalı?</h3>
+
+<p>Midyat'ın en ünlü ürünleri: telkâri küpeler, geniş manşet bileklikler, şemsiye broşlar, gümüş dua kutuları ve geleneksel Süryani haçı kolyeleri.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">El Yapımı Telkâri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Motifler</span><span class="value">Hafif irregüler, canlı</span></div>
+      <div class="ad-compare-row"><span class="label">Lehim izleri</span><span class="value">Minimal, ustalık göstergesi</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">Hafif, açık yapı</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺300–8.000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Döküm Kopya</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Motifler</span><span class="value">Tam simetrik, "mükemmel"</span></div>
+      <div class="ad-compare-row"><span class="label">Lehim izleri</span><span class="value">Yok, tek kalıp</span></div>
+      <div class="ad-compare-row"><span class="label">Ağırlık</span><span class="value">Daha ağır, masif</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺50–300</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Gelenek Verisi</div>
+  <div class="ad-fact-callout-text">Midyat'ta gelin adayına hediye edilen telkâri takım ailenin statüsünü ve ustalığını sembolize eder. Çarşıda yaklaşık 40 aktif atölye faaliyet göstermektedir; ancak genç çırakların azalmasıyla usta sayısı her yıl düşmektedir. Bir ustanın el yapımı kolye üretimi 3–5 gün, büyük göğüslük üretimi ise 2 haftayı bulur.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Mardin Valiliği kültürel miras raporları ve Midyat Esnaf Odası verilerine dayanmaktadır.</p>`,
+
+  en: `<h2>Midyat Silver Bazaar — Filigree Capital</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Price Difference</div>
+    <div class="ad-metric-value">30–50%<span class="ad-metric-unit"> cheaper</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Wire Gauge</div>
+    <div class="ad-metric-value">0.2–0.5<span class="ad-metric-unit">mm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Necklace Time</div>
+    <div class="ad-metric-value">3–5<span class="ad-metric-unit"> days</span></div>
+  </div>
+</div>
+
+<p><strong>Midyat</strong> (Mardin) is one of Turkey's most important silver-craftsmanship centres, with a centuries-old filigree tradition passed through Syriac and Kurdish artisans. The craft is under consideration for UNESCO intangible-heritage candidacy.</p>
+
+<h3>Shopping in the Bazaar</h3>
+
+<p>Dozens of silver workshops line Midyat's bazaar. Buy directly from artisans and watch the production process. Prices run 30–50 % below Istanbul. Key tip: in genuine handmade filigree every motif differs slightly; cast copies look perfectly symmetrical.</p>
+
+<h3>What to Buy</h3>
+
+<p>Signature products include filigree earrings, wide cuff bracelets, umbrella brooches, silver prayer boxes, and Syriac cross necklaces.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Handmade Filigree</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Motifs</span><span class="value">Slightly irregular, lively</span></div>
+      <div class="ad-compare-row"><span class="label">Solder traces</span><span class="value">Minimal, sign of mastery</span></div>
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">Light, open structure</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">₺300–8,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cast Copy</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Motifs</span><span class="value">Perfectly symmetrical</span></div>
+      <div class="ad-compare-row"><span class="label">Solder traces</span><span class="value">None — single mould</span></div>
+      <div class="ad-compare-row"><span class="label">Weight</span><span class="value">Heavier, solid</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">₺50–300</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Tradition Data</div>
+  <div class="ad-fact-callout-text">In Midyat, a filigree set gifted to a bride symbolises the family's status and craftsmanship. About 40 active workshops operate in the bazaar, but master numbers drop each year as young apprentices dwindle. A handmade necklace takes 3–5 days; a large pectoral can take two weeks.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Mardin Governorate cultural-heritage reports and Midyat Chamber of Tradesmen data.</p>`,
+
+  ar: `<h2>سوق ميديات للفضة — عاصمة التخريم</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">فرق السعر</div>
+    <div class="ad-metric-value">30–50%<span class="ad-metric-unit"> أرخص</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">سُمك السلك</div>
+    <div class="ad-metric-value">0.2–0.5<span class="ad-metric-unit">مم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مدة القلادة</div>
+    <div class="ad-metric-value">3–5<span class="ad-metric-unit"> أيام</span></div>
+  </div>
+</div>
+
+<p><strong>ميديات</strong> (ماردين) من أهم مراكز صياغة الفضة في تركيا بتقليد تخريم يمتد لقرون عبر حرفيين سريان وأكراد. يمكنك الشراء مباشرة من الحرفيين ومشاهدة العملية. الأسعار أقل 30–50% من إسطنبول.</p>
+
+<h3>التمييز والشراء</h3>
+
+<p>في التخريم اليدوي كل زخرفة مختلفة قليلاً؛ النسخ المصبوبة تبدو متماثلة تماماً. أشهر المنتجات: أقراط التخريم وأساور عريضة وبروشات مظلة وقلادات الصليب السرياني.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تخريم يدوي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الزخارف</span><span class="value">غير منتظمة قليلاً، حية</span></div>
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">خفيف، بنية مفتوحة</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">₺300–8,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">نسخة مصبوبة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الزخارف</span><span class="value">متماثلة تماماً</span></div>
+      <div class="ad-compare-row"><span class="label">الوزن</span><span class="value">أثقل، صلب</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">₺50–300</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات التقليد</div>
+  <div class="ad-fact-callout-text">في ميديات طقم تخريم العروس يرمز لمكانة العائلة وحرفيتها. حوالي 40 ورشة نشطة تعمل لكن أعداد الأساتذة تتناقص سنوياً. قلادة يدوية تستغرق 3–5 أيام وصدرية كبيرة قد تتطلب أسبوعين.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقارير ولاية ماردين وبيانات غرفة حرف ميديات.</p>`
+};
+
+// ── C[148] Dünya Mücevher Pazarları ──────────────────────────
+C[148] = {
+  tr: `<h2>Dünya Mücevher Pazarları</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Küresel Pazar</div>
+    <div class="ad-metric-value">$340+<span class="ad-metric-unit">B (2025)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Antwerp Payı</div>
+    <div class="ad-metric-value">%80–85<span class="ad-metric-unit"> pırlanta</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lider Tüketici</div>
+    <div class="ad-metric-value">Hindistan+Çin<span class="ad-metric-unit"> %60</span></div>
+  </div>
+</div>
+
+<p>Kıymetli taşlar ve metaller dünya genelinde belirli merkezlerde yoğunlaşır. Bu merkezlerin her biri belirli bir uzmanlık alanında küresel liderdir ve yüzyıllık ticaret gelenekleri taşır.</p>
+
+<h3>Antwerp — Pırlanta Başkenti</h3>
+
+<p>Dünya pırlanta ticaretinin %80–85'i Antwerp'ten geçer. 1 km²'lik "Diamond District" 1.500+ pırlanta şirketine ev sahipliği yapar. Ham elmaslar kesilir, parlatılır ve GIA/HRD sertifikalı olarak dünyaya dağılır.</p>
+
+<h3>Jaipur, Bangkok, New York, Pforzheim</h3>
+
+<p>Hindistan'ın "Pembe Şehri" Jaipur dünya renkli taş ticaretinin merkezidir — zümrüt, yakut, safir burada kesilir. Bangkok yakut ve safirde küresel lider, 47. Sokak (NYC) ABD pırlanta ticaretinin %90'ını barındırır, "Altın Şehri" Pforzheim ise Avrupa'nın en büyük takı üretim merkezlerinden biridir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Taş Merkezleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Antwerp</span><span class="value">Pırlanta — %80+ dünya payı</span></div>
+      <div class="ad-compare-row"><span class="label">Jaipur</span><span class="value">Renkli taş — zümrüt, yakut</span></div>
+      <div class="ad-compare-row"><span class="label">Bangkok</span><span class="value">Yakut, safir — küresel lider</span></div>
+      <div class="ad-compare-row"><span class="label">Bogotá</span><span class="value">Zümrüt — dünya üretiminin %70'i</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">İşçilik Merkezleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pforzheim</span><span class="value">Altın takı — Alman hassasiyeti</span></div>
+      <div class="ad-compare-row"><span class="label">Vicenza</span><span class="value">İtalyan tasarım — fuar merkezi</span></div>
+      <div class="ad-compare-row"><span class="label">Shenzhen</span><span class="value">Seri üretim — küresel tedarik</span></div>
+      <div class="ad-compare-row"><span class="label">İstanbul</span><span class="value">Kapalıçarşı — doğu-batı köprüsü</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Küresel Veri</div>
+  <div class="ad-fact-callout-text">Dünya mücevher pazarı 2025'te 340+ milyar USD değerine ulaşmıştır. Hindistan ve Çin toplam tüketimin %60'ını oluşturur. Jaipur'daki Johari Bazaar'da ısıl işlem uygulanmamış doğal taşlar ile işlem görmüşler arasında 10 kata varan fiyat farkı olabilir — sertifika kontrolü zorunludur.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>McKinsey Global Luxury Report, Gems &amp; Jewellery Export Council (GJEPC) verileri ve Rapaport Diamond Report'a dayanmaktadır.</p>`,
+
+  en: `<h2>World Jewelry Markets</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Global Market</div>
+    <div class="ad-metric-value">$340+<span class="ad-metric-unit">B (2025)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Antwerp Share</div>
+    <div class="ad-metric-value">80–85%<span class="ad-metric-unit"> diamonds</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Top Consumers</div>
+    <div class="ad-metric-value">India+China<span class="ad-metric-unit"> 60%</span></div>
+  </div>
+</div>
+
+<p>Precious stones and metals cluster in specialised global hubs, each a centuries-old leader in its domain.</p>
+
+<h3>Key Centres</h3>
+
+<p>Antwerp handles 80–85 % of the world's diamond trade through its 1,500+ companies in the Diamond District. Jaipur is the coloured-gemstone capital — emeralds, rubies, and sapphires are cut and traded in the centuries-old Johari Bazaar. Bangkok leads globally in ruby and sapphire trade, New York's 47th Street accounts for 90 % of US diamonds, and Pforzheim ("Gold City") is Europe's largest jewellery production centre.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gemstone Hubs</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Antwerp</span><span class="value">Diamonds — 80 %+ global share</span></div>
+      <div class="ad-compare-row"><span class="label">Jaipur</span><span class="value">Coloured gems — emerald, ruby</span></div>
+      <div class="ad-compare-row"><span class="label">Bangkok</span><span class="value">Ruby, sapphire — global leader</span></div>
+      <div class="ad-compare-row"><span class="label">Bogotá</span><span class="value">Emerald — 70 % of world output</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Manufacturing Hubs</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pforzheim</span><span class="value">Gold — German precision</span></div>
+      <div class="ad-compare-row"><span class="label">Vicenza</span><span class="value">Italian design — trade-fair hub</span></div>
+      <div class="ad-compare-row"><span class="label">Shenzhen</span><span class="value">Mass production — global supply</span></div>
+      <div class="ad-compare-row"><span class="label">Istanbul</span><span class="value">Grand Bazaar — east-west bridge</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Global Data</div>
+  <div class="ad-fact-callout-text">The global jewelry market reached $340+ billion in 2025. India and China account for 60 % of consumption. In Jaipur's Johari Bazaar, untreated natural stones can cost up to 10× more than treated equivalents — certificate verification is essential.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on the McKinsey Global Luxury Report, GJEPC data, and Rapaport Diamond Report.</p>`,
+
+  ar: `<h2>أسواق المجوهرات العالمية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">السوق العالمي</div>
+    <div class="ad-metric-value">$340+<span class="ad-metric-unit">B (2025)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حصة أنتويرب</div>
+    <div class="ad-metric-value">80–85%<span class="ad-metric-unit"> ألماس</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أكبر المستهلكين</div>
+    <div class="ad-metric-value">الهند+الصين<span class="ad-metric-unit"> 60%</span></div>
+  </div>
+</div>
+
+<p>تتركز الأحجار الكريمة والمعادن الثمينة في مراكز عالمية متخصصة لكل منها قرون من التقاليد التجارية.</p>
+
+<h3>المراكز الرئيسية</h3>
+
+<p>أنتويرب تتعامل مع 80–85% من تجارة الألماس العالمية. جايبور عاصمة الأحجار الملونة. بانكوك رائدة في الياقوت والياقوت الأزرق. الشارع 47 في نيويورك يتعامل مع 90% من ألماس أمريكا. بفورتسهايم "مدينة الذهب" أكبر مركز إنتاج مجوهرات في أوروبا.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مراكز الأحجار</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">أنتويرب</span><span class="value">ألماس — 80%+ حصة عالمية</span></div>
+      <div class="ad-compare-row"><span class="label">جايبور</span><span class="value">أحجار ملونة — زمرد، ياقوت</span></div>
+      <div class="ad-compare-row"><span class="label">بانكوك</span><span class="value">ياقوت — رائد عالمي</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مراكز التصنيع</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">بفورتسهايم</span><span class="value">ذهب — دقة ألمانية</span></div>
+      <div class="ad-compare-row"><span class="label">فيتشنزا</span><span class="value">تصميم إيطالي — معارض</span></div>
+      <div class="ad-compare-row"><span class="label">إسطنبول</span><span class="value">جسر شرق-غرب</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات عالمية</div>
+  <div class="ad-fact-callout-text">وصل سوق المجوهرات العالمي إلى أكثر من 340 مليار دولار في 2025. الهند والصين تمثلان 60% من الاستهلاك. في سوق جوهري بجايبور فرق السعر بين الأحجار الطبيعية غير المعالجة والمعالجة قد يصل إلى 10 أضعاف.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقرير McKinsey للرفاهية وبيانات GJEPC وتقرير Rapaport للألماس.</p>`
+};
+
+// ── C[149] Kuyumcu Seçim Rehberi ─────────────────────────────
+C[149] = {
+  tr: `<h2>Kuyumcu Seçim Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat Sapmasi</div>
+    <div class="ad-metric-value">%15+<span class="ad-metric-unit"> → dikkat</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">İade Süresi</div>
+    <div class="ad-metric-value">14<span class="ad-metric-unit"> gün (online)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertifika Standardı</div>
+    <div class="ad-metric-value">GIA / IGI<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>Mücevher alışverişi güven üzerine kurulu bir ilişkidir. Doğru kuyumcuyu seçmek, yatırımınızı korumanın ilk adımıdır. Ticaret odası kaydı olan, ayar damgası ve uluslararası sertifika sunan esnafa yönelin; her parça için fatura, ayar belgesi ve varsa taş sertifikası (GIA, IGI vb.) talep edin.</p>
+
+<h3>Kırmızı Bayraklar</h3>
+
+<p>Fatura vermekten kaçınıyorsa, "bu taş doğal" deyip sertifika sunmuyorsa, piyasanın çok altında fiyat veriyorsa, taşı büyüteçle incelemenize izin vermiyorsa veya iade politikası yoksa — dikkatli olun ve o dükkândan uzaklaşın.</p>
+
+<h3>İyi Kuyumcunun Özellikleri</h3>
+
+<p>Güvenilir kuyumcu soruları memnuniyetle yanıtlar, taşları büyüteçle incelemenize izin verir, yazılı garanti ve şeffaf fiyatlandırma (gram fiyat × ağırlık + işçilik) sunar, net iade/değişim politikasına sahiptir ve uzun süredir aynı lokasyondadır.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mağaza Alışverişi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Fiziksel inceleme, pazarlık</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Baskılı satış ortamı</span></div>
+      <div class="ad-compare-row"><span class="label">İade</span><span class="value">Mağazaya göre değişir</span></div>
+      <div class="ad-compare-row"><span class="label">İpucu</span><span class="value">Gram fiyatını telefondan kontrol</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Online Alışveriş</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Geniş karşılaştırma, fiyat şeffaflığı</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Fotoğraf/gerçek farkı</span></div>
+      <div class="ad-compare-row"><span class="label">İade</span><span class="value">Min. 14 gün yasal hak</span></div>
+      <div class="ad-compare-row"><span class="label">İpucu</span><span class="value">SSL sertifika + kargo sigorta</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Altın Kural</div>
+  <div class="ad-fact-callout-text">"Çok iyi bir teklif" gerçek olamayacak kadar iyiyse muhtemelen gerçek değildir. Piyasa fiyatının %15'inden fazla altında satılan takılarda dikkatli olun. Türkiye'de kuyumcular Kuyumcular Odası'na kayıt zorunluluğuna tabidir — kayıt numarasını sorarak denetim altında olup olmadığını teyit edebilirsiniz.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Türkiye Kuyumcular Odası yönetmelikleri, GIA tüketici rehberleri ve TÜDEF (Tüm Tüketici Dernekleri Federasyonu) yayınlarına dayanmaktadır.</p>`,
+
+  en: `<h2>How to Choose a Jeweler</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Price Deviation</div>
+    <div class="ad-metric-value">15%+<span class="ad-metric-unit"> → caution</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Return Window</div>
+    <div class="ad-metric-value">14<span class="ad-metric-unit"> days (online)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Certificate Standard</div>
+    <div class="ad-metric-value">GIA / IGI<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>Jewelry shopping is a trust-based relationship. The right jeweller is the first layer of protection for your investment. Look for chamber-of-commerce registration, hallmark stamps, and international certificates (GIA, IGI). Demand an invoice, purity certificate, and gemstone report for every piece.</p>
+
+<h3>Red Flags &amp; Green Lights</h3>
+
+<p>Walk away if the seller avoids invoices, claims a stone is natural without a certificate, prices far below market, refuses loupe inspection, or lacks a return policy. A trustworthy jeweller answers questions willingly, offers written guarantees, explains pricing transparently, and has operated from the same location for years.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">In-Store Shopping</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Physical inspection, bargaining</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Pressured selling environment</span></div>
+      <div class="ad-compare-row"><span class="label">Returns</span><span class="value">Varies by store</span></div>
+      <div class="ad-compare-row"><span class="label">Tip</span><span class="value">Check gram price on phone</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Online Shopping</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Wide comparison, price clarity</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Photo vs reality gap</span></div>
+      <div class="ad-compare-row"><span class="label">Returns</span><span class="value">Min. 14 days legal right</span></div>
+      <div class="ad-compare-row"><span class="label">Tip</span><span class="value">SSL cert + shipping insurance</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Golden Rule</div>
+  <div class="ad-fact-callout-text">If a deal seems too good to be true, it probably isn't. Be cautious with jewellery sold more than 15 % below market price. In Turkey, jewellers must register with the Chamber of Jewellers — asking for the registration number lets you verify they are under official supervision.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Turkey Chamber of Jewellers regulations, GIA consumer guides, and consumer-federation publications.</p>`,
+
+  ar: `<h2>دليل اختيار الصائغ</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">انحراف السعر</div>
+    <div class="ad-metric-value">15%+<span class="ad-metric-unit"> → حذر</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">فترة الإرجاع</div>
+    <div class="ad-metric-value">14<span class="ad-metric-unit"> يوم (أونلاين)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">معيار الشهادة</div>
+    <div class="ad-metric-value">GIA / IGI<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>التسوق للمجوهرات مبني على الثقة. اختيار الصائغ المناسب أول خطوة لحماية استثمارك. ابحث عن تسجيل الغرفة التجارية وأختام العيار والشهادات الدولية (GIA, IGI).</p>
+
+<h3>علامات التحذير والصائغ الجيد</h3>
+
+<p>ابتعد إذا تجنب إصدار الفواتير أو ادعى أن الحجر طبيعي بلا شهادة أو عرض أسعاراً أقل بكثير من السوق. الصائغ الموثوق يجيب بسرور ويقدم ضمانات مكتوبة ويشرح الأسعار بشفافية.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التسوق في المتجر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الميزة</span><span class="value">فحص مادي، مساومة</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطرة</span><span class="value">ضغط البيع</span></div>
+      <div class="ad-compare-row"><span class="label">النصيحة</span><span class="value">تحقق من سعر الغرام</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التسوق أونلاين</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الميزة</span><span class="value">مقارنة واسعة، شفافية</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطرة</span><span class="value">فرق الصورة والواقع</span></div>
+      <div class="ad-compare-row"><span class="label">النصيحة</span><span class="value">شهادة SSL + تأمين شحن</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">القاعدة الذهبية</div>
+  <div class="ad-fact-callout-text">إذا بدت الصفقة جيدة جداً لدرجة يصعب تصديقها فربما ليست حقيقية. كن حذراً مع المجوهرات المباعة بأقل من 15% من سعر السوق. في تركيا يجب على الصاغة التسجيل في غرفة الصاغة — اطلب رقم التسجيل للتحقق.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى لوائح غرفة الصاغة التركية وأدلة المستهلك من GIA.</p>`
+};
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//  B18 — Müzeler + Rehber
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+// ── C[150] Topkapı Sarayı Hazine Dairesi ─────────────────────
+C[150] = {
+  tr: `<h2>Topkapı Sarayı Hazine Dairesi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kaşıkçı Elması</div>
+    <div class="ad-metric-value">86<span class="ad-metric-unit"> karat</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Müze Tarihi</div>
+    <div class="ad-metric-value">1924<span class="ad-metric-unit">'ten beri</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tahmini Değer</div>
+    <div class="ad-metric-value">$2B+<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p><strong>Topkapı Sarayı Hazine Dairesi</strong>, dünya mücevher tarihinin en etkileyici koleksiyonlarından birini barındırır. 1924'ten bu yana müze olarak ziyarete açık olan hazine, Osmanlı padişahlarının yüzyıllar boyunca biriktirdiği eşsiz parçaları sergiler.</p>
+
+<h3>Kaşıkçı Elması ve Topkapı Hançeri</h3>
+
+<p>86 karatlık gözyaşı kesimli <strong>Kaşıkçı Elması</strong>, etrafındaki 49 pırlantayla dünyanın en ünlü taşlarından biridir. Efsaneye göre bir balıkçı tarafından bulunmuş ve üç kaşık karşılığında satılmıştır. <strong>Topkapı Hançeri</strong> ise altın gövdesi üzerinde üç büyük zümrüt ve kabzasındaki İngiliz yapımı saatle benzersizdir — 1746'da İran Şahı'na hediye olarak tasarlanmıştır.</p>
+
+<h3>Diğer Hazineler</h3>
+
+<p>Bayrak-ı Şerif Muhafazası, altın ve fildişi Osmanlı tahtları, mücevherli ceremonial silahlar ve yüzlerce askeri nişan koleksiyonu da sergilenmektedir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">İkonik Parçalar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kaşıkçı Elması</span><span class="value">86 karat, gözyaşı kesim</span></div>
+      <div class="ad-compare-row"><span class="label">Topkapı Hançeri</span><span class="value">3 zümrüt + saat mekanizması</span></div>
+      <div class="ad-compare-row"><span class="label">Bayrak Muhafazası</span><span class="value">Altın + değerli taş süsleme</span></div>
+      <div class="ad-compare-row"><span class="label">Osmanlı Tahtları</span><span class="value">Altın + fildişi + pırlanta</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Ziyaret Bilgileri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Konum</span><span class="value">Sultanahmet, İstanbul</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">Min. 2 saat ayırın</span></div>
+      <div class="ad-compare-row"><span class="label">Kapalı Gün</span><span class="value">Pazartesi</span></div>
+      <div class="ad-compare-row"><span class="label">Harem</span><span class="value">Ayrı bilet gerekli</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Müze Verisi</div>
+  <div class="ad-fact-callout-text">Topkapı Hazinesi tahminen 2 milyar USD'nin üzerinde değere sahip koleksiyonuyla dünyanın en kıymetli müze hazinelerinden biridir. Kaşıkçı Elması'nın Hint kökenli olduğu düşünülmekle birlikte gerçek kökeni hâlâ tartışmalıdır. Harem bölümü ayrı bilet gerektirir ve kendi başına 1 saatlik bir ziyareti hak eder.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Kültür ve Turizm Bakanlığı müze envanterleri ve Topkapı Sarayı Müzesi yayınlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Topkapi Palace Treasury</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Spoonmaker's Diamond</div>
+    <div class="ad-metric-value">86<span class="ad-metric-unit"> carats</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Museum Since</div>
+    <div class="ad-metric-value">1924<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Estimated Value</div>
+    <div class="ad-metric-value">$2B+<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>The <strong>Topkapi Palace Treasury</strong> houses one of the most impressive collections in world jewellery history. Open as a museum since 1924, it displays unique pieces accumulated by Ottoman sultans over centuries.</p>
+
+<h3>Star Pieces</h3>
+
+<p>The 86-carat pear-cut <strong>Spoonmaker's Diamond</strong> — surrounded by 49 brilliants — is among the world's most famous gems. The <strong>Topkapi Dagger</strong>, with three large emeralds and an English clock in its hilt, was crafted in 1746 as a gift for Nader Shah. The collection also includes gold-and-ivory Ottoman thrones, gem-studded ceremonial weapons, and hundreds of military decorations.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Iconic Pieces</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Spoonmaker's Diamond</span><span class="value">86 ct, pear cut</span></div>
+      <div class="ad-compare-row"><span class="label">Topkapi Dagger</span><span class="value">3 emeralds + clock</span></div>
+      <div class="ad-compare-row"><span class="label">Holy Banner Case</span><span class="value">Gold + gemstone ornament</span></div>
+      <div class="ad-compare-row"><span class="label">Ottoman Thrones</span><span class="value">Gold + ivory + diamond</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Visit Info</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Location</span><span class="value">Sultanahmet, Istanbul</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">Allow min. 2 hours</span></div>
+      <div class="ad-compare-row"><span class="label">Closed</span><span class="value">Mondays</span></div>
+      <div class="ad-compare-row"><span class="label">Harem</span><span class="value">Separate ticket required</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Museum Data</div>
+  <div class="ad-fact-callout-text">The Topkapi Treasury is estimated at over $2 billion, ranking among the world's most valuable museum collections. The Spoonmaker's Diamond is believed to be of Indian origin, though its true provenance remains debated. The Harem section requires a separate ticket and merits a full hour on its own.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Ministry of Culture museum inventories and Topkapi Palace Museum publications.</p>`,
+
+  ar: `<h2>خزينة قصر توبكابي</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ألماس صانع الملاعق</div>
+    <div class="ad-metric-value">86<span class="ad-metric-unit"> قيراط</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">متحف منذ</div>
+    <div class="ad-metric-value">1924<span class="ad-metric-unit"></span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">القيمة التقديرية</div>
+    <div class="ad-metric-value">$2B+<span class="ad-metric-unit"></span></div>
+  </div>
+</div>
+
+<p>تضم <strong>خزينة قصر توبكابي</strong> واحدة من أكثر المجموعات إثارة في تاريخ المجوهرات العالمي. مفتوحة كمتحف منذ 1924 وتعرض قطعاً فريدة جمعها السلاطين العثمانيون عبر القرون.</p>
+
+<h3>القطع الأيقونية</h3>
+
+<p>ألماس صانع الملاعق (86 قيراط بقطع دمعة) محاط بـ49 ألماسة. خنجر توبكابي بثلاث زمردات كبيرة وساعة إنجليزية في مقبضه صُنع عام 1746 كهدية لنادر شاه. المجموعة تشمل أيضاً عروشاً عثمانية وأسلحة مرصعة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">قطع أيقونية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">ألماس صانع الملاعق</span><span class="value">86 قيراط، قطع دمعة</span></div>
+      <div class="ad-compare-row"><span class="label">خنجر توبكابي</span><span class="value">3 زمردات + ساعة</span></div>
+      <div class="ad-compare-row"><span class="label">العروش العثمانية</span><span class="value">ذهب + عاج + ألماس</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">معلومات الزيارة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الموقع</span><span class="value">السلطان أحمد، إسطنبول</span></div>
+      <div class="ad-compare-row"><span class="label">المدة</span><span class="value">ساعتان على الأقل</span></div>
+      <div class="ad-compare-row"><span class="label">مغلق</span><span class="value">الاثنين</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات المتحف</div>
+  <div class="ad-fact-callout-text">تقدر قيمة خزينة توبكابي بأكثر من 2 مليار دولار مما يجعلها من أثمن مجموعات المتاحف في العالم. يُعتقد أن ألماس صانع الملاعق هندي الأصل لكن منشأه الحقيقي لا يزال محل جدل.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى جرد متاحف وزارة الثقافة ومنشورات متحف قصر توبكابي.</p>`
+};
+
+// ── C[151] Dünya Mücevher Müzeleri ───────────────────────────
+C[151] = {
+  tr: `<h2>Dünya Mücevher Müzeleri</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hope Elması</div>
+    <div class="ad-metric-value">45,3<span class="ad-metric-unit"> karat</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Cullinan I</div>
+    <div class="ad-metric-value">530<span class="ad-metric-unit"> karat</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Derya-ye Nur</div>
+    <div class="ad-metric-value">182<span class="ad-metric-unit"> karat</span></div>
+  </div>
+</div>
+
+<p>Dünyanın dört bir yanında, insanlık tarihinin en değerli mücevherlerini barındıran müzeler bulunur. Her biri eşsiz taşlar, kraliyet hazineleri ve yüzyılların zanaatını sergiler.</p>
+
+<h3>Victoria &amp; Albert Museum — Londra</h3>
+
+<p>V&A mücevher galerisi 3.000'den fazla parçayla Avrupa'nın en kapsamlı koleksiyonudur — Antik Roma'dan Art Deco'ya, Hint Mughal mücevherlerinden çağdaş tasarımlara kadar. Giriş ücretsizdir.</p>
+
+<h3>Smithsonian, Tower of London, Louvre, Tahran</h3>
+
+<p>Smithsonian'daki 45,3 karatlık <strong>Hope Elması</strong> dünyanın en tanınmış taşlarından biri. Tower of London'da 530 karatlık Cullinan I (dünyanın en büyük işlenmiş elması) ve Koh-i-Noor sergilenir. Louvre'da 141 karatlık Regent Elması ve Marie Antoinette'in incileri bulunur. Tahran'daki İran Ulusal Mücevher Müzesi ise 182 karatlık pembe <strong>Derya-ye Nur</strong> ve Peacock Throne ile dünyanın en zengin koleksiyonlarından birini sunar.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Ücretsiz Müzeler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">V&A Londra</span><span class="value">3.000+ parça, Avrupa'nın en genişi</span></div>
+      <div class="ad-compare-row"><span class="label">Smithsonian DC</span><span class="value">Hope Elması, Logan Safir</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Biletli Müzeler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tower of London</span><span class="value">Cullinan I (530 kt), Koh-i-Noor</span></div>
+      <div class="ad-compare-row"><span class="label">Louvre Paris</span><span class="value">Regent Elması (141 kt)</span></div>
+      <div class="ad-compare-row"><span class="label">Tahran Müzesi</span><span class="value">Derya-ye Nur (182 kt pembe)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Gezgin İpucu</div>
+  <div class="ad-fact-callout-text">Müze ziyaretine yanınıza el büyüteci götürmenizi öneririz — birçok müze vitrin arkasından taş detaylarını görmek için büyüteç kullanımına izin verir. Tahran'daki İran Mücevher Müzesi Merkez Bankası kasasında muhafaza edilir ve sınırlı ziyaret saatleri uygular — önceden randevu almanız gerekebilir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Müze resmi web siteleri, Smithsonian Gem Collection rehberleri ve Tower of London ziyaret kılavuzlarına dayanmaktadır.</p>`,
+
+  en: `<h2>World Jewelry Museums</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hope Diamond</div>
+    <div class="ad-metric-value">45.3<span class="ad-metric-unit"> carats</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Cullinan I</div>
+    <div class="ad-metric-value">530<span class="ad-metric-unit"> carats</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Darya-ye Noor</div>
+    <div class="ad-metric-value">182<span class="ad-metric-unit"> carats</span></div>
+  </div>
+</div>
+
+<p>Museums across the globe house humanity's most extraordinary jewels — each a showcase of legendary stones, royal treasures, and centuries of craftsmanship.</p>
+
+<h3>Key Collections</h3>
+
+<p>London's V&amp;A presents 3,000+ pieces from Ancient Rome to contemporary design (free entry). Washington's Smithsonian features the 45.3-carat <strong>Hope Diamond</strong> and the 423-carat Logan Sapphire. The Tower of London houses Cullinan I (530 carats) and Koh-i-Noor. The Louvre displays the 141-carat Regent Diamond. Tehran's National Jewels Museum holds the 182-carat pink <strong>Darya-ye Noor</strong> and the Peacock Throne, among the richest collections on Earth.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Free Museums</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">V&A London</span><span class="value">3,000+ pieces, Europe's broadest</span></div>
+      <div class="ad-compare-row"><span class="label">Smithsonian DC</span><span class="value">Hope Diamond, Logan Sapphire</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Ticketed Museums</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tower of London</span><span class="value">Cullinan I (530 ct), Koh-i-Noor</span></div>
+      <div class="ad-compare-row"><span class="label">Louvre Paris</span><span class="value">Regent Diamond (141 ct)</span></div>
+      <div class="ad-compare-row"><span class="label">Tehran Museum</span><span class="value">Darya-ye Noor (182 ct pink)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Traveller Tip</div>
+  <div class="ad-fact-callout-text">Bring a hand loupe when visiting — many museums allow magnification through display cases. Tehran's National Jewels Museum is kept inside the Central Bank vault with limited visiting hours; you may need an advance appointment.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on official museum websites, Smithsonian Gem Collection guides, and Tower of London visitor handbooks.</p>`,
+
+  ar: `<h2>متاحف المجوهرات العالمية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ألماس الأمل</div>
+    <div class="ad-metric-value">45.3<span class="ad-metric-unit"> قيراط</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">كولينان I</div>
+    <div class="ad-metric-value">530<span class="ad-metric-unit"> قيراط</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">دريا نور</div>
+    <div class="ad-metric-value">182<span class="ad-metric-unit"> قيراط</span></div>
+  </div>
+</div>
+
+<p>تضم متاحف حول العالم أثمن جواهر البشرية من أحجار أسطورية وكنوز ملكية وقرون من الحرفية.</p>
+
+<h3>المجموعات الرئيسية</h3>
+
+<p>متحف V&A في لندن يعرض أكثر من 3,000 قطعة (دخول مجاني). سميثسونيان يضم ألماس الأمل (45.3 قيراط) وياقوت لوغان (423 قيراط). برج لندن يضم كولينان I (530 قيراط) وكوه نور. اللوفر يعرض ألماس ريجنت (141 قيراط). متحف طهران يحتفظ بدريا نور الوردي (182 قيراط) وعرش الطاووس.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">متاحف مجانية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">V&A لندن</span><span class="value">3,000+ قطعة</span></div>
+      <div class="ad-compare-row"><span class="label">سميثسونيان</span><span class="value">ألماس الأمل، ياقوت لوغان</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">متاحف بتذاكر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">برج لندن</span><span class="value">كولينان I (530 قيراط)</span></div>
+      <div class="ad-compare-row"><span class="label">اللوفر</span><span class="value">ألماس ريجنت (141 قيراط)</span></div>
+      <div class="ad-compare-row"><span class="label">طهران</span><span class="value">دريا نور (182 قيراط وردي)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة للمسافر</div>
+  <div class="ad-fact-callout-text">احمل عدسة مكبرة يدوية عند الزيارة — العديد من المتاحف تسمح باستخدامها عبر واجهات العرض. متحف جواهر إيران الوطني محفوظ في خزنة البنك المركزي بساعات زيارة محدودة وقد تحتاج لموعد مسبق.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى المواقع الرسمية للمتاحف وأدلة مجموعة سميثسونيان للأحجار الكريمة.</p>`
+};
+
+// ── C[152] İstanbul Mücevher & Sanat Müzeleri ────────────────
+C[152] = {
+  tr: `<h2>İstanbul Mücevher &amp; Sanat Müzeleri</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Arkeoloji Müzesi</div>
+    <div class="ad-metric-value">1.000.000+<span class="ad-metric-unit"> eser</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">İlk Özel Müze</div>
+    <div class="ad-metric-value">Sadberk H.<span class="ad-metric-unit"> 1980</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Museum Pass</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> gün</span></div>
+  </div>
+</div>
+
+<p>Topkapı Sarayı dışında İstanbul'da mücevher ve değerli sanat eserleri sergileyen birçok önemli müze bulunur. Bu müzeler Antik Çağ'dan Osmanlı'ya, İslam sanatından çağdaş tasarıma geniş bir yelpaze sunar.</p>
+
+<h3>İstanbul Arkeoloji Müzeleri</h3>
+
+<p>Sultanahmet'teki kompleks Antik Yunan, Roma ve Bizans dönemlerine ait altın takılar, gümüş sikkeler ve değerli taş işçiliği örnekleri barındırır. <strong>İskender Lahdi</strong> üzerindeki altın süslemeler ve Lidya altın sikkeleri öne çıkan parçalardır.</p>
+
+<h3>Türk ve İslam Eserleri Müzesi</h3>
+
+<p><strong>İbrahim Paşa Sarayı</strong>'ndaki bu müze İslam dünyasının en kapsamlı koleksiyonlarından birini sunar: altın Kur'an sayfaları, gümüş buhurdanlıklar, değerli taşlarla süslü silahlar ve Selçuklu-Osmanlı mücevherleri.</p>
+
+<h3>Sadberk Hanım ve Pera Müzeleri</h3>
+
+<p>Sarıyer'deki Sadberk Hanım Müzesi Türkiye'nin ilk özel müzesi olarak altın kemer tokaları, pırlanta broşlar ve padişah hediyeleri sergiler. Pera Müzesi ise Kütahya seramikleri ve Osmanlı gümüş eserleri sunar.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Arkeoloji &amp; İslam Sanatı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Arkeoloji Müzeleri</span><span class="value">Yunan-Roma-Bizans altın takı</span></div>
+      <div class="ad-compare-row"><span class="label">İslam Eserleri</span><span class="value">Altın Kur'an, gümüş buhurdan</span></div>
+      <div class="ad-compare-row"><span class="label">İskender Lahdi</span><span class="value">Detaylı altın süslemeler</span></div>
+      <div class="ad-compare-row"><span class="label">Lidya Sikkeleri</span><span class="value">Dünyanın ilk madeni paraları</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Özel &amp; Tematik Müzeler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sadberk Hanım</span><span class="value">Osmanlı takı, padişah hediyeleri</span></div>
+      <div class="ad-compare-row"><span class="label">Pera Müzesi</span><span class="value">Kütahya seramik, gümüş eserler</span></div>
+      <div class="ad-compare-row"><span class="label">Rahmi Koç</span><span class="value">Sanayi tarihi, değerli metaller</span></div>
+      <div class="ad-compare-row"><span class="label">Sakıp Sabancı</span><span class="value">Osmanlı hat sanatı, altın tezhip</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Ziyaret İpucu</div>
+  <div class="ad-fact-callout-text">Museum Pass Istanbul ile bu müzelerin çoğuna indirimli giriş yapabilirsiniz. 5 günlük pass yoğun bir müze programı için idealdir. İstanbul Arkeoloji Müzeleri'ndeki Lidya altın sikkeleri (MÖ 7. yüzyıl), dünyanın bilinen en eski madeni paralarıdır — mücevher ve para tarihini birleştiren eşsiz bir koleksiyondur.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Kültür ve Turizm Bakanlığı müze rehberleri ve İstanbul Museum Pass bilgilendirme kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Istanbul Jewelry &amp; Art Museums</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Archaeology Museums</div>
+    <div class="ad-metric-value">1,000,000+<span class="ad-metric-unit"> items</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">First Private Museum</div>
+    <div class="ad-metric-value">Sadberk H.<span class="ad-metric-unit"> 1980</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Museum Pass</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> days</span></div>
+  </div>
+</div>
+
+<p>Beyond Topkapi, Istanbul offers several museums with significant jewellery and precious-art holdings spanning antiquity through the Ottoman era to contemporary design.</p>
+
+<h3>Istanbul Archaeology Museums</h3>
+
+<p>This Sultanahmet complex houses Ancient Greek, Roman, and Byzantine gold jewellery, silver coins, and gemstone work. The Alexander Sarcophagus ornaments and Lydian gold coins are highlights.</p>
+
+<h3>Museum of Turkish and Islamic Arts &amp; Private Museums</h3>
+
+<p>In the Ibrahim Pasha Palace, gold Quran pages, silver censers, gem-studded weapons, and Seljuk-Ottoman jewellery are displayed. The Sadberk Hanım Museum — Turkey's first private museum — showcases Ottoman jewellery including gold buckles, diamond brooches, and royal gifts.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Archaeology &amp; Islamic Art</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Archaeology Museums</span><span class="value">Greek-Roman-Byzantine gold</span></div>
+      <div class="ad-compare-row"><span class="label">Islamic Arts</span><span class="value">Gold Quran, silver censers</span></div>
+      <div class="ad-compare-row"><span class="label">Alexander Sarcophagus</span><span class="value">Detailed gold ornament</span></div>
+      <div class="ad-compare-row"><span class="label">Lydian coins</span><span class="value">World's earliest coinage</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Private &amp; Thematic</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sadberk Hanım</span><span class="value">Ottoman jewellery, royal gifts</span></div>
+      <div class="ad-compare-row"><span class="label">Pera Museum</span><span class="value">Kütahya ceramics, silverware</span></div>
+      <div class="ad-compare-row"><span class="label">Sakıp Sabancı</span><span class="value">Ottoman calligraphy, gold gilding</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Visit Tip</div>
+  <div class="ad-fact-callout-text">Museum Pass Istanbul offers discounted entry to most of these venues; the 5-day pass is ideal for intensive touring. The Lydian gold coins (7th century BCE) in the Archaeology Museums are among the world's earliest known coinage — a unique collection bridging jewellery and monetary history.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Ministry of Culture museum guides and Istanbul Museum Pass information resources.</p>`,
+
+  ar: `<h2>متاحف المجوهرات والفنون في إسطنبول</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">متاحف الآثار</div>
+    <div class="ad-metric-value">1,000,000+<span class="ad-metric-unit"> قطعة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أول متحف خاص</div>
+    <div class="ad-metric-value">صدبرك هـ.<span class="ad-metric-unit"> 1980</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">بطاقة المتاحف</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> أيام</span></div>
+  </div>
+</div>
+
+<p>إلى جانب قصر توبكابي، تقدم إسطنبول عدة متاحف مهمة بمقتنيات مجوهرات وفنون ثمينة من العصور القديمة إلى العثمانية.</p>
+
+<h3>المجموعات الرئيسية</h3>
+
+<p>متاحف الآثار في السلطان أحمد تضم مجوهرات ذهبية يونانية ورومانية وبيزنطية وعملات فضية — زخارف تابوت الإسكندر الذهبية وعملات ليديا أبرز القطع. متحف الفنون التركية والإسلامية في قصر إبراهيم باشا يعرض صفحات القرآن الذهبية ومباخر فضية وأسلحة مرصعة. متحف صدبرك هانم أول متحف خاص في تركيا بمجموعة مجوهرات عثمانية بارزة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الآثار والفن الإسلامي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">متاحف الآثار</span><span class="value">ذهب يوناني-روماني-بيزنطي</span></div>
+      <div class="ad-compare-row"><span class="label">الفنون الإسلامية</span><span class="value">قرآن ذهبي، مباخر فضة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">متاحف خاصة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">صدبرك هانم</span><span class="value">مجوهرات عثمانية، هدايا ملكية</span></div>
+      <div class="ad-compare-row"><span class="label">بيرا</span><span class="value">سيراميك كوتاهيا، فضيات</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة الزيارة</div>
+  <div class="ad-fact-callout-text">بطاقة Museum Pass Istanbul توفر دخولاً مخفضاً لمعظم هذه المتاحف. عملات ليديا الذهبية (القرن السابع ق.م) في متاحف الآثار من أقدم العملات المعدنية المعروفة في العالم — مجموعة فريدة تربط تاريخ المجوهرات والنقود.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة متاحف وزارة الثقافة ومعلومات بطاقة Museum Pass Istanbul.</p>`
+};
+
+// ── C[153] Vintage & Antika Mücevher Rehberi ─────────────────
+C[153] = {
+  tr: `<h2>Vintage &amp; Antika Mücevher Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Art Deco Artış</div>
+    <div class="ad-metric-value">%40<span class="ad-metric-unit"> (2020–25)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Dönem Sayısı</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> ana dönem</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Provenance Etkisi</div>
+    <div class="ad-metric-value">+%20–50<span class="ad-metric-unit"> değer</span></div>
+  </div>
+</div>
+
+<p>Antika mücevherler yalnızca birer aksesuar değil, taşınabilir tarih parçalarıdır. Her dönemin kendine özgü stilleri, teknikleri ve malzeme tercihleri, parçayı tarihlendirmenin ve değerlendirmenin anahtarıdır.</p>
+
+<h3>Dönem Tanıma Rehberi</h3>
+
+<p><strong>Georgian (1714–1837):</strong> El kesimi taşlar, gümüş-altın kombinasyonu, doğa motifleri. <strong>Victorian (1837–1901):</strong> Mourning jewelry, cameo, seed pearl. <strong>Art Nouveau (1890–1910):</strong> Organik formlar, emay, plique-à-jour. <strong>Art Deco (1920–1935):</strong> Geometrik desenler, platin, zümrüt+pırlanta. <strong>Retro (1935–1950):</strong> Büyük altın parçalar, aquamarine, citrine.</p>
+
+<h3>Orijinallik ve Koleksiyon</h3>
+
+<p>Ayar damgalarının dönemle uyumunu, klips ve mekanizmaların orijinalliğini, patina doğallığını kontrol edin. Provenance (köken belgesi) varsa değer %20–50 artar. Onarılmış parçalar orijinal durumda olanlara göre %30–60 değer kaybeder.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Klasik Dönemler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Georgian</span><span class="value">El kesim taş, doğa motifi</span></div>
+      <div class="ad-compare-row"><span class="label">Victorian</span><span class="value">Mourning jewelry, cameo</span></div>
+      <div class="ad-compare-row"><span class="label">Art Nouveau</span><span class="value">Organik form, emay</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Modern Dönemler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Art Deco</span><span class="value">Geometrik, platin — en popüler</span></div>
+      <div class="ad-compare-row"><span class="label">Retro</span><span class="value">Büyük altın, aquamarine</span></div>
+      <div class="ad-compare-row"><span class="label">Mid-Century</span><span class="value">Minimalist, Scandinavian</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pazar Verisi</div>
+  <div class="ad-fact-callout-text">Art Deco mücevherler 2020–2025 arasında değer olarak %40 artış göstererek en çok talep gören vintage dönem olmuştur. Uzmanlaşmak başarının anahtarıdır — tek bir dönem veya stil seçip o alanda derinleşin. Müzayede evleri (Christie's, Sotheby's, Bonhams) en güvenilir kaynaktır; profesyonel değerleme 5.000₺ üzeri parçalar için kesinlikle önerilir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Christie's ve Sotheby's dönem mücevher rehberleri, GIA antika değerlendirme kılavuzları ve Antique Jewellery University kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Vintage &amp; Antique Jewelry Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Art Deco Rise</div>
+    <div class="ad-metric-value">40%<span class="ad-metric-unit"> (2020–25)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Major Periods</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> eras</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Provenance Boost</div>
+    <div class="ad-metric-value">+20–50%<span class="ad-metric-unit"> value</span></div>
+  </div>
+</div>
+
+<p>Antique jewels are portable pieces of history. Each era's distinct styles, techniques, and material choices are the key to dating and valuing a piece.</p>
+
+<h3>Period Identification</h3>
+
+<p><strong>Georgian (1714–1837):</strong> Hand-cut stones, silver-gold combo, nature motifs. <strong>Victorian (1837–1901):</strong> Mourning jewelry, cameos, seed pearls. <strong>Art Nouveau (1890–1910):</strong> Organic forms, enamelling, plique-à-jour. <strong>Art Deco (1920–1935):</strong> Geometric patterns, platinum, emerald+diamond combos. <strong>Retro (1935–1950):</strong> Bold gold, aquamarine, citrine.</p>
+
+<h3>Authenticity &amp; Collecting</h3>
+
+<p>Verify hallmarks match the era, clasps are period-appropriate, and patina is natural. Provenance adds 20–50 % to value; repairs reduce it by 30–60 %. Specialise in one period for the best results.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Classic Periods</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Georgian</span><span class="value">Hand-cut stone, nature motif</span></div>
+      <div class="ad-compare-row"><span class="label">Victorian</span><span class="value">Mourning jewelry, cameo</span></div>
+      <div class="ad-compare-row"><span class="label">Art Nouveau</span><span class="value">Organic form, enamel</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Modern Periods</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Art Deco</span><span class="value">Geometric, platinum — most popular</span></div>
+      <div class="ad-compare-row"><span class="label">Retro</span><span class="value">Bold gold, aquamarine</span></div>
+      <div class="ad-compare-row"><span class="label">Mid-Century</span><span class="value">Minimalist, Scandinavian</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Market Data</div>
+  <div class="ad-fact-callout-text">Art Deco jewellery saw a 40 % value increase from 2020 to 2025, making it the most sought-after vintage period. Specialisation is the key to success — pick one era and go deep. Auction houses (Christie's, Sotheby's, Bonhams) are the most reliable sources; professional appraisal is strongly recommended for pieces above $500.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Christie's and Sotheby's period-jewellery guides, GIA antique-valuation handbooks, and Antique Jewellery University resources.</p>`,
+
+  ar: `<h2>دليل المجوهرات العتيقة والأثرية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">ارتفاع آرت ديكو</div>
+    <div class="ad-metric-value">40%<span class="ad-metric-unit"> (2020–25)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الفترات الرئيسية</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> حقب</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">تأثير المنشأ</div>
+    <div class="ad-metric-value">+20–50%<span class="ad-metric-unit"> قيمة</span></div>
+  </div>
+</div>
+
+<p>المجوهرات الأثرية قطع تاريخية محمولة. أساليب وتقنيات ومواد كل حقبة هي مفتاح تأريخ القطعة وتقييمها.</p>
+
+<h3>تحديد الفترة والأصالة</h3>
+
+<p><strong>الجورجي (1714–1837):</strong> أحجار مقطوعة يدوياً وزخارف طبيعية. <strong>الفيكتوري (1837–1901):</strong> مجوهرات الحداد والنقوش. <strong>آرت نوفو (1890–1910):</strong> أشكال عضوية ومينا. <strong>آرت ديكو (1920–1935):</strong> أنماط هندسية وبلاتين. <strong>ريترو (1935–1950):</strong> ذهب جريء وأكوامارين. تحقق من تطابق الأختام مع الحقبة وطبيعية الباتينا. وثيقة المنشأ تضيف 20–50% للقيمة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">فترات كلاسيكية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الجورجي</span><span class="value">أحجار يدوية، زخارف طبيعة</span></div>
+      <div class="ad-compare-row"><span class="label">الفيكتوري</span><span class="value">مجوهرات حداد، نقوش</span></div>
+      <div class="ad-compare-row"><span class="label">آرت نوفو</span><span class="value">أشكال عضوية، مينا</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">فترات حديثة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">آرت ديكو</span><span class="value">هندسي، بلاتين — الأكثر طلباً</span></div>
+      <div class="ad-compare-row"><span class="label">ريترو</span><span class="value">ذهب جريء، أكوامارين</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات السوق</div>
+  <div class="ad-fact-callout-text">شهدت مجوهرات آرت ديكو زيادة 40% في القيمة بين 2020 و2025 لتصبح الفترة العتيقة الأكثر طلباً. التخصص مفتاح النجاح — اختر حقبة واحدة وتعمق فيها. دور المزادات (كريستيز، سوذبيز) هي المصادر الأكثر موثوقية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة كريستيز وسوذبيز وكتيبات تقييم GIA للتحف.</p>`
+};
+
+// ── C[154] Etik Mücevher ve Kimberley Süreci ─────────────────
+C[154] = {
+  tr: `<h2>Etik Mücevher ve Kimberley Süreci</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">KPCS Üye</div>
+    <div class="ad-metric-value">85<span class="ad-metric-unit"> ülke</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lab Pırlanta</div>
+    <div class="ad-metric-value">%50+<span class="ad-metric-unit"> nişan payı</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sürdürülebilirlik</div>
+    <div class="ad-metric-value">%67<span class="ad-metric-unit"> tüketici</span></div>
+  </div>
+</div>
+
+<p>Mücevher endüstrisi çevresel ve sosyal etkileri açısından büyük bir dönüşüm geçirmektedir. Bilinçli tüketici olarak haklarımızı ve sorumluluklarımızı bilmek, hem etik hem de ekonomik açıdan doğru seçimler yapmamızı sağlar.</p>
+
+<h3>Kimberley Süreci</h3>
+
+<p>2003'te yürürlüğe giren <strong>Kimberley Süreci Sertifikasyon Şeması (KPCS)</strong>, "çatışma elmasları" — silahlı grupları finanse eden yasa dışı elmas ticaretinin — önlenmesi amacıyla kurulmuştur. 85 üye ülke sertifikasız ham elmas ithalat/ihracatını yasaklamıştır. Ancak eleştirmenler sistemin insan hakları ihlallerini yeterince kapsamadığını belirtir.</p>
+
+<h3>Fair Trade ve Lab-Grown</h3>
+
+<p><strong>Fairmined</strong> ve <strong>Fairtrade Gold</strong> sertifikaları küçük ölçekli madencilerin adil ücret, güvenli koşullar ve çevresel standart garantisi sağlar. Laboratuvar pırlantaları (CVD/HPHT) çevresel ayak izini %90+ düşürür, fiyatları doğal pırlantanın %50–70'i kadardır ve kimyasal olarak identiktir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Doğal Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Maden — çevresel etki yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">Kimberley + GIA</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Referans (%100)</span></div>
+      <div class="ad-compare-row"><span class="label">Yatırım</span><span class="value">Değer koruma potansiyeli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Lab-Grown Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Laboratuvar — %90+ düşük iz</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">IGI / GIA (lab notu)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Doğalın %50–70'i</span></div>
+      <div class="ad-compare-row"><span class="label">Yatırım</span><span class="value">Değer kaybı riski daha yüksek</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Sorumlu Alışveriş</h3>
+
+<p>RJC (Responsible Jewellery Council) sertifikalı markalar arayın. Geri dönüştürülmüş metal kullanımını sorun. Taşların kaynağını sorgulayın.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Sürdürülebilirlik Verisi</div>
+  <div class="ad-fact-callout-text">2025'te küresel mücevher tüketicilerinin %67'si sürdürülebilirliği satın alma kararlarında "önemli" veya "çok önemli" olarak değerlendirmektedir. Lab-grown pırlanta nişan yüzüklerinde pazar payı %50'yi aşmıştır. Fair trade altın konvansiyonele göre yalnızca %5–10 daha pahalıdır ancak sosyal etkisi çok büyüktür.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Kimberley Process resmi verileri, RJC sürdürülebilirlik raporları ve McKinsey Global Luxury Report'a dayanmaktadır.</p>`,
+
+  en: `<h2>Ethical Jewelry &amp; Kimberley Process</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">KPCS Members</div>
+    <div class="ad-metric-value">85<span class="ad-metric-unit"> countries</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lab Diamond</div>
+    <div class="ad-metric-value">50%+<span class="ad-metric-unit"> engagement</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sustainability</div>
+    <div class="ad-metric-value">67%<span class="ad-metric-unit"> consumers</span></div>
+  </div>
+</div>
+
+<p>The jewellery industry is undergoing a major transformation in environmental and social responsibility. Understanding rights and options as a conscious consumer enables both ethical and economically sound choices.</p>
+
+<h3>Kimberley Process &amp; Fair Trade</h3>
+
+<p>The <strong>KPCS</strong> (2003) aims to prevent conflict-diamond financing. 85 member countries ban uncertified rough-diamond trade, though critics note gaps in human-rights coverage. <strong>Fairmined</strong> and <strong>Fairtrade Gold</strong> certifications guarantee fair wages, safe conditions, and environmental standards for small-scale miners — at just a 5–10 % premium.</p>
+
+<h3>Lab-Grown Alternative</h3>
+
+<p>Lab diamonds (CVD / HPHT) cut environmental footprint by over 90 %, price at 50–70 % of natural, and are chemically identical.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Natural Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Mining — high environmental impact</span></div>
+      <div class="ad-compare-row"><span class="label">Certificate</span><span class="value">Kimberley + GIA</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">Benchmark (100 %)</span></div>
+      <div class="ad-compare-row"><span class="label">Investment</span><span class="value">Value-retention potential</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Lab-Grown Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Lab — 90 %+ lower footprint</span></div>
+      <div class="ad-compare-row"><span class="label">Certificate</span><span class="value">IGI / GIA (lab noted)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">50–70 % of natural</span></div>
+      <div class="ad-compare-row"><span class="label">Investment</span><span class="value">Higher depreciation risk</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Sustainability Data</div>
+  <div class="ad-fact-callout-text">In 2025, 67 % of global jewellery consumers rated sustainability as "important" or "very important" in purchasing decisions. Lab-grown diamonds have exceeded 50 % market share in engagement rings. Fair-trade gold costs only 5–10 % more than conventional but delivers enormous social impact.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Kimberley Process official data, RJC sustainability reports, and the McKinsey Global Luxury Report.</p>`,
+
+  ar: `<h2>المجوهرات الأخلاقية وعملية كيمبرلي</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أعضاء KPCS</div>
+    <div class="ad-metric-value">85<span class="ad-metric-unit"> دولة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الألماس المختبري</div>
+    <div class="ad-metric-value">50%+<span class="ad-metric-unit"> خطوبة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الاستدامة</div>
+    <div class="ad-metric-value">67%<span class="ad-metric-unit"> مستهلكين</span></div>
+  </div>
+</div>
+
+<p>تشهد صناعة المجوهرات تحولاً كبيراً في المسؤولية البيئية والاجتماعية. فهم الحقوق والخيارات كمستهلك واعٍ يتيح اتخاذ قرارات أخلاقية واقتصادية سليمة.</p>
+
+<h3>كيمبرلي والتجارة العادلة والبديل المختبري</h3>
+
+<p>عملية كيمبرلي (2003) تهدف لمنع تمويل ألماس النزاعات. 85 دولة تحظر تجارة الألماس الخام غير المعتمد. شهادات Fairmined وFairtrade Gold تضمن أجوراً عادلة وظروفاً آمنة. الألماس المختبري (CVD/HPHT) يقلل البصمة البيئية بأكثر من 90% وسعره 50–70% من الطبيعي ومتطابق كيميائياً.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ألماس طبيعي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">تعدين — أثر بيئي عالٍ</span></div>
+      <div class="ad-compare-row"><span class="label">الشهادة</span><span class="value">كيمبرلي + GIA</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">مرجع (100%)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ألماس مختبري</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">مختبر — أقل 90%+ بصمة</span></div>
+      <div class="ad-compare-row"><span class="label">الشهادة</span><span class="value">IGI / GIA (مع ملاحظة مختبري)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">50–70% من الطبيعي</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات الاستدامة</div>
+  <div class="ad-fact-callout-text">في 2025، 67% من مستهلكي المجوهرات العالميين يعتبرون الاستدامة مهمة في قرارات الشراء. تجاوز الألماس المختبري 50% من حصة سوق خواتم الخطوبة. الذهب العادل يكلف فقط 5–10% أكثر لكن أثره الاجتماعي ضخم.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى بيانات عملية كيمبرلي الرسمية وتقارير RJC للاستدامة وتقرير McKinsey للرفاهية.</p>`
+};
+
+export default C;

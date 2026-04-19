@@ -7160,7 +7160,6 @@ C[161] = {
   ar: `<h2>تكنولوجيا الفضة النانوية</h2><p>جسيمات الفضة النانوية (1-100 نانومتر) لها خصائص مضادة للميكروبات فريدة.</p><h3>التطبيقات الطبية</h3><p>فعالة ضد أكثر من 650 نوع بكتيريا. كريمات سلفاديازين الفضة علاج قياسي للحروق.</p><h3>الألواح الشمسية</h3><p>10% من الطلب العالمي على الفضة من الطاقة الشمسية.</p><div class="fact-box"><strong>المستقبل:</strong> سوق تكنولوجيا الفضة النانوية يصل إلى 4.2 مليار دولار بحلول 2026.</div>`
 };
 
-export default C;
 
 C[181] = {
   tr: `<h2>Gümüş Tespih Rehberi</h2><p>Tespih, İslam dünyasının en yaygın el aksesuarlarından biridir ve gümüş tespihler hem ibadet aracı hem de koleksiyon objeleri olarak özel bir yere sahiptir.</p><h3>Tespih Anatomisi</h3><p>Standart bir tespih üç ana bölümden oluşur: 99 veya 33 tane (dane), taneleri ayıran pul (nişane) ve üst kısımdaki imame (başlık). İmame, tespihin en gösterişli parçasıdır — konik veya silindirik form, filigran işçiliği veya taş kakma ile süslenir.</p><h3>Gümüş Tespih Türleri</h3><p>925 ayar gümüş tespihler en yaygın olanıdır. Oksitlenmiş gümüş modeller antik görünüm sağlar. Kazaz (1000 ayar) tespihler Trabzon geleneğinin zirvesidir — ince gümüş teller örgü tekniğiyle işlenir. Filigran (telkâri) tespihler Midyat ve Mardin'de üretilir.</p><h3>Bakım</h3><p>Gümüş tespihler zamanla kararır. Yumuşak bir bezle düzenli silmek yeterlidir. Kimyasal temizleyicilerden kaçının — özellikle oksitlenmiş modellerde patinayı bozabilir.</p><div class="fact-box"><strong>Bilgi:</strong> Osmanlı sarayında 99 taneli tespihler diplomasi hediyesi olarak kullanılırdı. Padişah'ın özel kuyumcuları altın-gümüş-yakut karışımı tespihler üretirdi.</div>`,
@@ -7358,3 +7357,873 @@ C[161] = {
 
 <p>مستند إلى تقارير Silver Institute ومنشورات Nature Nanotechnology وموارد WHO.</p>`
 };
+// ============================================================
+// Oturum 6 — B16  (Silver Kültür+Bilim → content_silver.js)
+// Enriched: ad-metric-row · ad-compare-grid · ad-fact-callout
+// ============================================================
+
+// ── C[159] Telkâri Teknikleri Detaylı Rehber ─────────────────
+C[159] = {
+  tr: `<h2>Telkâri Teknikleri Detaylı Rehber</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tel Kalınlığı</div>
+    <div class="ad-metric-value">0,2–0,5<span class="ad-metric-unit">mm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Üretim Adımı</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> aşama</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gelin Seti Süresi</div>
+    <div class="ad-metric-value">120+<span class="ad-metric-unit"> saat</span></div>
+  </div>
+</div>
+
+<p>Telkâri (filigree), ince gümüş veya altın tellerin özenle işlenerek dantel benzeri motifler oluşturulması zanaatıdır. Binlerce yıllık geçmişe sahip bu teknik, Türkiye'de özellikle Midyat, Trabzon ve Beypazarı'nda yaşatılmaktadır. Mezopotamya'dan Roma'ya, Osmanlı saray atölyelerinden günümüz butik tasarımcılarına uzanan telkâri süreci beş temel aşamadan oluşur.</p>
+
+<h3>1. Tel Çekme (Wire Drawing)</h3>
+
+<p>Gümüş külçeden başlanır. Döküm gümüş silindir hadde ile inceltilir, ardından <strong>çekme taşı</strong> (drawplate) deliklerinden geçirilerek 0,2–0,5 mm kalınlığa indirilir. İyi tel eşit kalınlıkta ve pürüzsüz olmalıdır. Bu aşama toplam sürenin yaklaşık %30'unu kapsar ve ustanın sabır ile hassasiyetini ortaya koyar.</p>
+
+<h3>2. Tel Bükme ve Sarma</h3>
+
+<p>İnce teller ikişerli olarak birbirine sarılır (<strong>twisted wire</strong>) veya düz kullanılır. Spiral, S-kıvrım, daire ve damla gibi temel motifler cımbız ve penseyle oluşturulur. Her motif 2–5 mm boyutundadır; küçücük detaylar parçaya karakter kazandırır.</p>
+
+<h3>3. İskelet ve Yerleştirme</h3>
+
+<p>Daha kalın bir tel ile dış çerçeve (kontur) oluşturulur; bu iskelet, iç motiflerin sınırını belirler. Ardından minik motifler cımbızla çerçevenin içine yerleştirilir ve <strong>gümüş lehim</strong> ile sabitlenir. Lehimleme sıcaklığı kritiktir — çok düşükse tutmaz, çok yüksekse ince teller erir. Usta, gaz brülörünün mesafesini milimetrik ayarlar.</p>
+
+<h3>4. Temizleme ve Bitirme</h3>
+
+<p>Lehim kalıntıları asit banyosunda (alum solution) temizlenir. Parlatma ile gümüşün doğal ışıltısı ortaya çıkar; son olarak oksitleme (karartma) uygulanarak motifler derinlik kazanır.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Midyat Telkârisi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gelenek</span><span class="value">Süryani + Kürt ustaları</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Yoğun iç dolgu, geometrik</span></div>
+      <div class="ad-compare-row"><span class="label">İkonik Ürün</span><span class="value">Şemsiye broş, manşet bileklik</span></div>
+      <div class="ad-compare-row"><span class="label">Ayar</span><span class="value">925 kuruş</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Beypazarı Telkârisi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gelenek</span><span class="value">Osmanlı saray geleneği</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Açık kompozisyon, çiçek motifi</span></div>
+      <div class="ad-compare-row"><span class="label">İkonik Ürün</span><span class="value">Telkâri küpe, gerdanlık</span></div>
+      <div class="ad-compare-row"><span class="label">Ayar</span><span class="value">900–925 kuruş</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Usta Verisi</div>
+  <div class="ad-fact-callout-text">Bir çift telkâri küpe 4–8 saat, büyük bir göğüslük 40–60 saat, gelin seti 120+ saat el emeği gerektirir. Türkiye'de aktif telkâri ustası sayısı 200'ün altına düşmüştür; UNESCO somut olmayan kültürel miras adaylık çalışmaları devam etmektedir. Midyat'ta tek bir usta yılda en fazla 15–20 büyük parça üretebilir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Mardin Valiliği kültürel miras raporları, TÜRSAB Midyat gezi rehberleri ve saha görüşmelerine dayanmaktadır.</p>`,
+
+  en: `<h2>Detailed Filigree Techniques Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Wire Gauge</div>
+    <div class="ad-metric-value">0.2–0.5<span class="ad-metric-unit">mm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Production Steps</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> stages</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Bridal Set</div>
+    <div class="ad-metric-value">120+<span class="ad-metric-unit"> hours</span></div>
+  </div>
+</div>
+
+<p>Filigree involves crafting lace-like motifs from thin silver or gold wires. This millennia-old technique thrives in Turkey — particularly in Midyat, Trabzon, and Beypazarı — across five core stages demanding exceptional patience.</p>
+
+<h3>1. Wire Drawing</h3>
+
+<p>Starting from a silver ingot, the metal is thinned through a rolling mill, then drawn through a drawplate to reach 0.2–0.5 mm. Good wire must be uniform and smooth; this stage accounts for roughly 30 % of total production time.</p>
+
+<h3>2. Twisting, Shaping &amp; Framing</h3>
+
+<p>Thin wires are twisted in pairs or used flat. Spirals, S-curves, circles, and teardrops are formed with tweezers — each motif just 2–5 mm across. A thicker wire then forms the outer contour that defines the layout for inner motifs.</p>
+
+<h3>3. Placement &amp; Soldering</h3>
+
+<p>Tiny motifs are placed inside the frame with tweezers and fixed with silver solder. Temperature is critical: too low won't bond, too high melts the fine wires.</p>
+
+<h3>4. Cleaning &amp; Finishing</h3>
+
+<p>Solder residue is cleaned in an alum bath, polishing reveals natural lustre, and controlled oxidation adds depth.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Midyat Filigree</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Heritage</span><span class="value">Syriac + Kurdish masters</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Dense fill, geometric</span></div>
+      <div class="ad-compare-row"><span class="label">Iconic piece</span><span class="value">Umbrella brooch, cuff</span></div>
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">925 sterling</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Beypazarı Filigree</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Heritage</span><span class="value">Ottoman court tradition</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Open composition, floral</span></div>
+      <div class="ad-compare-row"><span class="label">Iconic piece</span><span class="value">Filigree earrings, choker</span></div>
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">900–925 sterling</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Artisan Data</div>
+  <div class="ad-fact-callout-text">A pair of filigree earrings takes 4–8 hours, a large pectoral 40–60 hours, and a bridal set 120+ hours of hand labour. Fewer than 200 active filigree masters remain in Turkey; UNESCO intangible-heritage candidacy work is ongoing. A single Midyat master can produce at most 15–20 large pieces per year.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Mardin Governorate cultural-heritage reports, TÜRSAB Midyat travel guides, and field interviews.</p>`,
+
+  ar: `<h2>دليل تقنيات التخريم المفصل</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">سُمك السلك</div>
+    <div class="ad-metric-value">0.2–0.5<span class="ad-metric-unit">مم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مراحل الإنتاج</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> مراحل</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">طقم عروس</div>
+    <div class="ad-metric-value">120+<span class="ad-metric-unit"> ساعة</span></div>
+  </div>
+</div>
+
+<p>التخريم (الفيليغري) حرفة صياغة زخارف دانتيلية من أسلاك فضية أو ذهبية رفيعة. يزدهر هذا الفن في تركيا خصوصاً في ميديات وطرابزون وبيبازاري، ويمر بخمس مراحل أساسية تتطلب صبراً ودقة استثنائية.</p>
+
+<h3>المراحل الرئيسية</h3>
+
+<p>يبدأ العمل بسحب الأسلاك من سبيكة الفضة حتى 0.2 مم، ثم تُلف وتُشكل إلى زخارف حلزونية ودائرية بالملقط. يُبنى إطار خارجي من سلك أسمك، وتُثبت الزخارف الصغيرة داخله بلحام الفضة. درجة حرارة اللحام حرجة جداً. أخيراً تُنظف البقايا وتُصقل القطعة وتُطبق الأكسدة لإضافة العمق.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تخريم ميديات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التراث</span><span class="value">حرفيون سريان وأكراد</span></div>
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">حشو كثيف، هندسي</span></div>
+      <div class="ad-compare-row"><span class="label">القطعة الأيقونية</span><span class="value">بروش مظلة، سوار عريض</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تخريم بيبازاري</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التراث</span><span class="value">تقليد البلاط العثماني</span></div>
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">تكوين مفتوح، زهري</span></div>
+      <div class="ad-compare-row"><span class="label">القطعة الأيقونية</span><span class="value">أقراط تخريم، عقد</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات حرفية</div>
+  <div class="ad-fact-callout-text">زوج أقراط تخريم يتطلب 4–8 ساعات، وصدرية كبيرة 40–60 ساعة، وطقم عروس 120+ ساعة عمل يدوي. بقي أقل من 200 حرفي تخريم نشط في تركيا، وتستمر جهود ترشيح اليونسكو للتراث الثقافي غير المادي.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقارير التراث الثقافي لولاية ماردين وأدلة TÜRSAB السياحية.</p>`
+};
+
+// ── C[181] Gümüş Tespih Rehberi ──────────────────────────────
+C[181] = {
+  tr: `<h2>Gümüş Tespih Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Dane Sayısı</div>
+    <div class="ad-metric-value">33 / 99<span class="ad-metric-unit"> tane</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kazaziye Süresi</div>
+    <div class="ad-metric-value">10–15<span class="ad-metric-unit"> gün</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Popüler Ayar</div>
+    <div class="ad-metric-value">925<span class="ad-metric-unit"> kuruş</span></div>
+  </div>
+</div>
+
+<p>Tespih, İslam dünyasının en yaygın el aksesuarlarından biridir; gümüş tespihler hem ibadet aracı hem de koleksiyon objesi olarak özel bir yere sahiptir. Standart bir tespih üç ana bölümden oluşur: 99 veya 33 dane, daneleri ayıran nişane (pul) ve üst kısımdaki imame (başlık). İmame, tespihin en gösterişli parçasıdır — konik veya silindirik form, filigran işçiliği ya da taş kakma ile süslenir.</p>
+
+<h3>Gümüş Tespih Türleri</h3>
+
+<p>925 ayar gümüş tespihler en yaygın modeldir. Oksitlenmiş gümüş versiyonlar antik bir görünüm sağlarken, kazaz (1000 ayar saf gümüş) tespihler Trabzon'un en prestijli zanaatını temsil eder. Kazaziye tespihte 0,08 mm inceliğindeki teller iğneyle düğüm düğüm örülerek ipek gibi esnek daneler elde edilir. Telkâri tespihler ise Midyat ve Mardin'de üretilir; her dane minyatür bir dantel eseridir.</p>
+
+<h3>Koleksiyon ve Değer</h3>
+
+<p>Antika Osmanlı tespihleri müzayedelerde yüksek fiyatlara ulaşır. Padişah kuyumcularının ürettiği altın-gümüş-yakut kombinasyonları diplomasi hediyesi olarak kullanılırdı. Günümüzde koleksiyoner tespih piyasası, özellikle kazaziye ve telkâri modellerde canlılığını korumaktadır.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kazaziye Tespih (Trabzon)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ayar</span><span class="value">999 (saf gümüş)</span></div>
+      <div class="ad-compare-row"><span class="label">Teknik</span><span class="value">İğne örgüsü, düğüm</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">10–15 gün / adet</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat Aralığı</span><span class="value">₺3.000–15.000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Telkâri Tespih (Midyat)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ayar</span><span class="value">925 kuruş</span></div>
+      <div class="ad-compare-row"><span class="label">Teknik</span><span class="value">Tel bükme, lehim</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">5–10 gün / adet</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat Aralığı</span><span class="value">₺1.500–8.000</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bakım</h3>
+
+<p>Gümüş tespihler zamanla kararır. Yumuşak bir bezle düzenli silmek yeterlidir; kimyasal temizleyicilerden kaçının — özellikle oksitlenmiş modellerde patinayı bozabilir. Kullanılmadığında hava almayan kadife kesede saklamak ömrü uzatır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kültürel Veri</div>
+  <div class="ad-fact-callout-text">Osmanlı sarayında 99 taneli tespihler diplomasi hediyesi olarak kullanılırdı. Trabzon kazaziye tespih ustası sayısı bugün 30'un altındadır ve bir usta yılda en fazla 20–25 tespih üretebilmektedir. Koleksiyoner piyasasında nadir kazaziye tespihler ₺50.000'i aşabilir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Türk tespih koleksiyoner dernekleri, Trabzon Ticaret Odası zanaat envanterleri ve Osmanlı saray arşivlerine dayanmaktadır.</p>`,
+
+  en: `<h2>Silver Prayer Beads Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Bead Count</div>
+    <div class="ad-metric-value">33 / 99<span class="ad-metric-unit"> beads</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kazaz Duration</div>
+    <div class="ad-metric-value">10–15<span class="ad-metric-unit"> days</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Common Purity</div>
+    <div class="ad-metric-value">925<span class="ad-metric-unit"> sterling</span></div>
+  </div>
+</div>
+
+<p>Prayer beads (tespih / tasbih) are among the most widespread hand accessories in the Islamic world; silver versions hold special status as both devotional tools and collector's items. A standard tespih has three main parts: 99 or 33 beads (dane), separator beads (nişane), and the ornate top-piece called imame, often decorated with filigree or gemstone inlay.</p>
+
+<h3>Types of Silver Prayer Beads</h3>
+
+<p>925 sterling silver is the most common grade. Oxidised models offer an antique patina, while kazaz prayer beads — woven from 999-fineness wire in Trabzon — represent the pinnacle of the craft. Filigree tespihs from Midyat treat each bead as a miniature lace sculpture.</p>
+
+<h3>Collecting &amp; Value</h3>
+
+<p>Antique Ottoman tespihs command high prices at auction. Sultan's jewellers once crafted gold-silver-ruby sets as diplomatic gifts. Today the collector market remains vibrant, especially for kazaz and filigree models.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kazaz Tespih (Trabzon)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">999 fine silver</span></div>
+      <div class="ad-compare-row"><span class="label">Technique</span><span class="value">Needle-knit wire</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">10–15 days each</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">₺3,000–15,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Filigree Tespih (Midyat)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">925 sterling</span></div>
+      <div class="ad-compare-row"><span class="label">Technique</span><span class="value">Wire-bending, solder</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">5–10 days each</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">₺1,500–8,000</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Cultural Data</div>
+  <div class="ad-fact-callout-text">In the Ottoman court, 99-bead prayer beads served as diplomatic gifts. Fewer than 30 kazaz tespih masters remain active in Trabzon, each producing at most 20–25 pieces a year. Rare kazaz tespihs can exceed ₺50,000 on the collector market.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Turkish prayer-bead collector associations, Trabzon Chamber of Commerce craft inventories, and Ottoman palace archives.</p>`,
+
+  ar: `<h2>دليل المسبحة الفضية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عدد الحبات</div>
+    <div class="ad-metric-value">33 / 99<span class="ad-metric-unit"> حبة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مدة القزاز</div>
+    <div class="ad-metric-value">10–15<span class="ad-metric-unit"> يوم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العيار الشائع</div>
+    <div class="ad-metric-value">925<span class="ad-metric-unit"> فضة</span></div>
+  </div>
+</div>
+
+<p>المسبحة من أكثر إكسسوارات اليد انتشاراً في العالم الإسلامي، والمسابح الفضية تحتل مكانة خاصة كأدوات عبادة ومقتنيات. تتكون المسبحة من 99 أو 33 حبة وفواصل وإمامة مزخرفة بالتخريم أو ترصيع الأحجار.</p>
+
+<h3>الأنواع والتجميع</h3>
+
+<p>الفضة عيار 925 هي الأكثر شيوعاً. مسابح القزاز من طرابزون (عيار 999) تمثل قمة الحرفة — تُنسج من أسلاك بسمك 0.08 مم. مسابح التخريم من ميديات تعامل كل حبة كمنحوتة دانتيل مصغرة. في البلاط العثماني كانت المسابح هدايا دبلوماسية فاخرة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مسبحة القزاز (طرابزون)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">العيار</span><span class="value">999 فضة خالصة</span></div>
+      <div class="ad-compare-row"><span class="label">التقنية</span><span class="value">حياكة بالإبرة</span></div>
+      <div class="ad-compare-row"><span class="label">المدة</span><span class="value">10–15 يوم</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مسبحة التخريم (ميديات)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">العيار</span><span class="value">925 إسترليني</span></div>
+      <div class="ad-compare-row"><span class="label">التقنية</span><span class="value">ثني الأسلاك ولحام</span></div>
+      <div class="ad-compare-row"><span class="label">المدة</span><span class="value">5–10 أيام</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات ثقافية</div>
+  <div class="ad-fact-callout-text">بقي أقل من 30 حرفي قزاز نشطاً في طرابزون، وينتج كل واحد 20–25 مسبحة سنوياً كحد أقصى. المسابح النادرة قد تتجاوز 50,000 ليرة تركية في سوق المقتنيات.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى جمعيات جامعي المسابح التركية وأرشيفات القصر العثماني.</p>`
+};
+
+// ── C[182] Gümüş Parfüm Şişeleri ────────────────────────────
+C[182] = {
+  tr: `<h2>Gümüş Parfüm Şişeleri</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Altın Çağ</div>
+    <div class="ad-metric-value">18.–19.<span class="ad-metric-unit"> yy</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ana Kategori</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> tip</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rekor Müzayede</div>
+    <div class="ad-metric-value">$85K<span class="ad-metric-unit"> (2023)</span></div>
+  </div>
+</div>
+
+<p>Gümüş parfüm şişeleri, 18. yüzyıldan bu yana hem fonksiyonel hem de dekoratif obje olarak değer görmektedir. Art Nouveau döneminde (1890–1910) organik formlar hakimken, Art Deco'da (1920–1935) geometrik çizgiler öne çıkmıştır. Osmanlı sarayında gülabdan adı verilen gümüş gül suyu serpme kapları da bu geleneğin parçasıdır.</p>
+
+<h3>Koleksiyon Kategorileri</h3>
+
+<p>Dört ana kategori koleksiyonerlerin ilgisini çeker: vinaigrette (kokulu tuz kutusu — iç bölmede delikli kapak), chatelaine (zincirle bele veya korsaja asılan şişe), atomizer (spreyli parfüm şişesi) ve flacon (kapaklı kristal veya cam şişe, gümüş montür). En değerli parçalar hallmark (ayar damgası) taşıyan İngiliz ve Fransız üretimi olanlardır.</p>
+
+<h3>Değerlendirme Kriterleri</h3>
+
+<p>Dönem orijinalliği, damga bütünlüğü, işçilik kalitesi ve cam kısmın sağlamlığı fiyatı belirler. Lalique ve Baccarat imzalı gümüş kapaklı şişeler en çok aranan parçalardır. Osmanlı gülabdanları ise Türk koleksiyoner pazarında özel bir niş oluşturur.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Art Nouveau (1890–1910)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Organik, çiçeksi formlar</span></div>
+      <div class="ad-compare-row"><span class="label">Malzeme</span><span class="value">Gümüş + emay + cam</span></div>
+      <div class="ad-compare-row"><span class="label">Ustalar</span><span class="value">Lalique, Gallé</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat Aralığı</span><span class="value">$2.000–50.000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Art Deco (1920–1935)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Geometrik, simetrik</span></div>
+      <div class="ad-compare-row"><span class="label">Malzeme</span><span class="value">Gümüş + kristal + oniks</span></div>
+      <div class="ad-compare-row"><span class="label">Ustalar</span><span class="value">Cartier, Boucheron</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat Aralığı</span><span class="value">$3.000–85.000</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Koleksiyoner Verisi</div>
+  <div class="ad-fact-callout-text">Koleksiyon başlatacaksanız tek bir dönem veya kategoriye odaklanın — örneğin sadece Victorian vinaigrette'ler veya Art Deco atomizer'lar. Osmanlı gülabdanları 2020–2025 döneminde değer olarak %35 artış göstermiştir. Christie's ve Sotheby's müzayedelerinde nadir gümüş parfüm şişeleri düzenli olarak $10.000 üzeri fiyatlara ulaşmaktadır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Christie's ve Sotheby's müzayede kayıtları, V&A Museum parfüm koleksiyonu rehberleri ve International Perfume Foundation kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Silver Perfume Bottles</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Golden Age</div>
+    <div class="ad-metric-value">18th–19th<span class="ad-metric-unit"> c.</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Main Categories</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> types</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Auction Record</div>
+    <div class="ad-metric-value">$85K<span class="ad-metric-unit"> (2023)</span></div>
+  </div>
+</div>
+
+<p>Silver perfume bottles have been prized as both functional and decorative objects since the 18th century. Art Nouveau (1890–1910) favoured organic forms; Art Deco (1920–1935) embraced geometric lines. Ottoman court gülabdans — silver rosewater sprinklers — belong to the same tradition.</p>
+
+<h3>Collection Categories</h3>
+
+<p>Four types attract collectors: vinaigrettes (scented-salt boxes with pierced inner lids), chatelaines (chain-hung bottles), atomisers (spray bottles), and flacons (capped glass or crystal bottles in silver mounts). English and French hallmarked pieces command the highest prices.</p>
+
+<h3>Valuation Criteria</h3>
+
+<p>Period authenticity, hallmark integrity, craftsmanship quality, and glass condition determine value. Lalique- and Baccarat-signed silver-capped bottles are the most sought-after.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Art Nouveau (1890–1910)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Organic, floral forms</span></div>
+      <div class="ad-compare-row"><span class="label">Materials</span><span class="value">Silver + enamel + glass</span></div>
+      <div class="ad-compare-row"><span class="label">Masters</span><span class="value">Lalique, Gallé</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$2,000–50,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Art Deco (1920–1935)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Geometric, symmetrical</span></div>
+      <div class="ad-compare-row"><span class="label">Materials</span><span class="value">Silver + crystal + onyx</span></div>
+      <div class="ad-compare-row"><span class="label">Masters</span><span class="value">Cartier, Boucheron</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$3,000–85,000</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Collector Data</div>
+  <div class="ad-fact-callout-text">Start a collection by focusing on a single period or category — for example, Victorian vinaigrettes or Art Deco atomisers only. Ottoman gülabdans appreciated roughly 35 % in value between 2020 and 2025. Rare silver perfume bottles regularly exceed $10,000 at Christie's and Sotheby's.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Christie's and Sotheby's auction records, V&amp;A Museum perfume collection guides, and International Perfume Foundation resources.</p>`,
+
+  ar: `<h2>زجاجات العطور الفضية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العصر الذهبي</div>
+    <div class="ad-metric-value">18–19<span class="ad-metric-unit"> قرن</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الفئات الرئيسية</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> أنواع</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">رقم قياسي</div>
+    <div class="ad-metric-value">$85K<span class="ad-metric-unit"> (2023)</span></div>
+  </div>
+</div>
+
+<p>زجاجات العطور الفضية تحظى بالتقدير منذ القرن الثامن عشر. فترة الآرت نوفو (1890–1910) تميزت بالأشكال العضوية، والآرت ديكو (1920–1935) بالخطوط الهندسية. مرشات ماء الورد الفضية العثمانية (الغلابدان) جزء من نفس التقليد.</p>
+
+<h3>فئات التجميع والتقييم</h3>
+
+<p>أربع فئات رئيسية: الفيناغريت (صناديق الملح المعطر)، الشاتلين (زجاجات معلقة بسلسلة)، الرذاذ، والفلاكون. القطع الإنجليزية والفرنسية المختومة هي الأعلى قيمة. أصالة الفترة وجودة الصنعة وسلامة الزجاج تحدد السعر.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">آرت نوفو (1890–1910)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">أشكال عضوية زهرية</span></div>
+      <div class="ad-compare-row"><span class="label">المواد</span><span class="value">فضة + مينا + زجاج</span></div>
+      <div class="ad-compare-row"><span class="label">النطاق السعري</span><span class="value">$2,000–50,000</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">آرت ديكو (1920–1935)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">هندسي، متماثل</span></div>
+      <div class="ad-compare-row"><span class="label">المواد</span><span class="value">فضة + كريستال + عقيق</span></div>
+      <div class="ad-compare-row"><span class="label">النطاق السعري</span><span class="value">$3,000–85,000</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات جامعي التحف</div>
+  <div class="ad-fact-callout-text">ركز على فترة أو فئة واحدة عند بدء مجموعتك. ارتفعت قيمة الغلابدان العثمانية بنحو 35% بين 2020 و2025. زجاجات العطور الفضية النادرة تتجاوز بانتظام $10,000 في مزادات كريستيز وسوذبيز.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى سجلات مزادات كريستيز وسوذبيز وأدلة مجموعة العطور في متحف V&amp;A.</p>`
+};
+
+// ── C[195] Gümüş Kemer Geleneği ──────────────────────────────
+C[195] = {
+  tr: `<h2>Gümüş Kemer Geleneği</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Coğrafya</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> bölge</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gelenek</div>
+    <div class="ad-metric-value">500+<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">UNESCO</div>
+    <div class="ad-metric-value">Aday<span class="ad-metric-unit"> listede</span></div>
+  </div>
+</div>
+
+<p>Gümüş kemer, Anadolu'dan Balkanlara, Kafkasya'dan Kuzey Afrika'ya uzanan geniş bir coğrafyada yüzyıllardır statü, zenginlik ve kimlik sembolü olmuştur. Her bölgenin tekniği, motifi ve toka tasarımı o toplumun kültürel kodlarını yansıtır.</p>
+
+<h3>Anadolu Kemerleri</h3>
+
+<p>Trabzon hasır kemerler altın ve gümüş telden örgü tekniğiyle yapılır. Erzurum kemerleri oltu taşı ve gümüş kombinasyonudur. Kastamonu kemerleri kazaziye tekniğinde, Çankırı kemerleri ise savat (niello) işçiliğiyle tanınır. Her bölgenin kendine özgü motif ve tokası vardır — çiçek, hayvan, ay-yıldız gibi semboller yaygındır.</p>
+
+<h3>Balkan ve Kafkas Kemerleri</h3>
+
+<p>Osmanlı etkisinde gelişen Balkan gümüş kemerleri Arnavutluk, Kuzey Makedonya ve Kosova'da düğün geleneğinin ayrılmaz parçasıdır; ağır tokalar ve filigran plakalar karakteristiktir. Gürcü ve Çerkez gümüş kemerleri ise askeri giyimin parçasıydı — niello (savat) tekniğiyle süslenen siyah-gümüş kontrastlı kemerler bugün müze parçalarıdır.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Anadolu Kemerleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Trabzon</span><span class="value">Hasır örgü, altın-gümüş tel</span></div>
+      <div class="ad-compare-row"><span class="label">Erzurum</span><span class="value">Oltu taşı + gümüş</span></div>
+      <div class="ad-compare-row"><span class="label">Kastamonu</span><span class="value">Kazaziye tekniği</span></div>
+      <div class="ad-compare-row"><span class="label">Çankırı</span><span class="value">Savat (niello) işçiliği</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Balkan &amp; Kafkas Kemerleri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Arnavutluk</span><span class="value">Ağır toka, filigran plaka</span></div>
+      <div class="ad-compare-row"><span class="label">Kosova</span><span class="value">Düğün geleneği parçası</span></div>
+      <div class="ad-compare-row"><span class="label">Gürcistan</span><span class="value">Askeri giyim, niello</span></div>
+      <div class="ad-compare-row"><span class="label">Çerkezler</span><span class="value">Siyah-gümüş kontrast</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kültürel Miras</div>
+  <div class="ad-fact-callout-text">Trabzon hasır kemeri UNESCO Somut Olmayan Kültürel Miras geçici listesindedir. Antika Osmanlı gümüş kemerleri müzayedelerde $5.000–30.000 arasında değerlenir. Günümüzde Trabzon'da aktif hasır kemer ustası sayısı 15'in altına düşmüştür; her kemer 80–120 saat el emeği gerektirir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>UNESCO kültürel miras başvuru dosyaları, Trabzon Valiliği zanaat envanterleri ve Balkan etnografya müzesi kataloglarına dayanmaktadır.</p>`,
+
+  en: `<h2>Silver Belt Tradition</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Geography</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> regions</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Heritage</div>
+    <div class="ad-metric-value">500+<span class="ad-metric-unit"> years</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">UNESCO</div>
+    <div class="ad-metric-value">Tentative<span class="ad-metric-unit"> list</span></div>
+  </div>
+</div>
+
+<p>The silver belt has symbolised status, wealth, and identity for centuries across a vast arc from Anatolia to the Balkans, the Caucasus, and North Africa. Each region's technique, motifs, and buckle design encode its cultural DNA.</p>
+
+<h3>Anatolian Belts</h3>
+
+<p>Trabzon woven belts use gold-and-silver wire braiding. Erzurum belts pair oltu stone with silver. Kastamonu belts employ kazaziye technique, and Çankırı belts are known for niello work. Flower, animal, and crescent-star motifs recur across sub-regions.</p>
+
+<h3>Balkan &amp; Caucasian Belts</h3>
+
+<p>Balkan silver belts — developed under Ottoman influence — remain integral to wedding traditions in Albania, North Macedonia, and Kosovo, featuring heavy buckles and filigree plates. Georgian and Circassian silver belts were military attire; niello-decorated pieces with stark black-silver contrast are now museum objects.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Anatolian Belts</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Trabzon</span><span class="value">Woven wire, gold-silver</span></div>
+      <div class="ad-compare-row"><span class="label">Erzurum</span><span class="value">Oltu stone + silver</span></div>
+      <div class="ad-compare-row"><span class="label">Kastamonu</span><span class="value">Kazaziye technique</span></div>
+      <div class="ad-compare-row"><span class="label">Çankırı</span><span class="value">Niello (savat) work</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Balkan &amp; Caucasus Belts</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Albania</span><span class="value">Heavy buckle, filigree plate</span></div>
+      <div class="ad-compare-row"><span class="label">Kosovo</span><span class="value">Wedding-tradition piece</span></div>
+      <div class="ad-compare-row"><span class="label">Georgia</span><span class="value">Military attire, niello</span></div>
+      <div class="ad-compare-row"><span class="label">Circassians</span><span class="value">Black-silver contrast</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Cultural Heritage</div>
+  <div class="ad-fact-callout-text">The Trabzon woven belt is on UNESCO's Intangible Cultural Heritage tentative list. Antique Ottoman silver belts sell for $5,000–30,000 at auction. Fewer than 15 active woven-belt masters remain in Trabzon; each belt requires 80–120 hours of hand labour.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on UNESCO heritage nomination files, Trabzon Governorate craft inventories, and Balkan ethnography museum catalogues.</p>`,
+
+  ar: `<h2>تقليد الأحزمة الفضية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الجغرافيا</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> مناطق</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التراث</div>
+    <div class="ad-metric-value">500+<span class="ad-metric-unit"> سنة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">يونسكو</div>
+    <div class="ad-metric-value">مرشح<span class="ad-metric-unit"> مؤقت</span></div>
+  </div>
+</div>
+
+<p>الحزام الفضي رمز للمكانة والثروة والهوية عبر جغرافيا واسعة من الأناضول إلى البلقان والقوقاز وشمال أفريقيا. تعكس تقنية وزخارف كل منطقة هويتها الثقافية.</p>
+
+<h3>الأنواع الإقليمية</h3>
+
+<p>أحزمة طرابزون المنسوجة من أسلاك ذهبية وفضية، أحزمة أرضروم بحجر الأولتو والفضة، أحزمة قسطموني بتقنية القزاز. أحزمة البلقان جزء من تقاليد الزفاف في ألبانيا وكوسوفو بإبزيمات ثقيلة وألواح تخريم. الأحزمة القوقازية كانت جزءاً من الزي العسكري بتقنية النيللو.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أحزمة الأناضول</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">طرابزون</span><span class="value">نسج أسلاك ذهبية-فضية</span></div>
+      <div class="ad-compare-row"><span class="label">أرضروم</span><span class="value">حجر أولتو + فضة</span></div>
+      <div class="ad-compare-row"><span class="label">قسطموني</span><span class="value">تقنية القزاز</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أحزمة البلقان والقوقاز</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">ألبانيا</span><span class="value">إبزيم ثقيل، تخريم</span></div>
+      <div class="ad-compare-row"><span class="label">جورجيا</span><span class="value">زي عسكري، نيللو</span></div>
+      <div class="ad-compare-row"><span class="label">الشركس</span><span class="value">تباين أسود-فضي</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">تراث ثقافي</div>
+  <div class="ad-fact-callout-text">حزام طرابزون المنسوج مدرج في القائمة المؤقتة للتراث الثقافي غير المادي لليونسكو. الأحزمة العثمانية الأثرية تُباع بـ$5,000–30,000 في المزادات. بقي أقل من 15 حرفياً نشطاً في طرابزون وكل حزام يتطلب 80–120 ساعة عمل يدوي.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى ملفات ترشيح يونسكو وجرد حرف ولاية طرابزون وكتالوجات متاحف الإثنوغرافيا البلقانية.</p>`
+};
+
+// ── C[196] Gümüş ve Sağlık: Mitler vs Gerçekler ─────────────
+C[196] = {
+  tr: `<h2>Gümüş ve Sağlık: Mitler vs Gerçekler</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Bakteri Etkinliği</div>
+    <div class="ad-metric-value">650+<span class="ad-metric-unit"> tür</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">FDA Onayı</div>
+    <div class="ad-metric-value">Yok<span class="ad-metric-unit"> (kolloidal)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tıbbi Kullanım</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> alan</span></div>
+  </div>
+</div>
+
+<p>Gümüşün antimikrobiyal özellikleri binlerce yıldır bilinir — Fenikeliler suyu gümüş kaplarda saklardı. Modern bilim bu geleneği doğruladı, ancak sağlık alanındaki kullanımı konusunda ciddi yanılgılar da mevcuttur. Gerçek ile miti ayırmak, bilinçli tüketici olmanın temelidir.</p>
+
+<h3>Bilimsel Gerçekler</h3>
+
+<p>Gümüş iyonları (Ag⁺) bakteri hücre zarını bozar ve DNA replikasyonunu engeller. Bu özellik tıbbi yara örtülerinde, kateter kaplamalarında ve su arıtma sistemlerinde aktif olarak kullanılır. Gümüş sülfadiazin kremi yanık tedavisinde dünya genelinde standart protokoldür. Antibiyotik dirençli bakterilere karşı bile etkili olabilmesi, gümüşü modern enfeksiyon kontrolünün önemli bir aracı haline getirmiştir.</p>
+
+<h3>Mitler ve Tehlikeler</h3>
+
+<p>Kolloidal gümüş takviyelerinin bağışıklık güçlendirici, kanser tedavisi veya antibiyotik alternatifi olduğu iddiaları bilimsel kanıttan yoksundur. FDA, kolloidal gümüş ürünlerini güvenli veya etkili olarak onaylamamıştır. Aşırı gümüş tüketimi <strong>arjiriya</strong> (kalıcı mavi-gri cilt rengi değişimi) ile sonuçlanabilir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">✓ Kanıtlanmış Kullanımlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yara örtüleri</span><span class="value">AgNP kaplı bandajlar</span></div>
+      <div class="ad-compare-row"><span class="label">Kateter kaplama</span><span class="value">Enfeksiyon önleme</span></div>
+      <div class="ad-compare-row"><span class="label">Su arıtma</span><span class="value">Bakteri filtreleri</span></div>
+      <div class="ad-compare-row"><span class="label">Yanık kremi</span><span class="value">Gümüş sülfadiazin</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">✗ Kanıtsız İddialar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Bağışıklık güçlendirme</span><span class="value">Bilimsel kanıt yok</span></div>
+      <div class="ad-compare-row"><span class="label">Kanser tedavisi</span><span class="value">Hiçbir onay yok</span></div>
+      <div class="ad-compare-row"><span class="label">Antibiyotik alternatifi</span><span class="value">Tehlikeli yanılgı</span></div>
+      <div class="ad-compare-row"><span class="label">Diyabet yönetimi</span><span class="value">Destekleyen çalışma yok</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Güvenli Kullanım</h3>
+
+<p>Gümüş takı takmak tamamen güvenlidir. Gümüş kaplı su şişeleri minimal antimikrobiyal etki sağlar. Ancak kolloidal gümüş içmek risklidir ve tıbbi gözetim olmadan kullanılmamalıdır. Arjiriya geri dönüşümsüzdür.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Sağlık Verisi</div>
+  <div class="ad-fact-callout-text">Gümüş iyonları 650'den fazla bakteri türüne karşı etkilidir ancak kolloidal gümüş takviyeleri FDA tarafından onaylanmamıştır. Dünya genelinde hastane kaynaklı enfeksiyonların %15'inde gümüş kaplı tıbbi cihazlar kullanılmaktadır. Arjiriya geri dönüşümsüzdür — kolloidal gümüş takviyelerini doktor onayı olmadan kullanmayın.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>WHO antimikrobiyal direnç raporları, FDA tüketici uyarıları ve Silver Institute sağlık araştırmalarına dayanmaktadır.</p>`,
+
+  en: `<h2>Silver &amp; Health: Myths vs Facts</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Bacteria Efficacy</div>
+    <div class="ad-metric-value">650+<span class="ad-metric-unit"> species</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">FDA Approval</div>
+    <div class="ad-metric-value">None<span class="ad-metric-unit"> (colloidal)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Medical Uses</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> fields</span></div>
+  </div>
+</div>
+
+<p>Silver's antimicrobial properties have been known for millennia — Phoenicians stored water in silver vessels. Modern science has confirmed the tradition, yet serious misconceptions persist about silver's health applications. Separating fact from myth is essential for informed consumers.</p>
+
+<h3>Scientific Facts</h3>
+
+<p>Silver ions (Ag⁺) disrupt bacterial cell membranes and inhibit DNA replication. This property is actively used in medical wound dressings, catheter coatings, and water-purification systems. Silver sulfadiazine cream is the worldwide standard protocol for burn treatment, and effectiveness against antibiotic-resistant bacteria makes silver an important infection-control tool.</p>
+
+<h3>Myths &amp; Dangers</h3>
+
+<p>Claims that colloidal silver boosts immunity, treats cancer, or replaces antibiotics lack scientific evidence. The FDA has not approved colloidal silver as safe or effective. Excessive silver intake can cause <strong>argyria</strong> — permanent blue-grey skin discoloration.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">✓ Proven Uses</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Wound dressings</span><span class="value">AgNP-coated bandages</span></div>
+      <div class="ad-compare-row"><span class="label">Catheter coating</span><span class="value">Infection prevention</span></div>
+      <div class="ad-compare-row"><span class="label">Water purification</span><span class="value">Bacteria filters</span></div>
+      <div class="ad-compare-row"><span class="label">Burn cream</span><span class="value">Silver sulfadiazine</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">✗ Unproven Claims</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Immune boosting</span><span class="value">No scientific evidence</span></div>
+      <div class="ad-compare-row"><span class="label">Cancer treatment</span><span class="value">No approval</span></div>
+      <div class="ad-compare-row"><span class="label">Antibiotic alternative</span><span class="value">Dangerous misconception</span></div>
+      <div class="ad-compare-row"><span class="label">Diabetes management</span><span class="value">No supporting studies</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Health Data</div>
+  <div class="ad-fact-callout-text">Silver ions are effective against 650+ bacteria species, yet colloidal silver supplements remain unapproved by the FDA. Silver-coated medical devices are used in roughly 15 % of hospital-acquired infection cases worldwide. Argyria is irreversible — do not use colloidal silver supplements without physician approval.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on WHO antimicrobial-resistance reports, FDA consumer advisories, and Silver Institute health research.</p>`,
+
+  ar: `<h2>الفضة والصحة: الأساطير مقابل الحقائق</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">فعالية ضد البكتيريا</div>
+    <div class="ad-metric-value">650+<span class="ad-metric-unit"> نوع</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">موافقة FDA</div>
+    <div class="ad-metric-value">لا<span class="ad-metric-unit"> (غروي)</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">استخدامات طبية</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> مجالات</span></div>
+  </div>
+</div>
+
+<p>خصائص الفضة المضادة للميكروبات معروفة منذ آلاف السنين. العلم الحديث أكد هذا التقليد، لكن هناك مفاهيم خاطئة خطيرة حول تطبيقاتها الصحية.</p>
+
+<h3>الحقائق والأساطير</h3>
+
+<p>أيونات الفضة (Ag⁺) تعطل أغشية الخلايا البكتيرية وتمنع تكاثر الحمض النووي. تُستخدم في الضمادات الطبية وطلاء القساطر وتنقية المياه. كريم سلفاديازين الفضة بروتوكول قياسي لعلاج الحروق عالمياً. لكن ادعاءات أن الفضة الغروية تقوي المناعة أو تعالج السرطان تفتقر للدليل العلمي.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">✓ استخدامات مثبتة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">ضمادات الجروح</span><span class="value">مغلفة بالنانو فضي</span></div>
+      <div class="ad-compare-row"><span class="label">طلاء القساطر</span><span class="value">منع العدوى</span></div>
+      <div class="ad-compare-row"><span class="label">تنقية المياه</span><span class="value">مرشحات بكتيرية</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">✗ ادعاءات غير مثبتة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">تعزيز المناعة</span><span class="value">لا دليل علمي</span></div>
+      <div class="ad-compare-row"><span class="label">علاج السرطان</span><span class="value">لا موافقة</span></div>
+      <div class="ad-compare-row"><span class="label">بديل المضادات الحيوية</span><span class="value">مفهوم خاطئ خطير</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات صحية</div>
+  <div class="ad-fact-callout-text">أيونات الفضة فعالة ضد أكثر من 650 نوع بكتيريا، لكن مكملات الفضة الغروية غير معتمدة من FDA. داء الأرجيريا (تغير لون الجلد الدائم) لا رجعة فيه — لا تستخدم مكملات الفضة الغروية بدون موافقة الطبيب.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقارير WHO لمقاومة الميكروبات وتحذيرات FDA للمستهلكين.</p>`
+};
+
+export default C;

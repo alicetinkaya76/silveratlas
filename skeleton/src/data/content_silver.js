@@ -7185,3 +7185,176 @@ C[196] = {
   en: `<h2>Silver & Health: Myths vs Facts</h2><p>Silver's antimicrobial properties are scientifically proven, but numerous misconceptions exist about its health applications.</p><h3>Scientific Facts</h3><p>Silver ions (Ag⁺) disrupt bacterial cell membranes and inhibit DNA replication. This property is used in medical wound dressings, catheter coatings, and water purification. Silver sulfadiazine cream is standard protocol for burn treatment.</p><h3>Myths and Dangers</h3><p>Claims that colloidal silver supplements boost immunity, treat cancer, or replace antibiotics lack scientific evidence. The FDA has not approved colloidal silver as safe or effective. Excessive silver consumption can result in argyria — permanent blue-gray skin discoloration.</p><h3>Safe Use</h3><p>Wearing silver jewelry is completely safe. Silver-coated water bottles provide minimal antimicrobial benefit. However, ingesting colloidal silver is risky and should not be used without medical supervision.</p><div class="fact-box"><strong>Warning:</strong> Argyria is irreversible. Do not use colloidal silver supplements without doctor approval.</div>`,
   ar: `<h2>الفضة والصحة: الأساطير مقابل الحقائق</h2><p>خصائص الفضة المضادة للميكروبات مثبتة علمياً، لكن هناك العديد من المفاهيم الخاطئة حول تطبيقاتها الصحية.</p><h3>الحقائق العلمية</h3><p>أيونات الفضة تعطل أغشية الخلايا البكتيرية وتمنع تكاثر الحمض النووي. تُستخدم في الضمادات الطبية وطلاء القساطر وتنقية المياه.</p><h3>الأساطير والمخاطر</h3><p>ادعاءات أن الفضة الغروية تقوي المناعة أو تعالج السرطان تفتقر للدليل العلمي. لم توافق إدارة الغذاء والدواء على الفضة الغروية.</p><div class="fact-box"><strong>تحذير:</strong> داء الأرجيريا لا رجعة فيه. لا تستخدم مكملات الفضة الغروية بدون موافقة الطبيب.</div>`
 };
+
+C[161] = {
+  tr: `<h2>Gümüş Nanoteknoloji</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Partikül</div>
+    <div class="ad-metric-value">1–100<span class="ad-metric-unit">nm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Uygulama</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> sektör</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pazar</div>
+    <div class="ad-metric-value">$3.2B<span class="ad-metric-unit"> (2025)</span></div>
+  </div>
+</div>
+
+<p>Gümüş, binlerce yıldır takı ve para birimi olarak değer görürken, 21. yüzyılda nanoteknoloji devrimiyle tamamen yeni bir kimlik kazandı. Gümüş nanoparçacıkları (AgNPs) — 1 ile 100 nanometre arasında boyuta sahip gümüş parçacıkları — antimikrobiyal, katalitik ve optik özellikleriyle tıptan tekstile, su arıtmadan gıda ambalajına kadar geniş bir uygulama yelpazesi sunuyor.</p>
+
+<h3>Gümüşün Antimikrobiyal Gücü</h3>
+
+<p>Gümüşün bakteri öldürme özelliği antik çağlardan beri bilinir — Fenikeliler su kaplarını gümüşten yapardı. Nano boyutta bu etki dramatik biçimde güçlenir: nanoparçacıkların devasa yüzey alanı/hacim oranı, gümüş iyonlarının (Ag⁺) çok daha hızlı salınmasını sağlar. Bu iyonlar bakteri hücre zarını bozar, DNA replikasyonunu engeller ve hücresel enzim fonksiyonlarını durdurur. Antibiyotik dirençli bakterilere karşı bile etkili olabilmesi, nano gümüşü modern tıbbın önemli bir aracı haline getirmiştir.</p>
+
+<h3>Uygulama Alanları</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tıp ve Sağlık</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yara örtüleri</span><span class="value">AgNP kaplı bandajlar</span></div>
+      <div class="ad-compare-row"><span class="label">Kateterler</span><span class="value">Enfeksiyon önleme</span></div>
+      <div class="ad-compare-row"><span class="label">Diş hekimliği</span><span class="value">Antimikrobiyal dolgular</span></div>
+      <div class="ad-compare-row"><span class="label">İlaç taşıma</span><span class="value">Hedefli nano-taşıyıcılar</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Endüstri ve Tüketici</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tekstil</span><span class="value">Koku önleyici kumaşlar</span></div>
+      <div class="ad-compare-row"><span class="label">Su arıtma</span><span class="value">Bakteri filtreleri</span></div>
+      <div class="ad-compare-row"><span class="label">Gıda ambalajı</span><span class="value">Raf ömrü uzatma</span></div>
+      <div class="ad-compare-row"><span class="label">Elektronik</span><span class="value">İletken mürekkepler</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Gümüş Nanoparçacık Üretim Yöntemleri</h3>
+
+<p>Nano gümüş üretiminde üç temel yaklaşım kullanılır. Kimyasal indirgeme (en yaygın) — gümüş nitrat çözeltisinin sodyum borohidrür veya sitrat gibi indirgeyicilerle reaksiyonu. Yeşil sentez — bitki ekstreleri veya mantar metabolitleri kullanarak çevre dostu üretim; bu yöntem toksik atık üretmez. Fiziksel yöntemler — lazer ablasyonu veya buharlaştırma-yoğunlaştırma; yüksek saflıkta ancak yüksek maliyetli.</p>
+
+<h3>Güvenlik ve Çevre</h3>
+
+<p>Nano gümüşün yaygın kullanımı çevresel ve sağlık endişelerini beraberinde getirmektedir. Atık sulara karışan nanoparçacıklar yararlı mikroorganizmaları etkileyebilir; dermal temas yoluyla vücuda giren parçacıkların uzun vadeli etkileri araştırılmaktadır. Argirya (gümüş birikiminden kaynaklanan kalıcı deri renk değişikliği) riski aşırı maruziyet durumlarında mevcuttur. AB ve ABD düzenleyicileri nano gümüş kullanımı için giderek daha sıkı standartlar belirlemektedir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Endüstri Verisi</div>
+  <div class="ad-fact-callout-text">Nano gümüş küresel pazarı 2025'te tahmini 3.2 milyar dolara ulaşmıştır. Gümüşün yıllık endüstriyel talebinin yaklaşık %5'i artık nanoteknoloji uygulamalarına gidiyor — bu oran on yıl önce %1'in altındaydı. Güneş panellerinden sonra en hızlı büyüyen endüstriyel gümüş kullanım alanıdır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Silver Institute endüstri raporları, Nature Nanotechnology yayınları ve WHO antimikrobiyal direnç kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Silver Nanotechnology</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Particle</div>
+    <div class="ad-metric-value">1–100<span class="ad-metric-unit">nm</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Applications</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> sectors</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Market</div>
+    <div class="ad-metric-value">$3.2B<span class="ad-metric-unit"> (2025)</span></div>
+  </div>
+</div>
+
+<p>Silver has been valued for millennia as jewelry and currency, but in the 21st century nanotechnology has given it an entirely new identity. Silver nanoparticles (AgNPs) — particles between 1 and 100 nanometers — offer antimicrobial, catalytic, and optical properties spanning applications from medicine to textiles, water purification to food packaging.</p>
+
+<h3>Silver's Antimicrobial Power</h3>
+
+<p>Silver's bacteria-killing properties have been known since antiquity — Phoenicians stored water in silver vessels. At the nanoscale, this effect strengthens dramatically: nanoparticles' enormous surface-area-to-volume ratio enables far faster release of silver ions (Ag⁺). These ions disrupt bacterial cell membranes, block DNA replication, and halt cellular enzyme functions. Their effectiveness against antibiotic-resistant bacteria has made nano silver an important tool in modern medicine.</p>
+
+<h3>Application Areas</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Medicine & Health</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Wound dressings</span><span class="value">AgNP-coated bandages</span></div>
+      <div class="ad-compare-row"><span class="label">Catheters</span><span class="value">Infection prevention</span></div>
+      <div class="ad-compare-row"><span class="label">Dentistry</span><span class="value">Antimicrobial fillings</span></div>
+      <div class="ad-compare-row"><span class="label">Drug delivery</span><span class="value">Targeted nano-carriers</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Industry & Consumer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Textiles</span><span class="value">Odor-resistant fabrics</span></div>
+      <div class="ad-compare-row"><span class="label">Water treatment</span><span class="value">Bacteria filters</span></div>
+      <div class="ad-compare-row"><span class="label">Food packaging</span><span class="value">Extended shelf life</span></div>
+      <div class="ad-compare-row"><span class="label">Electronics</span><span class="value">Conductive inks</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Safety and Environment</h3>
+
+<p>Widespread nano silver use raises environmental and health concerns. Nanoparticles entering wastewater can affect beneficial microorganisms; long-term effects of dermal exposure are under study. Argyria (permanent skin discoloration from silver buildup) is a risk with excessive exposure. EU and US regulators are establishing increasingly strict standards for nano silver use.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Industry Data</div>
+  <div class="ad-fact-callout-text">The global nano silver market reached an estimated $3.2 billion in 2025. About 5% of annual industrial silver demand now goes to nanotechnology applications — up from under 1% a decade ago. It is the fastest-growing industrial silver use after solar panels.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Silver Institute industry reports, Nature Nanotechnology publications, and WHO antimicrobial resistance resources.</p>`,
+
+  ar: `<h2>تكنولوجيا الفضة النانوية</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الجسيم</div>
+    <div class="ad-metric-value">1–100<span class="ad-metric-unit">نم</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التطبيقات</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> قطاعات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">السوق</div>
+    <div class="ad-metric-value">$3.2B<span class="ad-metric-unit"> (2025)</span></div>
+  </div>
+</div>
+
+<p>الفضة التي قُدّرت لآلاف السنين كمجوهرات وعملة، اكتسبت في القرن الحادي والعشرين هوية جديدة تماماً بفضل التقنية النانوية. جسيمات الفضة النانوية (AgNPs) — بحجم 1 إلى 100 نانومتر — توفر خصائص مضادة للميكروبات وتحفيزية وبصرية تمتد من الطب إلى النسيج وتنقية المياه وتعبئة الغذاء.</p>
+
+<h3>مجالات التطبيق</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الطب والصحة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">ضمادات الجروح</span><span class="value">مغلفة بالفضة النانوية</span></div>
+      <div class="ad-compare-row"><span class="label">القسطرات</span><span class="value">منع العدوى</span></div>
+      <div class="ad-compare-row"><span class="label">طب الأسنان</span><span class="value">حشوات مضادة للميكروبات</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الصناعة والمستهلك</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">النسيج</span><span class="value">أقمشة مقاومة للرائحة</span></div>
+      <div class="ad-compare-row"><span class="label">تنقية المياه</span><span class="value">مرشحات بكتيرية</span></div>
+      <div class="ad-compare-row"><span class="label">تعبئة الغذاء</span><span class="value">إطالة مدة الصلاحية</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات صناعية</div>
+  <div class="ad-fact-callout-text">سوق الفضة النانوية العالمي بلغ حوالي 3.2 مليار دولار في 2025. نحو 5% من الطلب الصناعي السنوي على الفضة يذهب الآن لتطبيقات التقنية النانوية — ارتفاعاً من أقل من 1% قبل عقد. إنه أسرع استخدام صناعي للفضة نمواً بعد الألواح الشمسية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقارير Silver Institute ومنشورات Nature Nanotechnology وموارد WHO.</p>`
+};

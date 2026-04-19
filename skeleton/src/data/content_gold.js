@@ -869,3 +869,180 @@ C[197] = {
   en: `<h2>Gold in Space Technology</h2><p>Gold's excellent infrared reflective properties and corrosion resistance make it indispensable in space technology.</p><h3>NASA Visors</h3><p>Astronaut helmet visors are coated with a 0.000002-inch (50 nanometer) layer of gold to reflect 98% of solar radiation without obstructing vision.</p><h3>James Webb Space Telescope</h3><p>JWST's 6.5-meter primary mirror comprises 18 gold-coated beryllium segments. Total gold used: 48.25 grams — reflecting infrared light at 98%+ efficiency.</p><h3>Satellites and Spacecraft</h3><p>Satellite circuit boards use gold-plated connectors. Spacecraft thermal blankets include gold film layers. Mars rovers use gold solder and gold wire bonds as standard.</p><div class="fact-box"><strong>Number:</strong> The International Space Station contains approximately 40 kg of gold — mostly for electronics and thermal insulation.</div>`,
   ar: `<h2>الذهب في تكنولوجيا الفضاء</h2><p>خصائص الذهب العاكسة للأشعة تحت الحمراء ومقاومته للتآكل تجعله مادة لا غنى عنها في تكنولوجيا الفضاء.</p><h3>أقنعة ناسا</h3><p>أقنعة خوذات رواد الفضاء مغطاة بطبقة ذهبية بسماكة ٥٠ نانومتر لعكس ٩٨٪ من الإشعاع الشمسي.</p><h3>تلسكوب جيمس ويب</h3><p>المرآة الرئيسية تتكون من ١٨ قطعة بريليوم مطلية بالذهب. إجمالي الذهب: ٤٨.٢٥ غرام.</p><div class="fact-box"><strong>رقم:</strong> تحتوي محطة الفضاء الدولية على حوالي ٤٠ كغ من الذهب.</div>`
 };
+
+C[178] = {
+  tr: `<h2>Trabzon Hasır Bilezik</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gelenek</div>
+    <div class="ad-metric-value">600+<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ayar</div>
+    <div class="ad-metric-value">22K<span class="ad-metric-unit"> altın</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Teknik</div>
+    <div class="ad-metric-value">El örgüsü</div>
+  </div>
+</div>
+
+<p>Trabzon hasır bileziği, Karadeniz'in en değerli kültürel miraslarından biridir. 600 yılı aşkın geçmişe sahip bu el sanatı, ince altın tellerin ustalıkla örülmesiyle oluşturulan eşsiz bir dokuya sahiptir. Her hasır bilezik yüzlerce saat el emeği gerektirir ve Anadolu kuyumculuk geleneğinin en rafine örneklerinden birini temsil eder.</p>
+
+<h3>Tarihçe ve Kültürel Anlam</h3>
+
+<p>Hasır örgü tekniğinin kökenleri Osmanlı İmparatorluğu'nun erken dönemine, hatta Bizans zanaatlarına kadar uzanır. Trabzon, stratejik konumu nedeniyle İpek Yolu ticaretinin önemli bir durağıydı; bu da şehrin kuyumculuk geleneğini zenginleştirdi. Hasır bilezik geleneksel olarak çeyiz takısıdır — Karadeniz düğünlerinde gelinin bileğine takılır ve kuşaktan kuşağa aktarılır.</p>
+
+<h3>Üretim Tekniği</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Geleneksel El Örgüsü</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tel kalınlığı</span><span class="value">0.2–0.4 mm altın tel</span></div>
+      <div class="ad-compare-row"><span class="label">Örgü süresi</span><span class="value">40–200+ saat</span></div>
+      <div class="ad-compare-row"><span class="label">Ayar</span><span class="value">22K (geleneksel)</span></div>
+      <div class="ad-compare-row"><span class="label">Desen</span><span class="value">1000 çeşit model</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">İşçilik primi yüksek</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Makine Üretimi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tel kalınlığı</span><span class="value">Standart kalıp</span></div>
+      <div class="ad-compare-row"><span class="label">Üretim süresi</span><span class="value">Saatler</span></div>
+      <div class="ad-compare-row"><span class="label">Ayar</span><span class="value">14K–22K</span></div>
+      <div class="ad-compare-row"><span class="label">Desen</span><span class="value">Sınırlı model</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Gram fiyatına yakın</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Geleneksel hasır örgüde ince altın teller, iğne veya tığ benzeri aletlerle birbirine geçirilerek sıkı, esnek ve dayanıklı bir doku oluşturulur. En karmaşık desenlerde tek bir bilezik 200 saatten fazla emek gerektirebilir. Popüler desen türleri arasında "sırma," "altılı," "sekizli," "kafes" ve "gelin hasırı" yer alır.</p>
+
+<h3>Nasıl Ayırt Edilir: El İşi vs Makine</h3>
+
+<p>Orijinal Trabzon hasırını makine üretiminden ayırmak için dikkat edilmesi gerekenler: el işinde her düğüm hafif farklıdır — mükemmel tekrarlanma makine üretiminin işaretidir. El işi hasır esnektir ve deriye uyum sağlar; makine üretimi daha rijittir. Ağırlık/hacim oranı el işinde daha düşüktür çünkü örgü daha sıkıdır. Altının rengi 22K el işinde daha sıcaktır. Usta imzası veya atölye damgası orijinallik kanıtıdır.</p>
+
+<h3>Yatırım ve Koleksiyon Değeri</h3>
+
+<p>Trabzon hasırı hem gram altın değeri hem işçilik değeri taşır. Usta el işi bir bilezik, gram altın fiyatının 2–5 katı değerinde olabilir. Antika hasır bilezikler — özellikle belirli ustaların damgasını taşıyanlar — koleksiyon değeri taşır. Gelin çeyizi olarak hem duygusal hem maddi yatırım niteliğindedir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kültürel Miras</div>
+  <div class="ad-fact-callout-text">Trabzon hasır örgü tekniği UNESCO Somut Olmayan Kültürel Miras Listesi'ne aday gösterilmiştir. Trabzon'da aktif hasır usta sayısı her yıl azalmaktadır — bu nedenle usta el işi bileziklerin hem kültürel hem ekonomik değeri giderek artmaktadır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Trabzon Kuyumcular Odası verileri, Türk kültürel miras araştırmaları ve Karadeniz zanaat belgeleme projelerine dayanmaktadır.</p>`,
+
+  en: `<h2>Trabzon Woven Gold Bracelet</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Heritage</div>
+    <div class="ad-metric-value">600+<span class="ad-metric-unit"> years</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Purity</div>
+    <div class="ad-metric-value">22K<span class="ad-metric-unit"> gold</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Technique</div>
+    <div class="ad-metric-value">Hand-woven</div>
+  </div>
+</div>
+
+<p>The Trabzon woven bracelet (hasır bilezik) is one of the Black Sea region's most treasured cultural artifacts. With over 600 years of history, this handcraft creates a unique texture by intricately weaving fine gold wires. Each bracelet requires hundreds of hours of manual labor, representing one of the most refined examples of Anatolian goldsmithing tradition.</p>
+
+<h3>History and Cultural Significance</h3>
+
+<p>The weaving technique traces its origins to the early Ottoman Empire, and perhaps to Byzantine craftsmanship. Trabzon, strategically located on the Silk Road, enriched its jewelry heritage through centuries of trade. The woven bracelet is traditionally a bridal piece — placed on the bride's wrist during Black Sea weddings and passed down through generations.</p>
+
+<h3>Production Technique</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Traditional Hand-Woven</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Wire gauge</span><span class="value">0.2–0.4 mm gold wire</span></div>
+      <div class="ad-compare-row"><span class="label">Weaving time</span><span class="value">40–200+ hours</span></div>
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">22K (traditional)</span></div>
+      <div class="ad-compare-row"><span class="label">Patterns</span><span class="value">1,000+ designs</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">High craftsmanship premium</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Machine-Made</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Wire gauge</span><span class="value">Standard mold</span></div>
+      <div class="ad-compare-row"><span class="label">Production</span><span class="value">Hours</span></div>
+      <div class="ad-compare-row"><span class="label">Purity</span><span class="value">14K–22K</span></div>
+      <div class="ad-compare-row"><span class="label">Patterns</span><span class="value">Limited designs</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">Near gram price</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Hand-woven bracelets can command 2–5 times the gram gold price due to craftsmanship. Antique examples — especially those bearing a master's stamp — carry significant collector value.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Cultural Heritage</div>
+  <div class="ad-fact-callout-text">The Trabzon weaving technique has been nominated for UNESCO Intangible Cultural Heritage listing. The number of active master weavers in Trabzon decreases every year — making hand-crafted bracelets increasingly valuable both culturally and economically.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Trabzon Jewelers' Chamber data, Turkish cultural heritage research, and Black Sea craft documentation projects.</p>`,
+
+  ar: `<h2>سوار طرابزون المنسوج</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التراث</div>
+    <div class="ad-metric-value">600+<span class="ad-metric-unit"> سنة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العيار</div>
+    <div class="ad-metric-value">22<span class="ad-metric-unit"> قيراط</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التقنية</div>
+    <div class="ad-metric-value">نسج يدوي</div>
+  </div>
+</div>
+
+<p>سوار طرابزون المنسوج (حصير بيلزيك) من أثمن كنوز التراث الثقافي لمنطقة البحر الأسود. بتاريخ يتجاوز 600 عام، تخلق هذه الحرفة نسيجاً فريداً بنسج أسلاك ذهبية دقيقة. كل سوار يتطلب مئات الساعات من العمل اليدوي.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">نسج يدوي تقليدي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">سمك السلك</span><span class="value">0.2–0.4 مم ذهب</span></div>
+      <div class="ad-compare-row"><span class="label">وقت النسج</span><span class="value">40–200+ ساعة</span></div>
+      <div class="ad-compare-row"><span class="label">العيار</span><span class="value">22 قيراط (تقليدي)</span></div>
+      <div class="ad-compare-row"><span class="label">الأنماط</span><span class="value">1000+ تصميم</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">صناعة آلية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">سمك السلك</span><span class="value">قالب قياسي</span></div>
+      <div class="ad-compare-row"><span class="label">وقت الإنتاج</span><span class="value">ساعات</span></div>
+      <div class="ad-compare-row"><span class="label">العيار</span><span class="value">14–22 قيراط</span></div>
+      <div class="ad-compare-row"><span class="label">الأنماط</span><span class="value">تصاميم محدودة</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">تراث ثقافي</div>
+  <div class="ad-fact-callout-text">تقنية نسج طرابزون رُشحت لقائمة التراث الثقافي غير المادي لليونسكو. عدد حرفيي النسج النشطين في طرابزون يتناقص كل عام — مما يجعل الأساور المصنوعة يدوياً أكثر قيمة ثقافياً واقتصادياً.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى بيانات غرفة صاغة طرابزون وأبحاث التراث الثقافي التركي.</p>`
+};

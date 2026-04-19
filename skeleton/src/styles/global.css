@@ -1313,3 +1313,91 @@ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   background:color-mix(in srgb, var(--cat-co, var(--gold)) 6%, var(--card))}
 [data-theme="dark"] .ad-body .fact-box,[data-theme="dark"] .ad-body .factbox{
   background:color-mix(in srgb, var(--cat-co, var(--gold)) 12%, var(--card))}
+
+/* ═══════════════════════════════════════════════════════════
+   Faz 8 — ARTICLE ENRICHMENT COMPONENTS
+   Metric row · Timeline · Comparison grid · Fact callout v2
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Metric row — hero altında 3'lü stat kartları ── */
+.ad-body .ad-metric-row{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;
+  margin:20px 0 28px}
+.ad-body .ad-metric-card{
+  background:var(--card2);border:1px solid var(--border);
+  border-radius:var(--r-btn);padding:14px 12px;text-align:center}
+.ad-body .ad-metric-label{
+  font-size:10px;color:var(--text2);margin-bottom:6px;
+  letter-spacing:0.08em;text-transform:uppercase}
+.ad-body .ad-metric-value{
+  font-family:var(--f-head);font-size:22px;font-weight:500;
+  color:var(--text);line-height:1.2}
+.ad-body .ad-metric-unit{
+  font-family:var(--f-body);font-size:11px;color:var(--text2);
+  margin-left:3px;font-weight:400}
+
+/* ── Timeline SVG wrapper ── */
+.ad-body .ad-timeline{
+  margin:20px 0;padding:4px 0;color:var(--text)}
+.ad-body .ad-timeline svg{width:100%;height:auto;display:block}
+.ad-body .ad-timeline .tl-line{
+  stroke:var(--border2);stroke-width:0.5}
+.ad-body .ad-timeline .tl-dot{
+  fill:var(--text2)}
+.ad-body .ad-timeline .tl-dot-active{
+  fill:var(--cat-co,var(--gold))}
+.ad-body .ad-timeline .tl-year{
+  font-family:var(--f-head);font-size:11px;font-weight:500;
+  fill:var(--text)}
+.ad-body .ad-timeline .tl-label{
+  font-family:var(--f-body);font-size:11px;fill:var(--text2)}
+
+/* ── Comparison grid — 2/3 sütunlu stat kartları ── */
+.ad-body .ad-compare-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;margin:16px 0 22px}
+.ad-body .ad-compare-grid.two-col{
+  grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.ad-body .ad-compare-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:var(--r-btn);padding:14px}
+.ad-body .ad-compare-title{
+  font-family:var(--f-head);font-size:13px;font-weight:500;
+  color:var(--cat-co,var(--gold));letter-spacing:0.03em;
+  margin-bottom:10px;padding-bottom:8px;
+  border-bottom:1px solid var(--border)}
+.ad-body .ad-compare-list{display:flex;flex-direction:column;gap:7px;
+  font-size:13px}
+.ad-body .ad-compare-row{
+  display:flex;justify-content:space-between;gap:8px}
+.ad-body .ad-compare-row .label{color:var(--text2)}
+.ad-body .ad-compare-row .value{font-weight:500;color:var(--text)}
+
+/* ── Fact callout v2 — evolved fact-box ── */
+.ad-body .ad-fact-callout{
+  background:color-mix(in srgb, var(--cat-co,var(--gold)) 6%, var(--card));
+  border-inline-start:3px solid var(--cat-co,var(--gold));
+  border-radius:0 var(--r-btn) var(--r-btn) 0;
+  padding:16px 20px;margin:28px 0}
+[data-theme="dark"] .ad-body .ad-fact-callout{
+  background:color-mix(in srgb, var(--cat-co,var(--gold)) 10%, var(--card))}
+.ad-body .ad-fact-callout-label{
+  font-size:10px;color:var(--cat-co,var(--gold));
+  letter-spacing:0.12em;margin-bottom:8px;font-weight:500;
+  text-transform:uppercase}
+.ad-body .ad-fact-callout-text{
+  font-family:var(--f-head);font-size:15px;font-weight:500;
+  line-height:1.55;color:var(--text)}
+
+/* ── Mobile: grid'leri tek sütuna al ── */
+@media (max-width:600px){
+  .ad-body .ad-metric-row,
+  .ad-body .ad-compare-grid,
+  .ad-body .ad-compare-grid.two-col{grid-template-columns:1fr}
+  .ad-body .ad-metric-value{font-size:20px}
+}
+
+/* ── prefers-reduced-motion ── */
+@media (prefers-reduced-motion:reduce){
+  .ad-body .ad-timeline svg *{transition:none;animation:none}
+}

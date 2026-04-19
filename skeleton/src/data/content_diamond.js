@@ -224,3 +224,959 @@ C[187] = {
   en: `<h2>Diamond Setting Types Guide</h2><p>A diamond's beauty is determined not just by the 4Cs, but also by the setting choice. The right setting protects the stone, enhances sparkle, and reflects your style.</p><h3>Prong Setting</h3><p>The classic. 4 or 6 metal prongs hold the stone. Pros: maximum light entry, stone fully visible. Cons: prongs can loosen, needs regular checking.</p><h3>Bezel Setting</h3><p>A metal rim encircles the stone. Pros: most secure hold, ideal for active lifestyles. Cons: covers the stone's edge, less sparkle.</p><h3>Tension Setting</h3><p>Metal band pressure holds stone suspended. Pros: modern, dramatic look. Cons: hard to resize, only suitable for hard metals.</p><h3>Pavé Setting</h3><p>Small stones embedded into the surface. Pros: extra sparkle. Cons: small stones can fall out.</p><div class="fact-box"><strong>Guide:</strong> Active lifestyle → Bezel. Maximum sparkle → Prong. Modern minimalism → Tension. Vintage feel → Cathedral.</div>`,
   ar: `<h2>دليل أنواع تثبيت الألماس</h2><p>جمال الألماس لا يتحدد فقط بمعايير الـ4C، بل أيضاً باختيار الإعداد.</p><h3>تثبيت الأظافر</h3><p>الأكلاسيكي. ٤ أو ٦ أظافر معدنية تمسك الحجر.</p><h3>تثبيت الإطار</h3><p>حافة معدنية تحيط بالحجر. الأكثر أماناً.</p><div class="fact-box"><strong>دليل:</strong> نمط حياة نشط → إطار. أقصى لمعان → أظافر. بساطة حديثة → شد.</div>`
 };
+
+C[167] = {
+  tr: `<h2>Pırlanta Floresans</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Görülme</div>
+    <div class="ad-metric-value">25–35<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">En Yaygın</div>
+    <div class="ad-metric-value">Mavi</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat Etkisi</div>
+    <div class="ad-metric-value">−2 / +2<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Floresans, bir pırlantanın ultraviyole (UV) ışığa maruz kaldığında görünür ışık yayma özelliğidir — genellikle mavi, nadiren sarı, yeşil veya turuncu. Doğal pırlantaların yaklaşık %25–35'i bir derece floresans gösterir. Bu özellik, yıllardır sektörde tartışılan bir konudur: fiyatı düşürür mü, artırır mı, yoksa hiç etkilemez mi?</p>
+
+<h3>Floresansın Bilimi</h3>
+
+<p>Floresans, pırlantanın kristal yapısındaki azot atomlarından kaynaklanır. UV ışınlar bu atomları uyarır, atomlar enerjiyi görünür ışık olarak geri yayar. Prosesin tamamen doğal olduğunu ve pırlantanın yapısal bütünlüğünü hiçbir şekilde etkilemediğini vurgulamak gerekir. GIA floresansı beş derecede sınıflandırır:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">None / Faint</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">UV tepkisi</span><span class="value">Yok / çok hafif</span></div>
+      <div class="ad-compare-row"><span class="label">Gündüz etkisi</span><span class="value">Sıfır</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat etkisi</span><span class="value">Nötr</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Medium</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">UV tepkisi</span><span class="value">Belirgin mavi</span></div>
+      <div class="ad-compare-row"><span class="label">Gündüz etkisi</span><span class="value">Nadiren fark edilir</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat etkisi</span><span class="value">%1–3 indirim</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Strong / V. Strong</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">UV tepkisi</span><span class="value">Yoğun mavi ışıma</span></div>
+      <div class="ad-compare-row"><span class="label">Gündüz etkisi</span><span class="value">Nadiren bulanık görünüm</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat etkisi</span><span class="value">%5–15 indirim</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fiyata Etkisi: Mit ve Gerçek</h3>
+
+<p>Sektörde yaygın inanış, floresansın her zaman fiyatı düşürdüğü yönündedir. Ancak gerçek daha nüanslıdır. GIA'nın 2023 çalışmasına göre floresansın görsel etkisi çoğu zaman abartılmaktadır; eğitimli gemologların bile kontrollü ortamda faint ve medium floresansı güvenilir biçimde tespit edemediği gösterilmiştir.</p>
+
+<p>D–F renk grubunda (renksiz) strong blue floresans fiyatı %10–15 düşürebilir — çünkü alıcılar bulanık görünüm riskinden kaçınır. Ancak G–J renk grubunda (neredeyse renksiz) mavi floresans taşı daha beyaz gösterebilir ve bazı alıcılar bu etkiyi avantaj olarak değerlendirir. K ve altı renklerde floresans sıcak tonlamayı dengeleyerek algılanan kaliteyi yükseltebilir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Floresans Avantajları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Aynı kalitede %5–15 ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">G–J renkte</span><span class="value">Taşı daha beyaz gösterir</span></div>
+      <div class="ad-compare-row"><span class="label">Benzersizlik</span><span class="value">UV'de eşsiz ışıma</span></div>
+      <div class="ad-compare-row"><span class="label">Yapısal</span><span class="value">Dayanıklılığı etkilemez</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Floresans Dezavantajları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">D–F renkte</span><span class="value">Fiyat iskontosu</span></div>
+      <div class="ad-compare-row"><span class="label">Very Strong</span><span class="value">Nadir bulanık görünüm riski</span></div>
+      <div class="ad-compare-row"><span class="label">Yeniden satış</span><span class="value">Bazı pazarlarda direnç</span></div>
+      <div class="ad-compare-row"><span class="label">Algı</span><span class="value">Yaygın olumsuz önyargı</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bulanık Görünüm (Haziness) Miti</h3>
+
+<p>Strong veya very strong floresansın pırlantayı "bulanık" veya "yağlı" gösterdiği endişesi yaygındır, ancak bu durum son derece nadirdir. GIA araştırmalarına göre strong blue floresanslı pırlantaların yalnızca %2'sinden azında gün ışığında fark edilebilir bulanıklık gözlenmiştir. Eğer bir pırlantayı mağazada beğeniyorsanız ve floresans raporda görünüyorsa, bu sizin görsel değerlendirmenizi geçersiz kılmaz — gözünüze güvenin.</p>
+
+<h3>Alım Stratejisi</h3>
+
+<p>Floresansı avantaja çevirmenin yolu, taşı mutlaka çıplak gözle görmektir. Medium blue floresanslı G–H renk pırlantalar, floresanssız D–E muadillerine görsel olarak yakın görünebilir — %10–20 fiyat farkıyla. Bu, bütçesini optimize etmek isteyen alıcılar için akıllı bir stratejidir. Çevrimiçi satın alımlarda video ve gerçek ışık koşullarındaki fotoğraflar talep edin.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Uzman Notu</div>
+  <div class="ad-fact-callout-text">Floresans bir kusur değil, doğal bir özelliktir. GIA sertifikasında "Strong Blue" yazan bir pırlanta, güneş ışığında çoğunlukla floresanssız muadilinden ayırt edilemez. Önemli olan taşı çıplak gözle değerlendirmektir — kâğıt üzerindeki derece, gerçek görünümü her zaman yansıtmaz.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA (Gemological Institute of America) floresans çalışmaları, Rapaport piyasa verileri ve AGS (American Gem Society) kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Diamond Fluorescence</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Occurrence</div>
+    <div class="ad-metric-value">25–35<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Most Common</div>
+    <div class="ad-metric-value">Blue</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Price Impact</div>
+    <div class="ad-metric-value">−2 / +2<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Fluorescence is a diamond's ability to emit visible light when exposed to ultraviolet (UV) radiation — usually blue, rarely yellow, green, or orange. About 25–35% of natural diamonds show some degree of fluorescence. This property has long been debated in the trade: does it lower value, raise it, or have no impact at all?</p>
+
+<h3>The Science Behind Fluorescence</h3>
+
+<p>Fluorescence originates from nitrogen atoms within the diamond's crystal lattice. UV rays excite these atoms, which release the energy as visible light. It is important to note that this is an entirely natural process that has no effect whatsoever on a diamond's structural integrity. GIA classifies fluorescence on a five-tier scale:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">None / Faint</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">UV response</span><span class="value">None / very slight</span></div>
+      <div class="ad-compare-row"><span class="label">Daylight effect</span><span class="value">Zero</span></div>
+      <div class="ad-compare-row"><span class="label">Price impact</span><span class="value">Neutral</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Medium</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">UV response</span><span class="value">Noticeable blue</span></div>
+      <div class="ad-compare-row"><span class="label">Daylight effect</span><span class="value">Rarely perceptible</span></div>
+      <div class="ad-compare-row"><span class="label">Price impact</span><span class="value">1–3% discount</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Strong / V. Strong</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">UV response</span><span class="value">Intense blue glow</span></div>
+      <div class="ad-compare-row"><span class="label">Daylight effect</span><span class="value">Rarely hazy appearance</span></div>
+      <div class="ad-compare-row"><span class="label">Price impact</span><span class="value">5–15% discount</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Price Impact: Myth vs Reality</h3>
+
+<p>The common industry belief is that fluorescence always lowers price. The truth is more nuanced. According to a GIA study, the visual impact of fluorescence is frequently overstated; trained gemologists in controlled settings could not reliably distinguish faint or medium fluorescence.</p>
+
+<p>In the D–F color range (colorless), strong blue fluorescence can reduce price by 10–15% as buyers fear a hazy look. But in the G–J range (near-colorless), blue fluorescence can make the stone appear whiter, and some buyers view this as an advantage. In K and below, fluorescence can counterbalance warm tones and lift perceived quality.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Fluorescence Pros</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">5–15% cheaper at same grade</span></div>
+      <div class="ad-compare-row"><span class="label">G–J colors</span><span class="value">Can make stone look whiter</span></div>
+      <div class="ad-compare-row"><span class="label">Uniqueness</span><span class="value">Distinctive UV glow</span></div>
+      <div class="ad-compare-row"><span class="label">Structure</span><span class="value">No effect on durability</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Fluorescence Cons</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">D–F colors</span><span class="value">Price discount</span></div>
+      <div class="ad-compare-row"><span class="label">Very Strong</span><span class="value">Rare hazy appearance risk</span></div>
+      <div class="ad-compare-row"><span class="label">Resale</span><span class="value">Some market resistance</span></div>
+      <div class="ad-compare-row"><span class="label">Perception</span><span class="value">Common negative bias</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>The Haziness Myth</h3>
+
+<p>The concern that strong or very strong fluorescence makes a diamond look "milky" or "oily" is widespread, but the phenomenon is extremely rare. According to GIA research, fewer than 2% of diamonds with strong blue fluorescence exhibited perceptible haziness under daylight conditions. If you like a diamond in the store and fluorescence appears on its report, that does not override your visual assessment — trust your eyes.</p>
+
+<h3>Buying Strategy</h3>
+
+<p>The key to turning fluorescence into an advantage is always seeing the stone in person. A G–H color diamond with medium blue fluorescence can appear visually comparable to a D–E without fluorescence — at a 10–20% discount. This is a smart strategy for budget-conscious buyers. For online purchases, request videos and photos under real lighting conditions.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Expert Note</div>
+  <div class="ad-fact-callout-text">Fluorescence is not a flaw — it is a natural characteristic. A diamond with "Strong Blue" on its GIA certificate is usually indistinguishable from a fluorescence-free equivalent in sunlight. What matters is evaluating the stone with your own eyes — the grade on paper does not always reflect real-world appearance.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA fluorescence studies, Rapaport market data, and AGS (American Gem Society) resources.</p>`,
+
+  ar: `<h2>فلورة الألماس</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">نسبة الحدوث</div>
+    <div class="ad-metric-value">25–35<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأكثر شيوعاً</div>
+    <div class="ad-metric-value">أزرق</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">تأثير السعر</div>
+    <div class="ad-metric-value">−2 / +2<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>الفلورة هي قدرة الألماس على إصدار ضوء مرئي عند التعرض للأشعة فوق البنفسجية — عادةً أزرق، ونادراً أصفر أو أخضر أو برتقالي. حوالي 25–35% من الألماس الطبيعي يُظهر درجة من الفلورة. هذه الخاصية موضع جدل منذ سنوات: هل تخفض القيمة أم ترفعها أم لا تؤثر إطلاقاً؟</p>
+
+<h3>العلم وراء الفلورة</h3>
+
+<p>تنشأ الفلورة من ذرات النيتروجين في البنية البلورية للألماس. تثير الأشعة فوق البنفسجية هذه الذرات فتُطلق الطاقة كضوء مرئي. هذه عملية طبيعية تماماً لا تؤثر على سلامة الألماس الهيكلية. يصنف GIA الفلورة في خمس درجات:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">معدومة / خفيفة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">استجابة UV</span><span class="value">لا شيء / طفيفة جداً</span></div>
+      <div class="ad-compare-row"><span class="label">تأثير نهاري</span><span class="value">صفر</span></div>
+      <div class="ad-compare-row"><span class="label">تأثير السعر</span><span class="value">محايد</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">متوسطة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">استجابة UV</span><span class="value">أزرق ملحوظ</span></div>
+      <div class="ad-compare-row"><span class="label">تأثير نهاري</span><span class="value">نادراً ما يُلاحظ</span></div>
+      <div class="ad-compare-row"><span class="label">تأثير السعر</span><span class="value">خصم 1–3%</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">قوية / قوية جداً</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">استجابة UV</span><span class="value">توهج أزرق كثيف</span></div>
+      <div class="ad-compare-row"><span class="label">تأثير نهاري</span><span class="value">نادراً ضبابية</span></div>
+      <div class="ad-compare-row"><span class="label">تأثير السعر</span><span class="value">خصم 5–15%</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>التأثير على السعر: الخرافة والحقيقة</h3>
+
+<p>الاعتقاد السائد أن الفلورة تخفض السعر دائماً. الحقيقة أكثر تعقيداً. في مجموعة الألوان D–F (عديم اللون)، الفلورة الزرقاء القوية قد تخفض السعر 10–15%. لكن في مجموعة G–J (شبه عديم اللون)، الفلورة الزرقاء قد تجعل الحجر يبدو أكثر بياضاً — وهي ميزة. في K وما دونها، قد توازن الفلورة الدرجات الدافئة وترفع الجودة المُدركة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مزايا الفلورة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">أرخص 5–15% بنفس الدرجة</span></div>
+      <div class="ad-compare-row"><span class="label">ألوان G–J</span><span class="value">تجعل الحجر أكثر بياضاً</span></div>
+      <div class="ad-compare-row"><span class="label">التفرد</span><span class="value">توهج مميز تحت UV</span></div>
+      <div class="ad-compare-row"><span class="label">البنية</span><span class="value">لا تأثير على المتانة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">عيوب الفلورة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">ألوان D–F</span><span class="value">خصم سعري</span></div>
+      <div class="ad-compare-row"><span class="label">قوية جداً</span><span class="value">خطر ضبابية نادر</span></div>
+      <div class="ad-compare-row"><span class="label">إعادة البيع</span><span class="value">مقاومة في بعض الأسواق</span></div>
+      <div class="ad-compare-row"><span class="label">الانطباع</span><span class="value">تحيز سلبي شائع</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>خرافة الضبابية</h3>
+
+<p>القلق من أن الفلورة القوية تجعل الألماس "ضبابياً" أو "زيتياً" شائع لكنه نادر الحدوث. وفقاً لأبحاث GIA، أقل من 2% من الألماس ذو الفلورة الزرقاء القوية أظهر ضبابية ملحوظة في ضوء النهار. إذا أعجبك حجر في المتجر والفلورة مذكورة في تقريره، فهذا لا يُبطل تقييمك البصري — ثق بعينيك.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">ملاحظة خبير</div>
+  <div class="ad-fact-callout-text">الفلورة ليست عيباً — إنها خاصية طبيعية. ألماسة مكتوب في شهادتها "Strong Blue" لا يمكن تمييزها عادةً عن مثيلتها بدون فلورة في ضوء الشمس. المهم تقييم الحجر بالعين المجردة — الدرجة على الورق لا تعكس دائماً المظهر الحقيقي.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى دراسات فلورة GIA وبيانات سوق Rapaport وموارد AGS.</p>`
+};
+
+C[168] = {
+  tr: `<h2>Pırlanta Kesim Trendleri 2026</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">#1 Trend</div>
+    <div class="ad-metric-value">Oval</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yükselen</div>
+    <div class="ad-metric-value">Step-cut</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yeni Dalga</div>
+    <div class="ad-metric-value">Fancy</div>
+  </div>
+</div>
+
+<p>Pırlanta kesim dünyası sürekli evrim geçirir. Yıllarca tartışmasız lider olan yuvarlak briliyan kesim, 2020'lerin ortasından itibaren tahtını fancy kesimlere kaptırmaya başladı. 2026 yılı itibarıyla pırlanta pazarında üç büyük trend öne çıkıyor: oval patlaması, step-cut rönesansı ve yaratıcı fancy kesimlerin yükselişi.</p>
+
+<h3>Oval Patlaması</h3>
+
+<p>Oval kesim, 2020'lerin en dramatik yükselişini yaşayan pırlanta formudur. Nişan yüzüğü pazarında payı 2018'de %8'den 2025'te yaklaşık %25'e fırlamıştır. Bu patlamanın arkasında birkaç faktör yatar: parmağı optik olarak uzatması, aynı karat ağırlığında yuvarlak kesimden daha büyük görünmesi (yüzey alanı %10–15 fazla) ve ünlülerin tercihi.</p>
+
+<p>Oval seçerken dikkat edilmesi gereken en önemli konu "papyon etkisi"dir — taşın merkezinde ışığın yansımadığı koyu bir alan. İdeal boy/en oranı 1.35–1.50 arasındadır. Mükemmel simetri ve cilalama bu etkiyi minimize eder.</p>
+
+<h3>Step-Cut Rönesansı: Emerald ve Asscher</h3>
+
+<p>Emerald ve Asscher kesimler, Art Deco döneminin zarif geometrisini modern tarzla buluşturarak güçlü bir geri dönüş yapıyor. Bu "step-cut" ailesi, briliyan kesimin ateşli ışıltısı yerine geniş, ayna benzeri parıltılar (hall of mirrors etkisi) sunar.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerald Kesim</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Şekil</span><span class="value">Dikdörtgen, kırpık köşeler</span></div>
+      <div class="ad-compare-row"><span class="label">Boy/En</span><span class="value">1.40–1.55 ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Geniş flaş parıltılar</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">VS2+ önerilir</span></div>
+      <div class="ad-compare-row"><span class="label">Trend notu</span><span class="value">2024–2026 yükselen</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Asscher Kesim</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Şekil</span><span class="value">Kare, kırpık köşeler</span></div>
+      <div class="ad-compare-row"><span class="label">Boy/En</span><span class="value">1.00–1.05 ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Hipnotik optik derinlik</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">VS1+ önerilir</span></div>
+      <div class="ad-compare-row"><span class="label">Trend notu</span><span class="value">Art Deco revival</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Step-cut kesimlerde taşın iç yapısı çok daha görünür olduğundan, yüksek berraklık derecesi kritiktir. Emerald kesimde VS2 ve üstü, Asscher'de VS1 ve üstü önerilir. Renk de daha belirgin olur — H veya daha iyi renk tercih edilmelidir.</p>
+
+<h3>Fancy Kesimlerin Yükselişi</h3>
+
+<p>2026'da sıra dışı fancy kesimler iddialı alıcıların radarına girdi. Marquise (zeplin şeklinde, parmağı uzatan), pear (armut, asimetrik zarafet), radiant (kare briliyan, ateş + geometri), cushion modified (yumuşak köşeli, vintage his) ve kite/shield (geometrik, avangard) kesimler pazar payı kazanıyor.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Pırlanta kesim trendleri zaman çizelgesi">
+    <title>Kesim trend evrimi</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="80" cy="80" r="4" class="tl-dot"/>
+      <text x="80" y="60" text-anchor="middle" class="tl-year">2018</text>
+      <text x="80" y="105" text-anchor="middle" class="tl-label">Round %65</text>
+    </g>
+    <g>
+      <circle cx="220" cy="80" r="4" class="tl-dot"/>
+      <text x="220" y="60" text-anchor="middle" class="tl-year">2020</text>
+      <text x="220" y="105" text-anchor="middle" class="tl-label">Oval yükselişi</text>
+    </g>
+    <g>
+      <circle cx="380" cy="80" r="4" class="tl-dot"/>
+      <text x="380" y="60" text-anchor="middle" class="tl-year">2023</text>
+      <text x="380" y="105" text-anchor="middle" class="tl-label">Step-cut dönüşü</text>
+    </g>
+    <g>
+      <circle cx="570" cy="80" r="5" class="tl-dot-active"/>
+      <text x="570" y="60" text-anchor="middle" class="tl-year">2026</text>
+      <text x="570" y="105" text-anchor="middle" class="tl-label">Fancy çeşitlilik</text>
+    </g>
+  </svg>
+</div>
+
+<h3>Kesim Karşılaştırma Tablosu</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Round Brilliant</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Işıltı</span><span class="value">Maksimum (58 faset)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat/ct</span><span class="value">En yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Pazar payı</span><span class="value">~50% (düşüşte)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Oval</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Işıltı</span><span class="value">Yüksek, geniş alan</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat/ct</span><span class="value">%15–25 ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">Pazar payı</span><span class="value">~25% (yükselişte)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerald/Asscher</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Işıltı</span><span class="value">Flaş parıltı, zarif</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat/ct</span><span class="value">%20–30 ucuz</span></div>
+      <div class="ad-compare-row"><span class="label">Pazar payı</span><span class="value">~10% (yükselişte)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>2026 İçin Seçim Tavsiyesi</h3>
+
+<p>Trend takip etmek isterseniz oval veya emerald kesim güçlü seçeneklerdir — her ikisi de hem modaya uygun hem zamansızdır. Yuvarlak briliyan ise "asla modası geçmez" garantisi sunar. Avangard bir tercih istiyorsanız marquise veya kite kesimler dikkat çeker. Hangi kesimi seçerseniz seçin, kesim kalitesi (cut grade) her zaman en kritik 4C faktörü olarak kalmaya devam eder — mükemmel kesim, diğer tüm faktörleri telafi eder.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Trend Notu</div>
+  <div class="ad-fact-callout-text">2026'nın en büyük sürprizi: yuvarlak briliyan kesim ilk kez nişan yüzüğü pazarında %50'nin altına indi. Oval ve emerald birlikte yaklaşık %35 paya ulaştı. Ancak "klasik" round her zaman en güvenli yatırım değerini koruyacak — trendler geçer, briliyan kalır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Rapaport Diamond Report, IDEX Online pazar verileri, JCK pırlanta trendleri analizi ve GIA kesim değerlendirme rehberlerine dayanmaktadır.</p>`,
+
+  en: `<h2>Diamond Cut Trends 2026</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">#1 Trend</div>
+    <div class="ad-metric-value">Oval</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rising</div>
+    <div class="ad-metric-value">Step-cut</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">New Wave</div>
+    <div class="ad-metric-value">Fancy</div>
+  </div>
+</div>
+
+<p>The world of diamond cuts is in constant evolution. The round brilliant, unchallenged leader for years, has been ceding ground to fancy shapes since the mid-2020s. As of 2026, three major trends dominate the diamond market: the oval explosion, the step-cut renaissance, and the rise of creative fancy cuts.</p>
+
+<h3>The Oval Explosion</h3>
+
+<p>The oval cut has had the most dramatic rise of any diamond shape in the 2020s. Its share of the engagement ring market surged from roughly 8% in 2018 to approximately 25% in 2025. Several factors drive the boom: it visually elongates the finger, appears larger than a round of the same carat weight (10–15% more surface area), and has been championed by celebrity engagements.</p>
+
+<p>The key consideration when choosing an oval is the "bow-tie effect" — a dark area across the center where light fails to reflect. The ideal length-to-width ratio sits between 1.35 and 1.50. Excellent symmetry and polish minimize this effect.</p>
+
+<h3>Step-Cut Renaissance: Emerald and Asscher</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerald Cut</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Rectangular, cropped corners</span></div>
+      <div class="ad-compare-row"><span class="label">L/W ratio</span><span class="value">1.40–1.55 ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">Broad flash sparkle</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">VS2+ recommended</span></div>
+      <div class="ad-compare-row"><span class="label">Trend note</span><span class="value">Rising 2024–2026</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Asscher Cut</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Shape</span><span class="value">Square, cropped corners</span></div>
+      <div class="ad-compare-row"><span class="label">L/W ratio</span><span class="value">1.00–1.05 ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Light</span><span class="value">Hypnotic optical depth</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">VS1+ recommended</span></div>
+      <div class="ad-compare-row"><span class="label">Trend note</span><span class="value">Art Deco revival</span></div>
+    </div>
+  </div>
+</div>
+
+<p>In step-cut stones the internal structure is far more visible, so high clarity is critical. VS2 and above for emerald cuts, VS1 and above for Asscher. Color is also more apparent — H or better is recommended.</p>
+
+<h3>The Rise of Fancy Cuts</h3>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Diamond cut trends timeline">
+    <title>Cut trend evolution</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="80" cy="80" r="4" class="tl-dot"/>
+      <text x="80" y="60" text-anchor="middle" class="tl-year">2018</text>
+      <text x="80" y="105" text-anchor="middle" class="tl-label">Round 65%</text>
+    </g>
+    <g>
+      <circle cx="220" cy="80" r="4" class="tl-dot"/>
+      <text x="220" y="60" text-anchor="middle" class="tl-year">2020</text>
+      <text x="220" y="105" text-anchor="middle" class="tl-label">Oval rises</text>
+    </g>
+    <g>
+      <circle cx="380" cy="80" r="4" class="tl-dot"/>
+      <text x="380" y="60" text-anchor="middle" class="tl-year">2023</text>
+      <text x="380" y="105" text-anchor="middle" class="tl-label">Step-cut returns</text>
+    </g>
+    <g>
+      <circle cx="570" cy="80" r="5" class="tl-dot-active"/>
+      <text x="570" y="60" text-anchor="middle" class="tl-year">2026</text>
+      <text x="570" y="105" text-anchor="middle" class="tl-label">Fancy diversity</text>
+    </g>
+  </svg>
+</div>
+
+<h3>Cut Comparison Table</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Round Brilliant</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Brilliance</span><span class="value">Maximum (58 facets)</span></div>
+      <div class="ad-compare-row"><span class="label">Price/ct</span><span class="value">Highest</span></div>
+      <div class="ad-compare-row"><span class="label">Market share</span><span class="value">~50% (declining)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Oval</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Brilliance</span><span class="value">High, larger face</span></div>
+      <div class="ad-compare-row"><span class="label">Price/ct</span><span class="value">15–25% less</span></div>
+      <div class="ad-compare-row"><span class="label">Market share</span><span class="value">~25% (rising)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Emerald/Asscher</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Brilliance</span><span class="value">Flash sparkle, elegant</span></div>
+      <div class="ad-compare-row"><span class="label">Price/ct</span><span class="value">20–30% less</span></div>
+      <div class="ad-compare-row"><span class="label">Market share</span><span class="value">~10% (rising)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>2026 Buying Advice</h3>
+
+<p>If following trends, oval and emerald are strong picks — both fashionable and timeless. Round brilliant still offers the "never goes out of style" guarantee. For an avant-garde statement, marquise or kite cuts turn heads. Whichever shape you choose, cut quality remains the most critical of the 4Cs — an excellent cut compensates for everything else.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Trend Note</div>
+  <div class="ad-fact-callout-text">The biggest surprise of 2026: the round brilliant has dipped below 50% of the engagement ring market for the first time. Oval and emerald together now command roughly 35%. But the classic round will always hold the safest investment value — trends pass, brilliance endures.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Rapaport Diamond Report, IDEX Online market data, JCK diamond trends analysis, and GIA cut grading guides.</p>`,
+
+  ar: `<h2>اتجاهات قطع الألماس 2026</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الاتجاه #1</div>
+    <div class="ad-metric-value">بيضاوي</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصاعد</div>
+    <div class="ad-metric-value">مدرّج</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الموجة الجديدة</div>
+    <div class="ad-metric-value">فانسي</div>
+  </div>
+</div>
+
+<p>عالم قطع الألماس في تطور مستمر. القطع الدائري البريليانت الذي تربع على العرش لسنوات بدأ يتراجع أمام الأشكال الفانسي. في 2026، ثلاثة اتجاهات كبرى تهيمن: طفرة البيضاوي، ونهضة القطع المدرج، وصعود القطعات الفانسي الإبداعية.</p>
+
+<h3>طفرة البيضاوي</h3>
+
+<p>القطع البيضاوي شهد أكبر صعود في العشرينيات. حصته في سوق خواتم الخطوبة قفزت من 8% عام 2018 إلى نحو 25% عام 2025. عوامل الطفرة: يطيل الإصبع بصرياً، يبدو أكبر من الدائري بنفس الوزن (مساحة سطح أكبر بـ10–15%). النقطة الأهم: "تأثير ربطة العنق" — منطقة داكنة في المركز. النسبة المثالية 1.35–1.50.</p>
+
+<h3>نهضة القطع المدرج</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">القطع الإيمرالد</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الشكل</span><span class="value">مستطيل بزوايا مقطوعة</span></div>
+      <div class="ad-compare-row"><span class="label">نسبة ط/ع</span><span class="value">1.40–1.55 مثالي</span></div>
+      <div class="ad-compare-row"><span class="label">الضوء</span><span class="value">ومضات عريضة</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">VS2+ موصى</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">القطع الآشر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الشكل</span><span class="value">مربع بزوايا مقطوعة</span></div>
+      <div class="ad-compare-row"><span class="label">نسبة ط/ع</span><span class="value">1.00–1.05 مثالي</span></div>
+      <div class="ad-compare-row"><span class="label">الضوء</span><span class="value">عمق بصري منوّم</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">VS1+ موصى</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>صعود الفانسي</h3>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="تطور اتجاهات قطع الألماس">
+    <title>تطور اتجاهات القطع</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="80" cy="80" r="4" class="tl-dot"/>
+      <text x="80" y="60" text-anchor="middle" class="tl-year">2018</text>
+      <text x="80" y="105" text-anchor="middle" class="tl-label">دائري %65</text>
+    </g>
+    <g>
+      <circle cx="220" cy="80" r="4" class="tl-dot"/>
+      <text x="220" y="60" text-anchor="middle" class="tl-year">2020</text>
+      <text x="220" y="105" text-anchor="middle" class="tl-label">صعود البيضاوي</text>
+    </g>
+    <g>
+      <circle cx="380" cy="80" r="4" class="tl-dot"/>
+      <text x="380" y="60" text-anchor="middle" class="tl-year">2023</text>
+      <text x="380" y="105" text-anchor="middle" class="tl-label">عودة المدرج</text>
+    </g>
+    <g>
+      <circle cx="570" cy="80" r="5" class="tl-dot-active"/>
+      <text x="570" y="60" text-anchor="middle" class="tl-year">2026</text>
+      <text x="570" y="105" text-anchor="middle" class="tl-label">تنوع الفانسي</text>
+    </g>
+  </svg>
+</div>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الدائري البريليانت</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">أقصى (58 وجه)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر/قيراط</span><span class="value">الأعلى</span></div>
+      <div class="ad-compare-row"><span class="label">حصة السوق</span><span class="value">~50% (تراجع)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البيضاوي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">عالٍ، مساحة أكبر</span></div>
+      <div class="ad-compare-row"><span class="label">السعر/قيراط</span><span class="value">أقل 15–25%</span></div>
+      <div class="ad-compare-row"><span class="label">حصة السوق</span><span class="value">~25% (صعود)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">إيمرالد/آشر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">ومضات، أنيق</span></div>
+      <div class="ad-compare-row"><span class="label">السعر/قيراط</span><span class="value">أقل 20–30%</span></div>
+      <div class="ad-compare-row"><span class="label">حصة السوق</span><span class="value">~10% (صعود)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">ملاحظة الاتجاه</div>
+  <div class="ad-fact-callout-text">أكبر مفاجأة في 2026: الدائري البريليانت انخفض لأول مرة تحت 50% من سوق خواتم الخطوبة. البيضاوي والإيمرالد معاً يسيطران على نحو 35%. لكن الدائري الكلاسيكي سيحتفظ دائماً بأكثر قيمة استثمارية أماناً — الاتجاهات تمر واللمعان يبقى.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى Rapaport Diamond Report وبيانات IDEX Online وتحليلات JCK وأدلة تقييم القطع من GIA.</p>`
+};
+
+C[177] = {
+  tr: `<h2>Pırlanta Yatırım Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Min. Karat</div>
+    <div class="ad-metric-value">1.00<span class="ad-metric-unit">ct+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Min. Renk</div>
+    <div class="ad-metric-value">D–F</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertifika</div>
+    <div class="ad-metric-value">GIA</div>
+  </div>
+</div>
+
+<p>Pırlanta yatırımı, altın veya hisse senedi gibi geleneksel yatırım araçlarından temelden farklıdır: standart bir borsa fiyatı yoktur, likidite sınırlıdır ve değerleme subjektif unsurlar içerir. Ancak doğru seçilmiş yatırım kalitesi pırlantalar, uzun vadede değer koruma ve hatta değer artışı sağlayabilir. Bu rehber, yatırım amaçlı pırlanta seçimi, saklama ve çıkış stratejisi konularını kapsamlı biçimde ele alır.</p>
+
+<h3>Yatırım Kalitesi Kriterleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Minimum Standartlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Karat</span><span class="value">1.00 ct ve üzeri (ideal 2+ ct)</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">D, E veya F (colorless)</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">IF, VVS1 veya VVS2</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim</span><span class="value">Excellent / Ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Floresans</span><span class="value">None (tercihen)</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">GIA (zorunlu)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Kategori</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Karat</span><span class="value">3.00 ct+ (nadir segment)</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">D (mükemmel beyaz)</span></div>
+      <div class="ad-compare-row"><span class="label">Berraklık</span><span class="value">IF veya FL (Flawless)</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim</span><span class="value">Triple Excellent</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Belgelenmiş maden menşei</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$50.000+ / ct</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Pırlanta vs Diğer Yatırım Araçları</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Düşük</span></div>
+      <div class="ad-compare-row"><span class="label">Saklama</span><span class="value">Kolay, küçük hacim</span></div>
+      <div class="ad-compare-row"><span class="label">Getiri</span><span class="value">%2–5/yıl (uzun vade)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Lab-grown rekabeti</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Altın</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Saklama</span><span class="value">Ağır, kasa gerekli</span></div>
+      <div class="ad-compare-row"><span class="label">Getiri</span><span class="value">%5–8/yıl (değişken)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Fiyat volatilitesi</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Hisse Senedi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Çok yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Saklama</span><span class="value">Dijital</span></div>
+      <div class="ad-compare-row"><span class="label">Getiri</span><span class="value">%7–10/yıl (ortalama)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Piyasa çöküşü</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fancy Color: Yüksek Getiri Segmenti</h3>
+
+<p>Yatırım pırlantalarında en yüksek getiri potansiyeli fancy color (renkli) pırlantalardan gelir. Özellikle fancy vivid pink, fancy intense blue ve fancy vivid yellow pırlantalar, son on yılda yıllık ortalama %8–12 değer artışı göstermiştir. Ancak bu segment son derece özelleşmiş bilgi gerektirir ve giriş fiyatları çok yüksektir.</p>
+
+<p>Müzayede rekorları renkli pırlantaların değer potansiyelini gösterir: Pink Star (59.60 ct, 71.2 milyon dolar, 2017), Oppenheimer Blue (14.62 ct, 57.5 milyon dolar, 2016) ve Winston Blue (13.22 ct, 23.8 milyon dolar, 2014) gibi taşlar rekor kırmıştır.</p>
+
+<h3>Saklama ve Güvenlik</h3>
+
+<p>Yatırım pırlantası saklamak nispeten kolaydır — küçük hacmi büyük avantajdır. Banka kasası en güvenli seçenektir. Ev kasası (yangın dayanımlı, minimum UL TL-15 sınıfı) ikinci seçenektir. Pırlantayı orijinal GIA sertifikasıyla birlikte saklayın. Sertifika ve taşı ayrı yerlerde tutmak ek güvenlik sağlar. Yılda bir profesyonel değerleme raporu güncelleyin.</p>
+
+<h3>Çıkış Stratejisi</h3>
+
+<p>Pırlanta yatırımının en kritik aşaması çıkış stratejisidir — pırlantayı sattığınız fiyat, ödediğiniz fiyatın %60–80'i arasında olabilir. Bu "spread"i minimize etmek için şu yöntemler tercih edilir: açık artırma evleri (Christie's, Sotheby's — yüksek karat ve fancy color için), toptancıya doğrudan satış (hızlı likidite), özel koleksiyonculara satış (en iyi fiyat, zaman gerektirir) ve sertifikalı ikinci el platformları.</p>
+
+<h3>Lab-Grown Etkisi</h3>
+
+<p>Laboratuvar pırlantalarının hızla ucuzlaması, doğal pırlanta yatırımını iki yönde etkiler. Olumsuz: 1 karatlık yatırım segmentinde fiyat baskısı artıyor. Olumlu: 3+ karatlık nadir doğal pırlantaların "kıtlık primi" güçleniyor. Yatırımcılar için tavsiye: 2 karat ve üzeri, GIA sertifikalı, doğal ve belgelenmiş menşeli taşlara odaklanın.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Yatırım Kuralı</div>
+  <div class="ad-fact-callout-text">Pırlanta yatırımının altın kuralı: asla toplam portföyünüzün %5–10'undan fazlasını pırlantaya ayırmayın. Pırlanta bir "değer deposu"dur, aktif getiri aracı değildir. Likidite ihtiyacı olan yatırımcılar için uygun değildir. En iyi sonuçlar 5–10+ yıl vadeli, 2+ karat, D–F/IF–VVS1, GIA sertifikalı taşlarda görülür.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Rapaport Diamond Report fiyat endeksleri, Christie's ve Sotheby's müzayede kayıtları, IDEX piyasa analizleri ve De Beers Diamond Insight raporlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Diamond Investment Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Min. Carat</div>
+    <div class="ad-metric-value">1.00<span class="ad-metric-unit">ct+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Min. Color</div>
+    <div class="ad-metric-value">D–F</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Certificate</div>
+    <div class="ad-metric-value">GIA</div>
+  </div>
+</div>
+
+<p>Diamond investment differs fundamentally from conventional assets like gold or equities: there is no standardized exchange price, liquidity is limited, and valuation involves subjective elements. Yet properly selected investment-grade diamonds can preserve and even grow value over the long term. This guide covers selection criteria, storage, and exit strategies for investment diamonds.</p>
+
+<h3>Investment-Grade Criteria</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Minimum Standards</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Carat</span><span class="value">1.00 ct+ (ideal 2+ ct)</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">D, E, or F (colorless)</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">IF, VVS1, or VVS2</span></div>
+      <div class="ad-compare-row"><span class="label">Cut</span><span class="value">Excellent / Ideal</span></div>
+      <div class="ad-compare-row"><span class="label">Fluorescence</span><span class="value">None (preferred)</span></div>
+      <div class="ad-compare-row"><span class="label">Certificate</span><span class="value">GIA (mandatory)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Category</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Carat</span><span class="value">3.00 ct+ (rare tier)</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">D (perfect white)</span></div>
+      <div class="ad-compare-row"><span class="label">Clarity</span><span class="value">IF or FL (Flawless)</span></div>
+      <div class="ad-compare-row"><span class="label">Cut</span><span class="value">Triple Excellent</span></div>
+      <div class="ad-compare-row"><span class="label">Origin</span><span class="value">Documented mine provenance</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$50,000+ / ct</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Diamonds vs Other Investments</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Liquidity</span><span class="value">Low</span></div>
+      <div class="ad-compare-row"><span class="label">Storage</span><span class="value">Easy, tiny volume</span></div>
+      <div class="ad-compare-row"><span class="label">Return</span><span class="value">2–5%/yr (long-term)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Lab-grown competition</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gold</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Liquidity</span><span class="value">High</span></div>
+      <div class="ad-compare-row"><span class="label">Storage</span><span class="value">Heavy, needs safe</span></div>
+      <div class="ad-compare-row"><span class="label">Return</span><span class="value">5–8%/yr (variable)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Price volatility</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Equities</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Liquidity</span><span class="value">Very high</span></div>
+      <div class="ad-compare-row"><span class="label">Storage</span><span class="value">Digital</span></div>
+      <div class="ad-compare-row"><span class="label">Return</span><span class="value">7–10%/yr (average)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Market crash</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fancy Color: The High-Return Segment</h3>
+
+<p>The highest return potential comes from fancy color diamonds. Fancy vivid pink, fancy intense blue, and fancy vivid yellow have averaged 8–12% annual appreciation over the past decade. However, this segment requires highly specialized knowledge and carries very high entry prices.</p>
+
+<p>Auction records illustrate the potential: the Pink Star (59.60 ct, $71.2 million, 2017), the Oppenheimer Blue (14.62 ct, $57.5 million, 2016), and the Winston Blue (13.22 ct, $23.8 million, 2014).</p>
+
+<h3>Storage and Security</h3>
+
+<p>Storing investment diamonds is straightforward — their compact size is a major advantage. A bank safe deposit box is the most secure option. A home safe (fire-rated, minimum UL TL-15 class) is the second choice. Store the diamond with its original GIA certificate. Keeping the certificate and stone in separate locations adds security. Update the professional appraisal report annually.</p>
+
+<h3>Exit Strategy</h3>
+
+<p>The most critical phase is the exit — resale price may be 60–80% of what you paid. To minimize this spread: auction houses (for high-carat and fancy color), direct wholesale sale (fast liquidity), private collector sales (best price, takes time), and certified pre-owned platforms.</p>
+
+<h3>The Lab-Grown Effect</h3>
+
+<p>Rapidly falling lab-grown prices affect natural diamond investment in two directions. Negative: price pressure in the 1-carat segment is rising. Positive: the scarcity premium on 3+ carat natural diamonds is strengthening. Investor advice: focus on 2-carat and above, GIA-certified, natural stones with documented provenance.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Investment Rule</div>
+  <div class="ad-fact-callout-text">The golden rule: never allocate more than 5–10% of your total portfolio to diamonds. A diamond is a store of value, not an active return vehicle. Unsuitable for investors who need liquidity. Best results come from stones held 5–10+ years, 2+ carats, D–F/IF–VVS1, GIA-certified.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Rapaport Diamond Report price indices, Christie's and Sotheby's auction records, IDEX market analyses, and De Beers Diamond Insight reports.</p>`,
+
+  ar: `<h2>دليل استثمار الألماس</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الحد الأدنى</div>
+    <div class="ad-metric-value">1.00<span class="ad-metric-unit">قيراط+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الحد الأدنى للون</div>
+    <div class="ad-metric-value">D–F</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الشهادة</div>
+    <div class="ad-metric-value">GIA</div>
+  </div>
+</div>
+
+<p>استثمار الألماس يختلف جوهرياً عن الاستثمارات التقليدية: لا يوجد سعر بورصة موحد، والسيولة محدودة، والتقييم يتضمن عناصر ذاتية. لكن الألماس المختار بعناية يمكن أن يحافظ على القيمة بل ويزيدها على المدى الطويل.</p>
+
+<h3>معايير جودة الاستثمار</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المعايير الدنيا</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القيراط</span><span class="value">1.00+ (مثالي 2+)</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">D أو E أو F</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">IF أو VVS1 أو VVS2</span></div>
+      <div class="ad-compare-row"><span class="label">القطع</span><span class="value">ممتاز / مثالي</span></div>
+      <div class="ad-compare-row"><span class="label">الفلورة</span><span class="value">معدومة (مفضل)</span></div>
+      <div class="ad-compare-row"><span class="label">الشهادة</span><span class="value">GIA (إلزامي)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الفئة الممتازة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القيراط</span><span class="value">3.00+ (نادر)</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">D (أبيض مثالي)</span></div>
+      <div class="ad-compare-row"><span class="label">النقاء</span><span class="value">IF أو FL</span></div>
+      <div class="ad-compare-row"><span class="label">القطع</span><span class="value">ممتاز ثلاثي</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">منشأ موثق</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$50,000+ / قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الألماس مقابل الاستثمارات الأخرى</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الألماس</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السيولة</span><span class="value">منخفضة</span></div>
+      <div class="ad-compare-row"><span class="label">التخزين</span><span class="value">سهل، حجم صغير</span></div>
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">2–5% سنوياً</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطر</span><span class="value">منافسة المختبري</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الذهب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السيولة</span><span class="value">عالية</span></div>
+      <div class="ad-compare-row"><span class="label">التخزين</span><span class="value">ثقيل، يحتاج خزنة</span></div>
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">5–8% سنوياً</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطر</span><span class="value">تقلب الأسعار</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الأسهم</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السيولة</span><span class="value">عالية جداً</span></div>
+      <div class="ad-compare-row"><span class="label">التخزين</span><span class="value">رقمي</span></div>
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">7–10% سنوياً</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطر</span><span class="value">انهيار السوق</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الألوان الفاخرة: شريحة العائد العالي</h3>
+
+<p>أعلى عائد يأتي من الألماس الملون الفاخر. الوردي الزاهي والأزرق الكثيف والأصفر الزاهي حققت 8–12% سنوياً في العقد الأخير. أرقام قياسية: النجمة الوردية (59.60 قيراط، 71.2 مليون دولار)، الأزرق أوبنهايمر (14.62 قيراط، 57.5 مليون دولار).</p>
+
+<h3>التخزين والأمان</h3>
+
+<p>تخزين الألماس الاستثماري سهل — حجمه الصغير ميزة كبيرة. صندوق أمانات البنك الأكثر أماناً. خزّن الألماس مع شهادة GIA الأصلية. احتفظ بالشهادة والحجر في مكانين منفصلين لأمان إضافي.</p>
+
+<h3>استراتيجية الخروج</h3>
+
+<p>سعر إعادة البيع 60–80% مما دفعت. لتقليل الفارق: دور المزادات للقيراط العالي، البيع لتجار الجملة للسيولة السريعة، البيع لجامعي القطع الخاصة لأفضل سعر.</p>
+
+<h3>تأثير المختبري</h3>
+
+<p>سلبي: ضغط سعري في شريحة 1 قيراط. إيجابي: علاوة الندرة على 3+ قيراط تتعزز. النصيحة: ركز على 2 قيراط وأعلى، شهادة GIA، طبيعي بمنشأ موثق.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">قاعدة الاستثمار</div>
+  <div class="ad-fact-callout-text">القاعدة الذهبية: لا تخصص أكثر من 5–10% من محفظتك للألماس. الألماس مخزن قيمة وليس أداة عائد نشط. أفضل النتائج مع أحجار محتفظ بها 5–10+ سنوات، 2+ قيراط، D–F/IF–VVS1، بشهادة GIA.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى Rapaport وكريستيز وسوذبيز وIDEX وDe Beers Diamond Insight.</p>`
+};

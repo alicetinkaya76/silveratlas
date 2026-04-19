@@ -245,3 +245,3617 @@ C[198] = {
   en: `<h2>Color-Changing Gemstones</h2><p>Some gems show dramatic color change depending on the light source — one of nature's most mesmerizing optical displays.</p><h3>Alexandrite</h3><p>Emerald green in daylight, ruby red in incandescent light. Russia (Urals) is the original source. $5,000-70,000 per carat.</p><h3>Zultanite / Diaspore</h3><p>Unique to Turkey (Muğla)! Green-yellow in daylight, reddish-pink in artificial light. Found nowhere else in the world. Mohs 6.5-7.</p><h3>Color-Change Garnet</h3><p>Blue-green to red-purple. Bekily (Madagascar) garnets show alexandrite-like effect.</p><h3>Color-Change Sapphire</h3><p>Blue in daylight, purple-pink in incandescent light. From Sri Lanka and Tanzania.</p><div class="fact-box"><strong>Test:</strong> Use LED white light (daylight effect) and incandescent bulb (artificial light effect) to test color change.</div>`,
   ar: `<h2>الأحجار المتغيرة اللون</h2><p>بعض الأحجار تُظهر تغيراً درامياً في اللون حسب مصدر الضوء.</p><h3>الألكسندريت</h3><p>أخضر زمردي في ضوء النهار، أحمر ياقوتي في الضوء الصناعي. $٥,٠٠٠-٧٠,٠٠٠ للقيراط.</p><h3>الزلتانيت</h3><p>فريد لتركيا (موغلا)! أخضر-أصفر نهاراً، وردي محمر في الإضاءة الصناعية. لا يوجد في أي مكان آخر.</p><div class="fact-box"><strong>اختبار:</strong> استخدم ضوء LED أبيض ومصباح متوهج لاختبار تغير اللون.</div>`
 };
+
+C[170] = {
+  tr: `<h2>Spinel — Yakut'un Kardeşi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yoğunluk</div>
+    <div class="ad-metric-value">3.60<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kristal</div>
+    <div class="ad-metric-value">Kübik</div>
+  </div>
+</div>
+
+<p>Spinel (MgAl₂O₄), yüzyıllarca yakutla karıştırılmış ve ancak 18. yüzyılın sonunda bilimsel olarak ayrı bir taş olarak tanınabilmiş, gemolojinin en ilgi çekici taşlarından biridir. İngiliz Kraliyet Taçları'ndaki en ünlü "yakutların" çoğu aslında spineldir. Bugün koleksiyoncular ve uzmanlar tarafından yeniden keşfedilen bu taş, renk zenginliği ve tarihsel derinliğiyle moda dünyasında hızla yükseliyor.</p>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Spinel, magnezyum ve alüminyum oksitten oluşan bir mineraldir: MgAl₂O₄. İsmi Latince <em>spina</em> (diken) kelimesinden gelir — ilk bulunan kristallerin sivri oktahedral şekli bu adı doğurmuştur. Kübik kristal sistemiyle kristalleşir; bu yüzden spinel kristalleri sekizyüzlü (oktahedral), elmas benzeri şekillerde bulunur. Çift kırınım göstermez (izotrop); bu, onu saf ve net bir optik yapıya kavuşturur.</p>
+
+<p>Rengini genellikle krom (Cr) safsızlıklarından alır — yakutun kırmızısını veren elementin aynısı. Bu kimyasal akrabalık, iki taşın aynı jeolojik ortamlarda (özellikle Myanmar, Sri Lanka ve Tacikistan'daki mermer yataklarında) bir arada bulunmasına ve benzer renkte olmasına yol açar. Ama yapıları farklıdır: yakut korundum (Al₂O₃) ailesindendir, spinel ise ayrı bir mineral sınıfıdır.</p>
+
+<h3>Yakutla Karıştırılan Bir Tarih</h3>
+
+<p>Spinel-yakut ayrımı, gemoloji tarihinin en dramatik düzeltmelerinden biridir. 14–18. yüzyıllarda Avrupa ve Asya'daki kraliyet hazinelerine giren pek çok büyük "yakut", 20. yüzyılda yapılan gemolojik testlerle aslında spinel olarak yeniden sınıflandırılmıştır.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Spinel tarihinde dört dönüm noktası">
+    <title>Spinel tarih çizelgesi</title>
+    <line x1="60" y1="80" x2="620" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="85" cy="80" r="4" class="tl-dot"/>
+      <text x="85" y="60" text-anchor="middle" class="tl-year">1367</text>
+      <text x="85" y="105" text-anchor="middle" class="tl-label">Black Prince's Ruby</text>
+    </g>
+    <g>
+      <circle cx="250" cy="80" r="4" class="tl-dot"/>
+      <text x="250" y="60" text-anchor="middle" class="tl-year">1398</text>
+      <text x="250" y="105" text-anchor="middle" class="tl-label">Timur Ruby</text>
+    </g>
+    <g>
+      <circle cx="430" cy="80" r="4" class="tl-dot"/>
+      <text x="430" y="60" text-anchor="middle" class="tl-year">1783</text>
+      <text x="430" y="105" text-anchor="middle" class="tl-label">Bilimsel ayrım</text>
+    </g>
+    <g>
+      <circle cx="605" cy="80" r="5" class="tl-dot-active"/>
+      <text x="605" y="60" text-anchor="middle" class="tl-year">2007</text>
+      <text x="605" y="105" text-anchor="middle" class="tl-label">Mahenge keşfi</text>
+    </g>
+  </svg>
+</div>
+
+<p>İngiliz İmparatorluk Devlet Tacı'ndaki <em>Black Prince's Ruby</em> — 1367'de Edward Kara Prens'e armağan edilen 170 karatlık muazzam kırmızı taş — 20. yüzyıl testlerinde spinel olarak tanımlandı. Aynı koleksiyondaki 361 karatlık <em>Timur Ruby</em> (1398'de Timur'un hazinesinden geldiği düşünülen) de spineldir. İran Taç Mücevherleri'nde bulunan yaklaşık 500 karatlık <em>Samarian Spinel</em>, bilinen en büyük kesim görmemiş spinellerden biridir.</p>
+
+<p>Bilimsel ayrım, 18. yüzyıl sonlarında Fransız mineralogçuların kristal yapıları sistematik olarak incelemesiyle belirginleşti. Ancak kuyumculuk çevrelerinde bu ayrımın benimsenmesi on yıllar sürdü; 19. yüzyıl boyunca "Balas ruby" (Badakşan yakutları) terimi spinelleri ifade etmek için kullanılmaya devam etti.</p>
+
+<h3>Spinel vs Yakut: Bilimsel Ayrım</h3>
+
+<p>İki taş görsel olarak birbirinden ayırt edilemez olsa da kimyasal ve optik özellikleri farklıdır. Bu farklar modern gemoloji laboratuvarlarında rutin testlerle kolayca doğrulanır:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Spinel</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kimyasal formül</span><span class="value">MgAl₂O₄</span></div>
+      <div class="ad-compare-row"><span class="label">Kristal sistemi</span><span class="value">Kübik</span></div>
+      <div class="ad-compare-row"><span class="label">Mohs sertlik</span><span class="value">8</span></div>
+      <div class="ad-compare-row"><span class="label">Yoğunluk</span><span class="value">3.60</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılma indisi</span><span class="value">1.72</span></div>
+      <div class="ad-compare-row"><span class="label">Çift kırınım</span><span class="value">Yok</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yakut (Ruby)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kimyasal formül</span><span class="value">Al₂O₃ + Cr</span></div>
+      <div class="ad-compare-row"><span class="label">Kristal sistemi</span><span class="value">Heksagonal</span></div>
+      <div class="ad-compare-row"><span class="label">Mohs sertlik</span><span class="value">9</span></div>
+      <div class="ad-compare-row"><span class="label">Yoğunluk</span><span class="value">4.00</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılma indisi</span><span class="value">1.76</span></div>
+      <div class="ad-compare-row"><span class="label">Çift kırınım</span><span class="value">0.008</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Çift kırınım (birefringence) testi tek başına bile yeterlidir: yakut ışığı iki farklı hızda kırar, spinel kırmaz. Bir refraktometre veya polariskop ile saniyeler içinde ayrım yapılabilir. Tarihsel olarak bu testler mevcut olmadığı için ayrım imkansızdı; taş uzmanları sadece renk, sertlik ve yoğunluğa bakabiliyor, bu da çoğu zaman yeterli olmuyordu.</p>
+
+<h3>Renk Spektrumu</h3>
+
+<p>Spinelin sunduğu renk çeşitliliği, yakutun dar kırmızı spektrumunun çok ötesindedir. Kırmızı spinel (saf krom kaynaklı) en prestijli ve en değerli olanıdır; ama spinel ayrıca saf pembe, mor, mavi, gri, siyah ve nadiren sarı-turuncu tonlarda da bulunur.</p>
+
+<p>En değerli varyete <strong>kobalt mavisi spinel</strong>'dir — kobalt safsızlıklarından kaynaklanan, safir mavisine rakip olabilecek saf bir denizmavisi. Vietnam'ın Lục Yên bölgesi ve Tacikistan'dan çıkarılan nadir örnekler, karat başına 10.000 dolar üzerinde işlem görebilir. Tanzanya'nın <strong>Mahenge</strong> bölgesinden çıkarılan flüoresan-pembe spineller (2007'den itibaren), pazarın en aranan renkli taşları arasında yer alır.</p>
+
+<h3>Modern Piyasa ve Yatırım</h3>
+
+<p>2010'lardan itibaren spinel "bilenlerin taşı" olarak yeniden keşfedildi. Yakut fiyatlarının astronomik seviyelere çıkması ve sentetik yakut pazarının büyümesi, koleksiyoncuları otantik, nadir ve henüz sentetik olarak yaygın üretilmeyen spinele yöneltti. 5 karat üzerindeki temiz, canlı renkli doğal spineller müzayedelerde sık sık rekorlar kırıyor.</p>
+
+<p>GIA ve diğer büyük laboratuvarlar spineli ayrı bir sertifika kategorisinde değerlendirir. Isı işlemi görmemiş, doğal renkli spineller premium fiyatlandırılır. En değerli ana kaynaklar: Myanmar (Mogok), Tacikistan (Kuh-i-Lal), Vietnam (Lục Yên), Tanzanya (Mahenge) ve Sri Lanka.</p>
+
+<h3>Takı Kullanımı ve Bakım</h3>
+
+<p>Mohs 8 sertliği ve çift kırınımsız saflığıyla spinel, günlük takı kullanımı için oldukça uygundur. Yüzük taşı olarak nişan yüzüklerinde (özellikle renkli alternatif arayan çiftler için), kolye merkezlerinde ve küpelerde yaygınca tercih edilir. Ultrasonik temizleme çoğunlukla güvenlidir, ama darbe riskine karşı bezel-set veya halo montajları daha korumalıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı gerçek</div>
+  <div class="ad-fact-callout-text">İngiliz Taç Mücevherleri'ndeki iki en ünlü "yakut" — Black Prince's Ruby ve Timur Ruby — aslında spineldir. Toplam ağırlıkları 531 karat, tarihsel değerleri paha biçilemez, ama gemolojik gerçekleri sadece iki yüzyıldır biliniyor.</div>
+</div>
+
+<h3>Seçim Kriterleri</h3>
+
+<p>Spinel alırken dikkat edilmesi gereken ana faktörler: renk saflığı ve doygunluğu (özellikle kırmızı ve kobalt mavisinde), iç temizlik (görünür safsızlık olmamalı), kesim kalitesi (ışık oyunu güçlü olmalı) ve karat büyüklüğü (2 karat üzerinde değer üssel artar). GIA sertifikası veya ICA (International Colored Gemstone Association) belgeli taşlar tercih edilmelidir.</p>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA (Gemological Institute of America) yayınları, ICA piyasa raporları, Smithsonian mineral koleksiyonu verileri ve British Crown Jewels gemolojik kayıtlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Spinel — The Ruby's Sibling</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Density</div>
+    <div class="ad-metric-value">3.60<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Crystal</div>
+    <div class="ad-metric-value">Cubic</div>
+  </div>
+</div>
+
+<p>Spinel (MgAl₂O₄) is one of gemology's most fascinating stones — confused with ruby for centuries and only recognized as distinct in the late 18th century. Most of the famous "rubies" in the British Crown Jewels are in fact spinels. Today, collectors and experts are rediscovering spinel, whose rich color range and historical depth are propelling it to fashion prominence.</p>
+
+<h3>Scientific Profile</h3>
+
+<p>Spinel is a mineral composed of magnesium and aluminum oxide: MgAl₂O₄. Its name derives from the Latin <em>spina</em> (thorn) — a reference to the sharp octahedral shape of early-known crystals. It crystallizes in the cubic system, which is why spinel crystals occur as eight-sided (octahedral), diamond-like shapes. It is isotropic (shows no birefringence), giving it a pure, clear optical character.</p>
+
+<p>Its color typically comes from chromium (Cr) impurities — the same element that produces ruby's red. This chemical kinship means the two stones often occur together in the same geological environments (notably the marble deposits of Myanmar, Sri Lanka, and Tajikistan) and display similar hues. But their structures differ: ruby belongs to the corundum family (Al₂O₃), while spinel is a distinct mineral class.</p>
+
+<h3>A History of Confusion with Ruby</h3>
+
+<p>The spinel-ruby distinction is one of the most dramatic corrections in gemological history. Many great "rubies" that entered European and Asian royal treasuries between the 14th and 18th centuries were reclassified as spinels after 20th-century gemological testing.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Four milestones in spinel's history">
+    <title>Spinel history timeline</title>
+    <line x1="60" y1="80" x2="620" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="85" cy="80" r="4" class="tl-dot"/>
+      <text x="85" y="60" text-anchor="middle" class="tl-year">1367</text>
+      <text x="85" y="105" text-anchor="middle" class="tl-label">Black Prince's Ruby</text>
+    </g>
+    <g>
+      <circle cx="250" cy="80" r="4" class="tl-dot"/>
+      <text x="250" y="60" text-anchor="middle" class="tl-year">1398</text>
+      <text x="250" y="105" text-anchor="middle" class="tl-label">Timur Ruby</text>
+    </g>
+    <g>
+      <circle cx="430" cy="80" r="4" class="tl-dot"/>
+      <text x="430" y="60" text-anchor="middle" class="tl-year">1783</text>
+      <text x="430" y="105" text-anchor="middle" class="tl-label">Scientific distinction</text>
+    </g>
+    <g>
+      <circle cx="605" cy="80" r="5" class="tl-dot-active"/>
+      <text x="605" y="60" text-anchor="middle" class="tl-year">2007</text>
+      <text x="605" y="105" text-anchor="middle" class="tl-label">Mahenge discovery</text>
+    </g>
+  </svg>
+</div>
+
+<p>The <em>Black Prince's Ruby</em> — the 170-carat crimson gem set in the Imperial State Crown, gifted to Edward the Black Prince in 1367 — was identified as spinel in 20th-century tests. The 361-carat <em>Timur Ruby</em> in the same royal collection (traditionally attributed to Timur's 1398 treasury) is also spinel. The roughly 500-carat <em>Samarian Spinel</em> in the Iranian Crown Jewels is one of the largest known uncut spinels in existence.</p>
+
+<p>The scientific separation emerged in the late 18th century as French mineralogists systematically studied crystal structures. Adoption within the jewelry trade took decades; throughout the 19th century, the term "Balas ruby" (after the Badakhshan region) was still used to describe what we now call spinels.</p>
+
+<h3>Spinel vs Ruby: The Scientific Difference</h3>
+
+<p>Though visually indistinguishable, the two stones differ in chemistry and optics. These differences are routinely verified in modern gemological labs:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Spinel</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Chemistry</span><span class="value">MgAl₂O₄</span></div>
+      <div class="ad-compare-row"><span class="label">Crystal system</span><span class="value">Cubic</span></div>
+      <div class="ad-compare-row"><span class="label">Mohs hardness</span><span class="value">8</span></div>
+      <div class="ad-compare-row"><span class="label">Density</span><span class="value">3.60</span></div>
+      <div class="ad-compare-row"><span class="label">Refractive index</span><span class="value">1.72</span></div>
+      <div class="ad-compare-row"><span class="label">Birefringence</span><span class="value">None</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Ruby</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Chemistry</span><span class="value">Al₂O₃ + Cr</span></div>
+      <div class="ad-compare-row"><span class="label">Crystal system</span><span class="value">Hexagonal</span></div>
+      <div class="ad-compare-row"><span class="label">Mohs hardness</span><span class="value">9</span></div>
+      <div class="ad-compare-row"><span class="label">Density</span><span class="value">4.00</span></div>
+      <div class="ad-compare-row"><span class="label">Refractive index</span><span class="value">1.76</span></div>
+      <div class="ad-compare-row"><span class="label">Birefringence</span><span class="value">0.008</span></div>
+    </div>
+  </div>
+</div>
+
+<p>The birefringence test alone suffices: ruby splits light into two paths, spinel does not. A refractometer or polariscope reveals the difference in seconds. Historically, without these tests, the distinction was impossible — experts could only assess color, hardness, and density, often inconclusively.</p>
+
+<h3>The Color Spectrum</h3>
+
+<p>Spinel's color diversity far surpasses ruby's narrow red range. Red spinel (pure chromium-caused) is the most prestigious and valuable; but spinel also occurs in pure pink, purple, blue, gray, black, and rarely yellow-orange tones.</p>
+
+<p>The most prized variety is <strong>cobalt blue spinel</strong> — a saturated ocean-blue produced by cobalt impurities, rivaling fine sapphire. Rare examples from Vietnam's Lục Yên region and Tajikistan command over $10,000 per carat. Fluorescent-pink spinels from Tanzania's <strong>Mahenge</strong> deposit (discovered in 2007) are among the market's most sought-after colored stones.</p>
+
+<h3>The Modern Market</h3>
+
+<p>Since the 2010s, spinel has been rediscovered as an insider's stone. Astronomical ruby prices and the growth of synthetic ruby production have pushed collectors toward authentic, rare, and not-yet-widely-synthesized spinel. Clean, vividly colored natural spinels above 5 carats regularly set auction records.</p>
+
+<p>GIA and other major labs grade spinel in a separate certification category. Untreated, naturally colored spinels command premiums. Primary sources: Myanmar (Mogok), Tajikistan (Kuh-i-Lal), Vietnam (Lục Yên), Tanzania (Mahenge), and Sri Lanka.</p>
+
+<h3>Wear and Care</h3>
+
+<p>With Mohs 8 hardness and the purity afforded by isotropy, spinel is well-suited to daily wear. It is popular as an engagement-ring center (particularly for couples seeking a colored alternative), in pendants, and in earrings. Ultrasonic cleaning is generally safe, though bezel or halo settings offer better impact protection.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">A striking fact</div>
+  <div class="ad-fact-callout-text">Two of the most famous "rubies" in the British Crown Jewels — the Black Prince's Ruby and the Timur Ruby — are actually spinels. Their combined weight is 531 carats, their historical value priceless, yet their true gemological identity has been known for only two centuries.</div>
+</div>
+
+<h3>What to Look For</h3>
+
+<p>When buying spinel, focus on color purity and saturation (especially for red and cobalt blue), internal clarity (no visible inclusions), cut quality (strong light play), and carat size (value rises exponentially above 2 carats). Prefer stones certified by GIA or ICA (International Colored Gemstone Association).</p>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA (Gemological Institute of America) publications, ICA market reports, Smithsonian mineral collection data, and British Crown Jewels gemological records.</p>`,
+
+  ar: `<h2>السبينل — شقيق الياقوت</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكثافة</div>
+    <div class="ad-metric-value">3.60<span class="ad-metric-unit">غ/سم³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">البلورة</div>
+    <div class="ad-metric-value">مكعبة</div>
+  </div>
+</div>
+
+<p>السبينل (MgAl₂O₄) من أكثر الأحجار إثارةً للاهتمام في علم الأحجار الكريمة. خُلط مع الياقوت لقرون، ولم يُميَّز علمياً إلا في أواخر القرن الثامن عشر. معظم "الياقوت" الشهير في التاج الملكي البريطاني هو في الحقيقة سبينل. اليوم، يعيد هواة جمع الأحجار والخبراء اكتشاف هذا الحجر، الذي يصعد بسرعة في عالم الموضة بفضل تنوع ألوانه وعمقه التاريخي.</p>
+
+<h3>البنية العلمية</h3>
+
+<p>السبينل معدن مكوّن من أكسيدي المغنيسيوم والألمنيوم: MgAl₂O₄. يأتي اسمه من الكلمة اللاتينية <em>spina</em> (شوكة)، إشارةً إلى الشكل الهرمي الحاد لبلوراته الأولى المعروفة. يتبلور في النظام المكعب؛ لذلك تظهر بلوراته بشكل ثمانية أوجه تشبه الماس. لا يُظهر انكساراً مزدوجاً (متماثل الخواص)، مما يمنحه صفاءً بصرياً نقياً.</p>
+
+<p>يستمد لونه عادةً من شوائب الكروم (Cr) — نفس العنصر الذي يُعطي الياقوت لونه الأحمر. هذه القرابة الكيميائية تفسّر لماذا يوجد الحجران معاً في نفس البيئات الجيولوجية (خاصة في رواسب الرخام بميانمار وسريلانكا وطاجيكستان). لكن تركيبيهما مختلفان: الياقوت ينتمي إلى عائلة الكوراندوم (Al₂O₃)، بينما السبينل صنف معدني منفصل.</p>
+
+<h3>تاريخ من الخلط مع الياقوت</h3>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="أربع محطات في تاريخ السبينل">
+    <title>الخط الزمني للسبينل</title>
+    <line x1="60" y1="80" x2="620" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="85" cy="80" r="4" class="tl-dot"/>
+      <text x="85" y="60" text-anchor="middle" class="tl-year">1367</text>
+      <text x="85" y="105" text-anchor="middle" class="tl-label">ياقوت الأمير الأسود</text>
+    </g>
+    <g>
+      <circle cx="250" cy="80" r="4" class="tl-dot"/>
+      <text x="250" y="60" text-anchor="middle" class="tl-year">1398</text>
+      <text x="250" y="105" text-anchor="middle" class="tl-label">ياقوت تيمور</text>
+    </g>
+    <g>
+      <circle cx="430" cy="80" r="4" class="tl-dot"/>
+      <text x="430" y="60" text-anchor="middle" class="tl-year">1783</text>
+      <text x="430" y="105" text-anchor="middle" class="tl-label">التمييز العلمي</text>
+    </g>
+    <g>
+      <circle cx="605" cy="80" r="5" class="tl-dot-active"/>
+      <text x="605" y="60" text-anchor="middle" class="tl-year">2007</text>
+      <text x="605" y="105" text-anchor="middle" class="tl-label">اكتشاف ماهنجي</text>
+    </g>
+  </svg>
+</div>
+
+<p>"ياقوت الأمير الأسود" في التاج الإمبراطوري البريطاني — حجر أحمر ضخم 170 قيراطاً، أُهدي إلى إدوارد الأمير الأسود عام 1367 — تبيّن في اختبارات القرن العشرين أنه سبينل. كذلك "ياقوت تيمور" 361 قيراطاً في المجموعة الملكية نفسها (المنسوب تقليدياً إلى خزينة تيمور عام 1398). و"سبينل الساماري" في مجوهرات التاج الإيرانية، البالغ 500 قيراطاً تقريباً، يُعدّ من أكبر السبينلات غير المقطوعة المعروفة.</p>
+
+<h3>السبينل مقابل الياقوت</h3>
+
+<p>رغم أن الحجرين يبدوان متماثلين بصرياً، يختلفان في الكيمياء والخصائص البصرية:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">السبينل</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التركيب</span><span class="value">MgAl₂O₄</span></div>
+      <div class="ad-compare-row"><span class="label">النظام البلوري</span><span class="value">مكعب</span></div>
+      <div class="ad-compare-row"><span class="label">صلادة موس</span><span class="value">8</span></div>
+      <div class="ad-compare-row"><span class="label">الكثافة</span><span class="value">3.60</span></div>
+      <div class="ad-compare-row"><span class="label">معامل الانكسار</span><span class="value">1.72</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الياقوت</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التركيب</span><span class="value">Al₂O₃ + Cr</span></div>
+      <div class="ad-compare-row"><span class="label">النظام البلوري</span><span class="value">سداسي</span></div>
+      <div class="ad-compare-row"><span class="label">صلادة موس</span><span class="value">9</span></div>
+      <div class="ad-compare-row"><span class="label">الكثافة</span><span class="value">4.00</span></div>
+      <div class="ad-compare-row"><span class="label">معامل الانكسار</span><span class="value">1.76</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الألوان والسوق الحديثة</h3>
+
+<p>يقدّم السبينل تنوعاً لونياً يتجاوز بكثير نطاق الياقوت الأحمر الضيق: أحمر، وردي نقي، بنفسجي، أزرق، رمادي، أسود، ونادراً أصفر-برتقالي. أغلى أنواعه <strong>السبينل الأزرق الكوبالتي</strong> من فيتنام وطاجيكستان، يتجاوز سعره 10,000 دولار للقيراط. سبينل <strong>ماهنجي</strong> الوردي من تنزانيا (المكتشف 2007) من أكثر الأحجار طلباً في السوق.</p>
+
+<p>منذ عام 2010، يُعاد اكتشاف السبينل بوصفه "حجر الخبراء". ارتفاع أسعار الياقوت ونمو سوق الياقوت الاصطناعي دفعا الجامعين نحو السبينل الأصلي، النادر، والذي لم يُنتَج صناعياً على نطاق واسع بعد. أهم المصادر: ميانمار وطاجيكستان وفيتنام وتنزانيا وسريلانكا.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">أشهر "ياقوتتَين" في التاج البريطاني — ياقوت الأمير الأسود وياقوت تيمور — هما في الحقيقة سبينل. وزنهما مجتمعاً 531 قيراطاً، وقيمتهما التاريخية لا تُقدَّر، لكن حقيقتهما العلمية لم تُعرف إلا منذ قرنين.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى منشورات GIA (المعهد الأمريكي لعلم الأحجار)، تقارير ICA، بيانات مجموعة سميثسونيان المعدنية، وسجلات مجوهرات التاج البريطاني.</p>`
+};
+
+C[160] = {
+  tr: `<h2>Taş Kesim ve Parlatma Süreci</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Teknik</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> ana tür</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Faset Sayısı</div>
+    <div class="ad-metric-value">57–58<span class="ad-metric-unit"> briliyan</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kayıp</div>
+    <div class="ad-metric-value">40–60<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Ham bir taşın mücevhere dönüşmesi, bilim, sanat ve sabrın buluştuğu bir süreçtir. Lapidary (taş yontma) olarak bilinen bu zanaat, binlerce yıllık geçmişe sahiptir; ancak modern teknikler, bilgisayar destekli tasarım ve lazer kesimle devrim niteliğinde bir dönüşüm geçirmiştir. Bir ham taşın %40–60'ı kesim sürecinde kaybedilir — geri kalan parça, ustanın vizyonunu yansıtan bir mücevherdir.</p>
+
+<h3>Üç Ana Kesim Tekniği</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Faceting (Faset Kesim)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tanım</span><span class="value">Düz yüzeyler (fasetler)</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal taş</span><span class="value">Şeffaf (pırlanta, safir)</span></div>
+      <div class="ad-compare-row"><span class="label">Amaç</span><span class="value">Işık kırılması, parlaklık</span></div>
+      <div class="ad-compare-row"><span class="label">Zorluk</span><span class="value">Yüksek — açı hassasiyeti</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cabochon</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tanım</span><span class="value">Kubbe şeklinde cilalama</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal taş</span><span class="value">Opak/yarı şeffaf (opal, turkuaz)</span></div>
+      <div class="ad-compare-row"><span class="label">Amaç</span><span class="value">Renk ve desen gösterme</span></div>
+      <div class="ad-compare-row"><span class="label">Zorluk</span><span class="value">Orta — simetri önemli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Carving (Oyma)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tanım</span><span class="value">Üç boyutlu heykel</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal taş</span><span class="value">Yumuşak taşlar (jade, lapis)</span></div>
+      <div class="ad-compare-row"><span class="label">Amaç</span><span class="value">Sanatsal ifade</span></div>
+      <div class="ad-compare-row"><span class="label">Zorluk</span><span class="value">Çok yüksek — zanaat ustalığı</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Faceting Süreci: Adım Adım</h3>
+
+<p>Profesyonel faceting süreci beş temel aşamadan oluşur. İlk aşama planlama — ham taşın şekli, inklüzyonları ve renk dağılımı analiz edilerek optimal kesim formu belirlenir. Bilgisayar destekli tasarım (CAD) yazılımları, ışık performansını simüle ederek kesim planını optimize eder. İkinci aşama preforming — taş kaba şekline getirilir, genellikle testere veya döner disk kullanılarak. Üçüncü aşama faceting — özel bir makine (faceting machine) üzerinde taş, hassas açılarla elmas tozu kaplanmış disk üzerinde törpülenir. Her faset ayrı ayrı kesilir; briliyan kesimde 57–58 faset gereklidir. Dördüncü aşama cilalama — ince taneli disk ile yüzey ayna parlaklığına getirilir. Son aşama kontrol — büyüteçle simetri, açı doğruluğu ve yüzey kalitesi değerlendirilir.</p>
+
+<h3>Cabochon Kesim</h3>
+
+<p>Cabochon, faset kesimin aksine düz yüzeyler yerine yumuşak bir kubbe oluşturur. Opal, turkuaz, ay taşı, yıldız safir ve kaplan gözü gibi optik fenomen gösteren taşlar cabochon kesildiğinde en iyi performansı verir — asterizm (yıldız efekti), chatoyancy (kedi gözü efekti) ve adularescence (iç ışıma) ancak bu formda ortaya çıkar. Süreç, taşın alt kısmını düzleştirme, üstünü kubbe formunda şekillendirme ve aşamalı olarak cilalama adımlarını içerir.</p>
+
+<h3>Modern Teknolojiler</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Geleneksel</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Planlama</span><span class="value">Göz ve deneyim</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim</span><span class="value">Manuel faceting machine</span></div>
+      <div class="ad-compare-row"><span class="label">Hassasiyet</span><span class="value">±0.5–1°</span></div>
+      <div class="ad-compare-row"><span class="label">Verim</span><span class="value">%35–45 (ham taştan)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Dijital/Lazer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Planlama</span><span class="value">3D tarama + CAD simülasyon</span></div>
+      <div class="ad-compare-row"><span class="label">Kesim</span><span class="value">CNC / lazer destekli</span></div>
+      <div class="ad-compare-row"><span class="label">Hassasiyet</span><span class="value">±0.01°</span></div>
+      <div class="ad-compare-row"><span class="label">Verim</span><span class="value">%45–60 (optimizasyon)</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Sarine Technologies ve Helium Polish gibi sistemler, ham pırlantayı 3D olarak tarayıp milyonlarca olası kesim planını saniyeler içinde değerlendirerek en yüksek ışık performansını ve karat verimini veren planı önerir. Bu teknoloji büyük pırlanta atölyelerinde standarttır; renkli taş kesimi ise hâlâ büyük ölçüde el ustalığına dayanır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Dünyaca ünlü Koh-i-Noor pırlantası, 1852'de yeniden kesildiğinde 186 karattan 105.6 karata düşmüştür — %43 kayıp. Bu dramatik kilo kaybı, ışık performansını maksimize etmek için bilinçli bir tercihti. Bugün modern CAD teknolojisiyle aynı ham taştan çok daha yüksek verimle kesim yapılabilirdi.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA lapidary programı müfredatı, Sarine Technologies teknik dokümantasyonu ve International Gem Society (IGS) eğitim kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Gem Cutting & Polishing Process</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Techniques</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> main types</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Facet Count</div>
+    <div class="ad-metric-value">57–58<span class="ad-metric-unit"> brilliant</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Weight Loss</div>
+    <div class="ad-metric-value">40–60<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>Transforming a rough stone into a finished gem is where science, art, and patience converge. Lapidary — the craft of cutting and polishing stones — dates back millennia, but modern techniques using CAD and laser cutting have revolutionized the field. Between 40–60% of a rough stone is lost during cutting; what remains is the cutter's vision made tangible.</p>
+
+<h3>Three Main Cutting Techniques</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Faceting</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Definition</span><span class="value">Flat polished surfaces</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Transparent (diamond, sapphire)</span></div>
+      <div class="ad-compare-row"><span class="label">Goal</span><span class="value">Light refraction, brilliance</span></div>
+      <div class="ad-compare-row"><span class="label">Difficulty</span><span class="value">High — angle precision</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cabochon</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Definition</span><span class="value">Dome-shaped polishing</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Opaque/translucent (opal, turquoise)</span></div>
+      <div class="ad-compare-row"><span class="label">Goal</span><span class="value">Color and pattern display</span></div>
+      <div class="ad-compare-row"><span class="label">Difficulty</span><span class="value">Medium — symmetry matters</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Carving</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Definition</span><span class="value">3D sculptural shaping</span></div>
+      <div class="ad-compare-row"><span class="label">Best for</span><span class="value">Softer stones (jade, lapis)</span></div>
+      <div class="ad-compare-row"><span class="label">Goal</span><span class="value">Artistic expression</span></div>
+      <div class="ad-compare-row"><span class="label">Difficulty</span><span class="value">Very high — master craft</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>The Faceting Process: Step by Step</h3>
+
+<p>Professional faceting follows five core stages. First, planning — the rough's shape, inclusions, and color distribution are analyzed to determine the optimal cut. CAD software simulates light performance to optimize the plan. Second, preforming — the stone is shaped roughly, usually with a saw or rotary disc. Third, faceting — on a faceting machine, the stone is ground against a diamond-powder-coated lap at precise angles. Each facet is cut individually; a brilliant cut requires 57–58 facets. Fourth, polishing — a fine-grit lap brings the surface to mirror finish. Finally, inspection — symmetry, angle accuracy, and surface quality are assessed under magnification.</p>
+
+<h3>Cabochon Cutting</h3>
+
+<p>Unlike faceting, cabochon cutting creates a smooth dome instead of flat surfaces. Stones displaying optical phenomena — asterism (star effect), chatoyancy (cat's eye), and adularescence (inner glow) — perform best in cabochon form. The process involves flattening the base, shaping the top into a dome, and progressively polishing through finer grits.</p>
+
+<h3>Modern Technologies</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Traditional</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Planning</span><span class="value">Eye and experience</span></div>
+      <div class="ad-compare-row"><span class="label">Cutting</span><span class="value">Manual faceting machine</span></div>
+      <div class="ad-compare-row"><span class="label">Precision</span><span class="value">±0.5–1°</span></div>
+      <div class="ad-compare-row"><span class="label">Yield</span><span class="value">35–45% of rough</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Digital/Laser</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Planning</span><span class="value">3D scan + CAD simulation</span></div>
+      <div class="ad-compare-row"><span class="label">Cutting</span><span class="value">CNC / laser-assisted</span></div>
+      <div class="ad-compare-row"><span class="label">Precision</span><span class="value">±0.01°</span></div>
+      <div class="ad-compare-row"><span class="label">Yield</span><span class="value">45–60% optimized</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">When the legendary Koh-i-Noor diamond was recut in 1852, it dropped from 186 carats to 105.6 — a 43% loss. This dramatic sacrifice was a deliberate choice to maximize light performance. Today's CAD technology could achieve far higher yield from the same rough.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA lapidary curriculum, Sarine Technologies documentation, and International Gem Society (IGS) resources.</p>`,
+
+  ar: `<h2>عملية قطع وتلميع الأحجار</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التقنيات</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> أنواع</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عدد الأوجه</div>
+    <div class="ad-metric-value">57–58<span class="ad-metric-unit"> بريليانت</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الفقد</div>
+    <div class="ad-metric-value">40–60<span class="ad-metric-unit">%</span></div>
+  </div>
+</div>
+
+<p>تحويل حجر خام إلى مجوهرة هو حيث يلتقي العلم والفن والصبر. فن اللابيداري (نحت الأحجار) يعود لآلاف السنين، لكن التقنيات الحديثة بالتصميم الحاسوبي والليزر أحدثت ثورة. يُفقد 40–60% من الحجر الخام أثناء القطع.</p>
+
+<h3>ثلاث تقنيات رئيسية</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التوجيه (Faceting)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التعريف</span><span class="value">أسطح مستوية مصقولة</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">شفاف (ألماس، سفير)</span></div>
+      <div class="ad-compare-row"><span class="label">الهدف</span><span class="value">انكسار الضوء واللمعان</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الكابوشون</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التعريف</span><span class="value">تلميع بشكل قبة</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">معتم (عقيق، فيروز)</span></div>
+      <div class="ad-compare-row"><span class="label">الهدف</span><span class="value">إظهار اللون والنمط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">النحت (Carving)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التعريف</span><span class="value">تشكيل نحتي ثلاثي الأبعاد</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">أحجار لينة (يشم، لازورد)</span></div>
+      <div class="ad-compare-row"><span class="label">الهدف</span><span class="value">تعبير فني</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>التقنيات الحديثة مقابل التقليدية</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تقليدي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التخطيط</span><span class="value">العين والخبرة</span></div>
+      <div class="ad-compare-row"><span class="label">الدقة</span><span class="value">±0.5–1°</span></div>
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">35–45%</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">رقمي/ليزر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التخطيط</span><span class="value">مسح 3D + محاكاة CAD</span></div>
+      <div class="ad-compare-row"><span class="label">الدقة</span><span class="value">±0.01°</span></div>
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">45–60%</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">عندما أُعيد قطع ألماسة كوه نور الأسطورية عام 1852، انخفضت من 186 قيراطاً إلى 105.6 — خسارة 43%. كانت تضحية واعية لتحقيق أقصى أداء ضوئي. تقنية CAD اليوم يمكنها تحقيق عائد أعلى بكثير.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى منهج GIA وتوثيق Sarine Technologies وموارد International Gem Society.</p>`
+};
+
+C[169] = {
+  tr: `<h2>Alexandrite — Renk Değiştiren Taş</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">8.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Keşif</div>
+    <div class="ad-metric-value">1830</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat</div>
+    <div class="ad-metric-value">$15K+<span class="ad-metric-unit">/ct</span></div>
+  </div>
+</div>
+
+<p>Alexandrite, doğanın en büyüleyici optik oyunlarından birini sergiler: gün ışığında zümrüt yeşili, yapay ışıkta yakut kırmızısı. Bu renk değişimi (color-change) fenomeni, taşı gemolojinin en nadir ve en değerli taşlarından biri yapar. İlk olarak 1830'da Rusya'nın Ural Dağları'nda keşfedilmiş ve Çar II. Aleksandr'ın onuruna adlandırılmıştır.</p>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Alexandrite, krizoberilin (BeAl₂O₄) nadir bir varyetesidir. Renk değişiminin sırrı krom (Cr) iyonlarındadır: bu iyonlar ışık spektrumunun hem kırmızı hem yeşil bölgelerini seçici olarak absorbe eder. Gün ışığı (mavi-zengin spektrum) yeşil bileşeni öne çıkarırken, akkor ampul ışığı (kırmızı-zengin spektrum) kırmızı-mor tonları baskın kılar. Bu "alexandrite etkisi" dünya çapında sadece birkaç mineral türünde gözlenir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Fiziksel Özellikler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kimya</span><span class="value">BeAl₂O₄ + Cr</span></div>
+      <div class="ad-compare-row"><span class="label">Kristal</span><span class="value">Ortorombik</span></div>
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">8.5 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">Yoğunluk</span><span class="value">3.73 g/cm³</span></div>
+      <div class="ad-compare-row"><span class="label">Kırılma</span><span class="value">1.744–1.755</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Değerlendirme</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">En önemli</span><span class="value">Renk değişim oranı</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">%100 yeşil ↔ kırmızı</span></div>
+      <div class="ad-compare-row"><span class="label">1 ct temiz</span><span class="value">$5.000–$15.000</span></div>
+      <div class="ad-compare-row"><span class="label">3+ ct temiz</span><span class="value">$15.000–$70.000+</span></div>
+      <div class="ad-compare-row"><span class="label">Rusya menşeli</span><span class="value">Premium (tükenmiş)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Kaynaklar ve Piyasa</h3>
+
+<p>Orijinal Ural Dağları yatağı 19. yüzyıl sonunda tükenmiştir. Günümüzde başlıca kaynaklar Brezilya (Hematita), Sri Lanka, Tanzanya ve Madagaskar'dır. Brezilya alexandriteleri güçlü renk değişimiyle bilinir; Sri Lanka taşları genellikle daha büyük boyutta bulunur ancak renk değişimi daha subtildir. Madagaskar, son yıllarda kaliteli örnekler çıkaran yeni bir kaynak olarak öne çıkmıştır.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Alexandrite tarihinde dönüm noktaları">
+    <title>Alexandrite zaman çizelgesi</title>
+    <line x1="60" y1="80" x2="620" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="100" cy="80" r="4" class="tl-dot"/>
+      <text x="100" y="60" text-anchor="middle" class="tl-year">1830</text>
+      <text x="100" y="105" text-anchor="middle" class="tl-label">Ural keşfi</text>
+    </g>
+    <g>
+      <circle cx="260" cy="80" r="4" class="tl-dot"/>
+      <text x="260" y="60" text-anchor="middle" class="tl-year">~1900</text>
+      <text x="260" y="105" text-anchor="middle" class="tl-label">Ural tükenmesi</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">1987</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">Brezilya keşfi</text>
+    </g>
+    <g>
+      <circle cx="570" cy="80" r="5" class="tl-dot-active"/>
+      <text x="570" y="60" text-anchor="middle" class="tl-year">2020+</text>
+      <text x="570" y="105" text-anchor="middle" class="tl-label">Madagaskar</text>
+    </g>
+  </svg>
+</div>
+
+<p>Alexandrite fiyatları son on yılda dramatik biçimde artmıştır. Güçlü renk değişimli, 1 karattan büyük temiz taşlar, pırlanta ve yakutla karşılaştırılabilir fiyatlara ulaşmaktadır. Lab-grown alexandrite mevcuttur ancak doğal örneklerin koleksiyon değerine sahip değildir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Alexandrite hem Haziran doğum taşı hem de 55. evlilik yıldönümü taşıdır. "Gündüz zümrüt, gece yakut" diye tanımlanan bu taş, Rusya İmparatorluk renkleri olan yeşil ve kırmızıyı taşıması nedeniyle Çar ailesi tarafından özellikle sevilmiştir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA alexandrite raporları, Smithsonian koleksiyonu verileri ve Gem-A (Gemmological Association of Great Britain) kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Alexandrite — The Color-Changing Gem</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">8.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Discovery</div>
+    <div class="ad-metric-value">1830</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Price</div>
+    <div class="ad-metric-value">$15K+<span class="ad-metric-unit">/ct</span></div>
+  </div>
+</div>
+
+<p>Alexandrite displays one of nature's most mesmerizing optical performances: emerald green in daylight, ruby red under incandescent light. This color-change phenomenon makes it one of the rarest and most valuable stones in gemology. First discovered in 1830 in Russia's Ural Mountains, it was named in honor of Tsar Alexander II.</p>
+
+<h3>Scientific Profile</h3>
+
+<p>Alexandrite is a rare variety of chrysoberyl (BeAl₂O₄). The secret of its color change lies in chromium (Cr) ions, which selectively absorb both the red and green portions of the light spectrum. Daylight (blue-rich spectrum) brings out the green component, while incandescent light (red-rich spectrum) makes red-purple tones dominant. This "alexandrite effect" is observed in only a handful of minerals worldwide.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Physical Properties</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Chemistry</span><span class="value">BeAl₂O₄ + Cr</span></div>
+      <div class="ad-compare-row"><span class="label">Crystal</span><span class="value">Orthorhombic</span></div>
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">8.5 Mohs</span></div>
+      <div class="ad-compare-row"><span class="label">Density</span><span class="value">3.73 g/cm³</span></div>
+      <div class="ad-compare-row"><span class="label">RI</span><span class="value">1.744–1.755</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Valuation</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Key factor</span><span class="value">Color-change degree</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal</span><span class="value">100% green ↔ red</span></div>
+      <div class="ad-compare-row"><span class="label">1 ct clean</span><span class="value">$5,000–$15,000</span></div>
+      <div class="ad-compare-row"><span class="label">3+ ct clean</span><span class="value">$15,000–$70,000+</span></div>
+      <div class="ad-compare-row"><span class="label">Russian origin</span><span class="value">Premium (depleted)</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Sources and Market</h3>
+
+<p>The original Ural Mountains deposit was exhausted by the late 19th century. Today's primary sources are Brazil (Hematita), Sri Lanka, Tanzania, and Madagascar. Brazilian alexandrites are known for strong color change; Sri Lankan stones tend to be larger but with subtler shifts. Madagascar has emerged as a notable new source of quality specimens in recent years.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Alexandrite history milestones">
+    <title>Alexandrite timeline</title>
+    <line x1="60" y1="80" x2="620" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="100" cy="80" r="4" class="tl-dot"/>
+      <text x="100" y="60" text-anchor="middle" class="tl-year">1830</text>
+      <text x="100" y="105" text-anchor="middle" class="tl-label">Ural discovery</text>
+    </g>
+    <g>
+      <circle cx="260" cy="80" r="4" class="tl-dot"/>
+      <text x="260" y="60" text-anchor="middle" class="tl-year">~1900</text>
+      <text x="260" y="105" text-anchor="middle" class="tl-label">Ural depleted</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">1987</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">Brazil discovery</text>
+    </g>
+    <g>
+      <circle cx="570" cy="80" r="5" class="tl-dot-active"/>
+      <text x="570" y="60" text-anchor="middle" class="tl-year">2020+</text>
+      <text x="570" y="105" text-anchor="middle" class="tl-label">Madagascar</text>
+    </g>
+  </svg>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Alexandrite is both the June birthstone and the 55th wedding anniversary gem. Described as "emerald by day, ruby by night," it was particularly beloved by the Tsarist family because it carries Russia's imperial colors — green and red.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA alexandrite reports, Smithsonian collection data, and Gem-A resources.</p>`,
+
+  ar: `<h2>الألكسندريت — الحجر المتغير اللون</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">8.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الاكتشاف</div>
+    <div class="ad-metric-value">1830</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">السعر</div>
+    <div class="ad-metric-value">$15K+<span class="ad-metric-unit">/قيراط</span></div>
+  </div>
+</div>
+
+<p>يقدم الألكسندريت أحد أكثر العروض البصرية إبهاراً في الطبيعة: أخضر زمردي في ضوء النهار، أحمر ياقوتي تحت الضوء الاصطناعي. اكتُشف لأول مرة عام 1830 في جبال الأورال الروسية وسُمي تكريماً للقيصر ألكسندر الثاني.</p>
+
+<h3>البنية العلمية</h3>
+
+<p>الألكسندريت نوع نادر من الكريزوبريل (BeAl₂O₄). سر تغير لونه في أيونات الكروم التي تمتص بشكل انتقائي أجزاء الطيف الأحمر والأخضر. ضوء النهار يُبرز الأخضر، بينما الضوء المتوهج يُبرز الأحمر البنفسجي.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الخصائص الفيزيائية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">التركيب</span><span class="value">BeAl₂O₄ + Cr</span></div>
+      <div class="ad-compare-row"><span class="label">البلورة</span><span class="value">معينية قائمة</span></div>
+      <div class="ad-compare-row"><span class="label">الصلادة</span><span class="value">8.5 موس</span></div>
+      <div class="ad-compare-row"><span class="label">الكثافة</span><span class="value">3.73 غ/سم³</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التقييم</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">العامل الأهم</span><span class="value">درجة تغير اللون</span></div>
+      <div class="ad-compare-row"><span class="label">1 قيراط نظيف</span><span class="value">$5,000–$15,000</span></div>
+      <div class="ad-compare-row"><span class="label">3+ قيراط نظيف</span><span class="value">$15,000–$70,000+</span></div>
+      <div class="ad-compare-row"><span class="label">منشأ روسي</span><span class="value">علاوة (نضب)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="محطات في تاريخ الألكسندريت">
+    <title>الخط الزمني للألكسندريت</title>
+    <line x1="60" y1="80" x2="620" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="100" cy="80" r="4" class="tl-dot"/>
+      <text x="100" y="60" text-anchor="middle" class="tl-year">1830</text>
+      <text x="100" y="105" text-anchor="middle" class="tl-label">اكتشاف الأورال</text>
+    </g>
+    <g>
+      <circle cx="260" cy="80" r="4" class="tl-dot"/>
+      <text x="260" y="60" text-anchor="middle" class="tl-year">~1900</text>
+      <text x="260" y="105" text-anchor="middle" class="tl-label">نضوب الأورال</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">1987</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">اكتشاف البرازيل</text>
+    </g>
+    <g>
+      <circle cx="570" cy="80" r="5" class="tl-dot-active"/>
+      <text x="570" y="60" text-anchor="middle" class="tl-year">2020+</text>
+      <text x="570" y="105" text-anchor="middle" class="tl-label">مدغشقر</text>
+    </g>
+  </svg>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">الألكسندريت حجر ميلاد يونيو وحجر الذكرى 55 للزواج. وُصف بأنه "زمرد بالنهار وياقوت بالليل"، وأحبته العائلة القيصرية لأنه يحمل ألوان روسيا الإمبراطورية — الأخضر والأحمر.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقارير GIA وبيانات مجموعة سميثسونيان وموارد Gem-A.</p>`
+};
+
+C[110] = {
+  tr: `<h2>Zümrüt (Emerald)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">7.5–8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yoğunluk</div>
+    <div class="ad-metric-value">2.76<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kristal</div>
+    <div class="ad-metric-value">Heksagonal</div>
+  </div>
+</div>
+
+<p>Zümrüt, beril ailesinin (Be₃Al₂Si₆O₁₈) en değerli ve en ünlü üyesidir. Yeşilin en saf halini temsil eden bu taş, rengini krom ve vanadyum elementlerinden alır. Kleopatra'nın tutkusu, Osmanlı padişahlarının tacı ve modern mücevherciliğin vazgeçilmezi olan zümrüt, tarih boyunca "doğanın en yeşili" olarak anılmıştır.</p>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Zümrüt, berilliyum alüminyum silikat yapısındadır. Heksagonal kristal sisteminde kristalleşir ve tipik olarak altı kenarlı prizmatik kristaller oluşturur. Mohs sertliği 7.5–8 olmasına rağmen, doğası gereği çok sayıda iç kusur (jardins — Fransızca "bahçeler") içerir. Bu inklüzyonlar zümrüdün karakteristik özelliğidir; tamamen kusursuz doğal zümrüt, kusursuz pirlantadan bile daha nadirdir.</p>
+
+<p>Zümrüdün yeşil renk tonunu belirleyen iki temel element vardır: krom daha canlı ve sıcak yeşil, vanadyum ise daha soğuk yeşil üretir. En değerli zümrütler, krom baskın, orta-koyu doygunlukta, "çimen yeşili" tonundadır. Çok açık örnekler "yeşil beril" olarak sınıflandırılır, zümrüt olarak kabul edilmez.</p>
+
+<h3>Dünya Kaynakları</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kolombiya</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Dünya payı</span><span class="value">%50–70</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Sıcak yeşil, sarı tonu</span></div>
+      <div class="ad-compare-row"><span class="label">Ünlü maden</span><span class="value">Muzo, Chivor, Coscuez</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Üç-fazlı inklüzyon</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Zambiya</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Dünya payı</span><span class="value">%15–20</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Koyu yeşil, mavi tonu</span></div>
+      <div class="ad-compare-row"><span class="label">Ünlü maden</span><span class="value">Kagem</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Daha az inklüzyon</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Brezilya</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Dünya payı</span><span class="value">%5–10</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Açık-orta yeşil</span></div>
+      <div class="ad-compare-row"><span class="label">Ünlü maden</span><span class="value">Bahia, Minas Gerais</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Büyük kristaller</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Zümrüt Tedavileri: Oiling Standardı</h3>
+
+<p>Doğal zümrütlerin büyük çoğunluğu yağ veya reçine ile doldurularak (oiling) berraklığı artırılır. Bu tedavi endüstri standardıdır ve kabul görmüş bir uygulamadır. Sedir yağı en geleneksel dolgu maddesidir; modern sentetik reçineler (Opticon gibi) daha kalıcı sonuç verir. GIA sertifikalarında yağlama derecesi "minor," "moderate" veya "significant" olarak belirtilir. İşlem görmemiş (no oil) zümrütler son derece nadir ve premium fiyatlıdır.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Zümrüt tarihinde dönüm noktaları">
+    <title>Zümrüt zaman çizelgesi</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="70" cy="80" r="4" class="tl-dot"/>
+      <text x="70" y="60" text-anchor="middle" class="tl-year">MÖ 1500</text>
+      <text x="70" y="105" text-anchor="middle" class="tl-label">Mısır madenleri</text>
+    </g>
+    <g>
+      <circle cx="230" cy="80" r="4" class="tl-dot"/>
+      <text x="230" y="60" text-anchor="middle" class="tl-year">1537</text>
+      <text x="230" y="105" text-anchor="middle" class="tl-label">Kolombiya keşfi</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">1931</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">Zambiya keşfi</text>
+    </g>
+    <g>
+      <circle cx="590" cy="80" r="5" class="tl-dot-active"/>
+      <text x="590" y="60" text-anchor="middle" class="tl-year">2020+</text>
+      <text x="590" y="105" text-anchor="middle" class="tl-label">Etiyopya yükselişi</text>
+    </g>
+  </svg>
+</div>
+
+<h3>Değerleme ve Piyasa</h3>
+
+<p>Zümrüt değerlemesinde renk tüm faktörlerin önünde gelir — berraklık ve karat ikinci plandadır. İdeal ton orta-koyu, canlı, doygun yeşildir. 1 karatlık kaliteli Kolombiya zümrüdü $1.000–$8.000; 3+ karatlık premium örnekler karat başına $10.000–$50.000 ve üzeri fiyat görür. Zambiya zümrütleri genellikle Kolombiya muadillerinden %20–40 daha uygun fiyatlıdır ancak kalite farkı kapanmaktadır.</p>
+
+<p>Zümrüt nişan yüzüklerinde popülerliği artmaktadır — özellikle emerald kesim (basamak kesim) ile eşleştirildiğinde taşın derinliğini ve rengini vurgular. Mohs 7.5–8 sertliği günlük kullanıma uygundur ancak inklüzyonları nedeniyle darbe ve termal şoklara karşı dikkatli olunmalıdır; bezel montaj önerilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Kleopatra'nın zümrüt tutkusu efsanevi boyuttaydı — kendi adını taşıyan madenlerden çıkan taşlarla süslenirdi. Ancak bu "Kleopatra Madenleri" (Wadi Sikait, Mısır) 19. yüzyılda yeniden keşfedildiğinde, çıkan taşların kalitesi Kolombiya zümrütlerinin çok altında bulundu. Bugün dünya zümrüt ticaretinin merkezi Kolombiya'nın Boyacá bölgesidir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA zümrüt rehberleri, Gemfields üretim verileri, Muzo Emerald koleksiyonu kayıtları ve Smithsonian mineral veritabanına dayanmaktadır.</p>`,
+
+  en: `<h2>Emerald</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">7.5–8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Density</div>
+    <div class="ad-metric-value">2.76<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Crystal</div>
+    <div class="ad-metric-value">Hexagonal</div>
+  </div>
+</div>
+
+<p>Emerald is the most valuable and celebrated member of the beryl family (Be₃Al₂Si₆O₁₈). Representing the purest expression of green, it owes its color to chromium and vanadium. From Cleopatra's obsession to Ottoman imperial crowns and modern haute joaillerie, emerald has been called "nature's greenest green" throughout history.</p>
+
+<h3>Scientific Profile</h3>
+
+<p>Emerald is a beryllium aluminum silicate that crystallizes in the hexagonal system, typically forming six-sided prismatic crystals. Despite a Mohs hardness of 7.5–8, emeralds naturally contain numerous internal inclusions called jardins (French for "gardens"). These inclusions are a defining characteristic; a completely flawless natural emerald is rarer than a flawless diamond.</p>
+
+<p>Two key elements determine emerald's green tone: chromium produces a warmer, more vivid green, while vanadium yields a cooler green. The most prized emeralds are chromium-dominant with medium-dark saturation — a "grass green" hue. Very pale specimens are classified as "green beryl" rather than emerald.</p>
+
+<h3>World Sources</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Colombia</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">World share</span><span class="value">50–70%</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Warm green, yellow tint</span></div>
+      <div class="ad-compare-row"><span class="label">Key mines</span><span class="value">Muzo, Chivor, Coscuez</span></div>
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Three-phase inclusions</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Zambia</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">World share</span><span class="value">15–20%</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Deep green, blue tint</span></div>
+      <div class="ad-compare-row"><span class="label">Key mine</span><span class="value">Kagem</span></div>
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Fewer inclusions</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Brazil</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">World share</span><span class="value">5–10%</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Light to medium green</span></div>
+      <div class="ad-compare-row"><span class="label">Key area</span><span class="value">Bahia, Minas Gerais</span></div>
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Large crystals</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Emerald Treatments: The Oiling Standard</h3>
+
+<p>The vast majority of natural emeralds are treated with oil or resin (oiling) to improve clarity. This is an accepted industry standard. Cedar oil is the traditional filler; modern synthetics like Opticon give more permanent results. GIA reports note oiling degree as "minor," "moderate," or "significant." Untreated (no-oil) emeralds are exceptionally rare and command premium prices.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Emerald history milestones">
+    <title>Emerald timeline</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="70" cy="80" r="4" class="tl-dot"/>
+      <text x="70" y="60" text-anchor="middle" class="tl-year">1500 BC</text>
+      <text x="70" y="105" text-anchor="middle" class="tl-label">Egyptian mines</text>
+    </g>
+    <g>
+      <circle cx="230" cy="80" r="4" class="tl-dot"/>
+      <text x="230" y="60" text-anchor="middle" class="tl-year">1537</text>
+      <text x="230" y="105" text-anchor="middle" class="tl-label">Colombia discovered</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">1931</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">Zambia discovered</text>
+    </g>
+    <g>
+      <circle cx="590" cy="80" r="5" class="tl-dot-active"/>
+      <text x="590" y="60" text-anchor="middle" class="tl-year">2020+</text>
+      <text x="590" y="105" text-anchor="middle" class="tl-label">Ethiopia rises</text>
+    </g>
+  </svg>
+</div>
+
+<h3>Valuation and Market</h3>
+
+<p>In emerald grading, color outranks all other factors — clarity and carat are secondary. The ideal tone is medium-dark, vivid, saturated green. A quality 1-carat Colombian emerald ranges from $1,000 to $8,000; premium 3+ carat specimens fetch $10,000–$50,000+ per carat. Zambian emeralds typically cost 20–40% less than Colombian equivalents, though the quality gap is narrowing.</p>
+
+<p>Emerald is growing in popularity for engagement rings — especially in the emerald (step) cut, which highlights the stone's depth and color. Its 7.5–8 Mohs hardness suits daily wear, but inclusions make it sensitive to impact and thermal shock; a bezel setting is recommended.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Cleopatra's emerald obsession was legendary — she adorned herself with stones from mines bearing her name. Yet when the "Cleopatra Mines" (Wadi Sikait, Egypt) were rediscovered in the 19th century, their output proved far inferior to Colombian emeralds. Today the center of the global emerald trade is Colombia's Boyacá region.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA emerald guides, Gemfields production data, Muzo Emerald collection records, and Smithsonian mineral database.</p>`,
+
+  ar: `<h2>الزمرد</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">7.5–8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكثافة</div>
+    <div class="ad-metric-value">2.76<span class="ad-metric-unit">غ/سم³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">البلورة</div>
+    <div class="ad-metric-value">سداسية</div>
+  </div>
+</div>
+
+<p>الزمرد هو العضو الأثمن والأشهر في عائلة البريل (Be₃Al₂Si₆O₁₈). يمثل أنقى تعبير عن اللون الأخضر، ويستمد لونه من الكروم والفاناديوم. من شغف كليوباترا إلى تيجان السلاطين العثمانيين، عُرف الزمرد عبر التاريخ بأنه "أخضر الطبيعة الأعمق".</p>
+
+<h3>البنية العلمية</h3>
+
+<p>الزمرد سيليكات ألومنيوم بريليوم يتبلور في النظام السداسي. رغم صلادته 7.5–8 موس، يحتوي طبيعياً على شوائب داخلية كثيرة تُسمى "الحدائق" (jardins). هذه الشوائب سمة مميزة؛ زمرد طبيعي خالٍ من العيوب أندر من ألماس مثالي. عنصران يحددان درجة اللون: الكروم ينتج أخضر دافئاً حيوياً، والفاناديوم ينتج أخضر بارداً.</p>
+
+<h3>المصادر العالمية</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">كولومبيا</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحصة</span><span class="value">50–70%</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أخضر دافئ بلمسة صفراء</span></div>
+      <div class="ad-compare-row"><span class="label">المناجم</span><span class="value">موزو، شيفور</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">زامبيا</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحصة</span><span class="value">15–20%</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أخضر داكن بلمسة زرقاء</span></div>
+      <div class="ad-compare-row"><span class="label">المنجم</span><span class="value">كاجيم</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البرازيل</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحصة</span><span class="value">5–10%</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أخضر فاتح إلى متوسط</span></div>
+      <div class="ad-compare-row"><span class="label">المنطقة</span><span class="value">باهيا، ميناس جيرايس</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>المعالجة بالزيت</h3>
+
+<p>الغالبية العظمى من الزمرد الطبيعي يُعالج بالزيت أو الراتنج لتحسين النقاء. هذا معيار صناعي مقبول. زيت الأرز هو مادة الحشو التقليدية. شهادات GIA توضح درجة التزييت. الزمرد غير المعالج نادر جداً ويُسعَّر بعلاوة كبيرة.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="محطات في تاريخ الزمرد">
+    <title>الخط الزمني للزمرد</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="70" cy="80" r="4" class="tl-dot"/>
+      <text x="70" y="60" text-anchor="middle" class="tl-year">1500 ق.م</text>
+      <text x="70" y="105" text-anchor="middle" class="tl-label">مناجم مصر</text>
+    </g>
+    <g>
+      <circle cx="230" cy="80" r="4" class="tl-dot"/>
+      <text x="230" y="60" text-anchor="middle" class="tl-year">1537</text>
+      <text x="230" y="105" text-anchor="middle" class="tl-label">اكتشاف كولومبيا</text>
+    </g>
+    <g>
+      <circle cx="420" cy="80" r="4" class="tl-dot"/>
+      <text x="420" y="60" text-anchor="middle" class="tl-year">1931</text>
+      <text x="420" y="105" text-anchor="middle" class="tl-label">اكتشاف زامبيا</text>
+    </g>
+    <g>
+      <circle cx="590" cy="80" r="5" class="tl-dot-active"/>
+      <text x="590" y="60" text-anchor="middle" class="tl-year">2020+</text>
+      <text x="590" y="105" text-anchor="middle" class="tl-label">صعود إثيوبيا</text>
+    </g>
+  </svg>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">شغف كليوباترا بالزمرد كان أسطورياً. لكن عندما أُعيد اكتشاف "مناجم كليوباترا" (وادي السكيت، مصر) في القرن التاسع عشر، تبين أن جودتها أدنى بكثير من زمرد كولومبيا. اليوم مركز تجارة الزمرد العالمية هو منطقة بوياكا الكولومبية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات Gemfields وسجلات مجموعة Muzo Emerald وقاعدة بيانات سميثسونيان.</p>`
+};
+
+C[111] = {
+  tr: `<h2>Yakut (Ruby)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">9<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yoğunluk</div>
+    <div class="ad-metric-value">4.00<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kristal</div>
+    <div class="ad-metric-value">Heksagonal</div>
+  </div>
+</div>
+
+<p>Yakut, korundum (Al₂O₃) ailesinin kırmızı üyesi ve tarihin en değerli renkli taşıdır. "Taşların kralı" olarak anılan yakut, rengini eser miktarda krom (%0.1–3) elementinden alır. Mohs 9 sertliği ile elmastan sonra en sert doğal mineral olan yakut, savaş, tutku ve güç sembolü olarak yüzyıllardır kraliyet hazinelerinin vazgeçilmezidir.</p>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Yakut, alüminyum oksitten (Al₂O₃) oluşan korundum mineralinin kırmızı varyetesidir. Korundumdaki alüminyum atomlarının bir kısmının yerini krom alması kırmızı rengi üretir. Krom konsantrasyonu arttıkça renk koyulaşır — ancak çok yüksek krom oranı taşı opak yapabilir. Heksagonal kristal sisteminde kristalleşir ve çift kırınım gösterir (birefringence: 0.008). UV ışık altında kırmızı floresans gösterir — bu özellik yakutu safirden ayıran ek bir tanımlama kriteridir.</p>
+
+<h3>Dünya Kaynakları</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Myanmar (Burma)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ünlü ton</span><span class="value">"Güvercin kanı" kırmızı</span></div>
+      <div class="ad-compare-row"><span class="label">Bölge</span><span class="value">Mogok Vadisi</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Güçlü floresans, ipeksi</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">En yüksek premium</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mozambik</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ünlü ton</span><span class="value">Canlı kırmızı, hafif pembe</span></div>
+      <div class="ad-compare-row"><span class="label">Bölge</span><span class="value">Montepuez</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Daha az inklüzyon</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Burma'nın %50-70'i</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Sri Lanka</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ünlü ton</span><span class="value">Açık kırmızı, pembemsi</span></div>
+      <div class="ad-compare-row"><span class="label">Bölge</span><span class="value">Ratnapura</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Büyük kristaller</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Renk bağımlı</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Güvercin Kanı: En Değerli Ton</h3>
+
+<p>"Pigeon blood" (güvercin kanı) terimi, en yoğun, en saf kırmızı tonu tanımlar — hafif mavi alt tonu olan canlı kırmızı. Bu terim tarihsel olarak sadece Burma (Mogok) yakutları için kullanılmıştır ancak günümüzde GIA ve Gübelin gibi laboratuvarlar menşe bağımsız olarak renk tanımlaması yapmaktadır. Güvercin kanı tonundaki 1+ karatlık işlem görmemiş yakutlar, aynı boyuttaki pırlantalardan pahalı olabilir.</p>
+
+<h3>Isıl İşlem ve Değerleme</h3>
+
+<p>Yakutların büyük çoğunluğu ısıl işlem görür — 1.600–1.800°C'de kontrollü ısıtma, rengi derinleştirir ve ipeksi inklüzyonları çözer. Bu tedavi endüstri standardıdır ve fiyatı %20–40 düşürür. İşlem görmemiş (unheated) yakutlar çok daha nadir ve premium fiyatlıdır. Laboratuvar yakutları (Verneuil, Czochralski yöntemleri) 1900'lerden beri üretilmektedir — optik olarak mükemmel ancak koleksiyon değeri taşımaz.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">2015'te Sotheby's müzayedesinde 25.59 karatlık "Sunrise Ruby" 30.42 milyon dolara satılarak karat başına 1.18 milyon dolarlık fiyatıyla renkli taş dünya rekorunu kırdı. Bu Burma menşeli, işlem görmemiş güvercin kanı yakut, pırlanta karat fiyat rekorlarını bile geride bıraktı.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA korundum rehberleri, Gübelin Gem Lab raporları, Gemfields/Montepuez üretim verileri ve Christie's/Sotheby's müzayede kayıtlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Ruby</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">9<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Density</div>
+    <div class="ad-metric-value">4.00<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Crystal</div>
+    <div class="ad-metric-value">Hexagonal</div>
+  </div>
+</div>
+
+<p>Ruby is the red member of the corundum family (Al₂O₃) and history's most valued colored gemstone. Known as the "king of gems," ruby derives its color from trace chromium (0.1–3%). With Mohs 9 hardness — second only to diamond — ruby has been an indispensable symbol of power, passion, and warfare in royal treasuries for centuries.</p>
+
+<h3>Scientific Profile</h3>
+
+<p>Ruby is the red variety of corundum, an aluminum oxide mineral. When chromium replaces some aluminum atoms in the crystal lattice, it produces the red color. Higher chromium concentration deepens the hue, though excess can make the stone opaque. It crystallizes in the hexagonal system and displays birefringence (0.008). Under UV light, ruby exhibits red fluorescence — an additional identification criterion distinguishing it from other red stones.</p>
+
+<h3>World Sources</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Myanmar (Burma)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">"Pigeon blood" red</span></div>
+      <div class="ad-compare-row"><span class="label">Region</span><span class="value">Mogok Valley</span></div>
+      <div class="ad-compare-row"><span class="label">Character</span><span class="value">Strong fluorescence, silky</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">Highest premium</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mozambique</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Vivid red, slight pink</span></div>
+      <div class="ad-compare-row"><span class="label">Region</span><span class="value">Montepuez</span></div>
+      <div class="ad-compare-row"><span class="label">Character</span><span class="value">Fewer inclusions</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">50–70% of Burma</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Sri Lanka</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Light red, pinkish</span></div>
+      <div class="ad-compare-row"><span class="label">Region</span><span class="value">Ratnapura</span></div>
+      <div class="ad-compare-row"><span class="label">Character</span><span class="value">Large crystals</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">Color-dependent</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Pigeon Blood: The Most Valued Tone</h3>
+
+<p>The term "pigeon blood" defines the most intense, purest red — a vivid red with a slight blue undertone. Historically reserved for Burmese (Mogok) rubies, today labs like GIA and Gübelin apply the color description independent of origin. Pigeon-blood rubies above 1 carat that are unheated can command prices exceeding equivalent-size diamonds.</p>
+
+<h3>Heat Treatment and Valuation</h3>
+
+<p>Most rubies undergo heat treatment — controlled heating at 1,600–1,800°C deepens color and dissolves silky inclusions. This is an industry standard and reduces price by 20–40%. Unheated rubies are far rarer and priced at a premium. Lab-grown rubies (Verneuil, Czochralski methods) have been produced since the 1900s — optically flawless but lacking collector value.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">In 2015, the 25.59-carat "Sunrise Ruby" sold at Sotheby's for $30.42 million — $1.18 million per carat — setting the world record for any colored gemstone. This unheated Burmese pigeon-blood ruby surpassed even diamond per-carat price records.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA corundum guides, Gübelin Gem Lab reports, Gemfields/Montepuez production data, and Christie's/Sotheby's auction records.</p>`,
+
+  ar: `<h2>الياقوت الأحمر</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">9<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكثافة</div>
+    <div class="ad-metric-value">4.00<span class="ad-metric-unit">غ/سم³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">البلورة</div>
+    <div class="ad-metric-value">سداسية</div>
+  </div>
+</div>
+
+<p>الياقوت هو العضو الأحمر في عائلة الكوراندوم (Al₂O₃) وأثمن حجر كريم ملون في التاريخ. يُعرف بـ"ملك الأحجار"، ويستمد لونه من الكروم (0.1–3%). بصلادة 9 موس — الثاني بعد الألماس — ظل الياقوت رمزاً للقوة والشغف في خزائن الملوك لقرون.</p>
+
+<h3>المصادر العالمية</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ميانمار (بورما)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون المميز</span><span class="value">"دم الحمام" الأحمر</span></div>
+      <div class="ad-compare-row"><span class="label">المنطقة</span><span class="value">وادي موغوك</span></div>
+      <div class="ad-compare-row"><span class="label">الخاصية</span><span class="value">فلورة قوية، حريري</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">أعلى علاوة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">موزمبيق</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون المميز</span><span class="value">أحمر حيوي بلمسة وردية</span></div>
+      <div class="ad-compare-row"><span class="label">المنطقة</span><span class="value">مونتيبويز</span></div>
+      <div class="ad-compare-row"><span class="label">الخاصية</span><span class="value">شوائب أقل</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">50–70% من بورما</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">سريلانكا</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون المميز</span><span class="value">أحمر فاتح وردي</span></div>
+      <div class="ad-compare-row"><span class="label">المنطقة</span><span class="value">راتنابورا</span></div>
+      <div class="ad-compare-row"><span class="label">الخاصية</span><span class="value">بلورات كبيرة</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">حسب اللون</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>دم الحمام والمعالجة الحرارية</h3>
+
+<p>مصطلح "دم الحمام" يصف أكثف وأنقى أحمر — بلمسة زرقاء خفيفة. معظم الياقوت يخضع للمعالجة الحرارية (1,600–1,800°م) لتعميق اللون — معيار صناعي يخفض السعر 20–40%. الياقوت غير المعالج أندر بكثير ويُسعَّر بعلاوة كبيرة.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">في 2015، بيع ياقوت "شروق الشمس" 25.59 قيراطاً في سوذبيز بـ30.42 مليون دولار — 1.18 مليون دولار للقيراط — محطماً الرقم القياسي العالمي لأي حجر كريم ملون، متجاوزاً حتى أرقام الألماس القياسية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وتقارير Gübelin وبيانات Gemfields وسجلات كريستيز وسوذبيز.</p>`
+};
+
+C[112] = {
+  tr: `<h2>Safir (Sapphire)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">9<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yoğunluk</div>
+    <div class="ad-metric-value">4.00<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Renk</div>
+    <div class="ad-metric-value">Mavi +<span class="ad-metric-unit"> fancy</span></div>
+  </div>
+</div>
+
+<p>Safir, korundum ailesinin (Al₂O₃) kırmızı dışındaki tüm renklerini kapsayan, mavi tonlarıyla en çok bilinen değerli taştır. Rengini demir ve titanyum eser elementlerinden alan klasik mavi safir, yüzyıllardır sadakat ve bilgelik sembolü olarak nişan yüzüklerinde tercih edilmiştir — Prenses Diana'nın ikonik 12 karatlık Ceylon safiri bunun en ünlü örneğidir.</p>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Safir, yakut ile aynı mineral olan korundumun kırmızı olmayan varyetesidir. Klasik mavi renk, demir (Fe²⁺) ve titanyum (Ti⁴⁺) iyonları arasındaki intervalans şarj transferinden kaynaklanır — iki farklı iyon arasında elektron geçişi mavi ışık absorpsiyonu yaratır. Bu mekanizma, safirin renginin diğer mavi taşlardan (tanzanit, topaz) farklı bir fiziksel kökene sahip olmasını açıklar.</p>
+
+<h3>Kaynak Karşılaştırması</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kaşmir</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">"Kadifemsi mavi"</span></div>
+      <div class="ad-compare-row"><span class="label">Durum</span><span class="value">Tükenmiş (~1880)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$50K–$200K+/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">İpeksi mikro-inklüzyon</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Burma (Myanmar)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Koyu kraliyet mavisi</span></div>
+      <div class="ad-compare-row"><span class="label">Durum</span><span class="value">Sınırlı üretim</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$10K–$80K/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Canlı, doygun</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Sri Lanka (Ceylon)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Açık parlak mavi</span></div>
+      <div class="ad-compare-row"><span class="label">Durum</span><span class="value">Aktif üretim</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$2K–$20K/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Büyük, temiz kristaller</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fancy Safirler</h3>
+
+<p>Safir sadece mavi değildir — pembe, sarı, turuncu, yeşil, mor ve renksiz (beyaz safir) dahil geniş bir renk yelpazesinde bulunur. Bu renkler "fancy safir" olarak adlandırılır. En nadir ve en değerli fancy safir padparadscha'dır — Sri Lanka kökenli, lotus çiçeği renginde (pembe-turuncu) bu taş karat başına $5.000–$30.000 arasında fiyatlanır. Pembe safirler nişan yüzüğü alternatifi olarak popülerlik kazanmıştır.</p>
+
+<h3>Yıldız Safir</h3>
+
+<p>İğne şeklindeki rutil inklüzyonları içeren safirler, cabochon kesildiğinde altı ışınlı bir yıldız deseni (asterizm) gösterir. Star of India (563 karat, Amerikan Doğa Tarihi Müzesi) dünyanın en ünlü yıldız safiridir. Kaliteli yıldız safirleri, yıldızın merkezliliği, ışınların netliği ve gövde rengine göre değerlendirilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Prenses Diana'nın (şimdi Kate Middleton'ın) 12 karatlık Ceylon safir nişan yüzüğü, 1981'de £28.000'a satın alındı. Bugünkü değeri tahminen $500.000 üzerindedir. Bu tek yüzük, mavi safirin nişan yüzüğü pazarındaki popülaritesini kalıcı biçimde değiştirmiştir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA safir rehberleri, Gübelin Gem Lab kaynak tespiti raporları, Lotus Gemology padparadscha araştırmaları ve SSEF (İsviçre Gemoloji Enstitüsü) verilerine dayanmaktadır.</p>`,
+
+  en: `<h2>Sapphire</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">9<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Density</div>
+    <div class="ad-metric-value">4.00<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Color</div>
+    <div class="ad-metric-value">Blue +<span class="ad-metric-unit"> fancy</span></div>
+  </div>
+</div>
+
+<p>Sapphire encompasses every color of the corundum family (Al₂O₃) except red, and is best known for its blue tones. Deriving its classic blue from trace iron and titanium, sapphire has been a symbol of loyalty and wisdom in engagement rings for centuries — Princess Diana's iconic 12-carat Ceylon sapphire being the most famous example.</p>
+
+<h3>Scientific Profile</h3>
+
+<p>Sapphire is the non-red variety of corundum, the same mineral as ruby. Its classic blue arises from intervalence charge transfer between iron (Fe²⁺) and titanium (Ti⁴⁺) ions — electron transitions between the two ions create blue light absorption. This mechanism explains why sapphire's blue has a different physical origin from other blue stones like tanzanite or topaz.</p>
+
+<h3>Source Comparison</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kashmir</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">"Velvety blue"</span></div>
+      <div class="ad-compare-row"><span class="label">Status</span><span class="value">Depleted (~1880)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$50K–$200K+/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Silky micro-inclusions</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Burma (Myanmar)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Deep royal blue</span></div>
+      <div class="ad-compare-row"><span class="label">Status</span><span class="value">Limited production</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$10K–$80K/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Vivid, saturated</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Sri Lanka (Ceylon)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Bright, light blue</span></div>
+      <div class="ad-compare-row"><span class="label">Status</span><span class="value">Active production</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$2K–$20K/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Signature</span><span class="value">Large, clean crystals</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Fancy Sapphires</h3>
+
+<p>Sapphire is not only blue — it occurs in pink, yellow, orange, green, purple, and colorless (white sapphire). These are called "fancy sapphires." The rarest and most valuable fancy sapphire is padparadscha — a Sri Lankan stone in lotus-blossom color (pink-orange) priced at $5,000–$30,000 per carat. Pink sapphires have gained popularity as engagement ring alternatives.</p>
+
+<h3>Star Sapphire</h3>
+
+<p>Sapphires containing needle-like rutile inclusions display a six-rayed star pattern (asterism) when cut as cabochons. The Star of India (563 carats, American Museum of Natural History) is the world's most famous star sapphire.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Princess Diana's (now Kate Middleton's) 12-carat Ceylon sapphire engagement ring was purchased in 1981 for £28,000. Its estimated value today exceeds $500,000. That single ring permanently changed the popularity of blue sapphire in the engagement ring market.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA sapphire guides, Gübelin origin determination reports, Lotus Gemology padparadscha research, and SSEF data.</p>`,
+
+  ar: `<h2>الياقوت الأزرق (السفير)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">9<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكثافة</div>
+    <div class="ad-metric-value">4.00<span class="ad-metric-unit">غ/سم³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">اللون</div>
+    <div class="ad-metric-value">أزرق +<span class="ad-metric-unit"> فانسي</span></div>
+  </div>
+</div>
+
+<p>السفير يشمل جميع ألوان الكوراندوم (Al₂O₃) ما عدا الأحمر، وأشهرها الأزرق. يستمد لونه الكلاسيكي من الحديد والتيتانيوم. رمز للوفاء والحكمة في خواتم الخطوبة — خاتم الأميرة ديانا 12 قيراطاً من سفير سيلان هو الأشهر عالمياً.</p>
+
+<h3>مقارنة المصادر</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">كشمير</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">"الأزرق المخملي"</span></div>
+      <div class="ad-compare-row"><span class="label">الحالة</span><span class="value">نضب (~1880)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$50K–$200K+/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">بورما</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق ملكي داكن</span></div>
+      <div class="ad-compare-row"><span class="label">الحالة</span><span class="value">إنتاج محدود</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$10K–$80K/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">سريلانكا (سيلان)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق فاتح لامع</span></div>
+      <div class="ad-compare-row"><span class="label">الحالة</span><span class="value">إنتاج نشط</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$2K–$20K/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>السفير الفاخر والنجمي</h3>
+
+<p>السفير ليس أزرق فقط — يوجد بالوردي والأصفر والبرتقالي والأخضر والبنفسجي. أندر سفير فاخر هو البادبارادشا — بلون زهرة اللوتس (وردي-برتقالي) من سريلانكا، يُسعَّر $5,000–$30,000 للقيراط. السفير النجمي يحتوي شوائب إبرية تُظهر نجمة سداسية عند القطع كابوشون.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">خاتم خطوبة الأميرة ديانا (الآن كيت ميدلتون) من سفير سيلان 12 قيراطاً اشتُري عام 1981 بـ£28,000. قيمته اليوم تتجاوز $500,000. هذا الخاتم الواحد غيّر بشكل دائم شعبية السفير الأزرق في سوق خواتم الخطوبة.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وتقارير Gübelin وأبحاث Lotus Gemology وبيانات SSEF.</p>`
+};
+
+C[113] = {
+  tr: `<h2>Ametist</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Aile</div>
+    <div class="ad-metric-value">Kuvars</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Şubat</div>
+  </div>
+</div>
+
+<p>Ametist, kuvars ailesinin (SiO₂) mor üyesi ve tarih boyunca krallık, maneviyat ve soyluluğun sembolü olmuş bir taştır. Adı Yunanca "amethystos" (sarhoş olmayan) kelimesinden gelir — Antik Yunanlılar bu taşı takanın sarhoş olmayacağına inanırdı. Bir zamanlar pırlanta ve yakutla eşdeğer kabul edilen ametist, 19. yüzyılda Brezilya'daki devasa yatakların keşfiyle ulaşılabilir fiyatlara inmiştir.</p>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Ametistin mor rengi, kristal yapısındaki demir (Fe³⁺) iyonlarının doğal gama radyasyonuna maruz kalmasıyla oluşur. Demir konsantrasyonu ve radyasyon dozu renk yoğunluğunu belirler. Trigonal kristal sisteminde kristalleşir ve tipik olarak altı kenarlı prizmatik kristaller oluşturur. Isıtıldığında (300–500°C) sarı-turuncu renge dönüşür ve sitrin olarak adlandırılır — doğada iki rengin geçiş gösterdiği örnekler ametrin olarak bilinir.</p>
+
+<h3>Değerleme ve Renkler</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Tonlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">"Deep Siberian"</span><span class="value">Koyu mor + kırmızı flaş</span></div>
+      <div class="ad-compare-row"><span class="label">Uruguayan</span><span class="value">Yoğun menekşe moru</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat aralığı</span><span class="value">$20–$50/ct (kaliteli)</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Statement takılar</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yaygın Tonlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Açık lavanta</span><span class="value">Pastel mor</span></div>
+      <div class="ad-compare-row"><span class="label">Rose de France</span><span class="value">Açık pembe-mor</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat aralığı</span><span class="value">$2–$15/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Günlük takılar</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Brezilya (özellikle Rio Grande do Sul) dünyanın en büyük ametist üreticisidir. Uruguay daha küçük ama daha koyu tonlu taşlarıyla bilinir. Zambiya, Güney Kore ve Rusya (Sibirya — tarihsel olarak en değerli) diğer önemli kaynaklardır. Ametist jeod'ları (içi kristal kaplı kayalar) hem koleksiyon nesnesi hem dekoratif unsur olarak popülerdir.</p>
+
+<h3>Bakım ve Dikkat</h3>
+
+<p>Mohs 7 sertliği günlük kullanıma uygundur ancak uzun süreli güneş ışığından kaçınılmalıdır — UV ışınları ametistin rengini solduran en yaygın nedendir. Ilık sabunlu su ile temizleme güvenlidir; ultrasonik temizleme çoğu durumda uygundur. Buhar temizlikten kaçınılmalıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">18. yüzyıla kadar ametist, pırlanta ve zümrütle aynı "değerli taş" kategorisinde yer alıyordu. 1800'lerde Brezilya'nın devasa jeod yataklarının keşfi arzı patlattı ve fiyatı düşürdü. Bugün aynı taş "yarı değerli" kabul edilir — ama Sibirya menşeli koyu mor örnekler hâlâ ciddi koleksiyon değerine sahiptir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA kuvars rehberleri, Brezilya maden bakanlığı üretim verileri ve International Gem Society kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Amethyst</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Family</div>
+    <div class="ad-metric-value">Quartz</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">February</div>
+  </div>
+</div>
+
+<p>Amethyst is the purple member of the quartz family (SiO₂) and has been a symbol of royalty, spirituality, and nobility throughout history. Its name comes from the Greek "amethystos" (not intoxicated) — ancient Greeks believed wearing it prevented drunkenness. Once valued alongside diamond and ruby, amethyst became affordable after massive Brazilian deposits were discovered in the 19th century.</p>
+
+<h3>Scientific Profile</h3>
+
+<p>Amethyst's purple color forms when iron (Fe³⁺) ions in the crystal lattice are exposed to natural gamma radiation. Iron concentration and radiation dose determine color intensity. It crystallizes in the trigonal system. When heated (300–500°C), amethyst turns yellow-orange and becomes citrine — natural specimens showing both colors are called ametrine.</p>
+
+<h3>Grading and Colors</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Tones</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">"Deep Siberian"</span><span class="value">Deep purple + red flash</span></div>
+      <div class="ad-compare-row"><span class="label">Uruguayan</span><span class="value">Intense violet-purple</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$20–$50/ct (fine)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Common Tones</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Light lavender</span><span class="value">Pastel purple</span></div>
+      <div class="ad-compare-row"><span class="label">Rose de France</span><span class="value">Light pink-purple</span></div>
+      <div class="ad-compare-row"><span class="label">Price range</span><span class="value">$2–$15/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Brazil (especially Rio Grande do Sul) is the world's largest amethyst producer. Uruguay is known for smaller but deeper-toned stones. Zambia, South Korea, and Russia (Siberia — historically the most prized) are other notable sources. Amethyst geodes — rocks with crystal-lined interiors — are popular as both collectibles and decor.</p>
+
+<h3>Care</h3>
+
+<p>Mohs 7 hardness suits daily wear, but avoid prolonged sunlight — UV exposure is the most common cause of amethyst color fading. Warm soapy water is safe for cleaning; ultrasonic is generally fine. Avoid steam cleaning.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Until the 18th century, amethyst was classified alongside diamond and emerald as a "precious stone." The discovery of Brazil's massive geode deposits in the 1800s flooded the supply and crashed prices. Today the same stone is called "semi-precious" — but deep-purple Siberian specimens still carry serious collector value.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA quartz guides, Brazilian mining authority production data, and International Gem Society resources.</p>`,
+
+  ar: `<h2>الجمشت (الأماتيست)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العائلة</div>
+    <div class="ad-metric-value">كوارتز</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">فبراير</div>
+  </div>
+</div>
+
+<p>الجمشت هو العضو البنفسجي في عائلة الكوارتز (SiO₂) ورمز للملوكية والروحانية عبر التاريخ. اسمه من اليونانية "أميثيستوس" (غير السكران) — اعتقد اليونانيون القدماء أنه يمنع السُكر. كان يُقدَّر كالألماس والياقوت حتى اكتشاف المخزونات البرازيلية الضخمة في القرن التاسع عشر.</p>
+
+<h3>الألوان والتقييم</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">درجات ممتازة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">"سيبيري عميق"</span><span class="value">بنفسجي داكن + وميض أحمر</span></div>
+      <div class="ad-compare-row"><span class="label">أوروغواي</span><span class="value">بنفسجي كثيف</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$20–$50/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">درجات شائعة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">لافندر فاتح</span><span class="value">بنفسجي باستيل</span></div>
+      <div class="ad-compare-row"><span class="label">روز دو فرانس</span><span class="value">وردي بنفسجي فاتح</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$2–$15/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<p>لونه البنفسجي ينشأ من أيونات الحديد (Fe³⁺) المعرضة للإشعاع الطبيعي. عند تسخينه (300–500°م) يتحول للأصفر البرتقالي ويُسمى ستيرين. البرازيل أكبر منتج عالمي، والأوروغواي معروف بالدرجات الأغمق.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">حتى القرن الثامن عشر، صُنِّف الجمشت مع الألماس والزمرد كـ"حجر ثمين". اكتشاف مخزونات البرازيل الضخمة أغرق العرض وخفض الأسعار. اليوم يُسمى "شبه ثمين" — لكن العينات السيبيرية الداكنة لا تزال ذات قيمة تجميعية جدية.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات التعدين البرازيلية وموارد International Gem Society.</p>`
+};
+
+C[114] = {
+  tr: `<h2>Topaz</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kristal</div>
+    <div class="ad-metric-value">Ortorombik</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Kasım</div>
+  </div>
+</div>
+
+<p>Topaz (Al₂SiO₄(F,OH)₂), alüminyum silikat flüorür yapısında, geniş bir renk yelpazesine sahip dayanıklı bir değerli taştır. Mohs 8 sertliğiyle pırlanta ve korundum ailesinden sonra en sert doğal taşlardan biridir. Renksiz, mavi, sarı, turuncu, pembe ve nadir kırmızı tonlarda bulunur — ancak mücevher dünyasının en büyük yanılgılarından biri, piyasadaki mavi topazların neredeyse tamamının işlenmiş olduğu gerçeğidir.</p>
+
+<h3>Renk Yelpazesi ve İşlemler</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Imperial Topaz</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Turuncu-kırmızı / şeftali</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Brezilya (Ouro Preto)</span></div>
+      <div class="ad-compare-row"><span class="label">İşlem</span><span class="value">Doğal (işlem yok)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$100–$3.000/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mavi Topaz</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Sky / Swiss / London Blue</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Çeşitli (renksiz ham)</span></div>
+      <div class="ad-compare-row"><span class="label">İşlem</span><span class="value">Işınlama + ısıtma</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$5–$30/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pembe Topaz</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Pembe / fuşya</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Pakistan, Brezilya</span></div>
+      <div class="ad-compare-row"><span class="label">İşlem</span><span class="value">Bazıları ısıtılmış</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$50–$500/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Imperial Topaz: Topazın Kralı</h3>
+
+<p>Imperial topaz, topazın en değerli ve en nadir varyetesidir. Turuncu-kırmızı ile şeftali rengi arasındaki sıcak tonuyla tanınır ve neredeyse yalnızca Brezilya'nın Ouro Preto bölgesinde bulunur. Bu bölge dışında kaliteli imperial topaz çıkarılması son derece nadirdir. Adı, 19. yüzyıl Rus Çar ailesinin bu tona özel hayranlığından gelir.</p>
+
+<h3>Mavi Topaz Gerçeği</h3>
+
+<p>Piyasadaki mavi topazların %99'undan fazlası, doğada renksiz veya çok açık renkte bulunan topaz kristallerinin nötron ışınlama ve ardından kontrollü ısıtma ile renklendirilmesidir. Üç standart ton üretilir: Sky Blue (en açık, buz mavisi), Swiss Blue (canlı orta mavi) ve London Blue (en koyu, gri-mavi alt ton). İşlem kalıcı, güvenli ve endüstri standardıdır — ancak tüketici bu gerçeği bilmelidir.</p>
+
+<h3>Bakım ve Özel Not</h3>
+
+<p>Mohs 8 sertliğine rağmen topazın mükemmel bazal klivajı (tek yönde kolay ayrılma) vardır — bu da sert darbelere karşı kırılgan olmasına neden olur. Yüzük taşı olarak bezel veya koruyucu montaj önerilir. Ultrasonik temizleme genellikle güvenlidir; buhar temizlikten kaçınılmalıdır. Imperial topaz ısı ve ışığa karşı daha hassastır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Dünyanın en büyük faceted topazı El-Dorado Topaz'dır — 31.000 karatlık (6.2 kg) bu devasa sarı taş Brezilya'nın Minas Gerais bölgesinde bulunmuş ve Smithsonian Müzesi'nde sergilenmektedir. İkinci sırada 22.892 karatlık "American Golden Topaz" yer alır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA topaz rehberleri, Ouro Preto maden verileri, CIBJO nomenklatür kılavuzu ve Smithsonian mineral koleksiyonu kayıtlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Topaz</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Crystal</div>
+    <div class="ad-metric-value">Orthorhombic</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">November</div>
+  </div>
+</div>
+
+<p>Topaz (Al₂SiO₄(F,OH)₂) is a durable gemstone with a wide color range and an aluminum silicate fluoride structure. At Mohs 8, it is among the hardest natural gemstones after diamond and corundum. It occurs in colorless, blue, yellow, orange, pink, and rare red — but one of the jewelry world's biggest misconceptions is that nearly all blue topaz on the market is treated.</p>
+
+<h3>Color Range and Treatments</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Imperial Topaz</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Orange-red / peach</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Brazil (Ouro Preto)</span></div>
+      <div class="ad-compare-row"><span class="label">Treatment</span><span class="value">Natural (untreated)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$100–$3,000/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Blue Topaz</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Sky / Swiss / London Blue</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Various (colorless rough)</span></div>
+      <div class="ad-compare-row"><span class="label">Treatment</span><span class="value">Irradiation + heating</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$5–$30/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pink Topaz</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Pink / fuchsia</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Pakistan, Brazil</span></div>
+      <div class="ad-compare-row"><span class="label">Treatment</span><span class="value">Some heated</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$50–$500/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Imperial Topaz: King of Topaz</h3>
+
+<p>Imperial topaz is the most valuable and rarest variety, defined by its warm orange-red to peach tone. It is found almost exclusively in Brazil's Ouro Preto region. The name derives from the 19th-century Russian Tsars' special admiration for this hue.</p>
+
+<h3>The Blue Topaz Truth</h3>
+
+<p>Over 99% of blue topaz on the market starts as colorless or very pale crystals, then undergoes neutron irradiation followed by controlled heating. Three standard tones are produced: Sky Blue (lightest, icy), Swiss Blue (vivid medium), and London Blue (deepest, gray-blue undertone). The treatment is permanent, safe, and industry-standard — but consumers should be aware.</p>
+
+<h3>Care Notes</h3>
+
+<p>Despite Mohs 8 hardness, topaz has perfect basal cleavage (easy splitting in one direction) — making it vulnerable to hard impacts. A bezel or protective setting is recommended for rings. Ultrasonic cleaning is generally safe; avoid steam. Imperial topaz is more heat- and light-sensitive.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">The world's largest faceted topaz is the El-Dorado Topaz — a 31,000-carat (6.2 kg) golden stone from Brazil's Minas Gerais, displayed at the Smithsonian. Runner-up: the 22,892-carat "American Golden Topaz."</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA topaz guides, Ouro Preto mining data, CIBJO nomenclature guides, and Smithsonian mineral collection records.</p>`,
+
+  ar: `<h2>التوباز</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">البلورة</div>
+    <div class="ad-metric-value">معينية قائمة</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">نوفمبر</div>
+  </div>
+</div>
+
+<p>التوباز (Al₂SiO₄(F,OH)₂) حجر كريم متين بمجموعة ألوان واسعة. بصلادة 8 موس من أصلب الأحجار بعد الألماس والكوراندوم. يوجد بلا لون وبالأزرق والأصفر والبرتقالي والوردي والأحمر النادر — لكن أحد أكبر المفاهيم الخاطئة أن معظم التوباز الأزرق في السوق مُعالَج.</p>
+
+<h3>الألوان والمعالجات</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التوباز الإمبراطوري</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">برتقالي-أحمر / خوخي</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">البرازيل (أورو بريتو)</span></div>
+      <div class="ad-compare-row"><span class="label">المعالجة</span><span class="value">طبيعي (بدون)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$100–$3,000/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التوباز الأزرق</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">Sky / Swiss / London</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">متعدد (خام عديم اللون)</span></div>
+      <div class="ad-compare-row"><span class="label">المعالجة</span><span class="value">إشعاع + تسخين</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$5–$30/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التوباز الوردي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">وردي / فوشيا</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">باكستان، البرازيل</span></div>
+      <div class="ad-compare-row"><span class="label">المعالجة</span><span class="value">بعضه مسخَّن</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$50–$500/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<p>أكثر من 99% من التوباز الأزرق يبدأ عديم اللون ثم يُعرَّض لإشعاع نيوتروني وتسخين. ثلاث درجات قياسية: Sky Blue (أفتح)، Swiss Blue (متوسط)، London Blue (أغمق). المعالجة دائمة وآمنة ومعيارية.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">أكبر توباز مصقول في العالم هو الدورادو — 31,000 قيراط (6.2 كغ) حجر ذهبي من ميناس جيرايس البرازيلية، معروض في متحف سميثسونيان. الثاني: "التوباز الذهبي الأمريكي" بـ22,892 قيراطاً.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات تعدين أورو بريتو وأدلة CIBJO وسجلات سميثسونيان.</p>`
+};
+
+C[115] = {
+  tr: `<h2>Akvamarin</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">7.5–8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Aile</div>
+    <div class="ad-metric-value">Beril</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Mart</div>
+  </div>
+</div>
+
+<p>Akvamarin, beril ailesinin (Be₃Al₂Si₆O₁₈) açık mavi üyesi ve zümrüdün kardeşidir. Adı Latince "aqua marina" (deniz suyu) kelimesinden gelir — antik denizciler bu taşı fırtınalara karşı tılsım olarak taşırdı. Sakin, buzul mavisi tonu ve mükemmel berraklığıyla günlük takılar için ideal bir taştır.</p>
+
+<h3>Bilimsel Profil ve Renk</h3>
+
+<p>Akvamarin rengini demir (Fe²⁺) iyonlarından alır. Zümrüdün aksine genellikle çok temizdir — gözle görülür inklüzyon nadirdir. Bu berraklık onu faceting için mükemmel kılar. Doğada çıkan ham taşlar sıklıkla yeşilimsi-mavi tonundadır; ısıl işlem (400–450°C) yeşil bileşeni gidererek saf maviye dönüştürür. Bu tedavi kalıcı, güvenli ve endüstri standardıdır.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Tonlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">"Santa Maria"</span><span class="value">Yoğun koyu mavi (Brezilya)</span></div>
+      <div class="ad-compare-row"><span class="label">"Santa Maria Africana"</span><span class="value">Koyu mavi (Mozambik)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$100–$600/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yaygın Tonlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Açık buz mavisi</span><span class="value">En yaygın, uygun fiyat</span></div>
+      <div class="ad-compare-row"><span class="label">Yeşilimsi mavi</span><span class="value">İşlem görmemiş doğal</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$5–$50/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Brezilya (Minas Gerais) en büyük üreticidir ve rekor boyutlarda kristaller çıkarır. Mozambik, Nijerya, Pakistan ve Madagaskar diğer önemli kaynaklardır. Mart doğum taşı ve 19. evlilik yıldönümü taşıdır. Mohs 7.5–8 sertliği ve inklüzyonsuz yapısı onu günlük kullanıma en uygun renkli taşlardan biri yapar.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Tarihin en büyük mücevher kalitesi akvamarin kristali "Dom Pedro"dur — 10.363 karat (2 kg+) ağırlığındaki bu devasa taş Brezilya'da bulunmuş, obelisk formunda kesilmiş ve Smithsonian Müzesi'nde sergilenmektedir. Bernd Munsteiner'ın fantasy kesimiyle 10.363 faset içerir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA beril rehberleri, Brezilya maden verileri ve Smithsonian mineral koleksiyonu kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Aquamarine</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">7.5–8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Family</div>
+    <div class="ad-metric-value">Beryl</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">March</div>
+  </div>
+</div>
+
+<p>Aquamarine is the light-blue member of the beryl family (Be₃Al₂Si₆O₁₈) and emerald's sibling. Its name comes from Latin "aqua marina" (sea water) — ancient sailors carried it as a talisman against storms. With its calm, glacial blue and excellent clarity, aquamarine is ideal for everyday jewelry.</p>
+
+<h3>Color and Treatment</h3>
+
+<p>Aquamarine owes its color to iron (Fe²⁺) ions. Unlike emerald, it is typically very clean — visible inclusions are rare. Rough stones often emerge greenish-blue; heat treatment (400–450°C) removes the green component for pure blue. This treatment is permanent, safe, and industry-standard.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Tones</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">"Santa Maria"</span><span class="value">Intense dark blue (Brazil)</span></div>
+      <div class="ad-compare-row"><span class="label">"Santa Maria Africana"</span><span class="value">Dark blue (Mozambique)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$100–$600/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Common Tones</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Light icy blue</span><span class="value">Most common, affordable</span></div>
+      <div class="ad-compare-row"><span class="label">Greenish blue</span><span class="value">Untreated natural</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$5–$50/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Brazil (Minas Gerais) is the largest producer and yields record-size crystals. March birthstone and 19th anniversary gem. Its 7.5–8 Mohs hardness and inclusion-free nature make it one of the most wearable colored gemstones.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">History's largest gem-quality aquamarine crystal is the "Dom Pedro" — 10,363 carats (2+ kg), found in Brazil, cut into an obelisk by Bernd Munsteiner with a fantasy cut, and displayed at the Smithsonian.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA beryl guides, Brazilian mining data, and Smithsonian mineral collection.</p>`,
+
+  ar: `<h2>الأكوامارين</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">7.5–8<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العائلة</div>
+    <div class="ad-metric-value">بريل</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">مارس</div>
+  </div>
+</div>
+
+<p>الأكوامارين هو العضو الأزرق الفاتح في عائلة البريل وشقيق الزمرد. اسمه من اللاتينية "ماء البحر". بلونه الأزرق الجليدي الهادئ ونقائه الممتاز، مثالي للمجوهرات اليومية. يستمد لونه من الحديد (Fe²⁺). عادةً نظيف جداً — الشوائب المرئية نادرة.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">درجات ممتازة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">"سانتا ماريا"</span><span class="value">أزرق داكن كثيف (البرازيل)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$100–$600/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">درجات شائعة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">أزرق جليدي فاتح</span><span class="value">الأكثر شيوعاً</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$5–$50/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">أكبر أكوامارين بجودة المجوهرات هو "دوم بيدرو" — 10,363 قيراط (2+ كغ) من البرازيل، قُطع بشكل مسلّة وعُرض في سميثسونيان.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات التعدين البرازيلية ومجموعة سميثسونيان.</p>`
+};
+
+C[116] = {
+  tr: `<h2>Opal</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">5.5–6.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Su İçeriği</div>
+    <div class="ad-metric-value">3–21<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Efekt</div>
+    <div class="ad-metric-value">Renk Oyunu</div>
+  </div>
+</div>
+
+<p>Opal, hiçbir taşın taklit edemeyeceği bir optik fenomen sunar: "play-of-color" (renk oyunu). Mikro silika kürelerin oluşturduğu kırınım ızgarası, ışığı gökkuşağı renklerine ayırarak taşın içinde dans eden ateşli desenleri yaratır. Kristal yapıya sahip olmayan (amorf) nadir minerallerden biri olan opal, %3–21 oranında su içerir — bu onu değerli ama kırılgan kılar.</p>
+
+<h3>Opal Türleri</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Black Opal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gövde rengi</span><span class="value">Koyu gri/siyah</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Avustralya (Lightning Ridge)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$1.000–$15.000+/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">En değerli — kontrast maks.</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">White/Crystal Opal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gövde rengi</span><span class="value">Beyaz/şeffaf</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Avustralya (Coober Pedy)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$10–$500/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">En yaygın, ulaşılabilir</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Fire Opal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gövde rengi</span><span class="value">Turuncu/kırmızı</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Meksika (Querétaro)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$20–$300/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Özellik</span><span class="value">Renk oyunu opsiyonel</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bakım: En Hassas Taş</h3>
+
+<p>Opal, su içeriği nedeniyle mücevher dünyasının en hassas taşlarından biridir. Kuru ortamda çatlayabilir (crazing), aşırı ısıda su kaybedebilir. Ultrasonik ve buhar temizlik kesinlikle yasaktır. Nemli ortamda (40–60% bağıl nem) saklanmalı; uzun süre kapalı kasada bırakılmamalıdır. Düzenli takım opalin sağlığı için faydalıdır — cildin nemi taşı besler.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Avustralya dünya değerli opal üretiminin %90'ından fazlasını karşılar. Lightning Ridge'deki tek bir maden (Lunatic Hill), tarihte bulunan en değerli siyah opallerden birçoğunu üretmiştir. "Virgin Rainbow" adlı opal, karanlıkta bile ışıldayan nadir bir örnektir ve Güney Avustralya Müzesi'nde sergilenir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA opal rehberleri, Opal Association of Australia verileri ve Smithsonian mineral kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Opal</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">5.5–6.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Water Content</div>
+    <div class="ad-metric-value">3–21<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Effect</div>
+    <div class="ad-metric-value">Play-of-Color</div>
+  </div>
+</div>
+
+<p>Opal delivers an optical phenomenon no other stone can replicate: play-of-color. A diffraction grating formed by micro silica spheres splits light into rainbow colors, creating fiery patterns that dance within the stone. One of the rare amorphous (non-crystalline) minerals, opal contains 3–21% water — making it precious but fragile.</p>
+
+<h3>Opal Types</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Black Opal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Body color</span><span class="value">Dark gray/black</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Australia (Lightning Ridge)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$1,000–$15,000+/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Most valuable — max contrast</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">White/Crystal Opal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Body color</span><span class="value">White/transparent</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Australia (Coober Pedy)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$10–$500/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Most common, accessible</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Fire Opal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Body color</span><span class="value">Orange/red</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Mexico (Querétaro)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$20–$300/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Play-of-color optional</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Care: The Most Delicate Gem</h3>
+
+<p>Due to its water content, opal is among the most delicate gemstones. It can crack (crazing) in dry environments and lose water in extreme heat. Ultrasonic and steam cleaning are strictly prohibited. Store in 40–60% humidity; don't leave sealed for long periods. Regular wearing actually benefits opal — skin moisture nourishes the stone.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Australia produces over 90% of the world's precious opal. A single mine at Lightning Ridge (Lunatic Hill) has yielded many of the most valuable black opals ever found. The "Virgin Rainbow" — a rare specimen that glows even in the dark — is displayed at the South Australian Museum.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA opal guides, Opal Association of Australia data, and Smithsonian mineral resources.</p>`,
+
+  ar: `<h2>العقيق الناري (الأوبال)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">5.5–6.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">محتوى الماء</div>
+    <div class="ad-metric-value">3–21<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التأثير</div>
+    <div class="ad-metric-value">لعب الألوان</div>
+  </div>
+</div>
+
+<p>الأوبال يقدم ظاهرة بصرية لا يستطيع أي حجر آخر تقليدها: لعب الألوان. شبكة حيود من كرات السيليكا الدقيقة تفصل الضوء لألوان قوس قزح. يحتوي 3–21% ماء مما يجعله ثميناً لكن هشاً.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الأوبال الأسود</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">رمادي داكن/أسود</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">أستراليا (لايتنينغ ريدج)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$1,000–$15,000+/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الأوبال الأبيض</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أبيض/شفاف</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">أستراليا (كوبر بيدي)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$10–$500/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الأوبال الناري</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">برتقالي/أحمر</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">المكسيك</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$20–$300/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">أستراليا تنتج أكثر من 90% من الأوبال الثمين عالمياً. "قوس قزح العذراء" — عينة نادرة تتوهج حتى في الظلام — معروض في متحف جنوب أستراليا.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات جمعية الأوبال الأسترالية.</p>`
+};
+
+C[117] = {
+  tr: `<h2>Turkuaz</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">5–6<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kimya</div>
+    <div class="ad-metric-value">Fosfat</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gelenek</div>
+    <div class="ad-metric-value">5000+<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+</div>
+
+<p>Turkuaz (CuAl₆(PO₄)₄(OH)₈·4H₂O), insanlık tarihinin en eski takı taşlarından biridir — Mısır firavunlarının maskelerinden Kızılderili kutsal takılarına, Selçuklu camilerinden Osmanlı çinilerine kadar 5.000 yılı aşkın kesintisiz bir kültürel varlık gösterir. Adı Fransızca "pierre turquoise" (Türk taşı) ifadesinden gelir — çünkü Anadolu üzerinden Avrupa'ya ulaşmıştır.</p>
+
+<h3>Değerleme ve Kalite</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Kalite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">"Robin's egg blue" — saf mavi</span></div>
+      <div class="ad-compare-row"><span class="label">Matris</span><span class="value">Yok veya minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">İran (Nişabur), ABD (Sleeping Beauty)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$20–$200/ct (doğal)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Standart Kalite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Yeşilimsi mavi, soluk</span></div>
+      <div class="ad-compare-row"><span class="label">Matris</span><span class="value">Belirgin ağ deseni</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Çin, Meksika, ABD</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$1–$10/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Turkuaz rengini bakır (mavi) ve demir (yeşil) iyonlarından alır. Saf bakır → doygun mavi; demir karışımı → yeşilimsi ton. İran (Nişabur) turkuazı binlerce yıldır en kaliteli kabul edilir. ABD'nin Güneybatısı (Arizona, Nevada, New Mexico) Kızılderili geleneğiyle bütünleşmiş önemli bir kaynak bölgesidir. Çin, hacimsel olarak en büyük üreticidir ancak kalite genellikle düşüktür.</p>
+
+<p>Turkuazın en büyük sorunu gözenekli yapısı nedeniyle renk değişimine yatkınlığıdır — yağ, ter ve kimyasallar taşın rengini bozabilir. Bu nedenle piyasadaki turkuazların büyük çoğunluğu stabilize edilmiştir (reçine emdirilmesi). Mumlanmış veya boyanmış örnekler daha düşük kalitededir. Tamamen doğal, işlem görmemiş "gem-grade" turkuaz nadir ve premium fiyatlıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Tutankamon'un ölüm maskesi (MÖ ~1323) turkuaz, lapis lazuli ve karneol ile süslenmiştir — turkuazın bilinen en eski lüks kullanımlarından biridir. Aynı taş, Osmanlı İmparatorluğu'nda cami kubbelerinin çini rengine de ilham vermiş ve "turkuaz mavisi" kavramını yaratmıştır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA turkuaz rehberleri, İran Ulusal Mücevher Müzesi verileri ve Smithsonian mineral kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Turquoise</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">5–6<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Chemistry</div>
+    <div class="ad-metric-value">Phosphate</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Heritage</div>
+    <div class="ad-metric-value">5000+<span class="ad-metric-unit"> years</span></div>
+  </div>
+</div>
+
+<p>Turquoise (CuAl₆(PO₄)₄(OH)₈·4H₂O) is one of humanity's oldest gem materials — with over 5,000 years of unbroken cultural presence from Egyptian pharaohs' masks to Native American sacred jewelry, Seljuk mosques to Ottoman tiles. Its name comes from French "pierre turquoise" (Turkish stone), since it reached Europe via Anatolia.</p>
+
+<h3>Quality and Grading</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Quality</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">"Robin's egg blue" — pure</span></div>
+      <div class="ad-compare-row"><span class="label">Matrix</span><span class="value">None or minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Iran (Nishapur), USA (Sleeping Beauty)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$20–$200/ct (natural)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Standard Quality</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Greenish blue, pale</span></div>
+      <div class="ad-compare-row"><span class="label">Matrix</span><span class="value">Prominent web pattern</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">China, Mexico, USA</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$1–$10/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Turquoise gets its color from copper (blue) and iron (green). Most market turquoise is stabilized (resin-infused) due to its porous nature. Completely natural, untreated gem-grade turquoise is rare and premium-priced.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Tutankhamun's death mask (~1323 BC) is adorned with turquoise, lapis lazuli, and carnelian — one of the oldest known luxury uses of turquoise. The same stone inspired Ottoman mosque dome tile colors, giving birth to the concept of "turquoise blue."</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA turquoise guides, Iran National Jewels Museum data, and Smithsonian resources.</p>`,
+
+  ar: `<h2>الفيروز</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">5–6<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الكيمياء</div>
+    <div class="ad-metric-value">فوسفات</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التراث</div>
+    <div class="ad-metric-value">5000+<span class="ad-metric-unit"> سنة</span></div>
+  </div>
+</div>
+
+<p>الفيروز من أقدم أحجار المجوهرات — بتاريخ ثقافي متواصل يتجاوز 5,000 سنة من أقنعة فراعنة مصر إلى مجوهرات الهنود الحمر المقدسة وبلاط المساجد العثمانية. اسمه الأوروبي من الفرنسية "الحجر التركي" لأنه وصل أوروبا عبر الأناضول.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">جودة ممتازة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق نقي "بيضة أبو الحناء"</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">إيران (نيسابور)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$20–$200/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">جودة عادية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق مخضر، باهت</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">الصين، المكسيك</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$1–$10/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">قناع توت عنخ آمون (~1323 ق.م) مزين بالفيروز واللازورد والعقيق — من أقدم الاستخدامات الفاخرة المعروفة للفيروز. نفس الحجر ألهم ألوان بلاط قباب المساجد العثمانية وأنشأ مفهوم "الأزرق الفيروزي".</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات متحف المجوهرات الوطني الإيراني وموارد سميثسونيان.</p>`
+};
+
+C[118] = {
+  tr: `<h2>Peridot</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">6.5–7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Renk</div>
+    <div class="ad-metric-value">Yeşil</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Ağustos</div>
+  </div>
+</div>
+
+<p>Peridot (olivin mineralinin mücevher kalitesi formu), doğanın nadir "tek renkli" taşlarından biridir — sadece yeşilin tonlarında bulunur; açık sarı-yeşilden koyu zeytin yeşiline kadar. Rengini yapısındaki demir elementinden alır ve eser elementlerle değil, ana kimyasal bileşimiyle renklenen sayılı taşlardan biridir. Mısırlılar peridotu "güneşin taşı" olarak adlandırmıştır.</p>
+
+<h3>Kaynaklar ve Piyasa</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Başlıca Kaynaklar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pakistan (Kohistan)</span><span class="value">En kaliteli, büyük kristaller</span></div>
+      <div class="ad-compare-row"><span class="label">Myanmar</span><span class="value">Canlı yeşil, temiz</span></div>
+      <div class="ad-compare-row"><span class="label">ABD (Arizona)</span><span class="value">San Carlos Rezervasyonu</span></div>
+      <div class="ad-compare-row"><span class="label">Çin</span><span class="value">Hacimsel en büyük üretici</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Değerleme</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İdeal renk</span><span class="value">Canlı zeytin yeşili</span></div>
+      <div class="ad-compare-row"><span class="label">1–3 ct</span><span class="value">$50–$200/ct</span></div>
+      <div class="ad-compare-row"><span class="label">5+ ct temiz</span><span class="value">$200–$500/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Doğum taşı</span><span class="value">Ağustos</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Peridotun en ilginç özelliklerinden biri uzaydan gelmesidir — pallasit meteoritleri içinde bulunan olivin kristalleri, dünya dışı peridot örnekleridir. Bu "uzay peridotları" koleksiyon parçası olarak çok değerlidir. Ayrıca volkanik aktiviteyle yüzeye çıkar; Hawaii'deki Papakolea plajının yeşil kumu olivin tanelerinden oluşur.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Kleopatra'nın meşhur "zümrüt koleksiyonu"nun bir kısmının aslında peridot olduğu düşünülmektedir — iki taş antik dünyada sıkça karıştırılmıştır. Mısır'ın Kızıldeniz'deki Zabargad (St. John) Adası, 3.500 yılı aşkın süredir bilinen en eski peridot kaynağıdır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA olivin rehberleri, Pakistan Maden Bakanlığı verileri ve NASA pallasit meteorit araştırmalarına dayanmaktadır.</p>`,
+
+  en: `<h2>Peridot</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">6.5–7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Color</div>
+    <div class="ad-metric-value">Green</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">August</div>
+  </div>
+</div>
+
+<p>Peridot (gem-quality olivine) is one of nature's rare "single-color" stones — found only in shades of green, from light yellow-green to deep olive. Its color comes from iron in its core structure, making it one of the few gems colored by its main chemistry rather than trace elements. Egyptians called it "the gem of the sun."</p>
+
+<h3>Sources and Market</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Key Sources</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pakistan (Kohistan)</span><span class="value">Finest quality, large crystals</span></div>
+      <div class="ad-compare-row"><span class="label">Myanmar</span><span class="value">Vivid green, clean</span></div>
+      <div class="ad-compare-row"><span class="label">USA (Arizona)</span><span class="value">San Carlos Reservation</span></div>
+      <div class="ad-compare-row"><span class="label">China</span><span class="value">Largest producer by volume</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Valuation</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ideal color</span><span class="value">Vivid olive green</span></div>
+      <div class="ad-compare-row"><span class="label">1–3 ct</span><span class="value">$50–$200/ct</span></div>
+      <div class="ad-compare-row"><span class="label">5+ ct clean</span><span class="value">$200–$500/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Birthstone</span><span class="value">August</span></div>
+    </div>
+  </div>
+</div>
+
+<p>One of peridot's most fascinating traits is its extraterrestrial origin — olivine crystals found in pallasite meteorites are otherworldly peridot. Hawaii's Papakolea beach gets its green sand from olivine grains.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Part of Cleopatra's famous "emerald collection" is now believed to have been peridot — the two stones were frequently confused in the ancient world. Egypt's Zabargad (St. John) Island in the Red Sea is the oldest known peridot source, mined for over 3,500 years.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA olivine guides, Pakistan Mining Ministry data, and NASA pallasite meteorite research.</p>`,
+
+  ar: `<h2>الزبرجد (البيريدوت)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">6.5–7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">اللون</div>
+    <div class="ad-metric-value">أخضر</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">أغسطس</div>
+  </div>
+</div>
+
+<p>البيريدوت (الأوليفين بجودة المجوهرات) من أحجار الطبيعة النادرة "أحادية اللون" — يوجد فقط بدرجات الأخضر. يستمد لونه من الحديد في تركيبته الأساسية. سمّاه المصريون "حجر الشمس".</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المصادر الرئيسية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">باكستان</span><span class="value">أجود نوعية، بلورات كبيرة</span></div>
+      <div class="ad-compare-row"><span class="label">ميانمار</span><span class="value">أخضر حيوي ونظيف</span></div>
+      <div class="ad-compare-row"><span class="label">أريزونا (أمريكا)</span><span class="value">محمية سان كارلوس</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">التقييم</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون المثالي</span><span class="value">أخضر زيتوني حيوي</span></div>
+      <div class="ad-compare-row"><span class="label">1–3 قيراط</span><span class="value">$50–$200/قيراط</span></div>
+      <div class="ad-compare-row"><span class="label">5+ قيراط</span><span class="value">$200–$500/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">جزء من "مجموعة زمرد كليوباترا" الشهيرة يُعتقد الآن أنه بيريدوت — الحجران خُلطا كثيراً في العالم القديم. جزيرة الزبرجد (سانت جون) في البحر الأحمر أقدم مصدر معروف، تُعدَّن منذ أكثر من 3,500 سنة.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات وزارة التعدين الباكستانية وأبحاث NASA.</p>`
+};
+
+C[119] = {
+  tr: `<h2>Garnet</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">6.5–7.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Aile</div>
+    <div class="ad-metric-value">6+<span class="ad-metric-unit"> tür</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Ocak</div>
+  </div>
+</div>
+
+<p>Garnet tek bir taş değil, kimyasal olarak ilişkili altı ana mineral türünden oluşan bir ailedir. En bilinen koyu kırmızı varyete almadin olsa da garnet ailesi yeşil (tsavorit, demantoid), turuncu (spessartin), mor (rodolite) ve renk değiştiren örnekleri de kapsar. Bu çeşitlilik garneti gemolojinin en geniş renk yelpazesine sahip mineral gruplarından biri yapar.</p>
+
+<h3>Garnet Ailesi</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Almadin & Pirop</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Koyu kırmızı / bordo</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$5–$50/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">En yaygın, uygun fiyatlı</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tsavorit</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Canlı yeşil (krom/vanadyum)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$500–$8.000/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Zümrüt alternatifi</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Demantoid</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Parlak yeşil (horsetail inklüzyon)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$1.000–$10.000/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Koleksiyoner taşı, nadir</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Tsavorit ve demantoid garnet ailesi içindeki en değerli üyelerdir. Tsavorit (Tanzanya/Kenya kökenli yeşil grossular), zümrüde görsel olarak rakip olabilecek canlılıktadır ve inklüzyonsuz yapısıyla zümrütten daha temizdir. Demantoid (andradit türü), pırlantayı bile aşan dispersiyon (ateş) değeriyle gemolojinin en parlak doğal taşlarından biridir — özellikle Rusya menşeli "horsetail" (at kuyruğu) inklüzyonlu örnekler premium fiyatlandırılır.</p>
+
+<p>Spessartin garnet (mandalina garnet olarak da bilinir), turuncu tonlarıyla öne çıkar. Rodolite ise almadin-pirop karışımı, pembe-mor tonuyla popüler bir varyetedir. Garnet ailesi Mohs 6.5–7.5 aralığında sertliğe sahiptir ve genel olarak günlük kullanıma uygundur. Ocak doğum taşıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Demantoid garnetin dispersiyon değeri (0.057) pırlantanınkinden (0.044) daha yüksektir — yani aynı kesim kalitesinde pırlantadan daha fazla "ateş" gösterir. Rus Çar mücevherlerinde tercih edilen demantoid, Ural Dağları yatakları tükendikten sonra son derece nadir hale gelmiştir. Madagaskar ve Namibya'da yeni yataklar keşfedilmiştir ancak Rus örnekleri hâlâ en değerlidir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA garnet rehberleri, Tsavorite Foundation verileri ve Gem-A mineral kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Garnet</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">6.5–7.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Family</div>
+    <div class="ad-metric-value">6+<span class="ad-metric-unit"> species</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">January</div>
+  </div>
+</div>
+
+<p>Garnet is not a single stone but a family of six chemically related mineral species. While the best-known variety is dark-red almandine, the garnet family also includes green (tsavorite, demantoid), orange (spessartine), purple (rhodolite), and color-change specimens — making it one of gemology's broadest color groups.</p>
+
+<h3>The Garnet Family</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Almandine & Pyrope</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Deep red / burgundy</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$5–$50/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Most common, affordable</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tsavorite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Vivid green (Cr/V)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$500–$8,000/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Emerald alternative</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Demantoid</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Bright green (horsetail incl.)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$1,000–$10,000/ct</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Collector stone, rare</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Tsavorite and demantoid are the family's most prized members. Tsavorite (green grossular from Tanzania/Kenya) rivals emerald's vibrancy with superior clarity. Demantoid (andradite species) has dispersion (fire) exceeding even diamond — Russian specimens with "horsetail" inclusions command the highest premiums.</p>
+
+<p>Spessartine (mandarin garnet) stands out in orange tones. Rhodolite, an almandine-pyrope blend, is popular in pink-purple. January birthstone. Mohs 6.5–7.5 suits daily wear.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Demantoid garnet's dispersion (0.057) exceeds diamond's (0.044) — meaning it displays more "fire" than diamond at equal cut quality. Prized by Russian Tsars, demantoid became extremely rare after Ural deposits dwindled. New sources in Madagascar and Namibia have emerged, but Russian specimens remain the most valued.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA garnet guides, Tsavorite Foundation data, and Gem-A mineral resources.</p>`,
+
+  ar: `<h2>العقيق (الغارنت)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">6.5–7.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العائلة</div>
+    <div class="ad-metric-value">6+<span class="ad-metric-unit"> أنواع</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">يناير</div>
+  </div>
+</div>
+
+<p>الغارنت ليس حجراً واحداً بل عائلة من ستة أنواع معدنية مترابطة كيميائياً. أشهرها الألمندين الأحمر الداكن، لكن العائلة تشمل الأخضر (تسافوريت، ديمانتويد) والبرتقالي (سبيسارتين) والبنفسجي (رودوليت).</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ألمندين وبيروب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أحمر داكن / عنابي</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$5–$50/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تسافوريت</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أخضر حيوي</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$500–$8,000/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ديمانتويد</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أخضر لامع</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$1,000–$10,000/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">تشتت الديمانتويد (0.057) يتجاوز الألماس (0.044) — أي يُظهر "ناراً" أكثر من الألماس بنفس جودة القطع. فضّله القياصرة الروس وأصبح نادراً جداً بعد نضوب مناجم الأورال. اكتُشفت مصادر جديدة في مدغشقر وناميبيا لكن العينات الروسية تبقى الأثمن.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات Tsavorite Foundation وموارد Gem-A.</p>`
+};
+
+C[120] = {
+  tr: `<h2>Sitrin</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Aile</div>
+    <div class="ad-metric-value">Kuvars</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Kasım</div>
+  </div>
+</div>
+
+<p>Sitrin, kuvars ailesinin (SiO₂) sarı-turuncu üyesidir ve ametistin sıcak tonlu kardeşidir. Adı Fransızca "citron" (limon) kelimesinden gelir. Sıcak altın sarısından derin kehribar turuncusuna uzanan renk yelpazesiyle özellikle sonbahar ve kış takılarında tercih edilir. Kasım doğum taşı olan sitrin, topazla birlikte bu ayı paylaşır.</p>
+
+<h3>Doğal vs İşlenmiş Sitrin</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Doğal Sitrin</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Açık sarı, şampanya</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Brezilya, Madagaskar, Zambiya</span></div>
+      <div class="ad-compare-row"><span class="label">Nadir mi</span><span class="value">Evet — doğal formu nadir</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$10–$50/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Isıtılmış Ametist/Sitrin</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Koyu turuncu, kızılımsı</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Brezilya ametistinden</span></div>
+      <div class="ad-compare-row"><span class="label">Nadir mi</span><span class="value">Hayır — piyasanın %95'i</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$5–$20/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Önemli bir gerçek: piyasadaki sitrinin büyük çoğunluğu ısıtılmış ametisttir. Ametist 300–500°C'de ısıtıldığında mor renk sarı-turuncuya dönüşür. Bu işlem kalıcı ve güvenlidir. Doğal sitrin çok daha açık, subtil bir sarı tonundadır ve nadir bulunur. İki tür arasında "ametrin" (yarı mor, yarı sarı) geçiş örnekleri de mevcuttur — bu hibrit taşlar Bolivya'nın Anahi madenine özgüdür.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Sitrin, tarih boyunca "tüccar taşı" olarak bilinir — kasaya konulduğunda serveti çekeceğine inanılırdı. Bu inanış bugün bile sürer: feng shui'de servet köşesine sitrin yerleştirmek yaygın bir uygulamadır. Bilimsel açıdan ametistle aynı mineraldir — sadece ısı farkı iki farklı taş yaratır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA kuvars rehberleri ve IGS sitrin kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Citrine</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Family</div>
+    <div class="ad-metric-value">Quartz</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">November</div>
+  </div>
+</div>
+
+<p>Citrine is the yellow-orange member of the quartz family (SiO₂) and amethyst's warm-toned sibling. Named from French "citron" (lemon), its color ranges from light golden yellow to deep amber orange. November birthstone, shared with topaz.</p>
+
+<h3>Natural vs Treated Citrine</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Natural Citrine</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Light yellow, champagne</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Brazil, Madagascar, Zambia</span></div>
+      <div class="ad-compare-row"><span class="label">Rare?</span><span class="value">Yes — natural form is scarce</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$10–$50/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Heated Amethyst/Citrine</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Deep orange, reddish</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">From Brazilian amethyst</span></div>
+      <div class="ad-compare-row"><span class="label">Rare?</span><span class="value">No — 95% of market</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$5–$20/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>The vast majority of citrine on the market is heated amethyst. At 300–500°C, amethyst's purple turns yellow-orange permanently. Natural citrine is much lighter and subtler. "Ametrine" — half purple, half yellow — is a transition specimen unique to Bolivia's Anahi mine.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Citrine has been called the "merchant's stone" throughout history — believed to attract wealth when placed in a cash register. Scientifically, it's the same mineral as amethyst — only heat separates the two.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA quartz guides and IGS citrine resources.</p>`,
+
+  ar: `<h2>الستيرين</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العائلة</div>
+    <div class="ad-metric-value">كوارتز</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">نوفمبر</div>
+  </div>
+</div>
+
+<p>الستيرين هو العضو الأصفر البرتقالي في عائلة الكوارتز وشقيق الجمشت الدافئ. الغالبية العظمى في السوق جمشت مُسخَّن — عند 300–500°م يتحول البنفسجي للأصفر البرتقالي بشكل دائم. الستيرين الطبيعي أفتح وأندر بكثير.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ستيرين طبيعي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أصفر فاتح، شمبانيا</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$10–$50/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">جمشت مسخَّن</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">برتقالي داكن محمر</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$5–$20/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">عُرف الستيرين بـ"حجر التاجر" عبر التاريخ — يُعتقد أنه يجلب الثروة. علمياً هو نفس معدن الجمشت — الحرارة فقط تفصل بينهما.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وموارد IGS.</p>`
+};
+
+C[121] = {
+  tr: `<h2>Ay Taşı (Moonstone)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">6–6.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Aile</div>
+    <div class="ad-metric-value">Feldispat</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Efekt</div>
+    <div class="ad-metric-value">Adularescence</div>
+  </div>
+</div>
+
+<p>Ay taşı, feldispat ailesinin en büyüleyici optik fenomenini sergileyen bir mineraldir: adularescence — taşın yüzeyinde süzülen, ay ışığını andıran mavi-beyaz bir iç parıltı. Bu efekt, ortoklaz ve albit katmanlarının ince tabakalar halinde dönüşümlü dizilmesinden kaynaklanan ışık girişiminden doğar.</p>
+
+<h3>Çeşitler ve Değerleme</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Rainbow Moonstone</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gövde</span><span class="value">Şeffaf-beyaz</span></div>
+      <div class="ad-compare-row"><span class="label">Efekt</span><span class="value">Çok renkli adularescence</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Hindistan, Sri Lanka</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$5–$50/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Blue Sheen Moonstone</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gövde</span><span class="value">Şeffaf, temiz</span></div>
+      <div class="ad-compare-row"><span class="label">Efekt</span><span class="value">Güçlü mavi parıltı</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Sri Lanka, Myanmar</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$20–$200/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Haziran doğum taşlarından biri olan ay taşı (inci ve aleksandritle paylaşır), cabochon kesildiğinde en iyi performansı verir. Faceting adularescence efektini kaybettirir. Mohs 6–6.5 sertliği ve iki yönlü klivajı onu hassas bir taş yapar — küpe ve kolye için idealdir, yüzüklerde koruyucu montaj gerektirir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Art Nouveau döneminin (1890–1910) en sevilen taşı ay taşıydı — René Lalique'in ikonik mücevherlerinde sıkça kullanılmıştır. Hindistan'da ay taşı kutsal kabul edilir ve "chandrakant" (ay tarafından sevilen) olarak adlandırılır. Sri Lanka'nın en kaliteli mavi parıltılı örnekleri giderek azalmaktadır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA feldispat rehberleri ve IGS ay taşı kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Moonstone</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">6–6.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Family</div>
+    <div class="ad-metric-value">Feldspar</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Effect</div>
+    <div class="ad-metric-value">Adularescence</div>
+  </div>
+</div>
+
+<p>Moonstone displays the feldspar family's most captivating optical phenomenon: adularescence — a blue-white inner glow floating across the surface, reminiscent of moonlight. This effect arises from light interference between alternating thin layers of orthoclase and albite.</p>
+
+<h3>Varieties and Valuation</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Rainbow Moonstone</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Body</span><span class="value">Transparent-white</span></div>
+      <div class="ad-compare-row"><span class="label">Effect</span><span class="value">Multicolored adularescence</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$5–$50/ct</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Blue Sheen Moonstone</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Body</span><span class="value">Transparent, clean</span></div>
+      <div class="ad-compare-row"><span class="label">Effect</span><span class="value">Strong blue glow</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$20–$200/ct</span></div>
+    </div>
+  </div>
+</div>
+
+<p>One of June's birthstones (shared with pearl and alexandrite). Best as cabochon — faceting diminishes adularescence. Mohs 6–6.5 with two cleavage directions makes it delicate; ideal for earrings and pendants, protective settings for rings.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Moonstone was the Art Nouveau era's (1890–1910) favorite gem — featured prominently in René Lalique's iconic jewelry. In India, moonstone is considered sacred and called "chandrakant" (loved by the moon). Sri Lanka's finest blue-sheen specimens are increasingly scarce.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA feldspar guides and IGS moonstone resources.</p>`,
+
+  ar: `<h2>حجر القمر</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">6–6.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">العائلة</div>
+    <div class="ad-metric-value">فلدسبار</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التأثير</div>
+    <div class="ad-metric-value">أدولاريسنس</div>
+  </div>
+</div>
+
+<p>حجر القمر يعرض أروع ظاهرة بصرية في عائلة الفلدسبار: الأدولاريسنس — توهج داخلي أزرق أبيض يسبح على السطح يشبه ضوء القمر. ينشأ من تداخل الضوء بين طبقات رقيقة متناوبة من الأورثوكلاز والألبيت.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">حجر قمر قوس قزح</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الجسم</span><span class="value">شفاف أبيض</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$5–$50/قيراط</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">حجر قمر أزرق</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الجسم</span><span class="value">شفاف نظيف</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$20–$200/قيراط</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">كان حجر القمر الحجر المفضل في حقبة الآرت نوفو (1890–1910) واستخدمه رينيه لاليك في مجوهراته الأيقونية. في الهند يُعتبر مقدساً ويُسمى "تشاندراكانت" (محبوب القمر).</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وموارد IGS.</p>`
+};
+
+C[122] = {
+  tr: `<h2>Lapis Lazuli</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">5–6<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yapı</div>
+    <div class="ad-metric-value">Kayaç</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gelenek</div>
+    <div class="ad-metric-value">6000+<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+</div>
+
+<p>Lapis lazuli tek bir mineral değil, birden fazla mineralin oluşturduğu bir kayaçtır — ana bileşen lasurit (mavi renk veren), kalsit (beyaz damarlar) ve pirit (altın benekler). 6.000 yılı aşkın tarihiyle insanlığın en eski süs taşlarından biridir. Antik Mısır'da Kleopatra göz farı olarak kullanmış, Ortaçağ'da "ultramarine" pigmenti bu taştan elde edilmiştir.</p>
+
+<h3>Kalite Değerlendirme</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Kalite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Doygun lacivert, homojen</span></div>
+      <div class="ad-compare-row"><span class="label">Kalsit</span><span class="value">Yok veya minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Pirit</span><span class="value">İnce dağılmış benekler</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Afganistan (Badakşan)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Standart Kalite</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Açık mavi, lekeli</span></div>
+      <div class="ad-compare-row"><span class="label">Kalsit</span><span class="value">Belirgin beyaz damarlar</span></div>
+      <div class="ad-compare-row"><span class="label">Pirit</span><span class="value">Büyük kümeler</span></div>
+      <div class="ad-compare-row"><span class="label">Kaynak</span><span class="value">Şili, Rusya</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Afganistan'ın Badakşan bölgesi (Sar-e-Sang madeni) 6.000 yıldır dünyanın en kaliteli lapis lazulisini üretir. Şili ve Rusya (Baykal Gölü) diğer kaynaklardır. Lapis lazuli cabochon, boncuk, heykeltıraşlık ve tablatura olarak işlenir. Boyama için "ultramarine" pigmenti olarak kullanımı Rönesans sanatının temel malzemesiydi.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Rönesans ressamlarının kullandığı "ultramarine" mavi pigment, öğütülmüş lapis lazuliden elde edilirdi ve altından bile pahalıydı. Vermeer'in "İnci Küpeli Kız" tablosundaki ikonik mavi türban bu pigmentle boyanmıştır. 1826'da sentetik ultramarinin keşfi bu geleneği sonlandırdı.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA lapis lazuli rehberleri, Afganistan maden kayıtları ve sanat tarihi pigment araştırmalarına dayanmaktadır.</p>`,
+
+  en: `<h2>Lapis Lazuli</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">5–6<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Structure</div>
+    <div class="ad-metric-value">Rock</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Heritage</div>
+    <div class="ad-metric-value">6000+<span class="ad-metric-unit"> years</span></div>
+  </div>
+</div>
+
+<p>Lapis lazuli is not a single mineral but a rock composed of multiple minerals — primarily lazurite (blue), calcite (white veins), and pyrite (golden specks). With over 6,000 years of history, it is among humanity's oldest ornamental stones. Cleopatra used it as eyeshadow; medieval "ultramarine" pigment was derived from it.</p>
+
+<h3>Quality Grading</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Premium Quality</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Saturated deep blue, uniform</span></div>
+      <div class="ad-compare-row"><span class="label">Calcite</span><span class="value">None or minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Pyrite</span><span class="value">Fine scattered specks</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Afghanistan (Badakhshan)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Standard Quality</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Light blue, mottled</span></div>
+      <div class="ad-compare-row"><span class="label">Calcite</span><span class="value">Prominent white veins</span></div>
+      <div class="ad-compare-row"><span class="label">Pyrite</span><span class="value">Large clusters</span></div>
+      <div class="ad-compare-row"><span class="label">Source</span><span class="value">Chile, Russia</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Renaissance painters' "ultramarine" blue pigment was made from ground lapis lazuli and cost more than gold. The iconic blue turban in Vermeer's "Girl with a Pearl Earring" was painted with this pigment. The discovery of synthetic ultramarine in 1826 ended the tradition.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA lapis lazuli guides, Afghan mining records, and art history pigment research.</p>`,
+
+  ar: `<h2>اللازورد (لابيس لازولي)</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">5–6<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">البنية</div>
+    <div class="ad-metric-value">صخر</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التراث</div>
+    <div class="ad-metric-value">6000+<span class="ad-metric-unit"> سنة</span></div>
+  </div>
+</div>
+
+<p>اللازورد ليس معدناً واحداً بل صخر يتكون من عدة معادن — أساساً اللازوريت (أزرق) والكالسيت (عروق بيضاء) والبيريت (نقاط ذهبية). بتاريخ يتجاوز 6,000 سنة من أقدم أحجار الزينة البشرية. استخدمته كليوباترا كظل للعيون، واستُخرج منه صبغ "الترامارين" في العصور الوسطى.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">جودة ممتازة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق عميق مشبع</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">أفغانستان (بدخشان)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">جودة عادية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق فاتح مبقع</span></div>
+      <div class="ad-compare-row"><span class="label">المصدر</span><span class="value">تشيلي، روسيا</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">صبغ "الترامارين" الأزرق كان يُصنع من اللازورد المطحون وكان أغلى من الذهب. العمامة الزرقاء في لوحة فيرمير "الفتاة ذات القرط اللؤلؤي" رُسمت بهذا الصبغ. اكتشاف الترامارين الاصطناعي عام 1826 أنهى التقليد.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وسجلات التعدين الأفغانية وأبحاث أصباغ تاريخ الفن.</p>`
+};
+
+C[123] = {
+  tr: `<h2>Tanzanit</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">6–7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Keşif</div>
+    <div class="ad-metric-value">1967</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kaynak</div>
+    <div class="ad-metric-value">Tek<span class="ad-metric-unit"> yer</span></div>
+  </div>
+</div>
+
+<p>Tanzanit, mücevher dünyasının en genç süperstarıdır — 1967'de Tanzanya'nın Merelani tepelerinde keşfedilmiş ve Tiffany & Co. tarafından dünyaya tanıtılmıştır. Zoisit mineralinin (Ca₂Al₃Si₃O₁₂(OH)) mavi-mor varyetesi olan tanzanit, dünya üzerinde yalnızca tek bir yerde — Kilimanjaro Dağı eteklerinde yaklaşık 8 km²'lik bir alanda — bulunur. Bu benzersiz coğrafi sınırlılık, onu doğanın en nadir taşlarından biri yapar.</p>
+
+<h3>Renk ve Trikroizm</h3>
+
+<p>Tanzanitin en dikkat çekici özelliği güçlü trikroizmidir — farklı kristal yönlerinden bakıldığında mavi, mor ve kırmızımsı-kahverengi olmak üzere üç farklı renk görülür. Ham taşlar genellikle kahverengi-mor tonundadır; 500–700°C'de ısıl işlem kahverengi bileşeni ortadan kaldırarak ünlü mavi-mor tonu ortaya çıkarır. Piyasadaki tanzanitlerin %95'inden fazlası ısıl işlem görmüştür — bu endüstri standardıdır.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Avantajlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Safirle rakip mavi-mor</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Safirin 1/3–1/5'i</span></div>
+      <div class="ad-compare-row"><span class="label">Nadir</span><span class="value">Tek kaynak — sonlu arz</span></div>
+      <div class="ad-compare-row"><span class="label">Yatırım</span><span class="value">Tükenme potansiyeli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Dezavantajlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">6–7 — safirden düşük</span></div>
+      <div class="ad-compare-row"><span class="label">Klivaj</span><span class="value">Tek yönde — darbe riski</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Küpe/kolye ideal, yüzük dikkat</span></div>
+      <div class="ad-compare-row"><span class="label">Piyasa</span><span class="value">Talep dalgalanması</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Jeologlar, tanzanit yataklarının 20–30 yıl içinde tükeneceğini tahmin ediyor — bu taşı "bir neslin taşı" yapıyor. Tiffany & Co.'nun kurucusu Henry Platt, 1968'de taşa "tanzanit" adını vererek tarihte bir mücevher markasının bir taşı adlandırdığı nadir örneklerden birini yaratmıştır.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA tanzanit rehberleri, TanzaniteOne Mining verileri ve Tiffany & Co. tarihsel kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Tanzanite</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">6–7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Discovery</div>
+    <div class="ad-metric-value">1967</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Source</div>
+    <div class="ad-metric-value">Single<span class="ad-metric-unit"> site</span></div>
+  </div>
+</div>
+
+<p>Tanzanite is the gem world's youngest superstar — discovered in 1967 in Tanzania's Merelani Hills and introduced by Tiffany & Co. A blue-violet variety of zoisite (Ca₂Al₃Si₃O₁₂(OH)), tanzanite is found in only one place on Earth — a roughly 8 km² area at the foot of Mount Kilimanjaro. This geographic exclusivity makes it one of nature's rarest gems.</p>
+
+<h3>Color and Trichroism</h3>
+
+<p>Tanzanite's most striking property is strong trichroism — three different colors (blue, violet, reddish-brown) visible from different crystal directions. Raw stones are typically brownish-violet; heat treatment at 500–700°C removes the brown to reveal the famed blue-violet. Over 95% of market tanzanite is heated — this is industry standard.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pros</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Sapphire-rivaling blue-violet</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">1/3–1/5 of sapphire</span></div>
+      <div class="ad-compare-row"><span class="label">Rarity</span><span class="value">Single source — finite supply</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Cons</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">6–7 — lower than sapphire</span></div>
+      <div class="ad-compare-row"><span class="label">Cleavage</span><span class="value">One direction — impact risk</span></div>
+      <div class="ad-compare-row"><span class="label">Wear</span><span class="value">Earrings/pendants ideal</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">Geologists estimate tanzanite deposits will be exhausted within 20–30 years — making it a "one-generation gem." In 1968, Tiffany's Henry Platt named the stone "tanzanite," creating one of history's rare instances of a jewelry brand naming a gemstone.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA tanzanite guides, TanzaniteOne Mining data, and Tiffany & Co. historical sources.</p>`,
+
+  ar: `<h2>التنزانيت</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">6–7<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الاكتشاف</div>
+    <div class="ad-metric-value">1967</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">المصدر</div>
+    <div class="ad-metric-value">موقع<span class="ad-metric-unit"> واحد</span></div>
+  </div>
+</div>
+
+<p>التنزانيت أحدث نجوم عالم المجوهرات — اكتُشف عام 1967 في تلال ميريلاني بتنزانيا وقدّمه تيفاني آند كو للعالم. نوع أزرق بنفسجي من الزويسيت يوجد في مكان واحد فقط — منطقة 8 كم² عند سفح جبل كليمنجارو.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المزايا</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أزرق بنفسجي ينافس السفير</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">1/3–1/5 من السفير</span></div>
+      <div class="ad-compare-row"><span class="label">الندرة</span><span class="value">مصدر واحد — عرض محدود</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">العيوب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الصلادة</span><span class="value">6–7 — أقل من السفير</span></div>
+      <div class="ad-compare-row"><span class="label">الانفصام</span><span class="value">اتجاه واحد — خطر الصدم</span></div>
+      <div class="ad-compare-row"><span class="label">الاستخدام</span><span class="value">أقراط/قلادات مثالية</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">يقدّر الجيولوجيون نضوب مخزون التنزانيت خلال 20–30 سنة — مما يجعله "حجر جيل واحد". عام 1968 سمّاه هنري بلات من تيفاني "تنزانيت" — من أندر حالات تسمية علامة مجوهرات لحجر كريم.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA وبيانات TanzaniteOne ومصادر تيفاني آند كو التاريخية.</p>`
+};
+
+C[124] = {
+  tr: `<h2>İnci Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">2.5–4.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yapı</div>
+    <div class="ad-metric-value">Organik</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Doğum Taşı</div>
+    <div class="ad-metric-value">Haziran</div>
+  </div>
+</div>
+
+<p>İnci, mücevher dünyasının tek organik değerli taşıdır — canlı bir organizma (istiridye veya midye) tarafından üretilir. Yabancı bir madde kabuğun içine girdiğinde, yumuşakça bunu nacre (sedef) katmanlarıyla sarar ve aylar-yıllar içinde inci oluşur. Doğal inci son derece nadirdir; bugün piyasanın %95'inden fazlası kültür (yetiştirme) incidir.</p>
+
+<h3>İnci Türleri</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Akoya (Japon)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Boyut</span><span class="value">2–10 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Beyaz, krem, pembe üst ton</span></div>
+      <div class="ad-compare-row"><span class="label">Parlaklık</span><span class="value">En yüksek (ayna gibi)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$50–$5.000/tel</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Güney Denizi (South Sea)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Boyut</span><span class="value">9–20+ mm</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Beyaz, altın, şampanya</span></div>
+      <div class="ad-compare-row"><span class="label">Parlaklık</span><span class="value">Saten (yumuşak)</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$200–$100.000+/tel</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tahiti (Siyah İnci)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Boyut</span><span class="value">8–18 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Koyu gri, yeşil, tavuskuşu</span></div>
+      <div class="ad-compare-row"><span class="label">Parlaklık</span><span class="value">Metalik parıltı</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$100–$30.000/tel</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tatlı Su (Freshwater)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Boyut</span><span class="value">2–15 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Renk</span><span class="value">Beyaz, pembe, lavanta</span></div>
+      <div class="ad-compare-row"><span class="label">Parlaklık</span><span class="value">Değişken</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">$20–$3.000/tel</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bakım: Özel İhtiyaçlar</h3>
+
+<p>İnci organik yapısı gereği özel bakım gerektirir. "Son giy, ilk çıkar" kuralını uygulayın — parfüm, saç spreyi ve losyon inciye dokunmamalıdır. Her kullanımdan sonra nemli yumuşak bezle silin. Asla ultrasonik veya buhar temizliği uygulamayın. İnci kolyeler yılda bir yeniden ipletilmelidir. Kuru ortamda uzun süre saklamayın — nacre tabakası kuruduğunda çatlar.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Çarpıcı Gerçek</div>
+  <div class="ad-fact-callout-text">Tarihin en ünlü incisi "La Peregrina"dır — 16. yüzyılda Panama'da bulunan bu 50+ karatlık doğal inci, İspanya Kraliyet ailesinden Elizabeth Taylor'a geçmiş ve 2011'de Christie's müzayedesinde 11.8 milyon dolara satılmıştır. Mikimoto Kōkichi 1893'te ilk kültür inciyi başarıyla üreterek sektörü devrimleştirmiştir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA inci değerleme rehberleri, Pasifik Ticaret Örgütü verileri ve Mikimoto tarihsel kaynaklarına dayanmaktadır.</p>`,
+
+  en: `<h2>Pearl Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hardness</div>
+    <div class="ad-metric-value">2.5–4.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Origin</div>
+    <div class="ad-metric-value">Organic</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birthstone</div>
+    <div class="ad-metric-value">June</div>
+  </div>
+</div>
+
+<p>Pearl is the gem world's only organic precious stone — produced by a living organism (oyster or mussel). When a foreign body enters the shell, the mollusk coats it in nacre (mother-of-pearl) layers over months to years, forming a pearl. Natural pearls are extremely rare; over 95% of today's market is cultured.</p>
+
+<h3>Pearl Types</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Akoya (Japanese)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Size</span><span class="value">2–10 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">White, cream, pink overtone</span></div>
+      <div class="ad-compare-row"><span class="label">Luster</span><span class="value">Highest (mirror-like)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$50–$5,000/strand</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">South Sea</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Size</span><span class="value">9–20+ mm</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">White, gold, champagne</span></div>
+      <div class="ad-compare-row"><span class="label">Luster</span><span class="value">Satiny (soft)</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$200–$100,000+/strand</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tahitian (Black Pearl)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Size</span><span class="value">8–18 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">Dark gray, green, peacock</span></div>
+      <div class="ad-compare-row"><span class="label">Luster</span><span class="value">Metallic sheen</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$100–$30,000/strand</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Freshwater</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Size</span><span class="value">2–15 mm</span></div>
+      <div class="ad-compare-row"><span class="label">Color</span><span class="value">White, pink, lavender</span></div>
+      <div class="ad-compare-row"><span class="label">Luster</span><span class="value">Variable</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$20–$3,000/strand</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Care</h3>
+
+<p>Pearls require special care due to their organic nature. Follow the "last on, first off" rule — perfume, hairspray, and lotion should never touch pearls. Wipe with a damp soft cloth after each wear. Never use ultrasonic or steam cleaning. Restring pearl necklaces annually. Avoid storing in dry conditions — nacre cracks when dehydrated.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Striking Fact</div>
+  <div class="ad-fact-callout-text">History's most famous pearl, "La Peregrina" — a 50+ carat natural pearl found in 16th-century Panama — passed from Spanish royalty to Elizabeth Taylor and sold at Christie's in 2011 for $11.8 million. Mikimoto Kōkichi successfully cultured the first pearl in 1893, revolutionizing the industry.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA pearl grading guides, Pacific Trade Organization data, and Mikimoto historical sources.</p>`,
+
+  ar: `<h2>دليل اللؤلؤ</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الصلادة</div>
+    <div class="ad-metric-value">2.5–4.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأصل</div>
+    <div class="ad-metric-value">عضوي</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجر الميلاد</div>
+    <div class="ad-metric-value">يونيو</div>
+  </div>
+</div>
+
+<p>اللؤلؤ الحجر الكريم العضوي الوحيد — ينتجه كائن حي (محار أو بلح البحر). اللؤلؤ الطبيعي نادر جداً؛ أكثر من 95% من السوق لؤلؤ مستزرع.</p>
+
+<h3>أنواع اللؤلؤ</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أكويا (ياباني)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحجم</span><span class="value">2–10 مم</span></div>
+      <div class="ad-compare-row"><span class="label">اللمعان</span><span class="value">الأعلى (كالمرآة)</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$50–$5,000/عقد</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">بحر الجنوب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحجم</span><span class="value">9–20+ مم</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أبيض، ذهبي، شمبانيا</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$200–$100,000+/عقد</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تاهيتي (لؤلؤ أسود)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحجم</span><span class="value">8–18 مم</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">رمادي داكن، أخضر، طاووسي</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$100–$30,000/عقد</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المياه العذبة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الحجم</span><span class="value">2–15 مم</span></div>
+      <div class="ad-compare-row"><span class="label">اللون</span><span class="value">أبيض، وردي، لافندر</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$20–$3,000/عقد</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">حقيقة مذهلة</div>
+  <div class="ad-fact-callout-text">أشهر لؤلؤة في التاريخ "لا بيريغرينا" — 50+ قيراط طبيعية من بنما في القرن السادس عشر — انتقلت من الأسرة الملكية الإسبانية إلى إليزابيث تايلور وبيعت في كريستيز 2011 بـ11.8 مليون دولار. ميكيموتو كوكيتشي استزرع أول لؤلؤة بنجاح عام 1893.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة تقييم اللؤلؤ من GIA ومصادر ميكيموتو التاريخية.</p>`
+};

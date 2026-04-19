@@ -879,3 +879,1746 @@ C[200] = {
   en: `<h2>JewelPedi Future Vision — 200 Articles!</h2><p>This is JewelPedi's 200th article! Our journey, which started as Silverpedi, has evolved into a comprehensive jewelry encyclopedia covering six metal/gem pillars, 46+ tools, and three languages.</p><h3>The Journey</h3><p>Phase 0: Started with 73 silver articles. Phase 1: Gold expansion — 94. Phase 2: Diamond and gemstones — 134. Phase 3: Platinum, SEO, cross-referencing — 144. Phase 4: AI tools, bazaar guide, community — 180. Phase 5: 200 article milestone, code splitting, jeweler map!</p><h3>Future Plans</h3><p>Video content integration. Community forum or Discord. Open-source contribution system. API service. Native mobile app. Podcast series. More languages.</p><div class="fact-box"><strong>200th Article!</strong> Celebrating this milestone! Goal: 300+ articles, 60+ tools, and democratizing jewelry knowledge worldwide.</div>`,
   ar: `<h2>رؤية JewelPedi المستقبلية — ٢٠٠ مقال!</h2><p>هذا المقال رقم ٢٠٠ في JewelPedi! رحلتنا التي بدأت بـ Silverpedi تطورت إلى موسوعة مجوهرات شاملة.</p><h3>الرحلة</h3><p>المرحلة ٠: ٧٣ مقالة فضة. المرحلة ١: توسع الذهب. المرحلة ٢: الألماس والأحجار. المرحلة ٣: البلاتين. المرحلة ٤: أدوات الذكاء الاصطناعي. المرحلة ٥: ٢٠٠ مقال!</p><div class="fact-box"><strong>المقال رقم ٢٠٠!</strong> نحتفل بهذا الإنجاز! الهدف: ٣٠٠+ مقال و٦٠+ أداة ونشر المعرفة بالمجوهرات عالمياً.</div>`
 };
+
+C[173] = {
+  tr: `<h2>Takı Temizleme Teknikleri</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yöntem</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> teknik</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kapsam</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> metal</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Taş Türü</div>
+    <div class="ad-metric-value">8+<span class="ad-metric-unit"> çeşit</span></div>
+  </div>
+</div>
+
+<p>Takılarınızın ilk günkü parlaklığını koruması, doğru temizlik yöntemlerine bağlıdır. Yanlış bir kimyasal veya sert bir fırça, değerli bir parçayı kalıcı olarak hasarlayabilir. Bu rehber, metal ve taş türüne göre güvenli temizlik tekniklerini, evde uygulanabilir yöntemlerden profesyonel çözümlere kadar kapsamlı biçimde ele alır.</p>
+
+<h3>Evde Temel Temizlik: Altın Kural</h3>
+
+<p>Hemen her takı türü için güvenli olan temel formül şudur: ılık su (35–40°C) + birkaç damla sıvı bulaşık deterjanı. Takıyı bu karışımda 15–20 dakika bekletin, ardından yumuşak kıllı bir diş fırçasıyla (bebek diş fırçası idealdir) hafifçe fırçalayın. Durulayıp yumuşak bir mikrofiber bezle kurulayın. Bu yöntem altın, platin, gümüş, paslanmaz çelik ve çoğu sert taş için uygundur.</p>
+
+<p>Dikkat edilmesi gereken temel kurallar: Asla sıcak su kullanmayın (termal şok taşları çatlatabilir). Kağıt havlu kullanmayın — mikroskobik çizik bırakır. Lavaboda çalışırken süzgeç kullanın. Takıyı giymeden önce parfüm, losyon ve saç spreyini uygulayın — "son giyilen, ilk çıkarılan" kuralı.</p>
+
+<h3>Metal Türüne Göre Temizlik Rehberi</h3>
+
+<p>Her metalin kimyasal yapısı farklı temizlik gereksinimleri yaratır. Yanlış yöntem oksidasyon, renk değişimi veya yüzey hasarına yol açabilir:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Altın (14K–24K)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yöntem</span><span class="value">Ilık sabunlu su</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">15–20 dk</span></div>
+      <div class="ad-compare-row"><span class="label">Fırça</span><span class="value">Yumuşak kıl</span></div>
+      <div class="ad-compare-row"><span class="label">Kaçının</span><span class="value">Klor, amonyak</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonik</span><span class="value">✓ Güvenli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gümüş (925)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yöntem</span><span class="value">Gümüş cilası / soda</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">5–10 dk</span></div>
+      <div class="ad-compare-row"><span class="label">Fırça</span><span class="value">Gümüş bezi</span></div>
+      <div class="ad-compare-row"><span class="label">Kaçının</span><span class="value">Lastik, yumurta</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonik</span><span class="value">✓ Taşsız</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Platin</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yöntem</span><span class="value">Ilık sabunlu su</span></div>
+      <div class="ad-compare-row"><span class="label">Süre</span><span class="value">20–30 dk</span></div>
+      <div class="ad-compare-row"><span class="label">Fırça</span><span class="value">Yumuşak kıl</span></div>
+      <div class="ad-compare-row"><span class="label">Kaçının</span><span class="value">Aşındırıcılar</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonik</span><span class="value">✓ Güvenli</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Gümüş için özel bir yöntem: alüminyum folyo + karbonat tekniği. Bir kaseye alüminyum folyo serin, üzerine bir yemek kaşığı karbonat ekleyin, kaynar su dökün. Kararmış gümüşü 2–3 dakika bu çözeltide bekletin. Elektrokimyasal reaksiyon yoluyla kükürt bileşikleri alüminyuma geçer, gümüş parlar. Bu yöntem taşsız parçalar için idealdir.</p>
+
+<h3>Taş Türüne Göre Temizlik</h3>
+
+<p>Taşlar sertlik ve kimyasal dayanıklılık açısından büyük farklılıklar gösterir. Yanlış temizlik yöntemi bir pırlantaya zarar vermezken, bir opali yok edebilir:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Dayanıklı Taşlar (Mohs 7+)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pırlanta</span><span class="value">Sabunlu su, ultrasonik ✓</span></div>
+      <div class="ad-compare-row"><span class="label">Safir / Yakut</span><span class="value">Sabunlu su, ultrasonik ✓</span></div>
+      <div class="ad-compare-row"><span class="label">Topaz</span><span class="value">Sabunlu su, buhar ✗</span></div>
+      <div class="ad-compare-row"><span class="label">Ametist</span><span class="value">Sabunlu su, ılık ✓</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Hassas Taşlar (Mohs &lt;7)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İnci</span><span class="value">Nemli bez, asla kimyasal</span></div>
+      <div class="ad-compare-row"><span class="label">Opal</span><span class="value">Nemli bez, ısıdan uzak</span></div>
+      <div class="ad-compare-row"><span class="label">Zümrüt</span><span class="value">Ilık su, ultrasonik ✗</span></div>
+      <div class="ad-compare-row"><span class="label">Turkuaz</span><span class="value">Kuru bez, su ✗</span></div>
+    </div>
+  </div>
+</div>
+
+<p>İnciler özellikle dikkat gerektirir: asidik ortamlardan (limon suyu, sirke), parfüm ve saç spreyinden uzak tutulmalıdır. Her kullanımdan sonra yumuşak bir bezle silin. İnci kolyelerin ipliği yılda bir profesyonel tarafından kontrol edilmelidir.</p>
+
+<h3>Ultrasonik Temizleyiciler</h3>
+
+<p>Ultrasonik temizleyiciler, su içinde yüksek frekanslı ses dalgaları oluşturarak mikro-kabarcıklarla kiri çözer. Pırlanta, safir, yakut, altın ve platin için mükemmeldir. Ancak şu durumlarda kesinlikle kullanılmamalıdır: çatlak veya inklüzyonlu taşlar, yapıştırılmış taşlar (inci küpeler gibi), zümrüt (yağ dolgusunu çıkarır), opal, tanzanit, lapis lazuli ve kaplamalı takılar.</p>
+
+<p>Ev tipi ultrasonik temizleyiciler 30–150 dolar arasında değişir. 42 kHz frekans standardı arayın. Temizleme süresini 3–5 dakikayla sınırlayın; fazlası gereksizdir ve risklidir.</p>
+
+<h3>Profesyonel Temizlik: Ne Zaman Gerekli?</h3>
+
+<p>Bazı durumlar evde çözülemez ve profesyonel kuyumcu müdahalesi gerekir: derin kararma veya oksitlenme (rodaj yenileme), taş montajının gevşemesi, yüzey çiziklerinin cilalanması, antika parçaların restorasyonu ve ultrasonik + buhar kombinasyonu gerektiren ağır kir birikimi. Çoğu kuyumcu yılda bir ücretsiz kontrol ve hafif temizlik sunar — bu hizmetten yararlanın.</p>
+
+<h3>En Sık Yapılan 5 Hata</h3>
+
+<p>Takı temizliğinde sıkça tekrarlanan hatalardan kaçının: (1) Diş macunu kullanmak — aşındırıcı partiküller yüzeyde mikroskobik çizikler bırakır. (2) Klor veya çamaşır suyu — altını ve gümüşü kalıcı olarak hasarlar. (3) Tüm taşları aynı yöntemle temizlemek — her taşın toleransı farklıdır. (4) Takıyı ıslak bırakmak — nem, özellikle gümüşte kararma hızını artırır. (5) Sert kıllı fırça kullanmak — altın ve gümüş yumuşak metallerdir, kolayca çizilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pratik İpucu</div>
+  <div class="ad-fact-callout-text">En güvenli evrensel yöntem: ılık su + bir damla bulaşık deterjanı + bebek diş fırçası. Bu üçlü kombinasyon, altın, platin ve sert taşların %90'ı için yeterlidir. Gümüş için karbonat + folyo, hassas taşlar için sadece nemli mikrofiber bez kullanın.</div>
+</div>
+
+<h3>Temizlik Sıklığı Rehberi</h3>
+
+<p>Günlük kullanılan takılar (nişan yüzüğü, evlilik alyansı) ayda bir hafif temizlik ve yılda iki profesyonel kontrol gerektirir. Ara sıra takılan parçalar sezon başı temizliği ile yetinebilir. Antika ve miras takılar sadece profesyonel ellerde temizlenmelidir. Her temizlik sonrası takıyı tamamen kurutun ve uygun şekilde saklayın.</p>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA (Gemological Institute of America) bakım rehberleri, Jewelers of America tüketici kılavuzları ve IJO (International Jewellery Organisation) standartlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Jewelry Cleaning Techniques</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Methods</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> techniques</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Coverage</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> metals</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Stone Types</div>
+    <div class="ad-metric-value">8+<span class="ad-metric-unit"> varieties</span></div>
+  </div>
+</div>
+
+<p>Keeping your jewelry as brilliant as the day you got it depends on proper cleaning techniques. The wrong chemical or an abrasive brush can permanently damage a precious piece. This guide covers safe cleaning methods by metal and stone type, from home-friendly solutions to professional-grade approaches.</p>
+
+<h3>Basic Home Cleaning: The Golden Rule</h3>
+
+<p>A formula safe for nearly every jewelry type: warm water (35–40°C) + a few drops of mild dish soap. Soak the piece for 15–20 minutes, then gently brush with a soft-bristled toothbrush (a baby toothbrush is ideal). Rinse and dry with a soft microfiber cloth. This works for gold, platinum, silver, stainless steel, and most hard gemstones.</p>
+
+<p>Key rules to follow: never use hot water (thermal shock can crack stones), avoid paper towels (they leave microscopic scratches), use a strainer when working near a sink, and apply perfume, lotion, and hairspray before putting on jewelry — the "last on, first off" rule.</p>
+
+<h3>Cleaning by Metal Type</h3>
+
+<p>Each metal's chemical makeup creates different cleaning requirements. The wrong approach can cause oxidation, discoloration, or surface damage:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gold (14K–24K)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Method</span><span class="value">Warm soapy water</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">15–20 min</span></div>
+      <div class="ad-compare-row"><span class="label">Brush</span><span class="value">Soft bristle</span></div>
+      <div class="ad-compare-row"><span class="label">Avoid</span><span class="value">Chlorine, ammonia</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonic</span><span class="value">✓ Safe</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Silver (925)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Method</span><span class="value">Silver polish / baking soda</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">5–10 min</span></div>
+      <div class="ad-compare-row"><span class="label">Brush</span><span class="value">Silver cloth</span></div>
+      <div class="ad-compare-row"><span class="label">Avoid</span><span class="value">Rubber, eggs</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonic</span><span class="value">✓ No stones</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Platinum</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Method</span><span class="value">Warm soapy water</span></div>
+      <div class="ad-compare-row"><span class="label">Duration</span><span class="value">20–30 min</span></div>
+      <div class="ad-compare-row"><span class="label">Brush</span><span class="value">Soft bristle</span></div>
+      <div class="ad-compare-row"><span class="label">Avoid</span><span class="value">Abrasives</span></div>
+      <div class="ad-compare-row"><span class="label">Ultrasonic</span><span class="value">✓ Safe</span></div>
+    </div>
+  </div>
+</div>
+
+<p>A special method for silver: the aluminum foil + baking soda technique. Line a bowl with aluminum foil, add a tablespoon of baking soda, and pour in boiling water. Place tarnished silver in the solution for 2–3 minutes. Through an electrochemical reaction, sulfur compounds transfer to the aluminum and the silver shines. This method is ideal for pieces without stones.</p>
+
+<h3>Cleaning by Stone Type</h3>
+
+<p>Gemstones vary enormously in hardness and chemical resistance. A method harmless to a diamond can destroy an opal:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Durable Stones (Mohs 7+)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Diamond</span><span class="value">Soapy water, ultrasonic ✓</span></div>
+      <div class="ad-compare-row"><span class="label">Sapphire / Ruby</span><span class="value">Soapy water, ultrasonic ✓</span></div>
+      <div class="ad-compare-row"><span class="label">Topaz</span><span class="value">Soapy water, no steam</span></div>
+      <div class="ad-compare-row"><span class="label">Amethyst</span><span class="value">Soapy water, warm ✓</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Delicate Stones (Mohs &lt;7)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pearl</span><span class="value">Damp cloth, no chemicals</span></div>
+      <div class="ad-compare-row"><span class="label">Opal</span><span class="value">Damp cloth, avoid heat</span></div>
+      <div class="ad-compare-row"><span class="label">Emerald</span><span class="value">Warm water, no ultrasonic</span></div>
+      <div class="ad-compare-row"><span class="label">Turquoise</span><span class="value">Dry cloth, no water</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Pearls require special attention: keep them away from acidic environments (lemon juice, vinegar), perfume, and hairspray. Wipe with a soft cloth after every wear. Pearl necklace strands should be professionally inspected once a year.</p>
+
+<h3>Ultrasonic Cleaners</h3>
+
+<p>Ultrasonic cleaners use high-frequency sound waves to create micro-bubbles that dissolve grime. Excellent for diamonds, sapphires, rubies, gold, and platinum. However, never use them on cracked or heavily included stones, glued settings (like pearl earrings), emeralds (strips oil treatment), opals, tanzanite, lapis lazuli, or coated jewelry.</p>
+
+<p>Home ultrasonic units range from $30 to $150. Look for the standard 42 kHz frequency. Limit cleaning cycles to 3–5 minutes — longer is unnecessary and risky.</p>
+
+<h3>Professional Cleaning: When Is It Necessary?</h3>
+
+<p>Some situations need a professional jeweler: deep tarnish or oxidation (rhodium replating), loose stone settings, polishing out surface scratches, antique restoration, and heavy grime requiring an ultrasonic + steam combination. Most jewelers offer a free annual check-up and light cleaning — take advantage of this service.</p>
+
+<h3>5 Most Common Mistakes</h3>
+
+<p>Avoid these frequently repeated errors: (1) Using toothpaste — abrasive particles leave microscopic scratches. (2) Chlorine or bleach — permanently damages gold and silver. (3) Cleaning all stones the same way — each stone has different tolerances. (4) Leaving jewelry wet — moisture accelerates tarnishing, especially on silver. (5) Using a stiff-bristled brush — gold and silver are soft metals that scratch easily.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pro Tip</div>
+  <div class="ad-fact-callout-text">The safest universal method: warm water + one drop of dish soap + a baby toothbrush. This trio handles 90% of gold, platinum, and hard gemstone cleaning. For silver, use baking soda + foil; for delicate stones, stick to a damp microfiber cloth only.</div>
+</div>
+
+<h3>How Often to Clean</h3>
+
+<p>Daily-wear pieces (engagement rings, wedding bands) need a light clean monthly and two professional check-ups per year. Occasionally worn items can get by with a seasonal cleaning. Antique and heirloom jewelry should only be cleaned by professionals. After every clean, dry pieces thoroughly and store them properly.</p>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA (Gemological Institute of America) care guides, Jewelers of America consumer guides, and IJO (International Jewellery Organisation) standards.</p>`,
+
+  ar: `<h2>تقنيات تنظيف المجوهرات</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الطرق</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> تقنيات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التغطية</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> معادن</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أنواع الأحجار</div>
+    <div class="ad-metric-value">8+<span class="ad-metric-unit"> نوع</span></div>
+  </div>
+</div>
+
+<p>الحفاظ على لمعان مجوهراتك كأول يوم يعتمد على تقنيات التنظيف الصحيحة. مادة كيميائية خاطئة أو فرشاة خشنة قد تتلف قطعة ثمينة بشكل دائم. يغطي هذا الدليل طرق التنظيف الآمنة حسب نوع المعدن والحجر، من الحلول المنزلية إلى الأساليب المهنية.</p>
+
+<h3>التنظيف المنزلي الأساسي</h3>
+
+<p>الوصفة الآمنة لمعظم أنواع المجوهرات: ماء دافئ (35–40°م) + بضع قطرات من سائل غسيل الصحون. انقع القطعة لمدة 15–20 دقيقة، ثم افركها بلطف بفرشاة أسنان ناعمة (فرشاة أسنان الأطفال مثالية). اشطف وجفف بقطعة قماش ألياف دقيقة ناعمة. تصلح هذه الطريقة للذهب والبلاتين والفضة والفولاذ ومعظم الأحجار الصلبة.</p>
+
+<p>قواعد أساسية: لا تستخدم الماء الساخن أبداً (الصدمة الحرارية قد تشقق الأحجار). لا تستخدم المناشف الورقية (تترك خدوشاً مجهرية). استخدم مصفاة عند العمل قرب الحوض. ضع العطر والمرطب قبل ارتداء المجوهرات — قاعدة "آخر ما يُرتدى، أول ما يُخلع".</p>
+
+<h3>التنظيف حسب نوع المعدن</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الذهب (14–24 قيراط)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطريقة</span><span class="value">ماء دافئ وصابون</span></div>
+      <div class="ad-compare-row"><span class="label">المدة</span><span class="value">15–20 دقيقة</span></div>
+      <div class="ad-compare-row"><span class="label">تجنب</span><span class="value">الكلور والأمونيا</span></div>
+      <div class="ad-compare-row"><span class="label">الموجات فوق الصوتية</span><span class="value">✓ آمن</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الفضة (925)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطريقة</span><span class="value">ملمع فضة / بيكربونات</span></div>
+      <div class="ad-compare-row"><span class="label">المدة</span><span class="value">5–10 دقائق</span></div>
+      <div class="ad-compare-row"><span class="label">تجنب</span><span class="value">المطاط والبيض</span></div>
+      <div class="ad-compare-row"><span class="label">الموجات فوق الصوتية</span><span class="value">✓ بدون أحجار</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">البلاتين</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الطريقة</span><span class="value">ماء دافئ وصابون</span></div>
+      <div class="ad-compare-row"><span class="label">المدة</span><span class="value">20–30 دقيقة</span></div>
+      <div class="ad-compare-row"><span class="label">تجنب</span><span class="value">المواد الكاشطة</span></div>
+      <div class="ad-compare-row"><span class="label">الموجات فوق الصوتية</span><span class="value">✓ آمن</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>التنظيف حسب نوع الحجر</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أحجار متينة (موس 7+)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الألماس</span><span class="value">ماء وصابون، موجات ✓</span></div>
+      <div class="ad-compare-row"><span class="label">الياقوت / السفير</span><span class="value">ماء وصابون، موجات ✓</span></div>
+      <div class="ad-compare-row"><span class="label">التوباز</span><span class="value">ماء وصابون، بدون بخار</span></div>
+      <div class="ad-compare-row"><span class="label">الجمشت</span><span class="value">ماء دافئ وصابون ✓</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">أحجار حساسة (موس &lt;7)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">اللؤلؤ</span><span class="value">قماش رطب، بدون مواد كيميائية</span></div>
+      <div class="ad-compare-row"><span class="label">العقيق</span><span class="value">قماش رطب، بعيد عن الحرارة</span></div>
+      <div class="ad-compare-row"><span class="label">الزمرد</span><span class="value">ماء دافئ، بدون موجات</span></div>
+      <div class="ad-compare-row"><span class="label">الفيروز</span><span class="value">قماش جاف، بدون ماء</span></div>
+    </div>
+  </div>
+</div>
+
+<p>اللآلئ تحتاج عناية خاصة: أبعدها عن الأحماض (عصير الليمون والخل) والعطور ومثبت الشعر. امسحها بقطعة قماش ناعمة بعد كل استخدام. يجب فحص خيط عقد اللؤلؤ مهنياً مرة سنوياً.</p>
+
+<h3>التنظيف بالموجات فوق الصوتية</h3>
+
+<p>تستخدم هذه الأجهزة موجات صوتية عالية التردد لتكوين فقاعات دقيقة تُذيب الأوساخ. ممتازة للألماس والياقوت والسفير والذهب والبلاتين. لكن لا تستخدمها أبداً مع الأحجار المشقوقة أو الملصقة أو الزمرد أو العقيق أو التنزانيت أو المجوهرات المطلية.</p>
+
+<h3>الأخطاء الخمسة الأكثر شيوعاً</h3>
+
+<p>تجنب هذه الأخطاء: (1) استخدام معجون الأسنان — يترك خدوشاً مجهرية. (2) الكلور أو المبيض — يتلف الذهب والفضة بشكل دائم. (3) تنظيف جميع الأحجار بنفس الطريقة. (4) ترك المجوهرات مبللة. (5) استخدام فرشاة خشنة.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة عملية</div>
+  <div class="ad-fact-callout-text">أكثر الطرق أماناً: ماء دافئ + قطرة سائل غسيل + فرشاة أسنان أطفال. هذا الثلاثي يكفي لـ90% من تنظيف الذهب والبلاتين والأحجار الصلبة. للفضة استخدم بيكربونات الصوديوم + رقائق الألمنيوم، وللأحجار الحساسة قماش ألياف دقيقة رطب فقط.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة العناية من GIA، وأدلة المستهلك من Jewelers of America، ومعايير IJO.</p>`
+};
+
+C[174] = {
+  tr: `<h2>Takı Depolama ve Koruma</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">İdeal Nem</div>
+    <div class="ad-metric-value">40–50<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kural</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> temel</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Koruma</div>
+    <div class="ad-metric-value">Anti-tarnish</div>
+  </div>
+</div>
+
+<p>Takı temizliği kadar önemli olan bir konu da doğru depolama ve korumadır. Yanlış saklanan bir gümüş kolye aylar içinde kararır, birbiriyle temas eden pırlantalar birbirini çizer, nemli ortamda bırakılan inci kolye zamanla matlaşır. Bu rehber, takılarınızın ömrünü en üst düzeye çıkaracak depolama ve koruma tekniklerini kapsamlı biçimde ele alır.</p>
+
+<h3>6 Temel Depolama Kuralı</h3>
+
+<p>Her takı sahibinin bilmesi gereken altı vazgeçilmez kural şunlardır: (1) Her parçayı ayrı ayrı saklayın — metaller ve taşlar birbirine temas ettiğinde çizilir. (2) Kutu veya poşetin iç yüzeyinin yumuşak olmasını sağlayın — kadife, süet veya mikrofiber idealdir. (3) Doğrudan güneş ışığından uzak tutun — UV ışınları ametist, topaz ve turkuaz renklerini soldurabilir. (4) Nem kontrolü yapın — %40–50 bağıl nem idealdir. (5) Tüm takıları takmadan önce son giydiğiniz aksesuar, çıkardığınızda ilk çıkardığınız olsun. (6) Metal klipsleri ve fermuarları kapatın — açık bir kanca başka parçaları çizebilir.</p>
+
+<h3>Anti-Tarnish Çözümler</h3>
+
+<p>Kararma (tarnish) özellikle gümüş takıların en büyük düşmanıdır. Havadaki kükürt hidrojen (H₂S) ile tepkimeye girerek gümüş sülfür tabakası oluşturur. Bunu önlemek veya yavaşlatmak için çeşitli çözümler mevcuttur:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pasif Koruma</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Anti-tarnish stripleri</span><span class="value">6–12 ay koruma</span></div>
+      <div class="ad-compare-row"><span class="label">Silika jel paketleri</span><span class="value">Nem emici, 2–3 ay</span></div>
+      <div class="ad-compare-row"><span class="label">Anti-tarnish poşet</span><span class="value">Uzun süreli izolasyon</span></div>
+      <div class="ad-compare-row"><span class="label">Aktif karbon filtre</span><span class="value">Kükürt emici</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Aktif Koruma</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Rodaj kaplama</span><span class="value">Beyaz altın/gümüş, 1–2 yıl</span></div>
+      <div class="ad-compare-row"><span class="label">E-coating</span><span class="value">Elektroforetik, 2–3 yıl</span></div>
+      <div class="ad-compare-row"><span class="label">Laker/vernik</span><span class="value">Geçici bariyer, 6 ay</span></div>
+      <div class="ad-compare-row"><span class="label">Nano kaplama</span><span class="value">Yeni teknoloji, 1+ yıl</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Anti-tarnish stripleri en pratik çözümdür: takı kutusuna veya fermuar poşete bir strip yerleştirmeniz yeterlidir. Bu stripler havadaki kükürt bileşiklerini absorbe ederek gümüşe ulaşmasını engeller. Ortalama 6–12 ay etkili kalır; renkleri değiştiğinde (genellikle kahverengileşir) değiştirilmelidir.</p>
+
+<h3>Nem ve Sıcaklık Kontrolü</h3>
+
+<p>İdeal depolama koşulları %40–50 bağıl nem ve 15–25°C sıcaklıktır. Aşırı nem gümüşte kararmayı hızlandırır ve organik taşlarda (inci, mercan, kehribar) bozulmaya yol açar. Aşırı kuru ortam ise opal ve inciyi çatlatabilir — bu taşlar su içerir ve kurudukça büzüşür.</p>
+
+<p>Banyoda takı saklamak en sık yapılan hatalardan biridir: banyo nemi sürekli yüksektir. Mutfak da benzer riskler taşır (yağ buharı, nem). İdeal konum: yatak odası dolabı veya özel bir takı dolabı.</p>
+
+<h3>Takı Saklama Seçenekleri</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Takı Kutusu</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Düzenli, bölmeli</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Yüzük, küpe, bilezik</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺200–2.000+</span></div>
+      <div class="ad-compare-row"><span class="label">Tavsiye</span><span class="value">Kadife iç astar</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Takı Dolabı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Büyük koleksiyon</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">50+ parça</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺500–5.000+</span></div>
+      <div class="ad-compare-row"><span class="label">Tavsiye</span><span class="value">Kilitli, aynalı</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Seyahat Düzenleyicisi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Kompakt, taşınabilir</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">5–15 parça</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺100–800</span></div>
+      <div class="ad-compare-row"><span class="label">Tavsiye</span><span class="value">Fermuarlı, yastıklı</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Seyahatte Takı Koruma</h3>
+
+<p>Seyahatte takı taşımak özel dikkat gerektirir. Her parçayı ayrı yumuşak poşete koyun — bir fermuar poşet + mikrofiber bez kombinasyonu yeterlidir. Değerli parçaları el bagajında taşıyın, asla valize koymayın. Otel kasasını kullanın. Plaj ve havuzda takılarınızı çıkarın — kum aşındırıcıdır, klor hasarlayıcıdır, tuzlu su korozif olabilir.</p>
+
+<p>Uçuş sırasında kabin basıncı değişimleri bazı hassas taşları etkileyebilir; özellikle çatlak içeren opaller risk altındadır. Değerli taş koleksiyonlarını basınçlandırılmış kabin bölümünde tutun.</p>
+
+<h3>Sigorta ve Değerleme</h3>
+
+<p>Değerli takı koleksiyonları için sigorta düşünülmelidir. Türkiye'de konut sigortası poliçeleri genellikle takı için sınırlı kapsam sunar. Özel mücevher sigortası (floater poliçe) hırsızlık, kayıp, hasar ve gizemli kaybolma durumlarını kapsar. Sigorta için güncel değerleme raporu (GIA veya bağımsız değerleme uzmanı) gereklidir; raporu her 2–3 yılda güncelleyin.</p>
+
+<h3>Özel Taş Saklama Notları</h3>
+
+<p>Pırlanta: Diğer taşları çizebilir — her zaman ayrı tutun. İnci: Hava almalıdır — kapalı kasada uzun süre bırakmayın; yılda birkaç kez takın. Opal: %40–60 nem gerektirir — kuru iklimlerde yanına nemli bir pamuk koyun. Zümrüt: Darbe ve ısı değişimlerine karşı hassas — yumuşak yastıklı bölmede saklayın. Turkuaz: Yağ ve kimyasal absorbe eder — her zaman kuru, temiz poşette tutun.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Uzman Önerisi</div>
+  <div class="ad-fact-callout-text">Takı kutunuza bir küçük anti-tarnish strip ve bir silika jel paketi yerleştirin. Bu iki ucuz aksesuar, gümüş takılarınızın kararmadan aylar boyunca parlak kalmasını sağlar. Stripleri 6 ayda bir, silika jeli 2–3 ayda bir değiştirin.</div>
+</div>
+
+<h3>Envanter ve Kayıt</h3>
+
+<p>Koleksiyonunuzun fotoğraflı bir envanterini tutmak hem sigorta hem de miras planlaması için kritiktir. Her parçanın ön-arka fotoğrafı, alış fiyatı, sertifikası (varsa), değerleme raporu tarihi ve satıcı bilgilerini kaydedin. Bu kayıtları dijital olarak da yedekleyin (bulut depolama). Özellikle düğün takıları ve yatırım amaçlı parçalar için bu belgeleme hayati önem taşır.</p>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA bakım rehberleri, Jewelers Mutual sigorta kaynaklari, Silver Institute saklama kılavuzları ve IJO standartlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Jewelry Storage & Protection</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ideal Humidity</div>
+    <div class="ad-metric-value">40–50<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Rules</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> essentials</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Protection</div>
+    <div class="ad-metric-value">Anti-tarnish</div>
+  </div>
+</div>
+
+<p>Proper storage and protection matter just as much as cleaning. A poorly stored silver necklace tarnishes within months, diamonds in contact scratch each other, and pearls left in humid conditions gradually lose their luster. This guide covers storage and protection techniques that will maximize the lifespan of your jewelry collection.</p>
+
+<h3>6 Essential Storage Rules</h3>
+
+<p>Six non-negotiable rules every jewelry owner should follow: (1) Store each piece separately — metals and stones scratch each other on contact. (2) Ensure the lining is soft — velvet, suede, or microfiber is ideal. (3) Keep away from direct sunlight — UV rays can fade amethyst, topaz, and turquoise. (4) Control humidity — 40–50% relative humidity is optimal. (5) Jewelry should be the last thing you put on and the first thing you take off. (6) Close all clasps and zippers — an open hook can scratch other pieces.</p>
+
+<h3>Anti-Tarnish Solutions</h3>
+
+<p>Tarnish is silver jewelry's greatest enemy. Hydrogen sulfide (H₂S) in the air reacts with silver to form a silver sulfide layer. Various solutions can prevent or slow this process:</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Passive Protection</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Anti-tarnish strips</span><span class="value">6–12 months protection</span></div>
+      <div class="ad-compare-row"><span class="label">Silica gel packets</span><span class="value">Moisture absorber, 2–3 mo</span></div>
+      <div class="ad-compare-row"><span class="label">Anti-tarnish bags</span><span class="value">Long-term isolation</span></div>
+      <div class="ad-compare-row"><span class="label">Activated carbon filter</span><span class="value">Sulfur absorber</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Active Protection</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Rhodium plating</span><span class="value">White gold/silver, 1–2 yr</span></div>
+      <div class="ad-compare-row"><span class="label">E-coating</span><span class="value">Electrophoretic, 2–3 yr</span></div>
+      <div class="ad-compare-row"><span class="label">Lacquer/varnish</span><span class="value">Temporary barrier, 6 mo</span></div>
+      <div class="ad-compare-row"><span class="label">Nano-coating</span><span class="value">New tech, 1+ yr</span></div>
+    </div>
+  </div>
+</div>
+
+<p>Anti-tarnish strips are the most practical solution: simply place a strip in your jewelry box or ziplock bag. These strips absorb sulfur compounds from the air before they reach the silver. They remain effective for 6–12 months on average; replace when they change color (usually turning brown).</p>
+
+<h3>Humidity and Temperature Control</h3>
+
+<p>Ideal storage conditions are 40–50% relative humidity and 15–25°C temperature. Excessive moisture accelerates silver tarnishing and causes deterioration in organic gems (pearl, coral, amber). Overly dry air can crack opals and pearls — these stones contain water and shrink as they dry out.</p>
+
+<p>Storing jewelry in the bathroom is one of the most common mistakes: bathroom humidity is consistently high. The kitchen poses similar risks (oil vapor, moisture). The ideal location is a bedroom closet or a dedicated jewelry cabinet.</p>
+
+<h3>Storage Options</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Jewelry Box</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Organized, compartmented</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal for</span><span class="value">Rings, earrings, bracelets</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$15–150+</span></div>
+      <div class="ad-compare-row"><span class="label">Look for</span><span class="value">Velvet lining</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Jewelry Armoire</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Large collections</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal for</span><span class="value">50+ pieces</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$50–500+</span></div>
+      <div class="ad-compare-row"><span class="label">Look for</span><span class="value">Locking, mirrored</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Travel Organizer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Advantage</span><span class="value">Compact, portable</span></div>
+      <div class="ad-compare-row"><span class="label">Ideal for</span><span class="value">5–15 pieces</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$10–60</span></div>
+      <div class="ad-compare-row"><span class="label">Look for</span><span class="value">Zip-close, padded</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Jewelry Protection While Traveling</h3>
+
+<p>Traveling with jewelry demands extra care. Place each piece in its own soft pouch — a ziplock bag + microfiber cloth combo works well. Carry valuables in your hand luggage, never in checked bags. Use the hotel safe. Remove jewelry at the beach and pool — sand is abrasive, chlorine is damaging, and salt water can be corrosive.</p>
+
+<p>In-flight cabin pressure changes can affect certain delicate stones; opals with inclusions or fractures are particularly at risk. Keep valuable stone collections in the pressurized cabin compartment.</p>
+
+<h3>Insurance and Appraisal</h3>
+
+<p>Valuable jewelry collections should be insured. Standard homeowner policies often provide limited jewelry coverage. A dedicated jewelry insurance policy (floater policy) covers theft, loss, damage, and mysterious disappearance. Insurance requires a current appraisal report (GIA or independent appraiser); update the report every 2–3 years.</p>
+
+<h3>Stone-Specific Storage Notes</h3>
+
+<p>Diamond: Can scratch other stones — always keep separate. Pearl: Needs air circulation — don't leave sealed in a box for extended periods; wear a few times per year. Opal: Requires 40–60% humidity — in dry climates, place a damp cotton ball nearby. Emerald: Sensitive to impact and temperature swings — store in a soft padded compartment. Turquoise: Absorbs oils and chemicals — always store in a clean, dry pouch.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Expert Tip</div>
+  <div class="ad-fact-callout-text">Place a small anti-tarnish strip and a silica gel packet inside your jewelry box. These two inexpensive accessories will keep your silver gleaming for months without tarnishing. Replace the strips every 6 months and the silica gel every 2–3 months.</div>
+</div>
+
+<h3>Inventory and Documentation</h3>
+
+<p>Maintaining a photographed inventory of your collection is critical for both insurance and estate planning. Record front and back photos, purchase price, certificates (if any), appraisal report dates, and seller information for each piece. Back up these records digitally (cloud storage). This documentation is especially vital for wedding jewelry and investment pieces.</p>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA care guides, Jewelers Mutual insurance resources, Silver Institute storage guides, and IJO standards.</p>`,
+
+  ar: `<h2>تخزين وحماية المجوهرات</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الرطوبة المثالية</div>
+    <div class="ad-metric-value">40–50<span class="ad-metric-unit">%</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">القواعد</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> أساسية</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الحماية</div>
+    <div class="ad-metric-value">مضاد للتأكسد</div>
+  </div>
+</div>
+
+<p>التخزين والحماية الصحيحان لا يقلان أهمية عن التنظيف. قلادة فضية مخزنة بطريقة خاطئة تتأكسد خلال أشهر، والألماس المتلامس يخدش بعضه البعض، واللآلئ في بيئة رطبة تفقد لمعانها تدريجياً. يغطي هذا الدليل تقنيات التخزين والحماية لإطالة عمر مجوهراتك.</p>
+
+<h3>6 قواعد تخزين أساسية</h3>
+
+<p>ست قواعد لا غنى عنها: (1) خزّن كل قطعة على حدة — المعادن والأحجار تخدش بعضها عند التلامس. (2) تأكد من أن البطانة ناعمة — المخمل أو الألياف الدقيقة. (3) أبعد عن أشعة الشمس المباشرة — الأشعة فوق البنفسجية تبهت ألوان بعض الأحجار. (4) تحكم بالرطوبة — 40–50% رطوبة نسبية مثالية. (5) المجوهرات آخر ما يُرتدى وأول ما يُخلع. (6) أغلق جميع المشابك والسحابات.</p>
+
+<h3>حلول مضادة للتأكسد</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الحماية السلبية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">شرائط مضادة للتأكسد</span><span class="value">حماية 6–12 شهر</span></div>
+      <div class="ad-compare-row"><span class="label">أكياس السيليكا جل</span><span class="value">ماص للرطوبة، 2–3 أشهر</span></div>
+      <div class="ad-compare-row"><span class="label">أكياس مضادة للتأكسد</span><span class="value">عزل طويل الأمد</span></div>
+      <div class="ad-compare-row"><span class="label">فلتر كربون نشط</span><span class="value">ماص للكبريت</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الحماية النشطة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">طلاء الروديوم</span><span class="value">ذهب أبيض/فضة، 1–2 سنة</span></div>
+      <div class="ad-compare-row"><span class="label">الطلاء الإلكتروني</span><span class="value">إلكتروفوريتيك، 2–3 سنوات</span></div>
+      <div class="ad-compare-row"><span class="label">الورنيش</span><span class="value">حاجز مؤقت، 6 أشهر</span></div>
+      <div class="ad-compare-row"><span class="label">طلاء نانو</span><span class="value">تقنية حديثة، 1+ سنة</span></div>
+    </div>
+  </div>
+</div>
+
+<p>شرائط مضادات التأكسد هي الحل الأعملي: ضع شريطاً في صندوق المجوهرات أو الكيس المغلق. تمتص هذه الشرائط مركبات الكبريت من الهواء قبل وصولها للفضة. تبقى فعالة لمدة 6–12 شهراً؛ استبدلها عندما يتغير لونها.</p>
+
+<h3>التحكم بالرطوبة ودرجة الحرارة</h3>
+
+<p>الظروف المثالية: 40–50% رطوبة نسبية و15–25 درجة مئوية. الرطوبة الزائدة تسرّع تأكسد الفضة وتضر بالأحجار العضوية (اللؤلؤ والمرجان والعنبر). الجفاف الشديد قد يشقق العقيق واللؤلؤ — هذه الأحجار تحتوي على ماء وتنكمش عند الجفاف.</p>
+
+<p>تخزين المجوهرات في الحمام خطأ شائع: رطوبة الحمام مرتفعة باستمرار. المطبخ أيضاً يحمل مخاطر مشابهة. المكان المثالي: خزانة غرفة النوم أو خزانة مجوهرات مخصصة.</p>
+
+<h3>خيارات التخزين</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">صندوق المجوهرات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الميزة</span><span class="value">منظم بأقسام</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">الخواتم والأقراط</span></div>
+      <div class="ad-compare-row"><span class="label">ابحث عن</span><span class="value">بطانة مخملية</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">خزانة المجوهرات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الميزة</span><span class="value">مجموعات كبيرة</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">50+ قطعة</span></div>
+      <div class="ad-compare-row"><span class="label">ابحث عن</span><span class="value">بقفل ومرآة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">منظم السفر</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الميزة</span><span class="value">مدمج ومحمول</span></div>
+      <div class="ad-compare-row"><span class="label">مثالي لـ</span><span class="value">5–15 قطعة</span></div>
+      <div class="ad-compare-row"><span class="label">ابحث عن</span><span class="value">بسحاب ومبطن</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>حماية المجوهرات أثناء السفر</h3>
+
+<p>ضع كل قطعة في حقيبة ناعمة منفصلة. احمل القطع الثمينة في حقيبة اليد، ولا تضعها أبداً في الأمتعة المسجلة. استخدم خزنة الفندق. اخلع المجوهرات على الشاطئ وفي المسبح — الرمل كاشط والكلور مضر والماء المالح يسبب التآكل.</p>
+
+<h3>التأمين والتقييم</h3>
+
+<p>المجموعات الثمينة تحتاج تأميناً. وثائق التأمين المنزلي توفر تغطية محدودة عادةً. التأمين المخصص للمجوهرات يغطي السرقة والفقدان والتلف. يتطلب تقرير تقييم حديث؛ حدّثه كل 2–3 سنوات.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة خبير</div>
+  <div class="ad-fact-callout-text">ضع شريطاً صغيراً مضاداً للتأكسد وكيس سيليكا جل داخل صندوق مجوهراتك. هذان الملحقان غير المكلفين سيحافظان على لمعان فضتك لأشهر دون تأكسد. استبدل الشرائط كل 6 أشهر والسيليكا كل 2–3 أشهر.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة العناية من GIA وموارد Jewelers Mutual وأدلة التخزين من Silver Institute ومعايير IJO.</p>`
+};
+
+C[175] = {
+  tr: `<h2>Takı Hediye Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Özel Gün</div>
+    <div class="ad-metric-value">12<span class="ad-metric-unit"> durum</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Bütçe</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> kademe</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hedef</div>
+    <div class="ad-metric-value">Her Yaş</div>
+  </div>
+</div>
+
+<p>Takı, doğru seçildiğinde en anlamlı hediyelerden biridir — kalıcıdır, kişiseldir ve her kullanımda veren kişiyi hatırlatır. Ama yanlış seçim, hediyenin çekmecede kalmasına yol açabilir. Bu rehber, özel günlere, bütçelere ve alıcının tarzına göre mükemmel takı hediyesini seçmenize yardımcı olacak kapsamlı bir kılavuzdur.</p>
+
+<h3>Yıldönümü Gelenekleri: Metal ve Taş Karşılıkları</h3>
+
+<p>Batı geleneğinde her evlilik yıldönümünün karşılık geldiği bir metal veya mücevher vardır. Bu gelenek, hediye seçiminde hem anlamlı bir çerçeve hem pratik bir rehber sunar:</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Evlilik yıldönümü geleneksel takı karşılıkları">
+    <title>Yıldönümü takı rehberi</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="60" cy="80" r="4" class="tl-dot"/>
+      <text x="60" y="60" text-anchor="middle" class="tl-year">1. Yıl</text>
+      <text x="60" y="105" text-anchor="middle" class="tl-label">Altın</text>
+    </g>
+    <g>
+      <circle cx="175" cy="80" r="4" class="tl-dot"/>
+      <text x="175" y="60" text-anchor="middle" class="tl-year">5. Yıl</text>
+      <text x="175" y="105" text-anchor="middle" class="tl-label">Safir</text>
+    </g>
+    <g>
+      <circle cx="290" cy="80" r="4" class="tl-dot"/>
+      <text x="290" y="60" text-anchor="middle" class="tl-year">10. Yıl</text>
+      <text x="290" y="105" text-anchor="middle" class="tl-label">Pırlanta</text>
+    </g>
+    <g>
+      <circle cx="410" cy="80" r="4" class="tl-dot"/>
+      <text x="410" y="60" text-anchor="middle" class="tl-year">15. Yıl</text>
+      <text x="410" y="105" text-anchor="middle" class="tl-label">Yakut</text>
+    </g>
+    <g>
+      <circle cx="525" cy="80" r="4" class="tl-dot"/>
+      <text x="525" y="60" text-anchor="middle" class="tl-year">25. Yıl</text>
+      <text x="525" y="105" text-anchor="middle" class="tl-label">Gümüş</text>
+    </g>
+    <g>
+      <circle cx="630" cy="80" r="5" class="tl-dot-active"/>
+      <text x="630" y="60" text-anchor="middle" class="tl-year">50. Yıl</text>
+      <text x="630" y="105" text-anchor="middle" class="tl-label">Altın</text>
+    </g>
+  </svg>
+</div>
+
+<p>Bu gelenekte ilk yıl altın (modern yorum), 5. yıl safir, 10. yıl pırlanta, 15. yıl yakut, 25. yıl gümüş (gümüş düğün), 30. yıl inci, 40. yıl yakut ve 50. yıl altın (altın düğün) ile eşleştirilir. Türk kültüründe düğün yıldönümlerinde takı hediye etmek genel bir gelenektir; belirli taş karşılıkları daha esnektir.</p>
+
+<h3>Özel Günlere Göre Takı Seçimi</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Romantik Günler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Sevgililer Günü</span><span class="value">Kalp kolye, yüzük</span></div>
+      <div class="ad-compare-row"><span class="label">Yıldönümü</span><span class="value">Geleneksel taş, set</span></div>
+      <div class="ad-compare-row"><span class="label">Nişan</span><span class="value">Tektaş, alyans</span></div>
+      <div class="ad-compare-row"><span class="label">Evlilik teklifi</span><span class="value">Pırlanta solitaire</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Aile ve Kutlama</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Anneler Günü</span><span class="value">İnci, doğum taşı kolye</span></div>
+      <div class="ad-compare-row"><span class="label">Doğum günü</span><span class="value">Doğum taşı takı</span></div>
+      <div class="ad-compare-row"><span class="label">Mezuniyet</span><span class="value">Zarif bilezik, kolye</span></div>
+      <div class="ad-compare-row"><span class="label">Bebek doğumu</span><span class="value">Anne kolye, isim bilezik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bütçeye Göre Hediye Önerileri</h3>
+
+<p>Her bütçe diliminde anlamlı ve kaliteli takı seçenekleri mevcuttur. Önemli olan fiyat değil, düşüncelilik ve kişiye uygunluktur:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">₺500–2.000</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Gümüş</span><span class="value">925 ayar kolye, bilezik</span></div>
+      <div class="ad-compare-row"><span class="label">Taş</span><span class="value">Ametist, topaz, akuamarin</span></div>
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Minimal, günlük kullanım</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">₺2.000–8.000</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Metal</span><span class="value">14K altın, kaliteli gümüş</span></div>
+      <div class="ad-compare-row"><span class="label">Taş</span><span class="value">İnci, granat, peridot</span></div>
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Şık, çok yönlü</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">₺8.000+</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Metal</span><span class="value">18K altın, platin</span></div>
+      <div class="ad-compare-row"><span class="label">Taş</span><span class="value">Pırlanta, safir, yakut</span></div>
+      <div class="ad-compare-row"><span class="label">Stil</span><span class="value">Yatırım kalitesi, statement</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Doğum Taşları: Aya Göre Rehber</h3>
+
+<p>Doğum taşı takıları son derece kişisel ve anlamlı hediyelerdir. Her aya karşılık gelen taş şöyledir: Ocak — garnet (koyu kırmızı), Şubat — ametist (mor), Mart — akuamarin (açık mavi), Nisan — pırlanta, Mayıs — zümrüt, Haziran — inci veya aleksadrit, Temmuz — yakut, Ağustos — peridot (yeşil), Eylül — safir, Ekim — opal veya turmalin, Kasım — topaz veya sitrin, Aralık — tanzanit veya turkuaz. Anne kolyelerinde birden fazla çocuğun doğum taşları bir arada kullanılabilir.</p>
+
+<h3>Alıcının Tarzını Anlama</h3>
+
+<p>Başarılı bir takı hediyesinin sırrı, alıcının tarzını bilmektir. Gözlemlenmesi gerekenler: Genellikle altın mı yoksa gümüş mi takar? Minimal mi yoksa gösterişli mi tercih eder? İnce zincir mi yoksa kalın bilezik mi kullanır? Renkli taş mı yoksa sade metal mi sever? Var olan takılarına bakarak bu ipuçlarını kolayca çıkarabilirsiniz.</p>
+
+<p>Hediye seçerken yaygın hatalardan kaçının: Kendi zevkinizi alıcıya yansıtmak, bedeni bilmeden yüzük almak (dönüştürülemez), çok trend bir parça seçmek (kısa ömürlü), ve kişiselleştirme fırsatını kaçırmak (kazıma, gravür).</p>
+
+<h3>Kişiselleştirme Seçenekleri</h3>
+
+<p>Kişiselleştirilmiş takılar standart parçalardan çok daha anlamlıdır. Popüler seçenekler arasında isim/baş harf kazıma (gravür), özel tarih oyma (doğum günü, yıldönümü), koordinat kolyeler (özel bir mekanın koordinatları), doğum taşı kombinasyonları (anne kolyeleri) ve özel mesaj gravürü (yüzük iç kısmına) yer alır. Çoğu kuyumcu gravür hizmetini uygun fiyatlarla sunar.</p>
+
+<h3>Hediye Verme Etiketleri</h3>
+
+<p>Takı hediye ederken dikkat edilmesi gereken kültürel ve pratik noktalar vardır. Türk kültüründe altın hediye etmek gelenekseldir ve düğün, nişan, sünnet gibi törensel bağlamda yaygındır. Batı kültüründe nişan yüzüğü geleneksel olarak partnerden gelen bir sürprizdir. Bazı kültürlerde belirli taşların veya metallerin uğursuz sayıldığı durumlar olabilir — alıcının kültürel hassasiyetlerini dikkate alın.</p>
+
+<p>Hediye sunumunda ambalaj da etkiyi artırır. Kaliteli bir takı kutusu, bir not kartı ve hediye poşeti, takının algılanan değerini büyük ölçüde yükseltir. Sertifika veya değerleme belgesini hediyeyle birlikte sunmak, özellikle değerli parçalar için güven yaratır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Hediye İpucu</div>
+  <div class="ad-fact-callout-text">Yüzük bedeni bilmiyorsanız, kolye veya küpe daha güvenli bir seçimdir — beden sorunu olmaz. Eğer mutlaka yüzük vermek istiyorsanız, alıcının mevcut bir yüzüğünü ödünç alıp bir kuyumcuda ölçtürebilirsiniz. Çoğu kuyumcu 30 gün içinde beden değişimi sunar.</div>
+</div>
+
+<h3>Erkekler İçin Takı Hediyeleri</h3>
+
+<p>Erkeklere takı hediye ederken en güvenli seçenekler şunlardır: kol düğmeleri (profesyonel ortam için idealdir), sade bir gümüş veya deri bilezik, ince zincir kolye (altın veya gümüş), yüzük (alyans veya şövalye yüzük) ve kravat iğnesi. Erkek takılarında genellikle daha minimal ve maskülen tasarımlar tercih edilir.</p>
+
+<h3>Kaynak Notu</h3>
+
+<p>Jewelers of America hediye rehberleri, GIA doğum taşı kaynakları, National Jeweler pazar verileri ve kültürel gelenek araştırmalarına dayanmaktadır.</p>`,
+
+  en: `<h2>Jewelry Gift Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Occasions</div>
+    <div class="ad-metric-value">12<span class="ad-metric-unit"> events</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Budget</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> tiers</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Audience</div>
+    <div class="ad-metric-value">All Ages</div>
+  </div>
+</div>
+
+<p>Jewelry, when chosen well, is one of the most meaningful gifts — it's lasting, personal, and reminds the wearer of the giver every time it's worn. But the wrong pick ends up forgotten in a drawer. This guide is a comprehensive companion for selecting the perfect jewelry gift, tailored to occasions, budgets, and the recipient's style.</p>
+
+<h3>Anniversary Traditions: Metals and Gemstones</h3>
+
+<p>Western tradition assigns a metal or gemstone to each wedding anniversary. This offers both a meaningful framework and a practical starting point for gift selection:</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="Wedding anniversary traditional jewelry pairings">
+    <title>Anniversary jewelry guide</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="60" cy="80" r="4" class="tl-dot"/>
+      <text x="60" y="60" text-anchor="middle" class="tl-year">1st Year</text>
+      <text x="60" y="105" text-anchor="middle" class="tl-label">Gold</text>
+    </g>
+    <g>
+      <circle cx="175" cy="80" r="4" class="tl-dot"/>
+      <text x="175" y="60" text-anchor="middle" class="tl-year">5th Year</text>
+      <text x="175" y="105" text-anchor="middle" class="tl-label">Sapphire</text>
+    </g>
+    <g>
+      <circle cx="290" cy="80" r="4" class="tl-dot"/>
+      <text x="290" y="60" text-anchor="middle" class="tl-year">10th Year</text>
+      <text x="290" y="105" text-anchor="middle" class="tl-label">Diamond</text>
+    </g>
+    <g>
+      <circle cx="410" cy="80" r="4" class="tl-dot"/>
+      <text x="410" y="60" text-anchor="middle" class="tl-year">15th Year</text>
+      <text x="410" y="105" text-anchor="middle" class="tl-label">Ruby</text>
+    </g>
+    <g>
+      <circle cx="525" cy="80" r="4" class="tl-dot"/>
+      <text x="525" y="60" text-anchor="middle" class="tl-year">25th Year</text>
+      <text x="525" y="105" text-anchor="middle" class="tl-label">Silver</text>
+    </g>
+    <g>
+      <circle cx="630" cy="80" r="5" class="tl-dot-active"/>
+      <text x="630" y="60" text-anchor="middle" class="tl-year">50th Year</text>
+      <text x="630" y="105" text-anchor="middle" class="tl-label">Gold</text>
+    </g>
+  </svg>
+</div>
+
+<p>In this tradition, the 1st year pairs with gold (modern interpretation), the 5th with sapphire, the 10th with diamond, the 15th with ruby, the 25th with silver (silver anniversary), the 30th with pearl, the 40th with ruby, and the 50th with gold (golden anniversary). These provide a thoughtful foundation, though personal preferences should always guide the final choice.</p>
+
+<h3>Choosing Jewelry by Occasion</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Romantic Occasions</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Valentine's Day</span><span class="value">Heart pendant, ring</span></div>
+      <div class="ad-compare-row"><span class="label">Anniversary</span><span class="value">Traditional stone, set</span></div>
+      <div class="ad-compare-row"><span class="label">Engagement</span><span class="value">Solitaire, band</span></div>
+      <div class="ad-compare-row"><span class="label">Proposal</span><span class="value">Diamond solitaire</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Family & Celebration</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Mother's Day</span><span class="value">Pearl, birthstone pendant</span></div>
+      <div class="ad-compare-row"><span class="label">Birthday</span><span class="value">Birthstone jewelry</span></div>
+      <div class="ad-compare-row"><span class="label">Graduation</span><span class="value">Elegant bracelet, pendant</span></div>
+      <div class="ad-compare-row"><span class="label">New baby</span><span class="value">Mother's pendant, name bracelet</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Gift Ideas by Budget</h3>
+
+<p>Meaningful, quality options exist at every price point. What matters is thoughtfulness and suitability, not the price tag:</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">$30–120</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Metal</span><span class="value">Sterling silver</span></div>
+      <div class="ad-compare-row"><span class="label">Stones</span><span class="value">Amethyst, topaz, aquamarine</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Minimal, everyday wear</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">$120–500</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Metal</span><span class="value">14K gold, fine silver</span></div>
+      <div class="ad-compare-row"><span class="label">Stones</span><span class="value">Pearl, garnet, peridot</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Versatile, polished</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">$500+</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Metal</span><span class="value">18K gold, platinum</span></div>
+      <div class="ad-compare-row"><span class="label">Stones</span><span class="value">Diamond, sapphire, ruby</span></div>
+      <div class="ad-compare-row"><span class="label">Style</span><span class="value">Investment grade, statement</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Birthstones: Month-by-Month Guide</h3>
+
+<p>Birthstone jewelry is deeply personal and meaningful. Each month corresponds to a specific gem: January — garnet (deep red), February — amethyst (purple), March — aquamarine (light blue), April — diamond, May — emerald, June — pearl or alexandrite, July — ruby, August — peridot (green), September — sapphire, October — opal or tourmaline, November — topaz or citrine, December — tanzanite or turquoise. Mother's pendants can combine birthstones of multiple children.</p>
+
+<h3>Reading the Recipient's Style</h3>
+
+<p>The secret to a successful jewelry gift is knowing the recipient's taste. Observe: do they usually wear gold or silver? Do they prefer minimal or bold pieces? Fine chains or chunky bracelets? Colored stones or plain metal? Their existing jewelry provides all the clues you need.</p>
+
+<p>Common pitfalls to avoid: projecting your own taste onto the recipient, buying a ring without knowing the size (non-exchangeable), choosing overly trendy pieces (short-lived appeal), and missing the chance to personalize (engraving).</p>
+
+<h3>Personalization Options</h3>
+
+<p>Personalized jewelry carries far more meaning than standard pieces. Popular options include name or initial engraving, custom date inscriptions (birthday, anniversary), coordinate necklaces (GPS coordinates of a meaningful place), birthstone combinations (mother's pendants), and hidden message engravings (inside a ring band). Most jewelers offer engraving services at reasonable prices.</p>
+
+<h3>Gift-Giving Etiquette</h3>
+
+<p>Cultural and practical considerations matter when giving jewelry. In Turkish culture, giving gold is traditional and common at weddings, engagements, and circumcision ceremonies. In Western traditions, the engagement ring is typically a surprise from a partner. Some cultures assign specific meanings to certain stones or metals — be mindful of the recipient's cultural context.</p>
+
+<p>Presentation amplifies the impact. A quality jewelry box, a handwritten note, and a gift bag significantly elevate the perceived value. Including a certificate or appraisal document, especially for valuable pieces, builds trust and shows care.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Gift Tip</div>
+  <div class="ad-fact-callout-text">If you don't know the ring size, a necklace or earrings are the safer choice — no sizing issues. If you're set on a ring, borrow one of the recipient's existing rings and have a jeweler measure it. Most jewelers offer size exchanges within 30 days.</div>
+</div>
+
+<h3>Jewelry Gifts for Men</h3>
+
+<p>The safest options for men include cufflinks (ideal for professional settings), a sleek silver or leather bracelet, a subtle chain necklace (gold or silver), a ring (wedding band or signet), and a tie pin. Men's jewelry tends toward more minimal, masculine designs.</p>
+
+<h3>Source Note</h3>
+
+<p>Based on Jewelers of America gift guides, GIA birthstone resources, National Jeweler market data, and cultural tradition research.</p>`,
+
+  ar: `<h2>دليل هدايا المجوهرات</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">المناسبات</div>
+    <div class="ad-metric-value">12<span class="ad-metric-unit"> حدث</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الميزانية</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> مستويات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الجمهور</div>
+    <div class="ad-metric-value">كل الأعمار</div>
+  </div>
+</div>
+
+<p>المجوهرات عند اختيارها بعناية من أكثر الهدايا معنى — دائمة وشخصية وتُذكّر صاحبها بالمُهدي في كل مرة ترتديها. لكن الاختيار الخاطئ ينتهي منسياً في الدرج. هذا الدليل الشامل يساعدك في اختيار هدية المجوهرات المثالية حسب المناسبة والميزانية وذوق المتلقي.</p>
+
+<h3>تقاليد ذكرى الزواج</h3>
+
+<p>في التقاليد الغربية لكل ذكرى زواج معدن أو حجر كريم مقابل: السنة الأولى — ذهب، الخامسة — سفير، العاشرة — ألماس، الخامسة عشرة — ياقوت، الخامسة والعشرون — فضة (العرس الفضي)، الثلاثون — لؤلؤ، والخمسون — ذهب (العرس الذهبي).</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 680 140" role="img" aria-label="تقاليد مجوهرات ذكرى الزواج">
+    <title>دليل مجوهرات ذكرى الزواج</title>
+    <line x1="40" y1="80" x2="640" y2="80" class="tl-line"/>
+    <g>
+      <circle cx="60" cy="80" r="4" class="tl-dot"/>
+      <text x="60" y="60" text-anchor="middle" class="tl-year">السنة 1</text>
+      <text x="60" y="105" text-anchor="middle" class="tl-label">ذهب</text>
+    </g>
+    <g>
+      <circle cx="175" cy="80" r="4" class="tl-dot"/>
+      <text x="175" y="60" text-anchor="middle" class="tl-year">السنة 5</text>
+      <text x="175" y="105" text-anchor="middle" class="tl-label">سفير</text>
+    </g>
+    <g>
+      <circle cx="290" cy="80" r="4" class="tl-dot"/>
+      <text x="290" y="60" text-anchor="middle" class="tl-year">السنة 10</text>
+      <text x="290" y="105" text-anchor="middle" class="tl-label">ألماس</text>
+    </g>
+    <g>
+      <circle cx="410" cy="80" r="4" class="tl-dot"/>
+      <text x="410" y="60" text-anchor="middle" class="tl-year">السنة 15</text>
+      <text x="410" y="105" text-anchor="middle" class="tl-label">ياقوت</text>
+    </g>
+    <g>
+      <circle cx="525" cy="80" r="4" class="tl-dot"/>
+      <text x="525" y="60" text-anchor="middle" class="tl-year">السنة 25</text>
+      <text x="525" y="105" text-anchor="middle" class="tl-label">فضة</text>
+    </g>
+    <g>
+      <circle cx="630" cy="80" r="5" class="tl-dot-active"/>
+      <text x="630" y="60" text-anchor="middle" class="tl-year">السنة 50</text>
+      <text x="630" y="105" text-anchor="middle" class="tl-label">ذهب</text>
+    </g>
+  </svg>
+</div>
+
+<h3>اختيار المجوهرات حسب المناسبة</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المناسبات الرومانسية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">عيد الحب</span><span class="value">قلادة قلب، خاتم</span></div>
+      <div class="ad-compare-row"><span class="label">الذكرى السنوية</span><span class="value">حجر تقليدي، طقم</span></div>
+      <div class="ad-compare-row"><span class="label">الخطوبة</span><span class="value">خاتم سوليتير</span></div>
+      <div class="ad-compare-row"><span class="label">طلب الزواج</span><span class="value">ألماس سوليتير</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">العائلة والاحتفالات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">عيد الأم</span><span class="value">لؤلؤ، قلادة حجر الميلاد</span></div>
+      <div class="ad-compare-row"><span class="label">عيد الميلاد</span><span class="value">مجوهرات حجر الميلاد</span></div>
+      <div class="ad-compare-row"><span class="label">التخرج</span><span class="value">سوار أنيق، قلادة</span></div>
+      <div class="ad-compare-row"><span class="label">مولود جديد</span><span class="value">قلادة أم، سوار اسم</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>اقتراحات حسب الميزانية</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">$30–120</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المعدن</span><span class="value">فضة إسترليني</span></div>
+      <div class="ad-compare-row"><span class="label">الأحجار</span><span class="value">جمشت، توباز، أكوامارين</span></div>
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">بسيط، للاستخدام اليومي</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">$120–500</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المعدن</span><span class="value">ذهب 14 قيراط، فضة فاخرة</span></div>
+      <div class="ad-compare-row"><span class="label">الأحجار</span><span class="value">لؤلؤ، غارنت، بيريدوت</span></div>
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">متعدد الاستخدامات</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">$500+</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المعدن</span><span class="value">ذهب 18 قيراط، بلاتين</span></div>
+      <div class="ad-compare-row"><span class="label">الأحجار</span><span class="value">ألماس، سفير، ياقوت</span></div>
+      <div class="ad-compare-row"><span class="label">الأسلوب</span><span class="value">استثماري، قطعة مميزة</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>أحجار الميلاد: دليل شهري</h3>
+
+<p>مجوهرات حجر الميلاد شخصية وذات معنى عميق. لكل شهر حجر: يناير — غارنت (أحمر داكن)، فبراير — جمشت (بنفسجي)، مارس — أكوامارين (أزرق فاتح)، أبريل — ألماس، مايو — زمرد، يونيو — لؤلؤ أو ألكسندريت، يوليو — ياقوت، أغسطس — بيريدوت (أخضر)، سبتمبر — سفير، أكتوبر — عقيق أو تورمالين، نوفمبر — توباز أو ستيرين، ديسمبر — تنزانيت أو فيروز. قلادات الأمهات يمكن أن تجمع أحجار ميلاد عدة أطفال.</p>
+
+<h3>فهم ذوق المتلقي</h3>
+
+<p>سر نجاح هدية المجوهرات معرفة ذوق المتلقي. لاحظ: هل يرتدي عادةً ذهباً أم فضة؟ هل يفضل التصاميم البسيطة أم الجريئة؟ السلاسل الرفيعة أم الأساور العريضة؟ الأحجار الملونة أم المعدن السادة؟ مجوهراته الحالية تكشف كل ما تحتاجه.</p>
+
+<h3>خيارات التخصيص</h3>
+
+<p>المجوهرات المخصصة أكثر معنى بكثير. الخيارات الشائعة: نقش الاسم أو الأحرف الأولى، نقش تاريخ خاص، قلادات الإحداثيات (إحداثيات مكان ذي معنى)، مزيج أحجار الميلاد (قلادات الأمهات)، ونقش رسالة مخفية داخل الخاتم.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة هدية</div>
+  <div class="ad-fact-callout-text">إذا لم تعرف مقاس الخاتم، فالقلادة أو الأقراط خيار أكثر أماناً — لا مشكلة مقاسات. إذا أردت خاتماً حتماً، استعر أحد خواتم المتلقي الحالية واطلب من صائغ قياسه. معظم الصاغة يقدمون تبديل المقاس خلال 30 يوماً.</div>
+</div>
+
+<h3>هدايا مجوهرات للرجال</h3>
+
+<p>أكثر الخيارات أماناً للرجال: أزرار الأكمام (مثالية للمحترفين)، سوار فضي أو جلدي أنيق، سلسلة عنق رفيعة، خاتم (دبلة أو خاتم سيجنت)، ودبوس ربطة عنق. مجوهرات الرجال تميل للتصاميم البسيطة والرجولية.</p>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة الهدايا من Jewelers of America وموارد أحجار الميلاد من GIA وبيانات سوق National Jeweler وأبحاث التقاليد الثقافية.</p>`
+};
+
+C[176] = {
+  tr: `<h2>Erkek Takı Rehberi 2026</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kategori</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> tip</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Trend</div>
+    <div class="ad-metric-value">Mixed<span class="ad-metric-unit">-metal</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pazar</div>
+    <div class="ad-metric-value">+12%<span class="ad-metric-unit">/yıl</span></div>
+  </div>
+</div>
+
+<p>Erkek takı pazarı, son on yılda en hızlı büyüyen mücevher segmenti oldu. Geleneksel "sadece saat ve alyans" anlayışı yerini bileklik, zincir kolye, küpe ve statement yüzükleri kapsayan geniş bir repertuvara bıraktı. 2026 itibarıyla erkek takı pazarı yıllık %12 büyüme kaydediyor.</p>
+
+<h3>Beş Temel Erkek Takı Kategorisi</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Saat</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Statü</span><span class="value">En güçlü aksesuar</span></div>
+      <div class="ad-compare-row"><span class="label">Bütçe</span><span class="value">₺2K–₺200K+</span></div>
+      <div class="ad-compare-row"><span class="label">Materyal</span><span class="value">Çelik, altın, titanyum</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Bilezik</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Statü</span><span class="value">Günlük stil ifadesi</span></div>
+      <div class="ad-compare-row"><span class="label">Bütçe</span><span class="value">₺200–₺15K</span></div>
+      <div class="ad-compare-row"><span class="label">Materyal</span><span class="value">Deri, gümüş, boncuk</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Zincir/Kolye</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Statü</span><span class="value">Cesur stil beyanı</span></div>
+      <div class="ad-compare-row"><span class="label">Bütçe</span><span class="value">₺500–₺30K</span></div>
+      <div class="ad-compare-row"><span class="label">Materyal</span><span class="value">Altın, gümüş, çelik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>2026 Erkek Takı Trendleri</h3>
+
+<p>Mixed-metal (karma metal) trendi 2026'da en güçlü akımdır — gümüş ve altın parçaları bir arada takmak artık normaldir. Chunky zincirler (kalın halka zincir) streetwear etkisiyle yükselişte. Signet (şövalye) yüzükler vintage revivalın parçası olarak geri döndü. Doğal taş bilezikler (oniks, lapis lazuli, kaplan gözü) maskülen bir zarafet sunar. Minimal çelik aksesuarlar kurumsal ortamda güvenli bir seçimdir.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Profesyonel Ortam</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Saat</span><span class="value">Klasik deri kordon</span></div>
+      <div class="ad-compare-row"><span class="label">Yüzük</span><span class="value">Alyans, minimal band</span></div>
+      <div class="ad-compare-row"><span class="label">Kol düğmesi</span><span class="value">Gümüş veya altın</span></div>
+      <div class="ad-compare-row"><span class="label">Kravat iğnesi</span><span class="value">İnce, sade</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Günlük / Sosyal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Bilezik</span><span class="value">Deri veya boncuk stack</span></div>
+      <div class="ad-compare-row"><span class="label">Kolye</span><span class="value">Pendant veya zincir</span></div>
+      <div class="ad-compare-row"><span class="label">Yüzük</span><span class="value">Signet, taşlı</span></div>
+      <div class="ad-compare-row"><span class="label">Küpe</span><span class="value">Stud veya halka</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Stil Kuralları</h3>
+
+<p>Erkek takısında altın kural "az çoktur" prensibidir — ama bu kuralın sınırları genişliyor. Metal uyumu artık zorunlu değildir; karma metal trend bunu özgürleştirdi. Başlangıç için güvenli kombinasyon: saat + tek bilezik + alyans. Daha cesur kombinasyon: saat + bilezik stack + zincir kolye + signet yüzük. Her parçanın farklı bir stil katmanı eklediğinden emin olun; aynı tarz birden fazla parça giymeyin.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pazar Verisi</div>
+  <div class="ad-fact-callout-text">Erkek takı pazarı 2020–2025 arasında küresel olarak %60 büyümüştür. Z kuşağı erkekleri, önceki kuşaklara kıyasla 3 kat daha fazla takı satın alıyor. En hızlı büyüyen kategori: zincir kolyeler (%18/yıl) ve bilezikler (%15/yıl).</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>McKinsey luxury market raporları, JCK erkek takı trend analizi ve National Jeweler pazar verilerine dayanmaktadır.</p>`,
+
+  en: `<h2>Men's Jewelry Guide 2026</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Categories</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> types</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Trend</div>
+    <div class="ad-metric-value">Mixed<span class="ad-metric-unit">-metal</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Market</div>
+    <div class="ad-metric-value">+12%<span class="ad-metric-unit">/yr</span></div>
+  </div>
+</div>
+
+<p>The men's jewelry market has been the fastest-growing segment of the jewelry industry over the past decade. The old "just a watch and wedding band" mindset has given way to a broad repertoire spanning bracelets, chain necklaces, earrings, and statement rings. As of 2026, the men's jewelry market is growing at 12% annually.</p>
+
+<h3>Five Core Categories</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Watch</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Status</span><span class="value">Strongest accessory</span></div>
+      <div class="ad-compare-row"><span class="label">Budget</span><span class="value">$100–$10K+</span></div>
+      <div class="ad-compare-row"><span class="label">Material</span><span class="value">Steel, gold, titanium</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Bracelet</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Status</span><span class="value">Daily style statement</span></div>
+      <div class="ad-compare-row"><span class="label">Budget</span><span class="value">$15–$800</span></div>
+      <div class="ad-compare-row"><span class="label">Material</span><span class="value">Leather, silver, beads</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Chain/Necklace</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Status</span><span class="value">Bold style declaration</span></div>
+      <div class="ad-compare-row"><span class="label">Budget</span><span class="value">$30–$2K</span></div>
+      <div class="ad-compare-row"><span class="label">Material</span><span class="value">Gold, silver, steel</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>2026 Trends</h3>
+
+<p>Mixed-metal is the dominant trend — wearing silver and gold together is now mainstream. Chunky chains are rising with streetwear influence. Signet rings are back as part of a vintage revival. Natural stone bracelets (onyx, lapis lazuli, tiger's eye) offer masculine elegance. Minimal steel accessories are a safe choice for corporate settings.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Professional Setting</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Watch</span><span class="value">Classic leather strap</span></div>
+      <div class="ad-compare-row"><span class="label">Ring</span><span class="value">Wedding band, minimal</span></div>
+      <div class="ad-compare-row"><span class="label">Cufflinks</span><span class="value">Silver or gold</span></div>
+      <div class="ad-compare-row"><span class="label">Tie pin</span><span class="value">Slim, understated</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Casual / Social</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Bracelet</span><span class="value">Leather or bead stack</span></div>
+      <div class="ad-compare-row"><span class="label">Necklace</span><span class="value">Pendant or chain</span></div>
+      <div class="ad-compare-row"><span class="label">Ring</span><span class="value">Signet, stone-set</span></div>
+      <div class="ad-compare-row"><span class="label">Earring</span><span class="value">Stud or hoop</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Market Data</div>
+  <div class="ad-fact-callout-text">The men's jewelry market grew 60% globally between 2020 and 2025. Gen Z men buy 3 times more jewelry than previous generations. Fastest-growing categories: chain necklaces (18%/yr) and bracelets (15%/yr).</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on McKinsey luxury market reports, JCK men's jewelry trend analysis, and National Jeweler market data.</p>`,
+
+  ar: `<h2>دليل مجوهرات الرجال 2026</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الفئات</div>
+    <div class="ad-metric-value">5<span class="ad-metric-unit"> أنواع</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الاتجاه</div>
+    <div class="ad-metric-value">معادن<span class="ad-metric-unit"> مختلطة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">السوق</div>
+    <div class="ad-metric-value">+12%<span class="ad-metric-unit">/سنة</span></div>
+  </div>
+</div>
+
+<p>سوق مجوهرات الرجال أسرع قطاعات صناعة المجوهرات نمواً في العقد الأخير. عقلية "الساعة والدبلة فقط" استُبدلت بمجموعة واسعة تشمل الأساور وسلاسل العنق والأقراط والخواتم المميزة. في 2026 ينمو السوق بنسبة 12% سنوياً.</p>
+
+<h3>خمس فئات أساسية</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الساعة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المكانة</span><span class="value">أقوى إكسسوار</span></div>
+      <div class="ad-compare-row"><span class="label">المادة</span><span class="value">فولاذ، ذهب، تيتانيوم</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">السوار</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المكانة</span><span class="value">تعبير يومي عن الأسلوب</span></div>
+      <div class="ad-compare-row"><span class="label">المادة</span><span class="value">جلد، فضة، خرز</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">السلسلة/القلادة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المكانة</span><span class="value">بيان أسلوب جريء</span></div>
+      <div class="ad-compare-row"><span class="label">المادة</span><span class="value">ذهب، فضة، فولاذ</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات السوق</div>
+  <div class="ad-fact-callout-text">سوق مجوهرات الرجال نما 60% عالمياً بين 2020 و2025. رجال الجيل Z يشترون مجوهرات 3 أضعاف الأجيال السابقة. أسرع الفئات نمواً: سلاسل العنق (18%/سنة) والأساور (15%/سنة).</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى تقارير McKinsey وتحليلات JCK وبيانات National Jeweler.</p>`
+};
+
+C[179] = {
+  tr: `<h2>Kuyumculuk Mesleği Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Eğitim</div>
+    <div class="ad-metric-value">2–4<span class="ad-metric-unit"> yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Uzmanlık</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> alan</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Talep</div>
+    <div class="ad-metric-value">Yüksek</div>
+  </div>
+</div>
+
+<p>Kuyumculuk, binlerce yıllık geçmişe sahip bir zanaat olmanın ötesinde, modern ekonomide yaratıcılık, teknik beceri ve girişimciliğin buluştuğu dinamik bir kariyer alanıdır. Geleneksel tezgâh kuyumculuğundan CAD tasarıma, gemolojiden mücevher değerlemesine kadar uzanan geniş bir uzmanlık yelpazesi sunar.</p>
+
+<h3>Kariyer Yolları</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tezgâh Kuyumcusu</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İş tanımı</span><span class="value">El ile üretim ve tamir</span></div>
+      <div class="ad-compare-row"><span class="label">Eğitim</span><span class="value">Çıraklık + 2–3 yıl</span></div>
+      <div class="ad-compare-row"><span class="label">Beceriler</span><span class="value">Lehim, montaj, cilalama</span></div>
+      <div class="ad-compare-row"><span class="label">Gelir</span><span class="value">Deneyime göre değişken</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">CAD Tasarımcı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İş tanımı</span><span class="value">Dijital mücevher tasarımı</span></div>
+      <div class="ad-compare-row"><span class="label">Eğitim</span><span class="value">Yazılım kursu + tasarım</span></div>
+      <div class="ad-compare-row"><span class="label">Beceriler</span><span class="value">Rhino, Matrix, ZBrush</span></div>
+      <div class="ad-compare-row"><span class="label">Gelir</span><span class="value">Freelance veya atölye</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gemolog</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">İş tanımı</span><span class="value">Taş değerleme ve analiz</span></div>
+      <div class="ad-compare-row"><span class="label">Eğitim</span><span class="value">GIA GG / FGA diploması</span></div>
+      <div class="ad-compare-row"><span class="label">Beceriler</span><span class="value">Taş tanıma, grading</span></div>
+      <div class="ad-compare-row"><span class="label">Gelir</span><span class="value">Laboratuvar veya perakende</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Eğitim Seçenekleri</h3>
+
+<p>Türkiye'de kuyumculuk eğitimi birkaç kanaldan alınabilir: üniversite programları (Mimar Sinan, İstanbul Üniversitesi gibi kurumların güzel sanatlar veya uygulamalı sanatlar bölümleri), meslek liseleri ve halk eğitim merkezleri (temel seviye), özel atölye kursları (yoğun programlar), ve en geleneksel yol olan usta yanında çıraklık. Uluslararası sertifikalar arasında GIA Graduate Gemologist (GG), Gem-A FGA ve HRD Antwerp diplomaları en prestijli olanlarıdır.</p>
+
+<h3>Gerekli Beceriler</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Teknik Beceriler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">El becerileri</span><span class="value">Lehim, kesim, montaj</span></div>
+      <div class="ad-compare-row"><span class="label">Dijital</span><span class="value">CAD/CAM, 3D baskı</span></div>
+      <div class="ad-compare-row"><span class="label">Metalürji</span><span class="value">Alaşım, döküm, kaplama</span></div>
+      <div class="ad-compare-row"><span class="label">Gemoloji</span><span class="value">Taş tanıma, grading</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">İş Becerileri</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Tasarım</span><span class="value">Estetik duyarlılık</span></div>
+      <div class="ad-compare-row"><span class="label">Müşteri</span><span class="value">İletişim, danışmanlık</span></div>
+      <div class="ad-compare-row"><span class="label">İş yönetimi</span><span class="value">Fiyatlandırma, stok</span></div>
+      <div class="ad-compare-row"><span class="label">Pazarlama</span><span class="value">Sosyal medya, e-ticaret</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kariyer İpucu</div>
+  <div class="ad-fact-callout-text">En hızlı büyüyen kuyumculuk kariyer alanı dijital tasarımdır. CAD/CAM becerileriyle donatılmış bir kuyumcu, hem geleneksel atölyelerde hem de uluslararası markalarda freelance çalışabilir. GIA sertifikası + Rhino/Matrix yetkinliği kombinasyonu, sektörde en çok aranan profil haline gelmiştir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>GIA kariyer rehberleri, Türkiye Kuyumcular Federasyonu verileri ve Jewelers of America istihdam raporlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Jeweler Career Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Training</div>
+    <div class="ad-metric-value">2–4<span class="ad-metric-unit"> years</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Specialties</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> areas</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Demand</div>
+    <div class="ad-metric-value">High</div>
+  </div>
+</div>
+
+<p>Jewelry making is a craft with thousands of years of history, but in the modern economy it is a dynamic career where creativity, technical skill, and entrepreneurship converge. It spans a wide range of specializations from traditional bench work to CAD design, gemology to appraisal.</p>
+
+<h3>Career Paths</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Bench Jeweler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Role</span><span class="value">Handcraft and repair</span></div>
+      <div class="ad-compare-row"><span class="label">Training</span><span class="value">Apprenticeship + 2–3 yr</span></div>
+      <div class="ad-compare-row"><span class="label">Skills</span><span class="value">Soldering, setting, polishing</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">CAD Designer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Role</span><span class="value">Digital jewelry design</span></div>
+      <div class="ad-compare-row"><span class="label">Training</span><span class="value">Software course + design</span></div>
+      <div class="ad-compare-row"><span class="label">Skills</span><span class="value">Rhino, Matrix, ZBrush</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gemologist</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Role</span><span class="value">Stone grading and analysis</span></div>
+      <div class="ad-compare-row"><span class="label">Training</span><span class="value">GIA GG / FGA diploma</span></div>
+      <div class="ad-compare-row"><span class="label">Skills</span><span class="value">Identification, grading</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Essential Skills</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Technical Skills</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hands-on</span><span class="value">Soldering, cutting, setting</span></div>
+      <div class="ad-compare-row"><span class="label">Digital</span><span class="value">CAD/CAM, 3D printing</span></div>
+      <div class="ad-compare-row"><span class="label">Metallurgy</span><span class="value">Alloys, casting, plating</span></div>
+      <div class="ad-compare-row"><span class="label">Gemology</span><span class="value">Stone ID, grading</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Business Skills</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Design</span><span class="value">Aesthetic sensitivity</span></div>
+      <div class="ad-compare-row"><span class="label">Client</span><span class="value">Communication, consulting</span></div>
+      <div class="ad-compare-row"><span class="label">Management</span><span class="value">Pricing, inventory</span></div>
+      <div class="ad-compare-row"><span class="label">Marketing</span><span class="value">Social media, e-commerce</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Career Tip</div>
+  <div class="ad-fact-callout-text">Digital design is the fastest-growing jewelry career path. A jeweler with CAD/CAM skills can work freelance for both traditional workshops and international brands. The combination of a GIA certification + Rhino/Matrix proficiency has become the most sought-after profile in the industry.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on GIA career guides, Jewelers of America employment reports, and industry data.</p>`,
+
+  ar: `<h2>دليل مهنة الصياغة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التدريب</div>
+    <div class="ad-metric-value">2–4<span class="ad-metric-unit"> سنوات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">التخصصات</div>
+    <div class="ad-metric-value">6<span class="ad-metric-unit"> مجالات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الطلب</div>
+    <div class="ad-metric-value">مرتفع</div>
+  </div>
+</div>
+
+<p>صناعة المجوهرات حرفة بتاريخ آلاف السنين، لكنها في الاقتصاد الحديث مسار مهني ديناميكي يجمع الإبداع والمهارة التقنية وريادة الأعمال.</p>
+
+<h3>المسارات المهنية</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">صائغ المنضدة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الدور</span><span class="value">صناعة يدوية وإصلاح</span></div>
+      <div class="ad-compare-row"><span class="label">التدريب</span><span class="value">تلمذة + 2–3 سنوات</span></div>
+      <div class="ad-compare-row"><span class="label">المهارات</span><span class="value">لحام، تركيب، تلميع</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مصمم CAD</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الدور</span><span class="value">تصميم رقمي للمجوهرات</span></div>
+      <div class="ad-compare-row"><span class="label">التدريب</span><span class="value">دورة برمجيات + تصميم</span></div>
+      <div class="ad-compare-row"><span class="label">المهارات</span><span class="value">Rhino، Matrix، ZBrush</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">عالم أحجار</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الدور</span><span class="value">تقييم وتحليل الأحجار</span></div>
+      <div class="ad-compare-row"><span class="label">التدريب</span><span class="value">دبلوم GIA GG / FGA</span></div>
+      <div class="ad-compare-row"><span class="label">المهارات</span><span class="value">تعريف، تصنيف</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة مهنية</div>
+  <div class="ad-fact-callout-text">التصميم الرقمي أسرع مسارات المجوهرات نمواً. صائغ بمهارات CAD/CAM يمكنه العمل حراً لورش تقليدية وعلامات عالمية. شهادة GIA + إتقان Rhino/Matrix أصبح الملف الأكثر طلباً في الصناعة.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة GIA المهنية وتقارير Jewelers of America.</p>`
+};
+
+C[180] = {
+  tr: `<h2>Mücevher Fotoğrafçılığı</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Araç</div>
+    <div class="ad-metric-value">Akıllı<span class="ad-metric-unit"> telefon</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Işık</div>
+    <div class="ad-metric-value">Doğal<span class="ad-metric-unit"> + LED</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Arka Plan</div>
+    <div class="ad-metric-value">Beyaz / Gri</div>
+  </div>
+</div>
+
+<p>Mücevher fotoğrafçılığı, tüm fotoğraf türleri içinde en teknik ve zorlu olanlardan biridir. Küçük, parlak, yansıtıcı nesneleri çekmek özel teknikler gerektirir. Ancak pahalı profesyonel ekipman şart değildir — akıllı telefonunuz ve doğru teknikle sosyal medya, e-ticaret veya kişisel arşiv için etkileyici takı fotoğrafları çekebilirsiniz.</p>
+
+<h3>Temel Ekipman</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Başlangıç (Akıllı Telefon)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kamera</span><span class="value">Telefon (makro mod varsa)</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">Pencere ışığı + beyaz kart</span></div>
+      <div class="ad-compare-row"><span class="label">Arka plan</span><span class="value">Beyaz kağıt / kumaş</span></div>
+      <div class="ad-compare-row"><span class="label">Sabitleyici</span><span class="value">Tripod veya kitap yığını</span></div>
+      <div class="ad-compare-row"><span class="label">Toplam maliyet</span><span class="value">₺0–200</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Profesyonel</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Kamera</span><span class="value">DSLR/mirrorless + makro lens</span></div>
+      <div class="ad-compare-row"><span class="label">Işık</span><span class="value">LED panel + softbox + tent</span></div>
+      <div class="ad-compare-row"><span class="label">Arka plan</span><span class="value">Akrilik, taş, kadife</span></div>
+      <div class="ad-compare-row"><span class="label">Sabitleyici</span><span class="value">Makro tripod + uzaktan</span></div>
+      <div class="ad-compare-row"><span class="label">Toplam maliyet</span><span class="value">₺5K–30K+</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Işık: En Kritik Faktör</h3>
+
+<p>Mücevher fotoğrafçılığında ışık her şeydir. Doğal pencere ışığı (kuzey yönlü, dolaylı) en iyi ücretsiz ışık kaynağıdır — sert gölge oluşturmaz ve metallerin doğal parlaklığını yansıtır. Beyaz karton veya köpük reflektör, karşı taraftan gölgeleri doldurmak için kullanılır. Doğrudan güneş ışığından kesinlikle kaçının — aşırı parlama ve sert gölge yaratır.</p>
+
+<p>Yapay ışıkta iki LED panel (bir ana, bir dolgu) + beyaz difüzör kutusu (light tent) profesyonel sonuçlar verir. Işık sıcaklığını 5000–5500K (gün ışığı dengi) olarak ayarlayın. Altın takılar için hafif sıcak (4500K), gümüş için nötr-soğuk (5500K+) tercih edilebilir.</p>
+
+<h3>Çekim İpuçları</h3>
+
+<p>Telefonla çekim için altın kurallar: Makro modu varsa kullanın — yoksa telefonu mümkün olan en yakın odak mesafesine getirin. Dijital zoom kullanmayın, fiziksel olarak yaklaşın. Dokunmatik odaklama ile takının en önemli noktasına (taş, yüzey detayı) odaklayın. Pozlama kilidini kullanarak parlak yansımaların patlamamasını sağlayın. HDR modunu kapatın — mücevherlerde yapay görünüm yaratır. Birden fazla açıdan çekin: düz üstten (flat lay), 45° açıdan ve profil.</p>
+
+<h3>Arka Plan ve Kompozisyon</h3>
+
+<p>E-ticaret için standart: saf beyaz arka plan (post-prodüksiyonda kesilecekse). Sosyal medya ve yaşam tarzı için: doğal taş, mermer, ahşap, kumaş doku veya canlı bitki ile stil çekimi. Takıyı giyilmiş haliyle göstermek (on-body) satış dönüşümünü artırır — ama bu durumda modelin cildi ve kıyafeti takıyla uyumlu olmalıdır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pro İpucu</div>
+  <div class="ad-fact-callout-text">En kolay profesyonel numara: bir yapışkan macun (Blu Tack) kullanarak yüzüğü dik tutun, sonra post-prodüksiyonda macunu kırpın. Bu basit hile, takı fotoğrafçılığının en sinir bozucu sorununu (yüzüğün devrilmesi) ortadan kaldırır. Pırlanta taşlar için ek ipucu: küçük bir LED ışığı taşın arkasından tutarak ateş efektini dramatik biçimde artırabilirsiniz.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+
+<p>Professional Jeweler fotoğrafçılık rehberleri, Stuller eğitim kaynakları ve Instagram mücevher pazarlama analizlerine dayanmaktadır.</p>`,
+
+  en: `<h2>Jewelry Photography Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tool</div>
+    <div class="ad-metric-value">Smart<span class="ad-metric-unit">phone</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Light</div>
+    <div class="ad-metric-value">Natural<span class="ad-metric-unit"> + LED</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Background</div>
+    <div class="ad-metric-value">White / Gray</div>
+  </div>
+</div>
+
+<p>Jewelry photography is one of the most technically challenging fields in photography. Shooting small, shiny, reflective objects requires specialized techniques. But expensive professional equipment is not essential — with your smartphone and the right approach, you can capture striking jewelry photos for social media, e-commerce, or personal archives.</p>
+
+<h3>Essential Equipment</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Beginner (Smartphone)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Camera</span><span class="value">Phone (macro mode if avail.)</span></div>
+      <div class="ad-compare-row"><span class="label">Lighting</span><span class="value">Window light + white card</span></div>
+      <div class="ad-compare-row"><span class="label">Background</span><span class="value">White paper / fabric</span></div>
+      <div class="ad-compare-row"><span class="label">Stabilizer</span><span class="value">Tripod or book stack</span></div>
+      <div class="ad-compare-row"><span class="label">Total cost</span><span class="value">$0–15</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Professional</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Camera</span><span class="value">DSLR/mirrorless + macro lens</span></div>
+      <div class="ad-compare-row"><span class="label">Lighting</span><span class="value">LED panel + softbox + tent</span></div>
+      <div class="ad-compare-row"><span class="label">Background</span><span class="value">Acrylic, stone, velvet</span></div>
+      <div class="ad-compare-row"><span class="label">Stabilizer</span><span class="value">Macro tripod + remote</span></div>
+      <div class="ad-compare-row"><span class="label">Total cost</span><span class="value">$300–2,000+</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Lighting: The Most Critical Factor</h3>
+
+<p>In jewelry photography, lighting is everything. Natural window light (north-facing, indirect) is the best free light source — it avoids harsh shadows and reflects metals' natural luster. A white card or foam reflector fills shadows from the opposite side. Avoid direct sunlight completely — it creates harsh glare and shadows.</p>
+
+<p>For artificial light, two LED panels (one key, one fill) plus a white light tent deliver professional results. Set color temperature to 5000–5500K (daylight equivalent). For gold, slightly warm (4500K); for silver, neutral-cool (5500K+).</p>
+
+<h3>Shooting Tips</h3>
+
+<p>Golden rules for smartphone shooting: use macro mode if available. Never use digital zoom — physically move closer. Tap-to-focus on the jewelry's key feature (stone, surface detail). Lock exposure to prevent bright reflections from blowing out. Turn off HDR — it creates an artificial look on jewelry. Shoot from multiple angles: flat lay, 45°, and profile.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Pro Tip</div>
+  <div class="ad-fact-callout-text">The easiest professional trick: use adhesive putty (Blu Tack) to hold a ring upright, then crop out the putty in post-production. This simple hack solves jewelry photography's most frustrating problem (rings falling over). Bonus diamond tip: hold a small LED light behind the stone to dramatically enhance the fire effect.</div>
+</div>
+
+<h3>Source Note</h3>
+
+<p>Based on Professional Jeweler photography guides, Stuller educational resources, and Instagram jewelry marketing analysis.</p>`,
+
+  ar: `<h2>دليل تصوير المجوهرات</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأداة</div>
+    <div class="ad-metric-value">هاتف<span class="ad-metric-unit"> ذكي</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الإضاءة</div>
+    <div class="ad-metric-value">طبيعية<span class="ad-metric-unit"> + LED</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الخلفية</div>
+    <div class="ad-metric-value">أبيض / رمادي</div>
+  </div>
+</div>
+
+<p>تصوير المجوهرات من أكثر مجالات التصوير تحدياً تقنياً. لكن المعدات المهنية الغالية ليست ضرورية — بهاتفك الذكي والتقنية الصحيحة يمكنك التقاط صور مجوهرات مذهلة.</p>
+
+<h3>المعدات الأساسية</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مبتدئ (هاتف ذكي)</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الكاميرا</span><span class="value">هاتف (وضع ماكرو إن وُجد)</span></div>
+      <div class="ad-compare-row"><span class="label">الإضاءة</span><span class="value">ضوء النافذة + بطاقة بيضاء</span></div>
+      <div class="ad-compare-row"><span class="label">الخلفية</span><span class="value">ورق / قماش أبيض</span></div>
+      <div class="ad-compare-row"><span class="label">التكلفة</span><span class="value">$0–15</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">محترف</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الكاميرا</span><span class="value">DSLR + عدسة ماكرو</span></div>
+      <div class="ad-compare-row"><span class="label">الإضاءة</span><span class="value">لوحة LED + خيمة ضوء</span></div>
+      <div class="ad-compare-row"><span class="label">الخلفية</span><span class="value">أكريليك، حجر، مخمل</span></div>
+      <div class="ad-compare-row"><span class="label">التكلفة</span><span class="value">$300–2,000+</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الإضاءة: العامل الأهم</h3>
+
+<p>ضوء النافذة الطبيعي (مواجه للشمال، غير مباشر) أفضل مصدر مجاني. عاكس أبيض يملأ الظلال. تجنب أشعة الشمس المباشرة تماماً. للإضاءة الاصطناعية: لوحتا LED + خيمة ضوء بيضاء. اضبط حرارة اللون على 5000–5500K.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة محترف</div>
+  <div class="ad-fact-callout-text">أسهل حيلة احترافية: استخدم معجون لاصق (Blu Tack) لإبقاء الخاتم منتصباً، ثم احذف المعجون في مرحلة ما بعد الإنتاج. هذه الحيلة البسيطة تحل أكثر مشاكل تصوير المجوهرات إحباطاً. نصيحة إضافية للألماس: أمسك ضوء LED صغيراً خلف الحجر لتعزيز تأثير النار بشكل درامي.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+
+<p>مستند إلى أدلة Professional Jeweler وموارد Stuller التعليمية.</p>`
+};

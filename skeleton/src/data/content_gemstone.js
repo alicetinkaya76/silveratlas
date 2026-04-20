@@ -3859,7 +3859,6 @@ C[124] = {
 
 <p>مستند إلى أدلة تقييم اللؤلؤ من GIA ومصادر ميكيموتو التاريخية.</p>`
 };
--rw-r--r--@ 1 alicetinkaya  staff  229427 19 Nis 12:57 /Users/alicetinkaya/Downloads/faz9_oturum2/faz9_oturum2_b04_b05_b06.js
 // ═══════════════════════════════════════════════════════════════
 // FAZ 9 — OTURUM 2: B04 + B05 + B06 (15 makale)
 // Hedef: cat >> src/data/content_gemstone.js

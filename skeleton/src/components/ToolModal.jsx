@@ -1588,7 +1588,8 @@ Content: ${plainText}` }]
 
 /* ── TOOL 45: Price Comparison Widget (Faz 4.4) ── */
 function PriceComparisonWidget({ lang }) {
-  const { prices, loading: priceLoading } = useSilverPrice();
+  const prices = useSilverPrice();
+  const priceLoading = !prices?.silver;
   const [weight, setWeight] = useState(10);
   const [currency, setCurrency] = useState('try');
 

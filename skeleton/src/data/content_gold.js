@@ -1765,4 +1765,83 @@ C[197] = {
 <p>مستند إلى ناسا غودارد وESA وبرنامج JPL Mars Rover.</p>`
 };
 
+// ── C[165] Dijital Altın ve Tokenizasyon ─────────────────────
+C[165] = {
+  tr: `<h2>Dijital Altın ve Tokenizasyon</h2>
+<p>Blockchain teknolojisi, altın yatırımını köklü biçimde dönüştürüyor. Dijital altın tokenları, fiziksel altının sahipliğini blockchain üzerinde temsil eden kripto varlıklardır. Her token, belirli miktarda gerçek altınla desteklenir ve bu altın güvenli kasalarda saklanır.</p>
+
+<h3>Öncü tokenlar</h3>
+<p><strong>PAXG (Pax Gold)</strong>, Paxos Trust Company tarafından çıkarılır ve her token bir troy ons (31.1 gram) fiziksel altını temsil eder. Altınlar London Good Delivery barlarda saklanır. New York Finansal Hizmetler Departmanı (NYDFS) tarafından düzenlenir.</p>
+<p><strong>Tether Gold (XAUT)</strong> da benzer bir yapıdadır; her token bir troy ons altını temsil eder. Altınlar İsviçre kasalarında muhafaza edilir. Her iki token da ERC-20 standardındadır ve büyük kripto borsalarında işlem görür.</p>
+
+<h3>Avantajlar</h3>
+<p>Dijital altın, fiziksel altına kıyasla birçok avantaj sunar. Bölünebilirlik: 0.01 ons gibi küçük miktarlarda alım mümkündür. Taşınabilirlik: cüzdan adresiyle dünya genelinde anında transfer edilebilir. Depolama: kasa kirası veya güvenlik endişesi yoktur. Likidite: 7/24 alım-satım yapılabilir.</p>
+
+<h3>Riskler ve dikkat edilmesi gerekenler</h3>
+<p>Karşı taraf riski, dijital altının en önemli risk faktörüdür — token ihraççısının güvenilirliği kritik önem taşır. Düzenleyici belirsizlikler, siber güvenlik riskleri ve cüzdan kaybı da değerlendirilmesi gereken faktörlerdir. Fiziksel altının tersine, dijital altın sahipliği sonuçta üçüncü bir tarafa güvene dayanır.</p>
+
+<h3>Türkiye'den erişim</h3>
+<p>Türk yatırımcılar, uluslararası kripto borsaları aracılığıyla PAXG ve XAUT'a erişebilir. Ancak BDDK düzenlemeleri ve vergisel yükümlülükler dikkatlice incelenmelidir. Helal yatırım perspektifinden, fiziksel altınla desteklenen tokenların fıkhi değerlendirmesi hâlâ tartışılmaktadır.</p>`,
+
+  en: `<h2>Digital Gold & Tokenization</h2>
+<p>Blockchain technology is fundamentally transforming gold investment. Digital gold tokens are crypto assets representing ownership of physical gold on the blockchain, backed by real gold stored in secure vaults.</p>
+
+<h3>Leading tokens</h3>
+<p><strong>PAXG (Pax Gold)</strong> is issued by Paxos Trust Company, with each token representing one troy ounce of physical gold stored in London Good Delivery bars, regulated by NYDFS. <strong>Tether Gold (XAUT)</strong> follows a similar structure with gold stored in Swiss vaults. Both are ERC-20 tokens traded on major crypto exchanges.</p>
+
+<h3>Advantages</h3>
+<p>Digital gold offers divisibility (buy as little as 0.01 oz), portability (instant global transfers), no storage costs, and 24/7 liquidity — advantages physical gold cannot match.</p>
+
+<h3>Risks</h3>
+<p>Counterparty risk is the primary concern — the token issuer's reliability is critical. Regulatory uncertainty, cybersecurity risks, and wallet loss must also be considered. Unlike physical gold, digital gold ownership ultimately relies on trust in a third party.</p>`,
+
+  ar: `<h2>الذهب الرقمي والترميز</h2>
+<p>تعمل تقنية البلوكتشين على تحويل الاستثمار في الذهب جذرياً. رموز الذهب الرقمية هي أصول مشفرة تمثل ملكية الذهب الفعلي على البلوكتشين، مدعومة بذهب حقيقي مخزن في خزائن آمنة.</p>
+
+<h3>الرموز الرائدة</h3>
+<p><strong>PAXG</strong> يصدره Paxos Trust، كل رمز يمثل أونصة تروي واحدة. <strong>XAUT</strong> من Tether يتبع نفس الهيكل مع ذهب مخزن في خزائن سويسرية. كلاهما معيار ERC-20.</p>
+
+<h3>المزايا والمخاطر</h3>
+<p>يوفر الذهب الرقمي قابلية التجزئة والنقل الفوري والسيولة على مدار الساعة. لكن مخاطر الطرف المقابل والتنظيمات وأمن المحافظ تبقى اعتبارات مهمة. من منظور الاستثمار الحلال، لا يزال التقييم الفقهي للرموز المدعومة بالذهب قيد النقاش.</p>`
+};
+
+// ── C[166] Modern Düğün Altını Rehberi ───────────────────────
+C[166] = {
+  tr: `<h2>Modern Düğün Altını Rehberi</h2>
+<p>Türk düğün geleneğinde altın takma ritüeli yüzyıllardır sürmektedir. Ancak 2020'lerle birlikte düğün altını anlayışı önemli bir dönüşüm geçiriyor: minimalist tasarımlar, alternatif metaller ve hatta dijital altın hediye seçenekleri geleneksel kalıpları zorluyor.</p>
+
+<h3>2026 düğün altını trendleri</h3>
+<p>Minimalist ve ince bilezik setleri, gösterişli kelepçe bileziğin yerini almaya başladı. Geometrik kesimli altın takılar — özellikle hexagonal ve asimetrik formlar — genç çiftler arasında popüler. Rose gold (pembe altın) nişan yüzüklerinde ana akım tercih haline geldi. Laboratuvar pırlantası ile kombinlenen altın setler de maliyet bilinçli çiftlerin radarında.</p>
+
+<h3>Düğün altını bütçe planlaması</h3>
+<p>Türk düğünlerinde altın bütçesi genellikle toplam düğün bütçesinin önemli bir kısmını oluşturur. Akıllı planlama için öneriler: altın fiyatlarını en az 3 ay önceden takip etmeye başlayın, toplu alımlarda kuyumcuyla işçilik indirimi görüşün, çeyrek altın yerine gram altın veya mini bilezik gibi alternatifler değerlendirin.</p>
+
+<h3>Alternatif yaklaşımlar</h3>
+<p>Bazı modern çiftler geleneksel "altın takma" yerine farklı yaklaşımlar benimsiyor. Düğün fonları (para havuzu), dijital altın hesabına yatırım, minimalist tasarım tek parça yüzük veya bilezik tercihi bunlardan bazıları. Kültürel beklentiler ile kişisel tercihler arasındaki denge her çift için farklı olabilir.</p>
+
+<h3>Çeyiz altını rehberi</h3>
+<p>Geleneksel çeyiz altını genellikle tam, yarım ve çeyrek altın kombinasyonundan oluşur. Bileziğin gramajı bölgeye göre değişir — Güneydoğu'da daha ağır kelepçe bilezik, batıda daha ince bilezik tercih edilir. Modern çeyiz planlamasında altın yatırım hesabı ve fiziksel altın birlikte değerlendirilmelidir.</p>`,
+
+  en: `<h2>Modern Wedding Gold Guide</h2>
+<p>Gold gifting at Turkish weddings has been a tradition for centuries. However, the 2020s are bringing a significant transformation: minimalist designs, alternative metals, and even digital gold options are challenging traditional patterns.</p>
+
+<h3>2026 wedding gold trends</h3>
+<p>Minimalist and delicate bracelet sets are replacing heavy bangles. Geometric cuts — hexagonal and asymmetric forms — are popular with younger couples. Rose gold has become mainstream for engagement rings. Lab-diamond and gold combinations appeal to cost-conscious couples.</p>
+
+<h3>Budget planning</h3>
+<p>Gold budgeting is a significant part of Turkish wedding expenses. Tips: start tracking gold prices at least 3 months ahead, negotiate craftsmanship discounts for bulk purchases, and consider gram gold or mini bracelets as alternatives to traditional quarter coins.</p>
+
+<h3>Alternative approaches</h3>
+<p>Some modern couples are embracing alternatives to traditional gold pinning: wedding funds, digital gold account investments, or single minimalist jewelry pieces instead of multiple traditional coins.</p>`,
+
+  ar: `<h2>دليل ذهب الزفاف الحديث</h2>
+<p>ظل تقديم الذهب في حفلات الزفاف التركية تقليداً لقرون. لكن عشرينيات هذا القرن تشهد تحولاً: التصاميم البسيطة والمعادن البديلة وحتى خيارات الذهب الرقمي تتحدى الأنماط التقليدية.</p>
+
+<h3>اتجاهات 2026</h3>
+<p>أطقم الأساور الرفيعة تحل محل الأساور الضخمة. القطع الهندسية — السداسية وغير المتماثلة — شائعة بين الأزواج الشباب. أصبح الذهب الوردي خياراً سائداً لخواتم الخطوبة.</p>
+
+<h3>التخطيط والبدائل</h3>
+<p>يشكل الذهب جزءاً كبيراً من ميزانية الزفاف التركي. بعض الأزواج العصريين يتبنون بدائل مثل صناديق الزفاف والاستثمار في حسابات الذهب الرقمي أو قطعة مجوهرات واحدة بسيطة بدلاً من العملات التقليدية المتعددة.</p>`
+};
+
 export default C;

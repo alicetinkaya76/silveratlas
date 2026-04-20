@@ -3859,6 +3859,7 @@ C[124] = {
 
 <p>مستند إلى أدلة تقييم اللؤلؤ من GIA ومصادر ميكيموتو التاريخية.</p>`
 };
+
 // ═══════════════════════════════════════════════════════════════
 // FAZ 9 — OTURUM 2: B04 + B05 + B06 (15 makale)
 // Hedef: cat >> src/data/content_gemstone.js
@@ -7251,4 +7252,52 @@ C[198] = {
 <h3>ملاحظة المصادر</h3>
 
 <p>مبني على منشورات GIA، وبيانات ICA للأحجار الملونة، وأبحاث المعادن البصرية.</p>`
+};
+
+// ── C[171] Morganite — Pembe Beryl ──────────────────────────
+C[171] = {
+  tr: `<h2>Morganite — Pembe Beryl</h2>
+<p>Morganite, beryl mineral ailesinin pembe çeşididir — zümrüt ve akuamarinin kuzenidir. Adını Amerikalı bankacı ve mücevher koleksiyoneri J.P. Morgan'dan alır. Son yıllarda nişan yüzüğü alternatifi olarak büyük popülerlik kazanmıştır.</p>
+
+<h3>Mineralojik özellikler</h3>
+<p>Kimyasal formülü Be₃Al₂Si₆O₁₈ olup pembe rengi manganez elementinden gelir. Mohs sertliği 7.5–8 arasındadır, bu da onu günlük kullanıma uygun bir taş yapar. Kırılma indisi 1.577–1.583 aralığındadır. Çoğu mücevher kalitesindeki morganite, rengini iyileştirmek için ısıl işlemden geçirilir — bu, sektörde standart ve kabul görmüş bir uygulamadır.</p>
+
+<h3>Renk ve kalite</h3>
+<p>Morganite'in en değerli rengi yoğun pembe ile şeftali tonları arasındadır. "Peachy pink" olarak adlandırılan sıcak pembe tonlar en çok aranan renklerdir. Büyük karatlarda renk doygunluğu arttığı için, morganite genellikle 2 karatın üzerinde daha etkileyici görünür. Berraklık açısından çoğu mücevher kalitesindeki morganite göze görünür inklüzyon içermez.</p>
+
+<h3>Nişan yüzüğü alternatifi</h3>
+<p>Morganite'in nişan yüzüğü pazarında yükselişi birkaç faktöre bağlıdır. Fiyat avantajı: karat başına maliyeti pırlantanın çok altındadır. Estetik: pembe tonu rose gold ile mükemmel uyum sağlar. Dayanıklılık: 7.5–8 Mohs sertliği günlük kullanım için yeterlidir. Büyüklük: aynı bütçeyle pırlantaya kıyasla çok daha büyük taş alınabilir.</p>
+
+<h3>Bakım</h3>
+<p>Morganite nispeten dayanıklı olmasına rağmen, sert darbelere karşı dikkatli olunmalıdır. Ultrasonik temizleyiciler kullanılabilir ancak buhar temizliği önerilmez. Ilık sabunlu su ve yumuşak fırça en güvenli temizleme yöntemidir. Uzun süreli güneş ışığına maruz bırakmak zamanla renk solmasına yol açabilir.</p>
+
+<h3>Kaynaklar</h3>
+<p>Brezilya (Minas Gerais), Madagaskar ve Mozambik başlıca morganite kaynaklarıdır. Afganistan ve ABD'de (Kaliforniya, Maine) de bulunur. Madagaskar morganiteleri genellikle daha yoğun pembe tonlarıyla bilinir.</p>`,
+
+  en: `<h2>Morganite — Pink Beryl</h2>
+<p>Morganite is the pink variety of the beryl mineral family — a cousin of emerald and aquamarine. Named after American banker and gem collector J.P. Morgan, it has gained significant popularity as an engagement ring alternative in recent years.</p>
+
+<h3>Mineralogical properties</h3>
+<p>Chemical formula Be₃Al₂Si₆O₁₈, with pink color derived from manganese. Mohs hardness of 7.5–8 makes it suitable for daily wear. Refractive index ranges from 1.577 to 1.583. Most gem-quality morganite undergoes heat treatment to enhance color — a standard, accepted industry practice.</p>
+
+<h3>Color and quality</h3>
+<p>The most valued morganite colors range from intense pink to peach tones. "Peachy pink" warm tones are most sought after. Color saturation increases with size, making morganite more impressive above 2 carats. Most gem-quality stones are eye-clean.</p>
+
+<h3>Engagement ring alternative</h3>
+<p>Morganite's rise as an engagement stone is driven by several factors: significantly lower cost per carat than diamond, beautiful pairing with rose gold settings, adequate hardness for daily wear, and the ability to get a much larger stone for the same budget.</p>
+
+<h3>Care and sources</h3>
+<p>While durable, morganite should be protected from hard impacts. Warm soapy water with a soft brush is the safest cleaning method. Prolonged sunlight can cause color fading over time. Major sources include Brazil (Minas Gerais), Madagascar, and Mozambique.</p>`,
+
+  ar: `<h2>المورغانيت — البريل الوردي</h2>
+<p>المورغانيت هو الصنف الوردي من عائلة البريل المعدنية — قريب الزمرد والأكوامارين. سُمي تيمناً بالمصرفي الأمريكي وجامع الأحجار الكريمة جي بي مورغان، وقد اكتسب شعبية كبيرة كبديل لخاتم الخطوبة.</p>
+
+<h3>الخصائص المعدنية</h3>
+<p>صيغته الكيميائية Be₃Al₂Si₆O₁₈، ويستمد لونه الوردي من المنغنيز. صلابته 7.5-8 على مقياس موس مما يجعله مناسباً للارتداء اليومي. يخضع معظم المورغانيت لمعالجة حرارية لتحسين اللون وهي ممارسة قياسية.</p>
+
+<h3>بديل خاتم الخطوبة</h3>
+<p>صعود المورغانيت كحجر خطوبة مدفوع بعدة عوامل: تكلفة أقل بكثير للقيراط مقارنة بالألماس، توافق جميل مع الذهب الوردي، صلابة كافية للاستخدام اليومي، وإمكانية الحصول على حجر أكبر بنفس الميزانية.</p>
+
+<h3>المصادر والعناية</h3>
+<p>تشمل المصادر الرئيسية البرازيل ومدغشقر وموزمبيق. الماء الدافئ والصابون مع فرشاة ناعمة هو أسلم طريقة للتنظيف. قد يسبب التعرض المطول لأشعة الشمس بهتان اللون.</p>`
 };

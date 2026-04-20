@@ -8226,4 +8226,91 @@ C[196] = {
 <p>مستند إلى تقارير WHO لمقاومة الميكروبات وتحذيرات FDA للمستهلكين.</p>`
 };
 
+// ── C[162] Gümüş Sofra ve Obje Koleksiyonu ─────────────────
+C[162] = {
+  tr: `<h2>Gümüş Sofra ve Obje Koleksiyonu</h2>
+<p>Gümüş sofra takımları ve dekoratif objeler, yüzyıllardır hem işlevsel hem estetik değer taşıyan koleksiyon parçalarıdır. Osmanlı saray mutfaklarından Viktorya dönemi İngiliz evlerine kadar gümüş sofra eşyaları zenginlik ve inceliğin simgesi olmuştur.</p>
+
+<h3>Koleksiyon kategorileri</h3>
+<p>Gümüş obje koleksiyonculuğu birkaç ana kategoride ele alınır. Sofra takımları (çatal, bıçak, kaşık setleri) en yaygın başlangıç noktasıdır. Çay ve kahve setleri — özellikle Osmanlı fincan zarfları ve İngiliz çay potları — ciddi koleksiyonerlerin favori alanıdır. Bunların yanında şamdanlar, tuzluklar, şekerlikler, tepsi ve sürahi gibi servis parçaları da önemli bir kategoridir.</p>
+
+<h3>Değerleme kriterleri</h3>
+<p>Antik gümüş objelerin değeri beş temel faktöre bağlıdır: ayar damgası ve usta/atölye imzası, üretim dönemi, işçilik kalitesi (elle dövme mi, kalıp mı), genel kondisyon ve provenance (sahiplik geçmişi). Osmanlı tuğralı parçalar ve Avrupa kraliyet damgalı objeler en yüksek değerlere ulaşır.</p>
+
+<h3>Bakım ve koruma</h3>
+<p>Koleksiyon gümüşleri için doğru bakım kritik öneme sahiptir. Asit içermeyen parlatıcılar kullanılmalı, parçalar asla bulaşık makinesine konulmamalıdır. Uzun süreli saklama için asitsiz kağıt veya anti-tarnish bezlerle sarılmalı, düşük nemli ortamda muhafaza edilmelidir. Aşırı parlatmak yüzey detaylarını aşındıracağından, patina çoğu zaman değeri artıran bir unsurdur.</p>
+
+<h3>Türkiye'de koleksiyonculuk</h3>
+<p>Türkiye, Osmanlı mirası nedeniyle gümüş obje koleksiyonculuğu açısından zengin bir pazardır. Kapalıçarşı, Horhor ve Çukurcuma antikacılar çarşısı başlıca kaynaklardır. Osmanlı tuğralı gümüşler, Balkan göçü dönemi parçaları ve erken Cumhuriyet dönemi eserleri yerli koleksiyonerlerin özellikle ilgi gösterdiği alanlardır.</p>`,
+
+  en: `<h2>Silver Tableware & Object Collection</h2>
+<p>Silver tableware and decorative objects have been prized collectibles for centuries, combining function with aesthetic value. From Ottoman palace kitchens to Victorian English homes, silver tableware has symbolized refinement and wealth.</p>
+
+<h3>Collection categories</h3>
+<p>Silver object collecting falls into several main categories. Flatware sets (forks, knives, spoons) are the most common starting point. Tea and coffee services — especially Ottoman cup holders (zarfs) and English teapots — are favorites among serious collectors. Candelabras, salt cellars, sugar bowls, trays, and ewers form another important category.</p>
+
+<h3>Valuation criteria</h3>
+<p>The value of antique silver objects depends on five key factors: hallmark and maker's mark, production period, craftsmanship quality (hand-forged vs. cast), overall condition, and provenance. Ottoman tughra-marked pieces and European royal hallmarked objects command the highest prices.</p>
+
+<h3>Care and preservation</h3>
+<p>Proper care is critical for collectible silver. Use acid-free polishes, never place pieces in a dishwasher, and wrap in acid-free tissue or anti-tarnish cloths for long-term storage in low-humidity environments. Over-polishing can wear away surface details, and patina often adds to a piece's value.</p>`,
+
+  ar: `<h2>مجموعة أدوات المائدة والأشياء الفضية</h2>
+<p>ظلت أدوات المائدة والأشياء الزخرفية الفضية من المقتنيات الثمينة لقرون، حيث تجمع بين الوظيفة والقيمة الجمالية. من مطابخ القصور العثمانية إلى المنازل الإنجليزية في العصر الفيكتوري، رمزت أدوات المائدة الفضية إلى الرقي والثراء.</p>
+
+<h3>فئات المجموعات</h3>
+<p>ينقسم جمع الأشياء الفضية إلى عدة فئات رئيسية: أطقم المائدة والشوك والسكاكين، أطقم الشاي والقهوة — خاصة حوامل الفناجين العثمانية — والشمعدانات والصواني والأباريق.</p>
+
+<h3>معايير التقييم</h3>
+<p>تعتمد قيمة الأشياء الفضية العتيقة على خمسة عوامل: ختم العيار وعلامة الصانع، فترة الإنتاج، جودة الصنعة، الحالة العامة، والمصدر التاريخي. تحقق القطع العثمانية المختومة بالطغراء أعلى الأسعار.</p>`
+};
+
+// ── C[163] Gümüş ve Dijital Çağ ─────────────────────────────
+C[163] = {
+  tr: `<h2>Gümüş ve Dijital Çağ</h2>
+<p>Gümüş, fotoğraf filmi çağının sona ermesiyle endüstriyel talepte büyük bir dönüşüm yaşadı. Ancak dijital teknolojilerin yükselişi, gümüşe yepyeni kullanım alanları açtı — güneş panellerinden 5G altyapısına, elektrikli araçlardan yapay zekâ veri merkezlerine kadar.</p>
+
+<h3>Fotoğraftan güneş enerjisine</h3>
+<p>2000'li yılların başında fotoğraf endüstrisi yılda yaklaşık 6.000 ton gümüş tüketiyordu. Dijital fotoğrafçılığa geçişle bu talep neredeyse sıfıra indi. Ancak aynı dönemde fotovoltaik güneş panelleri gümüşün yeni lokomotifi oldu. Bugün güneş enerjisi sektörü yılda 4.000 tonun üzerinde gümüş tüketiyor ve bu rakam hızla artıyor.</p>
+
+<h3>Elektronik ve iletişim</h3>
+<p>Gümüş, tüm metallerin en iyi elektrik iletkenidir. Bu özellik onu akıllı telefonlardan 5G baz istasyonlarına, otomotiv elektroniğinden IoT sensörlerine kadar vazgeçilmez kılıyor. Ortalama bir akıllı telefon yaklaşık 0.3 gram gümüş içerirken, bir 5G baz istasyonu bunun on katını kullanabilir.</p>
+
+<h3>Yapay zekâ ve veri merkezleri</h3>
+<p>AI çağının en az konuşulan malzeme ihtiyaçlarından biri gümüştür. Yüksek performanslı sunucu kartları, termal arayüz malzemeleri ve yüksek frekanslı bağlantı noktaları gümüş bazlı bileşenler kullanır. Küresel veri merkezi kapasitesi büyüdükçe bu talep de artmaktadır.</p>
+
+<h3>Elektrikli araçlar</h3>
+<p>Bir elektrikli araç, geleneksel bir otomobile kıyasla yaklaşık iki kat daha fazla gümüş kullanır. Ortalama bir EV'de 25-50 gram gümüş bulunur — batarya yönetim sistemleri, şarj portları ve elektrik kontaktörlerinde. Küresel EV dönüşümü hızlandıkça bu talep çarpan etkisi yaratacaktır.</p>
+
+<h3>Geleceğe bakış</h3>
+<p>Gümüşün dijital çağdaki konumu paradoksaldır: en eski kullanım alanını (fotoğraf) kaybetti, ama yerine çok daha büyük ve büyümeye devam eden sektörler geldi. Yeşil enerji dönüşümü, 5G/6G altyapısı ve AI veri merkezi yatırımları, gümüşü 21. yüzyılın en stratejik endüstriyel metallerinden biri haline getirmektedir.</p>`,
+
+  en: `<h2>Silver & the Digital Age</h2>
+<p>Silver underwent a major industrial demand transformation as the photographic film era ended. However, the rise of digital technologies opened entirely new applications — from solar panels to 5G infrastructure, electric vehicles to AI data centers.</p>
+
+<h3>From photography to solar energy</h3>
+<p>In the early 2000s, the photography industry consumed approximately 6,000 tonnes of silver annually. The shift to digital photography reduced this demand to near zero. Yet during the same period, photovoltaic solar panels became silver's new growth driver, now consuming over 4,000 tonnes annually — and rising fast.</p>
+
+<h3>Electronics and communications</h3>
+<p>Silver is the best electrical conductor of all metals, making it indispensable in smartphones, 5G base stations, automotive electronics, and IoT sensors. An average smartphone contains about 0.3 grams of silver, while a 5G base station can use ten times that amount.</p>
+
+<h3>AI and data centers</h3>
+<p>One of the lesser-discussed material demands of the AI era is silver. High-performance server boards, thermal interface materials, and high-frequency connection points use silver-based components. As global data center capacity expands, so does this demand.</p>
+
+<h3>Future outlook</h3>
+<p>Silver's position in the digital age is paradoxical: it lost its oldest use case (photography), but gained far larger and still-growing sectors. Green energy transition, 5G/6G infrastructure, and AI data center investments are making silver one of the most strategic industrial metals of the 21st century.</p>`,
+
+  ar: `<h2>الفضة والعصر الرقمي</h2>
+<p>شهدت الفضة تحولاً كبيراً في الطلب الصناعي مع انتهاء عصر أفلام التصوير. لكن صعود التقنيات الرقمية فتح مجالات جديدة — من الألواح الشمسية إلى بنية 5G التحتية والسيارات الكهربائية ومراكز بيانات الذكاء الاصطناعي.</p>
+
+<h3>من التصوير إلى الطاقة الشمسية</h3>
+<p>في أوائل الألفية كانت صناعة التصوير تستهلك حوالي 6,000 طن من الفضة سنوياً. انخفض هذا لقرابة الصفر مع التصوير الرقمي، لكن الألواح الشمسية أصبحت المحرك الجديد بأكثر من 4,000 طن سنوياً.</p>
+
+<h3>الإلكترونيات والاتصالات</h3>
+<p>الفضة أفضل موصل كهربائي بين جميع المعادن، مما يجعلها ضرورية في الهواتف الذكية ومحطات 5G وإلكترونيات السيارات. يحتوي الهاتف الذكي على حوالي 0.3 غرام فضة.</p>
+
+<h3>نظرة مستقبلية</h3>
+<p>موقع الفضة في العصر الرقمي متناقض: فقدت أقدم استخداماتها لكنها اكتسبت قطاعات أكبر بكثير ولا تزال تنمو. تحول الطاقة الخضراء وبنية 5G/6G ومراكز بيانات الذكاء الاصطناعي تجعل الفضة من أكثر المعادن استراتيجية في القرن الحادي والعشرين.</p>`
+};
+
 export default C;

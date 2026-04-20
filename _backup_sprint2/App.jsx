@@ -1,5 +1,4 @@
 import React, { useState, useCallback, useEffect, useRef, Suspense, lazy } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
 import { useTheme } from './hooks/useTheme';
 import { useLang } from './hooks/useLang';
 import Nav from './components/Nav';
@@ -13,7 +12,6 @@ import Hero from './sections/Hero';
 import QuickTools from './sections/QuickTools';
 import FeaturedArticles from './sections/FeaturedArticles';
 import Categories from './sections/Categories';
-import DocumentHead from './components/DocumentHead';
 import { ARTICLES } from './data/articles';
 
 // Lazy-load below-fold sections for better LCP & TBT
@@ -31,8 +29,6 @@ const ArticleDetail = lazy(() => import('./components/ArticleDetail'));
 const ToolModal = lazy(() => import('./components/ToolModal'));
 
 export default function App() {
-  const navigate = useNavigate();
-  const location = useLocation();
   const { dark, mode: themeMode, toggle: toggleTheme } = useTheme();
   const { lang, setLang, cycle: cycleLang, isRTL } = useLang();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,25 +42,6 @@ export default function App() {
   const [installPrompt, setInstallPrompt] = useState(null);
   const [showInstall, setShowInstall] = useState(false);
   const deferredPrompt = useRef(null);
-  const skipUrlSync = useRef(false);
-
-  // ── URL → Article sync (on page load or browser back/forward) ──
-  useEffect(() => {
-    const match = location.pathname.match(/^\/article\/(.+)$/);
-    if (match) {
-      const slug = decodeURIComponent(match[1]);
-      const found = ARTICLES.find(a => a.slug === slug);
-      if (found && (!article || article.slug !== slug)) {
-        skipUrlSync.current = true;
-        setArticle(found);
-        document.body.style.overflow = 'hidden';
-      }
-    } else if (article && !skipUrlSync.current) {
-      setArticle(null);
-      document.body.style.overflow = '';
-    }
-    skipUrlSync.current = false;
-  }, [location.pathname]);
 
   // PWA Install Prompt
   useEffect(() => {
@@ -80,7 +57,6 @@ export default function App() {
     deferredPrompt.current = null;
   }, []);
 
-  // ── Article open: state + URL push ──
   const openArticle = useCallback((a) => {
     let art = a;
     if (a && !a.cat && (a.id || a.slug)) {
@@ -88,20 +64,8 @@ export default function App() {
     }
     setArticle(art);
     document.body.style.overflow = 'hidden';
-    if (art?.slug) {
-      skipUrlSync.current = true;
-      navigate(`/article/${art.slug}`);
-    }
-  }, [navigate]);
-
-  // ── Article close: state + URL back ──
-  const closeArticle = useCallback(() => {
-    setArticle(null);
-    document.body.style.overflow = '';
-    skipUrlSync.current = true;
-    navigate('/');
-  }, [navigate]);
-
+  }, []);
+  const closeArticle = useCallback(() => { setArticle(null); document.body.style.overflow = ''; }, []);
   const openMenu = useCallback(() => { setMenuOpen(true); document.body.style.overflow = 'hidden'; }, []);
   const closeMenu = useCallback(() => { setMenuOpen(false); document.body.style.overflow = ''; }, []);
   const openTool = useCallback((tool, idx) => { setActiveTool(tool); setActiveToolIdx(idx); document.body.style.overflow = 'hidden'; }, []);
@@ -123,8 +87,6 @@ export default function App() {
 
   return (
     <div dir={isRTL ? 'rtl' : 'ltr'}>
-      <DocumentHead article={article} lang={lang} />
-
       {!splashDone && <SplashScreen onDone={() => setSplashDone(true)} />}
 
       <Nav lang={lang} dark={dark} themeMode={themeMode} cycleLang={cycleLang} toggleTheme={toggleTheme} openMenu={openMenu} />

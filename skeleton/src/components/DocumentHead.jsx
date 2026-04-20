@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const SITE = 'JewelPedi';
 const DOMAIN = 'https://jewelpedi.com';
-const BASE = '';
+const BASE = '/silveratlas';
 const OG_IMAGE = `${DOMAIN}${BASE}/og-image.svg`;
 
 // Default site-wide meta

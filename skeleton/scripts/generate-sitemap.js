@@ -12,7 +12,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // ── CONFIG ──
 const DOMAIN = 'https://jewelpedi.com';
-const BASE = '';
+const BASE = '/silveratlas';
 const TODAY = new Date().toISOString().split('T')[0];
 
 // ── Load articles ──

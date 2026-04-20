@@ -31,6 +31,13 @@ export const CATEGORIES = [
   {id:"platin-temel",material:"platinum",i:"⚪",co:"#E5E4E2",c:4,tr:"Platin Temelleri",en:"Platinum Basics",ar:"أساسيات البلاتين"},
   {id:"platin-yatirim",material:"platinum",i:"📈",co:"#BCC6CC",c:3,tr:"Platin Yatırım",en:"Platinum Investment",ar:"استثمار البلاتين"},
   {id:"platin-taki",material:"platinum",i:"💍",co:"#D1D5DB",c:3,tr:"Platin Takı & Alternatif",en:"Platinum Jewelry & Alt. Metals",ar:"مجوهرات البلاتين والبديلة"},
+  // ── Tesbih Categories (Faz 5) ─────────────────────────────
+  {id:"tesbih-tarih",material:"tesbih",i:"📜",co:"#a16207",c:5,tr:"Tarih & Kültür",en:"History & Culture",ar:"التاريخ والثقافة"},
+  {id:"tesbih-materyal",material:"tesbih",i:"🟤",co:"#b45309",c:8,tr:"Materyaller",en:"Materials",ar:"المواد"},
+  {id:"tesbih-zanaat",material:"tesbih",i:"⚒️",co:"#92400e",c:5,tr:"Zanaat & Üretim",en:"Craft & Making",ar:"الحرفة والصناعة"},
+  {id:"tesbih-bolgesel",material:"tesbih",i:"🗺️",co:"#5b21b6",c:5,tr:"Bölgesel Stiller",en:"Regional Styles",ar:"الأساليب الإقليمية"},
+  {id:"tesbih-dini",material:"tesbih",i:"🕌",co:"#15803d",c:2,tr:"Dini Pratik",en:"Religious Practice",ar:"الممارسة الدينية"},
+  {id:"tesbih-koleksiyon",material:"tesbih",i:"🏺",co:"#78350f",c:5,tr:"Koleksiyon & Pazar",en:"Collecting & Market",ar:"التجميع والسوق"},
   // ── Directory & Bazaar Guide (Faz 4.3) ──────────────────
   {id:"carsi-rehber",material:"shared",i:"🏪",co:"#E67E22",c:8,tr:"Çarşı & Kuyumcu Rehberi",en:"Bazaar & Jeweler Guide",ar:"دليل الأسواق والصاغة"},
 ];
@@ -43,6 +50,7 @@ export const MATERIALS = [
   {id:"diamond",  tr:"Pırlanta",  en:"Diamond",    ar:"الألماس",    icon:"💎", co:"#B9F2FF"},
   {id:"gemstone", tr:"Taşlar",    en:"Gemstones",  ar:"الأحجار",    icon:"💜", co:"#9B59B6"},
   {id:"platinum", tr:"Platin",    en:"Platinum",   ar:"البلاتين",   icon:"⚪", co:"#E5E4E2"},
+  {id:"tesbih",   tr:"Tesbih",    en:"Prayer Beads", ar:"المسبحة",   icon:"📿", co:"#a0522d"},
 ];
 
 // ═══ Faz 6.2 — JEWELRY TYPE NAVIGATION ═══

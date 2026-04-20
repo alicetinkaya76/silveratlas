@@ -127,6 +127,13 @@ const CAT_ICONS = {
   'altin-yatirim': IconTrendUp,
   'altin-taki': IconRing,
   'altin-kultur': IconTemple,
+  // Tesbih categories (Faz 5)
+  'tesbih-tarih': IconScroll,
+  'tesbih-materyal': IconGem,
+  'tesbih-zanaat': IconTools,
+  'tesbih-bolgesel': IconEarth,
+  'tesbih-dini': IconQuran,
+  'tesbih-koleksiyon': IconVase,
 };
 
 export function getCatIcon(catId, size = 24, style = {}) {

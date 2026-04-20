@@ -14,6 +14,7 @@ const loaders = {
   diamond:  () => import('./content_diamond'),
   gemstone: () => import('./content_gemstone'),
   platinum: () => import('./content_platinum'),
+  tesbih:   () => import('./content_tesbih'),
   shared:   () => import('./content_shared'),
 };
 

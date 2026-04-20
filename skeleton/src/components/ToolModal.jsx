@@ -1,8 +1,23 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import DOMPurify from 'dompurify';
 import { t } from '../i18n/translations';
 import useSilverPrice from '../hooks/useSilverPrice';
 import { ARTICLES } from '../data/articles';
 import { getArticleContent } from '../data/articleContent';
+
+/* ── Sprint 3.2: AI çıktılarını sanitize et ──
+ * DOMPurify config — sadece minimum semantik etiketlere izin ver.
+ * AI markdown-ish çıktısı sadece **bold** → <strong> ve \n → <br/> üretiyor,
+ * ama genişleme payı için birkaç yaygın etiket daha ekli. Attribute yok:
+ * bu sayede <img onerror=...>, <a href="javascript:..."> gibi vektörler
+ * tamamen kaldırılır.
+ */
+const AI_SANITIZE_CONFIG = {
+  ALLOWED_TAGS: ['strong', 'br', 'em', 'b', 'i', 'u', 'p', 'ul', 'ol', 'li', 'code', 'span'],
+  ALLOWED_ATTR: [],
+  KEEP_CONTENT: true,
+};
+const sanitizeAI = (html) => DOMPurify.sanitize(html || '', AI_SANITIZE_CONFIG);
 
 /* ── TOOL 0: Purity Calculator ── */
 function PurityCalc({ lang }) {
@@ -1366,8 +1381,10 @@ Guidelines:
   }, [input, sendMessage]);
 
   // Simple markdown-ish rendering: **bold** → <strong>
+  // Sprint 3.2: sanitize edilmiş HTML döndürür
   const renderContent = (text) => {
-    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+    const html = (text || '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+    return sanitizeAI(html);
   };
 
   const welcomeMsg = {
@@ -1381,8 +1398,12 @@ Guidelines:
       <div className="ai-chat-messages" ref={scrollRef}>
         <div className="ai-chat-msg system">{welcomeMsg[lang]}</div>
         {messages.map((m, i) => (
-          <div key={i} className={`ai-chat-msg ${m.role}`}
-            dangerouslySetInnerHTML={{ __html: m.role === 'assistant' ? renderContent(m.content) : m.content }} />
+          m.role === 'assistant' ? (
+            <div key={i} className="ai-chat-msg assistant"
+              dangerouslySetInnerHTML={{ __html: renderContent(m.content) }} />
+          ) : (
+            <div key={i} className="ai-chat-msg user">{m.content}</div>
+          )
         ))}
         {loading && (
           <div className="ai-chat-typing">
@@ -1481,7 +1502,8 @@ If you cannot identify the item or if the image doesn't show a gemstone/metal, s
 
   useEffect(() => { if (image) analyze(); }, [image]);
 
-  const renderResult = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+  // Sprint 3.2: sanitize edilmiş HTML döndürür
+  const renderResult = (text) => sanitizeAI((text || '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>'));
 
   return (
     <div className="photo-id-container">
@@ -1565,7 +1587,8 @@ Content: ${plainText}` }]
     setLoading(false);
   }, [selectedId, loading, lang]);
 
-  const renderSummary = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>');
+  // Sprint 3.2: sanitize edilmiş HTML döndürür
+  const renderSummary = (text) => sanitizeAI((text || '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>'));
 
   return (
     <div className="summarizer-container">

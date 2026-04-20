@@ -4283,4 +4283,1488 @@ C[154] = {
 <p>مستند إلى بيانات عملية كيمبرلي الرسمية وتقارير RJC للاستدامة وتقرير McKinsey للرفاهية.</p>`
 };
 
+// ── Oturum 7 · B19+B20 Enrichment (2026-04-20) ──
+
+C[155] = {
+  tr: `<h2>2026 Dünya Takı Trendleri</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pazar Hacmi</div>
+    <div class="ad-metric-value">380<span class="ad-metric-unit"> milyar $</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lab-Grown Pay</div>
+    <div class="ad-metric-value">50<span class="ad-metric-unit">%+ nişan</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Renkli Taş Talep</div>
+    <div class="ad-metric-value">+30<span class="ad-metric-unit">% artış</span></div>
+  </div>
+</div>
+
+<p>2026, mücevher dünyasında "bilinçli lüks" ve "kişisel ifade" temalarının birlikte yükseldiği bir yıl olarak öne çıkıyor. Tüketici artık sadece parlaklık değil, hikâye ve sürdürülebilirlik arıyor. Bu dönüşüm tasarımdan tedarik zincirine kadar sektörün her katmanını etkiliyor.</p>
+
+<h3>Lab-Grown Pırlanta Devrimi</h3>
+
+<p>Lab-grown (laboratuvar) pırlanta, nişan yüzüğü segmentinde pazar payını %50'nin üzerine taşıdı. Pandora ve Swarovski gibi dev markalar tamamen lab-grown üretime geçerken, doğal pırlanta "heritage" ve "koleksiyon" pozisyonuna kayıyor. Fiyat farkı 3-4 kata ulaştı; aynı karat ve kalitede lab-grown seçenek çok daha erişilebilir hale geldi. Tüketicilerin %62'si artık lab-grown'u "gerçek pırlanta" olarak kabul ediyor.</p>
+
+<h3>Renkli Taş Patlaması ve Minimalist Altın</h3>
+
+<p>Teal safir, padparadscha ve spinel gibi nadir taşlar rekor fiyatlara ulaşırken, "Big 3" dışı taşlara (tanzanit, alexandrite, demantoid garnet) olan talep %30'u aştı. Kişiselleştirilmiş doğum taşı takılar güçlü trend. Altın takıda ise ince zincirler, delicate yüzükler ve stackable bileklikler hâkim. 14K sarı altın, beyaz altını geri bıraktı; dövme (hammered) ve organik dokular popüler.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yükselen Trendler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Lab-Grown</span><span class="value">Nişanda %50+ pay</span></div>
+      <div class="ad-compare-row"><span class="label">Renkli Taş</span><span class="value">Talep %30 artış</span></div>
+      <div class="ad-compare-row"><span class="label">14K Sarı Altın</span><span class="value">Beyaz altını geçti</span></div>
+      <div class="ad-compare-row"><span class="label">NFC Çipli Takı</span><span class="value">Dijital sertifika</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gerileyen Trendler</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Doğal Pırlanta</span><span class="value">Heritage segmentine kayış</span></div>
+      <div class="ad-compare-row"><span class="label">Beyaz Altın</span><span class="value">Sarı altın önde</span></div>
+      <div class="ad-compare-row"><span class="label">Maximalist</span><span class="value">Minimal tasarım hâkim</span></div>
+      <div class="ad-compare-row"><span class="label">Tek Tip Stil</span><span class="value">Kişiselleştirme öne çıktı</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Teknoloji Entegrasyonu</h3>
+
+<p>NFC çipli takılar dijital sahiplik sertifikası sunarken, blockchain bazlı provenance (menşe) takibi güven artırıyor. AR (artırılmış gerçeklik) deneme uygulamaları e-ticarette iade oranlarını %25 düşürdü. 3D baskı ile talebe özel üretim yaygınlaşıyor; kişiye özel tasarım artık lüks değil, standart.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">2026 Öne Çıkan Veri</div>
+  <div class="ad-fact-callout-text">Küresel mücevher pazarı 2026'da tahmini 380 milyar USD'ye ulaşarak tüm zamanların rekorunu kırıyor. Lab-grown pırlanta büyümesi yıllık %25, renkli taş talebi ise son 3 yılın en yüksek seviyesinde. "Bilinçli lüks" artık niş değil, ana akım.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>McKinsey Luxury Report 2026, Bain & Company mücevher pazar analizi ve GJEPC sektör verilerine dayanmaktadır.</p>`,
+
+  en: `<h2>2026 Global Jewelry Trends</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Market Size</div>
+    <div class="ad-metric-value">$380<span class="ad-metric-unit"> billion</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Lab-Grown Share</div>
+    <div class="ad-metric-value">50<span class="ad-metric-unit">%+ engagement</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Colored Gem Demand</div>
+    <div class="ad-metric-value">+30<span class="ad-metric-unit">% growth</span></div>
+  </div>
+</div>
+
+<p>2026 marks the year "conscious luxury" and "personal expression" converge as dominant themes in the jewelry world. Consumers now seek stories and sustainability alongside sparkle, reshaping the industry from design studios to supply chains.</p>
+
+<h3>Lab-Grown Diamond Revolution</h3>
+
+<p>Lab-grown diamonds surpassed 50% market share in the engagement ring segment. Brands like Pandora and Swarovski have pivoted entirely to lab-grown production, while natural diamonds are repositioning as "heritage" collectibles. Price gaps of 3-4x have made lab-grown options significantly more accessible, with 62% of buyers now accepting them as "real diamonds."</p>
+
+<h3>Colored Gems and Minimalist Gold</h3>
+
+<p>Rare colored stones — teal sapphire, padparadscha, spinel — are hitting record prices. Demand for non-Big-3 gems (tanzanite, alexandrite) is up over 30%. In gold jewelry, delicate chains, fine rings, and stackable bracelets dominate. 14K yellow gold has overtaken white gold, with hammered and organic textures leading the aesthetic shift.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Rising Trends</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Lab-Grown</span><span class="value">50%+ engagement share</span></div>
+      <div class="ad-compare-row"><span class="label">Colored Gems</span><span class="value">30% demand increase</span></div>
+      <div class="ad-compare-row"><span class="label">14K Yellow Gold</span><span class="value">Surpassed white gold</span></div>
+      <div class="ad-compare-row"><span class="label">NFC Jewelry</span><span class="value">Digital certificates</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Declining Trends</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Natural Diamond</span><span class="value">Shifting to heritage</span></div>
+      <div class="ad-compare-row"><span class="label">White Gold</span><span class="value">Yellow gold leads</span></div>
+      <div class="ad-compare-row"><span class="label">Maximalist</span><span class="value">Minimalism dominates</span></div>
+      <div class="ad-compare-row"><span class="label">One-Size Fits All</span><span class="value">Personalization wins</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Technology Integration</h3>
+
+<p>NFC-chip jewelry provides digital ownership certificates; blockchain provenance tracking builds trust. AR try-on apps have reduced e-commerce return rates by 25%. 3D printing enables on-demand custom production — personalized design is now standard, not luxury.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">2026 Key Data</div>
+  <div class="ad-fact-callout-text">The global jewelry market is projected to reach $380 billion in 2026, an all-time record. Lab-grown diamond growth runs at 25% annually, while colored gem demand is at a three-year high. "Conscious luxury" has moved from niche to mainstream.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on McKinsey Luxury Report 2026, Bain & Company jewelry market analysis, and GJEPC industry data.</p>`,
+
+  ar: `<h2>اتجاهات المجوهرات العالمية ٢٠٢٦</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حجم السوق</div>
+    <div class="ad-metric-value">380<span class="ad-metric-unit"> مليار $</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حصة المختبري</div>
+    <div class="ad-metric-value">50<span class="ad-metric-unit">%+ خطوبة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">طلب الأحجار الملونة</div>
+    <div class="ad-metric-value">+30<span class="ad-metric-unit">% نمو</span></div>
+  </div>
+</div>
+
+<p>يتميز عام 2026 بتقاطع "الفخامة الواعية" و"التعبير الشخصي" كموضوعين رئيسيين في عالم المجوهرات. المستهلك اليوم يبحث عن القصة والاستدامة إلى جانب البريق.</p>
+
+<h3>ثورة الألماس المختبري</h3>
+
+<p>تجاوز الألماس المختبري حصة 50% في خواتم الخطوبة. العلامات الكبرى مثل Pandora وSwarovski تحولت بالكامل. فارق السعر يصل 3-4 أضعاف لصالح المختبري، و62% من المشترين يعتبرونه "ألماساً حقيقياً".</p>
+
+<h3>الأحجار الملونة والذهب البسيط</h3>
+
+<p>أحجار نادرة كالياقوت الأزرق المخضر والسبينل تصل لأسعار قياسية. الطلب على الأحجار غير التقليدية ارتفع +30%. في الذهب، السلاسل الرقيقة والأساور القابلة للتكديس تسيطر، والذهب الأصفر 14 قيراط يتفوق على الأبيض.</p>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">اتجاهات صاعدة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الألماس المختبري</span><span class="value">50%+ في الخطوبة</span></div>
+      <div class="ad-compare-row"><span class="label">الأحجار الملونة</span><span class="value">نمو 30%</span></div>
+      <div class="ad-compare-row"><span class="label">الذهب الأصفر 14K</span><span class="value">تفوّق على الأبيض</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">اتجاهات هابطة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الألماس الطبيعي</span><span class="value">انتقل للتراث</span></div>
+      <div class="ad-compare-row"><span class="label">الذهب الأبيض</span><span class="value">الأصفر يقود</span></div>
+      <div class="ad-compare-row"><span class="label">التصاميم المبالغة</span><span class="value">البساطة تسود</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">بيانات ٢٠٢٦</div>
+  <div class="ad-fact-callout-text">سوق المجوهرات العالمي يصل إلى 380 مليار دولار في 2026، وهو رقم قياسي. نمو الألماس المختبري 25% سنوياً، وطلب الأحجار الملونة في أعلى مستوى خلال 3 سنوات.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى تقرير McKinsey للرفاهية 2026 وتحليل Bain & Company وبيانات GJEPC.</p>`
+};
+C[156] = {
+  tr: `<h2>Nişan Yüzüğü Kapsamlı Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Metal Seçenek</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> ana tür</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Taş Alternatif</div>
+    <div class="ad-metric-value">5+<span class="ad-metric-unit"> seçenek</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Birlikte Seçim</div>
+    <div class="ad-metric-value">70<span class="ad-metric-unit">% çift</span></div>
+  </div>
+</div>
+
+<p>Nişan yüzüğü seçimi hem duygusal hem pratik bir süreçtir. Metal türünden taş alternatiflerine, bütçe stratejisinden 4C önceliklendirmesine kadar bilinçli bir karar vermek, yıllar boyu memnuniyet sağlar. Bu rehber, süreci adım adım ele alır.</p>
+
+<h3>Metal Seçimi</h3>
+
+<p>Platin en dayanıklı ve hipoalerjenik seçenektir ancak gram başına en pahalıdır. 18K beyaz altın platin görünümünü uygun fiyatla sunar; rodyum kaplaması 1-2 yılda yenilenmelidir. 18K sarı altın klasik ve sıcak tonu ile pırlantayla güzel kontrast yaratır. 14K rose altın modern ve romantik bir his verir; içerdiği bakır oranı hem renk hem dayanıklılık katar.</p>
+
+<h3>Taş Seçenekleri</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Doğal Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">Gelenek, yatırım değeri</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺50.000–500.000+</span></div>
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">Mohs 10</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">GIA sertifikası şart</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Lab-Grown Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">%50-70 ucuz, etik</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺15.000–150.000</span></div>
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">Mohs 10 (identik)</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">İkinci el değeri düşük</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Moissanite / Renkli</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Avantaj</span><span class="value">%90 ucuz / benzersiz</span></div>
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">₺3.000–30.000</span></div>
+      <div class="ad-compare-row"><span class="label">Sertlik</span><span class="value">Mohs 9.25 / değişken</span></div>
+      <div class="ad-compare-row"><span class="label">Dikkat</span><span class="value">Çift kırılma / bakım</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bütçe ve 4C Stratejisi</h3>
+
+<p>"3 aylık maaş" kuralı modası geçmiş bir pazarlama mitidir. Türkiye'de gerçekçi nişan yüzüğü bütçesi ₺15.000-80.000 arasında değişir. Bütçenin %70'ini taşa, %30'unu montüre ayırmak ideal dağılımdır. Sınırlı bütçede 4C öncelik sıralaması: Cut (kesim) > Carat (karat) > Color (renk) > Clarity (berraklık). İyi kesim küçük bir taşı bile parlak gösterir; SI1-VS2 berraklık çıplak gözle mükemmeldir; H-I renk beyaz altınla harika uyum sağlar.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Altın Tavsiye</div>
+  <div class="ad-fact-callout-text">Yüzüğü gizlice almak yerine birlikte seçin — araştırmalar çiftlerin %70'inin birlikte seçimi tercih ettiğini gösteriyor. Sürpriz yapmak istiyorsanız geçici bir "proposal ring" kullanıp asıl yüzüğü birlikte belirleyebilirsiniz.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>GIA nişan yüzüğü rehberi, The Knot 2025 anket verileri ve Rapaport piyasa raporlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Complete Engagement Ring Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Metal Options</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> main types</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Stone Alternatives</div>
+    <div class="ad-metric-value">5+<span class="ad-metric-unit"> choices</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Chosen Together</div>
+    <div class="ad-metric-value">70<span class="ad-metric-unit">% of couples</span></div>
+  </div>
+</div>
+
+<p>Choosing an engagement ring is both emotional and practical. From metal types to stone alternatives, budget planning to the 4C priority system, making an informed decision ensures lasting satisfaction.</p>
+
+<h3>Metal Selection</h3>
+
+<p>Platinum is the most durable and hypoallergenic but priciest per gram. 18K white gold delivers a platinum look at a lower cost; rhodium plating needs refreshing every 1-2 years. 18K yellow gold offers classic warmth and contrasts beautifully with diamonds. 14K rose gold delivers a modern romantic feel with added durability from its copper content.</p>
+
+<h3>Stone Options</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Natural Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pros</span><span class="value">Traditional, investment value</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$1,500–$15,000+</span></div>
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">Mohs 10</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">GIA cert essential</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Lab-Grown Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pros</span><span class="value">50-70% cheaper, ethical</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$500–$5,000</span></div>
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">Mohs 10 (identical)</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Lower resale value</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Moissanite / Colored</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Pros</span><span class="value">90% cheaper / unique</span></div>
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">$100–$1,000</span></div>
+      <div class="ad-compare-row"><span class="label">Hardness</span><span class="value">Mohs 9.25 / varies</span></div>
+      <div class="ad-compare-row"><span class="label">Note</span><span class="value">Double refraction / care</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Budget and 4C Strategy</h3>
+
+<p>The "3-month salary rule" is an outdated marketing myth. Allocate roughly 70% to the stone and 30% to the setting. On a limited budget, prioritize: Cut > Carat > Color > Clarity. A well-cut stone sparkles even at smaller sizes; SI1-VS2 clarity is eye-clean; H-I color looks excellent in white gold settings.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Golden Tip</div>
+  <div class="ad-fact-callout-text">Choose together — 70% of couples prefer selecting the ring jointly. If you want a surprise, use a temporary "proposal ring" and pick the real one together afterward.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on GIA engagement ring guidelines, The Knot 2025 survey data, and Rapaport market reports.</p>`,
+
+  ar: `<h2>الدليل الشامل لخاتم الخطوبة</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">خيارات المعدن</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> أنواع</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">بدائل الحجر</div>
+    <div class="ad-metric-value">5+<span class="ad-metric-unit"> خيارات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">اختيار مشترك</div>
+    <div class="ad-metric-value">70<span class="ad-metric-unit">% من الأزواج</span></div>
+  </div>
+</div>
+
+<p>اختيار خاتم الخطوبة قرار عاطفي وعملي. من نوع المعدن إلى بدائل الحجر واستراتيجية الميزانية، القرار الواعي يضمن رضاً يدوم سنوات.</p>
+
+<h3>اختيار المعدن</h3>
+
+<p>البلاتين الأكثر متانة وتضاد حساسية لكنه الأغلى. الذهب الأبيض 18 قيراط يقدم مظهر البلاتين بسعر أقل مع تجديد طلاء الروديوم كل سنتين. الذهب الوردي 14 قيراط عصري ورومانسي بفضل محتوى النحاس.</p>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ألماس طبيعي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المميزات</span><span class="value">تقليدي، قيمة استثمارية</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$1,500–$15,000+</span></div>
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">موس 10</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">ألماس مختبري</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المميزات</span><span class="value">أرخص 50-70%، أخلاقي</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$500–$5,000</span></div>
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">موس 10 (مطابق)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مويسانيت / ملوّن</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المميزات</span><span class="value">أرخص 90% / فريد</span></div>
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">$100–$1,000</span></div>
+      <div class="ad-compare-row"><span class="label">الصلابة</span><span class="value">موس 9.25 / متغير</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الميزانية وأولوية 4C</h3>
+
+<p>قاعدة "راتب 3 أشهر" أسطورة تسويقية قديمة. خصص 70% للحجر و30% للإطار. بميزانية محدودة: القطع > القيراط > اللون > النقاء. القطع الجيد يجعل حتى الحجر الصغير متألقاً.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">نصيحة ذهبية</div>
+  <div class="ad-fact-callout-text">اختارا الخاتم معاً — 70% من الأزواج يفضلون الاختيار المشترك. إذا أردت مفاجأة، استخدم "خاتم اقتراح" مؤقتاً ثم اختارا الحقيقي سوياً.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى دليل خواتم الخطوبة من GIA وبيانات استطلاع The Knot 2025 وتقارير Rapaport.</p>`
+};
+C[157] = {
+  tr: `<h2>Takı Sigortası Kapsamlı Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yıllık Prim</div>
+    <div class="ad-metric-value">1-2<span class="ad-metric-unit">% değer</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ev Sigortası Limiti</div>
+    <div class="ad-metric-value">₺10-50<span class="ad-metric-unit">K maks</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ayrı Sigorta Oranı</div>
+    <div class="ad-metric-value">%8<span class="ad-metric-unit"> TR evleri</span></div>
+  </div>
+</div>
+
+<p>Değerli takılarınız hem maddi hem manevi değer taşır. Standart ev sigortası genellikle takıları toplam ₺10.000-50.000 limite kadar sınırlı kapsar — tek bir nişan yüzüğünün değerinin bile altında kalabilir. Ayrı bir takı sigortası veya "floater" poliçe, hırsızlık, kayıp, hasar ve gizemli kaybolma dahil tam koruma sağlar.</p>
+
+<h3>Değerleme: Sigortanın Temeli</h3>
+
+<p>Sigorta başvurusu için bağımsız, GIA veya IGI sertifikalı bir değerleme uzmanından resmi rapor alınması gerekir. Rapor fotoğraf, detaylı tanım, piyasa değeri ve yenileme maliyetini içermelidir. Metal ve taş fiyatları dalgalandığından değerleme her 2-3 yılda güncellenmelidir; aksi halde sigorta teminatı yetersiz kalabilir.</p>
+
+<h3>Poliçe Türleri Karşılaştırması</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Mutabık Değer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ödeme</span><span class="value">Belirlenen tam tutar</span></div>
+      <div class="ad-compare-row"><span class="label">Prim</span><span class="value">En yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Güvence</span><span class="value">★★★★★</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Yüksek değerli parçalar</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gerçek Nakit Değer</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ödeme</span><span class="value">Amortisman düşülür</span></div>
+      <div class="ad-compare-row"><span class="label">Prim</span><span class="value">En düşük</span></div>
+      <div class="ad-compare-row"><span class="label">Güvence</span><span class="value">★★★☆☆</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Bütçe bilincli</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yenileme Maliyeti</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ödeme</span><span class="value">Benzer parça maliyeti</span></div>
+      <div class="ad-compare-row"><span class="label">Prim</span><span class="value">Orta</span></div>
+      <div class="ad-compare-row"><span class="label">Güvence</span><span class="value">★★★★☆</span></div>
+      <div class="ad-compare-row"><span class="label">İdeal</span><span class="value">Genel koruma</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Pratik Koruma Adımları</h3>
+
+<p>Tüm takılarınızı fotoğraflayıp bulut depolamaya yükleyin. Fatura ve sertifikaları fiziksel takılardan ayrı bir yerde saklayın. Seyahatlerde "seyahat sigortası rider" eklettirin. Poliçenizi her yıl gözden geçirin; yeni alımları eklemeyi unutmayın. Güvenilir bir kasaya yatırım yapmak, sigorta primini düşürebilir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kritik İstatistik</div>
+  <div class="ad-fact-callout-text">Türkiye'de evlerin yalnızca %8'i takıları için ayrı sigorta yaptırmaktadır — büyük bir koruma açığı. Yıllık prim, takı değerinin sadece %1-2'sidir; bu küçük maliyet, onlarca bin liralık kayıptan koruyabilir.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>Türkiye Sigorta Birliği verileri, Jewelers Mutual sigorta rehberi ve GIA değerleme standartlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Comprehensive Jewelry Insurance Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Annual Premium</div>
+    <div class="ad-metric-value">1-2<span class="ad-metric-unit">% of value</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Home Policy Limit</div>
+    <div class="ad-metric-value">$1-3<span class="ad-metric-unit">K typical</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Coverage Gap</div>
+    <div class="ad-metric-value">92<span class="ad-metric-unit">% uninsured</span></div>
+  </div>
+</div>
+
+<p>Valuable jewelry carries both monetary and sentimental worth. Standard homeowner's insurance typically covers jewelry with very low limits — often $1,000-$3,000 total — far below the value of a single engagement ring. A dedicated jewelry policy or "floater" provides full protection for theft, loss, damage, and mysterious disappearance.</p>
+
+<h3>Appraisal: The Foundation</h3>
+
+<p>Insurance requires an independent appraisal from a GIA or IGI certified professional. The report must include photographs, detailed description, market value, and replacement cost. Since metal and gem prices fluctuate, appraisals should be updated every 2-3 years to keep coverage adequate.</p>
+
+<h3>Policy Type Comparison</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Agreed Value</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Payout</span><span class="value">Full agreed amount</span></div>
+      <div class="ad-compare-row"><span class="label">Premium</span><span class="value">Highest</span></div>
+      <div class="ad-compare-row"><span class="label">Security</span><span class="value">★★★★★</span></div>
+      <div class="ad-compare-row"><span class="label">Best For</span><span class="value">High-value pieces</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Actual Cash Value</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Payout</span><span class="value">Depreciation deducted</span></div>
+      <div class="ad-compare-row"><span class="label">Premium</span><span class="value">Lowest</span></div>
+      <div class="ad-compare-row"><span class="label">Security</span><span class="value">★★★☆☆</span></div>
+      <div class="ad-compare-row"><span class="label">Best For</span><span class="value">Budget-conscious</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Replacement Cost</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Payout</span><span class="value">Cost to replace</span></div>
+      <div class="ad-compare-row"><span class="label">Premium</span><span class="value">Medium</span></div>
+      <div class="ad-compare-row"><span class="label">Security</span><span class="value">★★★★☆</span></div>
+      <div class="ad-compare-row"><span class="label">Best For</span><span class="value">General protection</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Practical Steps</h3>
+
+<p>Photograph all jewelry and upload to cloud storage. Keep receipts and certificates separate from the physical pieces. Add a travel rider for trips. Review your policy annually and add new purchases promptly. Investing in a safe can lower premiums.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Critical Statistic</div>
+  <div class="ad-fact-callout-text">Only about 8% of households carry separate jewelry insurance — a massive coverage gap. Annual premiums of just 1-2% of jewelry value can protect against losses of tens of thousands of dollars.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on Jewelers Mutual insurance guide, GIA appraisal standards, and insurance industry data.</p>`,
+
+  ar: `<h2>الدليل الشامل لتأمين المجوهرات</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">القسط السنوي</div>
+    <div class="ad-metric-value">1-2<span class="ad-metric-unit">% من القيمة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حد تأمين المنزل</div>
+    <div class="ad-metric-value">$1-3<span class="ad-metric-unit">K نموذجي</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">فجوة التغطية</div>
+    <div class="ad-metric-value">92<span class="ad-metric-unit">% غير مؤمّن</span></div>
+  </div>
+</div>
+
+<p>مجوهراتك تحمل قيمة مالية وعاطفية. تأمين المنزل القياسي يغطي المجوهرات بحدود منخفضة جداً — غالباً $1,000-$3,000 فقط. بوليصة مجوهرات مخصصة أو "عائمة" توفر حماية كاملة: سرقة، فقدان، تلف، واختفاء غامض.</p>
+
+<h3>التقييم: الأساس</h3>
+
+<p>التأمين يتطلب تقييماً مستقلاً من متخصص معتمد من GIA أو IGI. التقرير يجب أن يشمل صوراً ووصفاً مفصلاً وقيمة سوقية وتكلفة استبدال. يُحدَّث كل 2-3 سنوات لأن الأسعار تتغير.</p>
+
+<h3>مقارنة أنواع البوالص</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">القيمة المتفق عليها</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الدفع</span><span class="value">المبلغ المتفق كاملاً</span></div>
+      <div class="ad-compare-row"><span class="label">القسط</span><span class="value">الأعلى</span></div>
+      <div class="ad-compare-row"><span class="label">الأمان</span><span class="value">★★★★★</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">القيمة النقدية الفعلية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الدفع</span><span class="value">يُخصم الاستهلاك</span></div>
+      <div class="ad-compare-row"><span class="label">القسط</span><span class="value">الأقل</span></div>
+      <div class="ad-compare-row"><span class="label">الأمان</span><span class="value">★★★☆☆</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تكلفة الاستبدال</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الدفع</span><span class="value">تكلفة استبدال بمماثل</span></div>
+      <div class="ad-compare-row"><span class="label">القسط</span><span class="value">متوسط</span></div>
+      <div class="ad-compare-row"><span class="label">الأمان</span><span class="value">★★★★☆</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">إحصائية حرجة</div>
+  <div class="ad-fact-callout-text">حوالي 8% فقط من المنازل تمتلك تأمين مجوهرات منفصل — فجوة تغطية ضخمة. قسط سنوي 1-2% فقط من قيمة المجوهرات يمكن أن يحمي من خسائر بعشرات الآلاف.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى دليل تأمين Jewelers Mutual ومعايير تقييم GIA وبيانات صناعة التأمين.</p>`
+};
+C[158] = {
+  tr: `<h2>Altın vs Pırlanta vs Gayrimenkul — Yatırım Karşılaştırması</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Altın Getiri</div>
+    <div class="ad-metric-value">8-12<span class="ad-metric-unit">% yıllık</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Pırlanta Getiri</div>
+    <div class="ad-metric-value">3-5<span class="ad-metric-unit">% yıllık</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gayrimenkul</div>
+    <div class="ad-metric-value">5-15<span class="ad-metric-unit">% yıllık</span></div>
+  </div>
+</div>
+
+<p>Yatırım portföyü çeşitlendirmesinde alternatif varlık sınıfları kritik rol oynar. Altın, pırlanta ve gayrimenkul birbirinden çok farklı risk-getiri profilleri sunar. Bu karşılaştırma, her yatırımcının kendi durumuna göre doğru dengeyi bulmasına yardımcı olur.</p>
+
+<h3>Üç Varlık Sınıfı Karşılaştırması</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Altın</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Getiri (20 yıl)</span><span class="value">Yıllık %8-12 (USD)</span></div>
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Çok yüksek — anında</span></div>
+      <div class="ad-compare-row"><span class="label">Min. Giriş</span><span class="value">1 gram (~₺3.000)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Orta — enflasyon kalkanı</span></div>
+      <div class="ad-compare-row"><span class="label">Depolama</span><span class="value">Düşük (kasa / ETF)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Pırlanta</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Getiri</span><span class="value">Yıllık %3-5 (yat. kalite)</span></div>
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Düşük — uzun satış</span></div>
+      <div class="ad-compare-row"><span class="label">Min. Giriş</span><span class="value">₺100.000+ (1ct+ D-F)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Yüksek — lab-grown baskısı</span></div>
+      <div class="ad-compare-row"><span class="label">Depolama</span><span class="value">Sigorta zorunlu</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gayrimenkul</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Getiri</span><span class="value">Kira + değer: %5-15</span></div>
+      <div class="ad-compare-row"><span class="label">Likidite</span><span class="value">Çok düşük — aylar</span></div>
+      <div class="ad-compare-row"><span class="label">Min. Giriş</span><span class="value">₺2-5 milyon+</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Orta-yüksek — lokasyon</span></div>
+      <div class="ad-compare-row"><span class="label">Depolama</span><span class="value">Bakım maliyeti var</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Strateji ve Portföy Dengesi</h3>
+
+<p>Altın, likidite ve güvenli liman arayan her seviye yatırımcı için uygundur; 1 gramdan başlanabilir. Pırlanta, tutkuyla birleşen uzun vadeli yatırım aracıdır ancak lab-grown baskısı ve öznel değerleme riski taşır; yalnızca yatırım kalitesi (1ct+, D-F, VVS-IF) parçalar düşünülmelidir. Gayrimenkul, yüksek sermaye gerektiren ancak kira geliri ile düzenli nakit akışı sağlayan bir varlıktır; lokasyon ve yasal riskler dikkatle değerlendirilmelidir.</p>
+
+<p>İdeal portföy dağılımı: %60-70 geleneksel varlıklar (hisse, tahvil, fon) + %20-30 altın + %5-10 değerli taş veya koleksiyon. Bu dağılım, risk çeşitlendirmesini en üst düzeye çıkarır.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Altın Kural</div>
+  <div class="ad-fact-callout-text">Yatırım amaçlı mücevheri asla duygusal satın almayın. GIA sertifikalı, yatırım kalitesi parçalar seçin ve en az 5-10 yıl tutmayı planlayın. Altın/gümüş oranı (Gold/Silver Ratio) 80'in üzerindeyse gümüş "ucuz" kabul edilir — bu göstergeyi takip edin.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>World Gold Council performans verileri, Rapaport pırlanta piyasa raporları ve TCMB enflasyon verilerine dayanmaktadır.</p>`,
+
+  en: `<h2>Gold vs Diamond vs Real Estate — Investment Comparison</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gold Returns</div>
+    <div class="ad-metric-value">8-12<span class="ad-metric-unit">% annual</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Diamond Returns</div>
+    <div class="ad-metric-value">3-5<span class="ad-metric-unit">% annual</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Real Estate</div>
+    <div class="ad-metric-value">5-15<span class="ad-metric-unit">% annual</span></div>
+  </div>
+</div>
+
+<p>Alternative asset classes play a critical role in portfolio diversification. Gold, diamonds, and real estate offer vastly different risk-return profiles. This comparison helps investors find the right balance for their situation.</p>
+
+<h3>Three Asset Classes Compared</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gold</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Returns (20yr)</span><span class="value">8-12% annual (USD)</span></div>
+      <div class="ad-compare-row"><span class="label">Liquidity</span><span class="value">Very high — instant</span></div>
+      <div class="ad-compare-row"><span class="label">Min. Entry</span><span class="value">1 gram (~$90)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Medium — inflation hedge</span></div>
+      <div class="ad-compare-row"><span class="label">Storage</span><span class="value">Low cost (safe / ETF)</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Diamond</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Returns</span><span class="value">3-5% (investment grade)</span></div>
+      <div class="ad-compare-row"><span class="label">Liquidity</span><span class="value">Low — long sale process</span></div>
+      <div class="ad-compare-row"><span class="label">Min. Entry</span><span class="value">$3,000+ (1ct+ D-F)</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">High — lab-grown pressure</span></div>
+      <div class="ad-compare-row"><span class="label">Storage</span><span class="value">Insurance required</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Real Estate</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Returns</span><span class="value">5-15% (rent + value)</span></div>
+      <div class="ad-compare-row"><span class="label">Liquidity</span><span class="value">Very low — months</span></div>
+      <div class="ad-compare-row"><span class="label">Min. Entry</span><span class="value">$50,000+</span></div>
+      <div class="ad-compare-row"><span class="label">Risk</span><span class="value">Medium-high — location</span></div>
+      <div class="ad-compare-row"><span class="label">Storage</span><span class="value">Maintenance costs</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Strategy and Portfolio Balance</h3>
+
+<p>Gold suits every investor level seeking liquidity and a safe haven — you can start from a single gram. Diamonds serve as passion-investment hybrids but carry lab-grown pressure and subjective valuation risks; only investment-grade pieces (1ct+, D-F, VVS-IF) should be considered. Real estate demands high capital but offers steady rental income; location and legal risks must be carefully weighed.</p>
+
+<p>Ideal allocation: 60-70% traditional assets (stocks, bonds, funds) + 20-30% gold + 5-10% gems or collectibles for maximum diversification.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Golden Rule</div>
+  <div class="ad-fact-callout-text">Never buy investment jewelry emotionally. Choose GIA-certified, investment-quality pieces and plan to hold for 5-10 years minimum. Track the Gold/Silver Ratio — when it exceeds 80, silver is considered "cheap" relative to gold.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on World Gold Council performance data, Rapaport diamond market reports, and Federal Reserve inflation data.</p>`,
+
+  ar: `<h2>الذهب مقابل الألماس مقابل العقارات — مقارنة الاستثمار</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عائد الذهب</div>
+    <div class="ad-metric-value">8-12<span class="ad-metric-unit">% سنوي</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عائد الألماس</div>
+    <div class="ad-metric-value">3-5<span class="ad-metric-unit">% سنوي</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">عائد العقارات</div>
+    <div class="ad-metric-value">5-15<span class="ad-metric-unit">% سنوي</span></div>
+  </div>
+</div>
+
+<p>فئات الأصول البديلة تلعب دوراً حاسماً في تنويع المحفظة. الذهب والألماس والعقارات تقدم ملفات مخاطر-عوائد مختلفة جداً.</p>
+
+<h3>مقارنة ثلاث فئات أصول</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الذهب</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">8-12% سنوياً</span></div>
+      <div class="ad-compare-row"><span class="label">السيولة</span><span class="value">عالية جداً — فوري</span></div>
+      <div class="ad-compare-row"><span class="label">الحد الأدنى</span><span class="value">1 غرام (~$90)</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطر</span><span class="value">متوسطة — حماية تضخم</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الألماس</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">3-5% (جودة استثمار)</span></div>
+      <div class="ad-compare-row"><span class="label">السيولة</span><span class="value">منخفضة — بيع طويل</span></div>
+      <div class="ad-compare-row"><span class="label">الحد الأدنى</span><span class="value">$3,000+</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطر</span><span class="value">عالية — ضغط المختبري</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">العقارات</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">العائد</span><span class="value">5-15% (إيجار + قيمة)</span></div>
+      <div class="ad-compare-row"><span class="label">السيولة</span><span class="value">منخفضة جداً — أشهر</span></div>
+      <div class="ad-compare-row"><span class="label">الحد الأدنى</span><span class="value">$50,000+</span></div>
+      <div class="ad-compare-row"><span class="label">المخاطر</span><span class="value">متوسطة-عالية — الموقع</span></div>
+    </div>
+  </div>
+</div>
+
+<p>التوزيع المثالي: 60-70% أصول تقليدية + 20-30% ذهب + 5-10% أحجار كريمة أو مقتنيات لأقصى تنويع.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">القاعدة الذهبية</div>
+  <div class="ad-fact-callout-text">لا تشترِ مجوهرات استثمارية بعاطفة. اختر قطعاً معتمدة من GIA بجودة استثمارية وخطط للاحتفاظ بها 5-10 سنوات على الأقل. تابع نسبة الذهب/الفضة — فوق 80 تعني أن الفضة "رخيصة".</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى بيانات مجلس الذهب العالمي وتقارير Rapaport وبيانات التضخم الفيدرالية.</p>`
+};
+C[193] = {
+  tr: `<h2>Mücevher Değerleme Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Değerleme Türü</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> kategori</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Güncelleme</div>
+    <div class="ad-metric-value">2-3<span class="ad-metric-unit"> yılda bir</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tasfiye Oranı</div>
+    <div class="ad-metric-value">50-70<span class="ad-metric-unit">% piyasa</span></div>
+  </div>
+</div>
+
+<p>Mücevher değerleme (appraisal), bir parçanın sigorta, piyasa, tasfiye veya miras amaçlı değerini belirleyen profesyonel süreçtir. Doğru değerleme, sigorta teminatından vergi hesaplamasına kadar kritik kararlarda temel oluşturur. Yetersiz veya güncel olmayan değerleme, kayıp anında büyük maddi zarara yol açabilir.</p>
+
+<h3>Değerleme Türleri</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Sigorta Değerlemesi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ölçü</span><span class="value">Yenileme maliyeti</span></div>
+      <div class="ad-compare-row"><span class="label">Değer</span><span class="value">Genellikle en yüksek</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Poliçe başvurusu</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Piyasa Değerlemesi</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ölçü</span><span class="value">Açık piyasa satış fiyatı</span></div>
+      <div class="ad-compare-row"><span class="label">Değer</span><span class="value">Orta seviye</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Satış / satın alma</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tasfiye / Miras</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Ölçü</span><span class="value">Hızlı satış / adil piyasa</span></div>
+      <div class="ad-compare-row"><span class="label">Değer</span><span class="value">Piyasanın %50-70'i</span></div>
+      <div class="ad-compare-row"><span class="label">Kullanım</span><span class="value">Miras paylaşımı / vergi</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Profesyonel Değerleme Süreci</h3>
+
+<p>Kapsamlı bir değerleme şu adımları içerir: fiziksel inceleme (boyut, ağırlık, karat ölçümü), taş tanımlama (loupe, refraktometre, spektroskop ile), metal test (XRF veya asit testi ile ayar doğrulama), her açıdan detaylı fotoğraflama ve resmi belgeli, damgalı değerleme sertifikası hazırlanması. Süreç genellikle 30-60 dakika sürer ve parça başına ₺500-2.000 arasında ücretlendirilir.</p>
+
+<h3>Kimden Yaptırmalı?</h3>
+
+<p>Güvenilir değerleme için GIA (Gemological Institute of America) diplomalı gemolog veya ASA (American Society of Appraisers) üyesi tercih edilmelidir. Bağımsız değerleme uzmanı seçmek önemlidir — kuyumcunun kendi ürünü için değerleme yapması çıkar çatışması yaratır. Türkiye'de Borsa İstanbul yetkili eksperler ve Darphane onaylı laboratuvarlar güvenilir seçeneklerdir.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Kritik Kural</div>
+  <div class="ad-fact-callout-text">Değerleme her 2-3 yılda güncellenmelidir — metal ve taş fiyatları sürekli değişir. Güncel olmayan rapor, sigorta teminatınızın yetersiz kalmasına neden olabilir. Değerleme raporunu ayrı, güvenli bir yerde saklayın; dijital kopyasını bulut depolamaya yükleyin.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>GIA değerleme standartları, ASA profesyonel rehberleri ve Borsa İstanbul kıymetli maden mevzuatına dayanmaktadır.</p>`,
+
+  en: `<h2>Jewelry Appraisal Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Appraisal Types</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> categories</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Update Cycle</div>
+    <div class="ad-metric-value">2-3<span class="ad-metric-unit"> years</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Liquidation Rate</div>
+    <div class="ad-metric-value">50-70<span class="ad-metric-unit">% of market</span></div>
+  </div>
+</div>
+
+<p>Jewelry appraisal is the professional process of determining a piece's value for insurance, market, liquidation, or estate purposes. Accurate appraisals form the foundation for critical decisions from insurance coverage to tax calculations. An outdated or inadequate appraisal can lead to significant financial loss when a claim arises.</p>
+
+<h3>Appraisal Types</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Insurance Appraisal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Measures</span><span class="value">Replacement cost</span></div>
+      <div class="ad-compare-row"><span class="label">Value Level</span><span class="value">Usually highest</span></div>
+      <div class="ad-compare-row"><span class="label">Purpose</span><span class="value">Policy applications</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Market Appraisal</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Measures</span><span class="value">Open market sale price</span></div>
+      <div class="ad-compare-row"><span class="label">Value Level</span><span class="value">Mid-range</span></div>
+      <div class="ad-compare-row"><span class="label">Purpose</span><span class="value">Buying / selling</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Liquidation / Estate</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Measures</span><span class="value">Quick sale / fair market</span></div>
+      <div class="ad-compare-row"><span class="label">Value Level</span><span class="value">50-70% of market</span></div>
+      <div class="ad-compare-row"><span class="label">Purpose</span><span class="value">Estate division / tax</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Professional Appraisal Process</h3>
+
+<p>A comprehensive appraisal includes physical examination (size, weight, carat measurement), stone identification (using loupe, refractometer, spectroscope), metal testing (XRF or acid test for purity), detailed photography from every angle, and an officially sealed appraisal certificate. The process typically takes 30-60 minutes and costs $50-$150 per piece.</p>
+
+<h3>Who Should Perform It?</h3>
+
+<p>Choose a GIA-certified gemologist or ASA (American Society of Appraisers) member. Always select an independent appraiser — having a jeweler appraise their own product creates a conflict of interest. Ask for credentials before committing.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Critical Rule</div>
+  <div class="ad-fact-callout-text">Appraisals should be updated every 2-3 years as metal and gemstone prices fluctuate continuously. An outdated report may leave your insurance coverage insufficient. Store the physical report separately from the jewelry, and upload a digital copy to cloud storage.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on GIA appraisal standards, ASA professional guidelines, and insurance industry practices.</p>`,
+
+  ar: `<h2>دليل تقييم المجوهرات</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">أنواع التقييم</div>
+    <div class="ad-metric-value">4<span class="ad-metric-unit"> فئات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">دورة التحديث</div>
+    <div class="ad-metric-value">2-3<span class="ad-metric-unit"> سنوات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">نسبة التصفية</div>
+    <div class="ad-metric-value">50-70<span class="ad-metric-unit">% من السوق</span></div>
+  </div>
+</div>
+
+<p>تقييم المجوهرات هو العملية المهنية لتحديد قيمة القطعة للتأمين أو السوق أو التصفية أو الميراث. التقييم الدقيق يشكّل أساساً لقرارات حاسمة من التغطية التأمينية إلى حساب الضرائب.</p>
+
+<h3>أنواع التقييم</h3>
+
+<div class="ad-compare-grid">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تقييم تأميني</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القياس</span><span class="value">تكلفة الاستبدال</span></div>
+      <div class="ad-compare-row"><span class="label">المستوى</span><span class="value">الأعلى عادةً</span></div>
+      <div class="ad-compare-row"><span class="label">الغرض</span><span class="value">طلبات البوليصة</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تقييم سوقي</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القياس</span><span class="value">سعر البيع المفتوح</span></div>
+      <div class="ad-compare-row"><span class="label">المستوى</span><span class="value">متوسط</span></div>
+      <div class="ad-compare-row"><span class="label">الغرض</span><span class="value">بيع / شراء</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تصفية / ميراث</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">القياس</span><span class="value">بيع سريع / قيمة عادلة</span></div>
+      <div class="ad-compare-row"><span class="label">المستوى</span><span class="value">50-70% من السوق</span></div>
+      <div class="ad-compare-row"><span class="label">الغرض</span><span class="value">تقسيم التركة / ضرائب</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>من يجب أن يقيّم؟</h3>
+
+<p>اختر خبير أحجار معتمد من GIA أو عضو في ASA. اختر مقيّماً مستقلاً دائماً — تقييم المجوهراتي لمنتجاته الخاصة يخلق تضارب مصالح. التقييم يستغرق 30-60 دقيقة ويكلف $50-$150 للقطعة.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">قاعدة حرجة</div>
+  <div class="ad-fact-callout-text">يجب تحديث التقييم كل 2-3 سنوات لأن أسعار المعادن والأحجار تتغير باستمرار. التقرير القديم قد يجعل تغطيتك التأمينية غير كافية. احفظ التقرير منفصلاً عن المجوهرات وارفع نسخة رقمية للتخزين السحابي.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى معايير تقييم GIA وإرشادات ASA المهنية وممارسات صناعة التأمين.</p>`
+};
+C[194] = {
+  tr: `<h2>Online Takı Alışverişi Rehberi</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">E-ticaret Büyüme</div>
+    <div class="ad-metric-value">15-20<span class="ad-metric-unit">% yıllık</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Min. İade Süresi</div>
+    <div class="ad-metric-value">14<span class="ad-metric-unit"> gün</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Dolandırıcılık Risk</div>
+    <div class="ad-metric-value">+20<span class="ad-metric-unit">% artış</span></div>
+  </div>
+</div>
+
+<p>Mücevher e-ticareti her yıl %15-20 büyüyor, ancak dolandırıcılık riski de aynı hızla artıyor. Fiziksel mağazada dokunup görebildiğiniz bir parçayı ekrandan satın almak farklı bir dikkat seviyesi gerektirir. Bu rehber, güvenli online takı alışverişi için kritik kuralları sunar.</p>
+
+<h3>Güvenli Alışveriş Kontrol Listesi</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Yeşil Bayraklar ✓</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">SSL</span><span class="value">https:// zorunlu</span></div>
+      <div class="ad-compare-row"><span class="label">İade</span><span class="value">Min. 14 gün koşulsuz</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">GIA / AGS / IGI raporu</span></div>
+      <div class="ad-compare-row"><span class="label">Görsel</span><span class="value">360° video, gerçek fotoğraf</span></div>
+      <div class="ad-compare-row"><span class="label">İletişim</span><span class="value">Fiziksel adres + telefon</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Kırmızı Bayraklar ✗</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Fiyat</span><span class="value">Piyasanın çok altında</span></div>
+      <div class="ad-compare-row"><span class="label">Sertifika</span><span class="value">Yok veya bilinmeyen lab</span></div>
+      <div class="ad-compare-row"><span class="label">Ödeme</span><span class="value">Sadece kripto / havale</span></div>
+      <div class="ad-compare-row"><span class="label">Görsel</span><span class="value">Sadece stok fotoğraf</span></div>
+      <div class="ad-compare-row"><span class="label">İletişim</span><span class="value">Adres / telefon eksik</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Platform Karşılaştırması</h3>
+
+<p>Marka siteleri (Tiffany, Cartier, yerli markalar) en güvenli seçenektir; garanti ve iade koşulları nettir ancak fiyatlar daha yüksektir. Marketplace platformları (Etsy, Amazon) çeşitlilik sunar; satıcı puanlarını ve yorumları dikkatle inceleyin, platform iade politikasına güvenin. İkinci el platformlarda (eBay, Sahibinden) ekspertiz şartı koyarak alım yapın; sertifikasız parçaya teklif vermeyin. Özel kuyumcu siteleri referansla bulunmalı ve sosyal kanıtları (müşteri yorumları, Google puanı) doğrulanmalıdır.</p>
+
+<h3>Ödeme ve Koruma</h3>
+
+<p>Kredi kartıyla ödeme yapın — sorun durumunda chargeback (ters ibraz) hakkınız olur. Banka havalesi veya kripto ile ödeme kabul eden sitelere karşı dikkatli olun; bu yöntemler geri ödeme imkânı sunmaz. Kapıda ödeme, Türkiye'de güvenli bir alternatiftir ancak yüksek değerli parçalarda nadir sunulur.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Altın Kural</div>
+  <div class="ad-fact-callout-text">"Gerçek olamayacak kadar güzel" fiyatlar genellikle gerçek değildir. Kredi kartıyla ödeme yapın, GIA/AGS sertifikası isteyin, 360° gerçek fotoğraf doğrulayın. Bu üç adım, online takı dolandırıcılığının %90'ını engeller.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>FTC tüketici koruma rehberleri, GIA online alışveriş kılavuzu ve e-ticaret güvenlik standartlarına dayanmaktadır.</p>`,
+
+  en: `<h2>Online Jewelry Shopping Guide</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">E-commerce Growth</div>
+    <div class="ad-metric-value">15-20<span class="ad-metric-unit">% annual</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Min. Return Window</div>
+    <div class="ad-metric-value">14<span class="ad-metric-unit"> days</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fraud Risk</div>
+    <div class="ad-metric-value">+20<span class="ad-metric-unit">% increase</span></div>
+  </div>
+</div>
+
+<p>Jewelry e-commerce grows 15-20% annually, but fraud risks are climbing just as fast. Buying a piece you can't touch or inspect in person demands a different level of diligence. This guide provides critical rules for safe online jewelry shopping.</p>
+
+<h3>Safe Shopping Checklist</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Green Flags ✓</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">SSL</span><span class="value">https:// mandatory</span></div>
+      <div class="ad-compare-row"><span class="label">Returns</span><span class="value">Min. 14 days unconditional</span></div>
+      <div class="ad-compare-row"><span class="label">Certification</span><span class="value">GIA / AGS / IGI report</span></div>
+      <div class="ad-compare-row"><span class="label">Visuals</span><span class="value">360° video, real photos</span></div>
+      <div class="ad-compare-row"><span class="label">Contact</span><span class="value">Physical address + phone</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Red Flags ✗</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Price</span><span class="value">Far below market</span></div>
+      <div class="ad-compare-row"><span class="label">Certification</span><span class="value">None or unknown lab</span></div>
+      <div class="ad-compare-row"><span class="label">Payment</span><span class="value">Crypto / wire only</span></div>
+      <div class="ad-compare-row"><span class="label">Visuals</span><span class="value">Stock photos only</span></div>
+      <div class="ad-compare-row"><span class="label">Contact</span><span class="value">No address / phone</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Platform Comparison</h3>
+
+<p>Brand websites (Tiffany, Cartier, local brands) are safest with clear guarantees, though prices run higher. Marketplaces (Etsy, Amazon) offer variety — check seller ratings and reviews carefully, and rely on platform return policies. For second-hand platforms, always require expert appraisal before purchasing; never bid on uncertified pieces.</p>
+
+<h3>Payment and Protection</h3>
+
+<p>Always pay by credit card — chargeback rights protect you if something goes wrong. Be cautious of sites accepting only wire transfer or cryptocurrency, as these methods offer no recourse. The three-step shield: pay by card, demand GIA/AGS certification, verify 360° real photos.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Golden Rule</div>
+  <div class="ad-fact-callout-text">"Too good to be true" prices are usually exactly that. Pay by credit card, require GIA/AGS certification, and verify 360° real photos. These three steps prevent 90% of online jewelry fraud.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on FTC consumer protection guidelines, GIA online shopping guide, and e-commerce security standards.</p>`,
+
+  ar: `<h2>دليل شراء المجوهرات عبر الإنترنت</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">نمو التجارة الإلكترونية</div>
+    <div class="ad-metric-value">15-20<span class="ad-metric-unit">% سنوي</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حد أدنى للإرجاع</div>
+    <div class="ad-metric-value">14<span class="ad-metric-unit"> يوماً</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">مخاطر الاحتيال</div>
+    <div class="ad-metric-value">+20<span class="ad-metric-unit">% زيادة</span></div>
+  </div>
+</div>
+
+<p>التجارة الإلكترونية للمجوهرات تنمو 15-20% سنوياً، لكن مخاطر الاحتيال تتصاعد بنفس السرعة. شراء قطعة لا يمكنك لمسها أو فحصها شخصياً يتطلب مستوى مختلفاً من الحذر.</p>
+
+<h3>قائمة التسوق الآمن</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">علامات خضراء ✓</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">SSL</span><span class="value">https:// إلزامي</span></div>
+      <div class="ad-compare-row"><span class="label">الإرجاع</span><span class="value">14 يوماً على الأقل</span></div>
+      <div class="ad-compare-row"><span class="label">الشهادة</span><span class="value">تقرير GIA / AGS / IGI</span></div>
+      <div class="ad-compare-row"><span class="label">الصور</span><span class="value">فيديو 360° وصور حقيقية</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">علامات حمراء ✗</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السعر</span><span class="value">أقل بكثير من السوق</span></div>
+      <div class="ad-compare-row"><span class="label">الشهادة</span><span class="value">غائبة أو مختبر مجهول</span></div>
+      <div class="ad-compare-row"><span class="label">الدفع</span><span class="value">كريبتو / تحويل فقط</span></div>
+      <div class="ad-compare-row"><span class="label">التواصل</span><span class="value">لا عنوان ولا هاتف</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الدفع والحماية</h3>
+
+<p>ادفع دائماً ببطاقة الائتمان — حقوق استرداد الأموال (chargeback) تحميك عند حدوث مشاكل. احذر من المواقع التي تقبل فقط التحويل البنكي أو العملات المشفرة لأنها لا توفر أي حماية. الدرع الثلاثي: بطاقة ائتمان + شهادة GIA + صور 360° حقيقية.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">القاعدة الذهبية</div>
+  <div class="ad-fact-callout-text">الأسعار "الجميلة جداً لتكون حقيقية" غالباً ليست حقيقية. ادفع ببطاقة ائتمان، اطلب شهادة GIA/AGS، وتحقق من صور 360° الحقيقية. هذه الخطوات الثلاث تمنع 90% من احتيال المجوهرات عبر الإنترنت.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى إرشادات حماية المستهلك FTC ودليل GIA للتسوق الإلكتروني ومعايير أمان التجارة الإلكترونية.</p>`
+};
+C[199] = {
+  tr: `<h2>Mücevher Mirası ve Hukuk</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Hukuki Boyut</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> alan</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Gümrük Sınırı</div>
+    <div class="ad-metric-value">15.000<span class="ad-metric-unit"> USD</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Uyuşmazlık Oranı</div>
+    <div class="ad-metric-value">Yüksek<span class="ad-metric-unit"> boşanma</span></div>
+  </div>
+</div>
+
+<p>Mücevherlerin nesiller arası aktarımı, duygusal değerinin çok ötesinde karmaşık hukuki boyutlar taşır. Veraset hukuku, bağış vergisi ve uluslararası gümrük kuralları — her biri ayrı uzmanlık gerektiren konulardır. Bu rehber, Türkiye hukuku odaklı olarak temel bilgileri sunar; ancak spesifik durumlarda hukuki danışmanlık alınması önerilir.</p>
+
+<h3>Veraset Hukuku ve Mücevher</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Miras Paylaşımı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Hukuki Statü</span><span class="value">Taşınır mal sayılır</span></div>
+      <div class="ad-compare-row"><span class="label">Değerleme</span><span class="value">Resmi rapor zorunlu</span></div>
+      <div class="ad-compare-row"><span class="label">Vasiyetname</span><span class="value">Belirli parça atanabilir</span></div>
+      <div class="ad-compare-row"><span class="label">Mirasçı Hakları</span><span class="value">Saklı pay korunur</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Düğün Takısı</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Yargıtay İçtihadı</span><span class="value">Kadının kişisel malı</span></div>
+      <div class="ad-compare-row"><span class="label">Boşanmada</span><span class="value">Sık uyuşmazlık konusu</span></div>
+      <div class="ad-compare-row"><span class="label">İspat Yükü</span><span class="value">Fotoğraflı envanter</span></div>
+      <div class="ad-compare-row"><span class="label">Korunma</span><span class="value">Değerleme raporu şart</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Bağış ve Vergi Boyutu</h3>
+
+<p>Mücevher bağışı veraset ve intikal vergisine tabidir. İstisna sınırları yıllık olarak güncellenir — güncel tutarları mali müşavire danışmanız gerekir. Belgelenmiş değerleme raporu vergi hesaplamasında esas alınır; rapor yoksa matrah takdiren belirlenir ve genellikle daha yüksek çıkar. Aile içi transferlerde bile resmi belgeleme önerilir.</p>
+
+<h3>Gümrük ve Uluslararası Taşıma</h3>
+
+<p>Kişisel takılar genellikle gümrükten serbestçe geçer. Ancak toplam değeri 15.000 USD'yi aşan mücevherler beyan edilmelidir. Ticari amaçlı taşımada pırlanta için Kimberley Sertifikası, renkli taşlar için menşe belgesi zorunludur. Bazı ülkelerde (Mısır, Yunanistan, İran) antik mücevher ihraç yasağı vardır — seyahat öncesi hedef ülke kurallarını araştırın.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Önemli Uyarı</div>
+  <div class="ad-fact-callout-text">Düğün takısı konusu boşanma davalarının en sık uyuşmazlık noktalarından biridir. Tüm takıların fotoğraflı envanter listesini tutun, değerleme raporu yaptırın ve faturaları güvenli bir yerde saklayın. Bu basit adımlar, olası hukuki süreçlerde ispat kolaylığı sağlar.</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>Türk Medeni Kanunu, Yargıtay içtihatları, Gümrük Kanunu ve Kimberley Süreci düzenlemelerine dayanmaktadır.</p>`,
+
+  en: `<h2>Jewelry Inheritance & Law</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Legal Dimensions</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> areas</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Customs Threshold</div>
+    <div class="ad-metric-value">$15,000<span class="ad-metric-unit"> USD</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Dispute Rate</div>
+    <div class="ad-metric-value">High<span class="ad-metric-unit"> in divorce</span></div>
+  </div>
+</div>
+
+<p>Transferring jewelry across generations involves complex legal dimensions far beyond sentimental value. Inheritance law, gift taxes, and international customs rules each require specialized knowledge. This guide covers the essentials with a note that professional legal advice should be sought for specific situations.</p>
+
+<h3>Inheritance Law and Jewelry</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Estate Division</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Legal Status</span><span class="value">Classified as movable property</span></div>
+      <div class="ad-compare-row"><span class="label">Appraisal</span><span class="value">Official report mandatory</span></div>
+      <div class="ad-compare-row"><span class="label">Will</span><span class="value">Specific pieces assignable</span></div>
+      <div class="ad-compare-row"><span class="label">Heir Rights</span><span class="value">Forced share protected</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Wedding Jewelry</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Legal Precedent</span><span class="value">Woman's personal property</span></div>
+      <div class="ad-compare-row"><span class="label">In Divorce</span><span class="value">Frequent dispute source</span></div>
+      <div class="ad-compare-row"><span class="label">Burden of Proof</span><span class="value">Photo inventory</span></div>
+      <div class="ad-compare-row"><span class="label">Protection</span><span class="value">Appraisal report essential</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Gifts and Tax Implications</h3>
+
+<p>Jewelry gifts are subject to inheritance and transfer taxes. Exemption thresholds are updated annually — consult a tax advisor for current figures. Documented appraisal reports serve as the basis for tax calculations; without a report, assessments are estimated and usually come in higher. Formal documentation is recommended even for intra-family transfers.</p>
+
+<h3>Customs and International Transport</h3>
+
+<p>Personal jewelry generally passes through customs freely, but items exceeding $15,000 total value must be declared. Commercial transport requires a Kimberley Certificate for diamonds and origin documents for colored gems. Some countries (Egypt, Greece, Iran) prohibit antique jewelry export — research destination rules before traveling.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Important Warning</div>
+  <div class="ad-fact-callout-text">Wedding jewelry is one of the most frequent dispute points in divorce cases. Keep a photographed inventory of all pieces, get appraisal reports, and store receipts in a secure location. These simple steps provide crucial evidence in potential legal proceedings.</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on civil code provisions, court precedents, customs regulations, and Kimberley Process framework.</p>`,
+
+  ar: `<h2>ميراث المجوهرات والقانون</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأبعاد القانونية</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> مجالات</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">حد الجمارك</div>
+    <div class="ad-metric-value">15,000<span class="ad-metric-unit"> دولار</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">نسبة النزاعات</div>
+    <div class="ad-metric-value">مرتفعة<span class="ad-metric-unit"> في الطلاق</span></div>
+  </div>
+</div>
+
+<p>نقل المجوهرات عبر الأجيال يتضمن أبعاداً قانونية معقدة تتجاوز القيمة العاطفية بكثير. قانون الميراث وضرائب الهدايا وقواعد الجمارك الدولية — كل منها يتطلب معرفة متخصصة.</p>
+
+<h3>قانون الميراث والمجوهرات</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">تقسيم التركة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">الوضع القانوني</span><span class="value">ممتلكات منقولة</span></div>
+      <div class="ad-compare-row"><span class="label">التقييم</span><span class="value">تقرير رسمي إلزامي</span></div>
+      <div class="ad-compare-row"><span class="label">الوصية</span><span class="value">تخصيص قطع معينة ممكن</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">مجوهرات الزفاف</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">السابقة القانونية</span><span class="value">ملك شخصي للمرأة</span></div>
+      <div class="ad-compare-row"><span class="label">في الطلاق</span><span class="value">مصدر نزاع متكرر</span></div>
+      <div class="ad-compare-row"><span class="label">الحماية</span><span class="value">تقرير تقييم ضروري</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>الجمارك والنقل الدولي</h3>
+
+<p>المجوهرات الشخصية تمر عبر الجمارك بحرية عموماً، لكن القطع التي تتجاوز قيمتها $15,000 يجب التصريح عنها. النقل التجاري يتطلب شهادة كيمبرلي للألماس ووثائق المنشأ للأحجار الملونة. بعض الدول تحظر تصدير المجوهرات الأثرية.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">تحذير مهم</div>
+  <div class="ad-fact-callout-text">مجوهرات الزفاف من أكثر نقاط النزاع شيوعاً في قضايا الطلاق. احتفظ بقائمة جرد مصورة لجميع القطع، واحصل على تقارير تقييم، واحفظ الفواتير في مكان آمن. هذه الخطوات البسيطة توفر أدلة حاسمة في الإجراءات القانونية المحتملة.</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى أحكام القانون المدني والسوابق القضائية ولوائح الجمارك وإطار عملية كيمبرلي.</p>`
+};
+C[200] = {
+  tr: `<h2>JewelPedi Gelecek Vizyonu — 200. Makale!</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Toplam Makale</div>
+    <div class="ad-metric-value">200<span class="ad-metric-unit"> içerik</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Araç Sayısı</div>
+    <div class="ad-metric-value">46+<span class="ad-metric-unit"> tool</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Dil Desteği</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> dil</span></div>
+  </div>
+</div>
+
+<p>Bu makale, JewelPedi'nin 200. içeriğidir — bir dönüm noktası! Silverpedi adıyla 73 gümüş makaleyle başlayan yolculuk, bugün altı metal ve taş sütununu, 46'dan fazla interaktif aracı ve üç dili kapsayan kapsamlı bir mücevher ansiklopedisine dönüştü. Her fazda büyüdük, her geri bildirimle gelişdik.</p>
+
+<h3>Yolculuğun Haritası</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Tamamlanan Fazlar</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Faz 0</span><span class="value">73 gümüş makale ile başlangıç</span></div>
+      <div class="ad-compare-row"><span class="label">Faz 1</span><span class="value">Altın genişlemesi → 94 makale</span></div>
+      <div class="ad-compare-row"><span class="label">Faz 2</span><span class="value">Pırlanta + renkli taşlar → 134</span></div>
+      <div class="ad-compare-row"><span class="label">Faz 3</span><span class="value">Platin, SEO, cross-ref → 144</span></div>
+      <div class="ad-compare-row"><span class="label">Faz 4</span><span class="value">AI araçları, topluluk → 180</span></div>
+      <div class="ad-compare-row"><span class="label">Faz 5</span><span class="value">200 makale, code splitting!</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Gelecek Planları</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Video</span><span class="value">YouTube + kısa video entegrasyonu</span></div>
+      <div class="ad-compare-row"><span class="label">Topluluk</span><span class="value">Forum veya Discord kanalı</span></div>
+      <div class="ad-compare-row"><span class="label">API</span><span class="value">Araç ve veri servisi</span></div>
+      <div class="ad-compare-row"><span class="label">Mobil</span><span class="value">Native uygulama (iOS/Android)</span></div>
+      <div class="ad-compare-row"><span class="label">Diller</span><span class="value">Farsça, Hintçe, Fransızca</span></div>
+      <div class="ad-compare-row"><span class="label">Açık Kaynak</span><span class="value">Katkı sistemi ve podcast</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>Rakamlarla JewelPedi</h3>
+
+<p>200 makale, 6 ana sütun (gümüş, altın, pırlanta, renkli taş, platin, genel mücevher), 46+ interaktif araç (fiyat hesaplayıcı, ayar dönüştürücü, saflık testi, AI taş tanımlayıcı ve daha fazlası), 3 dil desteği (Türkçe, İngilizce, Arapça) ve kuyumcu haritası. Her içerik, güvenilir kaynaklara (GIA, World Gold Council, Kimberley Process) dayalı olarak hazırlanmıştır.</p>
+
+<h3>Teşekkür</h3>
+
+<p>Her okuyan, her geri bildirim gönderen, her hatayı bildiren kullanıcıya teşekkürler. JewelPedi bir kişinin projesi değil, topluluğun projesidir. Mücevher bilgisini demokratikleştirme misyonumuz devam ediyor — 300 makale, 60+ araç ve daha fazla dil hedefiyle.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">200. Makale Kutlaması!</div>
+  <div class="ad-fact-callout-text">73 makaleden 200'e, tek dilden üç dile, basit rehberlerden AI destekli araçlara — JewelPedi sürekli büyüyor. Hedefimiz: 300+ makale, 60+ araç ve dünya genelinde mücevher bilgisinin herkes için erişilebilir kılınması. Bu yolculuk daha yeni başlıyor!</div>
+</div>
+
+<h3>Kaynak Notu</h3>
+<p>JewelPedi geliştirme logları, kullanıcı geri bildirim verileri ve proje yol haritasına dayanmaktadır.</p>`,
+
+  en: `<h2>JewelPedi Future Vision — Article #200!</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Total Articles</div>
+    <div class="ad-metric-value">200<span class="ad-metric-unit"> pieces</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Tools Built</div>
+    <div class="ad-metric-value">46+<span class="ad-metric-unit"> tools</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Languages</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> langs</span></div>
+  </div>
+</div>
+
+<p>This is JewelPedi's 200th article — a milestone! What started as Silverpedi with 73 silver articles has evolved into a comprehensive jewelry encyclopedia covering six metal and gem pillars, 46+ interactive tools, and three languages. We grew with every phase, improved with every feedback.</p>
+
+<h3>Journey Map</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Completed Phases</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Phase 0</span><span class="value">73 silver articles — launch</span></div>
+      <div class="ad-compare-row"><span class="label">Phase 1</span><span class="value">Gold expansion → 94 articles</span></div>
+      <div class="ad-compare-row"><span class="label">Phase 2</span><span class="value">Diamond + gems → 134</span></div>
+      <div class="ad-compare-row"><span class="label">Phase 3</span><span class="value">Platinum, SEO, cross-ref → 144</span></div>
+      <div class="ad-compare-row"><span class="label">Phase 4</span><span class="value">AI tools, community → 180</span></div>
+      <div class="ad-compare-row"><span class="label">Phase 5</span><span class="value">200 articles, code splitting!</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">Future Plans</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">Video</span><span class="value">YouTube + short video integration</span></div>
+      <div class="ad-compare-row"><span class="label">Community</span><span class="value">Forum or Discord channel</span></div>
+      <div class="ad-compare-row"><span class="label">API</span><span class="value">Tools and data service</span></div>
+      <div class="ad-compare-row"><span class="label">Mobile</span><span class="value">Native app (iOS/Android)</span></div>
+      <div class="ad-compare-row"><span class="label">Languages</span><span class="value">Farsi, Hindi, French</span></div>
+      <div class="ad-compare-row"><span class="label">Open Source</span><span class="value">Contribution system + podcast</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>JewelPedi by the Numbers</h3>
+
+<p>200 articles, 6 main pillars (silver, gold, diamond, colored gems, platinum, general jewelry), 46+ interactive tools (price calculator, purity converter, AI gem identifier and more), 3 languages (Turkish, English, Arabic), and a jeweler map. Every piece is backed by trusted sources including GIA, World Gold Council, and the Kimberley Process.</p>
+
+<h3>Thank You</h3>
+
+<p>Thanks to every reader, every feedback sender, every bug reporter. JewelPedi is not one person's project — it's the community's. Our mission to democratize jewelry knowledge continues — targeting 300+ articles, 60+ tools, and more languages.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">Article #200 Celebration!</div>
+  <div class="ad-fact-callout-text">From 73 articles to 200, from one language to three, from simple guides to AI-powered tools — JewelPedi keeps growing. Our goal: 300+ articles, 60+ tools, and making jewelry knowledge accessible to everyone worldwide. This journey is just beginning!</div>
+</div>
+
+<h3>Source Note</h3>
+<p>Based on JewelPedi development logs, user feedback data, and project roadmap.</p>`,
+
+  ar: `<h2>رؤية JewelPedi المستقبلية — المقال رقم ٢٠٠!</h2>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">إجمالي المقالات</div>
+    <div class="ad-metric-value">200<span class="ad-metric-unit"> مقال</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">الأدوات المبنية</div>
+    <div class="ad-metric-value">46+<span class="ad-metric-unit"> أداة</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">اللغات</div>
+    <div class="ad-metric-value">3<span class="ad-metric-unit"> لغات</span></div>
+  </div>
+</div>
+
+<p>هذا المقال رقم 200 في JewelPedi — نقطة تحول! ما بدأ كـ Silverpedi بـ 73 مقالة عن الفضة تطور إلى موسوعة مجوهرات شاملة تغطي ستة أعمدة من المعادن والأحجار، و46+ أداة تفاعلية، و3 لغات.</p>
+
+<h3>خارطة الرحلة</h3>
+
+<div class="ad-compare-grid two-col">
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">المراحل المكتملة</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">المرحلة 0</span><span class="value">73 مقالة فضة — الانطلاق</span></div>
+      <div class="ad-compare-row"><span class="label">المرحلة 1</span><span class="value">توسع الذهب → 94 مقالة</span></div>
+      <div class="ad-compare-row"><span class="label">المرحلة 2</span><span class="value">ألماس + أحجار → 134</span></div>
+      <div class="ad-compare-row"><span class="label">المرحلة 3</span><span class="value">بلاتين، SEO → 144</span></div>
+      <div class="ad-compare-row"><span class="label">المرحلة 4</span><span class="value">أدوات AI، مجتمع → 180</span></div>
+      <div class="ad-compare-row"><span class="label">المرحلة 5</span><span class="value">200 مقال، تقسيم الكود!</span></div>
+    </div>
+  </div>
+  <div class="ad-compare-card">
+    <div class="ad-compare-title">الخطط المستقبلية</div>
+    <div class="ad-compare-list">
+      <div class="ad-compare-row"><span class="label">فيديو</span><span class="value">يوتيوب + فيديو قصير</span></div>
+      <div class="ad-compare-row"><span class="label">مجتمع</span><span class="value">منتدى أو قناة Discord</span></div>
+      <div class="ad-compare-row"><span class="label">API</span><span class="value">خدمة أدوات وبيانات</span></div>
+      <div class="ad-compare-row"><span class="label">جوال</span><span class="value">تطبيق أصلي iOS/Android</span></div>
+      <div class="ad-compare-row"><span class="label">لغات</span><span class="value">فارسي، هندي، فرنسي</span></div>
+    </div>
+  </div>
+</div>
+
+<h3>JewelPedi بالأرقام</h3>
+
+<p>200 مقال، 6 أعمدة رئيسية، 46+ أداة تفاعلية، 3 لغات، وخريطة صاغة. كل محتوى مدعوم بمصادر موثوقة تشمل GIA ومجلس الذهب العالمي.</p>
+
+<div class="ad-fact-callout">
+  <div class="ad-fact-callout-label">احتفال المقال رقم ٢٠٠!</div>
+  <div class="ad-fact-callout-text">من 73 مقالاً إلى 200، من لغة واحدة إلى ثلاث، من أدلة بسيطة إلى أدوات مدعومة بالذكاء الاصطناعي — JewelPedi يستمر في النمو. هدفنا: 300+ مقال و60+ أداة وجعل معرفة المجوهرات متاحة للجميع. هذه الرحلة بدأت للتو!</div>
+</div>
+
+<h3>ملاحظة المصادر</h3>
+<p>مستند إلى سجلات تطوير JewelPedi وبيانات تعليقات المستخدمين وخارطة طريق المشروع.</p>`
+};
+
+
 export default C;

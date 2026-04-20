@@ -7102,88 +7102,12 @@ C[73] = {
 <p>مجموعة V&A، مخزونات قصر توبكابي، دروس Ganoksin.</p>`
 };
 
-C[159] = {
-  tr: `<h2>Telkâri Teknikleri Detaylı Rehber</h2>
-<p>Telkâri (filigree), gümüş veya altın ince tellerin özenle işlenerek dantel benzeri motifler oluşturulmasıdır. Binlerce yıllık bu zanaat, Türkiye'de özellikle Midyat, Trabzon ve Beypazarı'nda yaşatılmaktadır.</p>
-<h3>1. Tel Çekme (Wire Drawing)</h3>
-<p>Gümüş külçeden başlanır. Döküm gümüş, silindir hadde ile inceltilir, ardından <strong>çekme taşı</strong> (drawplate) deliklerinden geçirilerek 0.2-0.5mm kalınlığa indirilir. İyi tel, eşit kalınlıkta ve pürüzsüz olmalıdır. Bu aşama toplam sürenin %30'unu kapsar.</p>
-<h3>2. Tel Bükme ve Sarma</h3>
-<p>İnce teller ikişerli olarak birbirine sarılır (<strong>twisted wire</strong>) veya düz kullanılır. Spiral, S-kıvrım, daire ve damla gibi temel motifler cımbız ve penseyle oluşturulur. Her motif 2-5mm boyutundadır.</p>
-<h3>3. İskelet Oluşturma</h3>
-<p>Daha kalın bir tel ile parçanın dış çerçevesi (kontur) oluşturulur. Bu iskelet, iç motiflerin yerleştirileceği sınırları belirler. Çerçeve tam simetrik olmalıdır.</p>
-<h3>4. Yerleştirme ve Lehimleme</h3>
-<p>Minik motifler çerçevenin içine cımbızla yerleştirilir ve <strong>gümüş lehim</strong> ile sabitlenir. Lehimleme sıcaklığı kritiktir — çok düşükse tutmaz, çok yüksekse ince teller erir. Usta, gaz brülörünün mesafesini milimetrik ayarlar.</p>
-<h3>5. Temizleme ve Parlatma</h3>
-<p>Lehim kalıntıları asit banyosunda (alum solution) temizlenir. Parlatma ile gümüşün doğal ışıltısı ortaya çıkar. Son olarak oksitlme (karartma) uygulanarak motifler derinlik kazanır.</p>
-<div class="fact-box"><strong>Zaman:</strong> Bir çift telkâri küpe 4-8 saat, büyük bir göğüslük 40-60 saat, gelin seti 120+ saat sürer.</div>`,
-  en: `<h2>Detailed Filigree Techniques Guide</h2>
-<p>Filigree involves crafting lace-like motifs from thin silver or gold wires. This ancient craft thrives in Turkey, especially in Midyat, Trabzon, and Beypazarı.</p>
-<h3>1. Wire Drawing</h3>
-<p>Starting from silver ingot, metal is thinned through rolling mill then drawplate holes to reach 0.2-0.5mm. Good wire must be uniform and smooth. This stage takes ~30% of total time.</p>
-<h3>2. Wire Twisting & Shaping</h3>
-<p>Thin wires are twisted in pairs or used flat. Basic motifs (spirals, S-curves, circles, teardrops) are formed with tweezers. Each motif is 2-5mm in size.</p>
-<h3>3. Frame Construction</h3>
-<p>Thicker wire forms the outer contour, defining boundaries for inner motifs. Frame must be perfectly symmetrical.</p>
-<h3>4. Placement & Soldering</h3>
-<p>Tiny motifs placed inside the frame with tweezers and fixed with silver solder. Temperature is critical — too low won't hold, too high melts fine wires.</p>
-<h3>5. Cleaning & Polishing</h3>
-<p>Solder residue cleaned in acid bath. Polishing reveals natural luster. Oxidation (darkening) applied for depth.</p>
-<div class="fact-box"><strong>Time:</strong> A pair of filigree earrings takes 4-8 hours, a large pectoral 40-60 hours, a bridal set 120+ hours.</div>`,
-  ar: `<h2>دليل تقنيات التخريم المفصل</h2>
-<p>التخريم يتضمن صناعة زخارف شبيهة بالدانتيل من أسلاك فضية أو ذهبية رفيعة.</p>
-<h3>1. سحب الأسلاك</h3><p>من سبيكة الفضة، يُرقق المعدن إلى 0.2-0.5 مم. هذه المرحلة تستغرق 30% من الوقت الإجمالي.</p>
-<h3>2. لف وتشكيل الأسلاك</h3><p>تُلف الأسلاك الرفيعة في أزواج. تُشكل الزخارف الأساسية بالملقط.</p>
-<h3>3. بناء الإطار</h3><p>سلك أسمك يشكل المحيط الخارجي. يجب أن يكون متماثلاً تماماً.</p>
-<h3>4. التثبيت واللحام</h3><p>تُثبت الزخارف الصغيرة بلحام الفضة. درجة الحرارة حرجة.</p>
-<div class="fact-box"><strong>الوقت:</strong> زوج أقراط تخريم يستغرق 4-8 ساعات، طقم عروس 120+ ساعة.</div>`
-};
-
-C[161] = {
-  tr: `<h2>Gümüş Nanoteknoloji</h2>
-<p>Gümüş nanoparçacıkları (AgNP), 1-100 nanometre boyutundaki gümüş parçacıklarıdır ve benzersiz antimikrobiyal, optik ve katalitik özelliklere sahiptir.</p>
-<h3>Tıbbi Uygulamalar</h3>
-<p>Yara örtüleri, cerrahi aletler ve implant kaplamalarında AgNP kullanımı yaygınlaşmaktadır. Gümüş nanoparçacıklar, 650+ bakteri türüne karşı etkilidir. Yanık tedavisinde gümüş sülfadiazin kremleri standart tedavi haline gelmiştir.</p>
-<h3>Tekstil ve Su Arıtma</h3>
-<p>Antibakteriyel çoraplar, spor giyim ve hastane tekstillerinde AgNP kaplaması koku ve bakteri oluşumunu engeller. Su arıtma filtrelerinde gümüş nanoparçacıklar, klordan daha güvenli bir alternatif sunar.</p>
-<h3>Güneş Panelleri</h3>
-<p>Fotovoltaik hücrelerde gümüş pasta, elektrik iletkenliği için kritiktir. Dünya gümüş talebinin %10'u güneş enerjisi sektöründen gelir — bu oran 2030'da %20'ye çıkması bekleniyor.</p>
-<div class="fact-box"><strong>Gelecek:</strong> Gümüş nanoteknoloji pazarı 2026'da 4.2 milyar USD'ye ulaşması bekleniyor.</div>`,
-  en: `<h2>Silver Nanotechnology</h2>
-<p>Silver nanoparticles (AgNP) are 1-100nm silver particles with unique antimicrobial, optical and catalytic properties.</p>
-<h3>Medical Applications</h3>
-<p>AgNP use in wound dressings, surgical instruments and implant coatings is expanding. Effective against 650+ bacteria species. Silver sulfadiazine creams are standard burn treatment.</p>
-<h3>Textiles & Water</h3>
-<p>AgNP coating in antibacterial socks, sportswear and hospital textiles prevents odor and bacteria. In water purification, silver nanoparticles offer a safer alternative to chlorine.</p>
-<h3>Solar Panels</h3>
-<p>Silver paste in photovoltaic cells is critical for conductivity. 10% of world silver demand comes from solar — expected to reach 20% by 2030.</p>
-<div class="fact-box"><strong>Future:</strong> Silver nanotech market expected to reach $4.2 billion by 2026.</div>`,
-  ar: `<h2>تكنولوجيا الفضة النانوية</h2><p>جسيمات الفضة النانوية (1-100 نانومتر) لها خصائص مضادة للميكروبات فريدة.</p><h3>التطبيقات الطبية</h3><p>فعالة ضد أكثر من 650 نوع بكتيريا. كريمات سلفاديازين الفضة علاج قياسي للحروق.</p><h3>الألواح الشمسية</h3><p>10% من الطلب العالمي على الفضة من الطاقة الشمسية.</p><div class="fact-box"><strong>المستقبل:</strong> سوق تكنولوجيا الفضة النانوية يصل إلى 4.2 مليار دولار بحلول 2026.</div>`
-};
 
 
-C[181] = {
-  tr: `<h2>Gümüş Tespih Rehberi</h2><p>Tespih, İslam dünyasının en yaygın el aksesuarlarından biridir ve gümüş tespihler hem ibadet aracı hem de koleksiyon objeleri olarak özel bir yere sahiptir.</p><h3>Tespih Anatomisi</h3><p>Standart bir tespih üç ana bölümden oluşur: 99 veya 33 tane (dane), taneleri ayıran pul (nişane) ve üst kısımdaki imame (başlık). İmame, tespihin en gösterişli parçasıdır — konik veya silindirik form, filigran işçiliği veya taş kakma ile süslenir.</p><h3>Gümüş Tespih Türleri</h3><p>925 ayar gümüş tespihler en yaygın olanıdır. Oksitlenmiş gümüş modeller antik görünüm sağlar. Kazaz (1000 ayar) tespihler Trabzon geleneğinin zirvesidir — ince gümüş teller örgü tekniğiyle işlenir. Filigran (telkâri) tespihler Midyat ve Mardin'de üretilir.</p><h3>Bakım</h3><p>Gümüş tespihler zamanla kararır. Yumuşak bir bezle düzenli silmek yeterlidir. Kimyasal temizleyicilerden kaçının — özellikle oksitlenmiş modellerde patinayı bozabilir.</p><div class="fact-box"><strong>Bilgi:</strong> Osmanlı sarayında 99 taneli tespihler diplomasi hediyesi olarak kullanılırdı. Padişah'ın özel kuyumcuları altın-gümüş-yakut karışımı tespihler üretirdi.</div>`,
-  en: `<h2>Silver Prayer Beads Guide</h2><p>Prayer beads (tespih/tasbih) are among the most widespread hand accessories in the Islamic world, and silver prayer beads hold a special place as both worship tools and collectibles.</p><h3>Anatomy of a Tespih</h3><p>A standard tespih consists of three main parts: 99 or 33 beads (dane), separator beads (nişane/pul), and the top piece called imame. The imame is the most ornate part — conical or cylindrical, decorated with filigree or stone inlay.</p><h3>Types of Silver Prayer Beads</h3><p>925 sterling silver is most common. Oxidized silver models provide an antique look. Kazaz (1000 fineness) prayer beads are the pinnacle of Trabzon tradition — fine silver wires woven with braiding technique. Filigree tespihs are produced in Midyat and Mardin.</p><h3>Care</h3><p>Silver prayer beads tarnish over time. Regular wiping with a soft cloth is sufficient. Avoid chemical cleaners, especially on oxidized models.</p><div class="fact-box"><strong>Fact:</strong> In the Ottoman court, 99-bead prayer beads were used as diplomatic gifts. The Sultan's personal jewelers crafted tespihs from gold-silver-ruby combinations.</div>`,
-  ar: `<h2>دليل المسبحة الفضية</h2><p>المسبحة من أكثر إكسسوارات اليد انتشاراً في العالم الإسلامي، والمسابح الفضية تحتل مكانة خاصة كأدوات عبادة ومقتنيات.</p><h3>تشريح المسبحة</h3><p>تتكون المسبحة من ثلاثة أجزاء رئيسية: ٩٩ أو ٣٣ حبة، وفواصل، والإمامة (الرأس). الإمامة هي الجزء الأكثر زخرفة.</p><h3>أنواع المسابح الفضية</h3><p>الفضة عيار ٩٢٥ هي الأكثر شيوعاً. النماذج المؤكسدة تعطي مظهراً عتيقاً. مسابح القزاز من طرابزون هي قمة التقليد.</p><div class="fact-box"><strong>معلومة:</strong> في البلاط العثماني كانت المسابح ذات ٩٩ حبة تُستخدم كهدايا دبلوماسية.</div>`
-};
 
-C[182] = {
-  tr: `<h2>Gümüş Parfüm Şişeleri</h2><p>Gümüş parfüm şişeleri, 18. yüzyıldan bu yana hem fonksiyonel hem de dekoratif obje olarak değer görmektedir. Art Nouveau döneminde (1890-1910) organik formlar, Art Deco'da (1920-1935) geometrik çizgiler hakimdi.</p><h3>Koleksiyon Kategorileri</h3><p>Vinaigrette (kokulu tuz kutusu), chatelaine (zincirli asma şişe), atomizer (spreyli şişe) ve flacon (kapaklı şişe) ana kategorilerdir. En değerli parçalar hallmark (ayar damgası) taşıyan İngiliz ve Fransız üretimi olanlardır.</p><h3>Değerlendirme Kriterleri</h3><p>Dönem orijinalliği, damga bütünlüğü, işçilik kalitesi ve cam kısmın sağlamlığı fiyatı belirler. Lalique ve Baccarat imzalı gümüş kapaklı şişeler en çok aranan parçalardır.</p><div class="fact-box"><strong>İpucu:</strong> Koleksiyon başlatacaksanız tek bir dönem veya kategoriye odaklanın — örneğin sadece Victorian vinaigrette'ler veya Art Deco atomizer'lar.</div>`,
-  en: `<h2>Silver Perfume Bottles</h2><p>Silver perfume bottles have been valued as both functional and decorative objects since the 18th century. Art Nouveau (1890-1910) featured organic forms, while Art Deco (1920-1935) embraced geometric lines.</p><h3>Collection Categories</h3><p>Vinaigrettes, chatelaines, atomizers, and flacons are the main categories. The most valuable pieces bear hallmarks from English and French makers.</p><h3>Valuation Criteria</h3><p>Period authenticity, hallmark integrity, craftsmanship quality, and glass condition determine price. Lalique and Baccarat signed silver-capped bottles are most sought after.</p><div class="fact-box"><strong>Tip:</strong> If starting a collection, focus on one period or category — for example, only Victorian vinaigrettes or Art Deco atomizers.</div>`,
-  ar: `<h2>زجاجات العطور الفضية</h2><p>زجاجات العطور الفضية تحظى بالتقدير منذ القرن الثامن عشر. فترة الآرت نوفو تميزت بالأشكال العضوية، والآرت ديكو بالخطوط الهندسية.</p><h3>فئات التجميع</h3><p>الفيناغريت والشاتلين والرذاذ والفلاكون هي الفئات الرئيسية.</p><div class="fact-box"><strong>نصيحة:</strong> ركز على فترة أو فئة واحدة عند بدء مجموعتك.</div>`
-};
 
-C[195] = {
-  tr: `<h2>Gümüş Kemer Geleneği</h2><p>Gümüş kemer, Anadolu'dan Balkanlara, Kafkasya'dan Kuzey Afrika'ya uzanan geniş bir coğrafyada yüzyıllardır statü, zenginlik ve kimlik sembolü olmuştur.</p><h3>Anadolu Kemerleri</h3><p>Trabzon hasır kemerler altın ve gümüş telden örgü tekniğiyle yapılır. Erzurum kemerleri oltu taşı ve gümüş kombinasyonudur. Kastamonu kemerleri kazaziye tekniğindedir. Her bölgenin kendine özgü motif ve tokası vardır.</p><h3>Balkan Kemerleri</h3><p>Osmanlı etkisinde gelişen Balkan gümüş kemerleri, özellikle Arnavutluk, Kuzey Makedonya ve Kosova'da düğün geleneğinin ayrılmaz parçasıdır. Ağır tokalar ve filigran plakalar karakteristiktir.</p><h3>Kafkas Kemerleri</h3><p>Gürcü ve Çerkez gümüş kemerleri askeri giyimin parçasıydı. Niello (savat) tekniği ile süslenen siyah-gümüş kontrastlı kemerler bugün müze parçasıdır.</p><div class="fact-box"><strong>Kültür:</strong> Trabzon kemeri UNESCO Somut Olmayan Kültürel Miras geçici listesindedir.</div>`,
-  en: `<h2>Silver Belt Tradition</h2><p>The silver belt has been a symbol of status, wealth, and identity for centuries across a vast geography from Anatolia to the Balkans, Caucasus to North Africa.</p><h3>Anatolian Belts</h3><p>Trabzon woven belts use gold and silver wire braiding. Erzurum belts combine oltu stone with silver. Kastamonu belts use kazaziye technique. Each region has distinctive motifs and buckles.</p><h3>Balkan Belts</h3><p>Balkan silver belts, developed under Ottoman influence, are integral to wedding traditions in Albania, North Macedonia, and Kosovo. Heavy buckles and filigree plates are characteristic.</p><h3>Caucasian Belts</h3><p>Georgian and Circassian silver belts were part of military attire. Belts decorated with niello technique are now museum pieces.</p><div class="fact-box"><strong>Culture:</strong> The Trabzon belt is on UNESCO's Intangible Cultural Heritage tentative list.</div>`,
-  ar: `<h2>تقليد الأحزمة الفضية</h2><p>الحزام الفضي رمز للمكانة والثروة والهوية عبر جغرافيا واسعة من الأناضول إلى البلقان والقوقاز وشمال أفريقيا.</p><h3>أحزمة الأناضول</h3><p>أحزمة طرابزون المنسوجة تستخدم تقنية نسج الأسلاك. لكل منطقة زخارف وإبزيمات مميزة.</p><div class="fact-box"><strong>ثقافة:</strong> حزام طرابزون مدرج في القائمة المؤقتة للتراث الثقافي غير المادي لليونسكو.</div>`
-};
 
-C[196] = {
-  tr: `<h2>Gümüş ve Sağlık: Mitler vs Gerçekler</h2><p>Gümüşün antimikrobiyal özellikleri bilimsel olarak kanıtlanmıştır, ancak sağlık alanındaki kullanımı konusunda çok sayıda yanılgı da mevcuttur.</p><h3>Bilimsel Gerçekler</h3><p>Gümüş iyonları (Ag⁺) bakteri hücre zarını bozar ve DNA replikasyonunu engeller. Bu özellik tıbbi yara örtülerinde, kateter kaplamalarında ve su arıtma sistemlerinde kullanılır. Gümüş sülfadiazin kremi yanık tedavisinde standart protokoldür.</p><h3>Mitler ve Tehlikeler</h3><p>Kolloidal gümüş takviyelerinin bağışıklık güçlendirici, kanser tedavisi veya antibiyotik alternatifi olduğu iddiaları bilimsel kanıttan yoksundur. FDA, kolloidal gümüş ürünlerini güvenli veya etkili olarak onaylamamıştır. Aşırı gümüş tüketimi arjiriya (kalıcı mavi-gri cilt rengi değişimi) ile sonuçlanabilir.</p><h3>Güvenli Kullanım</h3><p>Gümüş takı takmak tamamen güvenlidir. Gümüş kaplı su şişeleri minimal antimikrobiyal etki sağlar. Ancak kolloidal gümüş içmek risklidir ve tıbbi gözetim olmadan kullanılmamalıdır.</p><div class="fact-box"><strong>Uyarı:</strong> Arjiriya geri dönüşümsüzdür. Kolloidal gümüş takviyelerini doktor onayı olmadan kullanmayın.</div>`,
-  en: `<h2>Silver & Health: Myths vs Facts</h2><p>Silver's antimicrobial properties are scientifically proven, but numerous misconceptions exist about its health applications.</p><h3>Scientific Facts</h3><p>Silver ions (Ag⁺) disrupt bacterial cell membranes and inhibit DNA replication. This property is used in medical wound dressings, catheter coatings, and water purification. Silver sulfadiazine cream is standard protocol for burn treatment.</p><h3>Myths and Dangers</h3><p>Claims that colloidal silver supplements boost immunity, treat cancer, or replace antibiotics lack scientific evidence. The FDA has not approved colloidal silver as safe or effective. Excessive silver consumption can result in argyria — permanent blue-gray skin discoloration.</p><h3>Safe Use</h3><p>Wearing silver jewelry is completely safe. Silver-coated water bottles provide minimal antimicrobial benefit. However, ingesting colloidal silver is risky and should not be used without medical supervision.</p><div class="fact-box"><strong>Warning:</strong> Argyria is irreversible. Do not use colloidal silver supplements without doctor approval.</div>`,
-  ar: `<h2>الفضة والصحة: الأساطير مقابل الحقائق</h2><p>خصائص الفضة المضادة للميكروبات مثبتة علمياً، لكن هناك العديد من المفاهيم الخاطئة حول تطبيقاتها الصحية.</p><h3>الحقائق العلمية</h3><p>أيونات الفضة تعطل أغشية الخلايا البكتيرية وتمنع تكاثر الحمض النووي. تُستخدم في الضمادات الطبية وطلاء القساطر وتنقية المياه.</p><h3>الأساطير والمخاطر</h3><p>ادعاءات أن الفضة الغروية تقوي المناعة أو تعالج السرطان تفتقر للدليل العلمي. لم توافق إدارة الغذاء والدواء على الفضة الغروية.</p><div class="fact-box"><strong>تحذير:</strong> داء الأرجيريا لا رجعة فيه. لا تستخدم مكملات الفضة الغروية بدون موافقة الطبيب.</div>`
-};
+
 
 C[161] = {
   tr: `<h2>Gümüş Nanoteknoloji</h2>

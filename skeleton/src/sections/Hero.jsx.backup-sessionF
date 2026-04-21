@@ -4,7 +4,6 @@ import useSilverPrice from '../hooks/useSilverPrice';
 import { TOOLS } from '../data/tools';
 import { getToolIcon, getJewelryTypeIcon } from '../components/Icons';
 import { JEWELRY_TYPES, HERO_JEWELRY_TYPES } from '../data/categories';
-import { ARTICLES } from '../data/articles';
 
 const HERO_TOOLS = [2, 32, 31, 33]; // Ring, Melt Value, Counterfeit, Gold Karat
 
@@ -71,13 +70,10 @@ export default function Hero({ lang, onOpenTool, onSelectJewelryType }) {
   const priceLabel = priceMode === 'gold' ? t(lang, 'price.gold') : t(lang, 'price.silver');
   const priceColor = priceMode === 'gold' ? '#D4AF37' : '#C0C0C0';
 
-  const articleCount = ARTICLES.length;
-  // Arabic-Indic numeral rendering for AR locale
-  const arCount = String(articleCount).replace(/[0-9]/g, d => '٠١٢٣٤٥٦٧٨٩'[d]);
   const FEATURES = {
-    tr: [`${articleCount} Makale · 3 Dil`, '47 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
-    en: [`${articleCount} Articles · 3 Languages`, '47 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
-    ar: [`${arCount} مقال · ٣ لغات`, '٤٧ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
+    tr: ['200 Makale · 3 Dil', '47 İnteraktif Araç', '297 Harita Noktası', 'Canlı Fiyat Takibi'],
+    en: ['200 Articles · 3 Languages', '47 Interactive Tools', '297 Map Points', 'Live Price Tracking'],
+    ar: ['٢٠٠ مقال · ٣ لغات', '٤٧ أداة تفاعلية', '٢٩٧ نقطة خريطة', 'تتبع الأسعار المباشر'],
   }[lang] || [];
 
   const PILL_SVG = [

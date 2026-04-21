@@ -3,7 +3,6 @@ import { t } from '../i18n/translations';
 import { ARTICLES } from '../data/articles';
 import { CATEGORIES, MATERIALS, JEWELRY_TYPES } from '../data/categories';
 import { getArticleContent } from '../data/articleContent';
-import useSearch from '../hooks/useSearch';
 import FadeUp from '../components/FadeUp';
 import { getCatIcon, getJewelryTypeIcon, getMaterialThumbnail, IconSearch, IconX } from '../components/Icons';
 
@@ -19,20 +18,11 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
     return CATEGORIES.filter(c => c.material === materialFilter || c.material === 'shared');
   }, [materialFilter]);
 
-  // Sprint 3.4: delegate search to useSearch hook (prebuilt index)
-  const { loading: searchLoading, results: searchIds } = useSearch(query, lang);
-
   const filtered = useMemo(() => {
     let list = ARTICLES;
     // Material filter
     if (materialFilter && materialFilter !== 'all') {
       list = list.filter(a => a.material === materialFilter || a.material === 'shared');
-      // Exact match first, shared at the end
-      list = [...list].sort((a, b) => {
-        const aMatch = a.material === materialFilter ? 0 : 1;
-        const bMatch = b.material === materialFilter ? 0 : 1;
-        return aMatch - bMatch;
-      });
     }
     // Category filter
     if (catFilter) list = list.filter(a => a.cat === catFilter);
@@ -40,27 +30,29 @@ export default function AllArticles({ lang, onOpen, catFilter, setCatFilter, mat
     if (jewelryTypeFilter) {
       list = list.filter(a => (a.jewelryType || []).includes(jewelryTypeFilter));
     }
-    // Search: intersect with hook results (null = no active query, [] = loading or no match)
-    if (searchIds !== null) {
-      const idSet = new Set(searchIds);
-      list = list.filter(a => idSet.has(a.id));
-      // Reorder by hook's relevance ranking
-      const rank = new Map(searchIds.map((id, i) => [id, i]));
-      list = [...list].sort((a, b) => (rank.get(a.id) ?? 999) - (rank.get(b.id) ?? 999));
+    // Full-text search: title + description + article body
+    if (query.trim()) {
+      const q = query.toLowerCase();
+      list = list.filter(a => {
+        const titleDesc = `${a[lang]?.t} ${a[lang]?.d}`.toLowerCase();
+        if (titleDesc.includes(q)) return true;
+        const content = getArticleContent(a.id, a);
+        const body = content?.[lang] || content?.tr || '';
+        return stripHtml(body).includes(q);
+      });
     }
     return list;
-  }, [catFilter, materialFilter, jewelryTypeFilter, query, lang, searchIds]);
+  }, [catFilter, materialFilter, jewelryTypeFilter, query, lang]);
 
   // Count articles per material
   const matCounts = useMemo(() => {
-    const counts = { all: ARTICLES.length, silver: 0, gold: 0, diamond: 0, gemstone: 0, platinum: 0, tesbih: 0 };
+    const counts = { all: ARTICLES.length, silver: 0, gold: 0, diamond: 0, gemstone: 0, platinum: 0 };
     ARTICLES.forEach(a => {
       if (a.material === 'silver' || a.material === 'shared') counts.silver++;
       if (a.material === 'gold' || a.material === 'shared') counts.gold++;
       if (a.material === 'diamond' || a.material === 'shared') counts.diamond++;
       if (a.material === 'gemstone' || a.material === 'shared') counts.gemstone++;
       if (a.material === 'platinum' || a.material === 'shared') counts.platinum++;
-      if (a.material === 'tesbih' || a.material === 'shared') counts.tesbih++;
     });
     return counts;
   }, []);

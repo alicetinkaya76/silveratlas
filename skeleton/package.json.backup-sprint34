@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/build-search-index.cjs && vite build && cp dist/index.html dist/404.html",
-    "preview": "vite preview",
-    "build:index": "node scripts/build-search-index.cjs"
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview"
   },
   "dependencies": {
     "dompurify": "^3.4.0",

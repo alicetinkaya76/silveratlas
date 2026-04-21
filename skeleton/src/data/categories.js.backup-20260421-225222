@@ -73,4 +73,4 @@ export const JEWELRY_TYPES = [
 ];
 
 // Popular 6 types for Hero "Ne Arıyorsun?" cards (subset of JEWELRY_TYPES)
-export const HERO_JEWELRY_TYPES = ["ring", "necklace", "bracelet", "wedding", "religious", "coin", "vintage", "care"];
+export const HERO_JEWELRY_TYPES = ["ring", "necklace", "bracelet", "wedding", "coin", "care"];

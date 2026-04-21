@@ -4,23 +4,12 @@
 
 import { ARTICLES } from './articles';
 
-
-// Silver split (Sprint 3.3) — category-based chunk dispatch
-const SILVER_CORE_CATS   = new Set(['bilim', 'uretim', 'maden']);
-const SILVER_MARKET_CATS = new Set(['piyasa', 'rehber', 'koleksiyon']);
-// culture chunk = tarih + kultur + zanaat + stil (default fallback)
-
 // In-memory cache for loaded chunks
 const cache = {};
 
 // Material → dynamic import map
 const loaders = {
-  silver:   (id, article) => {
-    const cat = article && article.cat;
-    if (SILVER_CORE_CATS.has(cat))    return import('./content_silver_core');
-    if (SILVER_MARKET_CATS.has(cat))  return import('./content_silver_market');
-    return import('./content_silver_culture'); // default: culture + orphans
-  },
+  silver:   () => import('./content_silver'),
   gold:     () => import('./content_gold'),
   diamond:  () => import('./content_diamond'),
   gemstone: () => import('./content_gemstone'),
@@ -49,10 +38,8 @@ export async function loadArticleContent(id, article) {
   // Dynamic import the chunk
   if (loaders[mat]) {
     try {
-      const mod = await loaders[mat](id, article);
-      const chunk = mod.default || mod;
-      // Silver split: merge chunk into cache instead of overwriting (multiple silver chunks coexist)
-      cache[mat] = cache[mat] ? { ...cache[mat], ...chunk } : chunk;
+      const mod = await loaders[mat]();
+      cache[mat] = mod.default || mod;
       if (cache[mat][id]) return cache[mat][id];
     } catch (e) {
       console.warn('Failed to load content chunk:', mat, e);
@@ -79,12 +66,7 @@ export function getArticleContent(id, article) {
 
   // Trigger async load in background
   if (loaders[mat] && !cache[mat]) {
-    const loaderResult = loaders[mat](id, article);
-    // Silver split: loader returns a Promise<module> whose default is the chunk's C map
-    Promise.resolve(loaderResult).then(mod => {
-      const chunk = mod.default || mod;
-      cache[mat] = cache[mat] ? { ...cache[mat], ...chunk } : chunk;
-    }).catch(() => {});
+    loaders[mat]().then(mod => { cache[mat] = mod.default || mod; }).catch(() => {});
   }
 
   const a = article || ARTICLES.find(x => x.id === id);
@@ -99,12 +81,7 @@ export function getArticleContent(id, article) {
 /**
  * Preload a material chunk (call from intersection observer, hover, etc.)
  */
-export function preloadContent(material, articleHint) {
-  if (!loaders[material]) return;
-  // For silver: articleHint (optional) lets us target a specific chunk; else load culture (largest)
-  const loader = loaders[material];
-  Promise.resolve(loader(articleHint && articleHint.id, articleHint)).then(mod => {
-    const chunk = mod.default || mod;
-    cache[material] = cache[material] ? { ...cache[material], ...chunk } : chunk;
-  }).catch(() => {});
+export function preloadContent(material) {
+  if (cache[material] || !loaders[material]) return;
+  loaders[material]().then(mod => { cache[material] = mod.default || mod; }).catch(() => {});
 }

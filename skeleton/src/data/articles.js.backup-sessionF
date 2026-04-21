@@ -282,7 +282,7 @@ export const ARTICLES = [
   {id:230,slug:"tesbih-muzayedesi",cat:"tesbih-koleksiyon",material:"tesbih",min:9,isNew:true,icon:"🏛️",tr:{t:"Tesbih Müzayedeleri: Christie's, Sotheby's ve Türkiye Pazarı",d:"Uluslararası ve yerel müzayede evleri, rekor fiyatlar, provenance ve ekspertiz"},en:{t:"Tesbih Auctions: Christie's, Sotheby's and the Turkish Market",d:"International and local auction houses, record prices, provenance and appraisal"},ar:{t:"مزادات المسبحة: كريستيز وسوذبيز والسوق التركي",d:"دور المزادات الدولية والمحلية والأسعار القياسية والمنشأ والتثمين"},jewelryType:["vintage","investment"]},
 ];
 
-export const FEATURED_IDS = [74,95,110,135,1,81,105,188,139,200,185,8,187,189,145,219];
+export const FEATURED_IDS = [74,95,110,135,1,81,105,188,139,200,185,8,187,189,145];
 
 // Material-specific featured for tab-based display
 export const MATERIAL_FEATURED = {

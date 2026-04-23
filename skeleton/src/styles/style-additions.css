@@ -1,0 +1,180 @@
+/* ═══════════════════════════════════════════════════════════════
+   ŞABLON v1 CSS EKLERİ
+   src/styles/ ana dosyalarına dahil edilmeli.
+   Mevcut ad-metric-*, ad-timeline, tl-* sınıflarına ekleniyor.
+   ═══════════════════════════════════════════════════════════════ */
+
+
+/* ─── ad-callout ─────────────────────────────────────────────
+   Mikro bilim tarihi modülü (80-120 kelime).
+   Rehber/bakım makalelerinde paragraf-içi vurgu için.
+*/
+.ad-callout {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-inline-start: 3px solid var(--accent, #d4af37);
+  background: color-mix(in srgb, var(--accent, #d4af37) 6%, transparent);
+  border-radius: 4px;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+.ad-callout-label {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent, #d4af37);
+  margin-bottom: 0.35rem;
+}
+
+
+/* ─── ad-link-forward ────────────────────────────────────────
+   "→ Uydu makaleye çıkış" davet satırı. Paragraflar arası.
+   Göz çekici ama hafif — makale akışını kırmamalı.
+*/
+.ad-link-forward {
+  margin: 1.25rem 0;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.92em;
+  border-inline-start: 2px solid var(--muted-border, #c7c7c7);
+  color: var(--muted-text, #6b6b6b);
+  font-style: italic;
+  background: color-mix(in srgb, var(--card, #f7f5ef) 50%, transparent);
+  border-radius: 3px;
+}
+
+.ad-link-forward em {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--text, #1a1a1a);
+}
+
+[data-theme="dark"] .ad-link-forward {
+  color: #a0a0a0;
+}
+[data-theme="dark"] .ad-link-forward em {
+  color: #e7e7e7;
+}
+
+
+/* ─── ad-related ─────────────────────────────────────────────
+   İlgili Makaleler bloğu. Kaynaklar'dan önce durur.
+*/
+.ad-related {
+  margin: 2.5rem 0 2rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--card, #f7f5ef);
+  border-radius: 8px;
+  border: 1px solid var(--border, #e0dfd8);
+}
+
+.ad-related h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted-text, #6b6b6b);
+}
+
+.ad-related ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ad-related li {
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed var(--border, #e0dfd8);
+  font-size: 0.97em;
+}
+
+.ad-related li:last-child {
+  border-bottom: none;
+}
+
+.ad-related-note {
+  font-size: 0.82em;
+  color: var(--muted-text, #999);
+  margin-inline-start: 0.5rem;
+}
+
+
+/* ─── ad-sources ─────────────────────────────────────────────
+   Numaralı kaynakça listesi.
+*/
+.ad-sources {
+  font-size: 0.93em;
+  line-height: 1.6;
+  padding-inline-start: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.ad-sources li {
+  margin-bottom: 0.7rem;
+  padding-inline-start: 0.25rem;
+}
+
+.ad-sources li em {
+  font-style: italic;
+}
+
+
+/* ─── ad-credits ─────────────────────────────────────────────
+   Görsel kredileri listesi. Kaynaklar'dan görsel olarak
+   biraz daha küçük / fısıltılı — son bloktur.
+*/
+.ad-credits {
+  font-size: 0.86em;
+  line-height: 1.55;
+  color: var(--muted-text, #707070);
+  padding-inline-start: 1.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.ad-credits li {
+  margin-bottom: 0.5rem;
+}
+
+.ad-credits li em {
+  font-style: italic;
+}
+
+
+/* ─── tl-dot-emph ────────────────────────────────────────────
+   Timeline üzerinde bir dönüm noktasını vurgulamak için
+   (pilot Lapis makalesinde 1828 Guimet işaretli).
+*/
+.tl-dot-emph {
+  r: 6;
+  fill: var(--accent, #d4af37);
+  stroke: var(--bg, #fff);
+  stroke-width: 2;
+}
+
+
+/* ─── Responsive timeline (mobil) ─────────────────────────────
+   680px altında timeline SVG yatay scroll'a girer.
+   Sıkıştırmaya çalışmak etiket üst üste getirir.
+*/
+@media (max-width: 680px) {
+  .ad-timeline {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+  }
+  .ad-timeline svg {
+    min-width: 680px;
+  }
+}
+
+
+/* ─── Print stil (kaynakçayı korur, nav'ı atar) ──────────────
+*/
+@media print {
+  .ad-link-forward { border: none; background: none; color: #000; }
+  .ad-related { background: none; border: 1px solid #ccc; }
+  .ad-sources, .ad-credits { page-break-inside: avoid; }
+}

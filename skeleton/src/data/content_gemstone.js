@@ -7092,3 +7092,671 @@ C[171] = {
 <h3>المصادر والعناية</h3>
 <p>تشمل المصادر الرئيسية البرازيل ومدغشقر وموزمبيق. الماء الدافئ والصابون مع فرشاة ناعمة هو أسلم طريقة للتنظيف. قد يسبب التعرض المطول لأشعة الشمس بهتان اللون.</p>`
 };
+
+
+// ═══════════════════════════════════════════════════════════════
+// Sprint 5.4 / Oturum 1 — Lapis Lazuli serisi (4 makale)
+// ═══════════════════════════════════════════════════════════════
+
+C[231] = {
+  tr: `<h2>Lapis Lazuli: Temel Profil</h2>
+
+<p>Johannes Vermeer 1665 civarında "İnci Küpeli Kız"ı bitirirken tek bir pigmenti dikkatle karıştırıyordu: ezilmiş, eritilmiş, balmumu ve reçineyle yıkanarak arıtılmış bir toz — ultramarin. Kızın başındaki türbanın o göğü mavisi, rengini doğrudan Afganistan'ın kuzeydoğu dağlarından alır; Bedahşan'ın Sar-e Sang madeninden. MÖ 4000'den beri aynı madenden çıkmakta olan bir taştan. Vermeer 1675'te borçlar içinde öldüğünde eşi Catharina'nın açtığı iflas dosyasında ayrıca kalemlenmiş giderlerden biri — bu yoğun mavi pigmentin masrafıydı.</p>
+
+<p>Lapis lazuli tek bir mineralin adı değil, bir kayacın adıdır. Lazurit, kalsit, pirit ve diopsit'in belli bir jeolojik hikâyeyi paylaşmasından doğan bir ortaklık. Ve bu ortaklıkta yatan renk, insan kültürünün altı bin yıllık ekonomisini, teolojisini ve sanat tarihini şekillendirdi.</p>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Sertlik</div>
+    <div class="ad-metric-value">5-5.5<span class="ad-metric-unit">/10</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yoğunluk</div>
+    <div class="ad-metric-value">2.8<span class="ad-metric-unit">g/cm³</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yapı</div>
+    <div class="ad-metric-value">Kayaç</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Kaynak</div>
+    <div class="ad-metric-value">6000yr</div>
+  </div>
+</div>
+
+<h3>Bilimsel Profil</h3>
+
+<p>Lapis lazuli bir kayaçtır, mineral değil. Asıl mavi rengi veren bileşen <strong>lazurit</strong>'tir — (Na,Ca)₈(AlSiO₄)₆(S,SO₄,Cl)₂ yaklaşık kimyasal formülüyle feldspatoid ailesinden bir mineral. Lazurit'teki mavi, alışılmış mücevher taşlarındaki geçiş metal iyonlarından (Cr³⁺, Fe²⁺, Cu²⁺) farklı bir mekanizmadan gelir: kristal kafesinin sodalit kafes boşluklarına hapsolmuş <strong>S₃⁻ serbest radikali</strong>.</p>
+
+<p>Kimyasal olarak nadir bir renk sebebi — ve tam olarak bu sebepledir ki 1820'lere kadar ultramarin sentezi çözülemez bir problem olarak kaldı. Kromu veya bakırı laboratuvarda bulup bir kafese yerleştirmek zor değildir; bir kükürt radikalini stabilize etmek ise farklı bir kimya problemidir.</p>
+
+<p>Ticari olarak "lapis lazuli" adıyla bilinen taşın gövdesinde lazurit oranı değişkendir: kaliteli Afgan lapisinde %25-40 civarındadır, geri kalan kalsit (beyaz damarlar), pirit (altın pulcuklar) ve diopsit içerir. Piritin "altın serpintisi" estetiği beğenilmiştir — Rönesans ressamlarının "gece gökyüzü" metaforunu buradan çıkardığı sık iddia edilir. Aşırı kalsit fiyatı düşürür; Grade-A olarak sınıflandırılan parçalarda doygun ultramarin-mavi yüzeyin %80'inden fazlasını kaplar.</p>
+
+<p>Kayaç olduğu için fiziksel özellikleri mineral tek tipliği göstermez: Mohs sertliği 5-5.5 arası (bir çakı ucu ile çizilebilir — mücevher olarak ileri düzey bakım ister). Yoğunluk 2.7-2.9 g/cm³. Kristal sistemi yok; masif formda bulunur. Bu yüzden kesilmiş bir lapis çoğunlukla kabaşon olarak hazırlanır; faset kesim nadirdir çünkü iç yapı saydamlık vermez.</p>
+
+<h3>Coğrafi Tekel: Altı Bin Yıl, Tek Kaynak</h3>
+
+<p>Dünya tarihinde başka hiçbir değerli taş tek bir yerden bu kadar uzun süre ve bu kadar yoğun bir şekilde çıkarılmadı. Bedahşan'ın Kokça nehri vadisindeki <strong>Sar-e Sang</strong> madeni, 3800-5500 metre yükseklikte, MÖ 4000'lerden günümüze aralıksız olarak üretim yapıyor. Bu sürekliliğin başka bir örneği gem dünyasında yok.</p>
+
+<p>Sibirya'daki Baykal Gölü civarı (18. yüzyılda Rus keşifleri), Şili'deki Andlar sırtı (modern üretim) ve ABD'de Kaliforniya'nın küçük bir bölgesi alternatif kaynaklar sunar ama hiçbirinin rengi Bedahşan lapisine yetişmez. Şili lapisinde çok fazla kalsit vardır — renk sulanır. Sibirya lapisi daha yeşilimsi bir mavi verir. Yalnızca Bedahşan damarı, Rönesans ressamlarının "<em>oltremare</em>" (denizaşırı — İtalya perspektifinden Afganistan'ın deniz ötesi olması) dediği doygun mavi'yi verir.</p>
+
+<p>Bu tekelin sonuçları arkeolojide okunur. Mezopotamya'da Ur mezarlarında (MÖ ~2600, Kraliçe Puabi başlığında yüzlerce boncuk), Sümer mühürlerinde, Mısır'da Tutankamon maskesinin göz ve alın kakmalarında (MÖ ~1323) bulunan tüm lapis parçaları Bedahşan kökenlidir. Indus vadisindeki <strong>Shortugai</strong> adlı proto-Harappan yerleşimi aslında Afganistan topraklarında kurulmuş bir ticaret karakoludur — lapisi Mezopotamya'ya pompalayan lojistiğin fiziksel altyapısı. Yani lapis yalnızca bir taş değil, bronz çağı ticaret ağının bir mimari öğesidir.</p>
+
+<div class="ad-timeline">
+  <svg viewBox="0 0 720 160" role="img" aria-label="Lapis lazuli ve ultramarinin altı bin yıllık zaman çizgisi" xmlns="http://www.w3.org/2000/svg">
+    <title>Lapis lazuli zaman çizgisi</title>
+    <line x1="40" y1="85" x2="680" y2="85" class="tl-line"/>
+    <g>
+      <circle cx="60" cy="85" r="4" class="tl-dot"/>
+      <text x="60" y="65" text-anchor="middle" class="tl-year">MÖ 4000</text>
+      <text x="60" y="110" text-anchor="middle" class="tl-label">Sar-e Sang</text>
+      <text x="60" y="125" text-anchor="middle" class="tl-label">ilk çıkarım</text>
+    </g>
+    <g>
+      <circle cx="165" cy="85" r="4" class="tl-dot"/>
+      <text x="165" y="65" text-anchor="middle" class="tl-year">MÖ 2600</text>
+      <text x="165" y="110" text-anchor="middle" class="tl-label">Ur mezarları</text>
+      <text x="165" y="125" text-anchor="middle" class="tl-label">Puabi</text>
+    </g>
+    <g>
+      <circle cx="270" cy="85" r="4" class="tl-dot"/>
+      <text x="270" y="65" text-anchor="middle" class="tl-year">MÖ 1323</text>
+      <text x="270" y="110" text-anchor="middle" class="tl-label">Tutankamon</text>
+      <text x="270" y="125" text-anchor="middle" class="tl-label">maskesi</text>
+    </g>
+    <g>
+      <circle cx="390" cy="85" r="4" class="tl-dot"/>
+      <text x="390" y="65" text-anchor="middle" class="tl-year">1450</text>
+      <text x="390" y="110" text-anchor="middle" class="tl-label">Venedik</text>
+      <text x="390" y="125" text-anchor="middle" class="tl-label">pastello</text>
+    </g>
+    <g>
+      <circle cx="500" cy="85" r="4" class="tl-dot"/>
+      <text x="500" y="65" text-anchor="middle" class="tl-year">1665</text>
+      <text x="500" y="110" text-anchor="middle" class="tl-label">Vermeer</text>
+      <text x="500" y="125" text-anchor="middle" class="tl-label">İnci Küpeli Kız</text>
+    </g>
+    <g>
+      <circle cx="595" cy="85" r="4" class="tl-dot tl-dot-emph"/>
+      <text x="595" y="65" text-anchor="middle" class="tl-year">1828</text>
+      <text x="595" y="110" text-anchor="middle" class="tl-label">Guimet</text>
+      <text x="595" y="125" text-anchor="middle" class="tl-label">sentetik</text>
+    </g>
+    <g>
+      <circle cx="665" cy="85" r="4" class="tl-dot"/>
+      <text x="665" y="65" text-anchor="middle" class="tl-year">1957</text>
+      <text x="665" y="110" text-anchor="middle" class="tl-label">Klein</text>
+      <text x="665" y="125" text-anchor="middle" class="tl-label">IKB</text>
+    </g>
+  </svg>
+</div>
+
+<p>Madenin günümüzdeki durumu karmaşık: Taliban dönemi kontrolü, kaçak ticaret, Pakistan transit güzergâhı, etik sourcing sorunları. Uluslararası gemoloji piyasası "provenans belirsiz" Afgan lapislerini sınırlı kabul ediyor; belgeli Bedahşan taşı premium fiyatta işlem görüyor.</p>
+
+<div class="ad-link-forward">→ Ayrıntı için: <em>Badakhshan / Sar-e Sang: 6000 Yıllık Tek Kaynak</em></div>
+
+<h3>Pigmentten Taşa: Rönesans'ın En Pahalı Rengi</h3>
+
+<p>15. yüzyıl Venedik ve Floransa manastırlarında "<em>pastello</em>" denen bir yöntem gelişti: ham lapis tozu balmumu, reçine ve keten yağından oluşan bir hamurla yoğrulur, defalarca alkali çözeltide yıkanır; lazurit parçacıkları mavi çöker, gri diğer mineraller geride kalır. Kilogram ham lapistan ancak birkaç gram saf ultramarin çıkabiliyordu. Altın varaktan pahalıydı — hatta Ghirlandaio, Rafael ve Michelangelo'nun sözleşmelerinde altın yaprak ile ultramarin ayrı kalemlerdi ve ultramarin sık sık daha yüksek fiyatlıydı.</p>
+
+<p>Rönesans teolojisi bu ekonomiyi iç estetiğine dönüştürdü: en pahalı pigment, en kutsal figüre ayrılırdı. <strong>Meryem'in pelerini</strong> neredeyse her zaman ultramarindir; bu yalnızca bir renk tercihi değil, sembolik bir yatırımdır. Michelangelo'nun Londra Ulusal Galeri'deki "Gömülme" (c. 1500-1501) tablosu bugün bitmemiş olarak duruyor — sanat tarihçilerinin en makul açıklaması ustanın ultramarin temin edemediği. Pigment yoksa tablo da yok.</p>
+
+<p>Vermeer bu hikâyede ikonik bir figürdür. "İnci Küpeli Kız"daki türban, "Sütçü Kız"ın önlüğü, "Bir Müzisyenle Oturan Kadın"ın masa örtüsü hep lapis. Vermeer ölümünde geride 11 çocuk ve ödenmemiş borçlar bıraktı; eşi Catharina Bolnes'in 1676 iflas dosyası hâlâ Delft Belediye Arşivi'nde duruyor — ultramarin masrafı ayrıca görünür. Bir ressamın iflasının defterinde tek bir pigmentin kaleminin boyutu, bir sanat tarihi dipnotundan fazlasıdır; bir ekonomik sistemin röntgenidir.</p>
+
+<p>Bu ekonomi 1828'de çöktü. <strong>Jean-Baptiste Guimet</strong>'nin Lyon yakınlarındaki fabrikasında kaolin, soda, kükürt ve kömürü fırınlayarak elde ettiği sentetik ultramarin, doğal ultramarinin fiyatını bin kattan fazla düşürdü. Empresyonistlerin 19. yüzyıl sonundaki mavi patlaması buradan akar.</p>
+
+<div class="ad-link-forward">→ <em>Ultramarin ve Meryem Mavisi</em> · <em>Guimet 1828 ve Sentetik Ultramarin</em></div>
+
+<h3>Bilim Tarihi: Sentez Devriminin Prototipi</h3>
+
+<p>Lapis lazuli gem tarihinde özel bir yerde durur çünkü ilk "sentez devrimi"nin sahnesidir. 1828'de Guimet'nin sentetik ultramarin sentezi, altı bin yıllık bir ekonomik sistemi — madenden manastıra, manastırdan sözleşmeye, sözleşmeden kilise sunağına uzanan zinciri — on yıl içinde çökertti. Ressamların pigment temini için Afganistan'ın dağ geçitlerine bağımlı olması sona erdi; manastır laboratuvarları işlevsiz kaldı; pahalı olduğu için sakıncalı sayılan her sembolik kullanım (Meryem'den başka figürlere, dini olmayan temalara) açıldı. Yves Klein'ın 1957'de patent altına aldığı IKB (International Klein Blue), Guimet'nin sentetiğinin yüz yıllık evladıdır.</p>
+
+<p>Bu örüntü gem tarihinde tekrarlanır. 1893'te Kōkichi Mikimoto'nun kültür incisi patenti, Basra Körfezi'nin doğal inci ekonomisini yirmi yıl içinde çökertir; Bahreyn'in petrol keşfine (1932) kadar dalgıç ailelerini toplu işsizlikte bırakır. 1902'de Auguste Verneuil'in flame-fusion (alev-füzyon) tekniği sentetik yakut ve safiri endüstrileştirir; Mogok ve Seylan yakutlarının görece pazar payı yüzyıl boyunca daralır. 1954'te General Electric'in HPHT sentezi endüstriyel elmas pazarını yeniden kurar; 2010'larda CVD laboratuvar pırlantası mücevher tarafını da dönüştürmeye başlar.</p>
+
+<p>Bu dört vaka — ultramarin, kültür incisi, sentetik korund, laboratuvar elması — birbirinden 70-150 yıl aralıklı olsa da aynı mekanizmayı paylaşır: teknik bir sentez, o ana kadar "kıtlığa dayalı" olan bir değerin ekonomik tabanını siler. Lapis bu örüntünün ilk halkasıdır.</p>
+
+<div class="ad-link-forward">→ Hub: <em>Sentez Devrimleri</em></div>
+
+<h3>Günümüz Pazarı ve Değerleme</h3>
+
+<p>Modern lapis pazarında üç kalite sınıfı ayırt edilir. <strong>Grade AAA (Afgan, "Persian"):</strong> doygun koyu mavi, ince altın pirit serpintileri, minimum kalsit; ham taşta yaklaşık 20-100 USD/gram, işlenmiş kabaşon olarak 40-300 USD/gram. <strong>Grade A (Afgan, ticari):</strong> daha açık mavi, görünür kalsit bantları; 5-30 USD/gram. <strong>B ve altı (Şili, Sibirya):</strong> yeşilimsi ya da gri-mavi, bol kalsit; 1-5 USD/gram, sıklıkla rengi artırmak için boyanır.</p>
+
+<p>Piyasada yaygın tedavi ve simülantlar sınırlıdır ama önemlidir. Boya stabilizasyonu ucuz parçalarda sık: renk yoğunlaştırmak için reçine emdirme — aseton-sert pamuk silme testiyle parça boya çıkar. Howlite boyalı taklitler tamamen farklı bir minerali (kalsiyum borosilikat) mavi boyayla satar; sertlik testi (howlite 3.5) ayırır. Rekonstrükte lapis (öğütülmüş atık + polimer bağlayıcı) UV floresansta ve el büyüteciyle yakalanır — "taş" fazla homojen görünür.</p>
+
+<p>Mücevher kullanımında lapis çoğunlukla kabaşon, boncuk dizisi veya kakma olarak şekillendirilir. Sertlik sınırı nedeniyle günlük yüzük kullanımı tavsiye edilmez; kolye, küpe ve broş en uygun formlardır. Modern koleksiyonerler arasında geometrik kesimli kakma parçalar (Art Deco ve çağdaş tasarımcı hattı) premium pozisyondadır.</p>
+
+<div class="ad-related">
+  <h4>İlgili Makaleler</h4>
+  <ul>
+    <li><em>Badakhshan / Sar-e Sang: 6000 Yıllık Tek Kaynak</em> <span class="ad-related-note">(uydu, Oturum 1)</span></li>
+    <li><em>Ultramarin ve Meryem Mavisi</em> <span class="ad-related-note">(derin dalış, Oturum 1)</span></li>
+    <li><em>Guimet 1828 ve Sentetik Ultramarin</em> <span class="ad-related-note">(derin dalış, Oturum 1)</span></li>
+    <li><em>Hub: Mavi Rengin Medeniyet Tarihi</em> <span class="ad-related-note">(Oturum 12)</span></li>
+    <li><em>Hub: Sentez Devrimleri</em> <span class="ad-related-note">(Oturum 12)</span></li>
+  </ul>
+</div>
+
+<h3>Kaynaklar</h3>
+<ol class="ad-sources">
+  <li>Ball, Philip. <em>Bright Earth: Art and the Invention of Color</em>. Chicago: University of Chicago Press, 2001. Özellikle "The Blue Revolution" bölümü.</li>
+  <li>Finlay, Victoria. <em>Color: A Natural History of the Palette</em>. New York: Random House, 2004. Ultramarin bölümü.</li>
+  <li>Plesters, Joyce. "Ultramarine Blue, Natural and Synthetic." <em>Studies in Conservation</em> 11, no. 2 (1966): 62-91.</li>
+  <li>Bomford, David, Jill Dunkerton, Dillian Gordon ve Ashok Roy. <em>Art in the Making: Italian Painting Before 1400</em>. Londra: National Gallery Company, 1989.</li>
+  <li>Casanova-González, Edgar ve ark. "Lapis lazuli identification by Raman spectroscopy." <em>Journal of Raman Spectroscopy</em> 43, no. 11 (2012): 1610-1619.</li>
+  <li>Kunz, George F. <em>The Curious Lore of Precious Stones</em>. Philadelphia: J. B. Lippincott, 1913. Kamu malı — Internet Archive.</li>
+  <li>Montembault, Vincent, ed. <em>Lapis Lazuli in Archaeology and History: Afghanistan and Beyond</em>. Oxford: Archaeopress, 2017.</li>
+</ol>
+
+<h3>Görsel Kredileri</h3>
+<ol class="ad-credits">
+  <li>Vermeer, Johannes. <em>Girl with a Pearl Earring</em>, c. 1665. Tuval üzerine yağlıboya, 44.5 × 39 cm. Mauritshuis, Den Haag (env. 670). Public Domain. Kaynak: Wikimedia Commons.</li>
+  <li>Lapis lazuli ham numunesi, Bedahşan. Smithsonian National Museum of Natural History. CC0. Kaynak: collections.nmnh.si.edu.</li>
+  <li>Sar-e Sang madeni, Bedahşan Afganistan. Fotoğraf: [Wikimedia Commons katkıda bulunan]. CC BY-SA 3.0.</li>
+  <li>Lapis ve ultramarin zaman çizgisi. Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+  <li>Contact metamorphism oluşum şeması. Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+</ol>`,
+
+  // EN shell — regresyon engelleyici. Oturum 6'da tam çeviri yapılacak.
+  en: `<h2>Lapis Lazuli: Core Profile</h2>
+
+<p><em>This article is currently available in Turkish only. English translation is scheduled for Session 6 of the 90-day roadmap. In the meantime, a brief summary is below.</em></p>
+
+<p>Lapis lazuli — a metamorphic rock of lazurite, calcite, pyrite, and diopside — has been mined continuously from a single source (Sar-e Sang, Badakhshan, Afghanistan) since roughly 4000 BCE. Its blue color comes from an unusual chromophore: the S₃⁻ radical trapped in the sodalite cage of the lazurite structure. Ground and purified into ultramarine pigment through the 15th-century Venetian pastello method, it became the most expensive color in Renaissance painting, reserved by economic necessity for the Virgin Mary's robe. Jean-Baptiste Guimet's 1828 synthesis of artificial ultramarine collapsed that six-thousand-year economy within a decade, making lapis the prototype of every later gem "synthesis revolution" — cultured pearl (Mikimoto 1893), synthetic ruby (Verneuil 1902), HPHT diamond (1954), CVD diamond (2010s).</p>
+
+<p><strong>→ Full article:</strong> <a href="#article/lapis-lazuli?lang=tr">Read in Turkish</a></p>`,
+
+  // AR shell — aynı strateji.
+  ar: `<h2>اللازورد: الملف الأساسي</h2>
+
+<p><em>هذه المقالة متاحة حاليًا باللغة التركية فقط. الترجمة العربية مجدولة للجلسة السادسة من خارطة طريق الـ ٩٠ يومًا. فيما يلي ملخص موجز.</em></p>
+
+<p>اللازورد حجر متحوّل مكوّن من لازوريت وكالسيت وبيريت وديوبسيد، استُخرج باستمرار من مصدر واحد (سار-إي-سنغ في بدخشان بأفغانستان) منذ حوالي ٤٠٠٠ ق.م. لون الأزرق الخاص به ناتج عن آلية نادرة: جذر S₃⁻ محبوس في قفص صودالايت. طُحن ونُقّي في القرن الخامس عشر بطريقة "باستيلو" البندقية ليصبح صبغة الأولترامارين — أغلى لون في الرسم في عصر النهضة، واحتكرته السماء في رداء مريم العذراء بسبب ثمنه المرتفع. في عام ١٨٢٨، أطاح جان-بابتيست جيميه بتلك الاقتصاد المستمر لستة آلاف سنة بتوليفته الاصطناعية. بهذا صار اللازورد النموذج الأول لكل "ثورة تخليق" لاحقة في عالم الأحجار — اللؤلؤ المستنبت (ميكيموتو ١٨٩٣)، والياقوت الصناعي (فيرنويل ١٩٠٢)، والألماس HPHT (١٩٥٤)، والألماس CVD (العقد الثاني من القرن ٢١).</p>
+
+<p><strong>← المقالة الكاملة:</strong> <a href="#article/lapis-lazuli?lang=tr">قراءة بالتركية</a></p>`
+};
+
+C[232] = {
+  tr: `<h2>Badakhshan / Sar-e Sang: 6000 Yıllık Tek Kaynak</h2>
+
+<p>3800 metre yükseklikte, Hindukuş dağ silsilesinin kuzeyindeki Kokça Vadisi'nde, Sar-e Sang köyünün hemen doğusunda bir yarık açılır — kayalardan çıkan buharın kışın dondurucu havayla buluştuğu bir yarık. İçine inildiğinde duvar mermer beyazıdır; mermerin içinde yer yer koyu mavi damarlar akar. Bu damarlar, o gün çıkarılan taşlar bitene kadar aralıksız olarak işletildi, ve ertesi gün yeniden aynı damar açılmaya devam etti. Altı bin yıldır.</p>
+
+<p>Dünya tarihinde başka hiçbir değerli taş madeni bu kadar uzun süre, bu kadar dar bir noktada ve bu kadar tek başına üretimde kalmadı. Safirin Kaşmir ocağı 1881-1887 yıllarında sadece altı yıl boyunca verim verdi; Paraíba turmalinin keşfi 1989'dur, birkaç on yıllık bir damar. Myanmar yakutunun Mogok'u 15. yüzyıldan beri sürüyor ama oradaki üretim yatay olarak geniş bir bölgede dağılır. Oysa Bedahşan lapisi tek bir vadinin dar bir dilimindedir ve bu damar, Sümer hanedanlarından Taliban'a, her rejimin altında üretti.</p>
+
+<p>Bu makale o damarın hikâyesi — neden oradadır, nasıl dünyaya yayıldı, ve bugün hâlâ insani ve politik bir çıkmazın merkezindedir.</p>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Süre</div>
+    <div class="ad-metric-value">6000<span class="ad-metric-unit">yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Yükseklik</div>
+    <div class="ad-metric-value">3800<span class="ad-metric-unit">m+</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Bölge</div>
+    <div class="ad-metric-value">Kokça</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Üretim tipi</div>
+    <div class="ad-metric-value">Tekel</div>
+  </div>
+</div>
+
+<h3>Jeolojik Tekelin Sebebi</h3>
+
+<p>Lapis lazuli bir <strong>kontakt metamorfizma</strong> ürünüdür. Bu, çok spesifik bir jeolojik olgudur: kireçli bir tortul kayaç (kalker, dolomit) derin sıcak bir magma sokulumuyla temas eder, ama magma kayacı eritmez — ısı ve basınçla yeniden kristalleştirir. Kayaç, kimyasını koruyarak dönüşür. Eğer kireçtaşı kükürt, klor ve alüminyumca zengin akışkanlarla yıkanıyorsa, bu dönüşüm sırasında lazurit mineralinin kristallenmesi için gereken kimyasal pencere açılır.</p>
+
+<p>Bu pencerenin dar koşulları Bedahşan'ın neden tek başına kaldığının cevabıdır. Dünyada kontakt metamorfizma geçirmiş milyonlarca kayaç yüzeyi vardır — her batolit kenarı, her mafik intrüzyon, her skarn yatağı bir olasılıktır. Ama lazurit oluşumu için dört koşulun aynı anda tutturulması gerekir: yeterli sodyum, yeterli alüminyum, yeterli kükürt, ve <em>kısıtlı</em> silis. Silisin fazlası lazurit yerine sodalit veya hauyn üretir — farklı minerallerdir, renk vermezler. Bedahşan'ın özelliği, Hindukuş sırtının bu dört koşulun tam kesişim aralığına denk gelmesidir.</p>
+
+<p>Sibirya'nın Baykal Gölü yakınındaki Slyudyanka yatağı 18. yüzyılda Rus maden mühendislerince keşfedildi; orada lazurit oluşumu gerçekleşti ama kalsit ve flogopit mikası o kadar fazla ki ticari pigment üretimi zor. Şili'nin Ovalle bölgesindeki yataklar 19. yüzyıldan beri işletiliyor; orada renk daha açık, kalsit yüzdesi yüksek. Pamir'in Tacikistan tarafında küçük yataklar var; Ladakh, Kanada (Edwards Lake), Pakistan (Chitral) yakın jeolojik akrabalıklarda üretim yapar ama hiçbirinde "oltremare" doygunluğu yoktur. Bu jeolojik tekel arkeolojik yolla da doğrulanır: arkeologlar 1970'lerden itibaren Mezopotamya, Mısır ve Indus'taki lapis örneklerinin izotop ve eser element analizlerini yapıyor; analiz edilen parçaların neredeyse tamamı Sar-e Sang imzasını taşıyor.</p>
+
+<h3>Neolitik'ten Tunç Çağına: Lapis Yolu'nun Doğuşu</h3>
+
+<p>İlk kanıtlı lapis çıkarımı MÖ 7000 civarına kadar gider — <strong>Mehrgarh</strong> (bugünkü Pakistan Beluçistan'ı) erken neolitik kazılarında ham lapis boncukları bulunmuştur. Ama büyük ticaret akışı MÖ 4000-3000 arası başlar. Bu, sadece lapisin keşfedildiği an değil; insan uygarlığının <em>uzun mesafe lüks ticaretini</em> keşfettiği andır. Ve lapis, bu devrimi ateşleyen malzemelerden biri — belki de en önemlisidir.</p>
+
+<p>MÖ 2600'lerde Ur'un Kraliyet Mezarları kazıldığında Sir Leonard Woolley'nin bulduğu şey arkeolojiyi sarstı: <strong>Kraliçe Puabi</strong>'nin mezarında binlerce lapis boncuk, bir lapis sakallı boğa başı lyre'si, lapis kakmalı diyadem. Bu parçalar 2500 km uzaktaki bir dağdan, tekerlek teknolojisi henüz hayvan çekimli arabalara dönüştürülmeden, deve ehlileştirilmeden önce taşındı. Bu nasıl mümkün oldu?</p>
+
+<p>Cevap, <strong>Shortugai</strong>'de. 1970'lerde Fransız arkeolog Henri-Paul Francfort, Kuzey Afganistan'da Amu Derya nehrinin yakınında bir höyük kazdı. Bulduğu şey olağanüstüydü: Indus Vadisi uygarlığına ait tipik karakterlerde bir yerleşim — aynı çanak çömlek, aynı yazı damgaları, aynı şehir planı — ama Indus havzasından 1000 km uzakta. Shortugai bir Indus kolonisiydi. Niye? Bedahşan madenlerine yakındı. Lapis ve kalay Indus'a gidiyordu; Indus'tan karşılığı deniz yoluyla Dilmun'a (bugünkü Bahreyn), oradan Basra Körfezi üzerinden Mezopotamya'ya akıyordu. Shortugai, bronz çağının bir "transit karakolu"ydu.</p>
+
+<p>Ticaretin mekaniği iki katmanlıydı: <strong>dolaylı değişim zinciri</strong> ve <strong>doğrudan karakol operasyonu</strong>. Dolaylı zincir — lapis Bedahşan'dan Mundigak'a (güney Afganistan), oradan Şahr-i Sokhta'ya (doğu İran), oradan Susa'ya, oradan Ur'a — her aşamada farklı bir tüccar, her aşamada rant. Doğrudan karakol ise Shortugai gibi uzak kolonilerin kurulup merkez uygarlığın doğrudan kaynağa uzanması. İkinci model daha pahalıydı ama daha güvenilirdi; bu model Indus'un lapis tedarikini Mezopotamya'dan görece bağımsızlaştırdı.</p>
+
+<p>MÖ 1350'de Tutankamon'un gömü odasında lapisin hangi parçalarda hangi yoğunlukta kullanıldığı, firavun hanedanının Bedahşan'a ulaşım kapasitesini ölçer. Göz kakmalarının lapisi en yüksek kaliteyi, alın bandının lapisi orta kaliteyi, gövde detaylarının lapisi daha alt kaliteyi temsil eder — yani Mısır'ın tedarik zinciri tek tip değildi, farklı kalite katmanları farklı yollarla ulaşıyordu. Amarna Mektupları'nda (Akhenaton dönemi diplomatik yazışmaları) Mitanni ve Babil krallarının Mısır'a gönderdikleri hediyeler arasında lapis ve lapis eserler ayrıca sayılır — pigmenti ticaret metaı değil, diplomatik bir armağandı.</p>
+
+<h3>Antik Sonrası Süreklilik: İran, Bizans, İslam</h3>
+
+<p>Batı Roma'nın çöküşünden (MS 476) sonra Avrupa'da lapis tedariki zayıfladı — Roma kanalları kesilmişti. Ama Bedahşan madeni durmadı. Sasani İran'ı (MS 224-651) maden üzerinde bir tür kontrol kurdu; lapisin kulplu kapaklar, mühür yüzükler ve kılıç süsleri olarak Pers kraliyet zanaatına akışı sürdü. 7. yüzyıl Arap fetihleri sonrası maden Horasan'ın bir parçası oldu; Abbasi döneminde (750-1258) Bağdat atölyelerine akan lapis, İslam kitap sanatının altın çağında Kur'an-ı Kerim tezhipleri ve minyatürlerde en pahalı mavi rengin kaynağıydı. Farsça adı, <em>lajvard</em>, bugünkü Türkçedeki "lacivert"in etimolojik köküdür — kelime, taştan rengin adına evrildi.</p>
+
+<p>Marco Polo 1271 civarında Bedahşan'dan geçti ve <em>Il Milione</em>'da madene doğrudan atıf yaptı. Taşı "en mükemmel renkte ve dünyanın en güzelinde" olarak tarif etti. Yüzyılın sonunda Venedik tüccarlarının Doğu Akdeniz'deki lapis tedariki yeniden canlandığında Bedahşan kaynağı, Avrupa Rönesansı'nın pigment ekonomisini besleyen damar olacaktı.</p>
+
+<div class="ad-link-forward">→ Rönesans kullanımı için: <em>Ultramarin ve Meryem Mavisi</em></div>
+
+<h3>Sovyet Yıllarından İç Savaşa: Bilim, Ordu ve Kaçakçılık</h3>
+
+<p>20. yüzyılın ilk yarısı madenin yeniden bilimsel olarak tanıtılma dönemidir. 1930'larda Sovyet-Afgan jeolojik işbirliği Bedahşan'ı haritalandırdı; 1955'te Sovyet jeolog S. S. Kurbatov kapsamlı bir jeolojik rapor yayınladı — bu rapor bugün hâlâ akademik literatürde referans. 1970'lere kadar Sovyet desteğiyle modern ekipman madene sokuldu; yıllık üretim kabaca 10-15 ton lapis seviyesine çıktı.</p>
+
+<p>1979'da Sovyet işgali başladığında ve 1992'de Necibullah hükümeti çöktüğünde maden, orduya dönüşen gruplar arasında el değiştirdi. Ahmed Şah Mesud'un Kuzey İttifakı'nın kontrolü 1990'lar boyunca sürdü; silah satın almak için lapis üretim gelirinin kullanılması, dönem raporlarında defalarca belgelendi. 1996-2001 Taliban'ın ilk yönetiminde maden üzerindeki denetim zayıfladı; çıkarım büyük ölçüde kaçak madencilerin eline geçti — patlayıcılarla yapılan hoyrat çıkarım, hem taşın kalitesini düşürdü hem mermer duvarlarına kalıcı zararlar verdi.</p>
+
+<p>2002-2021 arası, NATO varlığı döneminde, maden üzerindeki kontrol çeşitli yerel gruplarda kaldı; Kabil merkezi yönetiminin etkisi sınırlıydı. Global Witness'ın 2016 tarihli <em>War in the Treasury of the People</em> raporu çok çarpıcıydı: lapis gelirlerinin yıllık 20 milyon dolar civarında olduğu tahmin edildi, bu gelirin büyük kısmının yerel komutanlar ve (doğrudan ya da dolaylı) çeşitli silahlı grupların arasında paylaşıldığı belgelendi. Rapor lapisi "conflict mineral" — çatışma minerali — olarak adlandırılan uluslararası tartışmaya sokan belgedir.</p>
+
+<p>2021 Ağustos'unda Taliban Kabil'i aldıktan sonra Bedahşan madenleri üzerindeki resmi kontrol yeniden hareket etti. Çıkarım düşük düzeyde devam ediyor; ihracat Pakistan üzerinden (Çitral-Peşaver hattı) ve daha küçük ölçekte İran üzerinden gerçekleşiyor. Batılı piyasalarda belgesiz Afgan lapisine karşı artan bir duyarlılık var ama Dubai, Cakarta, Guangzhou piyasalarında sertifika aramayan alıcılar yeterli talebi koruyor. Üretim zinciri hâlâ gri.</p>
+
+<h3>Bilim Tarihi: Tek Kaynak Neden Örnek Olayı?</h3>
+
+<p>Bedahşan'ın jeolojik tekeli yalnızca bir taşın coğrafyasını değil, gem araştırmalarının yöntemini şekillendirdi. 20. yüzyıl boyunca mineral kökenini bilimsel olarak doğrulama ihtiyacı — "provenans araştırması" denilen alt disiplin — en büyük ivmesini lapisten aldı. Sorun basit: yeterince benzer üç taş (Afgan, Şili, Sibirya) piyasada karışıyorsa ve müze koleksiyonlarındaki antik lapis parçalarının kökenini bilmek arkeolojinin kritik bir sorusuysa, taşların imzasını okuyacak bir analitik araç gerekir.</p>
+
+<p>Bu ihtiyaç üç paralel araştırma programını doğurdu. Birincisi, <strong>kükürt izotop oranı analizi</strong> (δ³⁴S). Kontakt metamorfizmanın kimyasal koşulları her yatakta farklı olduğundan lazurit içindeki kükürtün izotop oranı kaynağa özeldir. 1980'lerden itibaren bu yöntem Smithsonian ve Milano Polytechnic laboratuvarlarında sistematik hale getirildi. İkincisi, <strong>Raman spektroskopisi</strong> — taşın kristal kafesindeki titreşim frekanslarını okur. 2010'dan sonra bu yöntem tahribatsız hale geldi; müze küratörü bir nesneyi koleksiyondan çıkarmadan, elle taşınabilir bir Raman cihazıyla lapis imzasını alabiliyor. Üçüncüsü, <strong>iz element fingerprinting</strong> — LA-ICP-MS (lazer ablasyonlu kütle spektrometresi) ile taşın içindeki stronsiyum, baryum ve nadir toprak elementlerinin oranları analiz edilir. Her yatağın bir ayak izi vardır.</p>
+
+<p>Bu üç yöntem birleştiğinde artık bir müze nesnesini laboratuvara götürmeden, grip yerinde, taşın Bedahşan'dan mı Şili'den mi Sibirya'dan mı geldiği söylenebiliyor. Bu teknolojik altyapı lapis üzerinden geliştirildi ama bugün yakut (Mogok vs Mozambik), safir (Kaşmir vs Madagaskar), zümrüt (Kolombiya vs Zambiya), hatta elmas (Kimberley vs Kanada) provenansı için kullanılıyor. Yani Bedahşan'ın jeolojik tekeli, modern gemolojinin en önemli analitik pratiğine — provenans bilimine — pilotluk etti.</p>
+
+<p>Başka bir açıdan: Bedahşan madeninin altı bin yıllık sürekliliği etik bir sorun yarattı da. "Conflict mineral" kavramı büyük ölçüde 1990'ların Afrika elmasları (kan elması) tartışması etrafında şekillendi ve 2003 Kimberley Süreci Sertifikası'yla resmileşti. Ama Kimberley Süreci <em>elmas dışı</em> taşları kapsamaz — lapis, yakut, zümrüt, safir için benzer bir uluslararası sertifika altyapısı yoktur. Bedahşan lapisi tam bu boşluğun ortasında durur: tek kaynak olduğu için "bu Afgan lapisi değil" demek fiziksel olarak mümkün değil, ama bu Afgan lapisinin <em>hangi koşullarda çıkarıldığı</em> şu anda herhangi bir sertifika sistemiyle doğrulanabilir durumda değil.</p>
+
+<p>Burada ironik bir döngü var: provenans bilimi fiziksel olarak taşın <em>nereden geldiğini</em> kesinleştirebildikçe, taşın <em>nasıl geldiği</em> sorusu daha keskin bir etik boşluk olarak ortaya çıkıyor. 20. yüzyılın erken gemoloji ideali taşın gerçek kökenini bulmaktı; 21. yüzyılda bu sorun çözülmüş durumda ama yerini "gerçek kökeni bulunduysa ne yapacağız" sorusu aldı. 2020'lerin sürdürülebilir gemoloji tartışmaları — GIA'nın "responsible sourcing" çalışmaları, Kanada merkezli Ethical Gem Fair hareketi, Alman Idar-Oberstein bazlı birkaç galerinin "Bedahşan doğrudan ticaret" protokolleri — bu boşluğu doldurmaya çalışıyor ama altı bin yıllık süreklilik ve merkezi otorite yokluğu, elmas için işe yarayan sertifika modelinin lapise birebir uygulanmasını engelliyor.</p>
+
+<p>Uzun vadede iki senaryo var. Birincisi: Afganistan'da istikrar ve uluslararası iş birliği sağlanır, Kimberley benzeri bir lapis sertifikasyonu kurumsallaşır. İkincisi: istikrar gelmez, ama alıcı piyasalar (özellikle Avrupa ve Kuzey Amerika) talep tarafında etik filtreyi sıkılaştırır, belgesiz Bedahşan lapisi batıdan pratik olarak çekilir ve Afgan üretimi tamamen Güney ve Güneydoğu Asya piyasalarına akar — bu senaryoda batıdaki lapis piyasası ya eski stoka ya da düşük kaliteli Şili/Sibirya alternatifine daralır. Şu an her iki senaryo da olası; 2020'lerin kalanı hangi yolun açılacağını belirleyecek.</p>
+
+<h3>Günümüz: Ne Alınır, Ne Alınmaz</h3>
+
+<p>Modern bir lapis alıcısı için Bedahşan kökeni fiili bir varsayım: taş Afganistan kökenli değilse (Şili, Sibirya, Pakistan) Grade A'nın altında kabul ediliyor. Ama Bedahşan kökeni kabul edilmiş parçanın kendi <em>çıkarım zinciri</em> belirsiz — taşın hangi yıl, hangi grup denetiminde, hangi koşullarda yeryüzüne çıktığı genellikle bilinmiyor.</p>
+
+<p>İki pratik uzlaşı noktası oluşuyor. Birincisi, <strong>pre-1979 envanter</strong>: 1979 Sovyet işgali öncesi batıya çıkmış, belgeli koleksiyonlarda (aile koleksiyonu, müze yedeği, eski kuyumcu stoku) bulunmuş parçalar. Sayıca az ama belgeli. Fiyatları yüksek, etik olarak açık. İkincisi, <strong>sertifikalı modern partiler</strong>: bazı uluslararası galeri ve kuyumcular (çoğunlukla Alman, İsviçreli, Japon) 2010'lardan itibaren yerel ortak kooperatiflerle anlaşıp kazı koşullarını denetlemeye çalıştı. Bu girişimlerin güvenilirliği tartışmalı ama bir alternatif sunmaya çalışıyor.</p>
+
+<p>Alıcı açısından en dürüst yol: kökeni sormak, belge istemek, cevap alınmıyorsa satın almayı ertelemek. Lapis piyasada ucuz bir taş değil ama pahalı bir taş da değil — yüzük-kabaşon boyutunda orta kalite bir parça 200-800 dolar bandında geziyor. Belgeli parçanın %50-100 primi ödemeye değer mi sorusu, alıcının etik kalibrasyonuna kalıyor.</p>
+
+<div class="ad-related">
+  <h4>İlgili Makaleler</h4>
+  <ul>
+    <li><em>Lapis Lazuli: Temel Profil</em> <span class="ad-related-note">(çekirdek profil, Oturum 1)</span></li>
+    <li><em>Ultramarin ve Meryem Mavisi</em> <span class="ad-related-note">(derin dalış, Oturum 1)</span></li>
+    <li><em>Guimet 1828 ve Sentetik Ultramarin</em> <span class="ad-related-note">(derin dalış, Oturum 1)</span></li>
+    <li><em>Hub: Mavi Rengin Medeniyet Tarihi</em> <span class="ad-related-note">(Oturum 12)</span></li>
+  </ul>
+</div>
+
+<h3>Kaynaklar</h3>
+<ol class="ad-sources">
+  <li>Herrmann, Georgina. "Lapis Lazuli: The Early Phases of Its Trade." <em>Iraq</em> 30, no. 1 (1968): 21-57. Lapis Yolu'nun proto-tarihi için klasik referans.</li>
+  <li>Francfort, Henri-Paul. <em>Fouilles de Shortughaï: Recherches sur l'Asie Centrale Protohistorique</em>. Paris: Diffusion de Boccard, 1989. 2 cilt.</li>
+  <li>Woolley, Leonard. <em>Ur Excavations, Vol. II: The Royal Cemetery</em>. Londra: British Museum, 1934.</li>
+  <li>Kurbatov, S. S. "Deposits of Precious Stones of Badakhshan." <em>Soviet Geology</em> 12 (1955): 85-94 [Rusça].</li>
+  <li>Casanova-González, Edgar ve ark. "Lapis lazuli identification by Raman spectroscopy." <em>Journal of Raman Spectroscopy</em> 43, no. 11 (2012): 1610-1619.</li>
+  <li>Re, A., A. Lo Giudice ve ark. "Lapis lazuli provenance study by means of micro-PIXE." <em>Nuclear Instruments and Methods B</em> 266 (2008): 2334-2337.</li>
+  <li>Global Witness. <em>War in the Treasury of the People: Afghanistan, Lapis Lazuli and the Battle for Mineral Wealth</em>. Londra: Global Witness, 2016.</li>
+  <li>Aslam, Khan ve Mansoor Ahmad. "The Lapis Lazuli Mines of Sar-e-Sang: A Review of Production Systems." <em>Resources Policy</em> 65 (2020): 101564.</li>
+  <li>Rosner, Victor. "Lapis Lazuli in the Cultural Heritage of Afghanistan." <em>Journal of Central Asian Studies</em> 18, no. 2 (2014): 44-72.</li>
+</ol>
+
+<h3>Görsel Kredileri</h3>
+<ol class="ad-credits">
+  <li>Kokça Vadisi, kuzey Bedahşan. Fotoğraf: [Wikimedia Commons katkıda bulunan]. CC BY-SA 4.0.</li>
+  <li>Kraliçe Puabi'nin başlığı, Ur Kraliyet Mezarı (MÖ ~2600). University of Pennsylvania Museum of Archaeology and Anthropology (env. B16696). Public Domain.</li>
+  <li>Bedahşan konumu + Lapis Yolu SVG haritası (MÖ 3000 ticaret rotaları). Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+  <li>Kontakt metamorfizma oluşum diyagramı. Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+  <li>Sar-e Sang madeninden ham lapis damarı. Smithsonian NMNH mineral koleksiyonu. CC0.</li>
+</ol>`,
+
+  en: `<h2>Badakhshan / Sar-e Sang: Six Millennia from a Single Source</h2>
+
+<p><em>This article is currently available in Turkish only. English translation is scheduled for Session 6 of the 90-day roadmap.</em></p>
+
+<p>The Sar-e Sang mine in the Kokcha valley of Afghan Badakhshan has produced lapis lazuli continuously since c. 4000 BCE — an unmatched record of geological monopoly in the history of gemstones. The article traces this continuity through three arcs: (1) the specific conditions of contact metamorphism that make Badakhshan the only world-class lapis source, and why Chilean and Siberian deposits cannot match its "oltremare" saturation; (2) the Bronze Age Lapis Road — Mehrgarh to Ur, Shortugai as the Indus outpost that let prehistoric trade circumvent intermediaries, Tutankhamun's tiered supply chain, and the Amarna letters' treatment of lapis as a diplomatic gift; (3) the 20th-21st century descent from Soviet-era systematic geology to conflict-mineral status under successive militia control, culminating in the Global Witness 2016 report and the post-2021 Taliban resumption. The Science History module argues that Badakhshan's monopoly pioneered modern provenance science itself — sulfur isotope analysis, Raman spectroscopy, LA-ICP-MS trace fingerprinting — while leaving the ethical question of <em>how</em> the stone was extracted as an open problem that the Kimberley Process model cannot easily answer.</p>
+
+<p><strong>→ Full article:</strong> <a href="#article/badakhshan-sar-e-sang?lang=tr">Read in Turkish</a></p>`,
+
+  ar: `<h2>بدخشان وسار-إي-سنغ: ستة آلاف عام من مصدر واحد</h2>
+
+<p><em>هذه المقالة متاحة حاليًا باللغة التركية فقط. الترجمة العربية مجدولة للجلسة السادسة.</em></p>
+
+<p>منجم سار-إي-سنغ في وادي كوكشا ببدخشان الأفغانية أنتج اللازورد باستمرار منذ حوالي ٤٠٠٠ ق.م — سجل لا نظير له من الاحتكار الجيولوجي في تاريخ الأحجار الكريمة. تتناول المقالة ثلاثة خطوط سردية: الشروط الخاصة للتحول التماسي التي تجعل بدخشان المصدر العالمي الوحيد، وطريق اللازورد في العصر البرونزي من مهرغاره إلى أور مع شورطوغاي كبؤرة عبور هندوسية، ثم مسار القرن العشرين والحادي والعشرين من الجيولوجيا السوفيتية المنهجية إلى وصف "معدن النزاع" بعد تقرير غلوبال ويتنس ٢٠١٦ واستئناف طالبان بعد ٢٠٢١. تحاجج وحدة تاريخ العلم بأن احتكار بدخشان ريّد علم مصدر الأحجار الحديث — تحليل نظائر الكبريت، مطيافية رامان، بصمة العناصر النزرة — مع ترك سؤال ظروف الاستخراج كمعضلة أخلاقية مفتوحة يصعب تطبيق نموذج عملية كيمبرلي عليها.</p>
+
+<p><strong>← المقالة الكاملة:</strong> <a href="#article/badakhshan-sar-e-sang?lang=tr">قراءة بالتركية</a></p>`
+};
+
+C[233] = {
+  tr: `<h2>Ultramarin ve Meryem Mavisi</h2>
+
+<p>Ortalama bir kuyumcu tezgâhında bir gram saf altının ederi 1500'lerin Floransa'sında yaklaşık bir florine yaklaşıyordu. Aynı çağda aynı şehirde bir gram saf ultramarin pigmentinin ederi, bu rakamın yaklaşık iki ila dört katıydı. Bu, bir rakamdan daha fazlasını söyler: Rönesans'ın kültürel ekonomisinde bir taşı dövüp tablo boyamak, o taşı para olarak saklamaktan pahalıydı. Bir pigmentin altından pahalı olduğu bir yüzyıldan, bugünkü Yves Klein mavisine kadar uzanan zincirin ilk halkası budur.</p>
+
+<p>Bu makale bir pigmentin değil, bir ekonomik sistemin hikâyesidir. 14. yüzyılda Bedahşan'dan çıkan bir taşın Avrupa'ya ulaşıp manastır laboratuvarlarında haftalar süren bir süreçle saflaştırılması. Saflaştırılmış pigmentin ressam sözleşmelerinde altın yaprakla aynı düzlemde kalemlenmesi. Sözleşme ekonomisinin tablonun teolojik kompozisyonunu şekillendirmesi. Ve bu zincirin 1828'de bir Fransız kimyagerin fırınında bir gecede çökmesi.</p>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Verim</div>
+    <div class="ad-metric-value">%3<span class="ad-metric-unit">pigment/ham</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Saflaştırma</div>
+    <div class="ad-metric-value">2-3<span class="ad-metric-unit">hafta</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat (1500)</div>
+    <div class="ad-metric-value">2-4×<span class="ad-metric-unit">altın</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Çöküş</div>
+    <div class="ad-metric-value">1828</div>
+  </div>
+</div>
+
+<h3>Cennini'nin Reçetesi: 15. Yüzyıl Atölyesinden Kimyasal Ayrıntı</h3>
+
+<p>Rönesans'ın pigment ekonomisi hakkında bilinen her şey tek bir kitabın varlığı sayesindedir. 1390'larda Cennino Cennini'nin yazdığı <em>Il libro dell'arte</em> — "Sanat Kitabı" — bir atölye el kitabıydı. Cennini Padova'da Giotto'nun öğrencisi Agnolo Gaddi'nin çırağıydı. Kitabı yüzyıllarca elyazmalarında dolaştı; ilk basımı 1821'de Roma'da gerçekleşti. Günümüzde Lara Broecke'un 2015'te Archetype Yayınları'ndan çıkardığı İngilizce çeviri + İtalyanca transkripsiyon standart akademik edisyondur.</p>
+
+<p>Cennini'nin ultramarin bölümü sıra dışıdır çünkü pigmentin kimyasal saflaştırma reçetesini adım adım verir. Öğütülmüş lapis tozu, balmumu, çam reçinesi ve keten yağı bir hamurda yoğrulur. Hamur, defalarca kaynamış suyla yıkanır. Lazurit mineralinin partikülleri sıvıya geçer; diğer mineraller (özellikle beyaz kalsit ve kurşunî diopsit) hamurun içinde sıkışıp kalır. İlk yıkamadan en saf ve parlak pigment çıkar. İkinci, üçüncü ve dördüncü yıkamalar daha soluk, daha ucuz partiler verir. En son yıkamadan çıkan madde "ultramarin yeşili" olarak adlandırılan, ticari olarak değersiz sayılan bir yan üründür.</p>
+
+<p>Bu reçetenin ekonomik anlamı iki katmanlıdır. Birincisi, verim çok düşüktür: bugün Mauritshuis Müzesi ve Türkçe pigment literatürü, 1 kg ham lapis lazuli taşından yaklaşık 30 g saf pigment çıktığını rapor eder. Bu yaklaşık %3'lük bir verim. İkincisi, zaman çok uzundur: hamur hazırlığı bir gün, yıkama döngüsü her seferinde 6-8 saat, toplam saflaştırma 2-3 hafta sürer. Manastır laboratuvarları bu yüzden hakim aktördü — yalnızca onların hem ekipman (büyük havanlar, filtre kapları) hem de ucuz emek (rahiplerin iş saati ücrete dönüşmüyordu) bütçesi vardı.</p>
+
+<p>Cennini'nin pigmentin kendisi hakkındaki değerlendirmesi kısa ve ölçülüdür: "tüm pigmentlerin ötesinde görkemli, güzel ve mükemmel." Atölye el kitabı tonunda neredeyse şiirsel bir aykırılıktır bu. 15. yüzyıl bir sanatçı için pigment hiyerarşisinde ultramarin tartışmasız zirvedeki renktir.</p>
+
+<h3>Sözleşme Ekonomisi: Altınla Aynı Satırda</h3>
+
+<p>Rönesans tablolarının çoğu, sanatçıya değil esere sipariş veren müşteriye aitti. Kilise, lonca, aile kapellası veya bir devlet ricali bir ressamla sözleşme yapardı. Bu sözleşmeler — <em>kontrato</em> — konu, boyut, figür sayısı, teslim süresi, ödeme takvimi ve <strong>kullanılacak pigmentleri</strong> kalem kalem içerirdi.</p>
+
+<p>Ultramarin sözleşmelerde iki şekilde görünürdü. Birincisi doğrudan miktar belirtimi: "Meryem'in pelerini için X onsa ultramarin kullanılacaktır." İkincisi kalite sınıfı: <em>ultramarin di prima qualità</em> (birinci kalite ultramarin). Bazı durumlarda müşteri pigmenti bizzat temin ederdi — ressamın güvenilmez bir pigment kullanmasını önlemek için. 14. yüzyıl ressamlarının daha ucuz azurit'i (ucuz bir bakır bazlı mavi) ultramarin olarak göstermesi, ya da ultramarini odunkömürü ekleyerek hacmini artırma ("tağşiş" etme) vakaları belgelidir.</p>
+
+<p>Sözleşmelerin en çok incelenen örneklerinden biri Domenico Ghirlandaio'nun Santa Trinita kilisesindeki Sassetti Kapellası için yaptığı <em>Çobanların Tapınması</em> (1485) için imzaladığı belgedir. Panelde Meryem'in pelerininin ve göğün mavisi için ultramarin kalemi ayrıca yer alır. National Gallery Londra'nın katalog çalışmaları İngiltere ve İtalya'da 1400-1600 arası üretilmiş dini panelleri sistematik olarak analiz etti (Bomford et al., <em>Art in the Making: Italian Painting Before 1400</em>, 1989). Bu çalışma önemli bir bulgu verir: Meryem'in dış pelerininin mavi olması bir kural değil, ama oldukça güçlü bir normdur. İncelenen panellerde bu kullanımın yüzdesi örneklemden örnekleme %70 ile %95 arasında değişir. Mavinin kaynağı ise pahalı sözleşmelerde ultramarin, daha mütevazı komisyonlarda azurit ya da karışımdır.</p>
+
+<p><strong>Pigment hiyerarşisi ve figür hiyerarşisi arasındaki eşlemek</strong> bu dönemde bir teolojik pratiktir. Cinsel ve manevi saflık, dış pelerinin renginde maddeleşir. En pahalı pigment, en kutsal figüre ayrılır. İkinci sıra kutsal figürler (İsa, Vaftizci Yahya, Havariler) için genellikle ikinci kaliteler ya da karışımlar kullanılır. Azizler ve kutsal anılmayan figürler (çobanlar, Majlar, sıradan izleyiciler) için mavilikle sınırlı renk paleti değişir. Bu hiyerarşi sözleşmede şart koşulmaz; ama ressam kendi sanatsal itibarı için bu norma uyar çünkü norm ihlali — örneğin Meryem'in pelerinine karalama azurit, yan karakterlere zengin ultramarin — bir sipariş ihanetidir.</p>
+
+<h4>Venedik: Ekonominin Coğrafi Merkezi</h4>
+
+<p>14. ve 15. yüzyıllar boyunca Avrupa'ya giren hemen hemen her gram ultramarin Venedik'ten geçti. Coğrafya burada kritiktir: Bedahşan Afganistan'dan çıkan ham lapis, Pers Körfezi - Basra - Halep - Şam üzerinden Doğu Akdeniz limanlarına, oradan Venedik'in ticaret filolarıyla Avrupa'ya akardı. Venedik tüccarları İpek Yolu'nun son halkasıydı ve bu konumu bir tekel halinde sömürdüler.</p>
+
+<p>Venedik'te <strong>"pastello"</strong> adı verilen saflaştırma süreci manastırlardan özel atölyelere de kaydı. 15. yüzyıl sonundan itibaren Venedikli pigment tacirleri kendi "lotları"nı imzayla pazarlamaya başlayınca bir pigment endüstrisi doğdu. Rönesans ressamları için "Venedik'ten saf ultramarin" sertifikalı kaliteye işaret eden bir etiketti — modern mücevher piyasasındaki "GIA sertifikalı Burma yakutu" etiketinin mantıksal öncüsü.</p>
+
+<p>Kuzey Avrupa'da ultramarin kullanımı İtalya'ya göre çarpıcı biçimde daha sınırlıydı. Alman ve Erken Hollanda okullarında lazurit daha az yaygındı; Flaman ressamlar pahalı pigmenti çoğunlukla sadece ikonografik olarak önemli figürlerde ya da ince sır (cila) tabakasında kullandılar. Bu seyrek kullanımın bir sebebi elbette ticaret rotasının uzunluğu; bir başka sebebi Kuzey'de azurit'in yerel olarak daha erişilebilir olması. Ama esas sebep ekonomik: İtalyan şehir devletlerinin sanatsal rekabeti (Floransa vs Venedik vs Roma), pahalı sembolik tüketimi pompalıyordu; Kuzey'in burjuva ekonomisi bu tip gösterime aynı düzeyde yatırım yapmıyordu.</p>
+
+<h4>Vaka: Michelangelo'nun Tamamlanmamış "Entombment"ı</h4>
+
+<p>Londra Ulusal Galeri'de numaralanmış bir pano var: Michelangelo'nun c. 1500-1501 tarihli <em>Entombment of Christ</em> (İsa'nın Gömülme). Tablo bitmemiştir. Meryem'in figürü büyük ölçüde yalnızca altboyama — kurşun beyazı ve karbon siyahı karışımı ile yapılmış gri zemin — aşamasında kalmıştır. Sağ kenarda tamamlanmış figürlerin mavisi zengin, doymuş; Meryem'inki boş.</p>
+
+<p>Ulusal Galeri'nin restorasyon ve araştırma kayıtları (1996'daki Michael Hirst & Jill Dunkerton çalışması, <em>The Young Michelangelo</em>, National Gallery yayını) tablonun niçin bitirilmediğine dair önerilen ana hipotezin ultramarin tedarikindeki bir aksaklık olduğunu belirtir. Michelangelo o dönemde Roma'daydı; Floransa'daki siparişini uzaktan koordine ediyordu. Venedik üzerinden beklenen pigment partisi ya gecikti ya da yeterli kalitede gelmedi. Michelangelo boyamayı ertelemeyi tercih etti — alternatif daha ucuz pigmentle bitirmek sözleşme ihlali olabilirdi.</p>
+
+<p>Bu bir tarihçi hipotezidir, kesinleştirilmiş olgu değildir. Ama kanıt birikimi güçlüdür: tablonun teknik durumu (yalnızca en pahalı pigment gereken alan eksik), sözleşme ekonomisinin mantığı (Meryem ucuz maviyle boyanmaz), ve ultramarin tedarik kesintilerinin bu dönem için belgelenmiş olması. Pigment tedarik zincirinde bir kırılma, bir Rönesans başyapıtını yarım bırakacak kadar ağırdır — bu sembolik bir ifade değil, ekonomik bir gerçektir.</p>
+
+<h3>Vermeer: Yüzyıl Sonra, Aynı Sistem</h3>
+
+<p>Johannes Vermeer (1632-1675) Ghirlandaio'dan yaklaşık 150 yıl sonra Delft'te çalıştı. Ama lapis tedarik zinciri aynıydı: Bedahşan → Basra → Venedik → Delft. Değişen şey, Vermeer'in kullanımının <em>yoğunluğu</em> ve <em>olağandışılığı</em>.</p>
+
+<p>17. yüzyıl Hollanda ressamlarının çoğunluğu pahalı ultramarini figürel olarak sınırlı ve hesaplı kullanıyordu. Vermeer ise abartılı sayılabilecek bir cömertlikle kullandı. "İnci Küpeli Kız"ın (c. 1665) türbanı bilinen en ünlü örnektir; ama esasen tüm yüzeyi kurşun beyazı + doğal ultramarin ile boyanmış, üzerine saf ultramarin glaze ile bitirilmiştir. Bu teknik bir anlamda israftır — pek çok ressam aynı tonu azurit + glaze ile ya da Prusya mavisi (1704 sonrası) ile elde ederdi.</p>
+
+<p>Daha da olağandışı olan: Vermeer ultramarini <em>mavi olması gerekmeyen yerlerde</em> de kullandı. "Su Testili Genç Kadın"da (c. 1660-62) kadının başlığının gölgeleri ultramarin tonuyla yapılmıştır. Paralel dönemdeki ressamlar beyaz kumaş gölgesi için kurşun beyazı + karbon siyahı + umbra kullanırdı. Vermeer'in ultramarin-ile-gölge tekniği Empresyonistlerin iki yüzyıl sonra keşfedeceği yöntemin bir öncüsüdür: nötr gri gölge yerine saf renkle gölge.</p>
+
+<p>Asıl soru şudur: Vermeer 1672'de Hollanda Cumhuriyeti'nin Fransa tarafından saldırıya uğraması — <em>rampjaar</em> ("felaket yılı") — sonrasında ciddi mali zorluk içindeydi. Eşi Catharina Bolnes 15 Aralık 1675'te ölümünden sonra yazdığı alacaklı dilekçesinde, kocasının Fransız savaşı sırasında resimlerini satamadığını ve diğer ustaların satmak üzere elinde tuttuğu tablolarla parasız kaldığını belirtti. Buna rağmen Vermeer son dönem eserlerinde — örneğin <em>Virginali Başında Oturan Hanım</em> — ultramarin kullanmaya cömertçe devam etti.</p>
+
+<p>Bu nasıl mümkün oldu? John Michael Montias'ın 1989 tarihli <em>Vermeer and His Milieu</em> çalışması bir hipotez öne sürer: Delft'li zengin bir koleksiyoncu olan Pieter van Ruijven, Vermeer'e düzenli maaş benzeri bir destek verdi ve muhtemelen pigmenti de doğrudan o tedarik etti. Vermeer'in mali çökmesi rağmen pigment lüksünün sürmesi, bir patron-ressam ekonomisinin kanıtıdır — ki bu sistem 20. yüzyılın galeri-ressam ekonomisine bir ön modeldir.</p>
+
+<p>Vermeer 15 Aralık 1675'te öldü. Şubat 1676'da eşi Catharina'nın noterle hazırladığı envanter Delft Belediye Arşivi'nde korunmaktadır. Envanter ev eşyalarını sayar — mobilya, giysiler, mutfak eşyaları, birkaç tablo, çatı katındaki pigment öğütme taşı (<em>wrijfsteen</em>) — ama pigment ya da pigment faturası kalemi içermez. "Vermeer'in iflas dosyasında ultramarin masrafı ayrıca kalemlenmiştir" iddiası popüler literatürde sık tekrarlanan bir hatadır; envanter bir alışveriş defteri değil, ölüm tarihi itibariyle ev içindeki eşyaların listesidir.</p>
+
+<h3>Tağşiş, Sahtecilik ve Piyasa Denetimi</h3>
+
+<p>Pahalı bir pigmentin pahalı kalması, onu taklit etmeyi ekonomik olarak çekici kılar. Rönesans dönemi ultramarin piyasasında tağşiş — pigmentin saflığını azaltıp fiyatını koruyarak satma — belgelenmiş bir sorundu.</p>
+
+<p>En yaygın teknikler şunlardı. <strong>İndigo karışımı:</strong> doğal indigo (<em>Indigofera tinctoria</em> bitkisinden elde edilen bitki bazlı mavi) ultramarine karıştırıldığında gözle ayırt etmek zordur, ama indigo güneşte ve kimyasal maruziyette solar. Yüzyıl sonra tablonun mavisi yeşilimsi ya da gri döner — sahtekarlık tarihle ortaya çıkar. <strong>Azurit ikamesi:</strong> tamamen azurit satıp ultramarin etiketiyle fiyatlandırmak; azurit fiziksel olarak benzer parlaklık verir ama kimyasal kararsızlığı sebebiyle asit ve nem etkisiyle bakır sülfata (siyah) dönüşür. <strong>Beyaz dolgu:</strong> ultramarini kurşun beyazıyla sulandırmak; hacim artar ama renk doygunluğu düşer. Cennini kitabında pigment alımında dikkatli olmayı nasihat ettiğinde, tağşişin 14. yüzyılda zaten yaygın olduğunu ima eder.</p>
+
+<p>Venedik tüccarları bu soruna yapısal bir çözüm geliştirdiler: pigment loncasının kendisi. 15. yüzyılda Venedik ve Floransa'da pigment tüccarları kendi iç standartlarını geliştirip lonca mührüyle sertifikalı parti satmaya başladılar. Modern mücevher piyasasındaki GIA, AGL veya SSEF laboratuvarlarının kuruluş mantığı aynıdır: piyasa denetimi olmadığında asimetrik bilgi (satıcı pigmentin gerçek kalitesini alıcıdan daha iyi bilir) işlem maliyetlerini yukarı çeker ve sonuçta piyasa çöker. Loncanın varlığı Rönesans pigment piyasasının çökmesini engelledi.</p>
+
+<p>Müşteri tarafındaki bir savunma mekanizması, pigmenti sanatçıya değil müşteriye ait tutmaktı. Pek çok sözleşmede ultramarin kalemi ayrıca belirtilirdi ve müşteri pigmenti kendisi temin edip ressama teslim ederdi. Bu, ressamın tağşiş ettiği pigmenti tabloya koyma olasılığını sıfırlıyordu; ama ressam kendisine güvenilmediğine dair bir sinyal almış oluyordu. 16. yüzyıl sonlarında usta ressamlar (Ticiano, Veronese) statülerini bu pratiği kendi atölyelerinde normalize ederek korudular: artık onlar kendi pigmentlerini tedarik ederdi ve müşteri güvenmek zorundaydı. Bu güven ilişkisi itibarla kurulurdu — tağşiş yapan ressam bir daha büyük sipariş alamazdı.</p>
+
+<p>Modern gem ticaretinde "lab raporu olmadan satın almayın" mantığı ile Rönesans pigment piyasasının lonca sertifikası mantığı yapısal olarak aynı kurumdur: pahalı mala doğal olarak eşlik eden bilgi asimetrisine karşı üçüncü taraf doğrulaması.</p>
+
+<h3>Ekonomiden Teolojiye: Neden Meryem?</h3>
+
+<p>Ultramarin'in Meryem pelerinine bağlanması bir tesadüf değil, ekonomi-teoloji kesişimindeki bir anlamdır. Üç katmanı var:</p>
+
+<p><strong>Birinci katman — saflık sembolizmi.</strong> Orta Çağ boyunca mavi, göğün rengi olarak İsa-sonrası Hristiyan ikonografisinde stabilize oldu; saflığın ve tanrısal düzenin görsel kodu. Meryem tevazu ve saflığın eskatolojik figürüydü; mavi onun sembolik evindeydi. 4. yüzyıl Bizans ikonlarından itibaren bu bağlantı zaten yerleşmişti; Rönesans'ın katkısı yeni değil, yoğunlaşmaydı.</p>
+
+<p><strong>İkinci katman — maddi bağış.</strong> Lapis Afganistan'dan geliyordu. Bir Floransalı için bu, "dünyanın öbür ucu" anlamına geliyordu (o dönemin coğrafi imgelemi). Meryem'e dünyanın en uzak köşesinden gelen en pahalı madde ile boyanmak, sipariş eden kilise ya da aile için bir maddi bağışın sembolikleştirilmesi idi. Sipariş veren ad olarak tabloda görünmezdi ama kapellanın altyazısında, kilise defterinde, lonca kayıtlarında bu cömertlik belgelendi. Pigment seçimi bir sosyal sermaye gösterimiydi.</p>
+
+<p><strong>Üçüncü katman — ekonomik kısıtlamanın estetize edilmesi.</strong> Eğer pigment ucuz olsaydı her yerde kullanılır, sembolik değeri aşınırdı. Pahalı olması kıtlığını kurumsallaştırıyordu; kıtlık, hiyerarşik ayrılığı mümkün kılıyordu. Yani ultramarin'in Meryem'e bağlanması, onun <em>pahalı olduğu için kendini yeniden pahalıya bağlayan</em> bir ekonomik-sembolik döngüydü.</p>
+
+<p>Bu döngüyü 1828'de Guimet'nin sentetik ultramarin sentezi kıracaktır. Sentetik pigmentin kilogram başı fiyatı birkaç franka düşünce — doğal ultramarinin 1/1000'i — kıtlık ortadan kalktı ve simgesel hiyerarşi bozuldu. 19. yüzyıl sonu Empresyonistleri mavi'yi artık Meryem'e değil, öğlen ışığındaki bir ırmak kenarına, bir tren istasyonu peronundaki dumana, bir kadının şemsiyesine yaydılar.</p>
+
+<h3>Bilim Tarihi: Pigmentin Kimyası Yüz Yıl Geç Çözülen Bir Bilmecedir</h3>
+
+<p>Doğal ultramarin saflaştırma süreci Cennini'nin 1390'daki reçetesinden 19. yüzyıla kadar kimyasal olarak anlaşılamadan uygulandı. Manastır ve atölye pratisyenleri <em>ne</em> yaptıklarını biliyorlardı; <em>neden</em> yaptıklarını bilmiyorlardı. Bu ayırım önemlidir çünkü kimyasal anlayış gelmeden sentez yapılamazdı.</p>
+
+<p>18. yüzyıl sonu kimya devrimi — Lavoisier'nin element listesi (1789), Proust'un sabit oranlar yasası (1794), Dalton'un atom teorisi (1803) — pigmentin anlaşılabilir kimyasal bir bileşik olarak çözümlenmesinin önünü açtı. 1787'de Alman maden mühendisi J. F. A. Göttling lapis lazulinin kükürt ve sodyum içerdiğini saptadı. 1814'te Louis-Jacques Thénard bileşimin sodyum alüminyum silikat olduğunu öne sürdü. Ama pigmentin rengini tam olarak neyin verdiği bilmece olarak kaldı.</p>
+
+<p>Aynı yıl, 1814, bir tesadüf çıkış noktası olacaktı. Fransa Saint-Gobain'deki bir soda-kireç fırınında kimyager Jean-Baptiste Tassaert, fırın duvarında kendiliğinden oluşan mavi bir kabuk gözlemledi. Bu kabuk doğal ultramarin'e şaşırtıcı ölçüde benziyordu. Tassaert gözlemi yayınladı ve tartışma kıvılcımını ateşledi: eğer doğanın yaptığı şey bir fırında spontane olarak oluşabiliyorsa, belki kontrollü olarak yeniden üretilebilirdi.</p>
+
+<p>1817'de Londra Kraliyet Sanat Koleji sentetik ultramarin sentezi için bir ödül ilan etti. Kısa süre sonra Fransız Hükümeti'nin <em>Société d'Encouragement pour l'Industrie Nationale</em>'i daha büyük bir ödül — 6.000 frank — duyurdu. Bu miktar o dönemin bir işçisinin yaklaşık 10 yıllık gelirine denkti. Paris, Tübingen, Berlin ve Londra'da paralel yürütülen kimya laboratuvarları 1810'ların sonundan itibaren reçete avına çıktılar.</p>
+
+<p>1828'de iki kimyager neredeyse aynı zamanda başarıya ulaştı. <strong>Jean-Baptiste Guimet</strong> Lyon'da, <strong>Christian Gmelin</strong> Tübingen'de. Guimet reçetesini önce gizli tuttu (patent ekonomisi için), Gmelin yayınladı. Bu epizot bilim tarihinde sık görülen bir örüntüdür: aynı çözüme iki farklı coğrafyada yakın zamanda ulaşılması. Böyle eşzamanlılıklar teknolojik devrimlerin "olgunluk" noktasına geldiğini gösterir. Sonuca varacak malzeme (Tassaert'in gözlemi), araçlar (modern analitik kimya) ve ekonomik baskı (altı bin yıllık pigment kıtlığına alternatif talebi) eşzamanlı yerleştiğinde, çözüm kaçınılmaz hale gelir.</p>
+
+<p>Guimet'nin reçetesi kaolin (alüminyum silikat kili), sodyum karbonat (soda külü), kükürt ve odun kömürünü 700-750°C'de indirgeyici koşullarda fırınlamayı içeriyordu. Süreç esasen doğada milyonlarca yıl süren kontakt metamorfizmanın bir saatlik fırın analoğuydu. Ham madde maliyeti — kaolin, soda, kükürt, kömür — çok düşüktü. Birkaç yıl içinde sentetik ultramarin fiyatı doğal ultramarinin 1/1000'ine indi. Kilogram başı 2500 frank, kilogram başı 2-3 franka çöktü.</p>
+
+<p>Renk mekanizması ise çok daha geç çözüldü. Pigmentin kendine özgü mavi renginin kaynağı, sodalit kristal kafesinde hapsolmuş S₃⁻ serbest radikal anyonunun elektron geçişleridir; bu mekanizma ancak 1970'lerde kükürt kromoforları üzerindeki spektroskopik çalışmalarla tam olarak anlaşılabildi. Yani bir pigmentin reçetesi 1828'de, kimyası 150 yıl sonra çözüldü. Teknolojik kullanım her zaman bilimsel anlayışı beklemez; sık sık onun önünde yürür.</p>
+
+<p>Sentezin ekonomik ve sanatsal sonuçları bir paralel makalenin konusudur — ama ana örüntü şudur: 1828 Guimet, gem tarihindeki ilk "sentez devrimi"dir. 1893'te Mikimoto'nun kültür incisi, 1902'de Verneuil'in flame-fusion sentetik yakutu, 1954'te GE'nin HPHT elması, 2010'larda CVD laboratuvar pırlantası — hepsi aynı örüntünün varyantlarıdır: kıtlığa dayalı bir ekonomik sistemin, teknik bir sentezle bir gecede çökertilmesi.</p>
+
+<div class="ad-link-forward">→ Ayrıntı için: <em>Guimet 1828 ve Sentetik Ultramarin</em> · Hub: <em>Sentez Devrimleri</em></div>
+
+<h3>Lapis Lazuli'nin Uzantıları</h3>
+
+<p>Sentezin doğal ultramarin için yaptığı şey pigment olarak lapisi emekliye çıkarmadı — lapis'i başka bir şeye dönüştürdü. 19. yüzyıldan sonra doğal ultramarin artık ekonomik rasyonalite ile değil, sembolik değeriyle seçilen bir pigmentti: koruma laboratuvarları eski tabloların restorasyonunda, butik bir ressam atölyesi "otantiklik" için tercih ederdi. Yves Klein'ın 1960'ta Enveloppe Soleau ile tescillediği IKB (International Klein Blue) sentetik ultramarin idi, ama Klein tescilinde doğal-sentetik ayrımını bilinçle sildi: rengin kendisi telif ihlali yapıyordu, mekanizması değil. Bugün IKB Rhodopas M60A reçine içinde süspansiye edilmiş sentetik ultramarine dir; fakat Klein bu pigmenti "denizin ötesinden gelen" sembolik bir mavi olarak kurguladı.</p>
+
+<p>Lapis lazuli kendisi mücevher taşı olarak kaldı, pigment olarak emekli oldu. Modern pigment üretiminin %99'u Guimet'nin 1828 reçetesinin endüstriyel türevidir. Almanya (özellikle Nürnberg), Çin ve Hindistan bugün dünya sentetik ultramarin üretiminin büyük kısmını karşılar. Yıllık global üretim yaklaşık 100.000 ton civarındadır; 1500'ler Floransa'sının tüm yıllık ithalatının muhtemelen gramlarla ölçüldüğünü hatırlarsak, bu rakam dört asırda yaşanan ölçek farkının bir ölçütüdür.</p>
+
+<div class="ad-related">
+  <h4>İlgili Makaleler</h4>
+  <ul>
+    <li><em>Lapis Lazuli: Temel Profil</em> <span class="ad-related-note">(çekirdek profil, Oturum 1)</span></li>
+    <li><em>Badakhshan / Sar-e Sang: 6000 Yıllık Tek Kaynak</em> <span class="ad-related-note">(uydu, Oturum 1)</span></li>
+    <li><em>Guimet 1828 ve Sentetik Ultramarin</em> <span class="ad-related-note">(derin dalış, Oturum 1)</span></li>
+    <li><em>Hub: Mavi Rengin Medeniyet Tarihi</em> <span class="ad-related-note">(Oturum 12)</span></li>
+    <li><em>Hub: Sentez Devrimleri</em> <span class="ad-related-note">(Oturum 12)</span></li>
+  </ul>
+</div>
+
+<h3>Kaynaklar</h3>
+<ol class="ad-sources">
+  <li>Cennini, Cennino. <em>Il libro dell'arte</em>. c. 1390. Modern referans edisyon: Broecke, Lara (çev. ve ed.). <em>Cennino Cennini's Il Libro dell'Arte: A new English translation and commentary with Italian transcription</em>. Londra: Archetype, 2015.</li>
+  <li>Ball, Philip. <em>Bright Earth: Art and the Invention of Color</em>. Chicago: University of Chicago Press, 2001. Bölüm 7 ("The Blue Revolution"), 11.</li>
+  <li>Finlay, Victoria. <em>Color: A Natural History of the Palette</em>. New York: Random House, 2004.</li>
+  <li>Plesters, Joyce. "Ultramarine Blue, Natural and Synthetic." <em>Studies in Conservation</em> 11, no. 2 (1966): 62-91.</li>
+  <li>Bomford, David, Jill Dunkerton, Dillian Gordon ve Ashok Roy. <em>Art in the Making: Italian Painting Before 1400</em>. Londra: National Gallery Company, 1989.</li>
+  <li>Hirst, Michael ve Jill Dunkerton. <em>The Young Michelangelo: The Artist in Rome 1496-1501</em>. Londra: National Gallery Publications, 1994.</li>
+  <li>Montias, John Michael. <em>Vermeer and His Milieu: A Web of Social History</em>. Princeton: Princeton University Press, 1989.</li>
+  <li>Mauritshuis Museum. "Johannes Vermeer (1632-1675)" sanatçı profili. mauritshuis.nl/en/our-collection/our-masters/johannes-vermeer.</li>
+  <li>Gemeentearchief Delft. Catharina Bolnes envanteri, 29 Şubat 1676. Notaris J. van Veen arşivi, no. 2224.</li>
+  <li>Essential Vermeer. Inventory of movable goods in Vermeer's house in Delft. essentialvermeer.com/inventory.html.</li>
+</ol>
+
+<p><em>Türkçe kaynak notu:</em> Türkçe hakemli akademik literatürde (Dergipark, YÖK Tez Merkezi) ultramarin pigmenti + Rönesans ekonomisi kesişimine ayrılmış özgün bir monografi ya da makale bu tarama sırasında bulunamadı. Türkçe akademik Rönesans literatürü bulunmakla birlikte (Felsefe Tarihi, Sanat Tarihi monografileri), pigment ekonomisine odaklanan özgün araştırma eksiktir. Bu boşluk, makalede yalnızca yabancı akademik kaynaklara atıf zorunluluğu olarak yansımıştır; ileride Türkçe akademik literatürde bu konu işlendiğinde makale güncellenmelidir.</p>
+
+<h3>Görsel Kredileri</h3>
+<ol class="ad-credits">
+  <li>Vermeer, Johannes. <em>Girl with a Pearl Earring</em>, c. 1665. Tuval üzerine yağlıboya, 44.5 × 39 cm. Mauritshuis, Den Haag (env. 670). Public Domain.</li>
+  <li>Ghirlandaio, Domenico. <em>Adoration of the Shepherds</em>, 1485. Pano üzerine tempera. Sassetti Kapellası, Santa Trinita, Floransa. Public Domain.</li>
+  <li>Michelangelo Buonarroti. <em>The Entombment</em>, c. 1500-1501. Pano üzerine yağlı ve tempera, 161.7 × 149.9 cm. The National Gallery, Londra (NG790). Public Domain.</li>
+  <li>Cennini, Cennino. <em>Il libro dell'arte</em>, el yazması sayfası, 15. yüzyıl kopyası. Laurenziana Kütüphanesi, Floransa. Public Domain.</li>
+  <li>Ham lapis lazuli ve saflaştırılmış ultramarin pigmenti karşılaştırması. Smithsonian NMNH mineral koleksiyonu. CC0.</li>
+  <li>Pigment saflaştırma süreç diyagramı (Cennini'nin reçetesine göre: ham → pastello hamur → yıkama döngüsü → pigment fraksiyonları). Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+  <li>Pigment hiyerarşisi + figür hiyerarşisi eşlemesi diyagramı. Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+</ol>`,
+
+  en: `<h2>Ultramarine and Marian Blue</h2>
+
+<p><em>This article is currently available in Turkish only. English translation is scheduled for Session 6 of the 90-day roadmap.</em></p>
+
+<p>A gram of pure gold in 1500s Florence cost roughly one florin. A gram of pure ultramarine pigment cost two to four times that. This article traces the economic system built around the world's most expensive pigment: Cennini's 1390 workshop recipe and its ~3% yield from raw lapis; the 15th-16th century contract economy where ultramarine appeared as a separate line item alongside gold leaf; the theology of the blue mantle and the hierarchy of figures; Venice as the single Mediterranean distribution chokepoint with guild certification as a forerunner of modern gem laboratories; Michelangelo's unfinished <em>Entombment</em> as evidence of supply-chain fragility; Vermeer's paradoxical lavish use of ultramarine despite financial collapse (likely explained by the Pieter van Ruijven patronage hypothesis, Montias 1989); the adulteration and fraud that motivated the guild certification system; the three-layered reason why Mary specifically came to be painted in this pigment; and finally the 1828 synthesis by Jean-Baptiste Guimet (with Christian Gmelin's parallel independent solution in Tübingen) that collapsed the 6000-year natural ultramarine economy and became the prototype of every later gem "synthesis revolution."</p>
+
+<p><strong>→ Full article:</strong> <a href="#article/ultramarin-meryem-mavisi?lang=tr">Read in Turkish</a></p>`,
+
+  ar: `<h2>الأولترامارين والأزرق المريمي</h2>
+
+<p><em>هذه المقالة متاحة حاليًا باللغة التركية فقط. الترجمة العربية مجدولة للجلسة السادسة.</em></p>
+
+<p>كان الغرام من الذهب الخالص في فلورنسا القرن السادس عشر يساوي فلورينًا واحدًا تقريبًا، بينما كان الغرام من صبغة الأولترامارين النقية يكلف ضعفي إلى أربعة أضعاف هذا السعر. تتتبع المقالة النظام الاقتصادي المبني حول أغلى صبغة في العالم: وصفة ورشة تشنيني لعام ١٣٩٠ والإنتاجية المنخفضة (٣٪ من اللازورد الخام)، واقتصاد العقود في القرنين الخامس عشر والسادس عشر حيث ظهر الأولترامارين كبند منفصل بجوار ورق الذهب، ولاهوت الرداء الأزرق والتراتبية الأيقونية، والبندقية كنقطة اختناق متوسطية وحيدة مع شهادات النقابات كسابقة لمختبرات الأحجار الكريمة الحديثة، و"الدفن" غير المكتمل لمايكل أنجلو كدليل على هشاشة سلسلة التوريد، واستخدام فيرمير السخي المفارق للأولترامارين رغم الانهيار المالي (فرضية رعاية بيتر فان رويفن، مونتياس ١٩٨٩)، والغش والتزوير الذي دفع إلى نظام شهادات النقابات، والأسباب الثلاثية لارتباط مريم تحديدًا بهذه الصبغة، وأخيرًا توليف ١٨٢٨ بيد جان-بابتيست جيميه (مع حل كريستيان غميلين الموازي المستقل في توبنغن) الذي أطاح باقتصاد الأولترامارين الطبيعي الذي دام ستة آلاف سنة وأصبح نموذج كل "ثورة تخليق" لاحقة في عالم الأحجار الكريمة.</p>
+
+<p><strong>← المقالة الكاملة:</strong> <a href="#article/ultramarin-meryem-mavisi?lang=tr">قراءة بالتركية</a></p>`
+};
+
+C[234] = {
+  tr: `<h2>Guimet 1828 ve Sentetik Ultramarin</h2>
+
+<p>Fleurieu-sur-Saône, Lyon'un kuzey banliyösünde, 1878 yılı. Paris Evrensel Sergisi açılıyor. Lyon'dan gönderilen ziyaretçilerden biri bir fabrika fotoğrafı taşıyor: yüz elli işçi, her yıl bin ton outremer üreten altı fırın, Saône nehri kıyısındaki iskeleden doğrudan trene yükleniyor kutular. Fabrika "Bleu Guimet" üretiyor — 50 yıl önce bir kimyagerin laboratuvarda sentezlediği sentetik bir pigment. 1828'de kilogram başı 400 franka satılan bu pigment, 1878'de kilogram başı 15 franka ulaşıyor; kimi türleri kamyon yüküyle sevk ediliyor.</p>
+
+<p>1828'de Jean-Baptiste Guimet'nin sentetik ultramarini kazandığı 6000 franklık ödül, bir kimya keşfinin değil, bir endüstriyel ailenin başlangıcıdır. Bu makale o başlangıçtan çıkan üç zincirin hikâyesidir: Guimet'nin kendi fabrika ekonomisi ve sonraki nesillerin Pechiney ile Guimet Müzesi'ne uzanan mirası; 19. yüzyıl sanatında Ingres'ten Van Gogh'a sentetik ultramarinin rengin demokratikleşmesi; ve 1828 reçetesinin 20. yüzyılda zeolit kimyasını, modern endüstriyel katalizi ve deterjan sanayisini nasıl doğurduğu. Guimet'nin asıl mirası bir renk değil, bir endüstriyel düşünme biçimidir.</p>
+
+<div class="ad-metric-row">
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Ödül</div>
+    <div class="ad-metric-value">6000<span class="ad-metric-unit">frank</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Fiyat çöküşü</div>
+    <div class="ad-metric-value">100-2500×</div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">1878 üretim</div>
+    <div class="ad-metric-value">1000<span class="ad-metric-unit">ton/yıl</span></div>
+  </div>
+  <div class="ad-metric-card">
+    <div class="ad-metric-label">Zincir</div>
+    <div class="ad-metric-value">Pigment→Zeolit</div>
+  </div>
+</div>
+
+<h3>Bir Keşfin Arka Planı: Guimet Kimdir?</h3>
+
+<p>Jean-Baptiste Guimet 20 Temmuz 1795'te Voiron'da (Isère) doğdu. Beş yaşında annesini kaybetti; dindar halaları tarafından büyütüldü, biri Visitation tarikatı rahibesiydi. Küçük yaşta matematik, geometri ve kimyaya ilgi duydu. 17 yaşında — henüz 1813'tü — Paris <strong>École Polytechnique</strong>'e girdi, Fransa'nın en prestijli mühendislik okuluna. Mezuniyet sonrası 1817'de <em>Administration des Poudres et Salpêtres</em>'e atandı: barut ve güherçile idaresi, Savaş Bakanlığı'na bağlı bir askerî-teknokrat kurum. Önce Toulouse, ardından 1830'dan itibaren Lyon barut deposu (<em>Poudrière de Lyon</em>) komiserliği.</p>
+
+<p>1825'te hayatının dönüm noktasını yaşadı: <strong>Rosalie Bidauld</strong> ile evlendi. Bidauld Carpentras'lı bir ressam ailesinden geliyordu — babası Jean-Pierre-Xavier Bidauld ve amcası Jean-Joseph-Xavier Bidauld dönemin tanınan peyzaj ressamlarıydı. Rosalie'nin kendisi de ressamdı; Lyon Ekolü'ndeydi. Bir-iki yıl sonra Rosalie'nin pigment yakınmalarını dinleyerek Guimet kendi başına bir söz verdi. Lyon kayıtlarında aile tarafından aktarılan cümle: "Charge-toi de peindre, moi je me chargerai des couleurs." Türkçesi: "Sen resmetmeyi üstlen, ben renkleri üstleneceğim."</p>
+
+<p>Bu cümle bir sanatçı-kimyager işbirliğinin romantik bir sahnesi gibi görünür ama aslında 1820'lerin ekonomik baskısının bir ifadesidir. Doğal ultramarin 1820'lerde — lapis lazuli ticaretinin en kötü dönemi — gram başı altın fiyatına satılıyordu. Rosalie gibi orta halli bir ressam pigmenti ancak sözleşmeli işlerinde (bir kilise veya soylu sipariş ile) kullanabilir, özel kompozisyonlarında kullanamazdı. Sanat dünyasında bir talep hakları krizi vardı ve 1824'te <em>Société d'Encouragement pour l'Industrie Nationale</em> bu krize yanıt olarak 6.000 franklık ödülü açtı. Şartname açıktı: "kilogramı 300 franktan az olacak, doğal ultramarin kadar dayanıklı, doğal ultramarin kadar doygun sentetik bir outremer."</p>
+
+<h3>1826-1828: Keşiften Ödüle</h3>
+
+<p>Guimet deney defterlerinden ilk başarılı karışımın tarihi Temmuz 1826'dır. Reçete — Guimet'nin orijinal el yazması deney defterinin sonraki nesiller tarafından yayınlanan transkripsiyonuna göre — 37 kısım kaolin, 22 kısım sodyum karbonat, 18 kısım kükürt, 15 kısım bakır sülfat, 8 kısım odun kömürü oranındadır. Bu oranlar ileriki yıllarda değişecek; bakır sülfat düşecek, sodyum sülfat eklenecek. Temel yapı aynı kaldı: yüksek sıcaklıkta indirgeyici koşullarda kaolin + soda + kükürt + odun kömürü karışımı.</p>
+
+<p>1827'de Guimet ürününü Saint-Martin caddesi yakınındaki bir Paris deposundan ressamlara satmaya başladı. İlk tanınmış alıcı Jean-Auguste-Dominique Ingres oldu. <em>L'Apothéose d'Homère</em> tablosu — 1827 tarihli — kayıtlı ilk Bleu Guimet uygulamasıdır. 1828'de <em>Société d'Encouragement</em> ödülü Guimet'ye verdi.</p>
+
+<p>Bir ay sonra karmaşa patladı: Alman kimyager <strong>Christian Gmelin</strong> Tübingen'den, kendisinin de aynı sentezi yaklaşık bir yıl öncesinden başardığını iddia eden bir mektup gönderdi. Cemiyet birkaç yıl bu ikisi arasındaki öncelik tartışmasını görüştü ve sonunda Guimet lehine karar verdi — ama mesele hiç tam kapanmadı. İki kimyager fiilen aynı zamanda, biri Lyon'da biri Tübingen'de, bağımsız olarak aynı sentezi geliştirmişti. Bu, teknolojik olgunluğun klasik bir örneğidir: malzeme hazır, araçlar yerli yerinde, ekonomik baskı aynı — çözüm birden çok lokalde ortaya çıkar.</p>
+
+<p>Guimet bir karar verdi ki bu bir endüstrici olarak zihnini açığa vurur: <strong>reçeteyi patent altına almadı</strong>. Bunun yerine sürecini gizli tuttu. 19. yüzyıl erken sanayi döneminde patent hâlâ olgunlaşmamış bir araçtı; bir Fransız patentin korunabilirliği kısıtlıydı, Alman ve İngiliz rakipler için kolay atlanabilirdi. Guimet reçeteyi gizli tutup üretim ölçeğini rakiplerinden önce büyütmeyi, böylece piyasa tekelini korumayı seçti. Bu stratejinin modern ekonomideki karşılığı "ticari sır" korumasıdır ve bugün hâlâ Coca-Cola formülü, KFC baharatı gibi durumlarda aynı mantıkla işler.</p>
+
+<h3>Fabrika: Fleurieu-sur-Saône'un Doğuşu</h3>
+
+<p>1831'de Guimet Fleurieu-sur-Saône'da — Lyon'un kuzeyinde, Saône nehrine bakan küçük bir köyde — ilk fabrikasını kurdu. 1834'te barut dairesindeki görevinden istifa etti ve tam zamanlı fabrikatör oldu. Aynı yıl Paris Endüstri Sergisi'nde altın madalya aldı; 1832'de <em>Légion d'honneur</em> ile taltif edildi. Her iki ödül de ona yatırım sermayesi çekti.</p>
+
+<p>Fabrikanın ilk yıllarında üretim yılda birkaç ton civarındaydı — ressamlar piyasası sınırlıydı. Ama Guimet bir şey daha gözlemledi: sentetik ultramarinin küçük bir miktarı çamaşır yıkamada kullanıldığında beyaz kumaş "sararma"yı gizler. Optik bir yanıltmadır: sarı ışığı soğuran mavi parçacıkları göz algısında beyazı "daha beyaz" gösterir. Bu gözlem pigmentin pazarını pigment dışına açtı. 1840'lardan itibaren <em>azurage du linge</em> (çamaşır mavileştirme) için Bleu Guimet Fransa çapında çamaşırhanelere ve kağıt üreticilerine satılmaya başlandı. Fransa'nın en büyük kağıt üreticileri — Canson ve Montgolfier, Annonay'da — düzenli müşterilerdi. 20. yüzyılın ilk yarısına kadar "Bleu Guimet" Fransa'da bir ev markası olarak tanındı; annelerin büyükannelerin çamaşırlarını "mavileştirmek" için kullandıkları o küçük mavi toz toplarının (<em>boules à raviver le blanc</em>) içindeki pigment buydu.</p>
+
+<p>Endüstriyel pazar, sanatsal pazardan 100 kat daha büyüktü. 1858'de fabrika bir yüz işçiye çıkmıştı; 1878'de — Émile Guimet'in yönetiminde — 150 işçi, yılda 1000 ton üretim. Paris-Lyon-Méditerranée demiryolunun üstünden geçen "mavi tren" (<em>le train bleu</em>) fabrika işçilerini taşıdığı için bu lakabı aldı; Saône üzerindeki özel iskeleden direk mavi paketler tren vagonlarına yüklenirdi.</p>
+
+<h4>1831 Canuts İsyanı: Barut Deposunun Yan Öyküsü</h4>
+
+<p>Guimet'nin biyografisinde en politik an 1831 fabrika kuruluşu ile aynı yıla denk düştü. Kasım 1831'de Lyon ipek dokumacıları — <em>canuts</em> — dayanılmaz iş koşulları ve düşen ücretler karşısında ayaklandı. "Vivre en travaillant, ou mourir en combattant" (çalışarak yaşamak ya da savaşarak ölmek) pankartlarıyla şehri üç gün boyunca kontrol ettiler. Fransız işçi sınıfı tarihinde önemli bir kırılmadır bu; marksist tarih yazımında bazen "sanayi devriminin ilk işçi ayaklanması" olarak anılır.</p>
+
+<p>Guimet o günlerde Lyon barut deposu komiseriydi. Ayaklananların baruta ulaşma riski karşısında — silah üretimi için kritik kaynaktı — barutu Saône ve Rhône nehirlerine attırdı. Teknik olarak bir askerî memurun beklenen eylemiydi. Ama olay Lyon tarihçiliğinde "kahraman Guimet" olarak idealize edilir, oysa olayı farklı bir pencereden görmek de mümkündür: ipek işçilerinin silahsız bırakılmasına katkısı, sonraki ezme operasyonunda belirleyici bir etkendir. Guimet kendi iradesinden çok askerî hiyerarşisinin emrini uyguluyordu; ama Canuts isyanının çökertilmesinde pasif bir gözlemci değildi.</p>
+
+<p>Bu tarihsel bağlam Guimet'nin hikâyesini anlatırken saklanmaması gereken bir katmandır. 19. yüzyıl endüstrici kimyası — Guimet, Pechiney, Henry Merle — Fransa'nın sanayileşmesine damga vurdu ama aynı zamanda erken işçi mücadelelerinin karşısında örgütlenmiş bir sermaye kuvvetiydi. Modern bir bilim tarihi bu iki gerçeği birlikte tutmalıdır.</p>
+
+<h3>Émile Guimet: Müze ve Pechiney</h3>
+
+<p>Jean-Baptiste Guimet 8 Nisan 1871'de Lyon'da öldü. Geride 8,1 milyon frank (bugünün yaklaşık 80 milyon avro değerinde) ve Fleurieu fabrikası kaldı. Fabrikayı oğul <strong>Émile Guimet</strong> (1836-1918) devraldı.</p>
+
+<p>Émile baba Guimet'ten iki şekilde farklıydı. Birincisi, o bir ressam oğluydu — sanat dünyasıyla doğal bir bağı vardı. İkincisi, ticari hırs olarak daha büyüktü: 1855'te Henry Merle ile birlikte <em>Compagnie des produits chimiques d'Alais et de la Camargue</em>'ı kurdu. Bu şirket sonraki yüz yıl içinde Fransız kimya ve alüminyum endüstrisinin devi <strong>Pechiney</strong> olacaktı. Émile Pechiney yönetim kurulu başkanlığını ölümüne kadar sürdürdü. Yani bir pigment sentezinin ekonomik verimlerinin bir kısmı, doğrudan modern alüminyum, ilaç, deterjan ve kimya endüstrilerinin sermayesine aktı.</p>
+
+<p>Émile'nin bir başka mirası tamamen kültüreldi. Asya'ya birkaç uzun yolculuk yaptı — 1876-1877 arası Japonya, Çin, Hindistan turu özellikle etkiliydi. Dönüşünde kapsamlı bir Doğu Asya sanatı koleksiyonu getirdi. Bu koleksiyonu önce Lyon'da sergiledi: <strong>Musée Guimet, Lyon</strong>, 1879'da açıldı. 1889'da Paris'te ikinci bir müze kurdu: <strong>Musée Guimet, Paris</strong> — bugün Musée national des arts asiatiques Guimet olarak bilinen, dünyanın en önemli Asya sanatı müzelerinden biri. Paris şubesi hâlâ açıktır ve yıllık birkaç yüz bin ziyaretçi alır. Lyon şubesi ise 2007'de kapatıldı; koleksiyon 2014'te açılan Musée des Confluences'a taşındı.</p>
+
+<p>Bir pigment sentezinin — 1828'de bir kimya laboratuvarında gerçekleşen bir olayın — iki yüzyıllık sonuçları arasında Pechiney'in kurulması ve Paris'te Asya sanatı dünyasının en prestijli müzelerinden birinin ortaya çıkması vardır. Bu zincir, teknik bir keşfin kültürel ve ekonomik dolayımlarla nasıl dönüştüğünün belirgin bir örneğidir.</p>
+
+<h3>Sentetik Ultramarin Nasıl Bir Sanat Tarihi Yazdı?</h3>
+
+<p>1828'den önce Avrupa sanatında mavi üç kaynaktan geliyordu: altından pahalı doğal ultramarin, daha ucuz ama kimyasal olarak kararsız azurit, ve 1704'te Berlin'de kazara keşfedilen Prusya mavisi. Prusya mavisi 18. yüzyıl boyunca giderek yaygınlaştı ama keskin ve "soğuk" tonu ultramarinin derin-sıcak tonuyla aynı estetik kategoride değildi. Sentetik ultramarin bu boşluğu doldurdu.</p>
+
+<p>İlk tanınmış kullanım Ingres'in <em>L'Apothéose d'Homère</em>'sidir (1827). Eugène Delacroix 1830'ların tablolarında Bleu Guimet'ye geçtiğini özel olarak notladı. Ama asıl devrim Empresyonistlerle geldi. Claude Monet, 1870'lerden itibaren palette ağırlıkla sentetik ultramarin kullandı — Seine nehri yüzeyinin mavisi, kadınların şemsiyelerinin mavisi, Rouen Katedrali çalışmalarının gölge bölümleri. Pierre-Auguste Renoir'ın <em>Les Parapluies</em> (Şemsiyeler, c. 1880-1885) tablosunda şemsiyelerin tüm mavisi Bleu Guimet'dir — National Gallery Londra'nın pigment analizi bunu doğruladı.</p>
+
+<p>Vincent van Gogh ultramarini özellikle sevdi. Arles'dan (1888-1889) kardeşi Theo'ya yazdığı mektuplarda Paris'ten "outremer, outremer, biraz daha outremer" gönderilmesini istedi. <em>Starry Night</em> (Yıldızlı Gece, 1889), <em>Les Blés Jaunes</em> (Sarı Başaklar, 1889) ve <em>Café Terrace at Night</em> hep sentetik ultramarin doygun geceleri ile boyanmıştır. Van Gogh'un vaat ettiği "gökyüzünden alınmış mavi" deyimi, Guimet'nin laboratuvardan gelen mavisiyle mümkün hale gelmişti.</p>
+
+<p>Bu renkçil devrimin arkasındaki ekonomik gerçek basittir: Rönesans'ta Meryem'in pelerinine özgü olan maviyi her ressam artık cebinden ödeyebiliyordu. Symbolik hiyerarşi çöktü — mavi artık Meryem'e değil, bir tren peronundaki dumana, bir sıradan Arles köylüsüne, öğlen ışığındaki bir su birikintisine dağıldı. Sanat tarihçileri bu kaydı sık sık "modernist rengin doğuşu" olarak anarlar. Felsefi değil; <strong>ekonomik bir kayış</strong>tır. Pigmentin demokratikleşmesi, figürel hiyerarşinin ve dolayısıyla teolojik kompozisyonun çözülmesini teknik olarak mümkün kıldı.</p>
+
+<p>1935'te Phthalocyanin bazlı mavi bir pigment icat edildi (Phthalo Blue). Bleu Guimet yüzyıl boyunca hakim sentetik mavi olarak kaldıktan sonra rakip bir pigmentle paylaştı; ama hâlâ üretimde ve modern yağlı boya, akrilik, suluboya ve pastelcilerin standart renklerinden biri. Sosyete Guimet'nin kurulduğu Fleurieu fabrikası 1967'de İngiliz bir rakibe satıldı; şu anda Guimet markası altındaki outremer hâlâ küresel pigment piyasasında satılıyor ama artık Guimet ailesi tarafından işletilmiyor.</p>
+
+<h4>Yves Klein ve IKB: 1957'nin Sessiz Mavi Manifestosu</h4>
+
+<p>Ocak 1957'de Milano'daki Apollinaire Galerisi'nde garip bir sergi açıldı. <em>Proposte monocrome, epoca blu</em> — "Monokrom Öneriler, Mavi Dönem". Sergi on bir adet aynı boyutta (78 × 56 cm) aynı ultramarinle kaplanmış tuvalden oluşuyordu. Hiçbir figür, hiçbir kompozisyon. Saf doygun mavi. Tuvaller duvardan değil, 20 cm öne çıkacak şekilde asılmıştı — havada yüzüyor gibi.</p>
+
+<p>Sanatçı <strong>Yves Klein</strong> bu renge sonradan bir ad verecekti: <strong>International Klein Blue</strong>, IKB. Klein Pariseli sanat boya tedarikçisi <strong>Edouard Adam</strong> ile birlikte bir formülasyon geliştirmişti. Sorun şuydu: Klein mat, doygun bir yüzey istiyordu ama standart yağlı boya fixer'ları (vernikler) uygulandığında pigment rengi donuklaşıyordu. Adam çözüm olarak Rhône-Poulenc firmasının o dönemde eczacılık için ürettiği polivinil asetat bazlı bir reçineyi — Rhodopas M (ya da M60A) — önerdi. Reçine ultramarin pigmentin parlaklığını azaltmıyor, aksine artırıyordu. Formül buydu: standart sentetik ultramarin pigment (Guimet'nin 1828 reçetesinin türevi) + Rhodopas M bağlayıcı.</p>
+
+<p>19 Mayıs 1960'ta Klein bir <em>enveloppe Soleau</em> ile Fransız INPI'ye (Institut National de la Propriété Industrielle) 63471 numaralı tescil yaptı. <strong>Klein IKB'yi patent altına almadı.</strong> Popüler yazının sık tekrarladığı "Klein rengi patentledi" iddiası yanlıştır. <em>Enveloppe Soleau</em> Fransa'ya özgü bir hukuki araçtır: yalnızca buluşun tarihini kayıt altına alır, münhasır kullanım hakkı vermez. Üstelik Fransız hukukunda <strong>bir renk sahiplenilemez</strong>. Klein'ın tescili koruyabildiği şey bağlayıcı + pigment kombinasyonunun tekniğiydi, rengin kendisi değil. IKB bugün hâlâ herhangi bir sanatçı tarafından kullanılabilir.</p>
+
+<p>Tescilin orijinal INPI nüshası 1965'te kazara imha edildi. Klein'ın kendi kopyası hâlâ mevcut ve varsayım olarak Yves Klein Vakfı'nın arşivindedir. Klein 1962'de 34 yaşında kalp krizinden öldü; IKB ile yaklaşık 200 eser üretmişti. 2014'te İngiliz sanatçı Anish Kapoor "Vantablack" (karbon nanotüpten üretilmiş, ışığın %99.9'unu soğuran siyah malzeme) üzerinde münhasır sanatçı hakkı aldığında karşılaştırma yapıldı: Vantablack bir malzemedir ve patent altındadır, IKB ise bir renktir ve patent altında değildir. Klein'ın amacı belki özel bir hak iddiası değil, bir sanatsal imzanın korunmasıydı.</p>
+
+<p>Klein bu maviyi sadece malzeme olarak değil, felsefî bir deneyim olarak kurguladı: <em>"Le bleu n'a pas de dimensions, il est hors-dimension"</em> (Mavi boyut taşımaz, boyutun dışındadır). Bu retorik Rönesans'taki "Meryem pelerini" sembolizminden uzak ama onunla aynı kaynaklı: doygun maviyi kutsal, aşkın, fiziksel dünyanın ötesinde bir şey olarak kurgulamak. 1957'den 1962'ye kadarki beş yıl boyunca Klein bu stratejiyi <em>Anthropométries</em> (çıplak modelleri canlı fırça olarak kullanma), monokrom sergiler ve mavi kaplamalı sünger heykelleriyle zenginleştirdi. Sentetik ultramarin artık endüstriyel bir ürün değil, bir aşkınlık sembolüydü — Guimet'nin 1828'de başlattığı zincirin sonundaki şiirsel bir halka.</p>
+
+<h3>Bilim Tarihi: 1828 Reçetesinin Zeolit ve Katalitik Kimyaya Mirası</h3>
+
+<p>1828 Guimet reçetesinin kimyasal temeli — <strong>sodalit ailesinden bir alüminosilikatın kontrollü sentezi</strong> — o zaman anlaşılmadığı kadar önemli bir kimyasal pratiğin ilk büyük endüstriyel uygulamasıydı. Sentetik ultramarin, yapısal olarak bir <strong>zeolit</strong>tir: nano-ölçekli gözenekli bir kristal kafes, kafes boşluklarında iyonlar ve moleküller bulundurabilen. Doğal zeolitler 18. yüzyıldan beri bilinen mineraller grubuydu (adın kökeni Yunanca "kaynayan taş" — ısıtılınca su buharı salmaları). Ama kontrollü sentezleri, pratik hiçbir uygulama ile ilişkilendirilmemişti.</p>
+
+<p>Guimet'nin 1828 fırını — kaolin + soda + kükürt + odun kömürü, 700-800°C — etkili olarak <strong>sodalit kafes yapısının endüstriyel ölçekte ilk sentezi</strong>ydi. Bu bilimsel önem ancak 20. yüzyılın ortasında fark edilecekti.</p>
+
+<p>1930-1940'larda Richard Barrer (University of Aberdeen, sonra Imperial College London) sistematik zeolit sentez çalışmalarını başlattı. Amacı yalnızca bilimsel değildi; Barrer zeolitlerin moleküler filtre olarak kullanılabileceğini fark etti. 1949'da General Electric'in mühendisi Robert Milton zeolit-A'yı sentezledi — endüstriyel olarak ilk kullanışlı sentetik zeolit. 1960'lardan itibaren zeolitler petrol rafinerilerinde <strong>kraking katalizörü</strong> olarak devasa hacimlerde kullanılmaya başladı. Bugünkü her litre benzin, bir zeolit katalizör tarafından parçalanmış bir ham petrol fraksiyonudur. Küresel zeolit üretimi yıllık yaklaşık 2 milyon ton civarındadır.</p>
+
+<p>Zeolitlerin ikinci büyük uygulaması deterjandır. 1970'lere kadar çamaşır deterjanlarındaki "beyazlatıcı" etken madde fosfat bazlı bileşiklerdi. Fosfatların nehirlere boşalmasıyla su kaynaklarında ötrofikasyon — aşırı alg çoğalması, oksijen tükenmesi, balık ölümleri — dönem çevre sorunlarının başında geldi. 1976'da Procter & Gamble zeolit-A bazlı "fosfat-siz deterjan"ı piyasaya sürdü. Bugün dünya deterjan pazarının büyük kısmı zeolit tabanlıdır. 20. yüzyıl sonunda Fleurieu fabrikasındaki üretimin — Émile Guimet'nin inşa ettiği endüstriyel outremer halefi — <strong>%55'i deterjan sektörüne satılıyordu</strong>.</p>
+
+<p>Yani Guimet'nin 1828'de Rosalie'ye boya yapma sözünden doğan reçete, iki yüzyıl içinde modern petrol rafinerisinin (zeolit kraking katalizörü), yeşil deterjan sektörünün (zeolit-A), ve hatta iyon değişim reçinelerinin (su yumuşatma, seçici metal ayrıştırma) temel kimyasına dönüştü. Pigmentin kendisi bu zincirde sadece ilk halkadır — ama zinciri başlatan ilk halkadır. Bu örüntü sentez devrimlerinde sık görülen bir şeydir: spesifik bir probleme (ressamlar için ucuz mavi) verilen bir teknik cevap, onlarca yıl sonra tamamen farklı problemler için beklenmedik temel teknoloji olur. Verneuil'in 1902 flame-fusion sentezi aynı şekilde 1960'larda lazer yakut kristaline yol açtı; Mikimoto'nun 1893 kültür incisi patenti aynı şekilde biyomineralizasyon mühendisliğine öncülük etti.</p>
+
+<p>1828 reçetesinin pigment kimyasına özgü sonuçları 1970'lerde çözüldü. Pigmentin rengini S₃⁻ serbest radikal anyonunun elektron geçişleri verir; bu mekanizma zeolit kafes boşluklarında kükürt-bazlı kromoforların genel sınıfının bir üyesidir. Kükürt kromoforları bugün LED fosforlarında, güneş pili boyalarında, optik sensörlerde kullanılır. Teknolojik uygulamanın bilimsel anlayışı beklemediği, sıkça onun önünde yürüdüğü klasik örneklerden biri. Guimet 1828'de <em>ne</em> yaptığını biliyordu; <em>neden</em> işlediği 150 yıl sonra çözüldü.</p>
+
+<div class="ad-link-forward">→ Hub: <em>Sentez Devrimleri</em> · <em>Mavi Rengin Medeniyet Tarihi</em></div>
+
+<div class="ad-related">
+  <h4>İlgili Makaleler</h4>
+  <ul>
+    <li><em>Lapis Lazuli: Temel Profil</em> <span class="ad-related-note">(çekirdek profil, Oturum 1)</span></li>
+    <li><em>Badakhshan / Sar-e Sang: 6000 Yıllık Tek Kaynak</em> <span class="ad-related-note">(uydu, Oturum 1)</span></li>
+    <li><em>Ultramarin ve Meryem Mavisi</em> <span class="ad-related-note">(derin dalış, Oturum 1)</span></li>
+    <li><em>Hub: Sentez Devrimleri</em> <span class="ad-related-note">(Oturum 12)</span></li>
+    <li><em>Hub: Mavi Rengin Medeniyet Tarihi</em> <span class="ad-related-note">(Oturum 12)</span></li>
+    <li><em>Verneuil 1902: Flame-Fusion ve Sentetik Yakut</em> <span class="ad-related-note">(Oturum 3)</span></li>
+  </ul>
+</div>
+
+<h3>Kaynaklar</h3>
+<ol class="ad-sources">
+  <li>Tarlier, Cécyl. "L'Entreprise Guimet de Bleu d'outre-mer: de Jean-Baptiste à Jean (1826-1920)." M2 tezi, Sorbonne Université (danışman: Dominique Barjot). Guimet işletmesinin ayrıntılı iş tarihi.</li>
+  <li>Guimet, Hubert. <em>Jean-Baptiste et Émile Guimet. À la Confluence de l'Art, de la Science et de l'Industrie</em>. Lyon: Éditions Lyonnaises d'art et d'histoire, 2018.</li>
+  <li>Delamare, François. "Le Bleu Guimet." <em>Bleus en poudres — de l'art à l'industrie — 5000 ans d'innovations</em> içinde. Paris: Presses des Mines, 2007.</li>
+  <li>Bonnard, Daisy. "Le bleu outremer, inventions d'un pigment." <em>La Revue / Conservatoire National des Arts et Métiers</em> 46/47 (2006): 26-35.</li>
+  <li>Loir, Adrien (1816-1899). <em>Notes historiques sur la découverte de l'outremer artificiel</em>. Guimet'nin deney defterinin tıpkıbasımıyla yayınlanmıştır.</li>
+  <li>Centre Pompidou. "The untold story of the International Klein Blue (IKB) of Yves Klein." Pompidou+ Magazine, 2025. IKB'nin Soleau depozitosunun hukuki yapısı.</li>
+  <li>Ball, Philip. <em>Bright Earth: Art and the Invention of Color</em>. Chicago: University of Chicago Press, 2001.</li>
+  <li>Flanigen, Edith M. "Zeolites and Molecular Sieves: An Historical Perspective." <em>Studies in Surface Science and Catalysis</em> 58 (1991): 13-34.</li>
+  <li>Breck, Donald W. <em>Zeolite Molecular Sieves: Structure, Chemistry, and Use</em>. New York: John Wiley & Sons, 1974.</li>
+  <li>Musée des Confluences, Lyon. Koleksiyon belgelemesi.</li>
+  <li>Musée national des arts asiatiques Guimet, Paris. Koleksiyon ve kurumsal tarih.</li>
+</ol>
+
+<p><em>Türkçe kaynak notu:</em> Türkçe akademik literatürde Jean-Baptiste Guimet, Fleurieu fabrikası veya sentetik ultramarin endüstrisine ayrılmış özgün araştırma bu tarama sırasında bulunamadı. Konu Türkçe sanayi tarihi literatüründe incelenebilecek açık bir boşluktur.</p>
+
+<h3>Görsel Kredileri</h3>
+<ol class="ad-credits">
+  <li>Jean-Baptiste Guimet portresi (muhtemelen 1830'lar gravür). Wikimedia Commons. Public Domain.</li>
+  <li>Fleurieu-sur-Saône fabrikasından eski fotoğraf (yaklaşık 1878 veya sonrası). Wikimedia Commons. Public Domain.</li>
+  <li>Ingres, Jean-Auguste-Dominique. <em>L'Apothéose d'Homère</em>, 1827. Tuval üzerine yağlı boya, 386 × 512 cm. Louvre, Paris (Inv. 5417). Public Domain.</li>
+  <li>Renoir, Pierre-Auguste. <em>Les Parapluies</em>, c. 1880-1885. The National Gallery, Londra (NG3268). Public Domain.</li>
+  <li>Van Gogh, Vincent. <em>La nuit étoilée</em>, 1889. The Museum of Modern Art, New York. Public Domain.</li>
+  <li>Yves Klein. <em>IKB 3, Monochrome bleu</em>, 1960. Centre Pompidou, Paris. © Succession Yves Klein / ADAGP, Paris. Editorial fair use.</li>
+  <li>Musée Guimet, Paris, dış cephe. Wikimedia Commons. CC BY-SA 4.0.</li>
+  <li>Guimet–zeolit–endüstriyel katalitik zincir SVG diyagramı. Özgün SVG üretim, JewelPedi, 2026. CC BY 4.0.</li>
+</ol>`,
+
+  en: `<h2>Guimet 1828 and Synthetic Ultramarine</h2>
+
+<p><em>This article is currently available in Turkish only. English translation is scheduled for Session 6 of the 90-day roadmap.</em></p>
+
+<p>By 1878, a factory in Fleurieu-sur-Saône, just north of Lyon, employed 150 workers producing a thousand tonnes of ultramarine annually. Its founder, Jean-Baptiste Guimet, had won the 6,000-franc prize of the Société d'Encouragement pour l'Industrie Nationale fifty years earlier for synthesising a pigment chemically equivalent to the natural ultramarine ground from lapis lazuli. This article traces the three chains that unfold from that 1828 moment: first, Guimet's industrial family, including his son Émile's founding of the Pechiney chemical empire (via the 1855 partnership with Henry Merle) and the creation of the Musée Guimet in Lyon (1879) and Paris (1889); second, the democratisation of blue in 19th-century art, from Ingres's 1827 <em>Apothéose d'Homère</em> through Delacroix, Monet, Renoir's <em>Parapluies</em>, and Van Gogh's Arles correspondence begging his brother for "more outremer," with Yves Klein's 1960 INPI Soleau registration of IKB (which was never a patent — French law does not allow ownership of a colour) as the late culmination; and third, the scientific afterlife of the 1828 recipe as the first large-scale industrial synthesis of a sodalite-family aluminosilicate — a zeolite. Half a century later, zeolite chemistry would underpin the oil refinery (cracking catalysts), phosphate-free laundry detergents (zeolite-A, 1976), and ion exchange resins. Guimet 1828 is the prototype synthesis revolution; the pattern recurs in Mikimoto 1893 (cultured pearls), Verneuil 1902 (synthetic ruby), HPHT 1954 and CVD diamond 2010s.</p>
+
+<p><strong>→ Full article:</strong> <a href="#article/guimet-1828-sentetik-ultramarin?lang=tr">Read in Turkish</a></p>`,
+
+  ar: `<h2>جيميه ١٨٢٨ والأولترامارين الاصطناعي</h2>
+
+<p><em>هذه المقالة متاحة حاليًا باللغة التركية فقط. الترجمة العربية مجدولة للجلسة السادسة.</em></p>
+
+<p>بحلول عام ١٨٧٨، كان مصنع في فلوريو-سور-سون شمال ليون يشغل ١٥٠ عاملًا وينتج ألف طن من صبغة الأولترامارين سنويًا. أسسها جان-بابتيست جيميه الذي ربح قبل خمسين عامًا جائزة "الجمعية التشجيعية للصناعة الوطنية" البالغة ٦٠٠٠ فرنك لتوليف صبغة مكافئة كيميائيًا للأولترامارين الطبيعي المطحون من اللازورد. تتبع هذه المقالة السلاسل الثلاث المنبثقة من تلك اللحظة في عام ١٨٢٨: أولًا، عائلة جيميه الصناعية بما في ذلك تأسيس ابنه إميل لإمبراطورية بيشيني الكيميائية ومتحف جيميه في ليون وباريس؛ ثانيًا، دمقرطة اللون الأزرق في فن القرن التاسع عشر من إنغر إلى فان جوخ وصولًا إلى إيف كلاين عام ١٩٦٠ (الذي لم يسجل براءة اختراع بل ظرف سولو فقط — القانون الفرنسي لا يسمح بتملك لون)؛ ثالثًا، الحياة العلمية اللاحقة لوصفة ١٨٢٨ باعتبارها أول تخليق صناعي واسع النطاق لألومينوسيليكات من عائلة السوداليت — أي زيوليت. بعد نصف قرن، ستصبح كيمياء الزيوليت الأساس لمصافي النفط (محفزات التكسير)، والمنظفات الخالية من الفوسفات (زيوليت-أ، ١٩٧٦)، وراتنجات التبادل الأيوني. جيميه ١٨٢٨ هو النموذج الأولي لثورة التخليق؛ النمط يتكرر في ميكيموتو ١٨٩٣ (اللؤلؤ المستنبت)، وفيرنويل ١٩٠٢ (الياقوت الصناعي)، و HPHT ١٩٥٤ و CVD الألماس ٢٠١٠.</p>
+
+<p><strong>← المقالة الكاملة:</strong> <a href="#article/guimet-1828-sentetik-ultramarin?lang=tr">قراءة بالتركية</a></p>`
+};

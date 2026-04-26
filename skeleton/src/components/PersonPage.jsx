@@ -130,14 +130,14 @@ export default function PersonPage({ slug, lang = 'tr', onClose }) {
               const { title, desc } = localize(a, lang);
               return (
                 <li key={a.id} className="person-page__article-card">
-                  <a href={`/article/${a.slug}`}>
+                  <button type="button" className="person-page__article-link" onClick={() => navigate(`/article/${a.slug}`)}>
                     {a.icon && (
                       <span className="person-page__article-icon" aria-hidden="true">
                         {a.icon}
                       </span>
                     )}
                     <span className="person-page__article-title">{title}</span>
-                  </a>
+                  </button>
                   {desc && <p className="person-page__article-desc">{desc}</p>}
                 </li>
               );

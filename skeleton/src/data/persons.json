@@ -1,0 +1,289 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "description": "JewelPedi person registry — gazetteer-plus schema. Each entry is a landing page anchor: identity, life dates, a concise role-in-jewelry-history blurb, referenced articles, and canonical external sources.",
+    "created": "Sprint 5.7 / Oturum 3-B (deferred install)",
+    "last_updated": "2026-04-26"
+  },
+  "persons": [
+    {
+      "slug": "biruni",
+      "name": { "tr": "Ebû Reyhân el-Bîrûnî", "en": "Abū Rayhān al-Bīrūnī", "ar": "أبو الريحان البيروني" },
+      "altNames": ["Muhammed bin Ahmed el-Bîrûnî", "al-Biruni"],
+      "life": { "birth": "973", "death": "1048", "displayTr": "973–1048", "displayEn": "973–1048", "displayAr": "٩٧٣–١٠٤٨" },
+      "role": {
+        "tr": "Pers-Arap polimat; antik dönemin gemolojik sistematiğini yazıya geçiren bilim insanı",
+        "en": "Perso-Arab polymath; first systematic medieval gemologist",
+        "ar": "عالم موسوعي فارسي-عربي؛ أول عالم أحجار كريمة منهجي في العصور الوسطى"
+      },
+      "blurb": {
+        "tr": "Yaklaşık 1035'te kaleme aldığı Kitāb al-Jamāhir fī Maʿrifat al-Jawāhir adlı eserinde Basra Körfezi incilerini özel bir bölümde inceledi. Dürr (iri, kaliteli) ile luʾluʾ (küçük, sıradan) ayrımını sistematikleştirdi; renk, boyut, şekil ve parlaklık ölçütleri — modern gemolojinin hâlâ kullandığı dört parametreyle örtüşen bir çerçeve.",
+        "en": "In his Kitāb al-Jamāhir fī Maʿrifat al-Jawāhir (c. 1035, Book of Knowledge of Precious Stones) he devoted a chapter to Gulf pearls, systematising the dūrr (large, fine) versus luʾluʾ (small, common) distinction and grading them by colour, size, shape and lustre — a framework still recognisable in modern gemology.",
+        "ar": "في كتابه الجماهر في معرفة الجواهر (نحو ١٠٣٥)، خصّص فصلاً للآلئ الخليج العربي، ومنهج التمييز بين الدُرّ (الكبير الفاخر) واللؤلؤ (الصغير العادي)، وصنّفها بحسب اللون والحجم والشكل والبريق — إطارٌ لا تزال علم الأحجار الحديث يعترف بأصوله."
+      },
+      "articles": [236, 238],
+      "external": [
+        { "label": "Wikipedia (tr)", "url": "https://tr.wikipedia.org/wiki/B%C3%AEr%C3%BBn%C3%AE" },
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Al-Biruni" }
+      ]
+    },
+    {
+      "slug": "cennini",
+      "name": { "tr": "Cennino Cennini", "en": "Cennino Cennini", "ar": "تشينينو تشينيني" },
+      "altNames": [],
+      "life": { "birth": "c. 1370", "death": "c. 1440", "displayTr": "yak. 1370–1440", "displayEn": "c. 1370–1440", "displayAr": "نحو ١٣٧٠–١٤٤٠" },
+      "role": {
+        "tr": "Rönesans öncesi İtalyan ressamı; Il Libro dell'Arte'nin yazarı",
+        "en": "Late-medieval Italian painter; author of Il Libro dell'Arte",
+        "ar": "رسّام إيطالي من أواخر العصور الوسطى؛ مؤلف كتاب الفن"
+      },
+      "blurb": {
+        "tr": "1400 civarında yazdığı Il Libro dell'Arte (Sanat Kitabı), Rönesans öncesi atölye pratiklerinin en ayrıntılı belgesidir. Ultramarin pigmentinin lapis lazuli'den nasıl çıkarıldığını — balmumu, sakız ve külden oluşan bir hamurla 'yıkama' sürecinin yedi aşamasını — eksiksiz tarif eder.",
+        "en": "His Il Libro dell'Arte (c. 1400) is the most detailed surviving record of late-medieval workshop practice. He describes in full the seven-stage process for extracting ultramarine pigment from lapis lazuli — the famous wax-resin-ash paste and sequential 'washings'.",
+        "ar": "كتابه الفن (نحو ١٤٠٠) هو أوفى سجلّ باقٍ عن ممارسة الورش في أواخر العصور الوسطى. وصف بالتفصيل عملية استخلاص صبغة الأولترامارين من اللازورد على سبع مراحل."
+      },
+      "articles": [233],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Cennino_Cennini" }
+      ]
+    },
+    {
+      "slug": "domard",
+      "name": { "tr": "Jean-Marie Domard", "en": "Jean-Marie Domard", "ar": "جان-ماري دومار" },
+      "altNames": [],
+      "life": { "birth": "20. yüzyıl", "death": null, "displayTr": "20. yüzyıl", "displayEn": "20th c.", "displayAr": "القرن العشرون" },
+      "role": {
+        "tr": "Fransız balıkçılık müfettişi; Polinezya siyah inci endüstrisinin başlatıcısı",
+        "en": "French fisheries inspector; pioneer of the Polynesian black-pearl industry",
+        "ar": "مفتش مصايد فرنسي؛ مؤسس صناعة اللؤلؤ الأسود في بولينيزيا"
+      },
+      "blurb": {
+        "tr": "1961'de Bora Bora atolünde Mikimoto'nun grafting tekniğini Pinctada margaritifera'ya — Polinezya'nın siyah-dudaklı istridyesine — uyguladı. 1965'te ticari ölçeğe ulaşan ilk siyah kültür incisi hasatı, Tahiti ve Tuamotu takımadalarının devlet destekli pearl endüstrisinin başlangıcıdır.",
+        "en": "In 1961 at Bora Bora he applied Mikimoto's grafting technique to Pinctada margaritifera — Polynesia's black-lip oyster — achieving the first commercial-scale black cultured pearls by 1965. His trials are the foundation of the state-backed Tahiti and Tuamotu pearl industry.",
+        "ar": "في عام ١٩٦١ في جزيرة بورا بورا، طبّق تقنية ميكيموتو في التطعيم على المحارة ذات الشفة السوداء في بولينيزيا، وحقّق بحلول ١٩٦٥ أوّل حصاد تجاري من اللؤلؤ الأسود المزروع."
+      },
+      "articles": [237],
+      "external": []
+    },
+    {
+      "slug": "ghirlandaio",
+      "name": { "tr": "Domenico Ghirlandaio", "en": "Domenico Ghirlandaio", "ar": "دومينيكو غيرلاندايو" },
+      "altNames": ["Domenico di Tommaso Curradi di Doffo Bigordi"],
+      "life": { "birth": "1449", "death": "1494", "displayTr": "1449–1494", "displayEn": "1449–1494", "displayAr": "١٤٤٩–١٤٩٤" },
+      "role": {
+        "tr": "Floransalı Rönesans ressamı; Sistine Şapeli duvar fresklerinden biri",
+        "en": "Florentine Renaissance painter; one of the Sistine Chapel wall fresco masters",
+        "ar": "رسّام من فلورنسا في عصر النهضة؛ أحد أساتذة جداريات كنيسة سيستينا"
+      },
+      "blurb": {
+        "tr": "1481–1482'de Sistine Şapeli'nin duvar fresklerini çalışan ekibin içindeydi. Atölye sözleşmeleri ultramarin pigmentinin derecesini ve miktarını kalem kalem belirtir: Rönesans ekonomisinde lapis ultramarini resmen parayla ölçülmüş bir hammaddeydi.",
+        "en": "Part of the team that painted the Sistine Chapel walls in 1481–1482. His workshop contracts itemise ultramarine by grade and quantity: in the Renaissance economy lapis-derived ultramarine was a formally priced raw material.",
+        "ar": "كان ضمن الفريق الذي رسم جداريات كنيسة سيستينا بين ١٤٨١ و١٤٨٢. تحدد عقود ورشته صبغة الأولترامارين نوعًا وكمية."
+      },
+      "articles": [233],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Domenico_Ghirlandaio" }
+      ]
+    },
+    {
+      "slug": "guimet-e",
+      "name": { "tr": "Émile Guimet", "en": "Émile Guimet", "ar": "إميل جيميه" },
+      "altNames": ["Jean-Baptiste Émile Guimet"],
+      "life": { "birth": "1836-06-02", "death": "1918-10-12", "displayTr": "1836–1918", "displayEn": "1836–1918", "displayAr": "١٨٣٦–١٩١٨" },
+      "role": {
+        "tr": "Fransız sanayici ve orientalist; Musée Guimet'in kurucusu",
+        "en": "French industrialist and orientalist; founder of the Musée Guimet",
+        "ar": "صناعي وخبير شرقيات فرنسي؛ مؤسس متحف جيميه"
+      },
+      "blurb": {
+        "tr": "Jean-Baptiste Guimet'in oğlu. Ultramarin sanayiini devraldı ve Pechiney grubunun çekirdeğini oluşturacak biçimde genişletti. 1879'da Lyon'da Musée Guimet'i kurdu; 1889'da müze Paris'e taşındı ve Fransa'nın en önemli Asya sanat koleksiyonlarından biri haline geldi.",
+        "en": "Son of Jean-Baptiste Guimet. Took over and expanded the ultramarine business that would become a cornerstone of the Pechiney group. Founded the Musée Guimet in Lyon in 1879; the museum moved to Paris in 1889.",
+        "ar": "ابن جان-باتيست جيميه. تسلّم عن والده مصنع الأولترامارين وطوّره. أسّس متحف جيميه في ليون عام ١٨٧٩، ثم انتقل إلى باريس عام ١٨٨٩."
+      },
+      "articles": [234],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/%C3%89mile_Guimet" },
+        { "label": "Musée Guimet", "url": "https://www.guimet.fr/" }
+      ]
+    },
+    {
+      "slug": "guimet-jb",
+      "name": { "tr": "Jean-Baptiste Guimet", "en": "Jean-Baptiste Guimet", "ar": "جان-باتيست جيميه" },
+      "altNames": [],
+      "life": { "birth": "1795-07-20", "death": "1871-04-08", "displayTr": "1795–1871", "displayEn": "1795–1871", "displayAr": "١٧٩٥–١٨٧١" },
+      "role": {
+        "tr": "Fransız kimyager; sentetik ultramarinin bulucusu (1828)",
+        "en": "French chemist; inventor of synthetic ultramarine (1828)",
+        "ar": "كيميائي فرنسي؛ مكتشف الأولترامارين الاصطناعي (١٨٢٨)"
+      },
+      "blurb": {
+        "tr": "1828'de kaolen, kükürt, soda ve kömürü kontrollü fırın koşullarında birleştirerek sentetik ultramarin üretti ve Société d'Encouragement'in ödülünü kazandı. Lyon yakınlarında Fleurieu-sur-Saône'da kurduğu fabrika, altından daha pahalı bir pigmenti pound başına kuruşlara indirdi.",
+        "en": "In 1828 he produced synthetic ultramarine by fusing kaolin, sulphur, soda and charcoal under controlled kiln conditions, winning the Société d'Encouragement's prize. His factory at Fleurieu-sur-Saône reduced a pigment once costlier than gold to pennies per pound.",
+        "ar": "في عام ١٨٢٨، أنتج الأولترامارين الاصطناعي بدمج الكاولين والكبريت والصودا والفحم في ظروف فرنية مضبوطة، وفاز بجائزة جمعية التشجيع الفرنسية."
+      },
+      "articles": [231, 234],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Guimet" }
+      ]
+    },
+    {
+      "slug": "klein-y",
+      "name": { "tr": "Yves Klein", "en": "Yves Klein", "ar": "إيف كلاين" },
+      "altNames": [],
+      "life": { "birth": "1928-04-28", "death": "1962-06-06", "displayTr": "1928–1962", "displayEn": "1928–1962", "displayAr": "١٩٢٨–١٩٦٢" },
+      "role": {
+        "tr": "Fransız sanatçı; International Klein Blue'nun (IKB) yaratıcısı",
+        "en": "French artist; creator of International Klein Blue (IKB)",
+        "ar": "فنان فرنسي؛ مبتكر الأزرق الكلاينيّ الدولي (IKB)"
+      },
+      "blurb": {
+        "tr": "1960'ta kimyager Edouard Adam ile birlikte, pigmentin optik yoğunluğunu düşürmeyen özel bir sentetik reçine bağlayıcı geliştirdi; sonuç International Klein Blue (IKB) adıyla 1960'ta patentlendi. Modern sanatta ultramarin pigmentinin — ve onun lapis kökenli tarihinin — 20. yüzyıla uzantısıdır.",
+        "en": "In 1960, with the chemist Edouard Adam, he formulated a synthetic resin binder that preserved the pigment's optical saturation; the result was registered the same year as International Klein Blue (IKB). His monochromes are the twentieth-century extension of the ultramarine pigment.",
+        "ar": "في عام ١٩٦٠، طوّر بالتعاون مع الكيميائي إدوار آدم وسيطًا من راتنج اصطناعي يحفظ كثافة الصبغة البصرية؛ سُجّلت النتيجة في العام نفسه باسم الأزرق الكلاينيّ الدولي."
+      },
+      "articles": [234],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Yves_Klein" },
+        { "label": "Yves Klein Archives", "url": "https://www.yvesklein.com/" }
+      ]
+    },
+    {
+      "slug": "lollia-paulina",
+      "name": { "tr": "Lollia Paulina", "en": "Lollia Paulina", "ar": "لوليا بولينا" },
+      "altNames": [],
+      "life": { "birth": "c. 15 CE", "death": "c. 49 CE", "displayTr": "yak. MS 15–49", "displayEn": "c. 15–49 CE", "displayAr": "نحو ١٥–٤٩ م" },
+      "role": {
+        "tr": "Romalı aristokrat; İmparator Caligula'nın üçüncü eşi",
+        "en": "Roman aristocrat; third wife of Emperor Caligula",
+        "ar": "نبيلة رومانية؛ الزوجة الثالثة للإمبراطور كاليغولا"
+      },
+      "blurb": {
+        "tr": "Pliny Yaşlı Historia Naturalis IX.117-118'de anlatır: MS 49 civarı bir akşam yemeğine başında, boynunda, kulaklarında ve parmaklarında toplam değeri 40 milyon sestertius tutan inci ve zümrüt takarak geldi. Romalı inci ekonomisinin simgesel figürü.",
+        "en": "Pliny the Elder records in Historia Naturalis IX.117-118 that she arrived at a dinner, c. 49 CE, wearing pearls and emeralds valued at 40 million sestertii on her head, neck, ears and fingers. She is the emblematic figure of the Roman pearl economy.",
+        "ar": "يروي بليني الأكبر في التاريخ الطبيعي IX.١١٧-١١٨ أنها حضرت حفل عشاء نحو عام ٤٩ م مرتديةً لآلئ وزمردًا بقيمة ٤٠ مليون سسترسيوس. هي الشخصية الرمزية لاقتصاد اللؤلؤ الروماني."
+      },
+      "articles": [238],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Lollia_Paulina" }
+      ]
+    },
+    {
+      "slug": "mikimoto",
+      "name": { "tr": "Kōkichi Mikimoto", "en": "Kōkichi Mikimoto", "ar": "كوكيتشي ميكيموتو" },
+      "altNames": ["Mikimoto Kōkichi", "御木本 幸吉"],
+      "life": { "birth": "1858-03-10", "death": "1954-09-21", "displayTr": "1858–1954", "displayEn": "1858–1954", "displayAr": "١٨٥٨–١٩٥٤" },
+      "role": {
+        "tr": "Japon girişimci; kültür incisi endüstrisinin ticari kurucusu",
+        "en": "Japanese entrepreneur; commercial founder of the cultured pearl industry",
+        "ar": "رجل أعمال ياباني؛ المؤسس التجاري لصناعة اللؤلؤ المزروع"
+      },
+      "blurb": {
+        "tr": "Toba'lı bir erişteci oğlu. 1893'te Ise-Shima'nın Ago Körfezi'nde dünyanın ilk belgelenmiş yarı-küre kültür incisini üretti. Gerçek teknik keşif Mise Tatsuhei, Nishikawa Tōkichi ve William Saville-Kent'e aittir; Mikimoto'nun katkısı ölçek, patent savaşı ve markalaşmadır.",
+        "en": "Son of a noodle vendor in Toba. In 1893 at Ago Bay, Ise-Shima, he produced the world's first documented hemispherical cultured pearl. The actual technical breakthrough belongs to Mise Tatsuhei, Nishikawa Tōkichi and William Saville-Kent; Mikimoto's contribution was scale, the patent campaign and branding.",
+        "ar": "ابن بائع نودلز من توبا. في ١٨٩٣ في خليج آغو بإيسه-شيما، أنتج أوّل لؤلؤة نصف كروية مزروعة موثقة في العالم. أما الاختراق التقني الفعلي فيعود إلى ميزه تاتسوهي ونيشيكاوا توكيتشي وويليام سافيل-كنت."
+      },
+      "articles": [235, 237],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Kokichi_Mikimoto" },
+        { "label": "Mikimoto", "url": "https://www.mikimoto.com/" }
+      ]
+    },
+    {
+      "slug": "mise",
+      "name": { "tr": "Mise Tatsuhei", "en": "Mise Tatsuhei", "ar": "ميزه تاتسوهي" },
+      "altNames": ["見瀬 辰平"],
+      "life": { "birth": "1880", "death": "1924", "displayTr": "1880–1924", "displayEn": "1880–1924", "displayAr": "١٨٨٠–١٩٢٤" },
+      "role": {
+        "tr": "Japon marangoz; modern yuvarlak kültür incisi grafting iğnesinin patentçisi (1907)",
+        "en": "Japanese carpenter; patent-holder of the modern round-pearl grafting needle (1907)",
+        "ar": "نجار ياباني؛ صاحب براءة اختراع إبرة التطعيم الحديثة للؤلؤ المستدير (١٩٠٧)"
+      },
+      "blurb": {
+        "tr": "İnciciliğe özel bir eğitimi yoktu. Avustralya'daki atölyelerde William Saville-Kent'i gözleyerek mantle-tissue aşılama iğnesinin mekaniğini çözdü. 1907'de Japonya'da grafting iğnesi için patent başvurusu yaptı; Nishikawa Tōkichi ile uzlaşıp birleşik Mise-Nishikawa patenti altında bir anlaşmaya vardı.",
+        "en": "Had no formal training in pearl culture. By observing William Saville-Kent's workshops in Australia he reverse-engineered the mechanics of the mantle-tissue grafting needle. In 1907 he filed a Japanese patent for the needle; with Nishikawa Tōkichi they merged into the combined Mise-Nishikawa method.",
+        "ar": "لم يتلقَّ تدريبًا رسميًا في زراعة اللؤلؤ. عبر مراقبته لورش ويليام سافيل-كنت في أستراليا، أعاد هندسة آلية إبرة تطعيم نسيج الوشاح. في عام ١٩٠٧، تقدّم في اليابان ببراءة اختراع للإبرة."
+      },
+      "articles": [235],
+      "external": []
+    },
+    {
+      "slug": "nishikawa",
+      "name": { "tr": "Nishikawa Tōkichi", "en": "Nishikawa Tōkichi", "ar": "نيشيكاوا توكيتشي" },
+      "altNames": ["西川 藤吉"],
+      "life": { "birth": "1874", "death": "1909", "displayTr": "1874–1909", "displayEn": "1874–1909", "displayAr": "١٨٧٤–١٩٠٩" },
+      "role": {
+        "tr": "Japon deniz biyoloğu; Mise-Nishikawa kültür incisi yönteminin eş-bulucusu",
+        "en": "Japanese marine biologist; co-inventor of the Mise-Nishikawa pearl method",
+        "ar": "عالم أحياء بحرية ياباني؛ شريك في ابتكار طريقة ميزه-نيشيكاوا لتزريع اللؤلؤ"
+      },
+      "blurb": {
+        "tr": "Japon hükümetinin balıkçılık departmanında biyologdu; William Saville-Kent ile akademik kanallardan temas kurdu ve mantle-tissue aşılama yöntemini Japonya'ya taşıdı. Daha sonra Mikimoto'nun kızlarından biriyle evlendi; bu aile bağı 1916 lisans anlaşmasını kolaylaştırdı.",
+        "en": "A biologist in the Japanese government's fisheries department. He contacted William Saville-Kent through academic channels and carried the mantle-tissue grafting method back to Japan. He later married one of Mikimoto's daughters, a family tie that eased the 1916 licensing agreement.",
+        "ar": "عالم أحياء بحرية في إدارة المصايد الحكومية اليابانية. تواصل مع ويليام سافيل-كنت عبر القنوات الأكاديمية ونقل طريقة تطعيم نسيج الوشاح إلى اليابان."
+      },
+      "articles": [235],
+      "external": []
+    },
+    {
+      "slug": "pliny",
+      "name": { "tr": "Yaşlı Plinius", "en": "Pliny the Elder", "ar": "بليني الأكبر" },
+      "altNames": ["Gaius Plinius Secundus", "Pliny"],
+      "life": { "birth": "23 CE", "death": "79-08-24", "displayTr": "MS 23–79", "displayEn": "23–79 CE", "displayAr": "٢٣–٧٩ م" },
+      "role": {
+        "tr": "Romalı yazar ve doğa tarihçisi; Historia Naturalis'in yazarı",
+        "en": "Roman author and natural historian; author of the Naturalis Historia",
+        "ar": "مؤلف روماني وعالم تاريخ طبيعي؛ صاحب التاريخ الطبيعي"
+      },
+      "blurb": {
+        "tr": "MS 77 civarında yayımladığı Historia Naturalis'te Kitap IX'u deniz canlılarına ve özellikle inciye ayırdı; IX.106-123 bölümleri Roma dönemine ait en ayrıntılı inci kaynağıdır. Lollia Paulina'nın 40 milyon sestertiuslik gösterisini, Cleopatra-sirke anekdotunu ve Hindistan'ın yıllık 50–100 milyon sestertius çekişini de o kaydeder. MS 79 Vezüv patlamasında hayatını kaybetti.",
+        "en": "In his Naturalis Historia (c. 77 CE), Book IX is devoted to marine life and especially pearls; chapters IX.106-123 are the most detailed surviving source on the Roman pearl economy. He died in the 79 CE eruption of Vesuvius.",
+        "ar": "في كتابه التاريخ الطبيعي (نحو عام ٧٧ م)، خصّص الكتاب التاسع للحياة البحرية ولا سيّما اللآلئ؛ والفصول IX.١٠٦-١٢٣ هي أتمّ مصدر باقٍ عن اقتصاد اللؤلؤ الروماني."
+      },
+      "articles": [238, 242, 245, 246],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Pliny_the_Elder" }
+      ]
+    },
+    {
+      "slug": "saville-kent",
+      "name": { "tr": "William Saville-Kent", "en": "William Saville-Kent", "ar": "ويليام سافيل-كنت" },
+      "altNames": [],
+      "life": { "birth": "1845-07-10", "death": "1908-10-11", "displayTr": "1845–1908", "displayEn": "1845–1908", "displayAr": "١٨٤٥–١٩٠٨" },
+      "role": {
+        "tr": "İngiliz deniz biyoloğu; tam-yuvarlak kültür incisi tekniğinin asıl bulucusu",
+        "en": "British marine biologist; actual inventor of the full-round cultured pearl technique",
+        "ar": "عالم أحياء بحرية بريطاني؛ المبتكر الفعلي لتقنية اللؤلؤ المزروع كامل الاستدارة"
+      },
+      "blurb": {
+        "tr": "Queensland hükümetinin inci istridyesi danışmanı olarak çalıştı. Canlı manto epitel dokusu parçasını nükleusla birlikte istridyeye yerleştirerek tam-yuvarlak inci üretme sırrını 1890'ların sonunda çözdü. Açık bir yayın bırakmadan 1908'de öldü; tekniği, atölyelerinde çalışan Mise Tatsuhei ve Nishikawa Tōkichi'nin gözlem ve akademik kanallarıyla Japonya'ya taşındı.",
+        "en": "Worked as pearl-oyster advisor to the Queensland government. In the late 1890s he solved the secret of the full-round cultured pearl — implanting a live mantle-epithelium tissue fragment alongside the nucleus. He died in 1908 without publishing the technique openly.",
+        "ar": "عمل مستشارًا لحكومة كوينزلاند في شؤون محارات اللؤلؤ. في أواخر تسعينيات القرن التاسع عشر، حلّ سرّ اللؤلؤ المزروع كامل الاستدارة — وذلك بزرع شظية من النسيج الطلائي للوشاح الحي بجوار النواة."
+      },
+      "articles": [235],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/William_Saville-Kent" }
+      ]
+    },
+    {
+      "slug": "vermeer",
+      "name": { "tr": "Johannes Vermeer", "en": "Johannes Vermeer", "ar": "يوهانس فيرمير" },
+      "altNames": ["Jan Vermeer van Delft"],
+      "life": { "birth": "1632-10-31", "death": "1675-12-15", "displayTr": "1632–1675", "displayEn": "1632–1675", "displayAr": "١٦٣٢–١٦٧٥" },
+      "role": {
+        "tr": "Hollandalı Altın Çağ ressamı; ultramarin kullanımının ikonik figürü",
+        "en": "Dutch Golden Age painter; iconic user of ultramarine",
+        "ar": "رسّام هولندي من العصر الذهبي؛ الأيقونة في استخدام الأولترامارين"
+      },
+      "blurb": {
+        "tr": "Delft'te çalıştı; hayatı boyunca yaklaşık 35 tablo bıraktı. Lapis-kökenli ultramarin pigmentini en cömert kullanan Avrupa ressamlarından biriydi — Mavi Elbiseli Kız, Süt Çırpan Kadın, İnci Küpeli Kız gibi eserlerde pigmentin görünür varlığı tablonun ekonomik ağırlığının da kanıtıdır.",
+        "en": "Worked in Delft; his known output is about 35 paintings. He was among the Dutch masters most lavish with lapis-derived ultramarine — in works like Girl with a Pearl Earring, The Milkmaid and Woman in Blue, the pigment's visible presence is also a record of the painting's economic weight.",
+        "ar": "عمل في دلفت؛ وبلغ إنتاجه المعروف نحو ٣٥ لوحة. كان من أكثر أساتذة هولندا سخاءً في استخدام الأولترامارين المشتقّ من اللازورد."
+      },
+      "articles": [231, 233],
+      "external": [
+        { "label": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Johannes_Vermeer" },
+        { "label": "Rijksmuseum", "url": "https://www.rijksmuseum.nl/en/explore-the-collection/artists/johannes-vermeer" }
+      ]
+    }
+  ]
+}

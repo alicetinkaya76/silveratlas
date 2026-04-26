@@ -29,6 +29,7 @@ const JewelryTypeExplorer = lazy(() => import('./sections/JewelryTypeExplorer'))
 const Footer = lazy(() => import('./components/Footer'));
 const ArticleDetail = lazy(() => import('./components/ArticleDetail'));
 const ToolModal = lazy(() => import('./components/ToolModal'));
+const PersonPage = lazy(() => import('./components/PersonPage'));
 
 export default function App() {
   const navigate = useNavigate();
@@ -37,6 +38,7 @@ export default function App() {
   const { lang, setLang, cycle: cycleLang, isRTL } = useLang();
   const [menuOpen, setMenuOpen] = useState(false);
   const [article, setArticle] = useState(null);
+  const [personSlug, setPersonSlug] = useState(null);
   const [catFilter, setCatFilter] = useState(null);
   const [materialFilter, setMaterialFilter] = useState(null);
   const [jewelryTypeFilter, setJewelryTypeFilter] = useState(null);
@@ -48,21 +50,42 @@ export default function App() {
   const deferredPrompt = useRef(null);
   const skipUrlSync = useRef(false);
 
-  // ── URL → Article sync (on page load or browser back/forward) ──
+  // ── URL → Article/Person sync (on page load or browser back/forward) ──
   useEffect(() => {
-    const match = location.pathname.match(/^\/article\/(.+)$/);
-    if (match) {
-      const slug = decodeURIComponent(match[1]);
+    // Article URL: /article/<slug>
+    const articleMatch = location.pathname.match(/^\/article\/(.+)$/);
+    if (articleMatch) {
+      const slug = decodeURIComponent(articleMatch[1]);
       const found = ARTICLES.find(a => a.slug === slug);
       if (found && (!article || article.slug !== slug)) {
         skipUrlSync.current = true;
         setArticle(found);
         document.body.style.overflow = 'hidden';
       }
-    } else if (article && !skipUrlSync.current) {
+      if (personSlug) setPersonSlug(null);
+      skipUrlSync.current = false;
+      return;
+    }
+
+    // Person URL: /person/<slug>
+    const personMatch = location.pathname.match(/^\/person\/(.+)$/);
+    if (personMatch) {
+      const slug = decodeURIComponent(personMatch[1]);
+      if (personSlug !== slug) setPersonSlug(slug);
+      if (article) {
+        setArticle(null);
+        document.body.style.overflow = '';
+      }
+      skipUrlSync.current = false;
+      return;
+    }
+
+    // Home or other route: clear both
+    if (article && !skipUrlSync.current) {
       setArticle(null);
       document.body.style.overflow = '';
     }
+    if (personSlug) setPersonSlug(null);
     skipUrlSync.current = false;
   }, [location.pathname]);
 
@@ -180,6 +203,11 @@ export default function App() {
         <ArticleDetail article={article} lang={lang} onClose={closeArticle} onOpen={openArticle} />
         <ToolModal tool={activeTool} toolIndex={activeToolIdx} lang={lang} onClose={closeTool}
           onOpenArticle={(a) => { closeTool(); setTimeout(() => openArticle(a), 350); }} />
+        {personSlug && (
+          <div className="person-page-overlay" style={{position:'fixed',inset:0,background:'var(--bg,#fff)',zIndex:9999,overflow:'auto'}}>
+            <PersonPage slug={personSlug} lang={lang} onClose={() => { setPersonSlug(null); navigate('/'); }} />
+          </div>
+        )}
       </Suspense>
     </div>
   );

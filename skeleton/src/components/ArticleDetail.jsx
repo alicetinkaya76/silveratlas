@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import React, { useEffect, useRef, useMemo, useState, useCallback } from 'react';
 import { t } from '../i18n/translations';
 import { ARTICLES } from '../data/articles';
@@ -112,6 +113,7 @@ function getArticleRating(id) {
 }
 
 export default function ArticleDetail({ article, lang, onClose, onOpen }) {
+  const navigate = useNavigate();
   const scrollRef = useRef(null);
   const [progress, setProgress] = useState(0);
   const [liked, setLiked] = useState(null);
@@ -328,6 +330,22 @@ export default function ArticleDetail({ article, lang, onClose, onOpen }) {
             {cat?.[lang]} · {article.min} {t(lang, 'article.min')}
           </div>
         </div>
+
+        {/* ── Persons strip (Sprint 5.7) ── */}
+        {Array.isArray(article.persons) && article.persons.length > 0 && (
+          <div className="ad-persons">
+            <span className="ad-persons__label">
+              {lang === 'tr' && 'Bu makalede:'}
+              {lang === 'en' && 'In this article:'}
+              {lang === 'ar' && 'في هذه المقالة:'}
+            </span>
+            {article.persons.map((slug) => (
+              <button key={slug} type="button" onClick={() => { onClose && onClose(); setTimeout(() => navigate(`/person/${slug}`), 50); }} className="ad-persons__chip">
+                {slug}
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Auto TOC from h3 headings */}
         {tocEntries.length >= 3 && (

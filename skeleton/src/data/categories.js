@@ -23,10 +23,10 @@ export const CATEGORIES = [
   {id:"pirlanta-kultur",material:"diamond",i:"👑",co:"#DDD6FE",c:2,tr:"Kültür & Tarih",en:"Culture & History",ar:"الثقافة والتاريخ"},
   // ── Gemstone Categories ────────────────────────────────────
   {id:"tas-degerli",material:"gemstone",i:"❤️",co:"#E0115F",c:3,tr:"Değerli Taşlar",en:"Precious Gems",ar:"الأحجار الثمينة"},
-  {id:"tas-yari-degerli",material:"gemstone",i:"💜",co:"#9B59B6",c:20,tr:"Yarı Değerli Taşlar",en:"Semi-Precious",ar:"الأحجار شبه الكريمة"},
-  {id:"tas-organik",material:"gemstone",i:"🐚",co:"#F5CBA7",c:2,tr:"Organik Taşlar",en:"Organic Gems",ar:"الأحجار العضوية"},
+  {id:"tas-yari-degerli",material:"gemstone",i:"💜",co:"#9B59B6",c:23,tr:"Yarı Değerli Taşlar",en:"Semi-Precious",ar:"الأحجار شبه الكريمة"},
+  {id:"tas-organik",material:"gemstone",i:"🐚",co:"#F5CBA7",c:4,tr:"Organik Taşlar",en:"Organic Gems",ar:"الأحجار العضوية"},
   {id:"inci-tarih",material:"gemstone",i:"🌊",co:"#EAD9D2",c:3,tr:"İnci Tarihi",en:"Pearl History",ar:"تاريخ اللؤلؤ"},
-  {id:"inci-teknik",material:"gemstone",i:"🦪",co:"#CFD8DC",c:2,tr:"İnci Tekniği",en:"Pearl Technique",ar:"تقنية اللؤلؤ"},
+  {id:"inci-teknik",material:"gemstone",i:"🦪",co:"#CFD8DC",c:5,tr:"İnci Tekniği",en:"Pearl Technique",ar:"تقنية اللؤلؤ"},
   {id:"tas-turkiye",material:"gemstone",i:"🇹🇷",co:"#E74C3C",c:4,tr:"Türkiye Özel",en:"Turkey Special",ar:"خاص بتركيا"},
   {id:"tas-rehber",material:"gemstone",i:"📖",co:"#1ABC9C",c:4,tr:"Taş Rehberi",en:"Gem Guide",ar:"دليل الأحجار"},
   // ── Platinum & PGM Categories ─────────────────────────────

@@ -3,6 +3,12 @@ import { useScrollSpy } from '../hooks/useScrollSpy';
 import { t } from '../i18n/translations';
 import { IconMoon, IconSun } from './Icons';
 
+const KIDS_URL = import.meta.env.DEV
+  ? 'http://localhost:5173/kids/'
+  : '/kids/';
+
+const KIDS_LABEL = { tr: 'Kids', en: 'Kids', ar: 'للأطفال' };
+
 const SECTIONS = ['explore', 'articles-section', 'tools-section', 'atlas-section', 'quran-section', 'sponsor-section'];
 const NAV_KEYS = ['explore', 'articles', 'tools', 'atlas', 'quran', 'about'];
 
@@ -46,6 +52,15 @@ export default function Nav({ lang, dark, themeMode, cycleLang, toggleTheme, ope
         ))}
       </div>
       <div className="nav-right">
+        
+          href={KIDS_URL}
+          className="nav-btn nav-kids-btn"
+          aria-label="JewelPedi Kids"
+          title="JewelPedi Kids"
+        >
+          <span aria-hidden style={{ fontSize: '0.9em' }}>✨</span>
+          <span className="nav-kids-label">{KIDS_LABEL[lang] || KIDS_LABEL.en}</span>
+        </a>
         <button className="nav-btn lang-btn" onClick={cycleLang} aria-label="Change language">
           {lang.toUpperCase()}
         </button>

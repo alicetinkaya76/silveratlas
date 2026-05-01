@@ -2,6 +2,10 @@ import React, { useEffect } from 'react';
 import { t } from '../i18n/translations';
 import { IconExplore, IconArticles, IconToolsNav, IconAtlas, IconQuranNav, IconMoon, IconSun, IconSparkle, IconX } from './Icons';
 
+const KIDS_URL = import.meta.env.DEV
+  ? 'http://localhost:5173/kids/'
+  : '/kids/';
+
 const LANGS = ['tr', 'en', 'ar'];
 const LINKS = [
   { Icon: IconExplore, section: 'hero', key: 'explore' },
@@ -69,6 +73,10 @@ export default function MobileMenu({ open, close, lang, setLang, dark, themeMode
             ) : dark ? <IconMoon size={20} /> : <IconSun size={20} />}
             <span>{themeMode === 'auto' ? (lang === 'tr' ? 'Otomatik Tema' : lang === 'en' ? 'Auto Theme' : 'سمة تلقائية') : t(lang, 'menu.theme')}</span>
           </button>
+          <a href={KIDS_URL} className="mm-sponsor" onClick={close}>
+            <IconSparkle size={20} style={{ color: 'var(--silver, #C0C0C0)' }} />
+            <span>{t(lang, 'footer.kids')}</span>
+          </a>
           <a href="https://www.instagram.com/istanbulgumustr/" target="_blank" rel="noopener" className="mm-sponsor" onClick={close}>
             <IconSparkle size={20} style={{ color: 'var(--gold)' }} />
             <span>{t(lang, 'sponsor.name')}</span>

@@ -6,6 +6,12 @@ import { getToolIcon, getJewelryTypeIcon } from '../components/Icons';
 import { JEWELRY_TYPES, HERO_JEWELRY_TYPES } from '../data/categories';
 import { ARTICLES } from '../data/articles';
 
+// Cross-link to kids site. Dev: localhost:5173/kids/, prod: /kids/.
+const KIDS_URL = import.meta.env.DEV
+  ? 'http://localhost:5173/kids/'
+  : '/kids/';
+
+
 const HERO_TOOLS = [2, 32, 31, 33]; // Ring, Melt Value, Counterfeit, Gold Karat
 
 export default function Hero({ lang, onOpenTool, onSelectJewelryType }) {
@@ -181,6 +187,18 @@ export default function Hero({ lang, onOpenTool, onSelectJewelryType }) {
           </div>
         </div>
       )}
+
+      <div className="hero-kids-hint" style={{
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        gap: 8, marginTop: 28, fontSize: '0.85rem', opacity: 0.7,
+      }}>
+        <span aria-hidden style={{ fontSize: '1.1em' }}>✨</span>
+        <a href={KIDS_URL} style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px dashed currentColor', paddingBottom: 1 }}>
+          {lang === 'tr' ? '7–14 yaş için: JewelPedi Kids Bilim Merkezi →'
+            : lang === 'ar' ? '← مركز العلوم لجواهر بيدي · للأعمار ٧-١٤'
+            : 'Ages 7–14: JewelPedi Kids Science Center →'}
+        </a>
+      </div>
 
       <div className="scroll-indicator" aria-hidden="true">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">

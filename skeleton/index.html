@@ -54,6 +54,26 @@ body{margin:0;background:#08080d;color:#e4e4e7;font-family:'Source Sans 3',syste
 <body>
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
-<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js').catch(()=>{})})}</script>
+<!-- Sprint 7 (Mayıs 2026): silveratlas PWA emekli edildi.
+     Eski ziyaretçilerin tarayıcısındaki kayıtlı SW'yi ve cache'leri temizler.
+     1-2 hafta sonra bu blok kaldırılabilir. -->
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(regs => {
+    regs.forEach(reg => {
+      if (!reg.scope.includes('/kids/')) {
+        reg.unregister();
+      }
+    });
+  }).catch(() => {});
+  if ('caches' in window) {
+    caches.keys().then(keys => {
+      keys.forEach(key => {
+        if (key.startsWith('jewelpedi-')) caches.delete(key);
+      });
+    }).catch(() => {});
+  }
+}
+</script>
 </body>
 </html>

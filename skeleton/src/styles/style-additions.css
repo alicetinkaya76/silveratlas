@@ -390,3 +390,56 @@
 .person-page__article-link:hover {
   color: var(--accent, #4338ca);
 }
+
+/* ═══ Sprint 7.5 — Top nav Kids cross-link button ═══════════════════════ */
+/* Distinct from other .nav-btn icon-squares: wider with label, gold tint. */
+
+.nav-kids-btn {
+  /* Override default 42x42 square — kids has label, needs horizontal room */
+  width: auto !important;
+  padding: 0 14px !important;
+  height: 36px !important;
+  gap: 6px;
+  border: 1px solid color-mix(in srgb, var(--gold) 40%, transparent);
+  background: color-mix(in srgb, var(--gold) 8%, transparent) !important;
+  color: var(--gold);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.nav-kids-btn:hover {
+  background: color-mix(in srgb, var(--gold) 18%, transparent) !important;
+  border-color: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--gold) 25%, transparent);
+}
+
+.nav-kids-btn:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.nav-kids-label {
+  /* Hidden on narrow viewports; only the sparkle icon remains */
+}
+
+/* Mobile: hide label, keep only the ✨ icon to save horizontal space */
+@media (max-width: 640px) {
+  .nav-kids-btn {
+    padding: 0 10px !important;
+  }
+  .nav-kids-label {
+    display: none;
+  }
+}
+
+/* Tablet: slightly tighter padding */
+@media (max-width: 900px) and (min-width: 641px) {
+  .nav-kids-btn {
+    padding: 0 10px !important;
+    font-size: 0.78rem;
+  }
+}

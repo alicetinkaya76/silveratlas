@@ -52,7 +52,7 @@ export default function Nav({ lang, dark, themeMode, cycleLang, toggleTheme, ope
         ))}
       </div>
       <div className="nav-right">
-        
+        <a
           href={KIDS_URL}
           className="nav-btn nav-kids-btn"
           aria-label="JewelPedi Kids"

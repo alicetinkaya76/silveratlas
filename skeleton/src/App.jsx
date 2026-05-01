@@ -80,6 +80,48 @@ export default function App() {
       return;
     }
 
+    // Category URL: /category/<slug>
+    const catMatch = location.pathname.match(/^\/category\/(.+)$/);
+    if (catMatch) {
+      const slug = decodeURIComponent(catMatch[1]);
+      if (catFilter !== slug) setCatFilter(slug);
+      if (article) { setArticle(null); document.body.style.overflow = ''; }
+      if (personSlug) setPersonSlug(null);
+      setTimeout(() => {
+        document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+      skipUrlSync.current = false;
+      return;
+    }
+
+    // Material URL: /material/<slug>
+    const matMatch = location.pathname.match(/^\/material\/(.+)$/);
+    if (matMatch) {
+      const slug = decodeURIComponent(matMatch[1]);
+      if (materialFilter !== slug) setMaterialFilter(slug);
+      if (article) { setArticle(null); document.body.style.overflow = ''; }
+      if (personSlug) setPersonSlug(null);
+      setTimeout(() => {
+        document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+      skipUrlSync.current = false;
+      return;
+    }
+
+    // JewelryType URL: /jewelry/<slug>
+    const jewelryMatch = location.pathname.match(/^\/jewelry\/(.+)$/);
+    if (jewelryMatch) {
+      const slug = decodeURIComponent(jewelryMatch[1]);
+      if (jewelryTypeFilter !== slug) setJewelryTypeFilter(slug);
+      if (article) { setArticle(null); document.body.style.overflow = ''; }
+      if (personSlug) setPersonSlug(null);
+      setTimeout(() => {
+        document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+      skipUrlSync.current = false;
+      return;
+    }
+
     // Home or other route: clear both
     if (article && !skipUrlSync.current) {
       setArticle(null);
@@ -132,17 +174,21 @@ export default function App() {
   const filterCat = useCallback((catId, material) => {
     setCatFilter(catId);
     if (material) setMaterialFilter(material);
+    skipUrlSync.current = true;
+    if (catId) navigate(`/category/${catId}`);
     document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
+  }, [navigate]);
   const selectJewelryType = useCallback((typeId) => {
     setJewelryTypeFilter(typeId);
     // When user picks a jewelry type from Hero, reset any competing narrow filters
     // (category) but keep material — so "Ring" under "Silver tab" still works.
     setCatFilter(null);
+    skipUrlSync.current = true;
+    if (typeId) navigate(`/jewelry/${typeId}`);
     setTimeout(() => {
       document.getElementById('articles-section')?.scrollIntoView({ behavior: 'smooth' });
     }, 60);
-  }, []);
+  }, [navigate]);
 
   return (
     <div dir={isRTL ? 'rtl' : 'ltr'}>

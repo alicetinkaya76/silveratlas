@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -14,25 +15,80 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (with kids submodule)
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 1
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: |
+            skeleton/package-lock.json
+            kids/package-lock.json
 
-      - name: Install and Build
+      # ── Silveratlas (main site) ─────────────────────────────────────────
+      - name: Install silveratlas dependencies
+        working-directory: ./skeleton
+        run: npm ci
+
+      - name: Build silveratlas
+        working-directory: ./skeleton
+        run: npm run build
+
+      - name: Stage silveratlas to deploy/
         run: |
-          cd skeleton
-          npm install
-          npm run build
+          mkdir -p deploy
+          cp -r skeleton/dist/. deploy/
+
+      # ── Kids (subpath /kids/) ───────────────────────────────────────────
+      - name: Install kids dependencies
+        working-directory: ./kids
+        run: npm ci
+
+      - name: Build kids
+        working-directory: ./kids
+        run: npm run build
+
+      - name: Stage kids to deploy/kids/
+        run: |
+          mkdir -p deploy/kids
+          cp -r kids/dist/. deploy/kids/
+
+      # ── SPA fallback — GitHub Pages 404 → query-param redirect ──────────
+      - name: Add 404 fallback (SPA deep-link redirect)
+        run: |
+          cat > deploy/404.html <<'HTML_END'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <title>Redirecting…</title>
+            <script>
+              (function () {
+                var path = window.location.pathname;
+                var search = window.location.search;
+                var hash = window.location.hash;
+                if (path.indexOf('/kids/') === 0) {
+                  var trimmed = path.replace(/^\/kids/, '') || '/';
+                  window.location.replace('/kids/?p=' + encodeURIComponent(trimmed) + (search ? '&' + search.slice(1) : '') + hash);
+                } else {
+                  window.location.replace('/?p=' + encodeURIComponent(path) + (search ? '&' + search.slice(1) : '') + hash);
+                }
+              })();
+            </script>
+          </head>
+          <body>
+            <p>Redirecting…</p>
+          </body>
+          </html>
+          HTML_END
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -40,8 +96,15 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'skeleton/dist'
+          path: 'deploy'
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

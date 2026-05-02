@@ -1,0 +1,3 @@
+[submodule "kids"]
+	path = kids
+	url = https://github.com/alicetinkaya76/jewelpedi-kids.git

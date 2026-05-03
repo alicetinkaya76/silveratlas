@@ -5,7 +5,7 @@ import { IconMoon, IconSun } from './Icons';
 
 const KIDS_URL = import.meta.env.DEV
   ? 'http://localhost:5173/kids/'
-  : '/kids/';
+  : `${import.meta.env.BASE_URL}kids/`;
 
 const KIDS_LABEL = { tr: 'Kids', en: 'Kids', ar: 'للأطفال' };
 

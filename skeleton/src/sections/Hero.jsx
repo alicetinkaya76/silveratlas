@@ -9,7 +9,7 @@ import { ARTICLES } from '../data/articles';
 // Cross-link to kids site. Dev: localhost:5173/kids/, prod: /kids/.
 const KIDS_URL = import.meta.env.DEV
   ? 'http://localhost:5173/kids/'
-  : '/kids/';
+  : `${import.meta.env.BASE_URL}kids/`;
 
 
 const HERO_TOOLS = [2, 32, 31, 33]; // Ring, Melt Value, Counterfeit, Gold Karat

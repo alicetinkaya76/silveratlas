@@ -4,7 +4,7 @@ import { IconExplore, IconArticles, IconToolsNav, IconAtlas, IconQuranNav, IconM
 
 const KIDS_URL = import.meta.env.DEV
   ? 'http://localhost:5173/kids/'
-  : '/kids/';
+  : `${import.meta.env.BASE_URL}kids/`;
 
 const LANGS = ['tr', 'en', 'ar'];
 const LINKS = [

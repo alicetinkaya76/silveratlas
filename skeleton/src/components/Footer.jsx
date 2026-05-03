@@ -5,7 +5,7 @@ import { t } from '../i18n/translations';
 // Prod: served from same domain at /kids/.
 const KIDS_URL = import.meta.env.DEV
   ? 'http://localhost:5173/kids/'
-  : '/kids/';
+  : `${import.meta.env.BASE_URL}kids/`;
 
 export default function Footer({ lang }) {
   return (

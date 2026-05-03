@@ -50,6 +50,17 @@ export default function App() {
   const deferredPrompt = useRef(null);
   const skipUrlSync = useRef(false);
 
+  // ── ?p handler — SPA fallback redirect from 404.html ──
+  // GitHub Pages hits unknown deep links (/silveratlas/article/foo etc.) with 404.html,
+  // which redirects to /silveratlas/?p=/article/foo. Here we read p and navigate.
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const redirectPath = params.get('p');
+    if (redirectPath) {
+      navigate(redirectPath, { replace: true });
+    }
+  }, []); // Run once on mount only
+
   // ── URL → Article/Person sync (on page load or browser back/forward) ──
   useEffect(() => {
     // Article URL: /article/<slug>
